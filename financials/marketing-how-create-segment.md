@@ -12,28 +12,28 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0175eb12f30ce2e509b743c93b711ef8197549c6
 ms.contentlocale: it-ch
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="how-to-create-segments"></a><span data-ttu-id="d5443-103">Procedura: creare segmenti</span><span class="sxs-lookup"><span data-stu-id="d5443-103">How to: Create Segments</span></span>
-<span data-ttu-id="d5443-104">È possibile creare segmenti per selezionare un gruppo di contatti, ad esempio se si desidera creare un'interazione in cui siano coinvolti più contatti (invio di messaggi di posta diretti).</span><span class="sxs-lookup"><span data-stu-id="d5443-104">You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.</span></span>
+# <a name="how-to-create-segments"></a><span data-ttu-id="c7a68-103">Procedura: creare segmenti</span><span class="sxs-lookup"><span data-stu-id="c7a68-103">How to: Create Segments</span></span>
+<span data-ttu-id="c7a68-104">È possibile creare segmenti per selezionare un gruppo di contatti, ad esempio se si desidera creare un'interazione in cui siano coinvolti più contatti (invio di messaggi di posta diretti).</span><span class="sxs-lookup"><span data-stu-id="c7a68-104">You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.</span></span>
 
-## <a name="to-create-a-segment"></a><span data-ttu-id="d5443-105">Per creare un segmento</span><span class="sxs-lookup"><span data-stu-id="d5443-105">To create a segment</span></span>
-1. <span data-ttu-id="d5443-106">Nella home page scegliere **Segmenti attivi**.</span><span class="sxs-lookup"><span data-stu-id="d5443-106">On the Home page, choose **Active Segments**.</span></span> <span data-ttu-id="d5443-107">In alternativa, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Segmenti**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="d5443-107">Or, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.</span></span>
-2. <span data-ttu-id="d5443-108">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="d5443-108">Choose the **New** action.</span></span>
-3. <span data-ttu-id="d5443-109">Nella sezione **Generale** nel campo **Nr.**</span><span class="sxs-lookup"><span data-stu-id="d5443-109">In the **General** section, in the **No.**</span></span> <span data-ttu-id="d5443-110">inserire un numero per il segmento.</span><span class="sxs-lookup"><span data-stu-id="d5443-110">field, enter a number for the segment.</span></span>
+## <a name="to-create-a-segment"></a><span data-ttu-id="c7a68-105">Per creare un segmento</span><span class="sxs-lookup"><span data-stu-id="c7a68-105">To create a segment</span></span>
+1. <span data-ttu-id="c7a68-106">Nella home page scegliere **Segmenti attivi**.</span><span class="sxs-lookup"><span data-stu-id="c7a68-106">On the Home page, choose **Active Segments**.</span></span> <span data-ttu-id="c7a68-107">In alternativa, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Segmenti**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="c7a68-107">Or, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.</span></span>
+2. <span data-ttu-id="c7a68-108">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="c7a68-108">Choose the **New** action.</span></span>
+3. <span data-ttu-id="c7a68-109">Nella sezione **Generale** nel campo **Nr.**</span><span class="sxs-lookup"><span data-stu-id="c7a68-109">In the **General** section, in the **No.**</span></span> <span data-ttu-id="c7a68-110">inserire un numero per il segmento.</span><span class="sxs-lookup"><span data-stu-id="c7a68-110">field, enter a number for the segment.</span></span>
 
-    <span data-ttu-id="d5443-111">In alternativa, se è stata impostata una numerazione per i segmenti nella finestra **Setup marketing**, è possibile premere INVIO per selezionare automaticamente il successivo numero di segmento disponibile.</span><span class="sxs-lookup"><span data-stu-id="d5443-111">Alternatively, if you have set up number series for segments in the **Marketing Setup** window, you can press Enter to select the next available segment number.</span></span>
-4. <span data-ttu-id="d5443-112">Compilare gli altri campi sulla testata.</span><span class="sxs-lookup"><span data-stu-id="d5443-112">Fill in the other fields on the header.</span></span>
+    <span data-ttu-id="c7a68-111">In alternativa, se è stata impostata una numerazione per i segmenti nella finestra **Setup marketing**, è possibile premere INVIO per selezionare automaticamente il successivo numero di segmento disponibile.</span><span class="sxs-lookup"><span data-stu-id="c7a68-111">Alternatively, if you have set up number series for segments in the **Marketing Setup** window, you can press Enter to select the next available segment number.</span></span>
+4. <span data-ttu-id="c7a68-112">Compilare gli altri campi sulla testata.</span><span class="sxs-lookup"><span data-stu-id="c7a68-112">Fill in the other fields on the header.</span></span>
 
-<span data-ttu-id="d5443-113">A questo punto è possibile aggiungere i contatti al segmento.</span><span class="sxs-lookup"><span data-stu-id="d5443-113">You can now add contacts to the segment.</span></span> <span data-ttu-id="d5443-114">Per ulteriori informazioni, vedere [Procedura: aggiungere contatti ai segmenti](marketing-add-contact-segment.md).</span><span class="sxs-lookup"><span data-stu-id="d5443-114">For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).</span></span>
+<span data-ttu-id="c7a68-113">A questo punto è possibile aggiungere i contatti al segmento.</span><span class="sxs-lookup"><span data-stu-id="c7a68-113">You can now add contacts to the segment.</span></span> <span data-ttu-id="c7a68-114">Per ulteriori informazioni, vedere [Procedura: aggiungere contatti ai segmenti](marketing-add-contact-segment.md).</span><span class="sxs-lookup"><span data-stu-id="c7a68-114">For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d5443-115">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="d5443-115">See Also</span></span>
-[<span data-ttu-id="d5443-116">Gestione dei segmenti</span><span class="sxs-lookup"><span data-stu-id="d5443-116">Managing Segments</span></span>](marketing-segments.md)  
-[<span data-ttu-id="d5443-117">Gestione delle opportunità di vendita</span><span class="sxs-lookup"><span data-stu-id="d5443-117">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
-<span data-ttu-id="d5443-118">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d5443-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="c7a68-115">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="c7a68-115">See Also</span></span>
+[<span data-ttu-id="c7a68-116">Gestione dei segmenti</span><span class="sxs-lookup"><span data-stu-id="c7a68-116">Managing Segments</span></span>](marketing-segments.md)  
+[<span data-ttu-id="c7a68-117">Gestione delle opportunità di vendita</span><span class="sxs-lookup"><span data-stu-id="c7a68-117">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+<span data-ttu-id="c7a68-118">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c7a68-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

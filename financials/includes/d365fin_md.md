@@ -1,1 +1,1 @@
-Financials
+<span data-ttu-id="632da-101">Financials</span><span class="sxs-lookup"><span data-stu-id="632da-101">Financials</span></span>

@@ -1,8 +1,6 @@
 ---
-title: Aprire un nuovo anno fiscale| Documenti Microsoft
+title: Creare periodi contabili e anni fiscali | Microsoft Docs
 description: "Prima di effettuare registrazioni in un anno fiscale è necessario aprirlo e definirne i periodi contabili."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,31 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 06/02/2017
+ms.date: 07/17/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c653a43329f95c817560c5888fb282e64b57ba24
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1ae20c24b4a75a897a1bc7bc7f34898539a75449
 ms.contentlocale: it-ch
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="how-to-open-a-new-fiscal-year"></a><span data-ttu-id="bf087-103">Procedura: aprire un nuovo anno fiscale</span><span class="sxs-lookup"><span data-stu-id="bf087-103">How to: Open a New Fiscal Year</span></span>
-<span data-ttu-id="bf087-104">Prima di effettuare registrazioni in un anno fiscale è necessario aprirlo e definirne i periodi contabili.</span><span class="sxs-lookup"><span data-stu-id="bf087-104">Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.</span></span>
+# <a name="how-to-open-a-new-fiscal-year-and-create-accounting-periods"></a><span data-ttu-id="c78f2-103">Procedura: Aprire un nuovo anno fiscale e creare i periodi contabili</span><span class="sxs-lookup"><span data-stu-id="c78f2-103">How to: Open a New Fiscal Year and Create Accounting Periods</span></span>
+<span data-ttu-id="c78f2-104">Prima di effettuare registrazioni in un anno fiscale è necessario aprirlo e definirne i periodi contabili.</span><span class="sxs-lookup"><span data-stu-id="c78f2-104">Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.</span></span>  
 
-## <a name="to-open-a-new-fiscal-year"></a><span data-ttu-id="bf087-105">Per aprire un nuovo anno fiscale</span><span class="sxs-lookup"><span data-stu-id="bf087-105">To open a new fiscal year</span></span>
-1. <span data-ttu-id="bf087-106">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Periodi contabili**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="bf087-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>
-2. <span data-ttu-id="bf087-107">Nella finestra **Periodi contabili** scegliere l'azione **Crea anno nuovo**.</span><span class="sxs-lookup"><span data-stu-id="bf087-107">In the **Accounting Periods** window, choose the **Create Year** action.</span></span>
-3. <span data-ttu-id="bf087-108">Impostare i campi per definire la struttura dell'anno fiscale.</span><span class="sxs-lookup"><span data-stu-id="bf087-108">Fill in the fields to define the structure of the fiscal year.</span></span>
+<span data-ttu-id="c78f2-105">Per molte società l'anno fiscale non coincide con l'anno del calendario.</span><span class="sxs-lookup"><span data-stu-id="c78f2-105">For many companies, the fiscal year does not coincide with the calendar year.</span></span> <span data-ttu-id="c78f2-106">I periodi fiscali possono essere misurati in altre unità di tempo, ad esempio i mesi o i trimestri.</span><span class="sxs-lookup"><span data-stu-id="c78f2-106">Fiscal periods can be measured in other units of time, such as months or quarters.</span></span> <span data-ttu-id="c78f2-107">È possibile utilizzare la finestra **Crea anno fiscale** per impostare i periodi contabili adatti alle esigenze dell'azienda.</span><span class="sxs-lookup"><span data-stu-id="c78f2-107">You can use the **Create Fiscal Year** window to set up the accounting periods that suit your business needs.</span></span> <span data-ttu-id="c78f2-108">Tuttavia</span><span class="sxs-lookup"><span data-stu-id="c78f2-108">However,</span></span>   
 
-    <span data-ttu-id="bf087-109">In genere l'anno fiscale è costituito da 12 periodi, ognuno della durata di un mese, ma può essere suddiviso in altri modi.</span><span class="sxs-lookup"><span data-stu-id="bf087-109">The fiscal year is typically 12 periods of one month each, but you can also divide it in other ways.</span></span>
-4. <span data-ttu-id="bf087-110">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="bf087-110">Choose the **OK** button.</span></span>
+## <a name="to-open-a-new-fiscal-year"></a><span data-ttu-id="c78f2-109">Per aprire un nuovo anno fiscale</span><span class="sxs-lookup"><span data-stu-id="c78f2-109">To open a new fiscal year</span></span>
+1. <span data-ttu-id="c78f2-110">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Periodi contabili**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="c78f2-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>
+2. <span data-ttu-id="c78f2-111">Nella finestra **Periodi contabili** scegliere l'azione **Crea anno nuovo**.</span><span class="sxs-lookup"><span data-stu-id="c78f2-111">In the **Accounting Periods** window, choose the **Create Year** action.</span></span>
+3. <span data-ttu-id="c78f2-112">Impostare i campi per definire la struttura dell'anno fiscale.</span><span class="sxs-lookup"><span data-stu-id="c78f2-112">Fill in the fields to define the structure of the fiscal year.</span></span>
 
-<span data-ttu-id="bf087-111">I periodi contabili vengono aggiunte alla pagina.</span><span class="sxs-lookup"><span data-stu-id="bf087-111">The accounting periods are added to the page.</span></span> <span data-ttu-id="bf087-112">Vengono compilati i campi **Data inizio** e **Nome**.</span><span class="sxs-lookup"><span data-stu-id="bf087-112">The **Starting Date** and **Name** fields are filled in.</span></span> <span data-ttu-id="bf087-113">Il campo **Nome** usa il nome del mese dalla data di inizio.</span><span class="sxs-lookup"><span data-stu-id="bf087-113">The **Name** field uses the name of the month from the starting date.</span></span> <span data-ttu-id="bf087-114">Dopo l'ultimo periodo dell'anno fiscale, viene inserito un periodo contabile e il campo **Nuovo anno fiscale** è selezionato.</span><span class="sxs-lookup"><span data-stu-id="bf087-114">After the last period in the fiscal year, an accounting period is inserted and the **New Fiscal Year** check box is selected.</span></span>
+    <span data-ttu-id="c78f2-113">In genere l'anno fiscale è costituito da 12 periodi, ognuno della durata di un mese, ma può essere suddiviso in altri modi.</span><span class="sxs-lookup"><span data-stu-id="c78f2-113">The fiscal year is typically 12 periods of one month each, but you can also divide it in other ways.</span></span>
+4. <span data-ttu-id="c78f2-114">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="c78f2-114">Choose the **OK** button.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="bf087-115">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="bf087-115">See Also</span></span>
-[<span data-ttu-id="bf087-116">Procedura: Specificare i periodi di registrazione</span><span class="sxs-lookup"><span data-stu-id="bf087-116">How to: Specify Posting Periods</span></span>](finance-how-specify-posting-periods.md)  
-[<span data-ttu-id="bf087-117">Procedura: Registrare il movimento di chiusura di fine anno</span><span class="sxs-lookup"><span data-stu-id="bf087-117">How to: Post the Year-End Closing Entry</span></span>](year-how-post-year-end-close-entry.md)  
-[<span data-ttu-id="bf087-118">Finanze</span><span class="sxs-lookup"><span data-stu-id="bf087-118">Finance</span></span>](finance.md)  
-<span data-ttu-id="bf087-119">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bf087-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+<span data-ttu-id="c78f2-115">I periodi contabili vengono aggiunti alla pagina con i campi **Data inizio** e **Nome** compilati.</span><span class="sxs-lookup"><span data-stu-id="c78f2-115">The accounting periods are added to the page with the **Starting Date** and **Name** fields filled in.</span></span> <span data-ttu-id="c78f2-116">I nomi di default sono basati sul nome del mese della data di inizio, ma è possibile modificare il nome.</span><span class="sxs-lookup"><span data-stu-id="c78f2-116">The default names are based on the name of the month from the starting date, but you can change the name.</span></span> <span data-ttu-id="c78f2-117">Dopo l'ultimo periodo dell'anno fiscale, viene inserito un periodo contabile aggiuntivo con la casella di controllo **Nuovo anno fiscale** selezionata.</span><span class="sxs-lookup"><span data-stu-id="c78f2-117">After the last period in the fiscal year, an additional accounting period is inserted with the **New Fiscal Year** check box selected.</span></span>  
+
+
+## <a name="see-also"></a><span data-ttu-id="c78f2-118">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="c78f2-118">See Also</span></span>
+[<span data-ttu-id="c78f2-119">Procedura: Specificare i periodi di registrazione</span><span class="sxs-lookup"><span data-stu-id="c78f2-119">How to: Specify Posting Periods</span></span>](finance-how-specify-posting-periods.md)  
+[<span data-ttu-id="c78f2-120">Procedura: registrare il movimento di chiusura di fine anno</span><span class="sxs-lookup"><span data-stu-id="c78f2-120">How to: Post the Year-End Closing Entry</span></span>](year-how-post-year-end-close-entry.md)  
+[<span data-ttu-id="c78f2-121">Finanze</span><span class="sxs-lookup"><span data-stu-id="c78f2-121">Finance</span></span>](finance.md)  
+<span data-ttu-id="c78f2-122">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c78f2-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
