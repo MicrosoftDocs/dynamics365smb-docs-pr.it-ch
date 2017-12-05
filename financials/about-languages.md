@@ -1,6 +1,7 @@
 ---
 title: Vedere il contenuto in altre lingue | Microsoft Docs
-description: "È possibile visualizzare il contenuto della Guida di Dynamics 365 for Financials in altre lingue."
+description: "È possibile visualizzare il contenuto della Guida di Microsoft Dynamics 365 Business edition in altre lingue."
+documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,22 +11,22 @@ ms.workload: na
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: aa426b3d963bbe02c3100ad6ab4aca61f2fb4c20
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 581591949fdfe314ef73ec98eb482dba6d13bf87
 ms.contentlocale: it-ch
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="languages-of-the-included365finincludesd365finmdmd-docs"></a><span data-ttu-id="974a9-103">Lingue della documentazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="974a9-103">Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Docs</span></span>
-<span data-ttu-id="974a9-104">Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[d365fin](includes/d365fin_md.md)] è pubblicato nel sito Microsoft Docs ed è disponibile in varie lingue.</span><span class="sxs-lookup"><span data-stu-id="974a9-104">The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages.</span></span> <span data-ttu-id="974a9-105">Se si accede ai documenti dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], il contenuto verrà visualizzato nella lingua in uso.</span><span class="sxs-lookup"><span data-stu-id="974a9-105">If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language.</span></span> <span data-ttu-id="974a9-106">Se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.</span><span class="sxs-lookup"><span data-stu-id="974a9-106">If a particular page is not available in your language yet, it will be shown in English.</span></span>
+# <a name="languages-of-the-included365finincludesd365finmdmd-docs"></a><span data-ttu-id="1cad0-103">Lingue della documentazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="1cad0-103">Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Docs</span></span>
+<span data-ttu-id="1cad0-104">Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[d365fin](includes/d365fin_md.md)] è pubblicato nel sito Microsoft Docs ed è disponibile in varie lingue.</span><span class="sxs-lookup"><span data-stu-id="1cad0-104">The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages.</span></span> <span data-ttu-id="1cad0-105">Se si accede ai documenti dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], il contenuto verrà visualizzato nella lingua in uso.</span><span class="sxs-lookup"><span data-stu-id="1cad0-105">If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language.</span></span> <span data-ttu-id="1cad0-106">Se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.</span><span class="sxs-lookup"><span data-stu-id="1cad0-106">If a particular page is not available in your language yet, it will be shown in English.</span></span>
 
-## <a name="how-do-i-change-the-language"></a><span data-ttu-id="974a9-107">Come si cambia la lingua?</span><span class="sxs-lookup"><span data-stu-id="974a9-107">How Do I Change the Language?</span></span>
-<span data-ttu-id="974a9-108">È semplice. Basta scorrere in fondo alla finestra del browser e scegliere il simbolo del globo nell'angolo inferiore sinistro.</span><span class="sxs-lookup"><span data-stu-id="974a9-108">It's simple - scroll to the bottom of the browser window and choose the globe symbol in the bottom left corner.</span></span>
+## <a name="how-do-i-change-the-language"></a><span data-ttu-id="1cad0-107">Come si cambia la lingua?</span><span class="sxs-lookup"><span data-stu-id="1cad0-107">How Do I Change the Language?</span></span>
+<span data-ttu-id="1cad0-108">È semplice. Basta scorrere in fondo alla finestra del browser e scegliere il simbolo del globo nell'angolo inferiore sinistro.</span><span class="sxs-lookup"><span data-stu-id="1cad0-108">It's simple - scroll to the bottom of the browser window and choose the globe symbol in the bottom left corner.</span></span>
 
 > [!NOTE]  
-> <span data-ttu-id="974a9-109">Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs.</span><span class="sxs-lookup"><span data-stu-id="974a9-109">The list shows all languages that are supported by the Microsoft Docs site.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="974a9-110"> è disponibile in un numero limitato di paesi, ma il contenuto della Guida è disponibile in più lingue.</span><span class="sxs-lookup"><span data-stu-id="974a9-110"> is available in a limited number of countries/regions, but the Help content is made available in more languages.</span></span> <span data-ttu-id="974a9-111">Il contenuto della Guida non è tuttavia disponibile in tutte le lingue supportate dal sito Microsoft Docs.</span><span class="sxs-lookup"><span data-stu-id="974a9-111">However, the Help content is not available in all languages that the Microsoft Docs site supports.</span></span>
+> <span data-ttu-id="1cad0-109">Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs.</span><span class="sxs-lookup"><span data-stu-id="1cad0-109">The list shows all languages that are supported by the Microsoft Docs site.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1cad0-110"> è disponibile in un numero limitato di paesi, ma il contenuto della Guida è disponibile in più lingue.</span><span class="sxs-lookup"><span data-stu-id="1cad0-110"> is available in a limited number of countries/regions, but the Help content is made available in more languages.</span></span> <span data-ttu-id="1cad0-111">Il contenuto della Guida non è tuttavia disponibile in tutte le lingue supportate dal sito Microsoft Docs.</span><span class="sxs-lookup"><span data-stu-id="1cad0-111">However, the Help content is not available in all languages that the Microsoft Docs site supports.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="974a9-112">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="974a9-112">See Also</span></span>
-[<span data-ttu-id="974a9-113">Lingua e impostazioni locali</span><span class="sxs-lookup"><span data-stu-id="974a9-113">Language and Locale</span></span>](about-locale-language.md)  
-<span data-ttu-id="974a9-114">[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="974a9-114">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="1cad0-112">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="1cad0-112">See Also</span></span>
+[<span data-ttu-id="1cad0-113">Lingua e impostazioni locali</span><span class="sxs-lookup"><span data-stu-id="1cad0-113">Language and Locale</span></span>](about-locale-language.md)  
+<span data-ttu-id="1cad0-114">[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="1cad0-114">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
 
