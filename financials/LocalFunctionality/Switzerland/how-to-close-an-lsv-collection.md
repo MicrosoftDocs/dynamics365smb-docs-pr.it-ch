@@ -26,17 +26,17 @@ Quando la riscossione è completata, il numero di riscossione corrente viene ass
 
 ## <a name="to-close-an-lsv-collection"></a>Per chiudere una riscossione LSV  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Lista registrazioni LSV**, quindi scegliere il collegamento correlato.  
-2.  Selezionare la riga delle registrazioni richiesta e scegliere l'azione **Modifica data di registrazione**. In questo modo verrà modificato il valore nel campo **Data movimento Avere** usando il valore suggerito durante la riscossione LSV.  
-3.  Nel campo **Nuova data** immettere la nuova data.  
-4.  Scegliere l'azione **Chiudi riscossione**.  
+1. Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Lista registrazioni LSV**, quindi scegliere il collegamento correlato.  
+2. Selezionare la riga delle registrazioni richiesta e scegliere l'azione **Modifica data di registrazione**. In questo modo verrà modificato il valore nel campo **Data movimento Avere** usando il valore suggerito durante la riscossione LSV.  
+3. Nel campo **Nuova data** immettere la nuova data.  
+4. Scegliere l'azione **Chiudi riscossione**.  
 
-    > [!NOTE]  
-    >  I campi nella Scheda dettaglio **Opzioni** per il processo batch **Chiudi riscossione LSV** non possono essere modificati e corrispondono alla riga di registrazioni selezionata.  
+   > [!NOTE]  
+   >  I campi nella Scheda dettaglio **Opzioni** per il processo batch **Chiudi riscossione LSV** non possono essere modificati e corrispondono alla riga di registrazioni selezionata.  
 
-5.  Scegliere il pulsante **OK**.  
+5. Scegliere il pulsante **OK**.  
 
-    Nella finestra **Lista registrazioni LSV** il valore del campo **Stato LSV** viene modificato da **Modifica** a **Rilasciato**. Le righe di registrazioni non possono più essere modificate.  
+   Nella finestra **Lista registrazioni LSV** il valore del campo **Stato LSV** viene modificato da **Modifica** a **Rilasciato**. Le righe di registrazioni non possono più essere modificate.  
 
 ## <a name="to-reopen-an-lsv-collection"></a>Per riaprire una riscossione LSV  
 
