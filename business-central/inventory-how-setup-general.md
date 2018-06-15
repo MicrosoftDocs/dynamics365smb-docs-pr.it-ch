@@ -13,25 +13,25 @@ ms.search.keywords: warehouse, stock
 ms.date: 08/23/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 293db25c6ab3ea2a70d9bb1d3e24383dbc0ee5c6
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: ae4695029c3bcb125b533cf4ad089f791ff80680
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
-# <a name="set-up-general-inventory-information"></a><span data-ttu-id="357a2-103">Impostare le informazioni generali di magazzino</span><span class="sxs-lookup"><span data-stu-id="357a2-103">Set Up General Inventory Information</span></span>
-<span data-ttu-id="357a2-104">Le impostazioni generali di magazzino vengono impostate nella finestra **Setup magazzino**.</span><span class="sxs-lookup"><span data-stu-id="357a2-104">You specify your general inventory setup in the **Inventory Setup** window.</span></span>
+# <a name="set-up-general-inventory-information"></a><span data-ttu-id="3872f-103">Impostare le informazioni generali di magazzino</span><span class="sxs-lookup"><span data-stu-id="3872f-103">Set Up General Inventory Information</span></span>
+<span data-ttu-id="3872f-104">Le impostazioni generali di magazzino vengono impostate nella finestra **Setup magazzino**.</span><span class="sxs-lookup"><span data-stu-id="3872f-104">You specify your general inventory setup in the **Inventory Setup** window.</span></span>
 
-## <a name="to-set-up-general-inventory-information"></a><span data-ttu-id="357a2-105">Per impostare le informazioni generali di magazzino</span><span class="sxs-lookup"><span data-stu-id="357a2-105">To set up general inventory information</span></span>
-1. <span data-ttu-id="357a2-106">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup magazzino**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="357a2-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="357a2-107">Nella finestra **Setup magazzino** compilare i campi secondo le necessità.</span><span class="sxs-lookup"><span data-stu-id="357a2-107">In the **Inventory Setup** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-general-inventory-information"></a><span data-ttu-id="3872f-105">Per impostare le informazioni generali di magazzino</span><span class="sxs-lookup"><span data-stu-id="3872f-105">To set up general inventory information</span></span>
+1. <span data-ttu-id="3872f-106">Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Setup magazzino**, quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="3872f-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3872f-107">Nella finestra **Setup magazzino** compilare i campi secondo le necessità.</span><span class="sxs-lookup"><span data-stu-id="3872f-107">In the **Inventory Setup** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-<span data-ttu-id="357a2-108">Se si desidera includere il tempo di gestione della warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default nella finestra **Setup magazzino** per il magazzino e per l'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="357a2-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, in the **Inventory Setup** window, and for your location.</span></span> <span data-ttu-id="357a2-109">Per ulteriori informazioni, vedere [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="357a2-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>  
+<span data-ttu-id="3872f-108">Se si desidera includere il tempo di gestione della warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default nella finestra **Setup magazzino** per il magazzino e per l'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="3872f-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, in the **Inventory Setup** window, and for your location.</span></span> <span data-ttu-id="3872f-109">Per ulteriori informazioni, vedere [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="3872f-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="357a2-110">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="357a2-110">See Also</span></span>
-[<span data-ttu-id="357a2-111">Setup magazzino</span><span class="sxs-lookup"><span data-stu-id="357a2-111">Set Up Inventory</span></span>](inventory-setup-inventory.md)  
-[<span data-ttu-id="357a2-112">Gestire i costi del magazzino</span><span class="sxs-lookup"><span data-stu-id="357a2-112">Manage Inventory</span></span>](inventory-manage-inventory.md)  
-<span data-ttu-id="357a2-113">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="357a2-113">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-<span data-ttu-id="357a2-114">[Personalizzazione dell'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="357a2-114">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>  
-[<span data-ttu-id="357a2-115">Funzionalità aziendali generali</span><span class="sxs-lookup"><span data-stu-id="357a2-115">General Business Functionality</span></span>](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="3872f-110">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="3872f-110">See Also</span></span>
+[<span data-ttu-id="3872f-111">Setup magazzino</span><span class="sxs-lookup"><span data-stu-id="3872f-111">Set Up Inventory</span></span>](inventory-setup-inventory.md)  
+[<span data-ttu-id="3872f-112">Gestire i costi del magazzino</span><span class="sxs-lookup"><span data-stu-id="3872f-112">Manage Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="3872f-113">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3872f-113">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="3872f-114">Modifica delle funzionalità visualizzate</span><span class="sxs-lookup"><span data-stu-id="3872f-114">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
+[<span data-ttu-id="3872f-115">Funzionalità aziendali generali</span><span class="sxs-lookup"><span data-stu-id="3872f-115">General Business Functionality</span></span>](ui-across-business-areas.md)
 
