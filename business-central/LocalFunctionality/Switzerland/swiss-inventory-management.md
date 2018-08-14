@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 03/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 179edd19498543844a4760c57cd71bdab6948e41
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 5daae157434867c07bac55310ac1b24ea34df06c
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="swiss-inventory-management"></a>Gestione del magazzino per la Svizzera
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
 
 - Dichiarazione dettagliata.  Per ulteriori informazioni vedere il report Magazzino - Statistiche di vendita e il report Magazzino - Lista.  
 - La capacità di monitorare una fattura con più spedizioni.  
-- L'inclusione di un codice ubicazione scheda articolo come il codice ubicazione predefinito per le righe di vendita e le registrazioni articoli. Per ulteriori informazioni, vedere [Impostare le ubicazioni](../../inventory-how-setup-locations.md). 
+- L'inclusione di un codice ubicazione scheda articolo come il codice ubicazione predefinito per le righe di vendita e le registrazioni articoli. Per ulteriori informazioni, vedere [Impostare le ubicazioni](../../inventory-how-setup-locations.md).
 
 ## <a name="managing-item-details"></a>Gestione dettagli articolo  
 Le aziende possono disporre di magazzini diversi per categorie di prodotti diversi. In questi casi, è necessario utilizzare il codice ubicazione predefinito recuperato dalla scheda articolo. Quando si definisce un codice ubicazione per un articolo, questo viene trasferito nelle righe di vendita e nelle registrazioni articoli come codice di ubicazione articoli predefinito. Per ulteriori informazioni, vedere le tabelle Righe vendite e Righe reg. magazzino.  
@@ -35,7 +35,6 @@ Ulteriori informazioni, come il numero cliente, il codice dell'indirizzo di sped
 Se sono state registrate più spedizioni per un cliente, è possibile creare una fattura combinata con la funzione **Prendi righe di spedizione**. Per ulteriori informazioni, vedere la finestra Prendi righe di spedizione. Quando si utilizza questa funzione, il testo creato nelle righe della fattura include informazioni sul numero di spedizione e sulla data di spedizione. Ad esempio, il testo potrebbe essere Nr. spedizione 102040 di 25.01.01. Ciò consente di tracciare facilmente le fatture con più spedizioni.  
 
 ## <a name="see-also"></a>Vedi anche  
- [Bloccare gli articoli in magazzino per le vendite o gli acquisti](how-to-block-inventory-items-for-sales-or-purchases.md)   
  [Copiare articoli esistenti in nuovi articoli](how-to-copy-existing-items-to-new-items.md)   
  [Disattivare la tracciabilità dei costi articolo](how-to-deactivate-item-cost-tracking.md)   
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   

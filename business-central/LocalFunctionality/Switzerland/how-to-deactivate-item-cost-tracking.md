@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f618203725ec854f3a66ef2501b16613a0394bd6
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: abf481ae651863e5ec290aacb58684980c31edbe
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="deactivate-item-cost-tracking"></a>Disattivare la tracciabilità dei costi articolo
@@ -38,6 +38,5 @@ Quando le scorte per un articolo non sono tracciate, non è necessario tenere tr
 4.  Scegliere il pulsante **OK**.  
 
 ## <a name="see-also"></a>Vedi anche  
- [Gestione del magazzino per la Svizzera](swiss-inventory-management.md)   
- [Bloccare gli articoli in magazzino per le vendite o gli acquisti](how-to-block-inventory-items-for-sales-or-purchases.md)
+ [Gestione del magazzino per la Svizzera](swiss-inventory-management.md)
 
