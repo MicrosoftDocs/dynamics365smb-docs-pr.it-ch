@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b2879f3b913ddc554cbbbe49fedd3bc1434b0ad
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 355a4578b5260fd3dc72ed065cb7b795768e07ae
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a><span data-ttu-id="2332a-103">Documenti di acquisto e di vendita per la Svizzera</span><span class="sxs-lookup"><span data-stu-id="2332a-103">Swiss Purchase Documents and Sales Documents</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="2332a-104"> include miglioramenti svizzeri per documenti di vendita e documenti di acquisto.</span><span class="sxs-lookup"><span data-stu-id="2332a-104"> includes Swiss enhancements to purchase documents and sales documents.</span></span> <span data-ttu-id="2332a-105">È incluso quanto segue:</span><span class="sxs-lookup"><span data-stu-id="2332a-105">This includes the following:</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="2332a-104">include miglioramenti svizzeri per documenti di vendita e documenti di acquisto.</span><span class="sxs-lookup"><span data-stu-id="2332a-104"> includes Swiss enhancements to purchase documents and sales documents.</span></span> <span data-ttu-id="2332a-105">È incluso quanto segue:</span><span class="sxs-lookup"><span data-stu-id="2332a-105">This includes the following:</span></span>  
 
 - <span data-ttu-id="2332a-106">Descrizioni di registrazione avanzata per i movimenti di contabilità generale, i movimenti contabili clienti e i movimenti contabili fornitori.</span><span class="sxs-lookup"><span data-stu-id="2332a-106">Enhanced posting descriptions for general ledger entries, customer ledger entries, and vendor ledger entries.</span></span> <span data-ttu-id="2332a-107">Per ulteriori informazioni, vedere la tabella Movimenti C/G, Mov. contabili clienti e Mov. contabili fornitori.</span><span class="sxs-lookup"><span data-stu-id="2332a-107">For more information, see the G/L Entry table, the Cust. Ledger Entry table, and the Vendor Ledger Entry table.</span></span>  
 - <span data-ttu-id="2332a-108">La capacità di avere sottotitoli, subtotali e totali iniziali e finali nelle offerte di vendita e negli ordini di vendita.</span><span class="sxs-lookup"><span data-stu-id="2332a-108">The ability to have subtitles, subtotals, and begin and end totals in sales quotes and sales orders.</span></span>  

@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 32128cab221db491731ba66a53a56635e5dc00ee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 282f9c9b2245b8d989eed7a564b8bddff2234c1d
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-electronic-payments"></a><span data-ttu-id="722dc-104">Pagamenti elettronici svizzeri</span><span class="sxs-lookup"><span data-stu-id="722dc-104">Swiss Electronic Payments</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="722dc-105"> consente di inviare le fatture ai clienti elettronicamente.</span><span class="sxs-lookup"><span data-stu-id="722dc-105"> allows you to send invoices to customers electronically.</span></span> <span data-ttu-id="722dc-106">Le fatture vengono presentate e pagate direttamente utilizzando il software bancario online del cliente.</span><span class="sxs-lookup"><span data-stu-id="722dc-106">The invoices are presented and paid directly using the customer's online banking software.</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="722dc-105">consente di inviare le fatture ai clienti elettronicamente.</span><span class="sxs-lookup"><span data-stu-id="722dc-105"> allows you to send invoices to customers electronically.</span></span> <span data-ttu-id="722dc-106">Le fatture vengono presentate e pagate direttamente utilizzando il software bancario online del cliente.</span><span class="sxs-lookup"><span data-stu-id="722dc-106">The invoices are presented and paid directly using the customer's online banking software.</span></span>  
 
 ## <a name="electronic-payment-methods"></a><span data-ttu-id="722dc-107">Metodi di pagamento elettronico</span><span class="sxs-lookup"><span data-stu-id="722dc-107">Electronic Payment Methods</span></span>  
 <span data-ttu-id="722dc-108">È possibile effettuare pagamenti elettronici utilizzando i seguenti metodi:</span><span class="sxs-lookup"><span data-stu-id="722dc-108">You can make electronic payments using the following methods:</span></span>  

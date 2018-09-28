@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a4b9e8d032e95327f1457ec9695df855e175b9a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7b2634ba14ec0429ebc24bcf59f6d9cedeba7754
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delivery-reminders"></a><span data-ttu-id="e60c7-103">Solleciti consegna</span><span class="sxs-lookup"><span data-stu-id="e60c7-103">Delivery Reminders</span></span>
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="e60c7-128">È possibile anche tracciare i documenti in relazione alle righe degli ordini di vendita e di acquisto.</span><span class="sxs-lookup"><span data-stu-id="e60c7-128">You can also track documents in relation to purchase order lines and sales order lines.</span></span>  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="e60c7-129"> fornisce i seguenti report:</span><span class="sxs-lookup"><span data-stu-id="e60c7-129"> provides the following reports:</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="e60c7-129">fornisce i seguenti report:</span><span class="sxs-lookup"><span data-stu-id="e60c7-129"> provides the following reports:</span></span>  
 
 - <span data-ttu-id="e60c7-130">**Sollecito di consegna inviato** - Per visualizzare i solleciti di consegna per i fornitori.</span><span class="sxs-lookup"><span data-stu-id="e60c7-130">**Issued Delivery Reminder** - To view the delivery reminders for vendors.</span></span>  
 - <span data-ttu-id="e60c7-131">**Sollecito di consegna - Test** - Per verificare i solleciti di consegna prima dell'invio.</span><span class="sxs-lookup"><span data-stu-id="e60c7-131">**Delivery Reminder - Test** - To verify the delivery reminders before you issue them.</span></span>  
