@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a961328485d1b66c0ec539d715f6b373b3a8aaec
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cb399bc04180c0eeed678d2e291778d12457d785
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adjust-exchange-rates"></a>Rettifica tassi di cambio
@@ -29,7 +29,7 @@ Se tali tassi non corrispondono ai tassi di valuta usati nelle fatture di acquis
 > [!NOTE]  
 >  Quando si usa una valuta contabile, verificare che il campo **Rettif. tasso di cambio IVA** nella finestra **Setup contabilità generale** sia impostato su **Nessuna rettifica**.  
 
-Per ulteriori informazioni sulla valute IVA ed estere, vedere il sito Web [ESTV](http://go.microsoft.com/fwlink/?LinkId=285999).  
+Per ulteriori informazioni sulla valute IVA ed estere, vedere il sito Web [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999).  
 
 ## <a name="to-adjust-an-exchange-rate"></a>Per rettificare un tasso di cambio  
 

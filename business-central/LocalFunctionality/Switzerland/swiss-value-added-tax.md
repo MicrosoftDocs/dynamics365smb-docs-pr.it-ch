@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 55d9dbfac8cabefacffa8edd6203cc812f2debee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 66ac3a70ee4f40ab1b4c86afcc8ad28357c7a543
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-value-added-tax"></a>IVA svizzera
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 - Rettifica automatica degli importi IVA per fatture, in base agli sconti di pagamento.  
 - Tassi di cambio IVA aggiuntivi per le fatture in valute estere.  
 
-Per ulteriori informazioni sui requisiti svizzeri di dichiarazione e codifica IVA, vedere [Informazioni sull'IVA svizzera](http://www.estv.admin.ch/mwst/dokumentation/00130/00947/00948/index.html?lang=fr) e in particolare il documento 605.525.01. Le informazioni sono disponibili in francese, tedesco e italiano.  
+Per ulteriori informazioni sui requisiti di codifica a reporting dell'IVA svizzera, vedi [Informazioni sull'IVA svizzera](https://www.estv.admin.ch/estv/en/home.html). Le informazioni sono disponibili in francese, tedesco e italiano.  
 
 ## <a name="vat-amounts-and-vat-exchange-rates"></a>Importi IVA e tassi di cambio IVA  
 Secondo le leggi locali dell'IVA, l'importo base dell'IVA per una fattura può essere ridotto dello sconto di pagamento se viene concesso uno sconto. Per consentire la rettifica automatica dell'IVA per uno sconto di pagamento su una fattura, il campo **Rettifica per sconto pagamento** viene attivato per impostazione predefinita nella finestra **Setup contabilità generale**. È anche possibile attivare questa funzione nel setup registrazioni IVA. Per ulteriori informazioni, vedere la tabella Setup contabilità generale e Setup registrazioni IVA.  

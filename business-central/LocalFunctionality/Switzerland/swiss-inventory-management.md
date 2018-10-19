@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 5daae157434867c07bac55310ac1b24ea34df06c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 012c7c54f1e29b91409dcce92f059c88b55e2e53
 ms.contentlocale: it-ch
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="swiss-inventory-management"></a>Gestione del magazzino per la Svizzera
@@ -35,8 +35,7 @@ Ulteriori informazioni, come il numero cliente, il codice dell'indirizzo di sped
 Se sono state registrate più spedizioni per un cliente, è possibile creare una fattura combinata con la funzione **Prendi righe di spedizione**. Per ulteriori informazioni, vedere la finestra Prendi righe di spedizione. Quando si utilizza questa funzione, il testo creato nelle righe della fattura include informazioni sul numero di spedizione e sulla data di spedizione. Ad esempio, il testo potrebbe essere Nr. spedizione 102040 di 25.01.01. Ciò consente di tracciare facilmente le fatture con più spedizioni.  
 
 ## <a name="see-also"></a>Vedi anche  
- [Copiare articoli esistenti in nuovi articoli](how-to-copy-existing-items-to-new-items.md)   
- [Disattivare la tracciabilità dei costi articolo](how-to-deactivate-item-cost-tracking.md)   
+ [Copiare articoli esistenti in nuovi articoli](how-to-copy-existing-items-to-new-items.md)  
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
  [Impostare le ubicazioni](../../inventory-how-setup-locations.md)
 
