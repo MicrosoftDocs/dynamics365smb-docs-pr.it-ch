@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 26fa934e00b380b7416417f2a1d37e7bde4a5098
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7646d77b5e266e58f9022f4cf9e7130e7dd0559
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-lsv-payments"></a>Registrare pagamenti LSV+
@@ -28,19 +28,19 @@ ms.lasthandoff: 03/22/2018
 2.  Selezionare le registrazioni richieste, quindi scegliere l'azione **Modifica registrazioni**.  
 
     > [!NOTE]  
-    >  È possibile selezionare il batch registrazioni per LSV in cui è definito il conto di contropartita da considerare. Non è possibile importare più di una riga delle registrazioni LSV nelle stesse registrazioni incassi. Per ulteriori informazioni, vedere la finestra Registrazioni incassi.  
+    >  È possibile selezionare il batch registrazioni per LSV in cui è definito il conto di contropartita da considerare. Non è possibile importare più di una riga delle registrazioni LSV nelle stesse registrazioni incassi. Per ulteriori informazioni, vedere la pagina Registrazioni incassi.  
 
 3.  Scegliere l'azione **Recupera da registrazioni LSV**.  
-4.  Nella finestra **Lista registrazioni LSV** selezionare la riga di registrazioni LSV da importare nelle registrazioni incassi.  
+4.  Nella pagina **Lista registrazioni LSV** selezionare la riga di registrazioni LSV da importare nelle registrazioni incassi.  
 
     > [!NOTE]  
     >  È possibile importare solo righe di registrazioni in cui il campo **Stato LSV** è impostato su **File creato**.  
 
 5.  Scegliere il pulsante **OK**.  
 
-    La riga delle registrazioni LSV viene importata nelle registrazioni incassi. Il valore del campo **Stato LSV** nella finestra **Lista registrazioni LSV** viene modificato da **File creato** a **Completato**.  
+    La riga delle registrazioni LSV viene importata nelle registrazioni incassi. Il valore del campo **Stato LSV** nella pagina **Lista registrazioni LSV** viene modificato da **File creato** a **Completato**.  
 
-    È possibile verificare i pagamenti importati e confrontarli con l'avviso di pagamento bancario nella finestra **Registrazioni incassi**. È anche possibile eliminare le righe di pagamento che la banca non ha potuto elaborare e per cui è necessario contattare direttamente il cliente.  
+    È possibile verificare i pagamenti importati e confrontarli con l'avviso di pagamento bancario nella pagina **Registrazioni incassi**. È anche possibile eliminare le righe di pagamento che la banca non ha potuto elaborare e per cui è necessario contattare direttamente il cliente.  
 
 6.  Scegliere l'azione **Registra**.  
 

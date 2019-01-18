@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6ddda815d211440dfd18982bcec5b8ae15aafc4c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: db6b7ce34061ff8cb7c657549ea65afa93976ede
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Impostare i termini, i livelli e i testi di sollecito di consegna
@@ -46,7 +46,7 @@ Per ulteriori informazioni, vedere [Solleciti di consegna](delivery-reminders.md
 
 ## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>Per aggiungere livelli di sollecito di consegna a un termine di sollecito di consegna  
 
-1.  Nella finestra **Termini di sollecito di consegna** selezionare il termine di sollecito di consegna per cui si desidera impostare i livelli e scegliere l'azione **Livelli**.  
+1.  Nella pagina **Termini di sollecito di consegna** selezionare il termine di sollecito di consegna per cui si desidera impostare i livelli e scegliere l'azione **Livelli**.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 
@@ -63,7 +63,7 @@ La procedura seguente descrive come impostare i messaggi di testo iniziali, ma g
 
 ## <a name="to-set-up-delivery-reminder-text-messages"></a>Per impostare i messaggi di testo di sollecito di consegna  
 
-1.  Nella finestra **Livelli del sollecito di consegna** selezionare un livello e scegliere l'azione **Testo iniziale**.  
+1.  Nella pagina **Livelli del sollecito di consegna** selezionare un livello e scegliere l'azione **Testo iniziale**.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Descrizione** inserire il messaggio di testo iniziale per il sollecito di consegna.  
 4.  Scegliere il pulsante **OK**.  

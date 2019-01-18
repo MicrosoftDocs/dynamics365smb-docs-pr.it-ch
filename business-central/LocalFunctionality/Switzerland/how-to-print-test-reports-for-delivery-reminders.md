@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d589c05f4b9805e9c8459d2da6d9099e40186aec
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e83d3d039af77772626b75052acb17abf4fb3dd7
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-test-reports-for-delivery-reminders"></a>Stampare report di test per i solleciti di consegna
@@ -27,8 +27,8 @@ Un report di test è un documento che consente di esaminare e modificare un soll
 ## <a name="to-print-test-reports-before-issuing-delivery-reminders"></a>Per stampare report di test prima di emettere solleciti di consegna  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Sollecito di consegna**, quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Lista solleciti di consegna**, selezionare l'azione **Sollecito di consegna - Test**.  
-3.  Nella finestra **Sollecito di consegna - Test** impostare un filtro se si desidera stampare solo solleciti di consegna selezionati.  
+2.  Nella pagina **Lista solleciti di consegna**, selezionare l'azione **Sollecito di consegna - Test**.  
+3.  Nella pagina **Sollecito di consegna - Test** impostare un filtro se si desidera stampare solo solleciti di consegna selezionati.  
 4.  Scegliere **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
 ## <a name="see-also"></a>Vedi anche  

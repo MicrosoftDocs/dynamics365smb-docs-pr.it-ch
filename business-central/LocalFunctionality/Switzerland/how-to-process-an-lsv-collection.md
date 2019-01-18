@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f68c2c4b2b3747d341e7d99372b2e8f056a06bf1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f447e0c20081cf64709e14cbe524d80fd8075b1c
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-an-lsv-collection"></a>Elaborare una riscossione LSV
-Utilizzare **Registrazioni LSV** per creare ed elaborare i pagamenti di clienti Lastschrift Verfahren (LSV+). È possibile registrare questi pagamenti nella registrazione incassi, creare un file LSV e stampare il RIBA. Per ulteriori informazioni, vedere la finestra Registrazioni incassi e [Esportare pagamenti tramite LSV](how-to-export-payments-using-lsv.md).  
+Utilizzare **Registrazioni LSV** per creare ed elaborare i pagamenti di clienti Lastschrift Verfahren (LSV+). È possibile registrare questi pagamenti nella registrazione incassi, creare un file LSV e stampare il RIBA. Per ulteriori informazioni, vedere la pagina Registrazioni incassi e [Esportare pagamenti tramite LSV](how-to-export-payments-using-lsv.md).  
 
 Quando si esegue il processo batch **Riscossione suggerimenti LSV**, ogni riscossione suggerita viene registrata nella riga registrazioni LSV e le fatture aperte vengono trasferite nelle registrazioni LSV. Per ulteriori informazioni, vedere la tabella Registrazioni LSV.  
 
@@ -30,7 +30,7 @@ Quando si esegue il processo batch **Riscossione suggerimenti LSV**, ogni riscos
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Lista registrazioni LSV**, quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
-3.  Nella finestra **Lista registrazioni LSV** compilare i campi obbligatori come indicato nella tabella riportata di seguito.  
+3.  Nella pagina **Lista registrazioni LSV** compilare i campi obbligatori come indicato nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
@@ -38,7 +38,7 @@ Quando si esegue il processo batch **Riscossione suggerimenti LSV**, ogni riscos
     |**Descrizione Registro LSV**|Immettere una descrizione per il movimento.|
 
 4.  Selezionare il movimento registrazioni LSV e scegliere l'azione **Riscossione suggerimenti LSV** per creare i pagamenti da riscuotere automaticamente da LSV+.  
-5.  Nella finestra **Riscossione suggerimenti LSV**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
+5.  Nella pagina **Riscossione suggerimenti LSV**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
@@ -49,13 +49,13 @@ Quando si esegue il processo batch **Riscossione suggerimenti LSV**, ogni riscos
 
 6.  Scegliere il pulsante **OK**.  
 
-Tutte le righe correlate vengono trasferite alle registrazioni LSV. Dopo aver elaborato la riscossione LSV, è possibile visualizzare, controllare o modificare i pagamenti suggeriti nella finestra **Registrazioni LSV**. Per ulteriori informazioni, vedere la tabella Riga delle registrazioni LSV.  
+Tutte le righe correlate vengono trasferite alle registrazioni LSV. Dopo aver elaborato la riscossione LSV, è possibile visualizzare, controllare o modificare i pagamenti suggeriti nella pagina **Registrazioni LSV**. Per ulteriori informazioni, vedere la tabella Riga delle registrazioni LSV.  
 
 ## <a name="to-manage-suggested-payments"></a>Per gestire i pagamenti suggeriti  
 
-1.  Nella finestra **Lista registrazioni LSV**, selezionare il movimento registrazioni richiesto e scegliere l'azione **Riga delle registrazioni LSV**.  
+1.  Nella pagina **Lista registrazioni LSV**, selezionare il movimento registrazioni richiesto e scegliere l'azione **Riga delle registrazioni LSV**.  
 
-    È possibile visualizzare e modificare i pagamenti suggeriti in questa finestra. È possibile inserire manualmente i pagamenti richiesti. Perle righe registrazioni nuove, il campo **Stato LSV** è impostato su **Aperto** per indicare che la fattura non è pagata.  
+    È possibile visualizzare e modificare i pagamenti suggeriti in questa pagina. È possibile inserire manualmente i pagamenti richiesti. Perle righe registrazioni nuove, il campo **Stato LSV** è impostato su **Aperto** per indicare che la fattura non è pagata.  
 
 3.  Scegliere il pulsante **OK**.  
 

@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 59636dee92735f519b54f46c02ff72a1d306f48c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c2a2f686741ef0a7fd5cec1c51eecf092f99006
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="issue-delivery-reminders"></a>Emettere solleciti di consegna
 Dopo aver creato i solleciti di consegna, è necessario rilasciarli e stamparli in modo da poter inviare i solleciti ai fornitori. È possibile stampare un report di test prima di rilasciare i solleciti di consegna. Per ulteriori informazioni, vedere [Stampare report di test per i solleciti di consegna](how-to-print-test-reports-for-delivery-reminders.md).  
 
-Quando si rilasciano i solleciti di consegna, vengono creati movimenti contabili sollecito di consegna. È possibile visualizzare i movimenti contabili creati nella finestra **Movimenti contabili sollecito di consegna**.  
+Quando si rilasciano i solleciti di consegna, vengono creati movimenti contabili sollecito di consegna. È possibile visualizzare i movimenti contabili creati nella pagina **Movimenti contabili sollecito di consegna**.  
 
 ## <a name="to-issue-delivery-reminders"></a>Per emettere solleciti di consegna  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Sollecito di consegna**, quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Sollecito di consegna**, selezionare il sollecito di consegna da rilasciare quindi selezionare l'azione **Modifica**.  
+2.  Nella pagina **Sollecito di consegna**, selezionare il sollecito di consegna da rilasciare quindi selezionare l'azione **Modifica**.  
 3.  Scegliere l'azione **Emetti**.  
-4.  Nella Scheda dettaglio **Opzioni** della finestra **Emettere sollecito di consegna** compilare i campi come descritto nella tabella seguente.  
+4.  Nella Scheda dettaglio **Opzioni** della pagina **Emettere sollecito di consegna** compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
@@ -44,7 +44,7 @@ Quando si rilasciano i solleciti di consegna, vengono creati movimenti contabili
 
 6.  Scegliere il pulsante **OK**.  
 
-È possibile visualizzare il solleciti di consegna nella finestra **Sollecito di consegna inviato**. Facoltativamente è possibile stampare un sollecito di consegna.  
+È possibile visualizzare il solleciti di consegna nella pagina **Sollecito di consegna inviato**. Facoltativamente è possibile stampare un sollecito di consegna.  
 
 ## <a name="to-view-delivery-reminder-ledger-entries"></a>Per visualizzare i movimenti contabili solleciti di consegna  
 
@@ -52,7 +52,7 @@ Quando si rilasciano i solleciti di consegna, vengono creati movimenti contabili
 2.  Selezionare l'ordine di acquisto per cui si desidera visualizzare lo stato del sollecito, quindi scegliere l'azione **Modifica**.  
 3.  Scegliere l'azione **Movimenti contabili sollecito di consegna**.  
 
-Nella finestra Movimenti contabili sollecito di consegna, è possibile visualizzare i movimenti contabili sollecito di consegna per l'ordine di acquisto selezionato.  
+Nella pagina Movimenti contabili sollecito di consegna, è possibile visualizzare i movimenti contabili sollecito di consegna per l'ordine di acquisto selezionato.  
 
 ## <a name="see-also"></a>Vedi anche  
  [Solleciti consegna](delivery-reminders.md)   

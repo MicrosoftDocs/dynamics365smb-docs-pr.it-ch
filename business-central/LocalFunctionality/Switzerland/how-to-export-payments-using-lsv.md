@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1456847f19b72636cfb95e1e66cca1091959cc07
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 753b1fb7dcade062228e1d14d5bb9a19ffd0703a
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-payments-using-lsv"></a>Esportare pagamenti tramite LSV
@@ -25,9 +25,9 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-export-payments-using-lsv"></a>Per esportare pagamenti tramite LSV  
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Lista registrazioni LSV**, quindi scegliere il collegamento correlato.  
-2.  Nella finestra **Lista registrazioni LSV** selezionare le registrazioni LSV desiderate.  
+2.  Nella pagina **Lista registrazioni LSV** selezionare le registrazioni LSV desiderate.  
 3.  Scegliere l'azione **Scrivi file LSV**.  
-4.  Nella finestra **Scrivi file LSV**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
+4.  Nella pagina **Scrivi file LSV**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  

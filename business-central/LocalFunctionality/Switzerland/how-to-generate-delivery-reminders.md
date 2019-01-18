@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5fd75cb7d8b80e19ad63b2ef5bd3bbdae2904324
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 837703e370c5520b5173ad32e69fbd77a3918810
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="generate-delivery-reminders"></a>Generare solleciti di consegna
@@ -29,7 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile creare sollec
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Sollecito di consegna**, quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
-3.  Nella finestra **Sollecito di consegna**, selezionare l'azione **Crea sollecito di consegna**.  
+3.  Nella pagina **Sollecito di consegna**, selezionare l'azione **Crea sollecito di consegna**.  
 4.  Nelle Schede dettaglio **Testate acquisti** e **Righe acquisto** selezionare i filtri appropriati.  
 5.  Scegliere il pulsante **OK**.  
 

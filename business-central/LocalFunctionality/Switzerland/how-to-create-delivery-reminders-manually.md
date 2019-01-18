@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a041c22f158121a553ce47197bab4337fbd47d38
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 47f646f21495951f1eb7382fb91e4b69e9dd6129
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-delivery-reminders-manually"></a>Creare solleciti di consegna manualmente
@@ -29,7 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile creare sollec
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Sollecito di consegna**, quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
-3.  Nella Scheda dettaglio **Generale** della finestra **Sollecito di consegna** compilare i campi come descritto nella tabella seguente.  
+3.  Nella Scheda dettaglio **Generale** della pagina **Sollecito di consegna** compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  

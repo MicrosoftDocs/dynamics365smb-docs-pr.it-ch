@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3fa93b91455615c586b969334d321dfcffeadf91
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9b3bdba62eae9a95152da2dada7ed5b70ce974e8
 ms.contentlocale: it-ch
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-swiss-post-codes"></a>Importare codici postali svizzeri
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/28/2018
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Codici postali** e quindi scegliere il collegamento correlato.  
 2.  Selezionare l'azione **Importa codici postali**.  
-3.  Nella finestra **Importa codici postali** nel campo **Nome file** immettere il nome del file di codice postale da importare nella tabella **CAP**.  
+3.  Nella pagina **Importa codici postali** nel campo **Nome file** immettere il nome del file di codice postale da importare nella tabella **CAP**.  
 4.  Scegliere il pulsante **OK**.  
 
     Le informazioni più recenti sui codici postali vengono importate.  
@@ -37,7 +37,7 @@ Di seguito viene descritto come definire i codici postali per i clienti, ma gli 
 
 1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Clienti**, quindi scegliere il collegamento correlato.  
 2.  Selezionare il cliente per cui definire un codice postale, quindi scegliere l'azione **Modifica**.  
-3.  Nella Scheda dettaglio **Generale** della finestra **Scheda cliente**, nel campo **CAP** selezionare il codice postale per l'indirizzo del cliente.  
+3.  Nella Scheda dettaglio **Generale** della pagina **Scheda cliente**, nel campo **CAP** selezionare il codice postale per l'indirizzo del cliente.  
 
     > [!NOTE]  
     >  Una volta selezionato il codice postale, i campi **Città** e **Codice paese** vengono popolati automaticamente con le informazioni della tabella **CAP**. Per ulteriori informazioni, vedere [Registrare nuovi clienti](../../sales-how-register-new-customers.md).  

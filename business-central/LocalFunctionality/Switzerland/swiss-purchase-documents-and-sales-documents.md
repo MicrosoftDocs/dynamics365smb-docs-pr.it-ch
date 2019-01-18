@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b2879f3b913ddc554cbbbe49fedd3bc1434b0ad
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b51837e01f65241433272a3349ff3e771f593251
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documenti di acquisto e di vendita per la Svizzera
@@ -41,7 +41,7 @@ Specificare un articolo come variante nella riga dell'offerta di vendita. In tal
 Per le fatture di acquisto e le fatture di vendita, l'importo della fattura viene ridotto per l'importo dello sconto e quindi arrotondato. Anche il totale della fattura viene arrotondato se c'è uno sconto. Per ulteriori informazioni, vedere la tabella Setup contabilità generale.  
 
 ## <a name="shipment-documents"></a>Documenti di spedizione  
-Nella finestra **Setup contabilità clienti e vendite**, il campo **Spedizione e fattura** viene utilizzato per disattivare la stampa di documenti di spedizione aggiuntivi per fatture di acquisto e le fatture di vendita. Quando si registra un ordine, vengono automaticamente create una spedizione registrata e una fattura registrata. Se la fattura stampata viene anche utilizzata come documento di spedizione, non è necessario stampare la documentazione di spedizione aggiuntiva. È possibile disattivare la stampa dei documenti di spedizione aggiuntivi per le fatture di acquisto e le fatture di vendita deselezionando il campo **Spedizione e fattura** nella finestra **Setup contabilità clienti**. Per ulteriori informazioni, vedere la tabella Setup contabilità clienti.  
+Nella pagina **Setup contabilità clienti e vendite**, il campo **Spedizione e fattura** viene utilizzato per disattivare la stampa di documenti di spedizione aggiuntivi per fatture di acquisto e le fatture di vendita. Quando si registra un ordine, vengono automaticamente create una spedizione registrata e una fattura registrata. Se la fattura stampata viene anche utilizzata come documento di spedizione, non è necessario stampare la documentazione di spedizione aggiuntiva. È possibile disattivare la stampa dei documenti di spedizione aggiuntivi per le fatture di acquisto e le fatture di vendita deselezionando il campo **Spedizione e fattura** nella pagina **Setup contabilità clienti**. Per ulteriori informazioni, vedere la tabella Setup contabilità clienti.  
 
 ## <a name="see-also"></a>Vedi anche  
  [Importare codici postali svizzeri](how-to-import-swiss-post-codes.md)   

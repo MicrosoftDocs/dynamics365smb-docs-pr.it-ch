@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cda530f1b731937c44c615cc3e0dd739c4a76754
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9f345827f1cc705727f80d21a00839f221044059
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-esr-invoices"></a>Stampare fatture ESR
@@ -40,7 +40,7 @@ La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli s
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Nr di copie**|Immettere il numero richiesto di copie del report.|  
-    |**Banca ESR**|Selezionare il codice bancario ESR da stampare nel report.<br /><br /> Se il valore in questo campo è <Blank> e il codice del metodo di pagamento ESF non è definito nella finestra **Setup ESR**, verrà stampata la banca principale ESR selezionata nella finestra **Setup ESR**.|  
+    |**Banca ESR**|Selezionare il codice bancario ESR da stampare nel report.<br /><br /> Se il valore in questo campo è <Blank> e il codice del metodo di pagamento ESF non è definito nella pagina **Setup ESR**, verrà stampata la banca principale ESR selezionata nella pagina **Setup ESR**.|  
     |**LogInteraction**|Specificare se le interazioni con i tuoi contatti verranno registrate.|  
     |**Sistema ESR**|Selezionare il sistema ESR con cui è possibile inviare i nuovi tagliandi ESR ai clienti. Per utilizzare il sistema ESR utilizzato dalla banca che hai specificato nel campo **Banca ESR**, selezionare **Basato su banca ESR**.|  
 

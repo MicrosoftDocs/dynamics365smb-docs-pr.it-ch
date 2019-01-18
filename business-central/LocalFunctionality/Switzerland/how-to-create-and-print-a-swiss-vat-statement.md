@@ -1,6 +1,6 @@
 ---
 title: Come creare e stampare una dichiarazione IVA svizzera
-description: "In base alle informazioni specificate nella finestra **Setup registrazioni IVA**, Business Central può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti."
+description: "In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, Business Central può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc8a170ff464c0637d0d4504403742987a278e72
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d350488f4e060af17cc4ea4afd33e6b307306474
 ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-and-print-a-swiss-vat-statement"></a>Creare e stampare una dichiarazione IVA svizzera
-In base alle informazioni specificate nella finestra **Setup registrazioni IVA**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
+In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
 
 ## <a name="to-set-up-a-swiss-vat-statement-template"></a>Per impostare un modello di dichiarazione IVA svizzera  
 
@@ -29,7 +29,7 @@ In base alle informazioni specificate nella finestra **Setup registrazioni IVA**
 3.  Scegliere il pulsante **OK**. Selezionare il pulsante **Sì** per confermare che si desidera creare una nuova definizione.  
 4.  Verificare la dichiarazione IVA risultante e modificarla in base alle esigenze.  
 
-     La pagina Dichiarazione IVA contiene il campo **Crittografia dichiarazione IVA**, che indica la crittografia del report con cui verrà stampato il risultato. Questo campo viene popolato automaticamente dal processo batch in base alle informazioni della finestra **Setup registrazioni IVA**. Il campo può essere modificato, se necessario.  
+     La pagina Dichiarazione IVA contiene il campo **Crittografia dichiarazione IVA**, che indica la crittografia del report con cui verrà stampato il risultato. Questo campo viene popolato automaticamente dal processo batch in base alle informazioni della pagina **Setup registrazioni IVA**. Il campo può essere modificato, se necessario.  
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera  
 
