@@ -2,22 +2,22 @@
 title: Pagamenti elettronici svizzeri
 description: I miglioramenti svizzeri consentono di inviare le fatture ai clienti elettronicamente. Le fatture vengono presentate e pagate direttamente utilizzando il software bancario online del cliente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2486e653c19be631386cea9ea2d98ad97b7ff8a8
-ms.contentlocale: it-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827349"
 ---
 # <a name="swiss-electronic-payments"></a>Pagamenti elettronici svizzeri
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] consente di inviare le fatture ai clienti elettronicamente. Le fatture vengono presentate e pagate direttamente utilizzando il software bancario online del cliente.  
@@ -45,4 +45,3 @@ Per esportare i pagamenti secondo lo standard SEPA, è necessario utilizzare un 
  [Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)  ' [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
  [Effettuare i pagamenti](../../payables-make-payments.md)
-

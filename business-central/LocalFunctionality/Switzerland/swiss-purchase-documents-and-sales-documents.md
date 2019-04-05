@@ -2,22 +2,22 @@
 title: Documenti di acquisto e di vendita per la Svizzera
 description: I miglioramenti svizzeri includono funzioni speciali di documento di vendita e di acquisto.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b51837e01f65241433272a3349ff3e771f593251
-ms.contentlocale: it-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827319"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documenti di acquisto e di vendita per la Svizzera
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] include miglioramenti svizzeri per documenti di vendita e documenti di acquisto. È incluso quanto segue:  
@@ -48,4 +48,3 @@ Nella pagina **Setup contabilità clienti e vendite**, il campo **Spedizione e f
  [Stampare una lista prelievi magazzino da un ordine di vendita](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Stampare ordini di vendita e acquisto durante la registrazione batch](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)
-

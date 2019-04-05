@@ -1,23 +1,23 @@
 ---
 title: Come assegnare codici di solleciti di consegna ai fornitori
-description: "Per abilitare solleciti di consegna per acquisti scaduti, è necessario assegnare termini di solleciti di consegna ai fornitori."
+description: Per abilitare solleciti di consegna per acquisti scaduti, è necessario assegnare termini di solleciti di consegna ai fornitori.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 55d364650b9ac3942ad8e643ff3cac693a39261e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 396364de0f6bb90b503845ab85add02552243de4
-ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827356"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a>Assegnare codici di solleciti di consegna ai fornitori
 Per abilitare solleciti di consegna per acquisti scaduti, è necessario assegnare termini di solleciti di consegna ai fornitori. Per ulteriori informazioni, vedere [Solleciti di consegna](delivery-reminders.md).  
@@ -36,4 +36,3 @@ Per abilitare solleciti di consegna per acquisti scaduti, è necessario assegnar
  [Impostare i termini, i livelli e i testi di sollecito di consegna](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
  [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)   
  [Emettere solleciti di consegna](how-to-issue-delivery-reminders.md)
-

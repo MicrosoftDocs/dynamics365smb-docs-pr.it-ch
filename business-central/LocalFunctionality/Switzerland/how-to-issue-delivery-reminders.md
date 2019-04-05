@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Emettere solleciti di consegna'
-description: "Dopo aver creato i solleciti di consegna, è necessario rilasciarli e stamparli in modo da poter inviare i solleciti ai fornitori. È possibile stampare un report di test prima di rilasciare i solleciti di consegna."
+description: Dopo aver creato i solleciti di consegna, è necessario rilasciarli e stamparli in modo da poter inviare i solleciti ai fornitori. È possibile stampare un report di test prima di rilasciare i solleciti di consegna.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3c2a2f686741ef0a7fd5cec1c51eecf092f99006
-ms.contentlocale: it-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827325"
 ---
 # <a name="issue-delivery-reminders"></a>Emettere solleciti di consegna
 Dopo aver creato i solleciti di consegna, è necessario rilasciarli e stamparli in modo da poter inviare i solleciti ai fornitori. È possibile stampare un report di test prima di rilasciare i solleciti di consegna. Per ulteriori informazioni, vedere [Stampare report di test per i solleciti di consegna](how-to-print-test-reports-for-delivery-reminders.md).  
@@ -58,4 +58,3 @@ Nella pagina Movimenti contabili sollecito di consegna, è possibile visualizzar
  [Solleciti consegna](delivery-reminders.md)   
  [Generare solleciti di consegna](how-to-generate-delivery-reminders.md)   
  [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Come generare solleciti di consegna
-description: "In Business Central, è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente."
+description: In Business Central, è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 837703e370c5520b5173ad32e69fbd77a3918810
-ms.contentlocale: it-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827345"
 ---
 # <a name="generate-delivery-reminders"></a>Generare solleciti di consegna
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente. Per ulteriori informazioni, vedere [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md).  
@@ -41,4 +41,3 @@ Se sono presenti consegne scadute che corrispondono ai filtri impostati, vengono
  [Assegnare codici di solleciti di consegna ai fornitori](how-to-assign-delivery-reminder-codes-to-vendors.md)   
  [Emettere solleciti di consegna](how-to-issue-delivery-reminders.md)   
  [Solleciti consegna](delivery-reminders.md)
-

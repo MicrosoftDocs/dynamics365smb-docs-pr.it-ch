@@ -1,23 +1,23 @@
 ---
 title: Come importare pagamenti ESR
-description: "Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene informazioni sulle fatture pagate. È possibile ricevere questo file dalla banca in formato elettronico oppure tramite e-mail."
+description: Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene informazioni sulle fatture pagate. È possibile ricevere questo file dalla banca in formato elettronico oppure tramite e-mail.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: fa705b5d3512c56dae82b8ca452d54818b8e54cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4db842eec4c5b7a2da93b180017decd6d6637e6
-ms.contentlocale: it-ch
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827364"
 ---
 # <a name="import-esr-payments"></a>Importare i pagamenti ESR
 Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene informazioni sulle fatture pagate. È possibile ricevere questo file dalla banca in formato elettronico oppure tramite e-mail.  
@@ -44,4 +44,3 @@ Le informazioni sui pagamenti vengono importate nelle righe di registrazioni. I 
 ## <a name="see-also"></a>Vedi anche  
  [Pagamenti elettronici svizzeri tramite ESR](swiss-electronic-payments-using-esr.md)   
  [Stampare fatture ESR](how-to-print-esr-invoices.md)
-

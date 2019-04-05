@@ -1,23 +1,23 @@
 ---
-title: "Come visualizzare i saldi temporanei nelle registrazioni di contabilità generale"
-description: "Quando si immette una nuova transazione nelle registrazioni COGE, è possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni. È possibile visualizzare i dettagli del saldo del conto e del conto di contropartita per la riga delle registrazioni attiva. È inoltre possibile visualizzare i valori non registrati per le registrazioni correnti."
+title: Come visualizzare i saldi temporanei nelle registrazioni di contabilità generale
+description: Quando si immette una nuova transazione nelle registrazioni COGE, è possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni. È possibile visualizzare i dettagli del saldo del conto e del conto di contropartita per la riga delle registrazioni attiva. È inoltre possibile visualizzare i valori non registrati per le registrazioni correnti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f89b0bbbe705bc0e71da8e480176956de515e45a
-ms.contentlocale: it-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827321"
 ---
 # <a name="view-temporary-balances-in-general-ledger-journals"></a>Visualizzare i saldi temporanei nelle registrazioni di contabilità generale
 Quando si immette una nuova transazione nelle registrazioni COGE, è possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni. È possibile visualizzare i dettagli del saldo del conto e del conto di contropartita per la riga delle registrazioni attiva. È inoltre possibile visualizzare i valori non registrati per le registrazioni correnti.  
@@ -35,4 +35,3 @@ Se nei conti di contabilità generale viene usata valuta estera, viene in tali c
 
 ## <a name="see-also"></a>Vedere anche  
  [Conti di contabilità generale per la Svizzera](swiss-general-ledger-accounts.md)
-

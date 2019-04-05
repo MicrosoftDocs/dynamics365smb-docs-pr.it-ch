@@ -1,23 +1,23 @@
 ---
 title: 'Procedura: Stampare fatture ESR'
-description: "È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) in diversi modi."
+description: È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) in diversi modi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9f345827f1cc705727f80d21a00839f221044059
-ms.contentlocale: it-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827347"
 ---
 # <a name="print-esr-invoices"></a>Stampare fatture ESR
 È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) nei seguenti modi:  
@@ -51,4 +51,3 @@ La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli s
 ## <a name="see-also"></a>Vedi anche  
  [Pagamenti elettronici svizzeri tramite ESR](swiss-electronic-payments-using-esr.md)   
  [Importare i pagamenti ESR](how-to-import-esr-payments.md)
-

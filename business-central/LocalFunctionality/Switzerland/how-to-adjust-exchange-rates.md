@@ -1,23 +1,23 @@
 ---
 title: Come rettificare i tassi di cambio
-description: "Se è presente una vendita imponibile in una valuta estera, è necessario usare il tasso ufficiale per la conversione di valuta IVA, come definito dall'ente Federal Tax Administration."
+description: Se è presente una vendita imponibile in una valuta estera, è necessario usare il tasso ufficiale per la conversione di valuta IVA, come definito dall'ente Federal Tax Administration.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/19/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 9d5f3cf7aa65a4a60133545d355fe17ac6a16685
-ms.contentlocale: it-ch
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827379"
 ---
 # <a name="adjust-exchange-rates"></a>Rettifica tassi di cambio
 Se è presente una vendita imponibile in una valuta estera, è necessario usare il tasso ufficiale per la conversione di valuta IVA, come definito dall'ente Federal Tax Administration.  
@@ -53,4 +53,3 @@ Per ulteriori informazioni sulla valute IVA ed estere, vedere il sito Web [ESTV]
  [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)   
 [Aggiornare i tassi di cambio valuta](../../finance-how-update-currencies.md)  
 [Impostare una valuta contabile addizionale](../../finance-how-setup-additional-currencies.md)
-

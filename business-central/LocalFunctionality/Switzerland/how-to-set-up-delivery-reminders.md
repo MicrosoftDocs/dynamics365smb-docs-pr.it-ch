@@ -1,23 +1,23 @@
 ---
 title: Come impostare solleciti di consegna
-description: "In Business Central, è possibile usare solleciti di consegna per segnalare ai fornitori le consegne scadute."
+description: In Business Central, è possibile usare solleciti di consegna per segnalare ai fornitori le consegne scadute.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: fc2945da396d69ea190bf49ff1242b1aba7aa71e
-ms.contentlocale: it-ch
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827376"
 ---
 # <a name="set-up-delivery-reminders"></a>Impostare solleciti di consegna
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile usare solleciti di consegna per segnalare ai fornitori le consegne scadute. Per creare solleciti di consegna per i fornitori, è necessario impostare dati di base per la creazione di solleciti di consegna e numerazioni per i solleciti di consegna nella pagina **Setup contabilità fornitori e acquisti**.  
@@ -47,4 +47,3 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile usare solleci
  [Impostare i termini, i livelli e i testi di sollecito di consegna](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
  [Assegnare codici di solleciti di consegna ai fornitori](how-to-assign-delivery-reminder-codes-to-vendors.md)   
  [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)
-
