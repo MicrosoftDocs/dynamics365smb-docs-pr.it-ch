@@ -2,48 +2,47 @@
 title: Utilizzo della Gestione ruolo utente Implementatore di RapidStart Services | Documenti Microsoft
 description: Quando si utilizza RapidStart Services, si consiglia di tenere traccia del proprio lavoro e di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: it-ch
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824767"
 ---
-# <a name="use-the-rapidstart-services-implementer-role-center"></a><span data-ttu-id="5f6ff-103">Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="5f6ff-103">Use the RapidStart Services Implementer Role Center</span></span>
-<span data-ttu-id="5f6ff-104">Quando si utilizza RapidStart Services, si consiglia di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-104">When you use RapidStart Services, we recommend that you use the RapidStart Services Implementer Role Center as it provides the correct context for your configuration work.</span></span> <span data-ttu-id="5f6ff-105">Per ulteriori informazioni, vedere la sezione “Per modificare una Gestione ruolo utente" in [Modifica delle impostazioni di base](ui-change-basic-settings.md).</span><span class="sxs-lookup"><span data-stu-id="5f6ff-105">For more information, see the "To change Role Center" section in [Changing Basic Settings](ui-change-basic-settings.md).</span></span>
+# <a name="use-the-rapidstart-services-implementer-role-center"></a><span data-ttu-id="f04c2-103">Utilizzare la home page della Gestione ruolo utente Implementatore di RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="f04c2-103">Use the RapidStart Services Implementer Role Center</span></span>
+<span data-ttu-id="f04c2-104">Quando si utilizza RapidStart Services, si consiglia di utilizzare la Gestione ruolo utente Implementatore di RapidStart Services in quanto fornisce il contesto corretto per il lavoro di configurazione.</span><span class="sxs-lookup"><span data-stu-id="f04c2-104">When you use RapidStart Services, we recommend that you use the RapidStart Services Implementer Role Center as it provides the correct context for your configuration work.</span></span> <span data-ttu-id="f04c2-105">Per ulteriori informazioni, vedere [Per modificare una Gestione ruolo utente](ui-change-basic-settings.md#to-change-role-center).</span><span class="sxs-lookup"><span data-stu-id="f04c2-105">For more information, see [To change Role Center](ui-change-basic-settings.md#to-change-role-center).</span></span>
 
-<span data-ttu-id="5f6ff-106">Man mano che si prosegue il lavoro, è possibile assegnare a ogni tabella lo stato che corrisponde alla propria posizione nel processo.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-106">As you continue with your work, you can assign each table the status that reflects where you are in the process.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="5f6ff-107">tiene quindi traccia dello stato della tabella nella sezione **Attività** della Gestione ruolo utente.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-107">then keeps track of the table status in the **Activities** part on the Role Center.</span></span>  
+<span data-ttu-id="f04c2-106">Man mano che si prosegue il lavoro, è possibile assegnare a ogni tabella lo stato che corrisponde alla propria posizione nel processo.</span><span class="sxs-lookup"><span data-stu-id="f04c2-106">As you continue with your work, you can assign each table the status that reflects where you are in the process.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f04c2-107">tiene quindi traccia dello stato della tabella nella sezione **Attività** della Gestione ruolo utente.</span><span class="sxs-lookup"><span data-stu-id="f04c2-107">then keeps track of the table status in the **Activities** part on the Role Center.</span></span>  
 
-<span data-ttu-id="5f6ff-108">Per default, quando si aggiunge una tabella al foglio di lavoro configurazione, il relativo stato è impostato come vuoto.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-108">By default, when you add a table to the configuration worksheet, its status is set to blank.</span></span> <span data-ttu-id="5f6ff-109">Ciò significa che la configurazione della tabella non è iniziata.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-109">This means that configuration of the table has not begun.</span></span> <span data-ttu-id="5f6ff-110">Ciò si riflette nel conteggio **Non avviato** nel riquadro **Attività**.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-110">This is reflected in the **Not Started** count in the **Activities** tile.</span></span>  
+<span data-ttu-id="f04c2-108">Per default, quando si aggiunge una tabella al foglio di lavoro configurazione, il relativo stato è impostato come vuoto.</span><span class="sxs-lookup"><span data-stu-id="f04c2-108">By default, when you add a table to the configuration worksheet, its status is set to blank.</span></span> <span data-ttu-id="f04c2-109">Ciò significa che la configurazione della tabella non è iniziata.</span><span class="sxs-lookup"><span data-stu-id="f04c2-109">This means that configuration of the table has not begun.</span></span> <span data-ttu-id="f04c2-110">Ciò si riflette nel conteggio **Non avviato** nel riquadro **Attività**.</span><span class="sxs-lookup"><span data-stu-id="f04c2-110">This is reflected in the **Not Started** count in the **Activities** tile.</span></span>  
 
-## <a name="to-update-the-status-of-a-configuration-table"></a><span data-ttu-id="5f6ff-111">Per aggiornare lo stato di una tabella di configurazione</span><span class="sxs-lookup"><span data-stu-id="5f6ff-111">To update the status of a configuration table</span></span>  
-1.  <span data-ttu-id="5f6ff-112">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="5f6ff-113">Scegliere l'azione **Modifica lista**.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-113">Choose the **Edit List** action.</span></span>  
-3.  <span data-ttu-id="5f6ff-114">Selezionare una tabella e nel campo **Stato** scegliere lo stato appropriato.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-114">Select a table, and in the **Status** field, choose the appropriate status.</span></span>  
-4.  <span data-ttu-id="5f6ff-115">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-115">Choose the **OK** button.</span></span>  
+## <a name="to-update-the-status-of-a-configuration-table"></a><span data-ttu-id="f04c2-111">Per aggiornare lo stato di una tabella di configurazione</span><span class="sxs-lookup"><span data-stu-id="f04c2-111">To update the status of a configuration table</span></span>  
+1.  <span data-ttu-id="f04c2-112">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="f04c2-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="f04c2-113">Scegliere l'azione **Modifica lista**.</span><span class="sxs-lookup"><span data-stu-id="f04c2-113">Choose the **Edit List** action.</span></span>  
+3.  <span data-ttu-id="f04c2-114">Selezionare una tabella e nel campo **Stato** scegliere lo stato appropriato.</span><span class="sxs-lookup"><span data-stu-id="f04c2-114">Select a table, and in the **Status** field, choose the appropriate status.</span></span>  
+4.  <span data-ttu-id="f04c2-115">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="f04c2-115">Choose the **OK** button.</span></span>  
 
-<span data-ttu-id="5f6ff-116">Quando si torna alla Gestione ruolo utente, i riquadri nella sezione **Attività** vengono aggiornati affinché riflettano le modifiche.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-116">When you return to the Role Center, the tiles in the **Activities** part are updated to reflect your changes.</span></span>  
+<span data-ttu-id="f04c2-116">Quando si torna alla Gestione ruolo utente, i riquadri nella sezione **Attività** vengono aggiornati affinché riflettano le modifiche.</span><span class="sxs-lookup"><span data-stu-id="f04c2-116">When you return to the Role Center, the tiles in the **Activities** part are updated to reflect your changes.</span></span>  
 
-## <a name="to-track-the-status-of-a-configuration-project"></a><span data-ttu-id="5f6ff-117">Per tenere traccia dello stato di un progetto di configurazione</span><span class="sxs-lookup"><span data-stu-id="5f6ff-117">To track the status of a configuration project</span></span>  
-- <span data-ttu-id="5f6ff-118">Aprire la Gestione ruolo utente di RapidStart Services.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-118">Open the RapidStart Services Role Center.</span></span>  
+## <a name="to-track-the-status-of-a-configuration-project"></a><span data-ttu-id="f04c2-117">Per tenere traccia dello stato di un progetto di configurazione</span><span class="sxs-lookup"><span data-stu-id="f04c2-117">To track the status of a configuration project</span></span>  
+- <span data-ttu-id="f04c2-118">Aprire la Gestione ruolo utente di RapidStart Services.</span><span class="sxs-lookup"><span data-stu-id="f04c2-118">Open the RapidStart Services Role Center.</span></span>  
 
-<span data-ttu-id="5f6ff-119">Nella sezione **Aree di configurazione**, le statistiche di completamento sono visualizzate per le aree e per i gruppi che sono stati impostati nella configurazione.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-119">In the **Configuration Areas** part, completion statistics are shown for the areas and groups that you have set up.</span></span> <span data-ttu-id="5f6ff-120">Se non è stato impostato alcun gruppo o area, questa parte non conterrà dati.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-120">If you have not set up any groups or areas, this part has no data.</span></span>  
+<span data-ttu-id="f04c2-119">Nella sezione **Aree di configurazione**, le statistiche di completamento sono visualizzate per le aree e per i gruppi che sono stati impostati nella configurazione.</span><span class="sxs-lookup"><span data-stu-id="f04c2-119">In the **Configuration Areas** part, completion statistics are shown for the areas and groups that you have set up.</span></span> <span data-ttu-id="f04c2-120">Se non è stato impostato alcun gruppo o area, questa parte non conterrà dati.</span><span class="sxs-lookup"><span data-stu-id="f04c2-120">If you have not set up any groups or areas, this part has no data.</span></span>  
 
-## <a name="to-see-a-filtered-view-of-table-status"></a><span data-ttu-id="5f6ff-121">Per una visualizzazione filtrata dello stato della tabella</span><span class="sxs-lookup"><span data-stu-id="5f6ff-121">To see a filtered view of table status</span></span>  
-1. <span data-ttu-id="5f6ff-122">Scegliere l'azione **Tabelle**.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-122">Choose the **Tables** action.</span></span>  
-2. <span data-ttu-id="5f6ff-123">Selezionare la vista filtrata appropriata.</span><span class="sxs-lookup"><span data-stu-id="5f6ff-123">Select the appropriate filtered view.</span></span>  
+## <a name="to-see-a-filtered-view-of-table-status"></a><span data-ttu-id="f04c2-121">Per una visualizzazione filtrata dello stato della tabella</span><span class="sxs-lookup"><span data-stu-id="f04c2-121">To see a filtered view of table status</span></span>  
+1. <span data-ttu-id="f04c2-122">Scegliere l'azione **Tabelle**.</span><span class="sxs-lookup"><span data-stu-id="f04c2-122">Choose the **Tables** action.</span></span>  
+2. <span data-ttu-id="f04c2-123">Selezionare la vista filtrata appropriata.</span><span class="sxs-lookup"><span data-stu-id="f04c2-123">Select the appropriate filtered view.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="5f6ff-124">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="5f6ff-124">See Also</span></span>  
-[<span data-ttu-id="5f6ff-125">Impostare una società con RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="5f6ff-125">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="5f6ff-126">Amministrazione</span><span class="sxs-lookup"><span data-stu-id="5f6ff-126">Administration</span></span>](admin-setup-and-administration.md)
-
+## <a name="see-also"></a><span data-ttu-id="f04c2-124">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="f04c2-124">See Also</span></span>  
+[<span data-ttu-id="f04c2-125">Impostare una società con RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="f04c2-125">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="f04c2-126">Amministrazione</span><span class="sxs-lookup"><span data-stu-id="f04c2-126">Administration</span></span>](admin-setup-and-administration.md)

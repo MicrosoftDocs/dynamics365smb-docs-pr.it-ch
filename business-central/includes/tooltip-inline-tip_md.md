@@ -1,1 +1,1 @@
-<span data-ttu-id="62c52-101">Passare sul campo con il mouse per visualizzare una breve descrizione.</span><span class="sxs-lookup"><span data-stu-id="62c52-101">Hover over a field to read a short description.</span></span>
+<span data-ttu-id="0abf2-101">Passare sul campo con il mouse per visualizzare una breve descrizione.</span><span class="sxs-lookup"><span data-stu-id="0abf2-101">Hover over a field to read a short description.</span></span>

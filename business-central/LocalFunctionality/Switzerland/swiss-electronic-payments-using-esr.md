@@ -1,50 +1,49 @@
 ---
 title: Pagamenti elettronici svizzeri tramite ESR
-description: "Il metodo di pagamento elettronico ESR (polizza di versamento con numero di riferimento, in tedesco ESR, Einzahlungsschein mit Referenznummer) è un servizio debitori elettronico che consente al cliente di fatturare fatture aperte in franchi svizzeri (CHF) ed euro (EUR) e di registrare pagamenti in entrata in modo efficiente."
+description: Il metodo di pagamento elettronico ESR (polizza di versamento con numero di riferimento, in tedesco ESR, Einzahlungsschein mit Referenznummer) è un servizio debitori elettronico che consente al cliente di fatturare fatture aperte in franchi svizzeri (CHF) ed euro (EUR) e di registrare pagamenti in entrata in modo efficiente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: ab67507bf814c3e4f3590e4d127491466552a41d
-ms.contentlocale: it-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827342"
 ---
-# <a name="swiss-electronic-payments-using-esr"></a><span data-ttu-id="90a53-103">Pagamenti elettronici svizzeri tramite ESR</span><span class="sxs-lookup"><span data-stu-id="90a53-103">Swiss Electronic Payments Using ESR</span></span>
-<span data-ttu-id="90a53-104">Il metodo di pagamento elettronico ESR (polizza di versamento con numero di riferimento, in tedesco ESR, Einzahlungsschein mit Referenznummer) è un servizio debitori elettronico che consente al cliente di fatturare fatture aperte in franchi svizzeri (CHF) ed euro (EUR) e di registrare pagamenti in entrata in modo efficiente.</span><span class="sxs-lookup"><span data-stu-id="90a53-104">The Einzahlungsschein mit Referenznummer (ESR) electronic payment method is an electronic debtor service that allows the customer to bill open invoices in Swiss Francs (CHF) and Euros (EUR), and to post incoming payments efficiently.</span></span> <span data-ttu-id="90a53-105">Il numero di riferimento, o riga di codice, contiene tutti i dati contabili rilevanti.</span><span class="sxs-lookup"><span data-stu-id="90a53-105">The reference number, or code line, contains all relevant bookkeeping data.</span></span>  
+# <a name="swiss-electronic-payments-using-esr"></a><span data-ttu-id="4acc2-103">Pagamenti elettronici svizzeri tramite ESR</span><span class="sxs-lookup"><span data-stu-id="4acc2-103">Swiss Electronic Payments Using ESR</span></span>
+<span data-ttu-id="4acc2-104">Il metodo di pagamento elettronico ESR (polizza di versamento con numero di riferimento, in tedesco ESR, Einzahlungsschein mit Referenznummer) è un servizio debitori elettronico che consente al cliente di fatturare fatture aperte in franchi svizzeri (CHF) ed euro (EUR) e di registrare pagamenti in entrata in modo efficiente.</span><span class="sxs-lookup"><span data-stu-id="4acc2-104">The Einzahlungsschein mit Referenznummer (ESR) electronic payment method is an electronic debtor service that allows the customer to bill open invoices in Swiss Francs (CHF) and Euros (EUR), and to post incoming payments efficiently.</span></span> <span data-ttu-id="4acc2-105">Il numero di riferimento, o riga di codice, contiene tutti i dati contabili rilevanti.</span><span class="sxs-lookup"><span data-stu-id="4acc2-105">The reference number, or code line, contains all relevant bookkeeping data.</span></span>  
 
-<span data-ttu-id="90a53-106">Con i pagamenti elettronici ESR è possibile effettuare le seguenti operazioni:</span><span class="sxs-lookup"><span data-stu-id="90a53-106">With ESR electronic payments, you can do the following:</span></span>  
+<span data-ttu-id="4acc2-106">Con i pagamenti elettronici ESR è possibile effettuare le seguenti operazioni:</span><span class="sxs-lookup"><span data-stu-id="4acc2-106">With ESR electronic payments, you can do the following:</span></span>  
 
-- <span data-ttu-id="90a53-107">Inviare distinte di pagamento ESR con numeri di riferimento univoci sulle fatture.</span><span class="sxs-lookup"><span data-stu-id="90a53-107">Send ESR payment slips with unique reference numbers on the invoices.</span></span> <span data-ttu-id="90a53-108">Poiché i numeri di riferimento ESR sono univoci, i pagamenti per la liquidazione vengono applicati automaticamente alle fatture correlate.</span><span class="sxs-lookup"><span data-stu-id="90a53-108">Because of the unique ESR reference numbers, the payments for settlement are automatically applied to the related invoices.</span></span> <span data-ttu-id="90a53-109">Per ulteriori informazioni, vedere [Stampare fatture ESR](how-to-print-esr-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="90a53-109">For more information, see [Print ESR Invoices](how-to-print-esr-invoices.md).</span></span>  
+- <span data-ttu-id="4acc2-107">Inviare distinte di pagamento ESR con numeri di riferimento univoci sulle fatture.</span><span class="sxs-lookup"><span data-stu-id="4acc2-107">Send ESR payment slips with unique reference numbers on the invoices.</span></span> <span data-ttu-id="4acc2-108">Poiché i numeri di riferimento ESR sono univoci, i pagamenti per la liquidazione vengono applicati automaticamente alle fatture correlate.</span><span class="sxs-lookup"><span data-stu-id="4acc2-108">Because of the unique ESR reference numbers, the payments for settlement are automatically applied to the related invoices.</span></span> <span data-ttu-id="4acc2-109">Per ulteriori informazioni, vedere [Stampare fatture ESR](how-to-print-esr-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="4acc2-109">For more information, see [Print ESR Invoices](how-to-print-esr-invoices.md).</span></span>  
 
-- <span data-ttu-id="90a53-110">Scaricare giornalmente i file ESR dalla banca.</span><span class="sxs-lookup"><span data-stu-id="90a53-110">Download the ESR files from the bank daily.</span></span> <span data-ttu-id="90a53-111">I file contengono informazioni su tutte le fatture pagate.</span><span class="sxs-lookup"><span data-stu-id="90a53-111">The files contain information about all paid invoices.</span></span>  
+- <span data-ttu-id="4acc2-110">Scaricare giornalmente i file ESR dalla banca.</span><span class="sxs-lookup"><span data-stu-id="4acc2-110">Download the ESR files from the bank daily.</span></span> <span data-ttu-id="4acc2-111">I file contengono informazioni su tutte le fatture pagate.</span><span class="sxs-lookup"><span data-stu-id="4acc2-111">The files contain information about all paid invoices.</span></span>  
 
-- <span data-ttu-id="90a53-112">Importare i file ESR e creare righe di pagamento in modo automatico per ogni pagamento.</span><span class="sxs-lookup"><span data-stu-id="90a53-112">Import the ESR files and create payment lines automatically for each payment.</span></span> <span data-ttu-id="90a53-113">Per ulteriori informazioni, vedere [Importare pagamenti ESR](how-to-import-esr-payments.md).</span><span class="sxs-lookup"><span data-stu-id="90a53-113">For more information, see [Import ESR Payments](how-to-import-esr-payments.md).</span></span>  
+- <span data-ttu-id="4acc2-112">Importare i file ESR e creare righe di pagamento in modo automatico per ogni pagamento.</span><span class="sxs-lookup"><span data-stu-id="4acc2-112">Import the ESR files and create payment lines automatically for each payment.</span></span> <span data-ttu-id="4acc2-113">Per ulteriori informazioni, vedere [Importare pagamenti ESR](how-to-import-esr-payments.md).</span><span class="sxs-lookup"><span data-stu-id="4acc2-113">For more information, see [Import ESR Payments](how-to-import-esr-payments.md).</span></span>  
 
 > [!NOTE]  
->  <span data-ttu-id="90a53-114">Prima di usare il modulo ESR, è necessario impostare la banca, il conto corrente bancario e il nome del file.</span><span class="sxs-lookup"><span data-stu-id="90a53-114">Before you can use the ESR module, you must set up the bank, bank account, and file name.</span></span> <span data-ttu-id="90a53-115">È inoltre necessario specificare se deve essere usato il metodo ESR o ESR+.</span><span class="sxs-lookup"><span data-stu-id="90a53-115">You must also specify whether ESR or ESR+ should be used.</span></span>
+>  <span data-ttu-id="4acc2-114">Prima di usare il modulo ESR, è necessario impostare la banca, il conto corrente bancario e il nome del file.</span><span class="sxs-lookup"><span data-stu-id="4acc2-114">Before you can use the ESR module, you must set up the bank, bank account, and file name.</span></span> <span data-ttu-id="4acc2-115">È inoltre necessario specificare se deve essere usato il metodo ESR o ESR+.</span><span class="sxs-lookup"><span data-stu-id="4acc2-115">You must also specify whether ESR or ESR+ should be used.</span></span>
 
-<span data-ttu-id="90a53-116">Dopo aver valutato le informazioni di setup, è possibile modificare il modulo di fatturazione e creare una serie di test che la banca o il servizio postale può convalidare.</span><span class="sxs-lookup"><span data-stu-id="90a53-116">When you have evaluated the setup information, you can adjust the invoice form, and you can create a test series that you can ask your bank or postal service to validate.</span></span>  
+<span data-ttu-id="4acc2-116">Dopo aver valutato le informazioni di setup, è possibile modificare il modulo di fatturazione e creare una serie di test che la banca o il servizio postale può convalidare.</span><span class="sxs-lookup"><span data-stu-id="4acc2-116">When you have evaluated the setup information, you can adjust the invoice form, and you can create a test series that you can ask your bank or postal service to validate.</span></span>  
 
-<span data-ttu-id="90a53-117">Quando si impostano le numerazioni per le fatture, è necessario seguire queste linee guida:</span><span class="sxs-lookup"><span data-stu-id="90a53-117">When you set up number series for invoices, you must follow these guidelines:</span></span>  
+<span data-ttu-id="4acc2-117">Quando si impostano le numerazioni per le fatture, è necessario seguire queste linee guida:</span><span class="sxs-lookup"><span data-stu-id="4acc2-117">When you set up number series for invoices, you must follow these guidelines:</span></span>  
 
-- <span data-ttu-id="90a53-118">Usa un massimo di otto cifre.</span><span class="sxs-lookup"><span data-stu-id="90a53-118">Use a maximum of eight digits.</span></span>  
-- <span data-ttu-id="90a53-119">Usare solo caratteri numerici.</span><span class="sxs-lookup"><span data-stu-id="90a53-119">Use only numeric characters.</span></span>  
-- <span data-ttu-id="90a53-120">Non anteporre zero ai numeri.</span><span class="sxs-lookup"><span data-stu-id="90a53-120">Do not precede numbers with zeros.</span></span>  
+- <span data-ttu-id="4acc2-118">Usa un massimo di otto cifre.</span><span class="sxs-lookup"><span data-stu-id="4acc2-118">Use a maximum of eight digits.</span></span>  
+- <span data-ttu-id="4acc2-119">Usare solo caratteri numerici.</span><span class="sxs-lookup"><span data-stu-id="4acc2-119">Use only numeric characters.</span></span>  
+- <span data-ttu-id="4acc2-120">Non anteporre zero ai numeri.</span><span class="sxs-lookup"><span data-stu-id="4acc2-120">Do not precede numbers with zeros.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="90a53-121">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="90a53-121">See Also</span></span>  
- <span data-ttu-id="90a53-122">[Pagamenti elettronici svizzeri](swiss-electronic-payments.md) </span><span class="sxs-lookup"><span data-stu-id="90a53-122">[Swiss Electronic Payments](swiss-electronic-payments.md) </span></span>  
- <span data-ttu-id="90a53-123">[Stampare fatture ESR](how-to-print-esr-invoices.md) </span><span class="sxs-lookup"><span data-stu-id="90a53-123">[Print ESR Invoices](how-to-print-esr-invoices.md) </span></span>  
- <span data-ttu-id="90a53-124">[Importare i pagamenti ESR](how-to-import-esr-payments.md) </span><span class="sxs-lookup"><span data-stu-id="90a53-124">[Import ESR Payments](how-to-import-esr-payments.md) </span></span>  
- <span data-ttu-id="90a53-125">[Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md) </span><span class="sxs-lookup"><span data-stu-id="90a53-125">[Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md) </span></span>  
- [<span data-ttu-id="90a53-126">Effettuare i pagamenti</span><span class="sxs-lookup"><span data-stu-id="90a53-126">Making Payments</span></span>](../../payables-make-payments.md)
-
+## <a name="see-also"></a><span data-ttu-id="4acc2-121">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="4acc2-121">See Also</span></span>  
+ <span data-ttu-id="4acc2-122">[Pagamenti elettronici svizzeri](swiss-electronic-payments.md) </span><span class="sxs-lookup"><span data-stu-id="4acc2-122">[Swiss Electronic Payments](swiss-electronic-payments.md) </span></span>  
+ <span data-ttu-id="4acc2-123">[Stampare fatture ESR](how-to-print-esr-invoices.md) </span><span class="sxs-lookup"><span data-stu-id="4acc2-123">[Print ESR Invoices](how-to-print-esr-invoices.md) </span></span>  
+ <span data-ttu-id="4acc2-124">[Importare i pagamenti ESR](how-to-import-esr-payments.md) </span><span class="sxs-lookup"><span data-stu-id="4acc2-124">[Import ESR Payments](how-to-import-esr-payments.md) </span></span>  
+ <span data-ttu-id="4acc2-125">[Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md) </span><span class="sxs-lookup"><span data-stu-id="4acc2-125">[Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md) </span></span>  
+ [<span data-ttu-id="4acc2-126">Effettuare i pagamenti</span><span class="sxs-lookup"><span data-stu-id="4acc2-126">Making Payments</span></span>](../../payables-make-payments.md)

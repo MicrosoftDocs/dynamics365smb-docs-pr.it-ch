@@ -7,30 +7,29 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 4c0fdd965f56f811ab9ce3346b3c408702df87bf
-ms.contentlocale: it-ch
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: it-CH
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "825837"
 ---
-# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="aba6c-103">Informazioni sul framework di scambio dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="aba6c-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
-<span data-ttu-id="aba6c-104">Il formato di file per lo scambio di dati in file bancari, documenti elettronici, tassi di cambio e altro mediante i sistemi ERP varia in base al provider del file o del flusso di dati e al paese.</span><span class="sxs-lookup"><span data-stu-id="aba6c-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="aba6c-105">supporta vari formati di file bancari e standard di servizi per i dati.</span><span class="sxs-lookup"><span data-stu-id="aba6c-105"> supports various bank file formats and data service standards.</span></span> <span data-ttu-id="aba6c-106">Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.</span><span class="sxs-lookup"><span data-stu-id="aba6c-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="aba6c-107">Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="aba6c-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
+# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="50e73-103">Informazioni sul framework di scambio dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="50e73-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
+<span data-ttu-id="50e73-104">Il formato di file per lo scambio di dati in file bancari, documenti elettronici, tassi di cambio e altro mediante i sistemi ERP varia in base al provider del file o del flusso di dati e al paese.</span><span class="sxs-lookup"><span data-stu-id="50e73-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="50e73-105">supporta vari formati di file bancari e standard di servizi per i dati.</span><span class="sxs-lookup"><span data-stu-id="50e73-105">supports various bank file formats and data service standards.</span></span> <span data-ttu-id="50e73-106">Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.</span><span class="sxs-lookup"><span data-stu-id="50e73-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="50e73-107">Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="50e73-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
 
- <span data-ttu-id="aba6c-108">Nei seguenti diagrammi viene mostrata l'architettura del framework di scambio dati.</span><span class="sxs-lookup"><span data-stu-id="aba6c-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
+ <span data-ttu-id="50e73-108">Nei seguenti diagrammi viene mostrata l'architettura del framework di scambio dati.</span><span class="sxs-lookup"><span data-stu-id="50e73-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
 
- ![Framework di scambio dati&#45; Importa](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Framework di scambio dati &#45; Importa](media/across-data-exchange/dataexchangeframework_import.png)  
 
  ![Framework di scambio dati &#45; Esporta](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## <a name="see-also"></a><span data-ttu-id="aba6c-111">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="aba6c-111">See Also</span></span>  
-[<span data-ttu-id="aba6c-112">Scambio di dati in modalità elettronica</span><span class="sxs-lookup"><span data-stu-id="aba6c-112">Exchanging Data Electronically</span></span>](across-data-exchange.md)  
-[<span data-ttu-id="aba6c-113">Utilizzare gli schemi XML per preparare le definizioni di scambio dati</span><span class="sxs-lookup"><span data-stu-id="aba6c-113">Use XML Schemas to Prepare Data Exchange Definitions</span></span>](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[<span data-ttu-id="aba6c-114">Impostazione dello scambio di dati</span><span class="sxs-lookup"><span data-stu-id="aba6c-114">Setting Up Data Exchange</span></span>](across-set-up-data-exchange.md)  
-[<span data-ttu-id="aba6c-115">Scambio di dati</span><span class="sxs-lookup"><span data-stu-id="aba6c-115">Exchanging Data</span></span>](across-exchange-data.md)  
-[<span data-ttu-id="aba6c-116">Documenti in entrata</span><span class="sxs-lookup"><span data-stu-id="aba6c-116">Incoming Documents</span></span>](across-income-documents.md)  
-[<span data-ttu-id="aba6c-117">Funzionalità aziendali generali</span><span class="sxs-lookup"><span data-stu-id="aba6c-117">General Business Functionality</span></span>](ui-across-business-areas.md)  
-
+## <a name="see-also"></a><span data-ttu-id="50e73-111">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="50e73-111">See Also</span></span>  
+[<span data-ttu-id="50e73-112">Scambio di dati in modalità elettronica</span><span class="sxs-lookup"><span data-stu-id="50e73-112">Exchanging Data Electronically</span></span>](across-data-exchange.md)  
+[<span data-ttu-id="50e73-113">Utilizzare gli schemi XML per preparare le definizioni di scambio dati</span><span class="sxs-lookup"><span data-stu-id="50e73-113">Use XML Schemas to Prepare Data Exchange Definitions</span></span>](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[<span data-ttu-id="50e73-114">Impostazione dello scambio di dati</span><span class="sxs-lookup"><span data-stu-id="50e73-114">Setting Up Data Exchange</span></span>](across-set-up-data-exchange.md)  
+[<span data-ttu-id="50e73-115">Scambio di dati</span><span class="sxs-lookup"><span data-stu-id="50e73-115">Exchanging Data</span></span>](across-exchange-data.md)  
+[<span data-ttu-id="50e73-116">Documenti in entrata</span><span class="sxs-lookup"><span data-stu-id="50e73-116">Incoming Documents</span></span>](across-income-documents.md)  
+[<span data-ttu-id="50e73-117">Funzionalità aziendali generali</span><span class="sxs-lookup"><span data-stu-id="50e73-117">General Business Functionality</span></span>](ui-across-business-areas.md)  
