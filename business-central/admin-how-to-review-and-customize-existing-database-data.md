@@ -10,31 +10,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: admin-how-to-create-custom-company-configuration-packages
-ms.openlocfilehash: 1f49d437e03ecf45a234574530f1e65d93584dea
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 95b16dc77bcdb0051447a4f153dd720661c52cf9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "825067"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917954"
 ---
-# <a name="review-and-customize-existing-database-data"></a><span data-ttu-id="29c87-104">Analisi e personalizzazione dei dati nei database esistenti</span><span class="sxs-lookup"><span data-stu-id="29c87-104">Review and Customize Existing Database Data</span></span>
-<span data-ttu-id="29c87-105">Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente.</span><span class="sxs-lookup"><span data-stu-id="29c87-105">As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs.</span></span> <span data-ttu-id="29c87-106">Alla tabella del database deve essere associata una pagina.</span><span class="sxs-lookup"><span data-stu-id="29c87-106">The database table has to have an associated page.</span></span>  
+# <a name="review-and-customize-existing-database-data"></a><span data-ttu-id="e961e-104">Analisi e personalizzazione dei dati nei database esistenti</span><span class="sxs-lookup"><span data-stu-id="e961e-104">Review and Customize Existing Database Data</span></span>
+<span data-ttu-id="e961e-105">Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente.</span><span class="sxs-lookup"><span data-stu-id="e961e-105">As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs.</span></span> <span data-ttu-id="e961e-106">Alla tabella del database deve essere associata una pagina.</span><span class="sxs-lookup"><span data-stu-id="e961e-106">The database table has to have an associated page.</span></span>  
 
-### <a name="to-customize-data-in-the-database"></a><span data-ttu-id="29c87-107">Per personalizzare i dati nel database</span><span class="sxs-lookup"><span data-stu-id="29c87-107">To customize data in the database</span></span>  
+### <a name="to-customize-data-in-the-database"></a><span data-ttu-id="e961e-107">Per personalizzare i dati nel database</span><span class="sxs-lookup"><span data-stu-id="e961e-107">To customize data in the database</span></span>  
 
-1.  <span data-ttu-id="29c87-108">Nel foglio di lavoro configurazione, individuare le tabelle di cui si desidera visualizzare o modificare i dati.</span><span class="sxs-lookup"><span data-stu-id="29c87-108">In the configuration worksheet, identify the tables whose data that you want to view or customize.</span></span>  
+1.  <span data-ttu-id="e961e-108">Nel foglio di lavoro configurazione, individuare le tabelle di cui si desidera visualizzare o modificare i dati.</span><span class="sxs-lookup"><span data-stu-id="e961e-108">In the configuration worksheet, identify the tables whose data that you want to view or customize.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="29c87-109">Assicurarsi che a ogni tabella sia stato assegnato un ID pagina.</span><span class="sxs-lookup"><span data-stu-id="29c87-109">Make sure that each table has a page ID assigned to it.</span></span> <span data-ttu-id="29c87-110">Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente.</span><span class="sxs-lookup"><span data-stu-id="29c87-110">For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in.</span></span> <span data-ttu-id="29c87-111">Per le tabelle personalizzate occorre immettere l'ID.</span><span class="sxs-lookup"><span data-stu-id="29c87-111">For custom tables, you have to provide the ID.</span></span>  
+    >  <span data-ttu-id="e961e-109">Assicurarsi che a ogni tabella sia stato assegnato un ID pagina.</span><span class="sxs-lookup"><span data-stu-id="e961e-109">Make sure that each table has a page ID assigned to it.</span></span> <span data-ttu-id="e961e-110">Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente.</span><span class="sxs-lookup"><span data-stu-id="e961e-110">For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in.</span></span> <span data-ttu-id="e961e-111">Per le tabelle personalizzate occorre immettere l'ID.</span><span class="sxs-lookup"><span data-stu-id="e961e-111">For custom tables, you have to provide the ID.</span></span>  
 
-2.  <span data-ttu-id="29c87-112">Nel gruppo **Mostra** della scheda **Azioni** scegliere **Dati database**.</span><span class="sxs-lookup"><span data-stu-id="29c87-112">On the **Actions** tab, in the **Show** group, choose **Database Data**.</span></span>  
+2.  <span data-ttu-id="e961e-112">Nel gruppo **Mostra** della scheda **Azioni** scegliere **Dati database**.</span><span class="sxs-lookup"><span data-stu-id="e961e-112">On the **Actions** tab, in the **Show** group, choose **Database Data**.</span></span>  
 
-     <span data-ttu-id="29c87-113">Viene visualizzata la pagina di [!INCLUDE[d365fin](includes/d365fin_md.md)] relativa alla pagina.</span><span class="sxs-lookup"><span data-stu-id="29c87-113">The [!INCLUDE[d365fin](includes/d365fin_md.md)] page for the page opens.</span></span>  
+     <span data-ttu-id="e961e-113">Viene visualizzata la pagina di [!INCLUDE[d365fin](includes/d365fin_md.md)] relativa alla pagina.</span><span class="sxs-lookup"><span data-stu-id="e961e-113">The [!INCLUDE[d365fin](includes/d365fin_md.md)] page for the page opens.</span></span>  
 
-3.  <span data-ttu-id="29c87-114">Esaminare le informazioni disponibili.</span><span class="sxs-lookup"><span data-stu-id="29c87-114">Review the available information.</span></span> <span data-ttu-id="29c87-115">Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.</span><span class="sxs-lookup"><span data-stu-id="29c87-115">Modify it as necessary by deleting records that are not relevant or by adding new ones.</span></span>  
+3.  <span data-ttu-id="e961e-114">Esaminare le informazioni disponibili.</span><span class="sxs-lookup"><span data-stu-id="e961e-114">Review the available information.</span></span> <span data-ttu-id="e961e-115">Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.</span><span class="sxs-lookup"><span data-stu-id="e961e-115">Modify it as necessary by deleting records that are not relevant or by adding new ones.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="29c87-116">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="29c87-116">See Also</span></span>  
- [<span data-ttu-id="29c87-117">Gestione della configurazione della società in un foglio di lavoro</span><span class="sxs-lookup"><span data-stu-id="29c87-117">Manage Company Configuration in a Worksheet</span></span>](admin-how-to-manage-company-configuration-in-a-worksheet.md)
+## <a name="see-also"></a><span data-ttu-id="e961e-116">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="e961e-116">See Also</span></span>  
+ [<span data-ttu-id="e961e-117">Gestione della configurazione della società in un foglio di lavoro</span><span class="sxs-lookup"><span data-stu-id="e961e-117">Manage Company Configuration in a Worksheet</span></span>](admin-how-to-manage-company-configuration-in-a-worksheet.md)
