@@ -9,28 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 432496690d89be861866c1e42d5fd567e33dee87
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a4dd426cbbe8aa45e3128814886e4d43797c46b3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "825535"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934601"
 ---
-# <a name="service-compliance"></a><span data-ttu-id="abce1-103">Conformità dell'assistenza</span><span class="sxs-lookup"><span data-stu-id="abce1-103">Service Compliance</span></span>
-<span data-ttu-id="abce1-104">Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="abce1-104">This content contains information about service compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].</span></span>  
+# <a name="service-compliance"></a><span data-ttu-id="46310-103">Conformità dell'assistenza</span><span class="sxs-lookup"><span data-stu-id="46310-103">Service Compliance</span></span>
+<span data-ttu-id="46310-104">Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="46310-104">This content contains information about service compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].</span></span>  
 
-<span data-ttu-id="abce1-105">Business Central è un servizio cloud eseguito su una delle infrastrutture iperscalabili più grandi al mondo, Microsoft Azure, con data center ovunque.</span><span class="sxs-lookup"><span data-stu-id="abce1-105">Business Central is a cloud service with a global reach and scale running on one of the World's largest hyperscale infrastructures, Microsoft Azure, with datacenters in regions all over the World.</span></span> <span data-ttu-id="abce1-106">L'esecuzione di un servizio cloud impone inoltre la necessità di rispettare determinati standard di protezione e conformità, di conseguenza dal punto di vista del servizio Business Central soddisfa requisiti rigorosi in varie certificazioni ISO e specifiche del settore.</span><span class="sxs-lookup"><span data-stu-id="abce1-106">Running a cloud service also imposes the need to conform to certain standards in security and compliance, so from a service perspective Business Central lives up to the strict requirements in several ISO and industry specific certifications.</span></span>
+<span data-ttu-id="46310-105">Business Central è un servizio cloud eseguito su una delle infrastrutture iperscalabili più grandi al mondo, Microsoft Azure, con data center ovunque.</span><span class="sxs-lookup"><span data-stu-id="46310-105">Business Central is a cloud service with a global reach and scale running on one of the World's largest hyperscale infrastructures, Microsoft Azure, with datacenters in regions all over the World.</span></span> <span data-ttu-id="46310-106">L'esecuzione di un servizio cloud impone inoltre la necessità di rispettare determinati standard di protezione e conformità, di conseguenza dal punto di vista del servizio Business Central soddisfa requisiti rigorosi in varie certificazioni ISO e specifiche del settore.</span><span class="sxs-lookup"><span data-stu-id="46310-106">Running a cloud service also imposes the need to conform to certain standards in security and compliance, so from a service perspective Business Central lives up to the strict requirements in several ISO and industry specific certifications.</span></span>
 
-<span data-ttu-id="abce1-107">L'elenco dettagliato di [offerte di conformità cloud per Business Central è disponibile qui](https://aka.ms/d365-compliance-list).</span><span class="sxs-lookup"><span data-stu-id="abce1-107">Please find the detailed list of [Cloud compliance offerings for Business Central here](https://aka.ms/d365-compliance-list).</span></span>
+<span data-ttu-id="46310-107">L'elenco dettagliato di [offerte di conformità cloud per Business Central è disponibile qui](https://aka.ms/d365-compliance-list).</span><span class="sxs-lookup"><span data-stu-id="46310-107">Please find the detailed list of [Cloud compliance offerings for Business Central here](https://aka.ms/d365-compliance-list).</span></span>
 
-<span data-ttu-id="abce1-108">Se si è interessati all'elenco completo delle offerte di conformità di Microsoft, consultare [questa pagina](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).</span><span class="sxs-lookup"><span data-stu-id="abce1-108">If you are interested in the complete list of compliance offerings from Microsoft, see [this page](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).</span></span>
+<span data-ttu-id="46310-108">Se si è interessati all'elenco completo delle offerte di conformità di Microsoft, consultare [questa pagina](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).</span><span class="sxs-lookup"><span data-stu-id="46310-108">If you are interested in the complete list of compliance offerings from Microsoft, see [this page](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="abce1-109">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="abce1-109">See Also</span></span>  
-[<span data-ttu-id="abce1-110">Conformità</span><span class="sxs-lookup"><span data-stu-id="abce1-110">Compliance</span></span>](compliance-overview.md)  
-[<span data-ttu-id="abce1-111">Conformità dell'applicazione</span><span class="sxs-lookup"><span data-stu-id="abce1-111">Application Compliance</span></span>](compliance-application-compliance.md)  
-[<span data-ttu-id="abce1-112">Certificazioni</span><span class="sxs-lookup"><span data-stu-id="abce1-112">Certifications</span></span>](compliance-certifications.md)  
+## <a name="see-also"></a><span data-ttu-id="46310-109">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="46310-109">See Also</span></span>  
+[<span data-ttu-id="46310-110">Conformità</span><span class="sxs-lookup"><span data-stu-id="46310-110">Compliance</span></span>](compliance-overview.md)  
+[<span data-ttu-id="46310-111">Conformità dell'applicazione</span><span class="sxs-lookup"><span data-stu-id="46310-111">Application Compliance</span></span>](compliance-application-compliance.md)  
+[<span data-ttu-id="46310-112">Certificazioni</span><span class="sxs-lookup"><span data-stu-id="46310-112">Certifications</span></span>](compliance-certifications.md)  
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
