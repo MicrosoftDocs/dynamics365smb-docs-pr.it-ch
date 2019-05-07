@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f473e7bd203c1324f5ac33fa52fb729f990f8105
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f5b828b655740f73ba77c583e1b57d91221b8c66
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827327"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921549"
 ---
 # <a name="balance"></a>Saldo
 Specifica un saldo di contabilità generale temporaneo. Quando si sceglie l'azione **Saldo** nella pagina **Conti C/G** viene visualizzata la finestra **Saldo provvisorio conti di contabilità generale**. In tale finestra viene visualizzato il saldo dei movimenti contabili registrati finali e il saldo di quelli immessi nelle registrazioni COGE correnti.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 755996e96561891388e226fbc4138f26c7b8f212
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4b7cefc82313b1e6967ec3c54759ab77ee0ae7fd
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827373"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925499"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order"></a>Stampare una lista prelievi magazzino da un ordine di vendita
 È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita. La lista prelievi contiene un elenco di articoli con le seguenti informazioni:  
