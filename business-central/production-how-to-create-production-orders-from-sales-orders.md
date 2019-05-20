@@ -13,31 +13,31 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 2049eec4dd4d145021edc0cf8ec9c2452c77cd01
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938462"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253471"
 ---
-# <a name="create-production-orders-from-sales-orders"></a><span data-ttu-id="63707-103">Creare gli ordini di produzione dagli ordini di vendita</span><span class="sxs-lookup"><span data-stu-id="63707-103">Create Production Orders from Sales Orders</span></span>
-<span data-ttu-id="63707-104">È possibile creare ordini di produzione per gli articoli prodotti direttamente dagli ordini di vendita.</span><span class="sxs-lookup"><span data-stu-id="63707-104">You can create production orders for produced items directly from sales orders.</span></span>  
+# <a name="create-production-orders-from-sales-orders"></a><span data-ttu-id="45e48-103">Creare gli ordini di produzione dagli ordini di vendita</span><span class="sxs-lookup"><span data-stu-id="45e48-103">Create Production Orders from Sales Orders</span></span>
+<span data-ttu-id="45e48-104">È possibile creare ordini di produzione per gli articoli prodotti direttamente dagli ordini di vendita.</span><span class="sxs-lookup"><span data-stu-id="45e48-104">You can create production orders for produced items directly from sales orders.</span></span>  
 
-## <a name="to-create-a-production-order-from-a-sales-order"></a><span data-ttu-id="63707-105">Per creare gli ordini di produzione dagli ordini di vendita</span><span class="sxs-lookup"><span data-stu-id="63707-105">To create a production order from a sales order</span></span>  
+## <a name="to-create-a-production-order-from-a-sales-order"></a><span data-ttu-id="45e48-105">Per creare gli ordini di produzione dagli ordini di vendita</span><span class="sxs-lookup"><span data-stu-id="45e48-105">To create a production order from a sales order</span></span>  
 
-1.  <span data-ttu-id="63707-106">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="63707-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="63707-107">Selezionare l'ordine di vendita per il quale creare un ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="63707-107">Select the sales order you want to create a production order for.</span></span>  
-3.  <span data-ttu-id="63707-108">Scegliere l'azione **Pianifica**.</span><span class="sxs-lookup"><span data-stu-id="63707-108">Choose the **Planning** action.</span></span> <span data-ttu-id="63707-109">Nella pagina **Pianifica ordine vendita** è possibile visualizzare la disponibilità dell'articolo presente nell'ordine di vendita.</span><span class="sxs-lookup"><span data-stu-id="63707-109">On the **Sales Order Planning** page, you can view the availability of the sales order item.</span></span>  
-4.  <span data-ttu-id="63707-110">Selezionare l'azione **Crea ordine produzione**.</span><span class="sxs-lookup"><span data-stu-id="63707-110">Choose the **Create Prod. Order** action.</span></span>  
-5.  <span data-ttu-id="63707-111">Selezionare lo stato e il tipo di ordine.</span><span class="sxs-lookup"><span data-stu-id="63707-111">Select the status and order type.</span></span>  
-6.  <span data-ttu-id="63707-112">Selezionare il pulsante **Sì** per creare l'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="63707-112">Choose the **Yes** button to create the production order.</span></span>
+1.  <span data-ttu-id="45e48-106">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="45e48-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="45e48-107">Selezionare l'ordine di vendita per il quale creare un ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="45e48-107">Select the sales order you want to create a production order for.</span></span>  
+3.  <span data-ttu-id="45e48-108">Scegliere l'azione **Pianifica**.</span><span class="sxs-lookup"><span data-stu-id="45e48-108">Choose the **Planning** action.</span></span> <span data-ttu-id="45e48-109">Nella pagina **Pianifica ordine vendita** è possibile visualizzare la disponibilità dell'articolo presente nell'ordine di vendita.</span><span class="sxs-lookup"><span data-stu-id="45e48-109">On the **Sales Order Planning** page, you can view the availability of the sales order item.</span></span>  
+4.  <span data-ttu-id="45e48-110">Selezionare l'azione **Crea ordine produzione**.</span><span class="sxs-lookup"><span data-stu-id="45e48-110">Choose the **Create Prod. Order** action.</span></span>  
+5.  <span data-ttu-id="45e48-111">Selezionare lo stato e il tipo di ordine.</span><span class="sxs-lookup"><span data-stu-id="45e48-111">Select the status and order type.</span></span>  
+6.  <span data-ttu-id="45e48-112">Selezionare il pulsante **Sì** per creare l'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="45e48-112">Choose the **Yes** button to create the production order.</span></span>
 
-<span data-ttu-id="63707-113">È anche possibile scegliere di creare un ordine di produzione progetto.</span><span class="sxs-lookup"><span data-stu-id="63707-113">You can also choose to make a project production order.</span></span> <span data-ttu-id="63707-114">Per ulteriori informazioni, vedere [Pianificare gli ordini di progetto](production-how-to-plan-project-orders.md).</span><span class="sxs-lookup"><span data-stu-id="63707-114">For more information, see [Plan Project Orders](production-how-to-plan-project-orders.md).</span></span>   
+<span data-ttu-id="45e48-113">È anche possibile scegliere di creare un ordine di produzione progetto.</span><span class="sxs-lookup"><span data-stu-id="45e48-113">You can also choose to make a project production order.</span></span> <span data-ttu-id="45e48-114">Per ulteriori informazioni, vedere [Pianificare gli ordini di progetto](production-how-to-plan-project-orders.md).</span><span class="sxs-lookup"><span data-stu-id="45e48-114">For more information, see [Plan Project Orders](production-how-to-plan-project-orders.md).</span></span>   
 
-## <a name="see-also"></a><span data-ttu-id="63707-115">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="63707-115">See Also</span></span>  
-[<span data-ttu-id="63707-116">Impostazione della produzione</span><span class="sxs-lookup"><span data-stu-id="63707-116">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="63707-117">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="63707-117">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="63707-118">Magazzino</span><span class="sxs-lookup"><span data-stu-id="63707-118">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="63707-119">Acquisti</span><span class="sxs-lookup"><span data-stu-id="63707-119">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="63707-120">[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="63707-120">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
-[<span data-ttu-id="63707-121">Impostare le procedure ottimali: Pianificazione forniture</span><span class="sxs-lookup"><span data-stu-id="63707-121">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="63707-122">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="63707-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="45e48-115">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="45e48-115">See Also</span></span>  
+[<span data-ttu-id="45e48-116">Impostazione della produzione</span><span class="sxs-lookup"><span data-stu-id="45e48-116">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="45e48-117">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="45e48-117">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="45e48-118">Magazzino</span><span class="sxs-lookup"><span data-stu-id="45e48-118">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="45e48-119">Acquisti</span><span class="sxs-lookup"><span data-stu-id="45e48-119">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="45e48-120">[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="45e48-120">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
+[<span data-ttu-id="45e48-121">Impostare le procedure ottimali: Pianificazione forniture</span><span class="sxs-lookup"><span data-stu-id="45e48-121">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="45e48-122">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="45e48-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
