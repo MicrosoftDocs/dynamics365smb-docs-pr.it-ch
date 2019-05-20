@@ -13,11 +13,11 @@ ms.search.keywords: service, cost, service order
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 697de344a439bb0a91b1f74acc3d8b93d2f6d5d3
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939194"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252154"
 ---
 # <a name="set-up-service-contracts"></a>Impostare i contratti di assistenza
 Prima di poter utilizzare i contratti, è necessario impostare quanto segue: 
