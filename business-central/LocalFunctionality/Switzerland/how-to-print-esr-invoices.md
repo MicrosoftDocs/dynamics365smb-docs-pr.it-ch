@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7897b15140e8ee3dbe63ab4707c8bfbc89008e2b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932004"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241305"
 ---
 # <a name="print-esr-invoices"></a>Stampare fatture ESR
 È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) nei seguenti modi:  

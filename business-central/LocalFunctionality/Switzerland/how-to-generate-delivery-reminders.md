@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 1d16251dbaf515da57e49e22303d970cc77db220
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928018"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245986"
 ---
 # <a name="generate-delivery-reminders"></a>Generare solleciti di consegna
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente. Per ulteriori informazioni, vedere [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md).  

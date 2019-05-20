@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e3d8e38ed8dfa9143c0436c366be1f090b18be55
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930519"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241296"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Stampare report di liste di pagamenti fornitore
 Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.  

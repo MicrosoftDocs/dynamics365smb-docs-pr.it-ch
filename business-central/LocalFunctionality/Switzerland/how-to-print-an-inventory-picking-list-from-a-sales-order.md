@@ -4,20 +4,20 @@ description: È possibile stampare una lista prelievi magazzino direttamente da 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 4b7cefc82313b1e6967ec3c54759ab77ee0ae7fd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925499"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245649"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order"></a>Stampare una lista prelievi magazzino da un ordine di vendita
 È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita. La lista prelievi contiene un elenco di articoli con le seguenti informazioni:  
