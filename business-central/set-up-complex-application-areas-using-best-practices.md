@@ -13,27 +13,27 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3d210bff8b48da7947f6755748c3304420eefeb1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925873"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251073"
 ---
-# <a name="set-up-complex-application-areas-using-best-practices"></a><span data-ttu-id="49a16-103">Impostare aree di applicazione complesse utilizzando le procedure ottimali</span><span class="sxs-lookup"><span data-stu-id="49a16-103">Set Up Complex Application Areas Using Best Practices</span></span>
-<span data-ttu-id="49a16-104">Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.</span><span class="sxs-lookup"><span data-stu-id="49a16-104">Entering the correct setup values from the start is important to the success of any new business software.</span></span>  
+# <a name="set-up-complex-application-areas-using-best-practices"></a><span data-ttu-id="be52c-103">Impostare aree di applicazione complesse utilizzando le procedure ottimali</span><span class="sxs-lookup"><span data-stu-id="be52c-103">Set Up Complex Application Areas Using Best Practices</span></span>
+<span data-ttu-id="be52c-104">Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.</span><span class="sxs-lookup"><span data-stu-id="be52c-104">Entering the correct setup values from the start is important to the success of any new business software.</span></span>  
 
- <span data-ttu-id="49a16-105">Se si utilizza Avvio rapido per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.</span><span class="sxs-lookup"><span data-stu-id="49a16-105">Whether you use Rapid Start to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.</span></span>  
+ <span data-ttu-id="be52c-105">Se si utilizza Avvio rapido per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.</span><span class="sxs-lookup"><span data-stu-id="be52c-105">Whether you use Rapid Start to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.</span></span>  
 
- <span data-ttu-id="49a16-106">Nella guida di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono incluse informazioni con la procedura consigliata relative alla modalità di impostazione dei campi nelle seguenti area di applicazione:</span><span class="sxs-lookup"><span data-stu-id="49a16-106">Help in [!INCLUDE[d365fin](includes/d365fin_md.md)] includes best-practice information about how to set up key fields in the following application areas:</span></span>  
+ <span data-ttu-id="be52c-106">Nella guida di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono incluse informazioni con la procedura consigliata relative alla modalità di impostazione dei campi nelle seguenti area di applicazione:</span><span class="sxs-lookup"><span data-stu-id="be52c-106">Help in [!INCLUDE[d365fin](includes/d365fin_md.md)] includes best-practice information about how to set up key fields in the following application areas:</span></span>  
 
--   [<span data-ttu-id="49a16-107">Impostare le procedure ottimali: Pianificazione forniture</span><span class="sxs-lookup"><span data-stu-id="49a16-107">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+-   [<span data-ttu-id="be52c-107">Impostare le procedure ottimali: Pianificazione forniture</span><span class="sxs-lookup"><span data-stu-id="be52c-107">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
 
--   [<span data-ttu-id="49a16-108">Impostare le procedure ottimali: metodo di costing</span><span class="sxs-lookup"><span data-stu-id="49a16-108">Setup Best Practices: Costing Method</span></span>](setup-best-practices-costing-method.md)  
+-   [<span data-ttu-id="be52c-108">Impostare le procedure ottimali: metodo di costing</span><span class="sxs-lookup"><span data-stu-id="be52c-108">Setup Best Practices: Costing Method</span></span>](setup-best-practices-costing-method.md)  
 
-## <a name="see-also"></a><span data-ttu-id="49a16-109">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="49a16-109">See Also</span></span>  
-<span data-ttu-id="49a16-110">[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="49a16-110">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
-[<span data-ttu-id="49a16-111">Dettagli di progettazione: Metodi di costing</span><span class="sxs-lookup"><span data-stu-id="49a16-111">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
-<span data-ttu-id="49a16-112">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="49a16-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="be52c-109">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="be52c-109">See Also</span></span>  
+<span data-ttu-id="be52c-110">[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="be52c-110">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
+[<span data-ttu-id="be52c-111">Dettagli di progettazione: Metodi di costing</span><span class="sxs-lookup"><span data-stu-id="be52c-111">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
+<span data-ttu-id="be52c-112">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="be52c-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  

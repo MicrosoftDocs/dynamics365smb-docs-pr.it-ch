@@ -12,17 +12,17 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 9139855aa90aa0505f8735660d233475cc42bf91
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932828"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250229"
 ---
-# <a name="intelligent-cloud-base-extension"></a><span data-ttu-id="599a7-103">Estensione Cloud intelligente base</span><span class="sxs-lookup"><span data-stu-id="599a7-103">Intelligent Cloud Base Extension</span></span>
+# <a name="intelligent-cloud-base-extension"></a><span data-ttu-id="fbca0-103">Estensione Cloud intelligente base</span><span class="sxs-lookup"><span data-stu-id="fbca0-103">Intelligent Cloud Base Extension</span></span>
 
-<span data-ttu-id="599a7-104">Questa estensione guiderà nel processo per configurare e gestire l'ambiente Cloud intelligente.</span><span class="sxs-lookup"><span data-stu-id="599a7-104">This extension will take you through the process to configure and manage your Intelligent Cloud environment.</span></span><span data-ttu-id="599a7-105"> Una volta configurato l'ambiente Cloud intelligente, sarà possibile gestire le repliche dei dati dalla soluzione locale al tenant cloud di [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="599a7-105"> Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="599a7-106">L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale.</span><span class="sxs-lookup"><span data-stu-id="599a7-106">This extension will work in conjunction with a data replication extension available for your specific on-premises solution.</span></span><span data-ttu-id="599a7-107"> Per ulteriori informazioni, vedere [Accesso a Cloud intelligente](about-intelligent-cloud.md).</span><span class="sxs-lookup"><span data-stu-id="599a7-107"> For more information, see [Your Access to the Intelligent Cloud](about-intelligent-cloud.md).</span></span>  
+<span data-ttu-id="fbca0-104">Questa estensione guiderà nel processo per configurare e gestire l'ambiente Cloud intelligente.</span><span class="sxs-lookup"><span data-stu-id="fbca0-104">This extension will take you through the process to configure and manage your Intelligent Cloud environment.</span></span><span data-ttu-id="fbca0-105"> Una volta configurato l'ambiente Cloud intelligente, sarà possibile gestire le repliche dei dati dalla soluzione locale al tenant cloud di [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="fbca0-105"> Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="fbca0-106">L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale.</span><span class="sxs-lookup"><span data-stu-id="fbca0-106">This extension will work in conjunction with a data replication extension available for your specific on-premises solution.</span></span><span data-ttu-id="fbca0-107"> Per ulteriori informazioni, vedere [Accesso a Cloud intelligente](about-intelligent-cloud.md).</span><span class="sxs-lookup"><span data-stu-id="fbca0-107"> For more information, see [Your Access to the Intelligent Cloud](about-intelligent-cloud.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="599a7-108">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="599a7-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fbca0-108">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="fbca0-108">See Also</span></span>
 
-[<span data-ttu-id="599a7-109">Accesso a Cloud intelligente</span><span class="sxs-lookup"><span data-stu-id="599a7-109">Your Access to the Intelligent Cloud</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="599a7-110">Estensione Cloud intelligente di Business Central</span><span class="sxs-lookup"><span data-stu-id="599a7-110">Business Central Intelligent Cloud extension</span></span>](ui-extensions-data-replication.md)  
+[<span data-ttu-id="fbca0-109">Accesso a Cloud intelligente</span><span class="sxs-lookup"><span data-stu-id="fbca0-109">Your Access to the Intelligent Cloud</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="fbca0-110">Estensione Cloud intelligente di Business Central</span><span class="sxs-lookup"><span data-stu-id="fbca0-110">Business Central Intelligent Cloud extension</span></span>](ui-extensions-data-replication.md)  

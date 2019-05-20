@@ -1,1 +1,1 @@
-<span data-ttu-id="ef712-101">Accountant Hub</span><span class="sxs-lookup"><span data-stu-id="ef712-101">Accountant Hub</span></span>
+<span data-ttu-id="0cf4e-101">Accountant Hub</span><span class="sxs-lookup"><span data-stu-id="0cf4e-101">Accountant Hub</span></span>
