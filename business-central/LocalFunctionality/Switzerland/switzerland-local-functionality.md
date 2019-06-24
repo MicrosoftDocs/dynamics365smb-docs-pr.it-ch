@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 9128135404f5cf8775763967cf3d3ccd7573b9a1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab4ff824d3580fec45b5f25fb5a77fc276dbbb16
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241418"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594151"
 ---
 # <a name="switzerland-local-functionality"></a>Funzionalità locale per la Svizzera
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilità della funzionalità
 
-* IVA e imposta
+* IVA
     * [Creare e stampare una dichiarazione IVA svizzera](how-to-create-and-print-a-swiss-vat-statement.md) **Disponibile ora**
     * [Stampare dichiarazioni IVA svizzere (versioni precedenti)](how-to-print-swiss-vat-statements-older-version-.md) **Disponibile ora**
     * [IVA svizzera](swiss-value-added-tax.md) **Disponibile ora**
