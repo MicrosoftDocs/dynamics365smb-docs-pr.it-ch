@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/30/2019
 ms.author: soalex
-ms.openlocfilehash: 4711c052d7a878329d9b4890ff891c4fa0f7fb2f
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: f28ed2ae21308d87f295c1d75973073c3bdf1596
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870573"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985808"
 ---
 # <a name="switzerland-local-functionality"></a>Funzionalità locale per la Svizzera
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -31,7 +31,7 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md) **Disponibile ora**
 
 * Attività bancarie e pagamenti
-    * Codice a matrice sulle distinte di pagamento svizzere **Pianificato per il terzo trimestre del 2019**
+    * Codice a matrice sulle distinte di pagamento svizzere **Pianificato per il primo/secondo trimestre del 2020**
     * [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md) **Disponibile ora**
     * [Esportare pagamenti tramite LSV](how-to-export-payments-using-lsv.md) **Disponibile ora**
     * [Importare pagamenti ESR](how-to-import-esr-payments.md) **Disponibile ora**
