@@ -4,20 +4,20 @@ description: Per abilitare solleciti di consegna per acquisti scaduti, è necess
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87971c933174a547cc11ca821138e2f8afcb612e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ac9d8aef8e370423d76dea1a20e08874ad84c50d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241352"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301048"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a>Assegnare codici di solleciti di consegna ai fornitori
 Per abilitare solleciti di consegna per acquisti scaduti, è necessario assegnare termini di solleciti di consegna ai fornitori. Per ulteriori informazioni, vedere [Solleciti di consegna](delivery-reminders.md).  

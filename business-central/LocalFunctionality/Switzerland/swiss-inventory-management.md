@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3659380a67f7b16a8b44400d4d4691ff0935aa06
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: 53386804f286b3cfff882c647240dfa9cca2c161
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870567"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300961"
 ---
 # <a name="swiss-inventory-management"></a>Gestione del magazzino per la Svizzera
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  
@@ -35,5 +35,5 @@ Ulteriori informazioni, come il numero cliente, il codice dell'indirizzo di sped
 Se sono state registrate più spedizioni per un cliente, è possibile creare una fattura combinata con la funzione **Prendi righe di spedizione**. Per ulteriori informazioni, vedere la pagina Prendi righe di spedizione. Quando si utilizza questa funzione, il testo creato nelle righe della fattura include informazioni sul numero di spedizione e sulla data di spedizione. Ad esempio, il testo potrebbe essere Nr. spedizione 102040 di 25.01.01. Ciò consente di tracciare facilmente le fatture con più spedizioni.  
 
 ## <a name="see-also"></a>Vedere anche  
-[Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
-[Impostare le ubicazioni](../../inventory-how-setup-locations.md)
+ [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
+ [Impostare le ubicazioni](../../inventory-how-setup-locations.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/30/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: f28ed2ae21308d87f295c1d75973073c3bdf1596
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: 8c13ef213f5f0ca3169bfcbdb595839a5e3d3250
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985808"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300976"
 ---
 # <a name="switzerland-local-functionality"></a>Funzionalità locale per la Svizzera
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -68,7 +68,6 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 * Generale    
     * [Importare codici postali svizzeri](how-to-import-swiss-post-codes.md) **Disponibile ora**
     * [Documenti di acquisto e ordini di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md) **Disponibile ora**
-    * [Stampare ordini di acquisto e vendita durante la registrazione batch](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Disponibile ora**
 
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
