@@ -8,30 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ui-how-add-link-to-record
+ms.openlocfilehash: 2b5ed5ade59e2cf3b8832da088d79adfba4ad7fa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240902"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300707"
 ---
-# <a name="attaching-files-to-cards-and-documents"></a><span data-ttu-id="60cbc-103">Allegare file a schede e documenti</span><span class="sxs-lookup"><span data-stu-id="60cbc-103">Attaching Files to Cards and Documents</span></span>
-<span data-ttu-id="60cbc-104">È possibile allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, nonché allegare file a tutti i tipi di documenti di acquisto e vendita.</span><span class="sxs-lookup"><span data-stu-id="60cbc-104">You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.</span></span>
+# <a name="attaching-files-to-cards-and-documents"></a><span data-ttu-id="1c834-103">Allegare file a schede e documenti</span><span class="sxs-lookup"><span data-stu-id="1c834-103">Attaching Files to Cards and Documents</span></span>
+<span data-ttu-id="1c834-104">È possibile allegare immagini, documenti e altri tipi di file a tutte le schede, quali la scheda articolo e la scheda commessa, nonché allegare file a tutti i tipi di documenti di acquisto e vendita.</span><span class="sxs-lookup"><span data-stu-id="1c834-104">You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.</span></span>
 
 > [!Note]
-> <span data-ttu-id="60cbc-105">In generale, la dimensione di file massima per gli allegati è 150 MB.</span><span class="sxs-lookup"><span data-stu-id="60cbc-105">In general, the maximum file size for attachments is 150 MB.</span></span> <span data-ttu-id="60cbc-106">Tuttavia, il limite può essere inferiore per alcune funzionalità.</span><span class="sxs-lookup"><span data-stu-id="60cbc-106">However, the limit can be lower for some features.</span></span> 
+> <span data-ttu-id="1c834-105">In generale, la dimensione di file massima per gli allegati è 150 MB.</span><span class="sxs-lookup"><span data-stu-id="1c834-105">In general, the maximum file size for attachments is 150 MB.</span></span> <span data-ttu-id="1c834-106">Tuttavia, il limite può essere inferiore per alcune funzionalità.</span><span class="sxs-lookup"><span data-stu-id="1c834-106">However, the limit can be lower for some features.</span></span>
 
-## <a name="to-attach-a-file-to-a-sales-order"></a><span data-ttu-id="60cbc-107">Per allegare un file a un ordine di vendita</span><span class="sxs-lookup"><span data-stu-id="60cbc-107">To attach a file to a sales order</span></span>
-<span data-ttu-id="60cbc-108">La seguente procedura è basata su ordine di vendita.</span><span class="sxs-lookup"><span data-stu-id="60cbc-108">The following procedure is based on a sales order.</span></span> <span data-ttu-id="60cbc-109">I passaggi sono simili per tutti gli altri documenti di acquisto o vendita e per tutte le schede.</span><span class="sxs-lookup"><span data-stu-id="60cbc-109">The steps are similar for all other sales and purchase documents and for all cards.</span></span>
+## <a name="to-attach-a-file-to-a-sales-order"></a><span data-ttu-id="1c834-107">Per allegare un file a un ordine di vendita</span><span class="sxs-lookup"><span data-stu-id="1c834-107">To attach a file to a sales order</span></span>
+<span data-ttu-id="1c834-108">La seguente procedura è basata su ordine di vendita.</span><span class="sxs-lookup"><span data-stu-id="1c834-108">The following procedure is based on a sales order.</span></span> <span data-ttu-id="1c834-109">I passaggi sono simili per tutti gli altri documenti di acquisto o vendita e per tutte le schede.</span><span class="sxs-lookup"><span data-stu-id="1c834-109">The steps are similar for all other sales and purchase documents and for all cards.</span></span>
 
-1. <span data-ttu-id="60cbc-110">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="60cbc-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>
-2. <span data-ttu-id="60cbc-111">Aprire l'ordine di vendita a cui desidera allegare un file.</span><span class="sxs-lookup"><span data-stu-id="60cbc-111">Open the sales that you want to attach a file to.</span></span>
-3. <span data-ttu-id="60cbc-112">Scegliere l'azione **Allegati**.</span><span class="sxs-lookup"><span data-stu-id="60cbc-112">Choose the **Attachments** action.</span></span>
-4. <span data-ttu-id="60cbc-113">Nella pagina **Documenti allegati**, nel campo **Allegato**, scegliere il pulsante **Seleziona file**.</span><span class="sxs-lookup"><span data-stu-id="60cbc-113">On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.</span></span>
-5. <span data-ttu-id="60cbc-114">Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri**.</span><span class="sxs-lookup"><span data-stu-id="60cbc-114">Select a file from any location, and then choose the **Open** button.</span></span>
+1. <span data-ttu-id="1c834-110">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="1c834-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1c834-111">Aprire l'ordine di vendita a cui desidera allegare un file.</span><span class="sxs-lookup"><span data-stu-id="1c834-111">Open the sales that you want to attach a file to.</span></span>
+3. <span data-ttu-id="1c834-112">Scegliere l'azione **Allegati**.</span><span class="sxs-lookup"><span data-stu-id="1c834-112">Choose the **Attachments** action.</span></span>
+4. <span data-ttu-id="1c834-113">Nella pagina **Documenti allegati**, nel campo **Allegato**, scegliere il pulsante **Seleziona file**.</span><span class="sxs-lookup"><span data-stu-id="1c834-113">On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.</span></span>
+5. <span data-ttu-id="1c834-114">Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri**.</span><span class="sxs-lookup"><span data-stu-id="1c834-114">Select a file from any location, and then choose the **Open** button.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="60cbc-115">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="60cbc-115">See Also</span></span>
-[<span data-ttu-id="60cbc-116">Registrare nuovi articoli</span><span class="sxs-lookup"><span data-stu-id="60cbc-116">Register New Items</span></span>](inventory-how-register-new-items.md)  
-[<span data-ttu-id="60cbc-117">Vendere prodotti</span><span class="sxs-lookup"><span data-stu-id="60cbc-117">Sell Products</span></span>](sales-how-sell-products.md)
+## <a name="see-also"></a><span data-ttu-id="1c834-115">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="1c834-115">See Also</span></span>
+[<span data-ttu-id="1c834-116">Registrare nuovi articoli</span><span class="sxs-lookup"><span data-stu-id="1c834-116">Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="1c834-117">Vendere prodotti</span><span class="sxs-lookup"><span data-stu-id="1c834-117">Sell Products</span></span>](sales-how-sell-products.md)
