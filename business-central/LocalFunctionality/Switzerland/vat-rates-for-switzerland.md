@@ -1,8 +1,6 @@
 ---
 title: Aliquote IVA per la Svizzera
 description: Se le aliquote IVA variano, è necessario usare lo strumento di modifica aliquota IVA. Nelle versioni precedenti di Business Central era possibile usare contemporaneamente per le transazioni sia l'aliquota IVA precedente che quella nuova, a seconda delle date di spedizione. Questa funzionalità è stata deprecata.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d4cbc23e06fad5c45dec4d4e97d260a12f7897e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f56145d97b6bee5ef84606bac111d091ec4b3d3c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300974"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881288"
 ---
 # <a name="vat-rates-for-switzerland"></a>Aliquote IVA per la Svizzera
 Se le aliquote IVA variano, è necessario usare lo strumento di modifica aliquota IVA. Nelle versioni precedenti di [!INCLUDE[d365fin](../../includes/d365fin_md.md)] era possibile usare contemporaneamente per le transazioni sia l'aliquota IVA precedente che quella nuova, a seconda delle date di spedizione. Questa funzionalità è stata deprecata.  

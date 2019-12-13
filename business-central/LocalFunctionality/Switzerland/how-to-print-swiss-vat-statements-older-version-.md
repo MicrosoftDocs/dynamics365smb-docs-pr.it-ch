@@ -1,8 +1,6 @@
 ---
 title: Come stampare dichiarazioni IVA svizzere (versione precedente)
 description: La dichiarazione IVA svizzera è il rapporto di calcolo standard per la realizzazione dell'IVA. È possibile stampare questo rapporto e utilizzarlo per le dichiarazioni fiscali trimestrali.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 19ab19375d3cfdc9ddba8a28afe6fce6d43b5b4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 84de1625e8929869bbaa37099b38c7495ac24e68
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301010"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878811"
 ---
 # <a name="print-swiss-vat-statements-older-version"></a>Stampare dichiarazioni IVA svizzere (versione precedente)
 
@@ -32,7 +30,7 @@ La **dichiarazione IVA svizzera** è il rapporto di calcolo standard per la real
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Dichiarazione IVA svizzera**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Dichiarazione IVA Svizzera**, quindi scegliere il collegamento correlato.  
 
     > [!NOTE]  
     >  Verrà ricevuto un messaggio indicante che la **dichiarazione IVA svizzera** viene aperta nella lingua locale.  

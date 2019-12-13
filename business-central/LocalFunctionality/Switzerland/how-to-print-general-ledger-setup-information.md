@@ -1,8 +1,6 @@
 ---
 title: Come stampare le informazioni di setup della contabilità generale
 description: Prima di usare Business Central nelle attività giornaliere, è possibile eseguire il report Informazioni setup C/G per visualizzare i dati master configurati.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c77437487ebba06a6e0000ef7b1f7418807b7e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 11b3d59c233b893ab1bb2159e895462e8a56ac4b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301015"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881306"
 ---
 # <a name="print-general-ledger-setup-information"></a>Stampare le informazioni di setup della contabilità generale
 Prima di usare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nelle attività giornaliere, è possibile eseguire il report **Informazioni setup C/G** per visualizzare i dati master configurati. È possibile esaminare i dati master in modo da disporre di una base rispetto alla quale eseguire un confronto e quindi verificare, ad esempio, di aver impostato le categorie di registrazione in modo corretto.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Per stampare le informazioni di setup della contabilità generale  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Informazioni setup C/G**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Informazioni setup C/G**, quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni**, nel campo **Informazioni sull'installazione** selezionare l'area di dati master come descritto nella tabella seguente.  
 
     |Opzione|Descrizione|  

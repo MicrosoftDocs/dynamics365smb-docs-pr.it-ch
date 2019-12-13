@@ -1,8 +1,6 @@
 ---
 title: Gestione del magazzino per la Svizzera
 description: I miglioramenti svizzeri includono funzioni speciali di gestione magazzino.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53386804f286b3cfff882c647240dfa9cca2c161
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a0ba652ab4598b541b2cecdbfd78286306c23be
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300961"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881294"
 ---
 # <a name="swiss-inventory-management"></a>Gestione del magazzino per la Svizzera
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  

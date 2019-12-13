@@ -1,8 +1,6 @@
 ---
 title: Come rettificare i tassi di cambio
 description: Se è presente una vendita imponibile in una valuta estera, è necessario usare il tasso ufficiale per la conversione di valuta IVA, come definito dall'ente Federal Tax Administration.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2ac0ae057f13bb3ab522bd9c542b66bba1d5304
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 89c431200ebdf1daf658f59ec368216af35506ba
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301063"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881321"
 ---
 # <a name="adjust-exchange-rates"></a>Rettifica tassi di cambio
 Se è presente una vendita imponibile in una valuta estera, è necessario usare il tasso ufficiale per la conversione di valuta IVA, come definito dall'ente Federal Tax Administration.  
@@ -33,11 +31,11 @@ Per ulteriori informazioni sulla valute IVA ed estere, vedere il sito Web [ESTV]
 
 ## <a name="to-adjust-an-exchange-rate"></a>Per rettificare un tasso di cambio  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Valute**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Valute**, quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Tassi di cambio**.  
 3.  Nella pagina **Tassi di cambio valuta** immettere l'aliquota IVA ufficiale per periodo per ogni valuta nei campi **Importo tasso di cambio IVA** e **Importo tasso di cambio IVA relazionale**.  
 4.  Scegliere il pulsante **OK**.  
-5.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Rettifica tassi di cambio**, quindi scegliere il collegamento correlato.  
+5.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Rettifica tassi di cambio**, quindi scegliere il collegamento correlato.  
 6.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.   
 
     |Campo|Descrizione|  

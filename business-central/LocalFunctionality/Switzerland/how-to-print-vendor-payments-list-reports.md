@@ -1,8 +1,6 @@
 ---
 title: Come stampare report di liste di pagamenti fornitore
 description: Il report Lista pagamenti fornitore fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d31b86b9a746391244ae915629b24d51e35eed64
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 77fd2f37c9770ca2a17ade1311fd002210b5f629
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301000"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878808"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Stampare report di liste di pagamenti fornitore
 Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.  
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Per stampare il report di liste di pagamenti fornitore  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Lista pagamenti fornitore**, quindi selezionare il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Lista pagamenti fornitore**, quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
