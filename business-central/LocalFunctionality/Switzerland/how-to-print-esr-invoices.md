@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3a298c20c21eda37bc55536547684741573f85c1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 735866474cb18f7924e7edc90046ba1a3239205f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301018"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189095"
 ---
 # <a name="print-esr-invoices"></a>Stampare fatture ESR
 È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) nei seguenti modi:  
@@ -34,7 +34,7 @@ La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli s
 
 ## <a name="to-print-esr-invoices"></a>Per stampare fatture ESR  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fattura ESR**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Fattura PVR**, quindi scegliere il collegamento correlato.  
 2.  Nel processo batch **Fattura di vendita ESR**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  
@@ -48,6 +48,6 @@ La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli s
 
 È inoltre possibile ristampare il report ESR della fattura di vendita o il report del tagliando ESR di vendita.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Pagamenti elettronici svizzeri tramite ESR](swiss-electronic-payments-using-esr.md)   
  [Importare i pagamenti ESR](how-to-import-esr-payments.md)

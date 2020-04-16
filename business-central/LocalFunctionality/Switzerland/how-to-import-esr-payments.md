@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0efdee2c91155234e19d3c5c64a53ab112d82e6b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 832dbad14962b0e7a1f324d81d798fb4d6759e13
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301030"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189125"
 ---
 # <a name="import-esr-payments"></a>Importare i pagamenti ESR
 Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene informazioni sulle fatture pagate. È possibile ricevere questo file dalla banca in formato elettronico oppure tramite e-mail.  
@@ -26,7 +26,7 @@ Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene in
 
 ## <a name="to-import-esr-payments"></a>Per importare pagamenti ESR  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni incassi**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Registrazioni incassi**, quindi scegliere il collegamento correlato.  
 2.  Nel campo **Nome batch** selezionare il batch contabile necessario.  
 
     > [!NOTE]  
@@ -41,6 +41,6 @@ Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene in
 
 Le informazioni sui pagamenti vengono importate nelle righe di registrazioni. I pagamenti vengono applicati automaticamente alle rispettive fatture in base a numeri di riferimento ESR univoci.  
 
-## <a name="see-also"></a>Vedi anche  
- [Pagamenti elettronici svizzeri tramite ESR](swiss-electronic-payments-using-esr.md)   
+## <a name="see-also"></a>Vedere anche  
+ [Pagamenti elettronici svizzeri utilizzando ESR](swiss-electronic-payments-using-esr.md)   
  [Stampare fatture ESR](how-to-print-esr-invoices.md)

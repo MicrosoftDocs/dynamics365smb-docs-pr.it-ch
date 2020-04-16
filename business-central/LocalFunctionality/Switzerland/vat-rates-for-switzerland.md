@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f56145d97b6bee5ef84606bac111d091ec4b3d3c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3128171503324f340e3bae6272ab464a3b2bc925
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881288"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189055"
 ---
 # <a name="vat-rates-for-switzerland"></a>Aliquote IVA per la Svizzera
 Se le aliquote IVA variano, è necessario usare lo strumento di modifica aliquota IVA. Nelle versioni precedenti di [!INCLUDE[d365fin](../../includes/d365fin_md.md)] era possibile usare contemporaneamente per le transazioni sia l'aliquota IVA precedente che quella nuova, a seconda delle date di spedizione. Questa funzionalità è stata deprecata.  

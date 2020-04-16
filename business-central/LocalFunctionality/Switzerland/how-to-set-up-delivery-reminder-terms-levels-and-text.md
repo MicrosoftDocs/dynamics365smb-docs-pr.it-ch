@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d8785284a5a9f7d580ff7bac19a88ef5c940ae5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6324993c3044f08a837590a39d831f438c66fcd7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300991"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189089"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Impostare i termini, i livelli e i testi di sollecito di consegna
 Per creare i solleciti di consegna è necessario impostare quanto segue:  
@@ -32,7 +32,7 @@ Per ulteriori informazioni, vedere [Solleciti di consegna](delivery-reminders.md
 
 ## <a name="to-set-up-delivery-reminder-terms"></a>Per impostare i termini di sollecito di consegna  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Termini di sollecito di consegna**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Termini di sollecito consegna**, quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 

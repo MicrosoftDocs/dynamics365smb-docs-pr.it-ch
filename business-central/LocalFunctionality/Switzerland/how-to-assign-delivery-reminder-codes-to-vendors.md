@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ac9d8aef8e370423d76dea1a20e08874ad84c50d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4edb514398db6d66bb36bad80013162facbe1ba3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301048"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189140"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a>Assegnare codici di solleciti di consegna ai fornitori
 Per abilitare solleciti di consegna per acquisti scaduti, è necessario assegnare termini di solleciti di consegna ai fornitori. Per ulteriori informazioni, vedere [Solleciti di consegna](delivery-reminders.md).  
 
 ## <a name="to-assign-delivery-reminders-codes-to-vendors"></a>Per assegnare codici di solleciti di consegna ai fornitori  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fornitori**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Fornitori**, quindi scegliere il collegamento correlato.  
 2.  Selezionare il fornitore per cui si intendono impostare i solleciti di consegna e scegliere l'azione **Modifica**.  
 3.  Nella Scheda dettaglio **Carico**, nel campo **Termini solleciti di consegna** selezionare un codice di termini di solleciti di consegna per il fornitore.  
 4.  Scegliere il pulsante **OK**.  
