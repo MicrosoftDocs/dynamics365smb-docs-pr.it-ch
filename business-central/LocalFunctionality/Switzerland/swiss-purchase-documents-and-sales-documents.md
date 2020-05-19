@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2460c086ec4b126e4ea162f865eee002bf48bf7a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d5a52c0e3f13da1b1f78408e513f731487136e0
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189065"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333932"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documenti di acquisto e di vendita per la Svizzera
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] include miglioramenti svizzeri per documenti di vendita e documenti di acquisto. È incluso quanto segue:  
@@ -34,6 +34,9 @@ Quando viene creata una offerta di vendita o un ordine di vendita, se il tipo de
 Gli articoli vengono suddivisi in base ai valori generati dal sistema visualizzati nel campo **Livello**.  
 
 Specificare un articolo come variante nella riga dell'offerta di vendita. In tal modo è possibile elencare gli articoli alternativi senza includere il prezzo nell'offerta. Inoltre è possibile fare riferimento a parti specifiche di una offerta di vendita o di un ordine di vendita in base al valore visualizzato nel campo **Posizione** della riga dell'offerta di vendita o dell'ordine di vendita. Per ulteriori informazioni, vedere la tabella Righe vendite.  
+
+> [!NOTE]
+> Funzionalità disponibile solo in [!INCLUDE[prodshort](../../includes/prodshort.md)] locale.
 
 ## <a name="purchase-invoices-and-sales-invoices-with-payment-discounts"></a>Fatture di acquisto e fatture di vendita con sconti di pagamento  
 Per le fatture di acquisto e le fatture di vendita, l'importo della fattura viene ridotto per l'importo dello sconto e quindi arrotondato. Anche il totale della fattura viene arrotondato se c'è uno sconto. Per ulteriori informazioni, vedere la tabella Setup contabilità generale.  
