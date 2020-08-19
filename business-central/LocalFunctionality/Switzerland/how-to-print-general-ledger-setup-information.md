@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1416ed53e1869ac3103da1fed92c77979178336d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cabed6f6946e10cb50f75dc3183f078c6007d380
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189098"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676931"
 ---
 # <a name="print-general-ledger-setup-information"></a>Stampare le informazioni di setup della contabilità generale
 Prima di usare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nelle attività giornaliere, è possibile eseguire il report **Informazioni setup C/G** per visualizzare i dati master configurati. È possibile esaminare i dati master in modo da disporre di una base rispetto alla quale eseguire un confronto e quindi verificare, ad esempio, di aver impostato le categorie di registrazione in modo corretto.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Per stampare le informazioni di setup della contabilità generale  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Informazioni setup C/G**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni setup C/G** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni**, nel campo **Informazioni sull'installazione** selezionare l'area di dati master come descritto nella tabella seguente.  
 
     |Opzione|Descrizione|  

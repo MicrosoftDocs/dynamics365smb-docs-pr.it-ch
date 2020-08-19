@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73d5b83a432bb5ce91caff02fb21491adb509dc4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b391d655c4fc61f15cd240809183550a678f143
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189131"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676953"
 ---
 # <a name="export-payments-using-lsv"></a>Esportare pagamenti tramite LSV
 È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV. È possibile inviare i file generati alla banca su un disco oppure usare un trasferimento file elettronico, ad esempio tramite il servizio di online banking o tramite un portale Internet.  
 
 ## <a name="to-export-payments-using-lsv"></a>Per esportare pagamenti tramite LSV  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Lista registrazioni LSV**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista registrazioni LSV** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Lista registrazioni LSV** selezionare le registrazioni LSV desiderate.  
 3.  Scegliere l'azione **Scrivi file LSV**.  
 4.  Nella pagina **Scrivi file LSV**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3f89d73ded1b631ba078185c55f12179a1401e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0baef6b69d5b32c2d185782b5393890899ddd65d
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189137"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677105"
 ---
 # <a name="create-delivery-reminders-manually"></a>Creare solleciti di consegna manualmente
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile creare un singolo sollecito di consegna manualmente o generare solleciti di consegna per tutte le consegne scadute. Per ulteriori informazioni, vedere [Generare solleciti di consegna](how-to-generate-delivery-reminders.md).
@@ -25,7 +25,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile creare sollec
 
 ## <a name="to-create-a-delivery-reminder-manually"></a>Per creare un sollecito di consegna manualmente  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Sollecito di consegna**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Sollecito consegna** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nella Scheda dettaglio **Generale** della pagina **Sollecito di consegna** compilare i campi come descritto nella tabella seguente.  
 

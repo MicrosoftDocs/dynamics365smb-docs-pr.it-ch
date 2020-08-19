@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d80b1f5ade4778b71b79dcddfd347587869e16a7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 17b29e5ed357f139b6bbcef96204c78736404762
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189110"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676643"
 ---
 # <a name="post-lsv-payments"></a>Registrare pagamenti LSV+
 È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (Lastschrift Verfahren) dalla banca.  
 
 ## <a name="to-post-lsv-payments"></a>Registrare pagamenti LSV+  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Registrazioni incassi**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.  
 2.  Selezionare le registrazioni richieste, quindi scegliere l'azione **Modifica registrazioni**.  
 
     > [!NOTE]  

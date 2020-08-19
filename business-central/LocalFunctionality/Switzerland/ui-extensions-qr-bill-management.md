@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.date: 05/05/2020
 ms.author: soalex
-ms.openlocfilehash: d331be04eefa0f6f3786bb43fed94682b2c11ff1
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 6c3f1a2209db2ff3e1f82e0b24d44281c661a9f5
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333929"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676843"
 ---
 # <a name="qr-bill-management-in-d365fin"></a>Gestione fatture QR in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 Dal 1° luglio 2020, le società svizzere devono essere in grado di ricevere le fatture QR. Le fatture QR sono distinte di pagamento che seguono le fatture e rappresentano un'iniziativa a livello nazionale per semplificare i processi di pagamento. Le fatture QR sostituiscono tutte le distinte di pagamento esistenti e le funzionalità relative a PVR. Contengono tutte le informazioni necessarie per effettuare i pagamenti e un codice QR sulla distinta di pagamento semplifica l'importazione delle informazioni [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Tutte le informazioni rilevanti vengono importate e utilizzate per generare pagamenti per il fornitore che ha inviato la fattura QR, incluso il riferimento di pagamento, che viene automaticamente incluso nelle voci dei movimenti contabili fornitori ed esportato nei file di pagamento alla banca.
@@ -63,7 +63,7 @@ Puoi ricevere le fatture QR in diversi luoghi in [!INCLUDE[d365fin](../../includ
 ### <a name="to-receive-a-qr-bill-through-an-incoming-documents"></a>Per ricevere una fattura QR tramite documenti in arrivo
 La ricezione di una fattura QR tramite documenti in arrivo è particolarmente utile quando il processo è automatizzato, ma è anche possibile ricevere manualmente una fattura QR tramite documenti in arrivo.
 
-1. Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Documenti in entrata**, quindi scegliere il collegamento correlato.
+1. Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Documenti in entrata** e quindi scegliere il collegamento correlato.
 2. Nella casella **Documenti in arrivo** creare una nuova voce selezionando **Nuovo**, quindi **Nuovo**. 
 3. Nella casella **Documenti in Arrivo** inserisci una descrizione nel campo **Descrizione** .
 4. Per importare la fattura QR selezionare**Azioni**, quindi **Fatture QR**, e **Scannerizza fattura QR** per scannerizzare una fattura QR nei documenti in entrata.

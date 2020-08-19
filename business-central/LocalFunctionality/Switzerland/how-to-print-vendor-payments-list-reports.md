@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 89ccf004c5f81b9e4b952aa2d1fb4ca18fecb13b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b82b8a568618b33e4af0fd72b532bbc6be60eda
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189101"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677236"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Stampare report di liste di pagamenti fornitore
 Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.  
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Per stampare il report di liste di pagamenti fornitore  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Lista pagamenti fornitore**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista pagamenti fornitore** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  

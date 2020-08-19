@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 832dbad14962b0e7a1f324d81d798fb4d6759e13
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 19c9947e8a036df4755846e0ae3f627097d21ebf
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189125"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677101"
 ---
 # <a name="import-esr-payments"></a>Importare i pagamenti ESR
 Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene informazioni sulle fatture pagate. È possibile ricevere questo file dalla banca in formato elettronico oppure tramite e-mail.  
@@ -26,7 +26,7 @@ Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene in
 
 ## <a name="to-import-esr-payments"></a>Per importare pagamenti ESR  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Registrazioni incassi**, quindi scegliere il collegamento correlato.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.  
 2.  Nel campo **Nome batch** selezionare il batch contabile necessario.  
 
     > [!NOTE]  
