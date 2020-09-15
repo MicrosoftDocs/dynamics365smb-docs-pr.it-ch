@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 59eb5996d4b3bb2e89faaf09482beb32dbdf7887
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c7daf7a0f9457c04fca6f6c5bcd55c637b6ef6d3
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189074"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778176"
 ---
 # <a name="swiss-electronic-payments"></a>Pagamenti elettronici svizzeri
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] consente di inviare le fatture ai clienti elettronicamente. Le fatture vengono presentate e pagate direttamente utilizzando il software bancario online del cliente.  
