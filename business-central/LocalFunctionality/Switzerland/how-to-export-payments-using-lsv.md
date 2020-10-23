@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0532f4f5b3562ba48c27cce6a96469fc738bbbad
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0f1999dba518999a4715f2a2aebddb7bcb2347ba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779849"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916413"
 ---
 # <a name="export-payments-using-lsv"></a>Esportare pagamenti tramite LSV
 È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV. È possibile inviare i file generati alla banca su un disco oppure usare un trasferimento file elettronico, ad esempio tramite il servizio di online banking o tramite un portale Internet.  

@@ -8,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 35f867b1aaf62ee41abc96a4caa1d8ce32730edb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e9f0c1e880cdc37f35d534bc20073837d3af1c3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778212"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916401"
 ---
 # <a name="print-vendor-payments-list-reports"></a>Stampare report di liste di pagamenti fornitore
+
 Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.  
+
+> [!NOTE]
+> Il report **Lista di pagamenti fornitore** è disponibile nei seguenti mercati: Austria, Germania, Svizzera.
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Per stampare il report di liste di pagamenti fornitore  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista pagamenti fornitore** e quindi scegliere il collegamento correlato.  
-2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
+1. Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista pagamenti fornitore** e quindi scegliere il collegamento correlato.  
+2. Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
@@ -32,5 +36,6 @@ Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni
 
  Alla fine del report viene visualizzato il numero di pagamenti elaborati.  
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedere anche
+
 [Effettuare i pagamenti](../../payables-make-payments.md)

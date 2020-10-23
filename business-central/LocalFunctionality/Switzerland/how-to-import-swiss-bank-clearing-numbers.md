@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fac98b748ef7adfbad06ddeb659dabecca4eed50
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 55b3993f30484af990b1500f18490ed70b00bc0a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779837"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914638"
 ---
 # <a name="import-swiss-bank-clearing-numbers"></a>Importare numeri di clearing svizzeri
 I numeri di clearing bancari sono numeri univoci usati per identificare ogni agenzia o filiale nella directory delle banche. Questa informazioni è necessaria per effettuare un pagamento elettronico. Il file può essere scaricato dal sito Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121).  

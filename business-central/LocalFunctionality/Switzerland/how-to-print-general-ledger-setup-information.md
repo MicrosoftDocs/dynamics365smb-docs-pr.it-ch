@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9c2023b2115132376adb527e71df8c61d4815d9f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9321e0c337d5870363529fdab511ccdd93a793d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778216"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925204"
 ---
 # <a name="print-general-ledger-setup-information"></a>Stampare le informazioni di setup della contabilità generale
 Prima di usare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nelle attività giornaliere, è possibile eseguire il report **Informazioni setup C/G** per visualizzare i dati master configurati. È possibile esaminare i dati master in modo da disporre di una base rispetto alla quale eseguire un confronto e quindi verificare, ad esempio, di aver impostato le categorie di registrazione in modo corretto.  

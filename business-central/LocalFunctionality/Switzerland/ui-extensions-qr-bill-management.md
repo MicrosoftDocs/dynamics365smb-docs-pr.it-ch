@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 05/05/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 6c3f1a2209db2ff3e1f82e0b24d44281c661a9f5
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: df83136e50a2ef0db5a54602769df36747a7eb67
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676843"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923957"
 ---
 # <a name="qr-bill-management-in-d365fin"></a>Gestione fatture QR in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 Dal 1° luglio 2020, le società svizzere devono essere in grado di ricevere le fatture QR. Le fatture QR sono distinte di pagamento che seguono le fatture e rappresentano un'iniziativa a livello nazionale per semplificare i processi di pagamento. Le fatture QR sostituiscono tutte le distinte di pagamento esistenti e le funzionalità relative a PVR. Contengono tutte le informazioni necessarie per effettuare i pagamenti e un codice QR sulla distinta di pagamento semplifica l'importazione delle informazioni [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Tutte le informazioni rilevanti vengono importate e utilizzate per generare pagamenti per il fornitore che ha inviato la fattura QR, incluso il riferimento di pagamento, che viene automaticamente incluso nelle voci dei movimenti contabili fornitori ed esportato nei file di pagamento alla banca.

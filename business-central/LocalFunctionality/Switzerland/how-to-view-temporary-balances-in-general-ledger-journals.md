@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8af8b4968aa48be41fe796048061cc9b0ec51420
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fe2c8f9f490eb1b2d4dce62e497b2c6d22a17414
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778188"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916389"
 ---
 # <a name="view-temporary-balances-in-general-ledger-journals"></a>Visualizzare i saldi temporanei nelle registrazioni di contabilità generale
 Quando si immette una nuova transazione nelle registrazioni COGE, è possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni. È possibile visualizzare i dettagli del saldo del conto e del conto di contropartita per la riga delle registrazioni attiva. È inoltre possibile visualizzare i valori non registrati per le registrazioni correnti.  

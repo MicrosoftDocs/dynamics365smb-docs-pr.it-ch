@@ -8,34 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b4fd8f95478268c63f34c74815952bfaf1792136
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d4caa0dc6ce4fa81ccebc1728146ac6a05b5c5f5
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779845"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931399"
 ---
-# <a name="generate-delivery-reminders"></a>Generare solleciti di consegna
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente. Per ulteriori informazioni, vedere [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md).  
+# <a name="generate-delivery-reminders-in-the-swiss-version"></a>Generare solleciti di consegna nella versione svizzera
 
-> [!NOTE]  
->  Per creare solleciti di consegna, è necessario impostare le proprietà relative. Per ulteriori informazioni, vedere [Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md).  
+[!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Per generare solleciti di consegna per tutte le consegne scadute  
+## <a name="see-also"></a>Vedere anche
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Sollecito consegna** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
-3.  Nella pagina **Sollecito di consegna**, selezionare l'azione **Crea sollecito di consegna**.  
-4.  Nelle Schede dettaglio **Testate acquisti** e **Righe acquisto** selezionare i filtri appropriati.  
-5.  Scegliere il pulsante **OK**.  
-
-Se sono presenti consegne scadute che corrispondono ai filtri impostati, vengono creati solleciti di consegna. È ora possibile emettere e stampare i solleciti di consegna.  
-
-## <a name="see-also"></a>Vedi anche  
- [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)   
- [Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md)   
- [Assegnare codici di solleciti di consegna ai fornitori](how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [Emettere solleciti di consegna](how-to-issue-delivery-reminders.md)   
- [Solleciti consegna](delivery-reminders.md)
+[Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)  
+[Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md)  
+[Assegnare codici di solleciti di consegna ai fornitori](how-to-assign-delivery-reminder-codes-to-vendors.md)  
+[Emettere solleciti di consegna](how-to-issue-delivery-reminders.md)  
+[Solleciti consegna](delivery-reminders.md)  
