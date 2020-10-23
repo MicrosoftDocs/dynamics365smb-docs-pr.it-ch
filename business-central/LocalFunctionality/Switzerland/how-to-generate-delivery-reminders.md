@@ -8,34 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b4fd8f95478268c63f34c74815952bfaf1792136
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d4caa0dc6ce4fa81ccebc1728146ac6a05b5c5f5
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779845"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931399"
 ---
-# <a name="generate-delivery-reminders"></a><span data-ttu-id="7dc2f-104">Generare solleciti di consegna</span><span class="sxs-lookup"><span data-stu-id="7dc2f-104">Generate Delivery Reminders</span></span>
-<span data-ttu-id="7dc2f-105">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-105">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected.</span></span> <span data-ttu-id="7dc2f-106">È possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-106">You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.</span></span> <span data-ttu-id="7dc2f-107">Per ulteriori informazioni, vedere [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md).</span><span class="sxs-lookup"><span data-stu-id="7dc2f-107">For more information, see [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md).</span></span>  
+# <a name="generate-delivery-reminders-in-the-swiss-version"></a><span data-ttu-id="605d9-104">Generare solleciti di consegna nella versione svizzera</span><span class="sxs-lookup"><span data-stu-id="605d9-104">Generate Delivery Reminders in the Swiss Version</span></span>
 
-> [!NOTE]  
->  <span data-ttu-id="7dc2f-108">Per creare solleciti di consegna, è necessario impostare le proprietà relative.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-108">To create delivery reminders, you must set up the delivery reminder properties.</span></span> <span data-ttu-id="7dc2f-109">Per ulteriori informazioni, vedere [Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md).</span><span class="sxs-lookup"><span data-stu-id="7dc2f-109">For more information, see [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md).</span></span>  
+[!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a><span data-ttu-id="7dc2f-110">Per generare solleciti di consegna per tutte le consegne scadute</span><span class="sxs-lookup"><span data-stu-id="7dc2f-110">To generate delivery reminders for all overdue deliveries</span></span>  
+## <a name="see-also"></a><span data-ttu-id="605d9-105">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="605d9-105">See Also</span></span>
 
-1.  <span data-ttu-id="7dc2f-111">Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Sollecito consegna** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-111">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="7dc2f-112">Scegliere l'azione **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-112">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="7dc2f-113">Nella pagina **Sollecito di consegna**, selezionare l'azione **Crea sollecito di consegna**.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-113">On the **Delivery Reminder** page, choose the **Create Delivery Reminder** action.</span></span>  
-4.  <span data-ttu-id="7dc2f-114">Nelle Schede dettaglio **Testate acquisti** e **Righe acquisto** selezionare i filtri appropriati.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-114">On the **Purchase Header** FastTab and the **Purchase Line** FastTab, select the appropriate filters.</span></span>  
-5.  <span data-ttu-id="7dc2f-115">Scegliere il pulsante **OK**.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-115">Choose the **OK** button.</span></span>  
-
-<span data-ttu-id="7dc2f-116">Se sono presenti consegne scadute che corrispondono ai filtri impostati, vengono creati solleciti di consegna.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-116">If there are overdue deliveries that match the filters that you have set, deliver reminders are created.</span></span> <span data-ttu-id="7dc2f-117">È ora possibile emettere e stampare i solleciti di consegna.</span><span class="sxs-lookup"><span data-stu-id="7dc2f-117">You can now issue and print the delivery reminders.</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="7dc2f-118">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="7dc2f-118">See Also</span></span>  
- <span data-ttu-id="7dc2f-119">[Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md) </span><span class="sxs-lookup"><span data-stu-id="7dc2f-119">[Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md) </span></span>  
- <span data-ttu-id="7dc2f-120">[Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="7dc2f-120">[Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) </span></span>  
- <span data-ttu-id="7dc2f-121">[Assegnare codici di solleciti di consegna ai fornitori](how-to-assign-delivery-reminder-codes-to-vendors.md) </span><span class="sxs-lookup"><span data-stu-id="7dc2f-121">[Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md) </span></span>  
- <span data-ttu-id="7dc2f-122">[Emettere solleciti di consegna](how-to-issue-delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="7dc2f-122">[Issue Delivery Reminders](how-to-issue-delivery-reminders.md) </span></span>  
- [<span data-ttu-id="7dc2f-123">Solleciti consegna</span><span class="sxs-lookup"><span data-stu-id="7dc2f-123">Delivery Reminders</span></span>](delivery-reminders.md)
+[<span data-ttu-id="605d9-106">Creare solleciti di consegna manualmente</span><span class="sxs-lookup"><span data-stu-id="605d9-106">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
+[<span data-ttu-id="605d9-107">Impostare solleciti di consegna</span><span class="sxs-lookup"><span data-stu-id="605d9-107">Set Up Delivery Reminders</span></span>](how-to-set-up-delivery-reminders.md)  
+[<span data-ttu-id="605d9-108">Assegnare codici di solleciti di consegna ai fornitori</span><span class="sxs-lookup"><span data-stu-id="605d9-108">Assign Delivery Reminder Codes to Vendors</span></span>](how-to-assign-delivery-reminder-codes-to-vendors.md)  
+[<span data-ttu-id="605d9-109">Emettere solleciti di consegna</span><span class="sxs-lookup"><span data-stu-id="605d9-109">Issue Delivery Reminders</span></span>](how-to-issue-delivery-reminders.md)  
+[<span data-ttu-id="605d9-110">Solleciti consegna</span><span class="sxs-lookup"><span data-stu-id="605d9-110">Delivery Reminders</span></span>](delivery-reminders.md)  
