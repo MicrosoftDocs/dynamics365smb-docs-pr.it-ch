@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d52b04f000617ac037ccc37bcf02061609e680c6
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617854"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912389"
 ---
 # <a name="the-c5-data-migration-extension"></a>Estensione di migrazione dati C5
 
@@ -96,7 +96,7 @@ Se si migrano i conti, anche i seguenti dati vengono migrati:
 * Transazioni storiche C/G  
 
 > [!Note]
-> Le transazioni storiche C/G vengono trattate in modo diverso. Quando si migrano i dati si imposta un parametro **Periodo corrente**. Questo parametro consente di elaborare le transazioni C/G. Le transazioni dopo questa data vengono migrate singolarmente. Le operazioni precedenti alla data vengono aggregate per conto e migrate come importo singolo. Ad esempio, sono presenti transazioni nel 2015, 2016, 2017, 2018 e si specifica il 1° gennaio 2017 nel campo Periodo corrente. Per ogni conto, gli importi per le transazioni il 31 dicembre 2106 o in data precedente verranno aggregate in un'unica riga del giornale di registrazione generale per ciascun conto C/G. Tutte le transazioni dopo questa data verranno migrate singolarmente.
+> Le transazioni storiche C/G vengono trattate in modo diverso. Quando si migrano i dati si imposta un parametro **Periodo corrente** . Questo parametro consente di elaborare le transazioni C/G. Le transazioni dopo questa data vengono migrate singolarmente. Le operazioni precedenti alla data vengono aggregate per conto e migrate come importo singolo. Ad esempio, sono presenti transazioni nel 2015, 2016, 2017, 2018 e si specifica il 1° gennaio 2017 nel campo Periodo corrente. Per ogni conto, gli importi per le transazioni il 31 dicembre 2106 o in data precedente verranno aggregate in un'unica riga del giornale di registrazione generale per ciascun conto C/G. Tutte le transazioni dopo questa data verranno migrate singolarmente.
 
 ## <a name="file-size-requirements"></a>Requisiti per le dimensioni di file
 
@@ -107,7 +107,7 @@ La dimensione di file più grande che è possibile caricare in [!INCLUDE[d365fin
 Sono necessari solo alcuni passaggi per esportare i dati da C5 e importarli in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. In C5, utilizzare la funzione **Esporta database** per esportare i dati. Quindi, inviare la cartella di esportazione a una cartella compressa (.zip).  
-2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Migrazione dati** e quindi scegliere **Migrazione dati**.  
+2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Migrazione dati** e quindi scegliere **Migrazione dati** .  
 3. Completare i passaggi nella guida di setup assistito. Assicurarsi di scegliere **Importa da Microsoft Dynamcis C5 2012** come origine dati.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visualizzazione dello stato della migrazione
@@ -127,17 +127,17 @@ Per evitare la doppia registrazione in contabilità generale, vengono utilizzati
 
 ## <a name="correcting-errors"></a>Correzione degli errori
 
-Se si verifica un errore, il campo **Stato** mostrerà **Completato con errori**, quindi il campo **Numero di errori** mostrerà il numero degli errori. Per visualizzare un elenco degli errori, è possibile aprire la pagina **Errori di migrazione dati** scegliendo:  
+Se si verifica un errore, il campo **Stato** mostrerà **Completato con errori** , quindi il campo **Numero di errori** mostrerà il numero degli errori. Per visualizzare un elenco degli errori, è possibile aprire la pagina **Errori di migrazione dati** scegliendo:  
 
 * Il numero nel campo **Numero di errori** per l'entità.  
-* L'entità, quindi l'azione **Mostra errori**.  
+* L'entità, quindi l'azione **Mostra errori** .  
 
-Nella pagina **Errori di migrazione dati**, per correggere un errore è possibile scegliere un messaggio di errore e **Modifica record** per visualizzare i dati migrati per l'entità. Se sono presenti più errori da correggere, è possibile scegliere **Correzione in blocco errori** per modificare le entità in un elenco. È comunque necessario aprire i singoli record se l'errore è stato causato da una voce correlata. Ad esempio, un fornitore non verrà migrato se un indirizzo e-mail di uno dei suoi contatti ha un formato non valido.
+Nella pagina **Errori di migrazione dati** , per correggere un errore è possibile scegliere un messaggio di errore e **Modifica record** per visualizzare i dati migrati per l'entità. Se sono presenti più errori da correggere, è possibile scegliere **Correzione in blocco errori** per modificare le entità in un elenco. È comunque necessario aprire i singoli record se l'errore è stato causato da una voce correlata. Ad esempio, un fornitore non verrà migrato se un indirizzo e-mail di uno dei suoi contatti ha un formato non valido.
 
 Dopo aver corretto uno o più errori, è possibile scegliere **Esegui migrazione** per migrare solo le entità corrette, senza dover riavviare completamente la migrazione.  
 
 > [!Tip]
-> Se è stato corretto più di un errore, è possibile utilizzare la funzionalità **Seleziona più elementi** per selezionare più righe da migrare. In alternativa, se esistono errori che non è importante correggere, è possibile selezionarli, quindi scegliere **Ignora selezione**.
+> Se è stato corretto più di un errore, è possibile utilizzare la funzionalità **Seleziona più elementi** per selezionare più righe da migrare. In alternativa, se esistono errori che non è importante correggere, è possibile selezionarli, quindi scegliere **Ignora selezione** .
 
 > [!Note]
 > Se si dispone di articoli che sono inclusi in una distinta base, potrebbe essere necessario effettuare la migrazione più di una volta se l'articolo originale non viene creato prima delle varianti a cui è associato. Se una variante articolo viene creata per prima, il riferimento all'articolo originale può causare un messaggio di errore.  
@@ -155,7 +155,7 @@ Un modo per verificare che i dati siano stati migrati correttamente consiste nel
 
 ## <a name="stopping-data-migration"></a>Interruzione della migrazione dei dati
 
-È possibile interrompere la migrazione dei dati scegliendo **Interrompi tutte le migrazioni**. In tal caso, tutte le migrazioni in sospeso vengono interrotte.
+È possibile interrompere la migrazione dei dati scegliendo **Interrompi tutte le migrazioni** . In tal caso, tutte le migrazioni in sospeso vengono interrotte.
 
 ## <a name="see-also"></a>Vedere anche
 

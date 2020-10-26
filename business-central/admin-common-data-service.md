@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 06/30/2020
-ms.openlocfilehash: 278797e8a1647fff8fd607cf075657c960004e65
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.date: 10/01/2020
+ms.openlocfilehash: 85823e93b1d239bf4e59ec6a8872cdc4a2cef9c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529406"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911598"
 ---
 # <a name="integrating-with-common-data-service"></a>Integrazione con Common Data Service
 
@@ -31,7 +31,7 @@ I passaggi seguenti forniscono una panoramica delle operazioni per l'integrazion
 3. Sincronizzazione i dati tra le app. Per ulteriori informazioni, vedere [Sincronizzazione di Business Central e Common Data Service](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-d365fin"></a>Introduzione a [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Per iniziare con [!INCLUDE[d365fin](includes/cds_long_md.md)] avrai bisogno di un account Microsoft Power Apps. Se non hai già un account Power Apps, puoi ottenerne uno gratuitamente visitando [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) e scegliendo il collegamento **Inizia gratis**. Per saperne di più su come iniziare con [!INCLUDE[d365fin](includes/cds_long_md.md)], vedere il modulo [Introduzione a Common Data Service](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) di Microsft Learn.
+Per iniziare con [!INCLUDE[d365fin](includes/cds_long_md.md)] avrai bisogno di un account Microsoft Power Apps. Se non hai già un account Power Apps, puoi ottenerne uno gratuitamente visitando [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) e scegliendo il collegamento **Inizia gratis** . Per saperne di più su come iniziare con [!INCLUDE[d365fin](includes/cds_long_md.md)], vedere il modulo [Introduzione a Common Data Service](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) di Microsft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Sincronizzazione dei dati bidirezionale o unidirezionale
 A seconda delle esigenze aziendali, puoi configurare l'integrazione per sincronizzare i dati da o verso un'app aziendale di Dynamics 365 a un'altra, o in entrambe le direzioni in tempo quasi reale tramite [!INCLUDE[d365fin](includes/cds_long_md.md)]. Ad esempio, se si integra [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)] tramite [!INCLUDE[d365fin](includes/cds_long_md.md)], un venditore può creare un ordine cliente in [!INCLUDE[crm_md](includes/crm_md.md)] e l'ordine verrà sincronizzato con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Al contrario, da [!INCLUDE[crm_md](includes/crm_md.md)], il venditore può visualizzare le informazioni da [!INCLUDE[d365fin](includes/d365fin_md.md)] sulla disponibilità dell'articolo nell'ordine. 

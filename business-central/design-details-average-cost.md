@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: efaad34052430c0f37d39f1c93737c94db36fc31
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2ad867ebf705a4be3b544e017fe67f17d63e47b7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788214"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917594"
 ---
 # <a name="design-details-average-cost"></a>Dettagli di progettazione: Costo medio
 Il costo medio di un articolo viene calcolato con una media ponderata periodica, in base al costo medio del periodo che è impostato in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -36,10 +36,10 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 >  Nella pagina **Periodi contabili** viene mostrato il costo medio del periodo e il tipo di calcolo del costo medio utilizzato per quel periodo, per ogni periodo contabile.  
 
 ## <a name="calculating-average-cost"></a>Calcolo costo medio  
- Quando si registra una transazione per un articolo per il quale viene utilizzato il metodo di costing medio, viene creato un movimento nella tabella **Rettifica costo medio cod. spedizioni Intrastat**. Il movimento contiene numero articolo, codice variante e codice ubicazione della transazione. Il movimento contiene inoltre il campo **Data valutazione**, che specifica l'ultima data del costo medio del periodo in cui è stata registrata la transazione.  
+ Quando si registra una transazione per un articolo per il quale viene utilizzato il metodo di costing medio, viene creato un movimento nella tabella **Rettifica costo medio cod. spedizioni Intrastat** . Il movimento contiene numero articolo, codice variante e codice ubicazione della transazione. Il movimento contiene inoltre il campo **Data valutazione** , che specifica l'ultima data del costo medio del periodo in cui è stata registrata la transazione.  
 
 > [!NOTE]  
->  Questo campo non deve essere confuso con il campo **Data valutazione** della tabella **Movimenti valorizzazione**, che mostra la data in cui ha effetto il valore e viene utilizzato per determinare il costo medio del periodo a cui appartiene il movimento di valorizzazione.  
+>  Questo campo non deve essere confuso con il campo **Data valutazione** della tabella **Movimenti valorizzazione** , che mostra la data in cui ha effetto il valore e viene utilizzato per determinare il costo medio del periodo a cui appartiene il movimento di valorizzazione.  
 
  Il costo medio di una transazione viene calcolato quando il costo dell'articolo viene rettificato. Per ulteriori informazioni, vedere [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md). La rettifica dei costi utilizza i movimenti nella tabella **Rettifica costo medio cod. spedizioni Intrastat** per identificare gli articoli o gli articoli, le ubicazioni e le varianti per cui calcolare il costo medio. Per ogni movimento il cui costo non è ancora stato rettificato, la rettifica costo utilizza quanto segue per determinare il costo medio:  
 
@@ -51,9 +51,9 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
  Il costo medio calcolato viene quindi collegato alle riduzioni di magazzino per l'articolo (o articolo, ubicazione e variante) con le date di registrazione nel costo medio del periodo. Se vi sono aumenti di magazzino collegati in modo fisso alle riduzioni di magazzino nel costo medio del periodo, il costo medio calcolato viene trasferito dall'aumento a alla riduzione.  
 
 ### <a name="example-average-cost-period--day"></a>Esempio: Costo medio del periodo = Giorno  
- Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un giorno. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo**.  
+ Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un giorno. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo** .  
 
- La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo medio, ITEM1, prima che venga eseguito il processo batch **Rettifica costo - Movimenti articoli**.  
+ La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo medio, ITEM1, prima che venga eseguito il processo batch **Rettifica costo - Movimenti articoli** .  
 
 |**Data di registrazione**|**Tipo mov. articolo**|**Quantità**|**Importo costo (effettivo)**|**Nr. movimento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -76,7 +76,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 |ART1||BLU|02-02-20|No|  
 |ART1||BLU|02-03-20|No|  
 
- Nella tabella seguente vengono mostrati gli stessi movimenti contabili dopo che è stato eseguito il processo batch **Rettifica costo - Movimenti articoli**. Il costo medio giornaliero viene calcolato e applicato alle riduzioni del magazzino.  
+ Nella tabella seguente vengono mostrati gli stessi movimenti contabili dopo che è stato eseguito il processo batch **Rettifica costo - Movimenti articoli** . Il costo medio giornaliero viene calcolato e applicato alle riduzioni del magazzino.  
 
 |**Data di registrazione**|**Tipo mov. articolo**|**Quantità**|**Importo costo (effettivo)**|**Nr. movimento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -88,11 +88,11 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 |02-03-20|Vendite|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Esempio: Costo medio del periodo = Mese  
- Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un mese. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo**.  
+ Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un mese. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo** .  
 
  Se il costo medio è calcolato su un periodo di un mese, viene creato solo un movimento per ogni combinazione di numero di articolo, codice variante, codice ubicazione e data di valutazione.  
 
- La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo medio, ITEM1, prima che venga eseguito il processo batch **Rettifica costo - Movimenti articoli**.  
+ La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo medio, ITEM1, prima che venga eseguito il processo batch **Rettifica costo - Movimenti articoli** .  
 
 |**Data di registrazione**|**Tipo mov. articolo**|**Quantità**|**Importo costo (effettivo)**|**Nr. movimento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -116,7 +116,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 > [!NOTE]  
 >  La data di valutazione è impostata sull'ultimo giorno del costo medio del periodo, che in questo caso è l'ultimo giorno del mese.  
 
- Nella tabella seguente vengono mostrati gli stessi movimenti contabili dopo che è stato eseguito il processo batch **Rettifica costo - Movimenti articoli**. Il costo medio mensile viene calcolato e applicato alle riduzioni di magazzino.  
+ Nella tabella seguente vengono mostrati gli stessi movimenti contabili dopo che è stato eseguito il processo batch **Rettifica costo - Movimenti articoli** . Il costo medio mensile viene calcolato e applicato alle riduzioni di magazzino.  
 
 |**Data di registrazione**|**Tipo mov. articolo**|**Quantità**|**Importo costo (effettivo)**|**Nr. movimento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -176,12 +176,12 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 > [!NOTE]  
 >  Un altro motivo per questa flessibilità è il collegamento fisso. Per ulteriori informazioni sul collegamento fisso, vedere [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md).  
 
- A causa di questa flessibilità, potrebbe essere necessario ricalcolare il costo medio dopo la registrazione correlata. Ad esempio, se si registra un aumento o una riduzione di magazzino con una data di valutazione antecedente a una o più riduzioni di magazzino. Il ricalcolo del costo medio avviene automaticamente quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, manualmente o automaticamente.  
+ A causa di questa flessibilità, potrebbe essere necessario ricalcolare il costo medio dopo la registrazione correlata. Ad esempio, se si registra un aumento o una riduzione di magazzino con una data di valutazione antecedente a una o più riduzioni di magazzino. Il ricalcolo del costo medio avviene automaticamente quando si esegue il processo batch **Rettifica costo - Movimenti articoli** , manualmente o automaticamente.  
 
- È possibile modificare la base di valutazione del magazzino in un periodo contabile modificando i campi **Costo medio periodo** e **Tipo calcolo costo medio**. Tuttavia, questa operazione deve essere eseguita con attenzione e in accordo con il revisore.  
+ È possibile modificare la base di valutazione del magazzino in un periodo contabile modificando i campi **Costo medio periodo** e **Tipo calcolo costo medio** . Tuttavia, questa operazione deve essere eseguita con attenzione e in accordo con il revisore.  
 
 ### <a name="example"></a>Esempio  
- Nel seguente esempio viene illustrato in che modo il costo medio viene ricalcolato quando viene inserita una registrazione tardiva in una data precedente a una o più riduzioni di magazzino. L'esempio si basa su un periodo del costo medio impostato su **Giorno**.  
+ Nel seguente esempio viene illustrato in che modo il costo medio viene ricalcolato quando viene inserita una registrazione tardiva in una data precedente a una o più riduzioni di magazzino. L'esempio si basa su un periodo del costo medio impostato su **Giorno** .  
 
  Nella seguente tabella vengono mostrati i movimenti di valorizzazione presenti per l'articolo dopo l'immissione della registrazione.  
 

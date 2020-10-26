@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34a9461a967760b682f9a219389bd4078e3e654c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fcc8e97a61c777a7857e95db04fe16973c4c7b07
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782892"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918831"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
 La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella pagina Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -28,7 +28,7 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 
  Il traffico dei documenti elettronici in entrata e in uscita da [!INCLUDE[d365fin](includes/d365fin_md.md)] viene gestito dalla funzionalità coda processi. Prima di ricevere i documenti elettronici, la coda processi in questione deve essere avviata.  
 
- È possibile avviare la conversione dei documenti elettronici manualmente, come descritto nella procedura, oppure consentire a un flusso di lavoro di convertire i documenti elettronici automaticamente quando vengono ricevuti. La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] include un modello di workflow, *Da documento elettronico in entrata tramite OCR per aprire il flusso di lavoro della fattura di acquisto*, pronto per essere copiato in un workflow ed essere abilitato. Per ulteriori informazioni, vedere [Workflow](across-workflow.md).  
+ È possibile avviare la conversione dei documenti elettronici manualmente, come descritto nella procedura, oppure consentire a un flusso di lavoro di convertire i documenti elettronici automaticamente quando vengono ricevuti. La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] include un modello di workflow, *Da documento elettronico in entrata tramite OCR per aprire il flusso di lavoro della fattura di acquisto* , pronto per essere copiato in un workflow ed essere abilitato. Per ulteriori informazioni, vedere [Workflow](across-workflow.md).  
 
 > [!NOTE]  
 >  Quando si convertono i documenti elettronici ricevuti dal servizio OCR in documenti o righe di registrazione in [!INCLUDE[d365fin](includes/d365fin_md.md)], più righe del documento di origine vengono sommate in una riga. La singola riga sarà di tipo Conto C/G e i campi **Descrizione** e **Nr.** (conto C/G) saranno vuoti. Il valore nel campo **Importo** sarà pari all'importo totale IVA esclusa di tutte le righe del documento di origine.  
@@ -43,19 +43,19 @@ La versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta la 
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Documenti in entrata** e quindi scegliere il collegamento correlato.  
 
-2.  Selezionare la riga per il record del documento in arrivo che rappresenta una nuova fattura elettronica in entrata, quindi scegliere l'azione **Modifica**.  
+2.  Selezionare la riga per il record del documento in arrivo che rappresenta una nuova fattura elettronica in entrata, quindi scegliere l'azione **Modifica** .  
 
      Nella pagina **Scheda documenti in arrivo** viene allegato il file XML correlato e la maggior parte dei campi viene precompilata con le informazioni della fattura elettronica. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).  
 
-3.  Nel campo **Tipo scambio dati** scegliere **PEPPOL - Fattura** oppure **OCR - Fattura**, a seconda dell'origine del documento elettronico.  
+3.  Nel campo **Tipo scambio dati** scegliere **PEPPOL - Fattura** oppure **OCR - Fattura** , a seconda dell'origine del documento elettronico.  
 
-4.  Per mappare il testo della fattura del fornitore in un conto di addebito specifico, nella scheda **Azioni**, nel gruppo **Generale**, selezionare **Mappa testo a conto** e inserire i dati nella pagina **Foglio di lavoro Mappatura testo a conto**.  
+4.  Per mappare il testo della fattura del fornitore in un conto di addebito specifico, nella scheda **Azioni** , nel gruppo **Generale** , selezionare **Mappa testo a conto** e inserire i dati nella pagina **Foglio di lavoro Mappatura testo a conto** .  
 
-5.  Selezionare l'azione **Crea documento**.  
+5.  Selezionare l'azione **Crea documento** .  
 
      Verrà creata una fattura di acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)] basata sulle informazioni contenute nel documento elettronico.  
 
-     Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[d365fin](includes/d365fin_md.md)], verranno visualizzati nella Scheda dettaglio **Messaggi di errore**.  
+     Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[d365fin](includes/d365fin_md.md)], verranno visualizzati nella Scheda dettaglio **Messaggi di errore** .  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

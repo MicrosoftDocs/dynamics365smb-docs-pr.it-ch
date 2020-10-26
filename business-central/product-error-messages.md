@@ -4,14 +4,14 @@ description: Informazioni su come risolvere i problemi e trovare soluzioni ai me
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62a60610b565cc37c812023dd2bea08c3f5c8834
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 6e261b1ec22f24638b29ec28531008362475a484
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611739"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916644"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Avvisi e messaggi di errore in Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ Durante la giornata lavorativa, è possibile che vengano visualizzate notifiche 
 
 ## <a name="in-product-user-assistance"></a>Assistenza utente nel prodotto
 
-La versione predefinita di [!INCLUDE [prodshort](includes/prodshort.md)] include descrizioni per la maggior parte dei campi, delle colonne e delle azioni a cui è possibile accedere scegliendone il nome. In combinazione con didascalie descrittive e testo didattico, questi suggerimenti, o callout, sono l'attuale implementazione di *assistenza utente incorporata*, che è un principio importante nel mondo attuale della progettazione del software.  
+La versione predefinita di [!INCLUDE [prodshort](includes/prodshort.md)] include descrizioni per la maggior parte dei campi, delle colonne e delle azioni a cui è possibile accedere scegliendone il nome. In combinazione con didascalie descrittive e testo didattico, questi suggerimenti, o callout, sono l'attuale implementazione di *assistenza utente incorporata* , che è un principio importante nel mondo attuale della progettazione del software.  
 
 Per informazioni su un campo o un altro elemento dell'interfaccia utente, scegliere il nome e apparirà una breve descrizione. Scegliere il collegamento *Ulteriori informazioni* se la descrizione non è sufficiente.  
 
@@ -27,7 +27,7 @@ Per ulteriori informazioni, vedere [Modello di assistenza per gli utenti Dynamic
 
 ## <a name="help-and-support-page"></a>Pagina Guida e supporto
 
-In [!INCLUDE[prodshort](includes/prodshort.md)], la voce di menu ? (nell'angolo superiore destro) fornisce accesso alla pagina **Guida e supporto**, che include collegamenti alle risorse che consentono di trovare risposte alle domande. Per ulteriori informazioni, vedere [Risorse per Guida e supporto](product-help-and-support.md).  
+In [!INCLUDE[prodshort](includes/prodshort.md)], la voce di menu ? (nell'angolo superiore destro) fornisce accesso alla pagina **Guida e supporto** , che include collegamenti alle risorse che consentono di trovare risposte alle domande. Per ulteriori informazioni, vedere [Risorse per Guida e supporto](product-help-and-support.md).  
 
 ## <a name="help-others"></a>Aiutare gli altri
 

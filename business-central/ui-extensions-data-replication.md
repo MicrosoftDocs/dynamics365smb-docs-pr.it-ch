@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 07/13/2020
+ms.date: 10/01/2020
 ms.author: jenolson
-ms.openlocfilehash: 712950571d5b45680aae46bccfd8401b999993cd
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577279"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915228"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Estensioni cloud intelligente per la migrazione al cloud
 
@@ -28,18 +28,18 @@ Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Centr
 
 ## <a name="business-central-on-premises"></a>Business Central in locale
 
-Se si utilizza una distribuzione locale di [!INCLUDE[prodshort](includes/prodshort.md)], acquisire l'estensione **Cloud intelligente base** e l'estensione **Cloud intelligente Business Central** e quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
+Se si utilizza una distribuzione locale di [!INCLUDE[prodshort](includes/prodshort.md)], acquisire l'estensione **Cloud intelligente base** e l'estensione **Cloud intelligente Business Central** e quindi eseguire la guida al setup assistito **Setup di migrazione cloud** .  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 
-Se si utilizza Dynamics GP, acquisire le estensioni **Estensione Cloud intelligente base** e **Cloud intelligente Dynamics GP**, quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
+Se si utilizza Dynamics GP, acquisire le estensioni **Estensione Cloud intelligente base** e **Cloud intelligente Dynamics GP** , quindi eseguire la guida al setup assistito **Setup di migrazione cloud** .  
 
 > [!IMPORTANT]
 > La migrazione da Dynamics GP utilizzando la guida al setup assistito **Setup migrazione cloud** è attualmente supportata solo per i seguenti mercati: Stati Uniti, Canada, Regno Unito.
 
 ## <a name="dynamics-sl"></a>Dynamics SL
 
-Se si utilizza Dynamics SL, acquisire le estensioni **Estensione Cloud intelligente base**, **Cloud intelligente Microsoft Dynamics SL** e **SmartList di cronologia Microsoft Dynamics SL**, quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
+Se si utilizza Dynamics SL, acquisire le estensioni **Estensione Cloud intelligente base** , **Cloud intelligente Microsoft Dynamics SL** e **SmartList di cronologia Microsoft Dynamics SL** , quindi eseguire la guida al setup assistito **Setup di migrazione cloud** .  
 
 ## <a name="see-also"></a>Vedere anche
 

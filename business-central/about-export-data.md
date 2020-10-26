@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 05/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: e8b62e04b3b1d44ba53572559c66acc1c05da8c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333902"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914632"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
 Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
 
 ## <a name="opening-lists-in-excel"></a>Aprire gli elenchi in Excel
-È possibile visualizzare i dati in Excel da qualsiasi registrazione, elenco o foglio di lavoro. Aprire la pagina che si desidera quindi scegliere **Apri in Excel**. Ad esempio, aprire l'elenco dei clienti (cercare **Clienti**) quindi scegliere **Apri in Excel**. Il browser chiederà conferma dell'apertura o del salvataggio della cartella di lavoro di Excel generata.  
+È possibile visualizzare i dati in Excel da qualsiasi registrazione, elenco o foglio di lavoro. Aprire la pagina che si desidera quindi scegliere **Apri in Excel** . Ad esempio, aprire l'elenco dei clienti (cercare **Clienti** ) quindi scegliere **Apri in Excel** . Il browser chiederà conferma dell'apertura o del salvataggio della cartella di lavoro di Excel generata.  
 
 > [!NOTE]
 > Utilizzare questa opzione se non si desidera apportare modifiche e pubblicare di nuovo tali modifiche su [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,7 +42,7 @@ Se si decide di annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fi
 * Banche  
 * Articoli  
 
-Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una grande quantità di dati, l'esportazione richiederà un tempo superiore. Le transazioni finanziarie sono visualizzate nella pagina **Movimenti C/G**.  
+Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una grande quantità di dati, l'esportazione richiederà un tempo superiore. Le transazioni finanziarie sono visualizzate nella pagina **Movimenti C/G** .  
 
 È consigliabile anche esportare i dati dalle pagine seguenti:  
 
@@ -69,7 +69,7 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 > [!NOTE]
 > È necessario disporre di almeno una delle seguenti autorizzazioni per aprire o modificare i dati in Excel:
 >    - Set di autorizzazioni *D365 Azione esportazione Excel*  
->    - Autorizzazione di sistema 6110 *Consenti l'azione Esporta in Excel*.  
+>    - Autorizzazione di sistema 6110 *Consenti l'azione Esporta in Excel* .  
 
 Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

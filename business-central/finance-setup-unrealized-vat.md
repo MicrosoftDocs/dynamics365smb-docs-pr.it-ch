@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f4d08d96621d5ff59b65a35e899d66afe0ddaa52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 57bc67ca6cc218754bbdd970a013588ed205db7f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182726"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914207"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti
 Se si utilizzano metodi di contabilità basata su contanti, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché gestisca l'IVA ad esigibilità differita.
@@ -24,10 +24,10 @@ Se si utilizzano metodi di contabilità basata su contanti, è possibile imposta
 Gli importi IVA possono essere calcolati e registrati in un conto di contabilità generale temporaneo al momento della registrazione di una fattura, quindi registrati nel conto corretto e inclusi nelle dichiarazioni IVA al momento della registrazione del pagamento effettivo della fattura. Prima di effettuare questa operazione, è necessario completare l'impostazione della registrazione dell'IVA.
 
 Per utilizzare conti per l'IVA ad esigibilità differita, procedere nel modo seguente:
-1. Sceglire l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e inserisci **Setup contabilità generale**.
-2. Nella pagina **Setup contabilità generale** selezionare la casella di controllo **IVA ad esigibilità differita**.
-3. Scegliere l'icona **Cerca pagina o report** ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immettere **Setup registrazione IVA**.
-4. Nella pagina **Setup registrazioni IVA** selezionare la categoria di registrazione IVA, quindi scegliere l'azione **Modifica**.
+1. Sceglire l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e inserisci **Setup contabilità generale** .
+2. Nella pagina **Setup contabilità generale** selezionare la casella di controllo **IVA ad esigibilità differita** .
+3. Scegliere l'icona **Cerca pagina o report** ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immettere **Setup registrazione IVA** .
+4. Nella pagina **Setup registrazioni IVA** selezionare la categoria di registrazione IVA, quindi scegliere l'azione **Modifica** .
 5. Nel campo **Ripart. IVA ad esig. diff.** scegliere un'opzione per specificare come assegnare i pagamenti all'importo di una fattura (IVA esclusa) e all'importo stesso dell'IVA e come trasferire gli importi dell'IVA dal conto IVA ad esigibilità differita al conto realizzato. Nella seguente tabella vengono illustrate le opzioni.
 
 | Opzione | Descrizione |
@@ -36,8 +36,8 @@ Per utilizzare conti per l'IVA ad esigibilità differita, procedere nel modo seg
 | Percentuale | I pagamenti coprono sia l'IVA che l'importo della fattura, proporzionalmente alla percentuale di pagamento dell'importo totale della fattura. L'importo dell'IVA pagato viene trasferito dal conto IVA ad esigibilità differita al conto IVA realizzata. |
 | Primo | I pagamenti coprono prima l'IVA e dopo gli importi delle fatture. In tal caso, l'importo trasferito dal conto dell'IVA ad esigibilità differita al conto dell'IVA sarà uguale all'importo del pagamento finché non verrà pagato l'importo totale dell'IVA. |
 | Ultimo | I pagamenti coprono prima l'importo della fattura e dopo l'IVA. In tal caso, non verrà trasferito alcun importo dal conto dell'IVA ad esigibilità differita al conto dell'IVA finché non verrà pagato l'importo totale della fattura, esclusa l'IVA. |
-| Primo (Interam. Pagato) | I pagamenti copriranno prima l'IVA (come con l'opzione _Primo_), ma non verrà trasferito alcun importo sul conto dell'IVA finché non verrà pagato l'importo totale dell'IVA. |
-| Ultimo (Interam. Pagato) | I pagamenti copriranno prima l'importo della fattura (come con l'opzione _Ultimo_), ma non verrà trasferito alcun importo sul Conto IVA finché non verrà pagato l'importo totale dell'IVA. |
+| Primo (Interam. Pagato) | I pagamenti copriranno prima l'IVA (come con l'opzione _Primo_ ), ma non verrà trasferito alcun importo sul conto dell'IVA finché non verrà pagato l'importo totale dell'IVA. |
+| Ultimo (Interam. Pagato) | I pagamenti copriranno prima l'importo della fattura (come con l'opzione _Ultimo_ ), ma non verrà trasferito alcun importo sul Conto IVA finché non verrà pagato l'importo totale dell'IVA. |
 
 6. Nel campo **Conto IVA ven. ad esig. diff.** scegliere il conto per l'IVA di vendita ad esigibilità differita.
 

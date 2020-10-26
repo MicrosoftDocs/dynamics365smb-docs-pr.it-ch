@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, replenishment, reordering
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5101e08ff7c3c401fe72a68b17e131fe247d811d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 99c7410e31291213486d8843ba125359615c1477
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787289"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911073"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni
 Il sistema di impegno è completo e include funzionalità correlate e parallele di tracciabilità ordine e di messaggistica di azione.  
@@ -34,7 +34,7 @@ Il sistema di impegno è completo e include funzionalità correlate e parallele 
 ## <a name="reservation"></a>Impegno  
  Un impegno è collegamento confermato che connette tra loro una domanda specifica e un'offerta specifica. Questo collegamento influisce direttamente sulla transazione di magazzino successiva e garantisce il collegamento appropriato dei movimenti articoli a scopo di costing. Un impegno sostituisce il metodo di costing predefinito di un articolo. Per ulteriori informazioni, vedere "Dettagli del nuovo ciclo: Metodi di costing".  
 
- È possibile accedere alla pagina **Impegno** da tutte le righe ordine della domanda e dell'approvvigionamento. In questa pagina l'utente può specificare per quale movimento di domanda o di approvvigionamento creare un collegamento di impegno. L'impegno è costituito da una coppia di record che condividono lo stesso numero di movimento. Un record ha un segno negativo e punta alla domanda. L'altro record ha un segno positivo e punta all'approvvigionamento. Questi record sono memorizzati nella tabella **Movimenti impegni** con valore di stato **Impegno**. L'utente può visualizzare tutti gli impegni nella pagina **Mov. impegni**.  
+ È possibile accedere alla pagina **Impegno** da tutte le righe ordine della domanda e dell'approvvigionamento. In questa pagina l'utente può specificare per quale movimento di domanda o di approvvigionamento creare un collegamento di impegno. L'impegno è costituito da una coppia di record che condividono lo stesso numero di movimento. Un record ha un segno negativo e punta alla domanda. L'altro record ha un segno positivo e punta all'approvvigionamento. Questi record sono memorizzati nella tabella **Movimenti impegni** con valore di stato **Impegno** . L'utente può visualizzare tutti gli impegni nella pagina **Mov. impegni** .  
 
 ### <a name="offsetting-in-reservations"></a>Compensazione negli impegni  
  Gli impegni vengono creati rispetto alle quantità di articolo disponibili. La disponibilità articolo viene calcolata fondamentalmente come segue:  
@@ -76,17 +76,17 @@ Il sistema di impegno è completo e include funzionalità correlate e parallele 
 ### <a name="automatic-reservations"></a>Prenotazioni automatiche  
  Nella scheda articolo può essere impostata in modo da essere sempre impegnata automaticamente dalla domanda, come gli ordini di vendita. In quel caso, l'impegno viene creato in funzione del magazzino, degli ordini di acquisto, degli ordini di assemblaggio e di produzione. Viene rilasciato un avviso se l'approvvigionamento è insufficiente.  
 
- Inoltre, gli articoli vengono impegnati automaticamente da varie funzioni di pianificazione per mantenere una domanda collegata a uno specifico approvvigionamento. I movimenti di tracciabilità ordine per tali collegamenti di pianificazione contengono **Impegno** nel campo **Stato impegno** nella tabella **Movimenti impegni**. Gli impegni automatici vengono creati nei seguenti casi:  
+ Inoltre, gli articoli vengono impegnati automaticamente da varie funzioni di pianificazione per mantenere una domanda collegata a uno specifico approvvigionamento. I movimenti di tracciabilità ordine per tali collegamenti di pianificazione contengono **Impegno** nel campo **Stato impegno** nella tabella **Movimenti impegni** . Gli impegni automatici vengono creati nei seguenti casi:  
 
--   Un ordine di produzione multilivello nel campo **Politica di produzione** degli articoli padre e figlio interessati è impostato su **Prod. su Ordine**. Il sistema di pianificazione crea degli impegni tra l'ordine di produzione padre e gli ordini di produzione sottostanti per garantire che vengano elaborati insieme. Tale associazione di impegni sostituisce il metodo predefinito di costing e di collegamento dell'articolo.  
+-   Un ordine di produzione multilivello nel campo **Politica di produzione** degli articoli padre e figlio interessati è impostato su **Prod. su Ordine** . Il sistema di pianificazione crea degli impegni tra l'ordine di produzione padre e gli ordini di produzione sottostanti per garantire che vengano elaborati insieme. Tale associazione di impegni sostituisce il metodo predefinito di costing e di collegamento dell'articolo.  
 
--   Una produzione, un assemblaggio o un ordine di acquisto in cui il campo **Metodo di riordino** dell'articolo interessato è impostato su **Ordine**. Il sistema di pianificazione crea gli impegni tra domanda e approvvigionamento pianificato per garantire la creazione dello specifico approvvigionamento. Per ulteriori informazioni, vedere [Ordine](design-details-handling-reordering-policies.md#order).  
+-   Una produzione, un assemblaggio o un ordine di acquisto in cui il campo **Metodo di riordino** dell'articolo interessato è impostato su **Ordine** . Il sistema di pianificazione crea gli impegni tra domanda e approvvigionamento pianificato per garantire la creazione dello specifico approvvigionamento. Per ulteriori informazioni, vedere [Ordine](design-details-handling-reordering-policies.md#order).  
 
 -   Un ordine di produzione creato da un ordine di vendita con la funzione **Pianifica ordine vendita** viene collegato all'ordine di vendita con un impegno automatico.  
 
--   Un ordine di assemblaggio creato automaticamente per una riga ordine vendita per completare la quantità nel campo **($ T_37_900 Qty. to Assemble to Order $)**. Tale impegno automatico collega la domanda di vendita e l'approvvigionamento di assemblaggio in modo che i gestori ordini di vendita possano personalizzare e promettere direttamente l'articolo di assemblaggio al cliente. Inoltre, l'impegno collega l'output di assemblaggio alla riga ordine di vendita attraverso l'attività di spedizione che soddisfa l'ordine del cliente.  
+-   Un ordine di assemblaggio creato automaticamente per una riga ordine vendita per completare la quantità nel campo **($ T_37_900 Qty. to Assemble to Order $)** . Tale impegno automatico collega la domanda di vendita e l'approvvigionamento di assemblaggio in modo che i gestori ordini di vendita possano personalizzare e promettere direttamente l'articolo di assemblaggio al cliente. Inoltre, l'impegno collega l'output di assemblaggio alla riga ordine di vendita attraverso l'attività di spedizione che soddisfa l'ordine del cliente.  
 
- Nel caso di un approvvigionamento o una domanda che non è allocata, il sistema di pianificazione assegna uno stato di impegno di tipo **Surplus**. Ciò può risultare dalla domanda dovuta a quantità previste o a parametri di pianificazione immessi dall'utente. Si tratta di surplus legittimo, riconosciuto dal sistema, e che non genera messaggi di azione. Il surplus può essere un approvvigionamento o una domanda effettiva eccedente che non viene tracciata. Ciò indica uno squilibrio nella rete di ordini, che causa l'emissione di messaggi di azione da parte del sistema. Notare che un messaggio di azione che suggerisce una modifica della quantità fa sempre riferimento al tipo **Surplus**. Per ulteriori informazioni, vedere la sezione "Esempio: tracciabilità ordini nelle vendita, nella produzione e nei trasferimenti" in questo argomento.  
+ Nel caso di un approvvigionamento o una domanda che non è allocata, il sistema di pianificazione assegna uno stato di impegno di tipo **Surplus** . Ciò può risultare dalla domanda dovuta a quantità previste o a parametri di pianificazione immessi dall'utente. Si tratta di surplus legittimo, riconosciuto dal sistema, e che non genera messaggi di azione. Il surplus può essere un approvvigionamento o una domanda effettiva eccedente che non viene tracciata. Ciò indica uno squilibrio nella rete di ordini, che causa l'emissione di messaggi di azione da parte del sistema. Notare che un messaggio di azione che suggerisce una modifica della quantità fa sempre riferimento al tipo **Surplus** . Per ulteriori informazioni, vedere la sezione "Esempio: tracciabilità ordini nelle vendita, nella produzione e nei trasferimenti" in questo argomento.  
 
  Gli impegni automatici creati durante l'esecuzione della pianificazione vengono gestiti nei seguenti modi:  
 
@@ -108,7 +108,7 @@ Il sistema di impegno è completo e include funzionalità correlate e parallele 
 
  Il principio implica che un cambiamento nella domanda determina uno squilibrio corrispondente sul lato approvvigionamento della rete di ordini. Viceversa, una modifica nei risultati dell'approvvigionamento determina uno squilibrio corrispondente sul lato della domanda della rete di ordini. In realtà, la rete di ordini è in uno stato di cambiamento continuo in quanto gli utenti immettono, modificano ed eliminano ordini. La tracciabilità ordini elabora gli ordini in modo dinamico, rispondendo ad ogni variazione nel momento in cui viene immessa nel sistema e diventa parte della rete di ordini. Non appena vengono creati i nuovi record di tracciabilità, la rete di ordini è in saldo, ma solo finché non si verifica la modifica successiva.  
 
- Per aumentare la trasparenza dei calcoli nel sistema di pianificazione, la pagina **Elementi di pianificazione non tracciati** visualizza le quantità non tracciate, che rappresentano la differenza in quantità tra la domanda conosciuta e l'approvvigionamento suggerito. Ogni riga della pagina si riferisce alla causa della quantità eccedente, ad esempio **Ordine programmato**, **Livello della scorta di sicurezza**, **Quantità di riordino fissa**, **Quantità minima ordine**, **Arrotondamento** o **Smorzamento**.  
+ Per aumentare la trasparenza dei calcoli nel sistema di pianificazione, la pagina **Elementi di pianificazione non tracciati** visualizza le quantità non tracciate, che rappresentano la differenza in quantità tra la domanda conosciuta e l'approvvigionamento suggerito. Ogni riga della pagina si riferisce alla causa della quantità eccedente, ad esempio **Ordine programmato** , **Livello della scorta di sicurezza** , **Quantità di riordino fissa** , **Quantità minima ordine** , **Arrotondamento** o **Smorzamento** .  
 
 ### <a name="offsetting-in-order-tracking"></a>Compensazione nella tracciabilità ordine  
  A differenza degli impegni, che possono essere creati solo a fronte di quantità articolo disponibili, è possibile utilizzare la tracciabilità ordine a fronte di tutte le altre entità della rete di ordini che fanno parte del calcolo dei fabbisogni del sistema di pianificazione. I fabbisogni netti vengono calcolati come segue:  
@@ -131,61 +131,61 @@ Il sistema di impegno è completo e include funzionalità correlate e parallele 
 ||Domanda|Vendita di 100 unità presso l'ubicazione BLU|  
 ||Approvvigionamento|Ordine di produzione rilasciato (generato mediante la funzione **Pianifica ordine vendita** per la vendita di 100 unità)|  
 
-Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è impostato su **ROSSO**.
+Nella pagina **Setup manufacturing** , il campo **Componenti nell'ubicazione** è impostato su **ROSSO** .
 
  I seguenti movimenti di tracciabilità ordini sono disponibili nella tabella **Movimenti impegni** in base ai dati nella tabella.  
 
  ![Movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Numeri di movimento 8 e 9  
- Per la necessità del componente LOTA e LOTB rispettivamente, i collegamenti di tracciabilità ordine vengono creati dalla domanda nella tabella 5407, **Componenti ordini produzione**, all'approvvigionamento nella tabella 32, **Mov. contabili articoli**. Il campo **Stato impegno** contiene **Tracciabilità** per indicare che questi movimenti sono collegamenti tracciabilità ordine dinamici tra approvvigionamento e domanda.  
+ Per la necessità del componente LOTA e LOTB rispettivamente, i collegamenti di tracciabilità ordine vengono creati dalla domanda nella tabella 5407, **Componenti ordini produzione** , all'approvvigionamento nella tabella 32, **Mov. contabili articoli** . Il campo **Stato impegno** contiene **Tracciabilità** per indicare che questi movimenti sono collegamenti tracciabilità ordine dinamici tra approvvigionamento e domanda.  
 
 > [!NOTE]  
 >  Il campo **Nr. lotto** è vuoto nelle righe della domanda, in quanto i numeri di lotto non sono specificati nelle righe componenti dell'ordine di produzione rilasciato.  
 
 ### <a name="entry-numbers-10"></a>Numeri di movimento 10  
- Dalla domanda di vendita nella tabella 37, **Righe vendite**, un collegamento di tracciabilità ordine viene creato nell'approvvigionamento nella tabella 5406, **Righe ordini prod.**. Il campo **Stato impegno** contiene **Impegno** e il campo **Vincolato** contiene **Ordine su ordine**. Questo perché l'ordine di produzione rilasciato è stato generato specificamente per l'ordine di vendita e deve rimanere collegato a differenza dei collegamenti di tracciabilità ordine con uno stato di impegno **Tracciabilità**, che vengono creati e modificati in modo dinamico. Per ulteriori informazioni, vedere la sezione "Prenotazioni automatiche" in questo argomento.  
+ Dalla domanda di vendita nella tabella 37, **Righe vendite** , un collegamento di tracciabilità ordine viene creato nell'approvvigionamento nella tabella 5406, **Righe ordini prod.** . Il campo **Stato impegno** contiene **Impegno** e il campo **Vincolato** contiene **Ordine su ordine** . Questo perché l'ordine di produzione rilasciato è stato generato specificamente per l'ordine di vendita e deve rimanere collegato a differenza dei collegamenti di tracciabilità ordine con uno stato di impegno **Tracciabilità** , che vengono creati e modificati in modo dinamico. Per ulteriori informazioni, vedere la sezione "Prenotazioni automatiche" in questo argomento.  
 
  A questo punto nello scenario, le 100 unità di LOTA e LOTB vengono trasferite nell'ubicazione BLU da un ordine di trasferimento.  
 
 > [!NOTE]  
 >  Solo la spedizione dell'ordine di trasferimento viene registrata in questa fase, non il carico.  
 
- Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni**.  
+ Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni** .  
 
  ![Movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Numeri di movimento 8 e 9  
- I movimenti di tracciabilità ordini per i due lotti del componente che riflettono la domanda nella tabella 5407 vengono modificati dallo stato di impegno di **Tracciabilità** a **Surplus**. Il motivo è che gli approvvigionamenti a cui erano collegati prima, nella tabella 32, sono stati utilizzati dalla spedizione dell'ordine di trasferimento.  
+ I movimenti di tracciabilità ordini per i due lotti del componente che riflettono la domanda nella tabella 5407 vengono modificati dallo stato di impegno di **Tracciabilità** a **Surplus** . Il motivo è che gli approvvigionamenti a cui erano collegati prima, nella tabella 32, sono stati utilizzati dalla spedizione dell'ordine di trasferimento.  
 
  Il surplus genuino, come n questo caso, riflette un approvvigionamento o una domanda effettiva eccedente che non viene tracciata. È un'indicazione di sbilanciamento nella rete di ordini, che genererà un messaggio di azione dal sistema di pianificazione a meno che non venga risolto in modo dinamico.  
 
 ### <a name="entry-numbers-12-to-16"></a>Numeri di movimento da 12 a 16  
- Poiché i due lotti del componente vengono registrati nell'ordine di trasferimento come spediti ma non ricevuti, tutti i movimenti di tracciabilità ordine positivi correlati sono del tipo di impegno **Surplus**, indicando che non sono allocati ad alcuna domanda. Per ciascun numero di lotto, un movimento si riferisce alla tabella 5741, **Riga trasferimento** e un movimento si riferisce all'ubicazione in transito in cui gli articoli ora esistono.  
+ Poiché i due lotti del componente vengono registrati nell'ordine di trasferimento come spediti ma non ricevuti, tutti i movimenti di tracciabilità ordine positivi correlati sono del tipo di impegno **Surplus** , indicando che non sono allocati ad alcuna domanda. Per ciascun numero di lotto, un movimento si riferisce alla tabella 5741, **Riga trasferimento** e un movimento si riferisce all'ubicazione in transito in cui gli articoli ora esistono.  
 
  A questo punto nello scenario, l'ordine di trasferimento dei componenti dall'ubicazione BLU a ROSSO viene registrato come ricevuto.  
 
- Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni**.  
+ Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni** .  
 
  ![Movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- I movimenti di tracciabilità ordine sono ora simili al primo punto dello scenario, prima che l'ordine di trasferimento fosse registrato come solo spedito, eccetto i movimenti per il componente che ora hanno lo stato di impegno **Surplus**. Ciò avviene in quanto i componenti necessari sono ancora nell'ubicazione ROSSO, come indicato dal fatto che il campo **Codice ubicazione** nella riga del componente dell'ordine di produzione contiene **ROSSO** come impostato nel campo di setup **Componenti nell'ubicazione**. L'approvvigionamento che prima era allocato a questa domanda è stato trasferito nell'ubicazione BLU e ora non può essere tracciato completamente a meno che la necessità di componenti nella riga ordine di produzione non venga modificata nell'ubicazione BLU.  
+ I movimenti di tracciabilità ordine sono ora simili al primo punto dello scenario, prima che l'ordine di trasferimento fosse registrato come solo spedito, eccetto i movimenti per il componente che ora hanno lo stato di impegno **Surplus** . Ciò avviene in quanto i componenti necessari sono ancora nell'ubicazione ROSSO, come indicato dal fatto che il campo **Codice ubicazione** nella riga del componente dell'ordine di produzione contiene **ROSSO** come impostato nel campo di setup **Componenti nell'ubicazione** . L'approvvigionamento che prima era allocato a questa domanda è stato trasferito nell'ubicazione BLU e ora non può essere tracciato completamente a meno che la necessità di componenti nella riga ordine di produzione non venga modificata nell'ubicazione BLU.  
 
- A questo punto dello scenario, il **Cod. ubicazione** nella riga ordine di produzione è impostato su **BLU**. Inoltre, nella pagina **Righe tracciabilità articolo**, le 30 unità di LOTA e le 70 unità di LOTB vengono assegnate alla riga dell'ordine di produzione.  
+ A questo punto dello scenario, il **Cod. ubicazione** nella riga ordine di produzione è impostato su **BLU** . Inoltre, nella pagina **Righe tracciabilità articolo** , le 30 unità di LOTA e le 70 unità di LOTB vengono assegnate alla riga dell'ordine di produzione.  
 
- Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni**.  
+ Ora esistono i seguenti movimenti di tracciabilità ordini nella tabella **Movimenti impegni** .  
 
  ![Movimenti di tracciabilità ordini nella tabella Movimenti Impegni](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Numeri di movimento 21 e 22  
- Poiché la necessità di componenti è stata modificata nell'ubicazione BLU e l'approvvigionamento è disponibile come movimenti contabili articoli nell'ubicazione BLU, tutti i movimenti di tracciabilità ordine per i due numeri di lotto sono ora completamente tracciati, indicati dallo stato di impegno **Tracciabilità**.  
+ Poiché la necessità di componenti è stata modificata nell'ubicazione BLU e l'approvvigionamento è disponibile come movimenti contabili articoli nell'ubicazione BLU, tutti i movimenti di tracciabilità ordine per i due numeri di lotto sono ora completamente tracciati, indicati dallo stato di impegno **Tracciabilità** .  
 
  Il campo **Nr. lotto** è ora compilato nel movimento tracciabilità ordine per la tabella 5407, poiché erano stati assegnati i numeri di lotto alle righe componente dell'ordine di produzione.  
 
  Per ulteriori esempi sui movimenti di tracciabilità ordini nella tabella **Movimenti impegni** vedere il white paper "Tabella movimenti impegni" in [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (è richiesto il login).
 
 ## <a name="action-messaging"></a>Messaggistica di azione  
- Quando il sistema di tracciabilità ordini rileva uno sbilanciamento nella rete di ordini, crea automaticamente un messaggio di azione per informare l'utente. I messaggi di azione sono chiamate generate dal sistema per ogni azione che specifica i dettagli dello squilibrio e i suggerimenti su come ripristinare il saldo nella rete di ordini. Vengono visualizzati come righe di pianificazione nella pagina **Prospetto pianificazione** quando si sceglie **Genera messaggi di azione**. Inoltre, i messaggi di azione vengono visualizzati nelle righe di pianificazione generate in fase di pianificazione per riflettere i suggerimenti del sistema di pianificazione su come ripristinare il saldo nella rete di ordini. In entrambi i casi, i suggerimenti vengono creati nella rete di ordini, scegliendo **Esegui messaggi di azione**.  
+ Quando il sistema di tracciabilità ordini rileva uno sbilanciamento nella rete di ordini, crea automaticamente un messaggio di azione per informare l'utente. I messaggi di azione sono chiamate generate dal sistema per ogni azione che specifica i dettagli dello squilibrio e i suggerimenti su come ripristinare il saldo nella rete di ordini. Vengono visualizzati come righe di pianificazione nella pagina **Prospetto pianificazione** quando si sceglie **Genera messaggi di azione** . Inoltre, i messaggi di azione vengono visualizzati nelle righe di pianificazione generate in fase di pianificazione per riflettere i suggerimenti del sistema di pianificazione su come ripristinare il saldo nella rete di ordini. In entrambi i casi, i suggerimenti vengono creati nella rete di ordini, scegliendo **Esegui messaggi di azione** .  
 
  Un messaggio di azione indirizza un livello della DB alla volta. Se l'utente accetta il messaggio di azione, questo può provocare altri messaggi di azione al successivo livello della DB.  
 

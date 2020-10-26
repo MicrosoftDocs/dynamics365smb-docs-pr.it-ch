@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c3f588a92d424d4ad8b1dfeda28b23981eca6c42
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788089"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920965"
 ---
 # <a name="design-details-cost-adjustment"></a>Dettagli di progettazione: Rettifica costo
 
@@ -27,7 +27,7 @@ Di seguito vengono indicati gli scopi secondari, o funzioni, della rettifica cos
 
 * Fatturare ordini di produzione terminati:  
 
-  * Modificare lo stato dei movimenti di valorizzazione da **Previsto** a **Effettivo**.  
+  * Modificare lo stato dei movimenti di valorizzazione da **Previsto** a **Effettivo** .  
   * Rimuovere i conti WIP. Per ulteriori informazioni, vedere [Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md).  
   * Registrare variazione. Per ulteriori informazioni, vedere [Dettagli progettazione: Scostamento](design-details-variance.md).  
   * Aggiornare il costo unitario nella scheda articolo.  
@@ -36,7 +36,7 @@ I costi di magazzino devono essere rettificati prima che i movimenti di valorizz
 
 ## <a name="detecting-the-adjustment"></a>Rilevazione della rettifica
 
-L'attività di rilevamento di eventuali necessità di rettifiche dei costi viene svolta principalmente dalla routine Item Jnl.-Post Line, mentre l'attività di calcolo e di generazione dei movimenti di rettifica viene eseguita dal processo batch **Rettifica costo - Mov. art.**.  
+L'attività di rilevamento di eventuali necessità di rettifiche dei costi viene svolta principalmente dalla routine Item Jnl.-Post Line, mentre l'attività di calcolo e di generazione dei movimenti di rettifica viene eseguita dal processo batch **Rettifica costo - Mov. art.** .  
 
 Per poter inoltrare i costi, il meccanismo di rilevamento determina quali origini hanno modificato i costi e a quali destinazioni devono essere inoltrati questi costi. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono disponibili le seguenti tre funzioni di rilevamento:  
 
@@ -49,7 +49,7 @@ Per poter inoltrare i costi, il meccanismo di rilevamento determina quali origin
 La funzione di tracciabilità viene utilizzata per gli articoli che utilizzano i metodi di costing FIFO, LIFO, Standard e Specifico e per gli scenari di collegamenti fissi. Le funzioni della funzione sono le seguenti:  
 
 * La rettifica dei costi è rilevata contrassegnando i movimenti contabili articoli di origine come *Mov. colleg. da rettif.* ogni volta che si registra un movimento contabile articoli o un movimento valorizzazione.  
-* Il costo viene inoltrato in base alle catene di costi registrati nella tabella **Mov. collegamento articoli**.  
+* Il costo viene inoltrato in base alle catene di costi registrati nella tabella **Mov. collegamento articoli** .  
 
 ### <a name="average-cost-adjustment-entry-point"></a>Rettifica costo medio cod. spedizioni Intrastat
 
@@ -75,8 +75,8 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing
 
 La rettifica dei costi può essere effettuata in due modi:  
 
-* Manualmente, tramite l'esecuzione del processo batch **Rettifica costo - Movimenti articoli**. È possibile eseguire questo processo batch per tutti gli articoli o solo per determinati articoli o categorie articolo. Questo processo batch effettua una rettifica dei costi per gli articoli in magazzino per i quali è stata effettuata una transazione in entrata, ad esempio un acquisto. Per gli articoli che utilizzano il metodo di costing medio, anche il processo batch esegue una rettifica se vengono create le transazioni in uscita.  
-* Automaticamente, regolando i costi ogni volta che si registra una transazione di magazzino e quando termina un ordine di produzione. La rettifica dei costi viene eseguita solo per uno o più articoli specifici interessati dalla registrazione. Viene impostata quando si seleziona la casella di controllo **Rettifica costo automatica** nella pagina **Setup magazzino**.  
+* Manualmente, tramite l'esecuzione del processo batch **Rettifica costo - Movimenti articoli** . È possibile eseguire questo processo batch per tutti gli articoli o solo per determinati articoli o categorie articolo. Questo processo batch effettua una rettifica dei costi per gli articoli in magazzino per i quali è stata effettuata una transazione in entrata, ad esempio un acquisto. Per gli articoli che utilizzano il metodo di costing medio, anche il processo batch esegue una rettifica se vengono create le transazioni in uscita.  
+* Automaticamente, regolando i costi ogni volta che si registra una transazione di magazzino e quando termina un ordine di produzione. La rettifica dei costi viene eseguita solo per uno o più articoli specifici interessati dalla registrazione. Viene impostata quando si seleziona la casella di controllo **Rettifica costo automatica** nella pagina **Setup magazzino** .  
 
 Si consiglia di eseguire la rettifica dei costi automaticamente al momento della registrazione perché i costi unitari vengono aggiornati con più frequenza e pertanto sono più precisi. Lo svantaggio consiste nel fatto che una frequente rettifica costo può influire negativamente sulle prestazioni del database.  
 
@@ -84,18 +84,18 @@ Poiché è importante mantenere aggiornato il costo unitario di un articolo, è 
 
 A prescindere dall'esecuzione manuale o automatica della rettifica dei costi, il processo di rettifica e le relative conseguenze non cambiano. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il valore della transazione in entrata e inoltra tale costo a tutte le transazioni in uscita, come le vendite o i consumi, collegati alla transazione in entrata. La rettifica dei costi crea movimenti di valorizzazione che contengono importi di rettifica e importi che si compensano per arrotondamento.  
 
-I nuovi movimenti di valorizzazione dell'arrotondamento e della rettifica contengono la data di registrazione della fattura correlata. Le eccezioni si verificano se i movimenti di valorizzazione rientrano in un periodo contabile o in un periodo di magazzino chiuso o se la data di registrazione è antecedente alla data nel campo **Consenti registraz. da** della pagina **Setup contabilità generale**. In questo caso, il processo batch assegna la data di registrazione come la prima data del successivo periodo aperto.  
+I nuovi movimenti di valorizzazione dell'arrotondamento e della rettifica contengono la data di registrazione della fattura correlata. Le eccezioni si verificano se i movimenti di valorizzazione rientrano in un periodo contabile o in un periodo di magazzino chiuso o se la data di registrazione è antecedente alla data nel campo **Consenti registraz. da** della pagina **Setup contabilità generale** . In questo caso, il processo batch assegna la data di registrazione come la prima data del successivo periodo aperto.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Processo batch Rettifica costo - Mov. art.
 
-Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, è possibile scegliere se eseguire tale processo per tutti gli articoli o solo per determinati articoli o categorie.  
+Quando si esegue il processo batch **Rettifica costo - Movimenti articoli** , è possibile scegliere se eseguire tale processo per tutti gli articoli o solo per determinati articoli o categorie.  
 
 > [!NOTE]  
 > Si consiglia di eseguire sempre il processo batch per tutti gli articoli e utilizzare l'opzione filtro solo per ridurre il runtime del processo batch o per rettificare il costo di un determinato articolo.  
 
 ### <a name="example"></a>Esempio
 
-Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistato come ricevuto e fatturato in data 20-01-01. In secondo momento l'articolo venduto viene registrato come spedito e fatturato in data 01-15-20. Si eseguono quini di processi batch **Rettifica costo - Movimenti articoli** e **Registra costo magazzino in C/G**. Vengono creati i seguenti movimenti.  
+Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistato come ricevuto e fatturato in data 20-01-01. In secondo momento l'articolo venduto viene registrato come spedito e fatturato in data 01-15-20. Si eseguono quini di processi batch **Rettifica costo - Movimenti articoli** e **Registra costo magazzino in C/G** . Vengono creati i seguenti movimenti.  
 
 #### <a name="value-entries-1"></a>Movimenti di valorizzazione (1) 
 
@@ -122,7 +122,7 @@ Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistat
 |01-15-20|[Conto giac. magazzino]|2130|-10,00|3|  
 |01-15-20|[Conto COGS]|7290|10,00|4|  
 
-Successivamente, si registra un addebito articolo di acquisto correlato per VL 2,00 fatturato il 20-10-02. Si esegue il processo batch **Rettifica costo - Movimenti articoli** e successivamente il processo batch **Registra costo magazzino in C/G**. Il processo batch di rettifica costi modifica il costo della vendita di VL -2,00 e il processo batch **Registra costo magazzino in C/G** registra i nuovi movimenti di valorizzazione nella contabilità generale. Il risultato è il seguente.  
+Successivamente, si registra un addebito articolo di acquisto correlato per VL 2,00 fatturato il 20-10-02. Si esegue il processo batch **Rettifica costo - Movimenti articoli** e successivamente il processo batch **Registra costo magazzino in C/G** . Il processo batch di rettifica costi modifica il costo della vendita di VL -2,00 e il processo batch **Registra costo magazzino in C/G** registra i nuovi movimenti di valorizzazione nella contabilità generale. Il risultato è il seguente.  
 
 #### <a name="value-entries-2"></a>Movimenti di valorizzazione (2)  
 
@@ -151,7 +151,7 @@ Successivamente, si registra un addebito articolo di acquisto correlato per VL 2
 
 ## <a name="automatic-cost-adjustment"></a>Rettifica costo automatica
 
-Per impostare l'esecuzione automatica della rettifica dei costi quando si registra una transazione di magazzino, utilizzare il campo **Rettifica costo automatica** della pagina **Setup magazzino**. Questo campo consente di selezionare una data antecedente a quella di lavoro corrente nella quale si desidera che venga eseguita una rettifica automatica dei costi. Sono disponibili le seguenti opzioni:  
+Per impostare l'esecuzione automatica della rettifica dei costi quando si registra una transazione di magazzino, utilizzare il campo **Rettifica costo automatica** della pagina **Setup magazzino** . Questo campo consente di selezionare una data antecedente a quella di lavoro corrente nella quale si desidera che venga eseguita una rettifica automatica dei costi. Sono disponibili le seguenti opzioni:  
 
 |Opzione|Description|
 |------|-----------|
@@ -163,7 +163,7 @@ Per impostare l'esecuzione automatica della rettifica dei costi quando si regist
 |Anno|I costi vengono rettificati se la registrazione avviene entro un anno dalla data del lavoro.|  
 |Sempre|I costi vengono sempre rettificati durante la registrazione, indipendentemente dalla data di esecuzione dell'operazione.|  
 
-La selezione che si effettua nel campo **Rettifica costo automatica** è importante per le prestazioni e per la precisione dei costi. Periodi di tempo più brevi, ad esempio **Giorno** o **Settimana**, influiscono meno sulle prestazioni del sistema, in quanto fissano un requisito più rigoroso per cui solo i costi registrati nell'ultimo giorno o nell'ultima settimana possono essere rettificati automaticamente. Ciò significa che la rettifica dei costi automatica non viene eseguita frequentemente e quindi influisce meno sulle prestazioni del sistema. Tuttavia, ciò significa anche che i costi unitari possono essere meno precisi.  
+La selezione che si effettua nel campo **Rettifica costo automatica** è importante per le prestazioni e per la precisione dei costi. Periodi di tempo più brevi, ad esempio **Giorno** o **Settimana** , influiscono meno sulle prestazioni del sistema, in quanto fissano un requisito più rigoroso per cui solo i costi registrati nell'ultimo giorno o nell'ultima settimana possono essere rettificati automaticamente. Ciò significa che la rettifica dei costi automatica non viene eseguita frequentemente e quindi influisce meno sulle prestazioni del sistema. Tuttavia, ciò significa anche che i costi unitari possono essere meno precisi.  
 
 ### <a name="example"></a>Esempio
 
@@ -175,7 +175,7 @@ Nel seguente esempio viene illustrato uno scenario di rettifica costo automatica
 
 Se è stata impostata la rettifica dei costi automatica da applicare alle registrazioni che si verificano in un mese o un trimestre dalla data di lavoro corrente, la rettifica dei costi automatica verrà eseguita e il costo dell'acquisto verrà inoltrato alla vendita.  
 
-Se è stata impostata la rettifica dei costi automatica da applicare alle registrazioni che si verificano in un giorno o una settimana dalla data di lavoro corrente, la rettifica dei costi automatica non verrà eseguita e il costo dell'acquisto non verrà inoltrato alla vendita fintanto che non si esegue il processo batch **Rettifica costo - Movimenti articoli**.  
+Se è stata impostata la rettifica dei costi automatica da applicare alle registrazioni che si verificano in un giorno o una settimana dalla data di lavoro corrente, la rettifica dei costi automatica non verrà eseguita e il costo dell'acquisto non verrà inoltrato alla vendita fintanto che non si esegue il processo batch **Rettifica costo - Movimenti articoli** .  
 
 ## <a name="see-also"></a>Vedi anche
 

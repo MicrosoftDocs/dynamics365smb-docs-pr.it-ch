@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
 ROBOTS: NOINDEX
-ms.openlocfilehash: c42f16f588b360b0e382ab2a3a91bd6974cc8a7e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7c17c5f54553e7960f4386918bda640fa2e0380e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529206"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915203"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Estensione di migrazione dei dati Dynamics GP
 
 > [!NOTE]
-> Questa estensione è deprecata nell'aggiornamento 15.3. Si consiglia agli utenti che desiderano migrare da Dynamics GP di iniziare utilizzando la procedura **Migrazione cloud**. L'estensione **Migrazione cloud** ha funzionalità più efficaci e porta più dati in Business Central da Dynamics GP. Per ulteriori informazioni, vedere [Migrare a Business Central Online da Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) nel contenuto amministrativo per [!INCLUDE[prodshort](includes/prodshort.md)].
+> Questa estensione è deprecata nell'aggiornamento 15.3. Si consiglia agli utenti che desiderano migrare da Dynamics GP di iniziare utilizzando la procedura **Migrazione cloud** . L'estensione **Migrazione cloud** ha funzionalità più efficaci e porta più dati in Business Central da Dynamics GP. Per ulteriori informazioni, vedere [Migrare a Business Central Online da Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) nel contenuto amministrativo per [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="see-also"></a>Vedere anche
 

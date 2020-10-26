@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d37ef45bc1232bf0811a14123a814f1bf57ee7c2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787714"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913706"
 ---
 # <a name="design-details-inventory-valuation"></a>Dettagli di progettazione: Valutazione di magazzino
 La valutazione di magazzino XE "Valutazione magazzino" è la determinazione del costo assegnato a un articolo di magazzino, espresso dalla seguente equazione.  
@@ -27,7 +27,7 @@ Il calcolo della valutazione di magazzino utilizza il campo **Importo costo (eff
 I movimenti vengono collegati tra loro, tramite il collegamento fisso XE "Collegamento; fisso" o in base all'ipotesi generale di costo-flusso definita dal metodo di costing XE "Metodo; costing" XE "Metodo di costing". Un movimento di riduzione di magazzino può essere collegato a più di un movimento di aumento con differenti date di registrazione e possibilmente con costi di acquisto diversi XE "Costo di acquisto". Per ulteriori informazioni, vedere [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md). Di conseguenza, il calcolo del valore di magazzino XE "Valore di magazzino" in una specifica data è basato sulla somma dei movimenti di valorizzazione positivi e negativi.  
 
 ## <a name="inventory-valuation-report"></a>Report Valutazione magazzino  
-Per calcolare il valore di magazzino nel report **Valutazione magazzino**, il report inizia calcolando il valore del magazzino dell'articolo alla data di inizio specificata. Aggiunge quindi gli aumenti del valore di magazzino e sottrae le diminuzioni del valore di magazzino fino a una data finale specificata. Il risultato finale è il valore di magazzino alla data di fine. Il report calcola questi valori sommando i valori nel campo **Importo costo (effettivo)** nei movimenti di valorizzazione, utilizzando le date di registrazione come filtri.  
+Per calcolare il valore di magazzino nel report **Valutazione magazzino** , il report inizia calcolando il valore del magazzino dell'articolo alla data di inizio specificata. Aggiunge quindi gli aumenti del valore di magazzino e sottrae le diminuzioni del valore di magazzino fino a una data finale specificata. Il risultato finale è il valore di magazzino alla data di fine. Il report calcola questi valori sommando i valori nel campo **Importo costo (effettivo)** nei movimenti di valorizzazione, utilizzando le date di registrazione come filtri.  
 
 Nel report stampato vengono sempre visualizzati gli importi effettivi, vale a dire il costo dei movimenti che sono stati registrati come fatturati. Se viene selezionato il campo Includi costo previsto della Scheda dettaglio Opzioni, nel report verrà stampato anche il costo previsto di movimenti che sono stati registrati come ricevuti o spediti.  
 

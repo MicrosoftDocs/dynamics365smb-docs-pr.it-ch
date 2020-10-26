@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 867fddce799fb7e005a5a34a4c22975336375801
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: eedfa2a0c0f519f5ea22eb51a779f6f2a090d9bf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780753"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914357"
 ---
 # <a name="edit-posted-documents"></a>Modifica dei documenti registrati
 
 A volte è necessario aggiornare un documento registrato perché le informazioni rilevanti per il documento sono cambiate. In un documento di vendita registrato, ad esempio, questo può essere il numero di registrazione del pacchetto dell'agente di spedizione. Su un documento di acquisto registrato, questo può essere un testo di riferimento di pagamento.
 
-Eseguire la modifica su una versione modificabile del documento originale, indicata da "**- Aggiornamento**" nel titolo della pagina. La pagina contiene un sottoinsieme dei campi nel documento originale, di cui alcuni sono campi non modificabili che vengono visualizzati solo a scopo informativo.
+Eseguire la modifica su una versione modificabile del documento originale, indicata da " **- Aggiornamento** " nel titolo della pagina. La pagina contiene un sottoinsieme dei campi nel documento originale, di cui alcuni sono campi non modificabili che vengono visualizzati solo a scopo informativo.
 
 La funzionalità è disponibile per i seguenti documenti in tutti i mercati supportati:
 
@@ -42,9 +42,9 @@ I seguenti documenti aggiuntivi possono essere modificati nei paesi/aree geograf
 Di seguito viene spiegato come modificare una spedizione vendita registrata. I passaggi sono simili per gli altri documenti supportati.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.
-2. Selezionare il documento che si desidera modificare, quindi scegliere l'azione **Aggiorna documento**. In alternativa, aprire il documento e scegliere l'azione.
-3. Nella pagina **Spedizioni vendita registrate - Aggiornamento** modificare il campo **Nr. identificazione collo**, ad esempio.
-4. Scegliere il pulsante **OK**.
+2. Selezionare il documento che si desidera modificare, quindi scegliere l'azione **Aggiorna documento** . In alternativa, aprire il documento e scegliere l'azione.
+3. Nella pagina **Spedizioni vendita registrate - Aggiornamento** modificare il campo **Nr. identificazione collo** , ad esempio.
+4. Scegliere il pulsante **OK** .
 
 La spedizione vendita registrata viene aggiornata.
 

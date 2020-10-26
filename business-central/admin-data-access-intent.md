@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333926"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911573"
 ---
 # <a name="managing-database-access-intent"></a>Gestione dell'intento di accesso al database 
 
@@ -29,7 +29,7 @@ Quando gli oggetti vengono eseguiti, l'intento di accesso al database determina 
 
 La pagina **Elenco di intenti di accesso al database** consente di ignorare l'intento di accesso al database predefinito per gli oggetti quando vengono eseguiti.
 
-In termini di database, questa funzione è comunemente nota come *scale-out di lettura*. Per ulteriori informazioni sullo scale-out di lettura e sull'intento di accesso ai dati in [!INCLUDE[prodshort](includes/prodshort.md)], vedere [Utilizzo dello scale-out di lettura per prestazioni migliori](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) nella Guida di amministrazione e per sviluppatori di [!INCLUDE[prodshort](includes/prodshort.md)].
+In termini di database, questa funzione è comunemente nota come *scale-out di lettura* . Per ulteriori informazioni sullo scale-out di lettura e sull'intento di accesso ai dati in [!INCLUDE[prodshort](includes/prodshort.md)], vedere [Utilizzo dello scale-out di lettura per prestazioni migliori](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) nella Guida di amministrazione e per sviluppatori di [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="to-change-the-database-access-intent"></a>Per modificare l'intento di accesso al database
 
@@ -43,12 +43,12 @@ In termini di database, questa funzione è comunemente nota come *scale-out di l
     |**Consenti scrittura**|Imposta l'oggetto per utilizzare il database primario, consentendo all'utente di modificare i dati.|
     |**Sola lettura**|Imposta l'oggetto per utilizzare la replica del database, il che significa che l'utente può solo visualizzare i dati, non modificarli.|
 
-2. Scegliere l'azione **Modifica lista**.
+2. Scegliere l'azione **Modifica lista** .
 
-3. Nella pagina **Modifica - Elenco intenti di accesso al database**, modifica il campo **Intento di accesso** per gli oggetti.
+3. Nella pagina **Modifica - Elenco intenti di accesso al database** , modifica il campo **Intento di accesso** per gli oggetti.
 
     > [!NOTE]
-    > Se un oggetto modificabile, come la scheda cliente, è impostato su **Sola lettura**, il database primario verrà comunque utilizzato, indipendentemente dall'intento di accesso, consentendo agli utenti di apportare modifiche normalmente.
+    > Se un oggetto modificabile, come la scheda cliente, è impostato su **Sola lettura** , il database primario verrà comunque utilizzato, indipendentemente dall'intento di accesso, consentendo agli utenti di apportare modifiche normalmente.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 

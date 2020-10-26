@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ec1d07793b90e180bd22b57dc45c717b456e317
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b8d764bcbf1a7f6a2bc97130eddbdc1a644f9f1c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780078"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914182"
 ---
 # <a name="adjust-item-costs"></a>Rettifica costi articolo
 Il costo di un articolo (valore di magazzino) che si acquista e in seguito si vende può variare nel tempo, ad esempio perché un costo di spedizione viene aggiunto al costo di acquisto dopo che è stato venduto l'articolo. La rettifica dei costi è un'operazione particolarmente importante nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Per conoscere sempre il valore di magazzino corretto, i costi degli articoli devono quindi essere regolarmente rettificati. In questo modo si garantisce che le statistiche relative ai margini siano aggiornate e che gli indicatore KPI finanziari siano corretti. Per ulteriori informazioni, vedere [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md).
@@ -39,18 +39,18 @@ Tramite i processi della funzione di rettifica dei costi vengono elaborati solo 
 ## <a name="to-adjust-item-costs-manually"></a>Per rettificare i costi degli articoli manualmente
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rettifica costo - Movimenti articoli** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Rettifica costo - Movimenti articoli** specificare per quali articoli rettificare i costi.
-3. Scegliere il pulsante **OK**.
+3. Scegliere il pulsante **OK** .
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Per apportare modifiche generali nel costo diretto unitario
-Se si desidera modificare il costo diretto unitario per vari articoli, si può utilizzare il processo batch **Rett. costi/Prezzi articoli**.  
+Se si desidera modificare il costo diretto unitario per vari articoli, si può utilizzare il processo batch **Rett. costi/Prezzi articoli** .  
 
  Il processo batch modificherà il contenuto del campo **Prezzo unitario** della scheda articolo. Il contenuto del campo verrà modificato nello stesso modo per tutti gli articoli o per quelli selezionati. La modifica viene eseguita moltiplicando il valore nel campo per un fattore di rettifica specificato.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rettifica costi/prezzi articoli** e quindi scegliere il collegamento correlato.  
-2. Nel campo **Rettifica campo**, indicare il campo della scheda articolo o SKU da rettificare.  
+2. Nel campo **Rettifica campo** , indicare il campo della scheda articolo o SKU da rettificare.  
 3. Nel campo **Fattore rettifica** specificare il fattore in base al quale il valore verrà rettificato. Ad esempio, immettere **1,5** per aumentare il valore del 50%.  
-4. Nella Scheda dettaglio **Articolo**, impostare i filtri per specificare, per esempio, gli articoli da lavorare con il processo batch.  
-5. Scegliere il pulsante **OK**.  
+4. Nella Scheda dettaglio **Articolo** , impostare i filtri per specificare, per esempio, gli articoli da lavorare con il processo batch.  
+5. Scegliere il pulsante **OK** .  
 
 ## <a name="understanding-unit-cost-calculation"></a>Informazioni sul calcolo costo unitario
 Come regola, il valore nel campo **Costo unitario** nella scheda articolo si basa sul costo standard per gli articoli con un metodo di costing standard. Per gli articoli con tutti gli altri metodi di costing, tale valore viene calcolato dividendo le giacenze attuali, ovvero costi fatturati e costi previsti, per il magazzino.  
@@ -60,7 +60,7 @@ Come regola, il valore nel campo **Costo unitario** nella scheda articolo si bas
 ## <a name="unit-cost-calculation-for-purchases"></a>Calcolo del costo unitario per gli acquisti  
  Quando si acquistano degli articoli, il valore contenuto nel campo **Ultimo costo diretto** nella scheda articolo viene copiato nel campo **Costo unitario diretto** di una riga di acquisto oppure nella riga Importo unitario di una riga di registrazione magazzino.  
 
- In base all'opzione selezionata nel campo **Metodo di costing**, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il contenuto del campo **Costo Unitario** delle righe.  
+ In base all'opzione selezionata nel campo **Metodo di costing** , [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il contenuto del campo **Costo Unitario** delle righe.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Metodo di costing FIFO, LIFO, Specifico o Medio  
  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il contenuto del campo **Costo unitario VL** della riga di acquisto o il contenuto del campo **Costo unitario** della riga di registrazione magazzino in base alla seguente formula:  

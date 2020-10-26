@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fdc407ef26d238ba54a2566cdd9003c29da2eeb3
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: d8140f71709208a271eff5c8de415b0e95736072
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196681"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911423"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Associare e sincronizzare i record manualmente
 In questo argomento viene descritto come associare uno o più record in [!INCLUDE[d365fin](includes/d365fin_md.md)] a record in Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)]. L'associazione di record consente di visualizzare le infomazioni di Common Data Service da [!INCLUDE[d365fin](includes/d365fin_md.md)] e viceversa. L'associazione consente inoltre di sincronizzare dati tra i record. È possibile associare i record esistenti, oppure creare e associare nuovi record.
 
 > [!Note]
-> L'associazione e la sincronizzazione dei dati è disponibile solo se l'amministratore di sistema ha creato una connessione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)]. Un modo rapido di verificare è di aprire la scheda **Cliente** e di cercare l'azione **Imposta associazione**. Se l'azione è disponibile, le app sono collegate.   
+> L'associazione e la sincronizzazione dei dati è disponibile solo se l'amministratore di sistema ha creato una connessione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e Common Data Service o [!INCLUDE[crm_md](includes/crm_md.md)]. Un modo rapido di verificare è di aprire la scheda **Cliente** e di cercare l'azione **Imposta associazione** . Se l'azione è disponibile, le app sono collegate.   
 
 ## <a name="video-example"></a>Esempio di video
 
@@ -34,13 +34,13 @@ In questo argomento viene descritto come associare uno o più record in [!INCLUD
 
     È inoltre possibile aprire la pagina elenco e selezionare il record che si desidera associare.  
 
-2.  Scegliere l'azione **Imposta associazione**.  
-3.  Compilare i campi e scegliere **OK**.  
+2.  Scegliere l'azione **Imposta associazione** .  
+3.  Compilare i campi e scegliere **OK** .  
 
 ## <a name="to-synchronize-a-single-record"></a>Per sincronizzare un singolo record  
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], aprire la scheda del record da associare. Ad esempio, la scheda Cliente o Contatto.  
-2.  Scegliere l'azione **Sincronizza adesso**.  
-3.  Se un record può essere sincronizzato in una direzione, selezionare l'opzione che specifica la direzione di aggiornamento dei dati e scegliere **OK**.  
+2.  Scegliere l'azione **Sincronizza adesso** .  
+3.  Se un record può essere sincronizzato in una direzione, selezionare l'opzione che specifica la direzione di aggiornamento dei dati e scegliere **OK** .  
 
 ## <a name="to-synchronize-a-single-record-from-crm_md"></a>Per sincronizzare un singolo record da [!INCLUDE[crm_md](includes/crm_md.md)]  
 1.  In [!INCLUDE[crm_md](includes/crm_md.md)], aprire il modulo del record da associare. Ad esempio, la scheda Account o il modulo scheda Contatto.  
@@ -51,8 +51,8 @@ In questo argomento viene descritto come associare uno o più record in [!INCLUD
 
 ## <a name="to-synchronize-multiple-records"></a>Per sincronizzare più record  
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], aprire la pagina elenco per il record, ad esempio le pagine elenco Clienti o Contatti.  
-2.  Selezionare i record che si intende sincronizzare, quindi scegliere **Sincronizza adesso**.  
-3.  Se i record possono essere sincronizzati in una direzione, selezionare l'opzione che specifica la direzione e scegliere **OK**.  
+2.  Selezionare i record che si intende sincronizzare, quindi scegliere **Sincronizza adesso** .  
+3.  Se i record possono essere sincronizzati in una direzione, selezionare l'opzione che specifica la direzione e scegliere **OK** .  
 
 ## <a name="see-also"></a>Vedere anche  
 [Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)

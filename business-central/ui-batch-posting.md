@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1fd25f8b07a359414f62ef4757162f8a73889c27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782536"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912739"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Registrare più documenti contemporaneamente
 
@@ -26,10 +26,10 @@ Anziché registrare un singolo documento alla volta, è possibile selezionare pi
 La seguente procedura descrive come registrare immediatamente più ordini di acquisto. I passaggi sono simili per tutti i documenti di acquisto e vendita.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Ordini acquisto**, selezionare tutti gli ordini da registrare:
-3. Nel campo **Nr.** selezionare i tre punti verticali per aprire il menu di scelta rapida, quindi scegliere il l'azione **Seleziona più elementi**.
+2. Nella pagina **Ordini acquisto** , selezionare tutti gli ordini da registrare:
+3. Nel campo **Nr.** selezionare i tre punti verticali per aprire il menu di scelta rapida, quindi scegliere il l'azione **Seleziona più elementi** .
 4. Selezionare la casella di controllo per tutte le righe che rappresentano gli ordini che si desidera registrare contemporaneamente.
-5. Scegliere l'azione **Registrazione** e quindi l'azione **Registra**.
+5. Scegliere l'azione **Registrazione** e quindi l'azione **Registra** .
 6. Scegliere il pulsante **Sì** nel messaggio di conferma.
 
 ## <a name="to-batch-post-multiple-purchase-orders"></a>Per eseguire registrazioni batch di ordini di acquisto
@@ -40,17 +40,17 @@ La seguente procedura descrive come eseguire registrazioni batch di ordini di ac
 > La registrazione in batch dei documenti avviene in background. [!INCLUDE [prodshort](includes/prodshort.md)] online include processi predefiniti per la registrazione in background e la registrazione in batch. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Ordini acquisto**, selezionare tutti gli ordini da registrare:
-3. Nel campo **Nr.** selezionare i tre punti verticali per aprire il menu di scelta rapida, quindi scegliere il l'azione **Seleziona più elementi**.
+2. Nella pagina **Ordini acquisto** , selezionare tutti gli ordini da registrare:
+3. Nel campo **Nr.** selezionare i tre punti verticali per aprire il menu di scelta rapida, quindi scegliere il l'azione **Seleziona più elementi** .
 4. Selezionare la casella di controllo per tutte le righe che rappresentano gli ordini che si desidera registrare contemporaneamente.
-5. Scegliere l'azione **Registrazione** e quindi l'azione **Registra batch**.
-6. Nella pagina **Aggior. batch ordini acquisto**, riempire i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Scegliere il pulsante **OK**.
-8. Per visualizzare potenziali problemi verificatisi durante la registrazione batch di documenti, aprire la pagina **Registro messaggi di errore**.
+5. Scegliere l'azione **Registrazione** e quindi l'azione **Registra batch** .
+6. Nella pagina **Aggior. batch ordini acquisto** , riempire i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Scegliere il pulsante **OK** .
+8. Per visualizzare potenziali problemi verificatisi durante la registrazione batch di documenti, aprire la pagina **Registro messaggi di errore** .
 
 Gli ordini di acquisto verranno ora aggiunti a un movimento coda processi dedicato, che definisce quando i documenti vengono registrati. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
-Se si seleziona **PDF** nel campo **Tipo di output report**, gli ordini di acquisto registrati correttamente saranno disponibili nella parte **Report elaborati** in Gestione ruolo utente.
+Se si seleziona **PDF** nel campo **Tipo di output report** , gli ordini di acquisto registrati correttamente saranno disponibili nella parte **Report elaborati** in Gestione ruolo utente.
 
 ## <a name="see-also"></a>Vedere anche
 

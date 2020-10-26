@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9254d7b32d96fc97dd1c6facba567f92bbb630b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 25d94f27f1a440342c8e24310b5c853aa832b4db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786664"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910224"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
 È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i flussi di lavoro con le fasi indicate per le approvazioni in questione. Prima di creare i flussi di lavoro di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
@@ -47,7 +47,7 @@ Quando si esegue l'accesso come utente corrente, impostare Alicia come utente di
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Per impostare l'utente corrente e Alicia come utenti approvazione  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente approvazione** e quindi scegliere il collegamento correlato.  
-2.  Nella pagina **Setup utente approvazione** scegliere l'azione **Nuovo**.  
+2.  Nella pagina **Setup utente approvazione** scegliere l'azione **Nuovo** .  
 
     > [!NOTE]  
     >  È necessario impostare un responsabile dell'approvazione prima di poter impostare gli utenti che richiedono l'approvazione del responsabile. Pertanto, è necessario impostare l'utente corrente prima di impostare Alicia.  
@@ -63,22 +63,22 @@ Quando si esegue l'accesso come utente corrente, impostare Alicia come utente di
 In questa procedura dettagliata, l'utente viene avvisato sulle richieste di approvare mediante la nota interna. La notifica di approvazione può anche essere inviata tramite e-mail. Per ulteriori informazioni, vedere [Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Per impostare come e quando si riceve la notifica  
-1.  Nella pagina **Setup utente approvazione**, selezionare la riga dell'utente corrente e quindi scegliere l'azione **Setup di notifica**.  
-2.  Nella pagina **Setup di notifica**, nel campo **Tipo di notifica**, scegliere **Approvazione**.  
-3.  Nel campo **Metodo di notifica**, scegliere **Nota**.  
-6.  Nella pagina **Setup di notifica** scegliere l'azione **Programmazione notifica**.  
-7.  Nella pagina **Programmazione notifica**, nel campo **Ricorrenza** selezionare **Immediatamente**.  
+1.  Nella pagina **Setup utente approvazione** , selezionare la riga dell'utente corrente e quindi scegliere l'azione **Setup di notifica** .  
+2.  Nella pagina **Setup di notifica** , nel campo **Tipo di notifica** , scegliere **Approvazione** .  
+3.  Nel campo **Metodo di notifica** , scegliere **Nota** .  
+6.  Nella pagina **Setup di notifica** scegliere l'azione **Programmazione notifica** .  
+7.  Nella pagina **Programmazione notifica** , nel campo **Ricorrenza** selezionare **Immediatamente** .  
 
 ## <a name="creating-the-approval-workflow"></a>Creazione del flusso di lavoro di approvazione  
  Creare il flusso di lavoro di approvazione dell'ordine di acquisto copiando le fasi dal modello del flusso di lavoro di approvazione dell'ordine di acquisto. Lasciare le fasi esistenti del flusso di lavoro invariate quindi abilitare il flusso di lavoro.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Per creare e abilitare un flusso di lavoro di approvazione dell'ordine di acquisto  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
-2.  Nella pagina **Workflow** scegliere l'azione **Nuovo workflow da modello**.  
-3.  Nella pagina **Modelli del workflow**, selezionare il modello di flusso di lavoro denominato Flusso di lavoro approvazione ordine acquisto, quindi scegliere il pulsante **OK**.  
+2.  Nella pagina **Workflow** scegliere l'azione **Nuovo workflow da modello** .  
+3.  Nella pagina **Modelli del workflow** , selezionare il modello di flusso di lavoro denominato Flusso di lavoro approvazione ordine acquisto, quindi scegliere il pulsante **OK** .  
 
     Verrà visualizzata la pagina **Workflow** per un nuovo workflow contenente tutte le informazioni del modello selezionato. Il valore nel campo **Coda** è esteso con "-01" per indicare che si tratta del primo flusso di lavoro che viene creato dal modello Flusso di lavoro approvazione ordine acquisto.  
-5.  Nell'intestazione della pagina **Workflow**, selezionare la casella di controllo **Abilitato**.  
+5.  Nell'intestazione della pagina **Workflow** , selezionare la casella di controllo **Abilitato** .  
 
 ## <a name="using-the-approval-workflow"></a>Utilizzo del flusso di lavoro di approvazione  
 Utilizzare il nuovo workflow di approvazione dell'ordine di acquisto eseguendo per prima cosa l'accesso a [!INCLUDE[d365fin](includes/d365fin_md.md)] come Alicia per richiedere l'approvazione di un ordine di acquisto. Eseguire quindi l'accesso come l'utente corrente, visualizzare la nota in Gestione ruolo utente, selezionare il collegamento della richiesta di approvazione e approvare la richiesta.  
@@ -86,17 +86,17 @@ Utilizzare il nuovo workflow di approvazione dell'ordine di acquisto eseguendo p
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Per richiedere l'approvazione di un ordine di acquisto, come Alicia  
 1. Effettuare l'accesso come Alicia.
 2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
-3.  Selezionare la riga per l'ordine di acquisto aperto 106001, quindi scegliere l'azione **Modifica**.  
-4.  Nella pagina **Ordine di acquisto**, scegliere l'azione **Invia richiesta approvazione**.  
+3.  Selezionare la riga per l'ordine di acquisto aperto 106001, quindi scegliere l'azione **Modifica** .  
+4.  Nella pagina **Ordine di acquisto** , scegliere l'azione **Invia richiesta approvazione** .  
 
-Si noti che il valore nel campo **Stato** è diventato **Approvazione in sospeso**.  
+Si noti che il valore nel campo **Stato** è diventato **Approvazione in sospeso** .  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>Per approvare l'ordine di acquisto, come Sean  
 1. Effettuare l'accesso come Sean.
-2. In Gestione ruolo utente, nell'area **Self-service** selezionare il riquadro **Richieste da approvare**.
-3. Nella pagina **Richieste da approvare** selezionare la riga relativa all'ordine di acquisto di Alicia, quindi selezionare l'azione**Approva**.  
+2. In Gestione ruolo utente, nell'area **Self-service** selezionare il riquadro **Richieste da approvare** .
+3. Nella pagina **Richieste da approvare** selezionare la riga relativa all'ordine di acquisto di Alicia, quindi selezionare l'azione **Approva** .  
 
-Il valore nel campo **Stato** dell'ordine di acquisto di Elisa diventa **Rilasciato**.  
+Il valore nel campo **Stato** dell'ordine di acquisto di Elisa diventa **Rilasciato** .  
 
 A questo punto, è stato impostato e testato un flusso di lavoro di approvazione semplice in base alle prime due fasi del flusso di lavoro di approvazione dell'ordine di acquisto. È possibile facilmente estendere il flusso di lavoro per registrare automaticamente l'ordine di acquisto di Elisa quando Sean lo approva. A tale scopo, è necessario abilitare il flusso di lavoro della fattura di acquisto in cui la risposta a una fattura di acquisto emessa è di registrarla. È innanzitutto necessario modificare la condizione di evento nella prima fase del flusso di lavoro da **Fattura** in **Ordine** di acquisto.  
 

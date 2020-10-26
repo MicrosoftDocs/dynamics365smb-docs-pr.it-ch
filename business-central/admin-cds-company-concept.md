@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324072"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911687"
 ---
 # <a name="data-ownership-models"></a>Modelli di proprietà dei dati
 [!INCLUDE[d365fin](includes/cds_long_md.md)] richiede di specificare un proprietario per i dati archiviati. Per ulteriori informazioni, vedere [Proprietà delle entità](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) nella documentazione di Power Apps. Quando si imposta l'integrazione tra [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/d365fin_md.md)] devi scegliere uno dei due modelli di proprietà per i record sincronizzati:
@@ -54,7 +54,7 @@ Tuttavia, la mappatura 1: 1 tra Business Unit, società e team è solo un punto 
 
 In questo esempio, viene creata una nuova Business Unit radice EUR (Europa) in [!INCLUDE[d365fin](includes/cds_long_md.md)] come padre di Cronus DE (Gernamy) e Cronus ES (Spagna). La Business Unit EUR non è correlata alla sincronizzazione. Tuttavia, può consentire ai membri del team di vendita EUR di accedere ai dati dell'account sia in Cronus DE che in Cronus ES impostando la visibilità dei dati su **BU padre/figlio** sul ruolo di sicurezza associato in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
-La sincronizzazione determina a quale team devono appartenere i record. Questo è controllato dal campo **Team proprietario predefinito** sul record BCI - <ID>. Quando un record BCI - <ID> è abilitato per la sincronizzazione, viene automaticamente creata la Business Unit e il team proprietario associati (se non esiste già) e viene impostato il campo **Team proprietario predefinito**. Quando la sincronizzazione è abilitata per un'entità, gli amministratori possono cambiare il team proprietario, ma è sempre necessario assegnare un team.
+La sincronizzazione determina a quale team devono appartenere i record. Questo è controllato dal campo **Team proprietario predefinito** sul record BCI - <ID>. Quando un record BCI - <ID> è abilitato per la sincronizzazione, viene automaticamente creata la Business Unit e il team proprietario associati (se non esiste già) e viene impostato il campo **Team proprietario predefinito** . Quando la sincronizzazione è abilitata per un'entità, gli amministratori possono cambiare il team proprietario, ma è sempre necessario assegnare un team.
 
 > [!NOTE]
 > I record diventano di sola lettura dopo che una società è stata aggiunta e salvata, quindi assicurati di scegliere la società corretta.
@@ -70,6 +70,8 @@ Quando si cambia una Business Unit, è possibile scegliere solo le Business Unit
 Se scegli il modello di proprietà Persona, devi specificare ciascun venditore che sarà proprietario di nuovi record. La Business Unit e il team vengono creati come descritto nella sezione precedente [Proprietà del team](admin-cds-company-concept.md#team-ownership).
 
 La Business Unit predefinita viene utilizzata quando viene scelto il modello di proprietà Persona e non è possibile scegliere un'altra Business Unit. Il team associato alla Business Unit predefinita disporrà di record per entità comuni, come l'entità Prodotto, che non sono correlate a specifici venditori.
+
+Quando si associano gli agenti in [!INCLUDE[d365fin](includes/d365fin_md.md)] agli utenti in [!INCLUDE[d365fin](includes/cds_long_md.md)], [!INCLUDE[d365fin](includes/d365fin_md.md)] aggiungerà l'utente al team predefinito in [!INCLUDE[d365fin](includes/cds_long_md.md)]. È possibile verificare che gli utenti siano stati aggiunti guardando la colonna **Membro del team predefinito** nella pagina **Utenti - Common Data Service** . Se l'utente non viene aggiunto, è possibile aggiungerlo manualmente utilizzando l'azione **Aggiungi utenti associati al team** . Per ulteriori informazioni, vedere [Sincronizzazione dei dati in Business Central con Common Data Service](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Vedere anche
 [Informazioni su [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

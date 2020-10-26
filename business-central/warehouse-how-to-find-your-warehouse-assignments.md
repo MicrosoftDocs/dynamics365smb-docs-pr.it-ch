@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479ad10ee6bd10d123202749c1cc934bc67493af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c71184f1894fb5503211b87595744e52c361862d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779654"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920340"
 ---
 # <a name="find-your-warehouse-assignments"></a>Individuare le assegnazioni della warehouse
 Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per un articolo selezionato. Se sono state create istruzioni di warehouse, vengono visualizzate le righe Prendere e Mettere e sarà possibile iniziare a svolgere le operazioni necessarie relative a un'assegnazione. In alcune warehouse è possibile che il responsabile abbia assegnato istruzioni specifiche a ciascun addetto. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Per individuare un'istruzione assegnata a se stessi  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi warehouse**, **Prelievi warehouse** o **Movimentazione warehouse** e quindi scegliere il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi warehouse** , **Prelievi warehouse** o **Movimentazione warehouse** e quindi scegliere il collegamento correlato.
 
     Tutte e tre le pagina mostrano le assegnazioni per tutte le ubicazioni di warehouse.  
 
 2. Ordinare gli articoli per ubicazione. Verranno visualizzate le istruzioni assegnate a se stessi.  
-3. Selezionare una delle righe contenenti le proprie iniziali nel campo **ID utente assegnato**, quindi fare clic su **OK**. Nella pagina verrà visualizzata l'assegnazione di stoccaggio con le proprie iniziali nel campo **ID utente assegnato** della Scheda dettaglio **Generale**.  
+3. Selezionare una delle righe contenenti le proprie iniziali nel campo **ID utente assegnato** , quindi fare clic su **OK** . Nella pagina verrà visualizzata l'assegnazione di stoccaggio con le proprie iniziali nel campo **ID utente assegnato** della Scheda dettaglio **Generale** .  
 
 Se il responsabile di warehouse non assegna istruzioni specifiche ai singoli addetti, è possibile utilizzare il campo **ID Utente Assegnato** della testata per richiedere l'assegnazione di un incarico. È sufficiente immettere il proprio ID utente nella testata di warehouse prima di procedere all'esecuzione di un'istruzione. Gli altri addetti al warehouse potranno quindi scegliere di eseguire altre istruzioni, eliminando in tal modo il rischio di sovrapposizione degli incarichi.  
 

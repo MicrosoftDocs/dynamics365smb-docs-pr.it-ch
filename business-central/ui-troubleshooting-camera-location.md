@@ -3,19 +3,19 @@ title: 'Risoluzione dei problemi: accesso alla fotocamera e alla posizione'
 description: In questo articolo viene descritto come risolvere i problemi relativi all'accesso alle informazioni sulla fotocamera e sulla posizione in Business Central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: 10338040ddcfb64dd91e9e55f607280e99720403
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781153"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912039"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Risoluzione dei problemi: accesso alla fotocamera e alla posizione
 
@@ -29,11 +29,11 @@ Se il dispositivo dispone di fotocamera e funzionalità di posizione, ma si risc
 
 ## <a name="access-permissions-not-enabled"></a>Autorizzazioni di accesso non abilitate
 
-È necessario abilitare l'accesso generale alla fotocamera e alla posizione dalle impostazioni sulla privacy del dispositivo e concedere esplicitamente a [!INCLUDE[prodshort](includes/prodshort.md)] l'autorizzazione ad accedervi. Ad esempio, per vedere o modificare le autorizzazioni per un dispositivo in esecuzione su Windows, andare a **Impostazioni**, scegliere **Privacy** e quindi **Autorizzazioni dell'app**. 
+È necessario abilitare l'accesso generale alla fotocamera e alla posizione dalle impostazioni sulla privacy del dispositivo e concedere esplicitamente a [!INCLUDE[prodshort](includes/prodshort.md)] l'autorizzazione ad accedervi. Ad esempio, per vedere o modificare le autorizzazioni per un dispositivo in esecuzione su Windows, andare a **Impostazioni** , scegliere **Privacy** e quindi **Autorizzazioni dell'app** . 
 
-Per i dispositivi mobili, è necessario concedere le autorizzazioni di accesso alla fotocamera e alla posizione all'app mobile [!INCLUDE[prodshort](includes/prodshort.md)]. Per farlo per un dispositivo iOS, andare a **Impostazioni**, scegliere **Privacy** e quindi **Fotocamera** o **Posizione**. Per i dispositivi Android, andare a **Impostazioni**, scegliere **App e notifiche**, **Avanzate**, **Gestione autorizzazioni** e quindi **Fotocamera** o **Posizione**.
+Per i dispositivi mobili, è necessario concedere le autorizzazioni di accesso alla fotocamera e alla posizione all'app mobile [!INCLUDE[prodshort](includes/prodshort.md)]. Per farlo per un dispositivo iOS, andare a **Impostazioni** , scegliere **Privacy** e quindi **Fotocamera** o **Posizione** . Per i dispositivi Android, andare a **Impostazioni** , scegliere **App e notifiche** , **Avanzate** , **Gestione autorizzazioni** e quindi **Fotocamera** o **Posizione** .
 
-Inoltre, se si sta utilizzando [!INCLUDE[prodshort](includes/prodshort.md)] in un browser, è necessario concedere al sito [!INCLUDE[prodshort](includes/prodshort.md)] l'autorizzazione ad accedere alla fotocamera o alle informazioni sulla posizione. Per visualizzare o modificare le autorizzazioni di un sito nel browser Microsoft Edge, andare a **Impostazioni**, scegliere **Autorizzazioni sito** e quindi **Fotocamera** o **Posizione**. Da notare che questo potrebbe essere diverso per altri browser.
+Inoltre, se si sta utilizzando [!INCLUDE[prodshort](includes/prodshort.md)] in un browser, è necessario concedere al sito [!INCLUDE[prodshort](includes/prodshort.md)] l'autorizzazione ad accedere alla fotocamera o alle informazioni sulla posizione. Per visualizzare o modificare le autorizzazioni di un sito nel browser Microsoft Edge, andare a **Impostazioni** , scegliere **Autorizzazioni sito** e quindi **Fotocamera** o **Posizione** . Da notare che questo potrebbe essere diverso per altri browser.
 
 Per impostazione predefinita, il dispositivo o il browser visualizzerà una richiesta per accedere a queste funzionalità quando l'utente le attiva per la prima volta.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e24351bb7382d01a060326ec8e592af555870a7
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619402"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917819"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Pianificazione di una sincronizzazione tra Business Central e Common Data Service
 
@@ -29,7 +29,7 @@ Esistono vari processi di sincronizzazione predefiniti disponibili. I processi s
 4. Processo di sincronizzazione CLIENTE - Common Data Service.
 5. Processo di sincronizzazione AGENTI - Common Data Service.
 
-È possibile visualizzare i processi nella pagina **Movimenti coda processi**. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
+È possibile visualizzare i processi nella pagina **Movimenti coda processi** . Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
 ## <a name="default-synchronization-job-queue-entries"></a>Movimenti coda processi di sincronizzazione predefiniti
 
@@ -51,7 +51,7 @@ Per sincronizzare i dati, i record di entità di [!INCLUDE[cds_long_md](includes
 
 - La casella di controllo **Sinc. solo record associati** controlla se vengono creati nuovi record durante la sincronizzazione. Per impostazione predefinita, la casella di controllo è selezionata, il che significa che verranno sincronizzati solo i record associati. Nel mapping di tabella di integrazione, è possibile modificare il mapping di tabella tra un'entità di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e una tabella di [!INCLUDE[d365fin](includes/d365fin_md.md)], in modo che i processi di sincronizzazione di integrazione creeranno nuovi record nel database di destinazione per ogni record del database di origine che non è associato. Per altre informazioni, vedere [Creazione di nuovi record](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
 
-    **Esempio** Se si deseleziona la casella di controllo **Snc. solo record associati**, quando si sincronizzano i clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)] con account in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], un nuovo account viene creato e automaticamente associato per ciascun cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inoltre, poiché in questo caso la sincronizzazione è bidirezionale, un nuovo cliente viene creato e associato per ogni account di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] che non è già associato.  
+    **Esempio** Se si deseleziona la casella di controllo **Snc. solo record associati** , quando si sincronizzano i clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)] con account in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], un nuovo account viene creato e automaticamente associato per ciascun cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inoltre, poiché in questo caso la sincronizzazione è bidirezionale, un nuovo cliente viene creato e associato per ogni account di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] che non è già associato.  
 
     > [!NOTE]  
     > Esistono regole e filtri che determinano quali dati vengono sincronizzati. Per ulteriori informazioni, vedere [Regole di sincronizzazione](admin-synchronizing-business-central-and-sales.md).
@@ -80,7 +80,7 @@ Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, c
 ## <a name="to-view-the-synchronization-job-log"></a>Per visualizzare il log processi di sincronizzazione
 
 1. Scegliere l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false":::, immettere **Log processi di sincronizzazione** e quindi scegliere il collegamento correlato.
-2. Se si sono verificati uno o più errori per un processo di sincronizzazione, il numero di errori viene visualizzato nella colonna **Operazione non riuscita**. Per visualizzare gli errori per il processo, selezionare il numero.  
+2. Se si sono verificati uno o più errori per un processo di sincronizzazione, il numero di errori viene visualizzato nella colonna **Operazione non riuscita** . Per visualizzare gli errori per il processo, selezionare il numero.  
 
     > [!TIP]  
     > È possibile visualizzare tutti gli errori dei processi di sincronizzazione aprendo direttamente il log errori processi di sincronizzazione.
@@ -88,7 +88,7 @@ Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, c
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Per visualizzare il log processi di sincronizzazione dai mapping di tabella
 
 1. Scegliere l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false":::, immettere **Mapping tabella integrazione** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Mapping tabella integrazione**, selezionare un movimento quindi scegliere **Log processi di sincronizzazione integrazione**.  
+2. Nella pagina **Mapping tabella integrazione** , selezionare un movimento quindi scegliere **Log processi di sincronizzazione integrazione** .  
 
 ## <a name="to-view-the-synchronization-error-log"></a>Per visualizzare il log processi di sincronizzazione
 

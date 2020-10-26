@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1ad2eb6d2e9a423aa1891eb52f71e815f4b89eff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785464"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912514"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -33,7 +33,7 @@ Alcuni campi modificabili forniscono un selettore per consentire di specificare 
 |------------------|------------------------------------|
 |Selettore di data       |Questo selettore visualizza un calendario basato sulle impostazioni internazionali correnti. Consente di scegliere una singola data.|
 |Menu a discesa          |I menu a discesa offrono una scelta di valori fissi o record di riferimento da un'altra tabella.|
-|Interruttore o casella di controllo|Alcuni campi offrono una semplice scelta di valori *Sì* o *No*. L'interruttore viene utilizzato per specificare questo valore ed è sempre visualizzato come una casella di controllo negli elenchi.|
+|Interruttore o casella di controllo|Alcuni campi offrono una semplice scelta di valori *Sì* o *No* . L'interruttore viene utilizzato per specificare questo valore ed è sempre visualizzato come una casella di controllo negli elenchi.|
 |Assist-edit       |Alcuni campi offrono selettori personalizzati adatti a cercare e scegliere il valore migliore per quel campo, come la finestra popup.|
 
 
@@ -41,20 +41,20 @@ Alcuni campi modificabili forniscono un selettore per consentire di specificare 
 
 Per modificare il valore di un campo, è necessario innanzitutto impostare lo stato attivo su quel campo. È possibile impostare lo stato attivo tramite le seguenti azioni:
 
-- Utilizzare il tasto **TAB**. L'azione seleziona l'intero valore.
+- Utilizzare il tasto **TAB** . L'azione seleziona l'intero valore.
 - Fare clic con il tasto sinistro del mouse o dispositivo di input simile. Questa azione selezionerà l'intero valore di campo solo se il campo è in un elenco.  
 
 Quando si interagisce con i campi nell'interfaccia utente, [!INCLUDE[d365fin](includes/d365fin_md.md)] in genere favorisce la selezione dell'intero valore di campo per semplificare la sostituzione di tale valore.
 
 Quando viene selezionato l'intero valore di campo:
-- Sostituire il valore semplicemente digitando per specificare un nuovo valore. Se il campo offre un selettore, è possibile attivarlo utilizzando i tasti di scelta rapida **ALT+freccia GIÙ**.
+- Sostituire il valore semplicemente digitando per specificare un nuovo valore. Se il campo offre un selettore, è possibile attivarlo utilizzando i tasti di scelta rapida **ALT+freccia GIÙ** .
 - Utilizzare il tasto **CANC** o **BACKSPACE** per cancellare il valore.
 
 Premere il tasto **F2** per passare dalla selezione dell'intero valore di campo al posizionamento del cursore alla fine del valore di campo. Posizionando il cursore alla fine del valore, è più facile accodarsi al valore esistente.
 
 Quando il cursore viene visualizzato alla fine del valore di campo:
 - Aggiungere al valore semplicemente digitando.
-- Usare i tasti **HOME**, **FINE**, **freccia SINISTRA** e **Freccia DESTRA** per spostare il cursore all'interno del valore. Se si modifica un campo in un elenco, premere il tasto **Freccia SINISTRA** di nuovo quando il cursore si trova all'inizio del valore metterà lo stato attivo sul campo precedente. Allo stesso modo, premendo il tasto **Freccia DESTRA** di nuovo quando il cursore si trova alla fine del valore metterà lo stato attivo sul campo successivo.
+- Usare i tasti **HOME** , **FINE** , **freccia SINISTRA** e **Freccia DESTRA** per spostare il cursore all'interno del valore. Se si modifica un campo in un elenco, premere il tasto **Freccia SINISTRA** di nuovo quando il cursore si trova all'inizio del valore metterà lo stato attivo sul campo precedente. Allo stesso modo, premendo il tasto **Freccia DESTRA** di nuovo quando il cursore si trova alla fine del valore metterà lo stato attivo sul campo successivo.
 
 > [!NOTE]
 > Dopo aver specificato un valore, Business Central verificherà che sia valido solo dopo aver fatto clic all'esterno del campo o impostato lo stato attivo su un altro elemento, ad esempio il campo successivo.  
@@ -74,7 +74,7 @@ Accesso rapido è una funzionalità concepita per l'immissione di dati utilizzan
 
 ### <a name="how-quick-entry-works"></a>Funzionamento di Accesso rapido
 
-Ogni campo può essere contrassegnato come *incluso in Accesso rapido* o *escluso da Accesso rapido*. I campi inclusi in Accesso rapido verranno inclusi nel percorso quando si preme INVIO. I campi esclusi da Accesso rapido non lo saranno.
+Ogni campo può essere contrassegnato come *incluso in Accesso rapido* o *escluso da Accesso rapido* . I campi inclusi in Accesso rapido verranno inclusi nel percorso quando si preme INVIO. I campi esclusi da Accesso rapido non lo saranno.
 
 Al termine dell'immissione dei dati in un campo, premere semplicemente INVIO per confermare le modifiche e accedere al campo seguente. Per invertire la direzione e accedere al campo precedente, premere MAIUSC+INVIO. Per ulteriori informazioni sui tasti di scelta rapida, vedere [Scelte rapide di Accesso rapido per campi](keyboard-shortcuts.md#QuickEntry).
 
@@ -93,8 +93,8 @@ L'elenco di seguito fornisce alcune informazioni utili sull'utilizzo di Accesso 
 
 Per impostare Accesso rapido nei campi, utilizzare la personalizzazione.
 
-1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi l'azione **Personalizza**.
-2. Selezionare un campo da modificare. Negli elenchi, selezionare l'intestazione di colonna corrispondente. Quindi, scegliere **Includi in Accesso rapido** o **Escludi da Accesso rapido**.
+1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi l'azione **Personalizza** .
+2. Selezionare un campo da modificare. Negli elenchi, selezionare l'intestazione di colonna corrispondente. Quindi, scegliere **Includi in Accesso rapido** o **Escludi da Accesso rapido** .
 
 Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
@@ -192,14 +192,14 @@ Quando si immettono numeri nei campi numerici come il campo **Quantità** in una
 
  In entrambi i casi, l'importo verrà registrato come -20,5.  
 
- Se l'ultimo carattere dell'espressione è un **+** o un **-**, l'intera espressione verrà registrata con tale segno. Ad esempio **10-20+** restituirà 10 e non -10.  
+ Se l'ultimo carattere dell'espressione è un **+** o un **-** , l'intera espressione verrà registrata con tale segno. Ad esempio **10-20+** restituirà 10 e non -10.  
 
 ## <a name="entering-dates-and-times"></a>Immissione di date e ore
 
 È possibile immettere date e ore in tutti i campi assegnati alle date (campi di data). È possibile immettere date con o senza separatori.
 
 > [!NOTE]  
-> La modalità di immissione di date e ore dipende dalle impostazioni di **Area geografica**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
+> La modalità di immissione di date e ore dipende dalle impostazioni di **Area geografica** . Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Immissione di date
 

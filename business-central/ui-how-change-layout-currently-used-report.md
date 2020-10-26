@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dc74627139ceed4f475686d57b64737e7e42b47
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789368"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916061"
 ---
 # <a name="change-the-current-report-layout"></a>Modificare il layout del report corrente
 Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità.
@@ -46,10 +46,10 @@ Se è stato selezionato un layout di report RDLC o Word predefinito, non sono ne
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Per modificare il layout personalizzato da utilizzare per un layout di report
 È anche possibile che si intenda modificare il layout personalizzato attualmente utilizzato. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
-Tutti i layout di report personalizzati esistenti per layout di report in una società sono elencati nella pagina **Layout di report personalizzati**. Nella pagina **Selezione layout report** è possibile visualizzare i layout personalizzati disponibili per ogni report nel Dettaglio informazioni **Report personalizzati**.
+Tutti i layout di report personalizzati esistenti per layout di report in una società sono elencati nella pagina **Layout di report personalizzati** . Nella pagina **Selezione layout report** è possibile visualizzare i layout personalizzati disponibili per ogni report nel Dettaglio informazioni **Report personalizzati** .
 
-1. Nella pagina **Selezione layout report**, sulla riga per il layout di report che si desidera modificare, scegliere il pulsante di ricerca nel campo **Descrizione layout personalizzato**.
-2. Nella pagina **Layout report personalizzati** selezionare la riga per il layout personalizzato che si desidera utilizzare, quindi scegliere **OK**.
+1. Nella pagina **Selezione layout report** , sulla riga per il layout di report che si desidera modificare, scegliere il pulsante di ricerca nel campo **Descrizione layout personalizzato** .
+2. Nella pagina **Layout report personalizzati** selezionare la riga per il layout personalizzato che si desidera utilizzare, quindi scegliere **OK** .
 
 Il nome del layout personalizzato selezionato è ora visualizzato nel campo **Descrizione layout personalizzato** e verrà utilizzato la volta successiva che il report o il documento viene visualizzato in anteprima, stampato o inviato.
 

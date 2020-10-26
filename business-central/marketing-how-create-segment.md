@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 779ff0a12611606e70d0a310b260a8e20031f628
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 211f4cda3bd7d47c6268b0dfc041d25b100d2d14
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181526"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919281"
 ---
 # <a name="create-segments"></a>Creare segmenti
 È possibile creare segmenti per selezionare un gruppo di contatti, ad esempio se si desidera creare un'interazione in cui siano coinvolti più contatti (invio di messaggi di posta diretti).
 
 ## <a name="to-create-a-segment"></a>Per creare un segmento
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti** e quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Nuovo**.
+2. Scegliere l'azione **Nuovo** .
 3. Nella sezione **Generale** nel campo **Nr.** inserire un numero per il segmento.
 
-    In alternativa, se è stata impostata una numerazione per i segmenti nella pagina **Setup marketing**, è possibile premere INVIO per selezionare automaticamente il successivo numero di segmento disponibile.
+    In alternativa, se è stata impostata una numerazione per i segmenti nella pagina **Setup marketing** , è possibile premere INVIO per selezionare automaticamente il successivo numero di segmento disponibile.
 4. Compilare gli altri campi sulla testata.
 
 A questo punto è possibile aggiungere i contatti al segmento. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).

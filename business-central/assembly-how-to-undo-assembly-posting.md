@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d431995907f18e8439f415e1f724d4bbf9f77a31
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9d483d104b0dee148dfc4a15bea6737d505730cc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782186"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913881"
 ---
 # <a name="undo-assembly-posting"></a>Annullare la registrazione di assemblaggi
 Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback.
@@ -24,7 +24,7 @@ Se si annulla un ordine di assemblaggio registrato, viene creato un set di movim
 
 Quando si annulla un ordine di assemblaggio registrato completamente, è possibile scegliere di ricreare l'ordine di assemblaggio nel relativo stato originale, ad esempio per apportare correzioni prima di registrarlo di nuovo. In alternativa, è possibile evitare di ricreare l'ordine di assemblaggio.  
 
-Quando si annulla parzialmente un ordine di assemblaggio registrato, tutti campi relativi alla quantità interessati, ad esempio i campi **Quantità assemblata**, **Quantità consumata** e **Quantità residua**, vengono riportati ai valori presenti prima della registrazione in questione.  
+Quando si annulla parzialmente un ordine di assemblaggio registrato, tutti campi relativi alla quantità interessati, ad esempio i campi **Quantità assemblata** , **Quantità consumata** e **Quantità residua** , vengono riportati ai valori presenti prima della registrazione in questione.  
 
 Per ricreare o ripristinare ordini di assemblaggio, le seguenti condizioni devono essere applicate all'articolo di assemblaggio risultante dalla registrazione originale:  
 
@@ -40,15 +40,15 @@ Inoltre, gli ordini di assemblaggio esistenti possono essere ripristinati solo s
 La procedura seguente illustra come annullare ordini di assemblaggio registrati in cui gli articoli sono stati assemblati per magazzino. Per annullare gli ordini di assemblaggio registrati in cui gli articoli sono stati assemblati in un ordine di vendita, è necessario utilizzare la funzione **Eliminare spedizione** nella spedizione registrata che si riferisce all'ordine di assemblaggio registrato. Per ulteriori informazioni, vedere [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md). L'annullamento dell'ordine di assemblaggio registrato viene quindi eseguito automaticamente come descritto in questo argomento.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Per annullare la registrazione di un ordine di assemblaggio  
-1.  Per annullare un ordine di assemblaggio registrato completamente o parzialmente, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio registrati**, quindi selezionare il collegamento correlato.  
+1.  Per annullare un ordine di assemblaggio registrato completamente o parzialmente, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio registrati** , quindi selezionare il collegamento correlato.  
 
     Verrà visualizzata la pagina **Ordini di assemblaggio registrati** con uno o più ordini di assemblaggio che sono stati registrati dall'ordine di assemblaggio in questione. Ogni registrazione parziale crea un ordine di assemblaggio registrato separato.  
-2.  Aprire l'ordine di assemblaggio registrato che si desidera annullare, quindi scegliere l'azione **Annulla assemblaggio**.  
+2.  Aprire l'ordine di assemblaggio registrato che si desidera annullare, quindi scegliere l'azione **Annulla assemblaggio** .  
 
     Se l'ordine di assemblaggio registrato che si desidera annullare si riferisce a un ordine di assemblaggio registrato completamente che è stato eliminato, è possibile scegliere di ricrearlo, solitamente perché si desidera rielaborarlo.  
-3.  Se si desidera ricreare l'ordine di assemblaggio, fare clic sul pulsante **Sì**. Per annullare la registrazione senza ricreare l'ordine di assemblaggio correlato, fare clic sul pulsante **No**.  
+3.  Se si desidera ricreare l'ordine di assemblaggio, fare clic sul pulsante **Sì** . Per annullare la registrazione senza ricreare l'ordine di assemblaggio correlato, fare clic sul pulsante **No** .  
 
-Il campo **Stornato** nella testata ordine di assemblaggio viene impostato su **Sì**. La registrazione dell'ordine di assemblaggio è ora stornata ed è possibile procedere all'elaborazione dell'intero ordine di assemblaggio se si è scelto di ricrearlo o dell'ordine di assemblaggio aperto ripristinato allo stato originale.  
+Il campo **Stornato** nella testata ordine di assemblaggio viene impostato su **Sì** . La registrazione dell'ordine di assemblaggio è ora stornata ed è possibile procedere all'elaborazione dell'intero ordine di assemblaggio se si è scelto di ricrearlo o dell'ordine di assemblaggio aperto ripristinato allo stato originale.  
 
 > [!NOTE]  
 >  Per ripristinare quantità da registrazioni parziali multiple in un ordine di assemblaggio, è necessario annullare tutti gli ordini di assemblaggio registrati in questione seguendo i passaggi da 1 a 3 precedenti per ogni ordine di assemblaggio registrato.  

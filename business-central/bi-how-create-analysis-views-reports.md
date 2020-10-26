@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 259c8ffdef6df97fb4e2f3e30b110f36e07ba1df
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786214"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913831"
 ---
 #  <a name="create-analysis-reports"></a>Creare report di analisi
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino.  
@@ -41,9 +41,9 @@ Si possono quindi configurare colonne analoghe alle seguenti:
 - Percentuale vendite mese precedente  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Impostazione dei layout di riga e di colonna  
- Nella pagina **Report analisi** è possibile visualizzare diversi layout di righe e colonne in base alle righe o ai modelli di riga impostati nella pagina **Modelli righe analisi**. È possibile definire il nome del report e gli oggetti che si desidera visualizzare nelle righe del report. Le colonne devono essere impostate nella pagina **Modelli colonne analisi**. È possibile definire il nome del modello colonna e i parametri di analisi che si desidera visualizzare nel report come colonne. Nella pagina **Modelli colonne analisi** ogni riga rappresenta una colonna nel report. Si noti che le righe analisi e le colonne analisi sono indipendenti tra loro.  
+ Nella pagina **Report analisi** è possibile visualizzare diversi layout di righe e colonne in base alle righe o ai modelli di riga impostati nella pagina **Modelli righe analisi** . È possibile definire il nome del report e gli oggetti che si desidera visualizzare nelle righe del report. Le colonne devono essere impostate nella pagina **Modelli colonne analisi** . È possibile definire il nome del modello colonna e i parametri di analisi che si desidera visualizzare nel report come colonne. Nella pagina **Modelli colonne analisi** ogni riga rappresenta una colonna nel report. Si noti che le righe analisi e le colonne analisi sono indipendenti tra loro.  
 
-In base alle righe e alle colonne impostate, il risultato del report viene aggregato da [!INCLUDE[d365fin](includes/d365fin_md.md)] nella pagina **Report analisi**, come nella tabella seguente.  
+In base alle righe e alle colonne impostate, il risultato del report viene aggregato da [!INCLUDE[d365fin](includes/d365fin_md.md)] nella pagina **Report analisi** , come nella tabella seguente.  
 
 |- |Vendite mese corrente|Vendite mese precedente|Percentuale vendite mese precedente|  
 |-|-|-|-|  
@@ -63,12 +63,12 @@ Un modello contiene un insieme di righe, che rappresentano le colonne di analisi
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli colonne vendite** e quindi scegliere il collegamento correlato.  
 2. Selezionare la prima riga vuota e compilare i campi necessari.
-3. Scegliere l'azione **Colonne**.  
+3. Scegliere l'azione **Colonne** .  
 4. Nella pagina **Colonne Analisi** compilare i campi per specificare le colonne da includere nel report analisi.  
 
     > [!NOTE]  
-    >   Per definire una colonna, è necessario compilare il campo **Codice tipo analisi** per tutti i tipi di colonna ad eccezione di **Formula**. La pagina **Tipi di analisi** consente di impostare i codici di tipo di analisi.  
-    Inoltre, se si seleziona **Mov. articoli** nel campo **Tipo mov. contabile**, i valori effettivi verranno copiati dai movimenti contabili articoli. Se si seleziona **Movimenti budget articoli**, i valori previsti verranno copiati dal budget.  
+    >   Per definire una colonna, è necessario compilare il campo **Codice tipo analisi** per tutti i tipi di colonna ad eccezione di **Formula** . La pagina **Tipi di analisi** consente di impostare i codici di tipo di analisi.  
+    Inoltre, se si seleziona **Mov. articoli** nel campo **Tipo mov. contabile** , i valori effettivi verranno copiati dai movimenti contabili articoli. Se si seleziona **Movimenti budget articoli** , i valori previsti verranno copiati dal budget.  
 5.  Scegliere il pulsante **OK** per salvare le modifiche.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Per impostare modelli di righe di analisi  
@@ -80,11 +80,11 @@ Un modello contiene un insieme di righe, che rappresentano le righe di analisi v
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli righe vendite** e quindi scegliere il collegamento correlato.  
 2. Selezionare la prima riga vuota e compilare i campi necessari.
-3. Scegliere l'azione **Righe**.  
-4. Nella pagina **Righe Analisi** creare le righe relative agli articoli, ai clienti, ai fornitori o agli agenti di cui si desidera visualizzare i valori nel report analisi. È necessario compilare i campi **Tipo**, **Range** e **Descrizione**.  
+3. Scegliere l'azione **Righe** .  
+4. Nella pagina **Righe Analisi** creare le righe relative agli articoli, ai clienti, ai fornitori o agli agenti di cui si desidera visualizzare i valori nel report analisi. È necessario compilare i campi **Tipo** , **Range** e **Descrizione** .  
 
 > [!NOTE]  
->   In alternativa, per creare più righe distinte per ogni articolo, cliente e così via, è possibile selezionare il punto di inserimento appropriato e consentire il completamento dei campi necessari della riga. Se necessario, è possibile modificare manualmente le righe. Per inserire righe, scegliere l'azione **Inserisci articoli** o **Inserisci gruppi articoli**.  
+>   In alternativa, per creare più righe distinte per ogni articolo, cliente e così via, è possibile selezionare il punto di inserimento appropriato e consentire il completamento dei campi necessari della riga. Se necessario, è possibile modificare manualmente le righe. Per inserire righe, scegliere l'azione **Inserisci articoli** o **Inserisci gruppi articoli** .  
 
 ## <a name="to-create-a-new-sales-analysis-report"></a>Per creare un nuovo report di analisi delle vendite
 La seguente procedura è basata sui report di analisi per le vendite. I passaggi sono simili a quelli dei report di analisi di magazzino e di acquisto.
@@ -92,13 +92,13 @@ La seguente procedura è basata sui report di analisi per le vendite. I passaggi
 I report di analisi consentono di valutare in dettaglio la dinamica delle vendite in base a determinati indicatori chiave delle performance di vendita, quali ad esempio turnover di vendita sia in importi che in quantità, margine lordo di contribuzione o stato delle vendite effettive confrontato con il budget. Il report può inoltre essere utilizzato per analizzare i prezzi di vendita medi e per valutare le performance della forza di vendita.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Report analisi vendite** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Report analisi vendite** scegliere l'azione **Nuovo**.
+2. Nella pagina **Report analisi vendite** scegliere l'azione **Nuovo** .
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Scegliere l'azione **Modifica report analisi**.
-5. Nella pagina **Report analisi vendite** scegliere l'azione **Mostra matrice**.  
+4. Scegliere l'azione **Modifica report analisi** .
+5. Nella pagina **Report analisi vendite** scegliere l'azione **Mostra matrice** .  
 
 > [!NOTE]  
->   La creazione di combinazioni di modelli di righe e colonne per i report di analisi e l'assegnazione di nomi univoci sono facoltative. La scelta di un nome per il report rende superfluo selezionare modelli di riga e colonna nella pagina **Report Analisi Vendite**. Dopo aver scelto un nome per il report, è possibile modificare i modelli di righe e colonne in modo indipendente e quindi tornare a selezionare nuovamente il nome del report per ripristinare la combinazione originale.
+>   La creazione di combinazioni di modelli di righe e colonne per i report di analisi e l'assegnazione di nomi univoci sono facoltative. La scelta di un nome per il report rende superfluo selezionare modelli di riga e colonna nella pagina **Report Analisi Vendite** . Dopo aver scelto un nome per il report, è possibile modificare i modelli di righe e colonne in modo indipendente e quindi tornare a selezionare nuovamente il nome del report per ripristinare la combinazione originale.
 
 ## <a name="see-also"></a>Vedi anche
 [Business Intelligence](bi.md)  

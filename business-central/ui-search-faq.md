@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a23851dfbca688c5935d967a66ad6ebc8a0abe5e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195357"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914903"
 ---
 # <a name="tell-me-faq"></a>Domande frequenti relative alla funzionalità delle informazioni
 Questo argomento risponde alle domande poste spesso dai nostri utenti esperti sulla funzionalità delle informazioni.
@@ -39,7 +39,7 @@ La ricerca della pagina si è evoluta nella funzionalità delle informazioni per
 La funzionalità delle informazioni è disponibile solo nel client Web o nell'app desktop di Windows.
 
 ### <a name="are-the-documentation-results-available-in-any-language"></a>I risultati della documentazione sono disponibili in tutte le lingue?
-Gli articoli della guida vengono visualizzati nella lingua specificata in **Impostazioni personali**, se la guida è disponibile in tale lingua.
+Gli articoli della guida vengono visualizzati nella lingua specificata in **Impostazioni personali** , se la guida è disponibile in tale lingua.
 
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Perché l'icona segnalibro non è visibile per i risultati della ricerca?
 L'icona segnalibro non viene visualizzata nella finestra della funzionalità delle informazioni quando la personalizzazione è disabilitata per un ruolo utente.

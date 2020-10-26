@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fdcced8a62cb64f28d3e4d274271c4cf8f27d0d7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780278"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920640"
 ---
 # <a name="fixed-assets"></a>Cespiti
 La funzionalità Cespiti di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
@@ -31,7 +31,7 @@ Per tenere traccia degli ammortamenti dei cespiti nonché di altre transazioni f
 Ogni cespite può essere allegato a una o più polizze assicurative. È quindi possibile facilitare la verifica della conformità tra gli importi della polizza assicurativa e il valore dei cespiti a essa collegati. In questo modo viene agevolato anche il controllo dei premi assicurativi annuali.
 
 > [!NOTE]  
->   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L**. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
+>   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti** , a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L** . Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
 
 Prima di iniziare la gestione dei cespiti, è necessario impostare valori di default, contabilità dei cespiti, categorie di registrazione, chiavi di allocazione, registrazioni, ammortamento e tipi di registrazione. Per ulteriori informazioni, vedere [Impostazione di cespiti](fa-setup.md).
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37d02ef2685ba07a7b09cdf4fb034c0ad63a86db
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c6410f1b96aa1c1f8251738184db07aba0d94c4b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784302"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915303"
 ---
 # <a name="multiple-contracts"></a>Contratti multipli
 A seconda degli accordi a livello di assistenza stipulati con un cliente, può essere necessario utilizzare più di un contratto di assistenza per gestire un articolo.  
@@ -38,7 +38,7 @@ Si prendano in considerazione i seguenti esempi di utilizzo di contratti multipl
 Quando in una riga di contratto si aggiunge un articolo in assistenza registrato in altri contratti di assistenza o altre offerte di contratto, viene visualizzato un messaggio di avviso che comunica che l'articolo in assistenza appartiene già a uno o più contratti di assistenza o a una o più offerte di contratto. Se si risponde affermativamente a questo messaggio, le informazioni di interesse relative all'articolo in assistenza verranno copiate in una nuova riga di contratto.  
   
 ## <a name="copying-documents"></a>Copia di documenti  
-È possibile creare automaticamente un contratto di assistenza o un'offerta di contratto per gli articoli in assistenza già registrati in altri contratti di assistenza o altre offerte di contratto tramite la funzione **Copia da documento**.  
+È possibile creare automaticamente un contratto di assistenza o un'offerta di contratto per gli articoli in assistenza già registrati in altri contratti di assistenza o altre offerte di contratto tramite la funzione **Copia da documento** .  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Creazione di ordini di assistenza per contratti multipli  
 È possibile creare manualmente un ordine di assistenza per un articolo in assistenza registrato in più contratti attivi. Un contratto di assistenza è attivo quando è firmato e non è scaduto.  

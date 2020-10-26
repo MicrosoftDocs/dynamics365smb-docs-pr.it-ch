@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ea5d9fce1c10cf3c07c833efbe19b208f0c5a7c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0144c5283d6c5b860cb14522c08acec2f769df8d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788893"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910573"
 ---
 # <a name="set-up-shipping-agents"></a>Impostare gli spedizionieri
 È possibile impostare un codice per ciascuno degli spedizionieri di cui si avvale l'azienda e immettere informazioni relative a ognuno di essi.  
@@ -30,7 +30,7 @@ Quando a una riga di ordine di vendita viene assegnato un servizio spedizioniere
 ## <a name="to-set-up-a-shipping-agent"></a>Per impostare uno spedizioniere  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizionieri** e quindi scegliere il collegamento correlato.  
 2.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
-3.  Scegliere l'azione **Servizi spedizioniere**.
+3.  Scegliere l'azione **Servizi spedizioniere** .
 4. In **Servizi spedizioniere** compilare tutti i campi in base alle esigenze.
 
 > [!NOTE]  

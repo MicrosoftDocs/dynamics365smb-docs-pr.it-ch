@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f82b0a8f6734a9711cb0a6e2cc5a96c9f0dd1b34
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786414"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913339"
 ---
 # <a name="defining-and-allocating-costs"></a>Definizione e allocazione dei costi
 Con le allocazioni costi è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. È possibile definire tutte le allocazioni necessarie. Ogni allocazione è costituita da:  
@@ -39,15 +39,15 @@ Ogni allocazione è costituita da un'origine di allocazione e da una o più dest
 
 ### <a name="to-set-up-cost-allocations"></a>Per impostare le allocazioni costi  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazione costi** e quindi scegliere il collegamento correlato.  
-2.  Nella pagina **Allocazione costi** scegliere l'azione **Modifica**.  
-3.  Immettere un ID dell'origine allocazione nel campo **ID**.  
-4.  Definire un livello come numero compreso tra 1 e 99 nel campo **Livello**. La registrazione di allocazione seguirà l'ordine dei livelli.  
-5.  Immettere un tipo di costo per definire quali di questi verranno allocati nel campo **Intervallo tipi di costo**. Se tutti i costi per un tipo di costo sono allocati, non viene definito alcun intervallo.  
-6.  Immettere un centro di costo insieme ai costi da allocare nel campo **Codice centro di costo**.  
-7.  Immettere un oggetto di costo insieme ai costi da allocare nel campo **Codice oggetto di costo**. Molto spesso questo campo rimane vuoto poiché gli oggetti di costo sono raramente allocati ad altri relativi oggetti.  
-8.  Immettere un tipo di costo nel campo **Importo dare in tipo di costo**. I costi allocati verranno accreditati al tipo di costo di origine. La registrazione di accredito verrà immessa nel tipo di costo specificato in questo punto.  
-9. Definire i target di allocazione nella Scheda dettaglio **Righe**. Nel campo **Tipo di costo di destinazione** della prima riga immettere un tipo di costo. Esso consente di definire a quale tipo di costo viene addebitata l'allocazione.  
-10. Nella prima riga immettere la prima destinazione di allocazione nel campo **Centro di costo di destinazione** o **Oggetto di costo di destinazione**. Questi due campi consentono di definire a quale centro di costo o oggetto di costo viene addebitata l'allocazione. È possibile compilare uno di questi campi, ma non entrambi.  
+2.  Nella pagina **Allocazione costi** scegliere l'azione **Modifica** .  
+3.  Immettere un ID dell'origine allocazione nel campo **ID** .  
+4.  Definire un livello come numero compreso tra 1 e 99 nel campo **Livello** . La registrazione di allocazione seguirà l'ordine dei livelli.  
+5.  Immettere un tipo di costo per definire quali di questi verranno allocati nel campo **Intervallo tipi di costo** . Se tutti i costi per un tipo di costo sono allocati, non viene definito alcun intervallo.  
+6.  Immettere un centro di costo insieme ai costi da allocare nel campo **Codice centro di costo** .  
+7.  Immettere un oggetto di costo insieme ai costi da allocare nel campo **Codice oggetto di costo** . Molto spesso questo campo rimane vuoto poiché gli oggetti di costo sono raramente allocati ad altri relativi oggetti.  
+8.  Immettere un tipo di costo nel campo **Importo dare in tipo di costo** . I costi allocati verranno accreditati al tipo di costo di origine. La registrazione di accredito verrà immessa nel tipo di costo specificato in questo punto.  
+9. Definire i target di allocazione nella Scheda dettaglio **Righe** . Nel campo **Tipo di costo di destinazione** della prima riga immettere un tipo di costo. Esso consente di definire a quale tipo di costo viene addebitata l'allocazione.  
+10. Nella prima riga immettere la prima destinazione di allocazione nel campo **Centro di costo di destinazione** o **Oggetto di costo di destinazione** . Questi due campi consentono di definire a quale centro di costo o oggetto di costo viene addebitata l'allocazione. È possibile compilare uno di questi campi, ma non entrambi.  
 11. Ripetere gli stessi passaggi nella seconda riga per impostare destinazioni di allocazione aggiuntive.  
 12. Dopo aver impostato le origini e le destinazioni delle allocazioni, scegliere **Calcola chiave di allocazione** per calcolare i valori delle quote totali.  
 
@@ -58,7 +58,7 @@ Ogni allocazione è costituita da un'origine di allocazione e da una o più dest
 Il metodo di allocazione dinamica si basa su valori variabili. Ad esempio, il numero di dipendenti in un centro di costo o gli articoli venduti di un oggetto di costo in un determinato intervallo di tempo specifico. Esistono nove basi di allocazione predefinite e dodici intervalli di date dinamici. Si impostano filtri diversi a seconda della base di allocazione.  
 
 ### <a name="setting-filters-for-dynamic-allocation-bases"></a>Impostazione di filtri per le basi di allocazione dinamica  
- Nella tabella seguente vengono indicati i filtri possibili per le diverse basi di allocazione e i valori validi nei campi **Filtro nr.** e **Filtro gruppo**. Premere F1 nel campo **Codice filtro data** per leggere le descrizioni dettagliate.  
+ Nella tabella seguente vengono indicati i filtri possibili per le diverse basi di allocazione e i valori validi nei campi **Filtro nr.** e **Filtro gruppo** . Premere F1 nel campo **Codice filtro data** per leggere le descrizioni dettagliate.  
 
 |**Base**|**Filtro nr.**|**Codice filtro data**|**Filtro centro di costo**|**Filtro oggetto di costo**|**Filtro gruppo**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
@@ -83,30 +83,30 @@ In questo argomento viene descritto come definire i tre nuovi oggetti di costo d
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Per definire il centro di costo PROD di origine di allocazione nella Scheda dettaglio Generale  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazione costi** e quindi scegliere il collegamento correlato.  
-2.  Nella pagina **Allocazione costi** scegliere l'azione **Nuovo**.  
+2.  Nella pagina **Allocazione costi** scegliere l'azione **Nuovo** .  
 3.  Nel campo **ID** premere INVIO o immettere un ID.  
-4.  Nel campo **Livello** immettere **1**.  
-5.  Nei campi **Data di inizio validità** e **Data di fine validità**, immettere le date appropriate.  
-6.  Nel campo **Codice centro di costo** immettere **PROD**.  
-7.  Nel campo **Importo dare in tipo di costo** immettere il tipo di costo **9903**.  
+4.  Nel campo **Livello** immettere **1** .  
+5.  Nei campi **Data di inizio validità** e **Data di fine validità** , immettere le date appropriate.  
+6.  Nel campo **Codice centro di costo** immettere **PROD** .  
+7.  Nel campo **Importo dare in tipo di costo** immettere il tipo di costo **9903** .  
 
 ### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Per definire gli oggetti di costo di destinazione di allocazione nella Scheda dettaglio Righe  
 
-1.  Nel campo **Tipo di costo di destinazione** della prima riga immettere **9903**.  
-2.  Nel campo **Oggetto di costo di destinazione** della prima riga selezionare **ACCESSO**.  
+1.  Nel campo **Tipo di costo di destinazione** della prima riga immettere **9903** .  
+2.  Nel campo **Oggetto di costo di destinazione** della prima riga selezionare **ACCESSO** .  
 3.  Nella prima riga nel campo **Tipo di destinazione allocazione** selezionare **Tutti i costi** per definire la modalità di allocazione di tutti i costi sospesi.  
 4.  Nella prima riga nel campo **Base** selezionare **Statica** per utilizzare il metodo di allocazione statica.  
-5.  Nella prima riga nel campo **Quota** immettere il rapporto di allocazione **5**.  
-6.  Nel campo **Tipo di costo di destinazione** della seconda riga immettere **9903**.  
-7.  Nel campo **Oggetto di costo di destinazione** della seconda riga selezionare **VERNICE**.  
+5.  Nella prima riga nel campo **Quota** immettere il rapporto di allocazione **5** .  
+6.  Nel campo **Tipo di costo di destinazione** della seconda riga immettere **9903** .  
+7.  Nel campo **Oggetto di costo di destinazione** della seconda riga selezionare **VERNICE** .  
 8.  Nella seconda riga nel campo **Tipo di destinazione allocazione** selezionare **Tutti i costi** per definire la modalità di allocazione di tutti i costi sospesi.  
 9. Nella seconda riga nel campo **Base** selezionare **Statica** per utilizzare il metodo di allocazione statica.  
-10. Nella seconda riga nel campo **Quota** immettere il rapporto di allocazione **2**.  
-11. Nel campo **Tipo di costo di destinazione** della terza riga immettere **9903**.  
-12. Nel campo **Oggetto di costo di destinazione** della terza riga selezionare **ARREDI**.  
+10. Nella seconda riga nel campo **Quota** immettere il rapporto di allocazione **2** .  
+11. Nel campo **Tipo di costo di destinazione** della terza riga immettere **9903** .  
+12. Nel campo **Oggetto di costo di destinazione** della terza riga selezionare **ARREDI** .  
 13. Nella terza riga nel campo **Tipo di destinazione allocazione** selezionare **Tutti i costi** per definire la modalità di allocazione di tutti i costi sospesi.  
 14. Nella terza riga nel campo **Base** selezionare **Statica** per utilizzare il metodo di allocazione statica.  
-15. Nella terza riga nel campo **Quota** immettere il rapporto di allocazione **4**.  
+15. Nella terza riga nel campo **Quota** immettere il rapporto di allocazione **4** .  
 
 > [!IMPORTANT]  
 >  In [!INCLUDE[d365fin](includes/d365fin_md.md)] il campo **Percentuale** viene calcolato automaticamente utilizzando un tasso percentuale che dipende da tutti e tre i rapporti di allocazione immessi nel campo **Quota**  per tutte e tre le righe.
@@ -120,19 +120,19 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Per definire le allocazioni dinamiche in base agli articoli venduti nell'anno precedente  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Allocazioni costi** e quindi scegliere il collegamento correlato.  
-2.  Nella pagina **Allocazione costi** scegliere l'azione **Nuovo**.  
+2.  Nella pagina **Allocazione costi** scegliere l'azione **Nuovo** .  
 3.  Nel campo **ID** premere INVIO o immettere un ID.  
-4.  Nel campo **Livello** immettere **1**.  
-5.  Nei campi **Data di inizio validità** e **Data di fine validità**, immettere le date appropriate.  
-6.  Nel campo **Codice centro di costo** immettere **VENDITE**.  
-7.  Nel campo **Importo dare in tipo di costo** immettere il tipo di costo **9903**.  
-8.  Nel campo **Tipo di costo di destinazione** immettere il tipo di costo **9903**.  
-9. Nel campo **Oggetto di costo di destinazione** selezionare **Nuovo** per creare un nuovo oggetto di costo ATTREZZATURA IT e compilare i campi in base alle esigenze. Selezionare **ATTREZZATURA IT**. Lasciare vuoto il campo **Centro di costo di destinazione**.  
+4.  Nel campo **Livello** immettere **1** .  
+5.  Nei campi **Data di inizio validità** e **Data di fine validità** , immettere le date appropriate.  
+6.  Nel campo **Codice centro di costo** immettere **VENDITE** .  
+7.  Nel campo **Importo dare in tipo di costo** immettere il tipo di costo **9903** .  
+8.  Nel campo **Tipo di costo di destinazione** immettere il tipo di costo **9903** .  
+9. Nel campo **Oggetto di costo di destinazione** selezionare **Nuovo** per creare un nuovo oggetto di costo ATTREZZATURA IT e compilare i campi in base alle esigenze. Selezionare **ATTREZZATURA IT** . Lasciare vuoto il campo **Centro di costo di destinazione** .  
 10. Nel campo **Tipo di destinazione allocazione** selezionare **Tutti i costi** per definire la modalità di allocazione di tutti i costi accumulati.  
-11. Nel campo **Base** selezionare la base di allocazione **Articoli venduti (importo)**.  
-12. Nel campo **Filtro nr.** immettere **8904-W..8924-W**.  
-13. Nel campo **Codice filtro data**, immettere **Anno Precedente**.  
-14. Per calcolare la quota, scegliere l'azione **Calcola chiave di allocazione**.  
+11. Nel campo **Base** selezionare la base di allocazione **Articoli venduti (importo)** .  
+12. Nel campo **Filtro nr.** immettere **8904-W..8924-W** .  
+13. Nel campo **Codice filtro data** , immettere **Anno Precedente** .  
+14. Per calcolare la quota, scegliere l'azione **Calcola chiave di allocazione** .  
 
 > [!IMPORTANT]  
 >  In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono utilizzate le cifre di vendita degli anni precedenti per calcolare una quota di 1.596,50 VL con il 100% dei colli di ATTREZZATURA IT. Pertanto, tutti gli articoli venduti nell'ultimo anno verranno assegnati all'oggetto di costo ATTREZZATURA IT.

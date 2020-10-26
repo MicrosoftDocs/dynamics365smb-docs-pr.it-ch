@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7b5041ecca410616035fcd98df121ad924d405e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 697b83fd7e6e2b220b2851d5a1770ed9f74a9bdd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787514"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917394"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo
 Per conformità con la funzionalità di costing di magazzino e per ottenere una soluzione più semplice e più affidabile, i movimenti contabili articoli vengono utilizzati come principali vettori dei numeri di tracciabilità articolo.  
@@ -25,12 +25,12 @@ I numeri di tracciabilità articolo nelle entità di rete di ordini e nelle enti
 La pagina **Righe tracciabilità articolo** recupera le informazioni da T337 e dai movimenti contabili articoli e le mostra attraverso la tabella temporale denominata **Specifica tracciabilità** (T336). La tabella T336 contiene anche i dati temporanei nella pagina **Righe tracciabilità articolo** per le quantità di tracciabilità articolo che restano da fatturare.  
   
 ## <a name="one-to-many-relation"></a>Relazione uno-a-molti  
-La tabella **Relazione movimento articolo**, che viene utilizzata per collegare una riga di documento registrata con i relativi movimenti contabili articolo, è costituita da due parti principali:  
+La tabella **Relazione movimento articolo** , che viene utilizzata per collegare una riga di documento registrata con i relativi movimenti contabili articolo, è costituita da due parti principali:  
   
-* Un puntatore alla riga di documento registrata, il campo **Nr. riga ordine**. .  
-* Un numero di movimento che punta a un movimento contabile articolo, il campo **Nr. movimento articolo**.  
+* Un puntatore alla riga di documento registrata, il campo **Nr. riga ordine** . .  
+* Un numero di movimento che punta a un movimento contabile articolo, il campo **Nr. movimento articolo** .  
   
-La funzionalità del campo **Nr. movimento**, che collega un movimento contabile articolo a una riga di documento registrato, gestisce la tipica relazione uno a uno quando non sono presenti numeri di tracciabilità articolo nella riga del documento registrato. Se sono presenti dei numeri di tracciabilità articolo, il campo **Nr. movimento** viene lasciato vuoto e la relazione uno a molti viene gestita dalla tabella **Relazione movimento articolo**. Se la riga del documento registrata contiene numeri di tracciabilità articolo ma si riferisce solo a un singolo movimento contabile articolo, il campo **Nr. movimento** gestisce la relazione e nella tabella **Relazione movimento articolo** non viene creato alcun record.  
+La funzionalità del campo **Nr. movimento** , che collega un movimento contabile articolo a una riga di documento registrato, gestisce la tipica relazione uno a uno quando non sono presenti numeri di tracciabilità articolo nella riga del documento registrato. Se sono presenti dei numeri di tracciabilità articolo, il campo **Nr. movimento** viene lasciato vuoto e la relazione uno a molti viene gestita dalla tabella **Relazione movimento articolo** . Se la riga del documento registrata contiene numeri di tracciabilità articolo ma si riferisce solo a un singolo movimento contabile articolo, il campo **Nr. movimento** gestisce la relazione e nella tabella **Relazione movimento articolo** non viene creato alcun record.  
   
 ## <a name="codeunits-80-and-90"></a>Codeunit 80 e 90  
 Per suddividere i movimenti contabili articoli durante la registrazione, il codice nella codeunit 80 e nella codeunit 90 è circondato di cicli che vengono eseguiti attraverso variabili di record temporanee globali. Questo codice chiama la codeunit 22 con una riga di registrazioni magazzino. Queste variabili vengono inizializzate quando sono presenti numeri di tracciabilità articolo per la riga del documento. Per mantenere il codice semplice, viene sempre utilizzata questa struttura ciclica. Se non sono presenti numeri di tracciabilità articolo per la riga del documento, verrà inserito un unico record e il ciclo verrà eseguito solo una volta.  

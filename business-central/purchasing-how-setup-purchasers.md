@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2ca7c9d062ec4f6e6f30111b06e1899921e6405
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: befc5fc1c79f3cd24f5f1af9437aebab01b62945
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782967"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918881"
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
 Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.<br><br>  
@@ -26,7 +26,7 @@ Se numerosi addetti agli acquisti lavorano presso la società, si possono impost
 
 ## <a name="to-set-up-purchasers"></a>Per impostare gli addetti agli acquisti
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agenti/Add. acquisti** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Agente/Add. acquisti** scegliere l'azione **Nuovo**.
+2. Nella pagina **Agente/Add. acquisti** scegliere l'azione **Nuovo** .
 3. Nella pagina **Scheda agenti/addetti acq.** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Per assegnare gli addetti agli acquisti ai fornitori

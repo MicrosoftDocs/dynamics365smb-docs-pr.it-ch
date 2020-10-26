@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 2c1836d133c36ba5a8bf44bae0443c252bc13d8e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191781"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918256"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Panoramica delle attività per la chiusura dei periodi contabili
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] non è obbligatorio chiudere i periodi, tuttavia, vi sono numerose attività di chiusura del periodo (chiusura del mese) che è possibile svolgere. In questo argomento viene fornita una sintesi dei processi e delle attività facoltativi per periodi di chiusura.  
@@ -30,21 +30,21 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] non è obbligatorio chiudere i pe
 * Aggiornare e contabilizzare le registrazioni periodiche.  
   <!--* Process Consolidations-->
 * Eseguire le situazioni contabili come segue:  
-  * Aprire la pagina **Situazione contabile** e quindi scegliere l'azione **Stampa**.  
+  * Aprire la pagina **Situazione contabile** e quindi scegliere l'azione **Stampa** .  
 
 ## <a name="sales-and-receivables"></a>Contabilità clienti
 * Registrare tutti gli ordini di vendita, le fatture, le note di credito e gli ordini di reso.  
 * Contabilizzare tutte le registrazioni incassi.  
 * Aggiornare e contabilizzare le registrazioni periodiche correlate alla contabilità clienti.  
 * Riconciliare i crediti v/clienti nella contabilità generale.  
-* Eseguire il processo batch **Elimina ord. vendita fatturati**.  
+* Eseguire il processo batch **Elimina ord. vendita fatturati** .  
 
 ## <a name="purchases-and-payables"></a>Contabilità fornitori
 * Contabilizzare tutti gli ordini di acquisto, le fatture, le note di credito e gli ordini di reso.  
 * Contabilizzare tutte le registrazioni pagamenti.  
 * Aggiornare e contabilizzare le registrazioni periodiche correlate alla contabilità fornitori.  
 * Eseguire il report **Scadenziario fornitori** e riconciliare i debiti v/fornitori nella contabilità generale.  
-* Eseguire il processo batch **Elimina ordini acquisto fatturati**.  
+* Eseguire il processo batch **Elimina ordini acquisto fatturati** .  
 
 Cespiti
 * Registrare tutti i costi di manutenzione che sono stati registrati tramite le registrazioni cespiti o le fatture.

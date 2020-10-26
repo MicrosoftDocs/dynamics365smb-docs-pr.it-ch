@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785439"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912489"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
 
@@ -27,7 +27,7 @@ La pagina **Impostazioni personali** specifica la **Regione** e il **Linguaggio*
 
 -   L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.
 
--   Per gli schemi di date che coinvolgono le parole, la lingua delle parole utilizzate deve corrispondere all'impostazione della **Lingua**.
+-   Per gli schemi di date che coinvolgono le parole, la lingua delle parole utilizzate deve corrispondere all'impostazione della **Lingua** .
 
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utilizza il sistema di calendario gregoriano.
@@ -72,19 +72,19 @@ In un campo di data è possibile immettere due, quattro, sei o otto cifre:
 
 ### <a name="today"></a>Oggi
 
-Immettere la parola corrispondente a oggi nella lingua impostata in **Lingua**. La data verrà impostata così sulla data corrente. Invece di immettere la parola intera, è possibile immettere una parte della parola, a partire dall'inizio, ad esempio o oppure og, purché non sia anche l'inizio di un'altra parola.
+Immettere la parola corrispondente a oggi nella lingua impostata in **Lingua** . La data verrà impostata così sulla data corrente. Invece di immettere la parola intera, è possibile immettere una parte della parola, a partire dall'inizio, ad esempio o oppure og, purché non sia anche l'inizio di un'altra parola.
 
 ### <a name="period"></a>Periodo
 
-Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/20**, p1 oppure soltanto p filtra il primo periodo contabile dell'anno fiscale 2020 (come 01/01/20..31/01/20). p15 filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2020 (come 01/03/21..31/03/21).
+Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/20** , p1 oppure soltanto p filtra il primo periodo contabile dell'anno fiscale 2020 (come 01/01/20..31/01/20). p15 filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2020 (come 01/03/21..31/03/21).
 
-I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
+I periodi contabili sono definiti nella pagina **Periodi contabili** . Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="current-work-date"></a>Data di lavoro corrente
 
 La funzionalità della data di lavoro consente di registrare le transizioni utilizzando una data diversa dalla data corrente.
 
-La parola "data di lavoro", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina **Impostazioni personali**. Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
+La parola "data di lavoro", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina **Impostazioni personali** . Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
 
 Se non è stata definita una data di lavoro, per tale valore verrà automaticamente utilizzata la data corrente. Potrebbe essere necessario utilizzare una data di lavoro se sono presenti molte transazioni con una data diversa da quella odierna.
 
@@ -98,7 +98,7 @@ Per specificare che si tratta di una data di chiusura, immettere C prima della d
 
 ### <a name="examples"></a>Esempi
 
-Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati. Presuppone le impostazioni di paese con formato di data **anno.mese.giorno.**, una settimana che inizia il lunedì e la lingua inglese.
+Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati. Presuppone le impostazioni di paese con formato di data **anno.mese.giorno.** , una settimana che inizia il lunedì e la lingua inglese.
 
 |**Immissione**      |**Interpretazione**      |
 |---------------|------------------------|

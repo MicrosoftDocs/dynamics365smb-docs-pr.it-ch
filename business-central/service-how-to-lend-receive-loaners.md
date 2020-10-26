@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7398c89877551cfe1d5a78cb902d1c66e9efc9c6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fd5fc6ad6dabcd3c7bc47caa1af4810474d9a6da
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192621"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918681"
 ---
 # <a name="lend-and-receive-loaners"></a>Dare e ricevere articoli in prestito
 È possibile dare in prestito degli articoli ai clienti per sostituire temporaneamente gli articoli in assistenza ricevuti per prestare assistenza.  
@@ -28,20 +28,20 @@ ms.locfileid: "3192621"
 5. Fare clic su **Sì** per confermare il prestito.  
 
 ## <a name="to-receive-a-loaner"></a>Per ricevere un articolo in prestito  
-Quando si riceve un articolo in prestito da un cliente, è necessario registrarne la ricezione. Questa operazione viene eseguita nelle pagine **Ordine assistenza**, **Spedizione assistenza registrata** e  **Scheda articoli in prestito** . in questa procedura viene illustrato come si ricevono gli articoli in prestito nella pagina **Ordine assistenza**.  
+Quando si riceve un articolo in prestito da un cliente, è necessario registrarne la ricezione. Questa operazione viene eseguita nelle pagine **Ordine assistenza** , **Spedizione assistenza registrata** e  **Scheda articoli in prestito** . in questa procedura viene illustrato come si ricevono gli articoli in prestito nella pagina **Ordine assistenza** .  
   
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di assistenza desiderato.  
 3. Scegliere la riga di articolo in assistenza contenente l'articolo in prestito che si desidera ricevere.  
-4. Scegliere **Azioni**, **Funzioni** quindi **Ricevi articolo in prestito**.  
+4. Scegliere **Azioni** , **Funzioni** quindi **Ricevi articolo in prestito** .  
 
 ## <a name="to-register-loaner-comments"></a>Per registrare i commenti relativi agli articoli in prestito  
 È possibile utilizzare la pagina **Foglio Commento Assistenza Generale** per registrare i commenti relativi agli articoli in prestito registrati.  
   
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in prestito** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda articoli in prestito pertinente.  
-3. Scegliere l'azione **Commenti**. Viene aperta la pagina **Foglio commento assistenza generale**.  
-4. Immettere una data nel campo **Data**.  
+3. Scegliere l'azione **Commenti** . Viene aperta la pagina **Foglio commento assistenza generale** .  
+4. Immettere una data nel campo **Data** .  
 5. Nel campo **Commento** immettere un commento. È possibile immettere un massimo di 80 caratteri. Se è necessario più spazio, andare alla riga successiva. Compilare tutte le righe necessarie.  
   
 ## <a name="see-also"></a>Vedere anche  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a386a2045b1ba28db5882f3602adfdf79b7cd005
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6f8b27c4b0abc4221bd081df8474876577e476e6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779755"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911888"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertire le ubicazioni esistenti in ubicazione warehouse
 È possibile consentire l'utilizzo di zone e collocazioni in un'ubicazione magazzino esistente, in modo da utilizzare tale ubicazione come ubicazione warehouse.  
@@ -34,11 +34,11 @@ Il processo batch per l'abilitazione di un'ubicazione per le attività warehouse
 
     Utilizzando i movimenti contabili articoli aperti per l'ubicazione specificata, vengono create righe di registrazione warehouse, in cui vengono riassunte tutte le combinazioni di Nr. Articolo, Cod. Variante, Cod. Unità di Misura e, se necessario, Nr. Lotto e Nr. Seriale nei movimenti contabili articoli. Le righe di registrazione warehouse vengono quindi registrate, in modo da creare movimenti warehouse che consentano di inserire il magazzino nella collocazione di rettifica della warehouse. Viene inoltre impostata l'opzione **Codice collocazione rettifica** nella scheda Ubicazione.  
 
-4.  Per visualizzare gli articoli aggiunti alla collocazione di rettifica durante il processo batch, è possibile eseguire il report **Collocazione rettifica warehouse**.  
-5.  Al termine del processo batch **Crea ubicazione warehouse**, eseguire e registrare un inventario fisico della warehouse. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni ](inventory-how-count-adjust-reclassify.md).  
+4.  Per visualizzare gli articoli aggiunti alla collocazione di rettifica durante il processo batch, è possibile eseguire il report **Collocazione rettifica warehouse** .  
+5.  Al termine del processo batch **Crea ubicazione warehouse** , eseguire e registrare un inventario fisico della warehouse. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni ](inventory-how-count-adjust-reclassify.md).  
 
 > [!NOTE]  
->  È consigliabile eseguire il processo batch **Crea ubicazione warehouse** in un orario che non ostacoli il funzionamento quotidiano del sistema. Durante il processo vengono elaborati tutti i movimenti disponibili nella tabella **Mov. contabili articoli**. Se il numero di movimenti è elevato, tale operazione potrebbe richiedere alcune ore.  
+>  È consigliabile eseguire il processo batch **Crea ubicazione warehouse** in un orario che non ostacoli il funzionamento quotidiano del sistema. Durante il processo vengono elaborati tutti i movimenti disponibili nella tabella **Mov. contabili articoli** . Se il numero di movimenti è elevato, tale operazione potrebbe richiedere alcune ore.  
 
  Nel caso delle ubicazioni in cui i documenti di gestione della warehouse non venivano utilizzati prima della conversione, è necessario riaprire e rilasciare eventuali documenti di origine ricevuti parzialmente o spediti parzialmente prima della conversione.  
 

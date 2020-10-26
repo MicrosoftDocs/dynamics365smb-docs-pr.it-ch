@@ -1,6 +1,6 @@
 ---
 title: Sintesi della riga di registrazione di contabilità generale | Microsoft Docs
-description: In questo argomento vengono presentate le modifiche alla Codeunit 12, **Registrazioni Gen.-Riga di registrazione**, ovvero il principale oggetto applicazione per la registrazione di contabilità generale e la sola area per registrare contabilità generale, IVA e movimenti contabili di clienti e fornitori.
+description: In questo argomento vengono presentate le modifiche alla Codeunit 12, **Registrazioni Gen.-Riga di registrazione** , ovvero il principale oggetto applicazione per la registrazione di contabilità generale e la sola area per registrare contabilità generale, IVA e movimenti contabili di clienti e fornitori.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3891d97788cbb4751a9ee9e06baab39f7088f67f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787964"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911123"
 ---
 # <a name="general-journal-post-line-overview"></a>Sintesi della riga di registrazione di contabilità generale
-Codeunit 12, **Registrazioni Gen.-Riga di registrazione**, è il principale oggetto applicazione per la registrazione di contabilità generale ed è la sola area per registrare contabilità generale, IVA e movimenti contabili di clienti e fornitori. Questa codeunit viene inoltre utilizzata per tutte le operazioni Collega, Scollega e Storna.  
+Codeunit 12, **Registrazioni Gen.-Riga di registrazione** , è il principale oggetto applicazione per la registrazione di contabilità generale ed è la sola area per registrare contabilità generale, IVA e movimenti contabili di clienti e fornitori. Questa codeunit viene inoltre utilizzata per tutte le operazioni Collega, Scollega e Storna.  
   
 Mentre la codeunit è stata migliorata in ogni versione durante gli ultimi dieci anni, la relativa architettura è rimasta essenzialmente invariata. Codeunit è diventato molto grande, contiene circa 7.600 righe di codice. Con questa versione di [!INCLUDE[d365fin](includes/d365fin_md.md)], l'architettura viene modificata e la codeunit è stata resa più semplice e gestibile. La documentazione introduce le modifiche e fornisce informazioni necessarie per aggiornare.  
   

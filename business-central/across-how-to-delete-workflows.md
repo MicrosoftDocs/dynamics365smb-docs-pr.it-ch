@@ -1,6 +1,6 @@
 ---
 title: Come eliminare workflow | Microsoft Docs
-description: È possibile eliminare un flusso di lavoro che non si desidera utilizzare più. Lo stato di tutte le istanze dei passaggi del flusso di lavoro che sono definite nel flusso di lavoro deve essere impostato su **Completato**.
+description: È possibile eliminare un flusso di lavoro che non si desidera utilizzare più. Lo stato di tutte le istanze dei passaggi del flusso di lavoro che sono definite nel flusso di lavoro deve essere impostato su **Completato** .
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97cd7c2f74875317a3d4559c15d0bd22367e6df7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d9b1990e1379b958aaa3723b4e5a984d066d0b2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778110"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915853"
 ---
 # <a name="delete-workflows"></a>Eliminare i workflow
-È possibile eliminare un workflow che non si desidera utilizzare più. Lo stato di tutte le istanze dei passaggi del flusso di lavoro che sono definite nel flusso di lavoro deve essere impostato su **Completato**.  
+È possibile eliminare un workflow che non si desidera utilizzare più. Lo stato di tutte le istanze dei passaggi del flusso di lavoro che sono definite nel flusso di lavoro deve essere impostato su **Completato** .  
 
 > [!CAUTION]  
 >  Quando si elimina un flusso di lavoro, tutte le informazioni in esso contenute vengono perse.  
@@ -28,9 +28,9 @@ ms.locfileid: "3778110"
 ## <a name="to-delete-a-workflow"></a>Per eliminare un flusso di lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
 2.  Selezionare il flusso di lavoro che si desidera eliminare.  
-3.  Scegliere l'azione **Elimina**.  
+3.  Scegliere l'azione **Elimina** .  
 4.  In alternativa, aprire il flusso di lavoro che si desidera eliminare.  
-5.  Nella pagina **Workflow** scegliere l'azione **Elimina**.  
+5.  Nella pagina **Workflow** scegliere l'azione **Elimina** .  
 
 ## <a name="see-also"></a>Vedi anche  
  [Creare i workflow](across-how-to-create-workflows.md)   

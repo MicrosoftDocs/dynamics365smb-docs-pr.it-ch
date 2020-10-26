@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30fc4c4cc4e29a817e8c5fe98782c0f00f1fecfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7d063b4b6a78f9a75cdb16050ffe14305df27d95
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190221"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916694"
 ---
 # <a name="making-payments"></a>Effettuare i pagamenti
 
-Quando si eseguono i pagamenti ai fornitori, ai clienti o i rimborsi ai dipendenti, si registrano le relative righe di pagamento nella pagina **Registrazioni pagamenti**. Le registrazioni pagamenti sono registrazioni generali ottimizzate per effettuare pagamenti e includono una serie di potenti funzioni come **Sugg. pagamenti fornitore** che consente di individuare i pagamenti fornitore in scadenza e il report **Fornitori - Scadenziario riepilogativo** che mostra una panoramica dei pagamenti scadenza dei fornitori.  
+Quando si eseguono i pagamenti ai fornitori, ai clienti o i rimborsi ai dipendenti, si registrano le relative righe di pagamento nella pagina **Registrazioni pagamenti** . Le registrazioni pagamenti sono registrazioni generali ottimizzate per effettuare pagamenti e includono una serie di potenti funzioni come **Sugg. pagamenti fornitore** che consente di individuare i pagamenti fornitore in scadenza e il report **Fornitori - Scadenziario riepilogativo** che mostra una panoramica dei pagamenti scadenza dei fornitori.  
 
 È possibile avviare il processo di eseguire il pagamento da elenchi, schede e movimenti contabili per fornitori, clienti e dipendenti. In ciascuna di tali pagine è presente un pulsante che avvia il flusso di pagamento e aiuta a compilare le registrazioni pagamenti.  
 
-Dalle registrazioni pagamenti è possibile stampare assegni automatici o registrare l'emissione degli assegni. Se si seleziona **Assegno automatico** nel campo **Tipo pagamento banca**, tutte le righe che rappresentano assegni devono essere stampate prima che le registrazioni pagamenti possano essere contabilizzate.
+Dalle registrazioni pagamenti è possibile stampare assegni automatici o registrare l'emissione degli assegni. Se si seleziona **Assegno automatico** nel campo **Tipo pagamento banca** , tutte le righe che rappresentano assegni devono essere stampate prima che le registrazioni pagamenti possano essere contabilizzate.
 
 Quando si registrano i pagamenti, è possibile esportarli in un file della banca da caricare nella banca per l'elaborazione.
 
@@ -33,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | A | Vedere |
 | --- | --- |
-|Comprendere la funzioni di base della pagina **Registrazioni pagamenti**, su cui si basano le registrazioni COGE, per preparare la registrazione dei pagamenti ai fornitori o ai dipendenti.|[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)|
+|Comprendere la funzioni di base della pagina **Registrazioni pagamenti** , su cui si basano le registrazioni COGE, per preparare la registrazione dei pagamenti ai fornitori o ai dipendenti.|[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)|
 |Registrare i pagamenti ai fornitori o ai dipendenti e i rimborsi ai clienti ed eventualmente collegare i pagamenti alle fatture o note di credito non pagate correlati per consentirne la chiusura come pagate.|[Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md)|
 | Utilizzare una funzione nella pagina **Registrazioni pagamenti** per suggerire i pagamenti fornitore in base ai criteri selezionati, ad esempio la data di scadenza, l'idoneità allo sconto e la liquidità. |[Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md) |
 | Emettere assegni per i pagamenti fornitore o i rimborsi ai clienti, come stampati o come assegni automatici. Annullare gli assegni prima o dopo la registrazione. |[Effettuare pagamenti tramite assegno](payables-how-work-checks.md) |

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484279"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917794"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Impostazione di account utente per l'integrazione con Common Data Service
 In questo articolo viene fornita una panoramica su come impostare account utente necessari per integrare [!INCLUDE[d365fin](includes/cds_long_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -24,7 +24,7 @@ In questo articolo viene fornita una panoramica su come impostare account utente
 Devi aggiungere il tuo account utente amministratore per [!INCLUDE[d365fin](includes/d365fin_md.md)] come utente in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Quando si imposta la connessione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] useremo questo account una volta per installare e configurare alcuni componenti richiesti. 
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Autorizzazioni e ruoli di sicurezza per gli account utente in [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Quando si installa la soluzione di integrazione CDS di base, le autorizzazioni per l'account utente di integrazione sono configurate. Se tali autorizzazioni vengono modificate manualmente, è possibile ripristinarle. Puoi farlo reinstallando la soluzione di integrazione CDS di base scegliendo **Ridistribuisci soluzione di integrazione** nella pagina **Configurazione connessione Common Data Service**. Viene distribuito il ruolo di sicurezza Integrazione CDS Business Central.
+Quando si installa la soluzione di integrazione CDS di base, le autorizzazioni per l'account utente di integrazione sono configurate. Se tali autorizzazioni vengono modificate manualmente, è possibile ripristinarle. Puoi farlo reinstallando la soluzione di integrazione CDS di base scegliendo **Ridistribuisci soluzione di integrazione** nella pagina **Configurazione connessione Common Data Service** . Viene distribuito il ruolo di sicurezza Integrazione CDS Business Central.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].

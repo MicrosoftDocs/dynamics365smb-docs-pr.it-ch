@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 05/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: f370bf9bb7e6aa4571a88d4b868ff86376ecb605
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372561"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917169"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
 
@@ -54,7 +54,7 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 
 La pagina **Categorie conto C/G** visualizza le categorie e le sottocategorie principali esistenti e i conti C/G assegnati ad esse. È possibile creare nuove sottocategorie e assegnarle categorie ai conti esistenti.  
 
-È possibile creare un gruppo di categoria definendo un'indentazione di altre categorie in una riga nella pagina **Categorie conto C/G**. Ciò consente di ottenere una panoramica, in quanto ogni raggruppamento mostra un saldo totale. Ad esempio, è possibile creare sottocategorie per i diversi tipi di cespiti e quindi creare gruppi di categorie per cespiti rispetto a cespiti correnti.  
+È possibile creare un gruppo di categoria definendo un'indentazione di altre categorie in una riga nella pagina **Categorie conto C/G** . Ciò consente di ottenere una panoramica, in quanto ogni raggruppamento mostra un saldo totale. Ad esempio, è possibile creare sottocategorie per i diversi tipi di cespiti e quindi creare gruppi di categorie per cespiti rispetto a cespiti correnti.  
 
 È possibile specificare se i conti di questa sottocategoria devono essere inclusi in determinati tipi di report. Le categorie di conto consentono di definire il layout dei rendiconti finanziari.  
 
@@ -62,7 +62,7 @@ Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai 
 
 1. Aggiungere due nuove sottocategorie. Una per la piccola cassa e una per il conto assegni.  
 2. Specificare la definizione report addizionale **Conti cassa** per queste sottocategorie.  
-3. Applicare un rientro sotto la sottocategoria **Contanti**.  
+3. Applicare un rientro sotto la sottocategoria **Contanti** .  
 
 Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
 

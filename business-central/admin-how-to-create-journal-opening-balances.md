@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9984d61e97ff6c04733bd10818deb1d6cf57a66c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783644"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915792"
 ---
 # <a name="create-journal-opening-balances"></a>Creare bilanci di apertura delle registrazioni
 
@@ -34,13 +34,13 @@ Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Ammi
 2. Aprire il foglio di lavoro configurazione e importare dati esistenti relativi a clienti, articoli, fornitori, nonché la contabilità generale. Per ulteriori informazioni, vedere [Eseguire la migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
 
     Ora i dati master sono in posizione. Successivamente, aggiungere i bilanci di apertura. I passaggi seguenti descrivono come creare righe di giornale di registrazione per conti CoGe, ma lo stesso si applica alla creazione di righe di giornale di registrazione per clienti, fornitori e articoli.  
-3. Scegliere l'azione **Crea righe registrazioni conto C/G**.  
-4. Compilare la Scheda dettaglio **Opzioni** come appropriato e impostare i filtri in base alle esigenze. Ad esempio, immettere un nome nel campo **Definizione registrazioni**.  
-5. Scegliere il pulsante **OK**. I record sono ora contenuti nella registrazione, ma gli importi sono vuoti.  
+3. Scegliere l'azione **Crea righe registrazioni conto C/G** .  
+4. Compilare la Scheda dettaglio **Opzioni** come appropriato e impostare i filtri in base alle esigenze. Ad esempio, immettere un nome nel campo **Definizione registrazioni** .  
+5. Scegliere il pulsante **OK** . I record sono ora contenuti nella registrazione, ma gli importi sono vuoti.  
 6. Esportare la tabella delle registrazioni in Excel e immettere manualmente le informazioni relative a registrazioni e contropartita dei dati legacy.
 7. Importare e collegare le informazioni della tabella nella nuova società. Le righe di registrazione sono pronte per la registrazione.  
-8. Nel foglio di lavoro configurazione, selezionare la tabella delle righe di registrazione, quindi scegliere l'azione **Dati database**.  
-9. Esaminare le informazioni, quindi scegliere l'azione **Registra**.  
+8. Nel foglio di lavoro configurazione, selezionare la tabella delle righe di registrazione, quindi scegliere l'azione **Dati database** .  
+9. Esaminare le informazioni, quindi scegliere l'azione **Registra** .  
 10. Ripetere i passaggi per importare e registrare altri bilanci di apertura.  
 
 > [!TIP]

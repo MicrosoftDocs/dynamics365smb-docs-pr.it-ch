@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192165"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912814"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Inviare avvisi su normative specifiche di un paese/area geografica
 
@@ -25,13 +25,13 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
     Verranno visualizzati i progetti a cui si ha accesso.
 
-2. Selezionare il progetto **Avvisi normativi - In tutto il mondo**.
+2. Selezionare il progetto **Avvisi normativi - In tutto il mondo** .
 
     Verrà aperto il progetto e verranno visualizzati vari elementi relativi a tale progetto.
 
-3. Selezionare **Servizio avviso** sul lato destro nella sezione **Altri strumenti**.
+3. Selezionare **Servizio avviso** sul lato destro nella sezione **Altri strumenti** .
 
-    Verrà visualizzato un elenco di avvisi con l'intestazione **Invio avviso normativo Dynamics**.
+    Verrà visualizzato un elenco di avvisi con l'intestazione **Invio avviso normativo Dynamics** .
 
 4. È possibile aggiungere un nuovo avviso facendo clic sul segno più **(+)** nella parte superiore dell'elenco.
 
@@ -48,10 +48,10 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
         |Campo        |Description                               |
         |-------------|------------------------------------------|
-        |Titolo  | Immettere un titolo descrittivo per identificare l'area interessata. Ad esempio, immettere *Modifiche nel documento di fatturazione dal 1° luglio 2019*. |
+        |Titolo  | Immettere un titolo descrittivo per identificare l'area interessata. Ad esempio, immettere *Modifiche nel documento di fatturazione dal 1° luglio 2019* . |
         |Description  | Immettere una breve sintesi della legge. La descrizione deve riguardare i problemi pertinenti alla pianificazione delle risorse aziendali (ERP), in modo che gli utenti possano comprendere i requisiti senza dover dapprima leggere la legislazione.|
         |Paese  | Specificare il paese o la l'area geografica a cui la legislazione si applica.|
-        |Settore| Specificare il settore se il requisito si applica soltanto a uno specifico settore. Ad esempio, scegliere **Settore pubblico**, **Vendita al dettaglio** o **Produzione**.|
+        |Settore| Specificare il settore se il requisito si applica soltanto a uno specifico settore. Ad esempio, scegliere **Settore pubblico** , **Vendita al dettaglio** o **Produzione** .|
         |Riferimento funzionalità  | Questo campo non è pertinente a Dynamics 365 Business Central, ma è possibile immettere un riferimento funzionalità, se lo si conosce. L'elenco delle funzionalità per un determinato paese è disponibile nel [portale di localizzazione](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) sul sito CustomerSource. |
         |Data imposta per legge  | Specificare la data a partire dalla quale i clienti interessati devono conformarsi alla legge.|
         |Data annuncio governativo  | Specificare la data in cui l'autorità ha annunciato la modifica.|

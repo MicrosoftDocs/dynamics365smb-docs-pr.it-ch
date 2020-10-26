@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef4127f7bfe8a135f07b5fa1aa7db4b953489282
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1dccea4f700f8cf141e05058b54fd20d62665b7b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787114"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910998"
 ---
 # <a name="design-details-table-structure"></a>Dettagli di progettazione: Struttura della tabella
 Per comprendere in che modo i movimenti dimensione sono archiviati e registrati, è importante comprendere la struttura della tabella.  
@@ -43,7 +43,7 @@ Non è possibile modificare questa tabella. Viene utilizzata per cercare un set 
 |4|**In uso**|Booleano|False se non in uso.|  
 
 ## <a name="table-482-reclas-dimension-set-buffer"></a>Buffer set di dimensioni di riclassificazione tabella 482  
-Questa tabella viene utilizzata quando si modifica un codice valore di dimensioni, ad esempio, in un movimento contabile articolo utilizzando la pagina **Registrazioni riclassificazione articolo**.  
+Questa tabella viene utilizzata quando si modifica un codice valore di dimensioni, ad esempio, in un movimento contabile articolo utilizzando la pagina **Registrazioni riclassificazione articolo** .  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  

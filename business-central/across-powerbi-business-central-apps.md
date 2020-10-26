@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697854"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915878"
 ---
 # <a name="using-the-prodshort-apps-in-power-bi"></a>Utilizzo delle app [!INCLUDE [prodshort](includes/prodshort.md)] in Power BI
 
@@ -52,7 +52,7 @@ Le app Power BI richiedono autorizzazioni per le tabelle da cui vengono recupera
 |[!INCLUDE[prodshort](includes/prodshort.md)] – Sales| <ul><li>Vendite articolo per cliente</li><li>Dashboard vendite</li><li>Modello di Excel Visualizza informazioni società</li><li>Etichette report Power BI</li></ul>|
 
 > [!TIP]
-> Un modo agevole di individuare i *servizi Web* consiste nel cercarli in [!INCLUDE[prodshort](includes/prodshort.md)]. Nella pagina **Servizi web**, assicurarsi che il campo **Pubblica** sia selezionato per i servizi web elencati sopra. Per ulteriori informazioni, vedere [Pubblicare un servizio Web](across-how-publish-web-service.md).
+> Un modo agevole di individuare i *servizi Web* consiste nel cercarli in [!INCLUDE[prodshort](includes/prodshort.md)]. Nella pagina **Servizi web** , assicurarsi che il campo **Pubblica** sia selezionato per i servizi web elencati sopra. Per ulteriori informazioni, vedere [Pubblicare un servizio Web](across-how-publish-web-service.md).
 
 ## <a name="get-ready"></a>Preparazione
 
@@ -65,27 +65,27 @@ Iscriversi al servizio Power BI. Se non si è già registrati andare a [https://
 
     ![Passare a Ottieni i dati](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    È inoltre possibile iniziare da [!INCLUDE [prodshort](includes/prodshort.md)]. Nella Home page, passare a **Selezione report**nella sezione Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. La raccolta dell'organizzazione in Power BI o Microsoft AppSource si apre, filtrata per visualizzare solo le app relative a [!INCLUDE[prodshort](includes/prodshort.md)].
+    È inoltre possibile iniziare da [!INCLUDE [prodshort](includes/prodshort.md)]. Nella Home page, passare a **Selezione report** nella sezione Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. La raccolta dell'organizzazione in Power BI o Microsoft AppSource si apre, filtrata per visualizzare solo le app relative a [!INCLUDE[prodshort](includes/prodshort.md)].
 
-3. Nella casella **Servizi**, selezionare **Ottieni**.
+3. Nella casella **Servizi** , selezionare **Ottieni** .
 
-    Questo passaggio apre la pagina **App Power BI** che consente di cercare l'app Power BI disponibile in **AppSource**.  
+    Questo passaggio apre la pagina **App Power BI** che consente di cercare l'app Power BI disponibile in **AppSource** .  
 
-4. Nella casella **Cerca** immettere **Dynamics 365 Business Central**.
-5. Selezionare l'app che si desidera utilizzare, selezionare **Scarica ora** e poi **Installa**.  
+4. Nella casella **Cerca** immettere **Dynamics 365 Business Central** .
+5. Selezionare l'app che si desidera utilizzare, selezionare **Scarica ora** e poi **Installa** .  
 
     Al termine, l'app sarà disponibile da **App** nel menu di spostamento in Power BI.
 
 ## <a name="connect-the-prodshort-app-to-your-data"></a>Connettere l'app [!INCLUDE[prodshort](includes/prodshort.md)] ai dati
 
-1. In **App**, selezionare l'app Business Central, quindi **Connetti**.
+1. In **App** , selezionare l'app Business Central, quindi **Connetti** .
 2. Quando richiesto, compilare i campi **Nome società** e **Ambiente** con le informazioni sull'istanza di [!INCLUDE[prodshort](includes/prodshort.md)] a cui ci si desidera connettere.
 
-    - Per **Nome società**, assicurarsi di utilizzare il nome completo, non il nome visualizzato. È possibile trovare Il nome della società nella pagina **Società** in [!INCLUDE[prodshort](includes/prodshort.md)]. 
-    - Per **Ambiente** se non sono stati creati più ambienti, immettere **Produzione**.
+    - Per **Nome società** , assicurarsi di utilizzare il nome completo, non il nome visualizzato. È possibile trovare Il nome della società nella pagina **Società** in [!INCLUDE[prodshort](includes/prodshort.md)]. 
+    - Per **Ambiente** se non sono stati creati più ambienti, immettere **Produzione** .
 
-3. Selezionare **Avanti**.
-4. Selezionare **Accedi**.
+3. Selezionare **Avanti** .
+4. Selezionare **Accedi** .
 5. Quando richiesto, immettere il nome utente e la password per l'accesso a [!INCLUDE[prodshort](includes/prodshort.md)].
 6. Dopo la connessione, un dashboard e i report vengono aggiunti all'area di lavoro Power BI. Al termine, i riquadri visualizzano i dati della società [!INCLUDE[prodshort](includes/prodshort.md)].
 
@@ -101,7 +101,7 @@ Un account Power BI non è stato impostato. È necessario avere una licenza per 
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Messaggio: Non sono presenti report abilitati. Scegliere Seleziona report per visualizzare un elenco di report che è possibile visualizzare.
 
-Questo messaggio viene visualizzato se la distribuzione del report predefinito non è riuscita nell'area di lavoro Power BI. Oppure il report è stato distribuito ma non è stato aggiornato correttamente. Se si verifica questo problema, accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a [!INCLUDE[prodshort](includes/prodshort.md)] e selezionare manualmente il report dalla pagina **Selezionare i report**.
+Questo messaggio viene visualizzato se la distribuzione del report predefinito non è riuscita nell'area di lavoro Power BI. Oppure il report è stato distribuito ma non è stato aggiornato correttamente. Se si verifica questo problema, accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati** , **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a [!INCLUDE[prodshort](includes/prodshort.md)] e selezionare manualmente il report dalla pagina **Selezionare i report** .
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE[prodshort](includes/prodshort.md)] in Power BI
 
@@ -130,7 +130,7 @@ Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale, il problema potrebbe
 
 ### <a name="incorrect-company-name"></a>Nome della società non corretto
 
-Un errore comune consiste nell'immettere il nome visualizzato della società al posto del nome della società. Per individuare il nome della società, cercare **Società**. Quindi utilizzare il campo **Nome** quando si immette il nome della società.
+Un errore comune consiste nell'immettere il nome visualizzato della società al posto del nome della società. Per individuare il nome della società, cercare **Società** . Quindi utilizzare il campo **Nome** quando si immette il nome della società.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nessuna riga corrispondente alla chiave nella tabella
 
@@ -149,7 +149,7 @@ L'app Power BI visualizzerà solo i dati della società [!INCLUDE[prodshort](inc
 - Provare a [porre una domanda nella casella delle domande e risposte](/power-bi/service-q-and-a-tips) nella parte superiore del dashboard.
 - [Modificare i riquadri](/power-bi/service-dashboard-edit-tile) nel dashboard.  
 - [Selezionare un riquadro](/power-bi/service-dashboard-tiles) per aprire il report sottostante.  
-- Per impostazione predefinita, il set di dati non è pianificato per l'aggiornamento. È possibile modificare la pianificazione dell'aggiornamento o eseguire l'aggiornamento su richiesta utilizzando **Aggiorna ora**. Per ulteriori informazioni, vedere [Configurazione di aggiornamenti pianificati](/power-bi/refresh-scheduled-refresh)
+- Per impostazione predefinita, il set di dati non è pianificato per l'aggiornamento. È possibile modificare la pianificazione dell'aggiornamento o eseguire l'aggiornamento su richiesta utilizzando **Aggiorna ora** . Per ulteriori informazioni, vedere [Configurazione di aggiornamenti pianificati](/power-bi/refresh-scheduled-refresh)
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

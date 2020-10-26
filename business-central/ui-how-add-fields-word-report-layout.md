@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 192ce7cfea150e78bfdcac6961e529046c920e21
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193967"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915028"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -33,11 +33,11 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
      Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
-3.  Nella scheda **Sviluppatore**, scegliere **Riquadro mapping XML**.  
+3.  Nella scheda **Sviluppatore** , scegliere **Riquadro mapping XML** .  
   
-4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
+4.  Nel riquadro **Mapping XML** , nell'elenco a discesa **Parte XML personalizzata** , scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
   
-     urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
+     urn:microsoft-dynamics-nav/reports/ *report_name*/*ID*  
   
      *report_name* è il nome che viene assegnato al report<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
   
@@ -49,7 +49,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 1.  Posizionare il cursore nel documento dove si desidera aggiungere il controllo.  
   
-2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
+2.  Nel riquadro di **Mapping XML** , fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto** , quindi **Testo normale** .  
   
     > [!NOTE]  
     >  Non è possibile aggiungere un campo manualmente digitando il nome del campo set di dati nel controllo contenuto. Utilizzare il riquadro di **Mapping XML** per mappare i campi.  
@@ -62,18 +62,18 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 2.  Seleziona l'intera riga.  
   
-3.  Nel riquadro di **Mapping XML**, fare clic con il pulsante destro del mouse sul controllo corrispondente all'elemento dati del report che contiene i campi che si desidera siano ripetuti, scegliere **Immetti controllo contenuto**, quindi scegliere **Ripetizione**.  
+3.  Nel riquadro di **Mapping XML** , fare clic con il pulsante destro del mouse sul controllo corrispondente all'elemento dati del report che contiene i campi che si desidera siano ripetuti, scegliere **Immetti controllo contenuto** , quindi scegliere **Ripetizione** .  
   
 4.  Aggiungere i campi ripetuti alla riga come segue:  
   
     1.  Posizionare il puntatore in una colonna.  
   
-    2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
+    2.  Nel riquadro di **Mapping XML** , fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto** , quindi **Testo normale** .  
   
     3.  Ripetere i passaggi a e b per ogni campo.  
   
 ## <a name="adding-image-fields"></a>Aggiungere campi immagine  
- Un set di dati del report può includere un campo che contiene un'immagine, ad esempio un logo della società o l'immagine di un articolo. Per aggiungere un'immagine dal set di dati del report, si inserisce un controllo contenuto di **Immagine**.  
+ Un set di dati del report può includere un campo che contiene un'immagine, ad esempio un logo della società o l'immagine di un articolo. Per aggiungere un'immagine dal set di dati del report, si inserisce un controllo contenuto di **Immagine** .  
   
  Le immagini vengono allineate all'angolo in alto a sinistra del controllo contenuto e ridimensionate automaticamente per rispettare il limite del controllo contenuto.  
   
@@ -84,12 +84,12 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 1.  Posizionare il puntatore nel documento dove si desidera aggiungere il controllo.  
   
-2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Immagine**.  
+2.  Nel riquadro di **Mapping XML** , fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto** , quindi **Immagine** .  
   
 3.  Per aumentare o diminuire la dimensione dell'immagine, trascinare un quadratino di ridimensionamento verso il centro o lontano dal centro del controllo contenuto.  
 
 ## <a name="custom-xml-part-overview"></a>Panoramica della parte XML personalizzata
-I layout di report Word sono sviluppati su *parti XML personalizzate*. Una parte XML personalizzata di un report consiste degli elementi corrispondenti agli elementi dati, alle colonne e alle etichette compresi nel set di dati del report. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->La parte XML personalizzata viene utilizzata per mappare i dati in un report all'esecuzione del report.
+I layout di report Word sono sviluppati su *parti XML personalizzate* . Una parte XML personalizzata di un report consiste degli elementi corrispondenti agli elementi dati, alle colonne e alle etichette compresi nel set di dati del report. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->La parte XML personalizzata viene utilizzata per mappare i dati in un report all'esecuzione del report.
 
   
 ### <a name="xml-structure-of-custom-xml-part"></a>Struttura XML della Parte XML personalizzata  
@@ -105,15 +105,15 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Scegliere gli articoli.|  
   
 ### <a name="custom-xml-part-in-word"></a>Personalizzare la parte XML in Word  
- In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
+ In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML** , quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore** . Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
- Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette**, mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi vengono identificati dal proprio nome come definito dalla proprietà nome in Progettazione set di dati del report in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette** , mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi vengono identificati dal proprio nome come definito dalla proprietà nome in Progettazione set di dati del report in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
  La figura seguente illustra la parte XML semplice personalizzata dalla sezione precedente nel riquadro **Mapping XML** di un documento Word.  
   
  ![Clip del riquadro Mapping XML in Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
--   Per aggiungere un'etichetta o un campo al layout, si inserisce un controllo contenuto che mappa all'elemento presente nel riquadro di **Mapping XML**.  
+-   Per aggiungere un'etichetta o un campo al layout, si inserisce un controllo contenuto che mappa all'elemento presente nel riquadro di **Mapping XML** .  
   
 -   Per creare righe ripetuti di colonne, inserire un controllo contenuto del tipo **Ripetizione** per l'elemento padre dell'elemento dati in questione e aggiungere il controllo contenuto per le colonne.  
   

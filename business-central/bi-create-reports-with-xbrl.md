@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f0d7f5af6750eba3622ca697f81eb0804f6be16
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 183a127ff9584723c52159397c75d1f17765d81f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786589"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917694"
 ---
 # <a name="create-reports-with-xbrl"></a>Creare report con XBRL
 XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basato su XML per l'assegnazione di tag ai dati finanziari che consente alle aziende di elaborare e condividere i dati in maniera efficiente e accurata. L'iniziativa XBRL abilita il reporting finanziario globale da parte di numerose società che producono software ERP e organizzazioni contabili internazionali. L'obiettivo dell'iniziativa consiste nel fornire uno standard per il reporting uniforme delle informazioni finanziarie per banche, investitori e autorità governative. Tali funzionalità di reporting possono includere:  
@@ -30,7 +30,7 @@ XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basa
  [!INCLUDE[d365fin](includes/d365fin_md.md)] consente alle società di implementare i dati in XBRL e utilizzare la flessibilità e l'automazione fornite per la raccolta e la condivisione dei dati.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
-XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) è un linguaggio XML utilizzato per la creazione di rendiconti finanziari. Esso fornisce uno standard uniforme per la stesura di report utilizzato da tutti gli utenti che forniscono informazioni finanziarie, ad esempio società private e pubbliche, commercialisti, autorità di regolamentazione, analisti finanziari, investitori, operatori finanziari e finanziatori, nonché terze parti che svolgono un ruolo chiave, quali sviluppatori di software e analisti di dati.  
+XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) è un linguaggio XML utilizzato per la creazione di rendiconti finanziari. Esso fornisce uno standard uniforme per la stesura di report utilizzato da tutti gli utenti che forniscono informazioni finanziarie, ad esempio società private e pubbliche, commercialisti, autorità di regolamentazione, analisti finanziari, investitori, operatori finanziari e finanziatori, nonché terze parti che svolgono un ruolo chiave, quali sviluppatori di software e analisti di dati.  
 
 La gestione delle tassonomie è a cura di www.xbrl.org. Per ulteriori informazioni o se si desidera scaricare le tassonomie, è possibile visitare il sito Web di XBRL.  
 
@@ -68,14 +68,14 @@ Dopo aver importato o aggiornato la tassonomia, è necessario fornire alle righe
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Tassonomie XBRL** selezionare una tassonomia dall'elenco.  
-3.  Scegliere l'azione **Righe**.  
+3.  Scegliere l'azione **Righe** .  
 4.  Selezionare una riga e compilare i campi.   
-5.  Per visualizzare informazioni dettagliate sui dati da immettere, scegliere l'azione **Informazioni**.  
-6.  Per impostare il mapping dei conti C/G nel piano dei conti alle righe XBRL, scegliere l'azione **Righe mappa C/G**.  
-7.  Per aggiungere note al rendiconto finanziario, scegliere l'azione **Note**.  
+5.  Per visualizzare informazioni dettagliate sui dati da immettere, scegliere l'azione **Informazioni** .  
+6.  Per impostare il mapping dei conti C/G nel piano dei conti alle righe XBRL, scegliere l'azione **Righe mappa C/G** .  
+7.  Per aggiungere note al rendiconto finanziario, scegliere l'azione **Note** .  
 
 > [!NOTE]  
->  È possibile esportare solo dati che corrispondono al tipo di origine selezionato nel campo **Tipo Origine**, incluse descrizione e note.  
+>  È possibile esportare solo dati che corrispondono al tipo di origine selezionato nel campo **Tipo Origine** , incluse descrizione e note.  
 
 > [!NOTE]  
 >  Le righe che non pertinenti possono essere contrassegnate come **NON APPLICABILE** e di conseguenza non verranno esportate.
@@ -84,10 +84,10 @@ Dopo aver importato o aggiornato la tassonomia, è necessario fornire alle righe
 La prima operazione da eseguire per poter utilizzare la funzionalità XBRL è l'importazione della tassonomia nel database aziendale. Una tassonomia è composta da uno o più schemi e da basi di collegamento. Al termine dell'importazione degli schemi e delle basi di collegamento e dopo avere applicato le basi di collegamento agli schemi, è possibile impostare le righe e associare i conti di contabilità generale del Piano dei Conti alle righe di tassonomia appropriate.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
-2.  Creare una nuova riga e immettere il nome e la descrizione della tassonomia nella pagina **Tassonomie XBRL**.  
+2.  Creare una nuova riga e immettere il nome e la descrizione della tassonomia nella pagina **Tassonomie XBRL** .  
 3.  Scegliere l'azione **Schemi** e quindi inserire la descrizione dello schema.  
-4.  Per importare lo schema, nella pagina **Schemi XBRL** scegliere l'azione **Importa** e quindi selezionare una cartella e un file XSD. Scegliere il pulsante **Apri**.  
-5.  Per importare la base di collegamento, nella pagina **Schemi XBRL** scegliere l'azione **Basi collegamento** e quindi selezionare una cartella e un file XML. Scegliere il pulsante **Apri**.  
+4.  Per importare lo schema, nella pagina **Schemi XBRL** scegliere l'azione **Importa** e quindi selezionare una cartella e un file XSD. Scegliere il pulsante **Apri** .  
+5.  Per importare la base di collegamento, nella pagina **Schemi XBRL** scegliere l'azione **Basi collegamento** e quindi selezionare una cartella e un file XML. Scegliere il pulsante **Apri** .  
 6.  A questo punto, è possibile scegliere se applicare o meno la base di collegamento allo schema. Ripetere questa procedura per importare tutte le basi di collegamento.  
 7. Scegliere l'azione **Applicare a tassonomia** per applicare la base di collegamento allo schema.  
 
@@ -98,11 +98,11 @@ La prima operazione da eseguire per poter utilizzare la funzionalità XBRL è l'
 Quando una tassonomia viene modificata è necessario aggiornare di conseguenza la tassonomia corrente. Il motivo della modifica può essere uno schema modificato, una base di collegamento modificata o una nuova base collegamento. Dopo aver aggiornato la tassonomia, sarà necessario mappare le righe per le nuove righe o per quelle modificate.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
-2.  Nella pagina **Tassonomie XBRL** scegliere l'azione **Schemi**.  
-3.  Per aggiornare uno schema, selezionare lo schema da aggiornare e scegliere l'azione **Importa**.  
-4.  Per aggiornare o aggiungere una nuova base di collegamento, scegliere l'azione **Basi collegamento**.  
+2.  Nella pagina **Tassonomie XBRL** scegliere l'azione **Schemi** .  
+3.  Per aggiornare uno schema, selezionare lo schema da aggiornare e scegliere l'azione **Importa** .  
+4.  Per aggiornare o aggiungere una nuova base di collegamento, scegliere l'azione **Basi collegamento** .  
 5.  Selezionare la relativa base di collegamento o premere CTRL+N per immettere una nuova riga, scegliere il tipo di base di collegamento, quindi inserire una descrizione.  
-6.  Per importare la base di collegamento, scegliere l'azione **Importa**.  
+6.  Per importare la base di collegamento, scegliere l'azione **Importa** .  
 7.  Scegliere il pulsante **Sì** per collegare la base di collegamento allo schema.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)

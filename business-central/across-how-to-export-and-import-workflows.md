@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e38ffe59525ca1ef8c124028365bbb597a54a350
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 803af5e396df2a3eade763bfce1172a7a2627da2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785164"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916236"
 ---
 # <a name="export-and-import-workflows"></a>Importa ed esporta workflow
 Per trasferire i workflow ad altri database di [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio per risparmiare tempo durante la creazione di nuovi workflow, è possibile esportare e importare i workflow.  
@@ -26,14 +26,14 @@ Per trasferire i workflow ad altri database di [!INCLUDE[d365fin](includes/d365f
 
 ## <a name="to-export-a-workflow"></a>Per esportare un flusso di lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
-2.  Selezionare un workflow e scegliere l'azione **Esporta in file**.  
-3.  Nella pagina **Esporta file** fare clic sul pulsante **Salva**.  
-4.  Nella pagina **Esporta** selezionare un percorso per il file e scegliere il pulsante **Salva**.  
+2.  Selezionare un workflow e scegliere l'azione **Esporta in file** .  
+3.  Nella pagina **Esporta file** fare clic sul pulsante **Salva** .  
+4.  Nella pagina **Esporta** selezionare un percorso per il file e scegliere il pulsante **Salva** .  
 
 ## <a name="to-import-a-workflow"></a>Per importare un flusso di lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'azione **Importa da file**.  
-3.  Nella pagina **Importa** selezionare il file XML contenente il flusso di lavoro e quindi scegliere il pulsante **Apri**.  
+2.  Selezionare l'azione **Importa da file** .  
+3.  Nella pagina **Importa** selezionare il file XML contenente il flusso di lavoro e quindi scegliere il pulsante **Apri** .  
 
 > [!CAUTION]  
 >  Se il codice del flusso di lavoro è già esistente nel database, i passaggi del flusso di lavoro verranno sovrascritti dai passaggi il flusso di lavoro importato.  

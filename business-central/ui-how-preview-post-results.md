@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 56adf1822da10e4743d242df29aacad122fc954f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189669"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910198"
 ---
 # <a name="preview-posting-results"></a>Visualizzare in anteprima i risultati della contabilizzazione
 In ogni documento e registrazione che è possibile contabilizzare, è possibile scegliere il pulsante **Anteprima registrazione** per esaminare i differenti tipi di movimenti che saranno creati quando si registra il documento o le registrazioni.
@@ -24,8 +24,8 @@ In ogni documento e registrazione che è possibile contabilizzare, è possibile 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Per visualizzare in anteprima i movimenti C/G che deriveranno dalla registrazione di una fattura di acquisto
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
 2. Creare una fattura di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
-3. Scegliere **Anteprima registrazione**.
-4. Nella pagina **Anteprima registrazione** selezionare **Movimento C/G**, quindi scegliere **Mostra movimenti correlati**.  
+3. Scegliere **Anteprima registrazione** .
+4. Nella pagina **Anteprima registrazione** selezionare **Movimento C/G** , quindi scegliere **Mostra movimenti correlati** .  
    Nella pagina **Anteprima movimenti C/G** viene mostrato quali movimenti saranno creati quando si registra una fattura di acquisto.
 
 ## <a name="see-also"></a>Vedere anche

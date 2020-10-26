@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 39aae609e588635a07fdc406faa63dd4ced3606d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789393"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918581"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gestire allegati, collegamenti e note in schede e documenti
 
@@ -32,23 +32,23 @@ Allegati, collegamenti e note rimangono allegati durante il passaggio ad altri s
 È possibile allegare un qualsiasi tipo di file, contenente testo, immagini o video, a una scheda o a un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
-> I file allegati con la funzione Documenti in entrata non sono inclusi nella scheda **Allegati**. Per ulteriori informazioni, vedere [Documenti in entrata](across-income-documents.md).
+> I file allegati con la funzione Documenti in entrata non sono inclusi nella scheda **Allegati** . Per ulteriori informazioni, vedere [Documenti in entrata](across-income-documents.md).
 
 La seguente procedura è basata su una fattura di acquisto. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
 2. Aprire l'ordine di vendita a cui desidera allegare un file.
-3. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati**.
-4. Scegliere il valore dietro il campo **Documenti**, ad esempio "0".
-5. Nella pagina **Documenti allegati**, nel campo **Allegato**, scegliere l'azione **Seleziona file**.
-5. Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri**.
+3. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati** .
+4. Scegliere il valore dietro il campo **Documenti** , ad esempio "0".
+5. Nella pagina **Documenti allegati** , nel campo **Allegato** , scegliere l'azione **Seleziona file** .
+5. Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri** .
 
 Il file è ora allegato alla fattura acquisto.
 
 ## <a name="to-view-an-attached-file"></a>Per visualizzare il file allegato
-1. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati**.
-2. Scegliere il valore dietro il campo **Documenti**, ad esempio "1".
-3. Nella pagina **Documenti allegati** scegliere l'azione **Anteprima**.
+1. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati** .
+2. Scegliere il valore dietro il campo **Documenti** , ad esempio "1".
+3. Nella pagina **Documenti allegati** scegliere l'azione **Anteprima** .
 4. Aprire il file scaricato.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Per salvare un documento come allegato PDF
@@ -57,7 +57,7 @@ Ogni volta che è necessario salvare un documento come file, è possibile utiliz
 La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti i documenti supportati.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
-2. Selezionare un ordine di vendita programmato quindi scegliere l'azione **Allega come PDF**.
+2. Selezionare un ordine di vendita programmato quindi scegliere l'azione **Allega come PDF** .
 
 Un file PDF con il contenuto corrente dell'ordine cliente viene aggiunto alla scheda **Allegati** nel riquadro Dettaglio informazioni.
 
@@ -68,13 +68,13 @@ La procedura seguente è basata su una scheda articolo. I passaggi sono simili p
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Selezionare l'articolo da cui si desidera aggiungere un collegamento, quindi scegliere la scheda **Allegati** nel riquadro Dettaglio informazioni.
-3. In **Collegamenti**, scegliere l'icona **+**.
-4. Nel campo **Indirizzo collegamento**, immettere il collegamento.
+3. In **Collegamenti** , scegliere l'icona **+** .
+4. Nel campo **Indirizzo collegamento** , immettere il collegamento.
 
     Il collegamento deve essere un URL Internet o Intranet.
 
 5. Nel campo **Descrizione** immettere le informazioni relative al collegamento.  
-6. Scegliere il pulsante **OK**.
+6. Scegliere il pulsante **OK** .
 
 Il collegamento è ora allegato alla scheda articolo.  
 
@@ -88,9 +88,9 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
 2. Selezionare l'ordine di vendita in cui si desidera scrivere una nota, quindi scegliere la scheda **Allegati** nel riquadro Dettaglio informazioni.
-3. Nella sezione **Note**, scegliere l'icona **+**.
-4. Nel campo **Nota**, scrivere un testo qualsiasi, ad esempio "Questo è un ordine urgente".
-5. Scegliere il pulsante **OK**.
+3. Nella sezione **Note** , scegliere l'icona **+** .
+4. Nel campo **Nota** , scrivere un testo qualsiasi, ad esempio "Questo è un ordine urgente".
+5. Scegliere il pulsante **OK** .
 
 La nota è ora allegata all'ordine cliente.
 

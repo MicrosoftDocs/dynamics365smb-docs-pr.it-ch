@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbab0b20fd46235b549e48950d23879229e6dc1c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8381f2f41fedb4f41fd0515124b74254fc74517e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788239"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915678"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Dettagli di progettazione: Disponibilità nella warehouse
 Il sistema deve mantenere un controllo costante sulla disponibilità degli articoli nella warehouse, in modo che gli ordini in uscita possano fluire senza problemi e le spedizioni possano essere ottimizzate.  
 
 La disponibilità varia in base alle allocazioni a livello di collocazione quando si verificano le attività di warehouse ad esempio i prelievi e i movimenti e quando il sistema di impegno magazzino impone limitazioni da soddisfare. Un algoritmo piuttosto complesso verifica che tutte le condizioni siano soddisfatte prima di assegnare le quantità ai prelievi per i flussi in uscita.
 
-Se una o più condizioni non sono soddisfatte, è possibile che vengano visualizzati differenti messaggi di errore, compreso il messaggio generico "Niente da gestire". da gestire". Il messaggio "Niente da gestire" può essere visualizzato per varie ragioni, nei flussi in uscita e in entrata, dove una riga di documento inclusa direttamente o indirettamente contiene il campo **Qtà da gestire**.
+Se una o più condizioni non sono soddisfatte, è possibile che vengano visualizzati differenti messaggi di errore, compreso il messaggio generico "Niente da gestire". da gestire". Il messaggio "Niente da gestire" può essere visualizzato per varie ragioni, nei flussi in uscita e in entrata, dove una riga di documento inclusa direttamente o indirettamente contiene il campo **Qtà da gestire** .
 
 > [!NOTE]
 > Informazioni sulle possibili ragioni e sulle soluzioni per "Niente da gestire" saranno pubblicate presto qui. da gestire".
@@ -35,7 +35,7 @@ Se una o più condizioni non sono soddisfatte, è possibile che vengano visualiz
 ## <a name="quantity-available-to-pick"></a>Quantità disponibile per il prelievo  
  Se, ad esempio, l'algoritmo di prelievo non considera le quantità di articoli che sono impegnate per una spedizione di ordine di vendita in attesa, tali articoli potrebbero essere prelevati per un altro ordine di vendita che viene spedito prima, impedendo così il completamento della prima vendita. Per evitare questa situazione, l'algoritmo di prelievo sottrae le quantità impegnate per altri documenti in uscita, le quantità nei documenti di prelievo esistenti e le quantità che sono prelevate ma non ancora spedite o consumate.  
 
- Il risultato viene visualizzato nel campo **Qtà disponibile da prelevare** della pagina **Prospetto prelievi**, dove il campo viene calcolato dinamicamente. Il valore viene calcolato anche quando gli utenti creano prelievi warehouse direttamente per i documenti in uscita. Tali documenti in uscita potrebbero essere ordini di vendita, consumo di produzione o trasferimenti in uscita, dove il risultato viene riflesso nei campi quantità correlati, ad esempio **Qtà da gestire**.  
+ Il risultato viene visualizzato nel campo **Qtà disponibile da prelevare** della pagina **Prospetto prelievi** , dove il campo viene calcolato dinamicamente. Il valore viene calcolato anche quando gli utenti creano prelievi warehouse direttamente per i documenti in uscita. Tali documenti in uscita potrebbero essere ordini di vendita, consumo di produzione o trasferimenti in uscita, dove il risultato viene riflesso nei campi quantità correlati, ad esempio **Qtà da gestire** .  
 
 > [!NOTE]  
 >  Per quanto riguarda la priorità degli impegni, la quantità da impegnare viene sottratta dalla quantità disponibile per il prelievo. Ad esempio, se la quantità disponibile nelle collocazioni di prelievo è 5 unità, ma 100 unità si trovano nelle collocazioni di stoccaggio, quando si tenta di impegnare più di 5 unità per un altro ordine, verrà visualizzato un messaggio di errore perché la quantità supplementare deve essere disponibile nelle collocazioni di prelievo.  
@@ -61,9 +61,9 @@ Se una o più condizioni non sono soddisfatte, è possibile che vengano visualiz
 -   Quantità nelle collocazioni di assemblaggio  
 -   Quantità nelle collocazioni di rettifica  
 
- Il risultato viene visualizzato nel campo **Quantità totale disponibile** della pagina **Impegni**.  
+ Il risultato viene visualizzato nel campo **Quantità totale disponibile** della pagina **Impegni** .  
 
- In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della pagina **Impegni**.  
+ In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della pagina **Impegni** .  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Calcolo della quantità disponibile da impegnare  
  La quantità disponibile da impegnare viene calcolata come segue:  

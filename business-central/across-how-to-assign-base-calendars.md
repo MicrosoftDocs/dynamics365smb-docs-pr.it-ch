@@ -8,28 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc4ae1263aa6ce12607563f15e9376f9a1d0aa98
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f6fcaf1594408a80cc9731abca1906082d311bb3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783242"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916364"
 ---
 # <a name="set-up-base-calendars"></a>Impostare i calendari di base
 È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione. L'operazione principale da eseguire per impostare un nuovo calendario di base consiste nello specificare e definire i giorni non lavorativi.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Per impostare un calendario base  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Calendario base** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
-3.  Compilare il campo **Codice**.  
-4. Scegliere l'azione **Mantenere variazioni calendario base**.
-5. Nella pagina **Variazioni calendario base**, utilizzare il campo **Sistema ricorrente** per contrassegnare una data o un giorno particolare come giorno non lavorativo ricorrente. È possibile selezionare l'opzione **Ricorrente annuale** o **Ricorrente settimanale**.  
+2.  Scegliere l'azione **Nuovo** .  
+3.  Compilare il campo **Codice** .  
+4. Scegliere l'azione **Mantenere variazioni calendario base** .
+5. Nella pagina **Variazioni calendario base** , utilizzare il campo **Sistema ricorrente** per contrassegnare una data o un giorno particolare come giorno non lavorativo ricorrente. È possibile selezionare l'opzione **Ricorrente annuale** o **Ricorrente settimanale** .  
 
-    Se si seleziona **Ricorrente annuale**, sarà necessario immettere anche la data pertinente nel campo **Data**.  
+    Se si seleziona **Ricorrente annuale** , sarà necessario immettere anche la data pertinente nel campo **Data** .  
 
-    Se si seleziona **Ricorrente settimanale**, sarà necessario selezionare anche il giorno della settimana pertinente nel campo **Giorno**. Se si lascia vuoto il campo, sarà necessario compilare il campo **Data**. Il campo **Giorni** viene compilato automaticamente.  
+    Se si seleziona **Ricorrente settimanale** , sarà necessario selezionare anche il giorno della settimana pertinente nel campo **Giorno** . Se si lascia vuoto il campo, sarà necessario compilare il campo **Data** . Il campo **Giorni** viene compilato automaticamente.  
 
 Quando si inserisce un movimento, il campo **Non lavorativo** viene selezionato. È possibile rimuovere il segno di spunta per impostarlo come giorno lavorativo.  
  Quando si torna alla Scheda Calendario Base, si noterà che le date impostate come giorni non lavorativi sono state aggiornate. Tali movimenti sono ora visualizzati in rosso e il campo **Non lavorativo** è selezionato.  
@@ -39,7 +39,7 @@ Quando si inserisce un movimento, il campo **Non lavorativo** viene selezionato.
 
 > [!IMPORTANT]  
 >  Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi.
-Specifica una formula di data per il tempo necessario per il rifornimento dell'articolo. Viene utilizzato per il calcolo del campo **Data carico pianificato**, se calcolato in avanti, e del campo **Order Date**, se calcolato a ritroso. Vedere [Calcolo lead time](across-how-to-assign-base-calendars.md#lead-time-calculation).
+Specifica una formula di data per il tempo necessario per il rifornimento dell'articolo. Viene utilizzato per il calcolo del campo **Data carico pianificato** , se calcolato in avanti, e del campo **Order Date** , se calcolato a ritroso. Vedere [Calcolo lead time](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Calcolo lead time
 Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi. Di conseguenza, i due campi data principali nelle righe ordine di acquisto vengono calcolati come segue secondo condizioni diverse.
@@ -55,7 +55,7 @@ Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce 
 > [!Important]
 > Se l'ubicazione utilizza un calendario significativamente diverso rispetto ai fornitori, è importante impostare calendari specifici per tali fornitori, per calcolare i lead time fornitore ottimali. Per ulteriori informazioni su come impostare i calendari fornitore, vedere [Per assegnare un calendario di base](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
-Il contenuto del campo **Calcolo lead time** viene copiato dalla scheda articolo o dalla scheda USK, se il lead time è definito per l'articolo, o nella pagina **Catalogo articolo fornitori**, se il lead time è definito per il fornitore.
+Il contenuto del campo **Calcolo lead time** viene copiato dalla scheda articolo o dalla scheda USK, se il lead time è definito per l'articolo, o nella pagina **Catalogo articolo fornitori** , se il lead time è definito per il fornitore.
 
 ## <a name="to-customize-a-calendar"></a>Per personalizzare un calendario
 L'operazione principale da eseguire per personalizzare un calendario di base per la propria società, o per uno dei partner commerciali, è la modifica dello stato dei giorni lavorativi e non lavorativi.
@@ -65,17 +65,17 @@ Mentre un calendario di base standard mostra solitamente tutti i sabati come gio
 Nella seguente procedura viene utilizzato l'esempio di un'ubicazione. L’esempio presuppone che si sia già provveduto all' assegnazione di un calendario di base al magazzino.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
-2. Aprire l'ubicazione da aggiornare e selezionare il campo **Calendario personalizzato**. Si noti che un calendario deve essere selezionato nel campo **Codice calendario base** .
-3. Nella pagina **Voci calendario personalizzato** visualizzata, scegliere l'azione **Mantenere variazioni calendario personalizzato**.
-4. In **Variazioni calendario personalizzato**, aggiungere le righe per le voci di calendario personalizzato.
+2. Aprire l'ubicazione da aggiornare e selezionare il campo **Calendario personalizzato** . Si noti che un calendario deve essere selezionato nel campo **Codice calendario base** .
+3. Nella pagina **Voci calendario personalizzato** visualizzata, scegliere l'azione **Mantenere variazioni calendario personalizzato** .
+4. In **Variazioni calendario personalizzato** , aggiungere le righe per le voci di calendario personalizzato.
 
     Quando si inserisce una nuova riga, la casella di controllo **Non lavorativo** è selezionata. È possibile deselezionare la casella di controllo se si desidera modificare lo stato di tale data in in giorno lavorativo.
 
-    Utilizzare il campo **Sistema ricorrente** per impostare una data o un giorno particolare come giorno non lavorativo ricorrente. È possibile selezionare l'opzione **Ricorrente annuale** o **Ricorrente settimanale**.
+    Utilizzare il campo **Sistema ricorrente** per impostare una data o un giorno particolare come giorno non lavorativo ricorrente. È possibile selezionare l'opzione **Ricorrente annuale** o **Ricorrente settimanale** .
 
-    Se si seleziona **Ricorrente annuale**, sarà necessario immettere anche la data pertinente nel campo **Data**. Se si seleziona **Ricorrente settimanale**, sarà necessario selezionare anche il giorno della settimana pertinente nel campo **Giorno**. Se si lascia vuoto il campo, sarà necessario compilare il campo **Data**. Il campo **Giorno** viene compilato automaticamente. Tale opzione può essere utile per contrassegnare una singola data come giorno non lavorativo (o lavorativo).
+    Se si seleziona **Ricorrente annuale** , sarà necessario immettere anche la data pertinente nel campo **Data** . Se si seleziona **Ricorrente settimanale** , sarà necessario selezionare anche il giorno della settimana pertinente nel campo **Giorno** . Se si lascia vuoto il campo, sarà necessario compilare il campo **Data** . Il campo **Giorno** viene compilato automaticamente. Tale opzione può essere utile per contrassegnare una singola data come giorno non lavorativo (o lavorativo).
 
-5. Scegliere il pulsante **OK**.
+5. Scegliere il pulsante **OK** .
 
 Nella pagina **Voci calendario personalizzato** si noterà che le date sono state aggiornate in base alle variazioni specificate.
 
@@ -95,14 +95,14 @@ La procedura riportata di seguito programma come esempio le date di consegna nel
 
 I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni e spedizionieri come segue:  
 
--   Nelle schede **Cliente** e **Informazioni società** , il calendario di base è assegnato nella Scheda dettaglio **Spedizione**.  
--   Nella scheda **Fornitore** , il calendario di base è assegnato nella Scheda dettaglio **Carico**.  
--   Nella scheda **Ubicazione** , il calendario di base è assegnato nella Scheda dettaglio **Warehouse**.  
+-   Nelle schede **Cliente** e **Informazioni società** , il calendario di base è assegnato nella Scheda dettaglio **Spedizione** .  
+-   Nella scheda **Fornitore** , il calendario di base è assegnato nella Scheda dettaglio **Carico** .  
+-   Nella scheda **Ubicazione** , il calendario di base è assegnato nella Scheda dettaglio **Warehouse** .  
 -   Nella pagina **Spedizionieri** , il calendario di base è assegnato nella pagina **Servizi spedizioniere** .  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda **Cliente** per la quale assegnare un calendario di base.  
-3.  Nella Scheda dettaglio **Spedizione**, nel campo **Codice calendario base** , selezionare il calendario di base che si intende assegnare.  
+3.  Nella Scheda dettaglio **Spedizione** , nel campo **Codice calendario base** , selezionare il calendario di base che si intende assegnare.  
 
 > [!IMPORTANT]  
 >  -   Se non si assegna un calendario di base a una società, tutte le date verranno calcolate come giorni lavorativi.  

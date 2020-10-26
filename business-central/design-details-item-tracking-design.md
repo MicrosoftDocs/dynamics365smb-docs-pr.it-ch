@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1742447287273a1661ccb87056ca93abbbab76b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787589"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917444"
 ---
 # <a name="design-details-item-tracking-design"></a>Dettagli di progettazione: Progettazione tracciabilità articolo
 Nella prima versione della funzionalità di tracciabilità articolo in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, i numeri seriali o di lotto venivano registrati direttamente nei movimenti contabili articoli. Questa progettazione forniva informazioni complete sulla disponibilità e sulla tracciabilità semplice dei movimenti storici, ma mancava di flessibilità e funzionalità.  
@@ -34,7 +34,7 @@ Nel diagramma seguente viene descritta la progettazione della funzionalità di t
 
 L'oggetto di registrazione centrale è riprogettato per gestire la sottoclassificazione univoca di una riga di documento sotto forma di numero seriale o di numeri di lotto. Speciali tabelle di relazione vengono aggiunte per creare relazioni uno a molti tra i documenti registrati e i relativi movimenti contabili articoli e movimenti contabili di valorizzazione.  
 
-Codeunit 22, **Reg. magazzino - registra righe**, ora suddivide la registrazione in base ai numeri di tracciabilità articolo specificati nella riga del documento. Ciascun numero di tracciabilità articolo sulla riga crea il proprio movimento contabile articolo per l'articolo. Ciò significa che il collegamento dalla riga del documento registrato ai movimenti contabili articoli associati è una relazione uno a molti. Tale relazione viene gestita dalle seguenti tabelle di relazione di tracciabilità articolo.  
+Codeunit 22, **Reg. magazzino - registra righe** , ora suddivide la registrazione in base ai numeri di tracciabilità articolo specificati nella riga del documento. Ciascun numero di tracciabilità articolo sulla riga crea il proprio movimento contabile articolo per l'articolo. Ciò significa che il collegamento dalla riga del documento registrato ai movimenti contabili articoli associati è una relazione uno a molti. Tale relazione viene gestita dalle seguenti tabelle di relazione di tracciabilità articolo.  
 
 |Campo|Descrizione|  
 |---------------|---------------------------------------|  

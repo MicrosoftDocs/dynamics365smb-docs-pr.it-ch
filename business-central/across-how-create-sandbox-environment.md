@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: d85ec46d5514c91e9a6b1403b5f90a7094d9deba
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 5482460acb6ce0e92b1d6dbe876b1b64267974ae
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535452"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919706"
 ---
 # <a name="creating-a-sandbox-environment-in-prodshort"></a>Creazione di un ambiente sandbox in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Con [!INCLUDE[prodshort](includes/prodshort.md)], è possibile creare facilmente un ambiente sicuro in cui testare, istruire o risolvere i problemi senza disturbare i processi di lavoro o i dati aziendali della società. Tale ambiente non di produzione è denominato *sandbox*. Isolato dalla produzione, un ambiente sandbox consente di esplorare, apprendere, dimostrare, sviluppare e testare in sicurezza il servizio senza il rischio di compromettere i dati e le impostazioni dell'ambiente di produzione.  
+Con [!INCLUDE[prodshort](includes/prodshort.md)], è possibile creare facilmente un ambiente sicuro in cui testare, istruire o risolvere i problemi senza disturbare i processi di lavoro o i dati aziendali della società. Tale ambiente non di produzione è denominato *sandbox* . Isolato dalla produzione, un ambiente sandbox consente di esplorare, apprendere, dimostrare, sviluppare e testare in sicurezza il servizio senza il rischio di compromettere i dati e le impostazioni dell'ambiente di produzione.  
 
 L'amministratore può creare ambienti sandbox nell'[interfaccia di amministrazione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), ma se si desidera testare rapidamente qualcosa, è possibile creare un ambiente sandbox da [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -32,7 +32,7 @@ L'amministratore può creare ambienti sandbox nell'[interfaccia di amministrazio
 
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ambiente sandbox** e quindi scegliere il collegamento correlato.
     <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Fare clic sul pulsante **Crea**.  
+3. Fare clic sul pulsante **Crea** .  
 
     Viene visualizzata un'altra scheda con [!INCLUDE[d365fin](includes/d365fin_md.md)] dove è possibile completare la configurazione del proprio ambiente sandbox.
 
@@ -69,9 +69,9 @@ L'ambiente sandbox non è meno utile perché include un paio di funzioni utili.
 
 ### <a name="to-enable-the-advanced-user-experience"></a>Per abilitare l'esperienza utente avanzata
 
-È possibile abilitare e provare la funzionalità completa della versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)] in un tenant sandbox impostando il campo **Esperienza** nella pagina **Informazioni società** su *Premium*. Trovare la pagina **Informazioni società** nel menu :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Icona impostazioni":::.  
+È possibile abilitare e provare la funzionalità completa della versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)] in un tenant sandbox impostando il campo **Esperienza** nella pagina **Informazioni società** su *Premium* . Trovare la pagina **Informazioni società** nel menu :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Icona impostazioni":::.  
 
-Dopo aver abilitato l'esperienza utente *Premium*, si ottiene l'accesso a tutti i profili standard (ruoli) e alla Gestione ruolo utente nella versione standard. È inoltre possibile creare una società di valutazione completamente configurata, inclusiva dei dati di esempio e dell'accesso alle aree avanzate del prodotto. In alternativa, contattare un partner di rivendita per una dimostrazione delle funzionalità. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
+Dopo aver abilitato l'esperienza utente *Premium* , si ottiene l'accesso a tutti i profili standard (ruoli) e alla Gestione ruolo utente nella versione standard. È inoltre possibile creare una società di valutazione completamente configurata, inclusiva dei dati di esempio e dell'accesso alle aree avanzate del prodotto. In alternativa, contattare un partner di rivendita per una dimostrazione delle funzionalità. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
 
 ### <a name="to-enable-complete-sample-data"></a>Per abilitare i dati di esempio completi
 
@@ -80,9 +80,9 @@ Nell'ambiente sandbox, è anche possibile creare una nuova società con l'opzion
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Per creare una società con dati di esempio completi in una sandbox
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Società** e quindi scegliere il collegamento correlato.  
-2. Selezionare l'azione **Nuovo** quindi selezionare **Crea nuova società**.  
-3. Nella pagina **Setup assistito per la creazione di una società** scegliere **Avanti**.  
-4. Specificare un nome per la nuova società, quindi nel campo **Selezionare la data e il setup per iniziare** scegliere **Valutazione avanzata - Dati di esempio completi**.  
+2. Selezionare l'azione **Nuovo** quindi selezionare **Crea nuova società** .  
+3. Nella pagina **Setup assistito per la creazione di una società** scegliere **Avanti** .  
+4. Specificare un nome per la nuova società, quindi nel campo **Selezionare la data e il setup per iniziare** scegliere **Valutazione avanzata - Dati di esempio completi** .  
 5. Completare il resto della guida di setup assistito.  
 
 Al termine della guida di setup assistita, è possibile iniziare a esplorare la nuova società con i dati di esempio completi. Per ulteriori informazioni, vedere [Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  

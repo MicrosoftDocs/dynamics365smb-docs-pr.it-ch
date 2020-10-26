@@ -1,6 +1,6 @@
 ---
 title: Come pianificare gli ordini di progetto | Microsoft Docs
-description: Questa attività di pianificazione viene avviata da un ordine di vendita e utilizza la pagina **Pianifica ordine vendita**. Al termine della creazione di un ordine di produzione progetto, è possibile eseguire un'ulteriore pianificazione mediante la pagina **Pianificazione ordini**.
+description: Questa attività di pianificazione viene avviata da un ordine di vendita e utilizza la pagina **Pianifica ordine vendita** . Al termine della creazione di un ordine di produzione progetto, è possibile eseguire un'ulteriore pianificazione mediante la pagina **Pianificazione ordini** .
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,31 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99f60e9811827869dda6f6b79440a36d680fde60
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 09fea87bb1d8606390fe8c0ed5b2e3780dbc4978
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785989"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919206"
 ---
 # <a name="plan-project-orders"></a>Pianificare gli ordini di progetto
-Questa attività di pianificazione viene avviata da un ordine di vendita e utilizza la pagina **Pianifica ordine vendita**. Al termine della creazione di un ordine di produzione progetto, è possibile eseguire un'ulteriore pianificazione mediante la pagina **Pianificazione ordini**.  
+Questa attività di pianificazione viene avviata da un ordine di vendita e utilizza la pagina **Pianifica ordine vendita** . Al termine della creazione di un ordine di produzione progetto, è possibile eseguire un'ulteriore pianificazione mediante la pagina **Pianificazione ordini** .  
 
 ## <a name="to-create-a-project-production-order"></a>Per creare un ordine di produzione progetto  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'ordine di vendita che rappresenta il progetto di produzione, quindi scegliere l'azione **Pianificazione**.  
-4.  Nella pagina **Pianifica ordine vendita** scegliere l'azione **Crea ordine produzione**.  
-5.  Nella pagina **Crea Ordine da Vendite** selezionare l'opzione **Ordine progetto** nel campo **Tipo Ordine**.  
-6.  Scegliere il pulsante **Sì**.  
+2.  Selezionare l'ordine di vendita che rappresenta il progetto di produzione, quindi scegliere l'azione **Pianificazione** .  
+4.  Nella pagina **Pianifica ordine vendita** scegliere l'azione **Crea ordine produzione** .  
+5.  Nella pagina **Crea Ordine da Vendite** selezionare l'opzione **Ordine progetto** nel campo **Tipo Ordine** .  
+6.  Scegliere il pulsante **Sì** .  
 7.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione** e quindi scegliere il collegamento correlato.
 8. Aprire l'ordine di produzione appena creato.  
 
     Si noti che il campo **Tipo Origine** dell'ordine di produzione include le **Testate Vendita** e nell'ordine sono disponibili più righe, una per ogni articolo di riga di vendita da produrre.  
-9. Scegliere l'azione **Pianifica**.
-10. Nella pagina **Pianificazione ordini**, scegliere l'azione **Aggiorna** per calcolare la nuova domanda.  
+9. Scegliere l'azione **Pianifica** .
+10. Nella pagina **Pianificazione ordini** , scegliere l'azione **Aggiorna** per calcolare la nuova domanda.  
 
 La riga di testata ordine per l'ordine progetto verrà visualizzata e tutte le righe di domanda non soddisfatta verranno espanse sotto tale riga. Benché l'ordine di produzione includa righe per svariati articoli prodotti, la domanda totale per tutte le righe di ordine di produzione viene elencata sotto una riga di testata ordine nella pagina **Pianificazione ordini** e viene visualizzata la ragione sociale originale del cliente. È ora possibile passare alla pianificazione della domanda, come illustrato in [Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md).  
 

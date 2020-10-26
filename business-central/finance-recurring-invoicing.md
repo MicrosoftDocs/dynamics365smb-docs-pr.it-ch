@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693167"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910823"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Utilizzo del ricavo ricorrente in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni, vedere [Utilizzo delle registrazioni periodiche](ui-
 
 Il giornale di registrazione commesse periodico è un'alternativa più avanzata al giornale di registrazione generale. Si definiscono articoli, risorse e conti Co.Ge., che devono essere ripetuti per ciascuna commessa e si specifica la frequenza di ricorrenza.  
 
-Dopo aver pubblicato un giornale di registrazione commesse periodico, è possibile creare più fatture con l'attività **Crea fattura vendita per commessa**. È possibile rivedere e pubblicare le fatture create nella pagina **Fatture vendita**.
+Dopo aver pubblicato un giornale di registrazione commesse periodico, è possibile creare più fatture con l'attività **Crea fattura vendita per commessa** . È possibile rivedere e pubblicare le fatture create nella pagina **Fatture vendita** .
 
 ### <a name="why-use-this-option"></a>Perché usare questa opzione
 

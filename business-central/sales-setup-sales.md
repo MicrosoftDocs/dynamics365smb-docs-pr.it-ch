@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 65064d8c8fb0082c49f230398f22ce1406993f46
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b7eb82e5fc3dc20449f3fc8352fbda4e80372a20
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788843"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910448"
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
 Prima di poter dare inizio alla gestione dei processi di vendita, è necessario configurare le regole e i valori che definiscono i criteri di vendita dell'azienda.
@@ -32,7 +32,7 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 | Consentire ai clienti di pagare tramite PayPal selezionando il logo di PayPal nei documenti di vendita. |[Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md) |
 | Immettere sconti diversi e prezzi speciali che vengono concessi ai clienti a seconda dell'articolo, delle quantità e/o della data. |[Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Impostare gli agenti in modo da poterli assegnare ai contatti clienti o misurarne le prestazioni per calcolare la provvigione sulle vendite o il premio. |[Impostare gli agenti](sales-how-setup-salespeople.md) |
-| Specificare per i singoli clienti o per tutti il modo in cui i documenti di vendita vengono inviati per impostazione predefinita quando si sceglie l'azione **Registra e invia**. |[Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md) |
+| Specificare per i singoli clienti o per tutti il modo in cui i documenti di vendita vengono inviati per impostazione predefinita quando si sceglie l'azione **Registra e invia** . |[Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md) |
 | Impostare l'e-mail in modo che includa un riepilogo delle informazioni nel documento di vendita che viene inviato. |[Inviare documenti via e-mail](ui-how-send-documents-email.md). |
 |Utilizzare un servizio Web UE per verificare il numero di partita IVA del cliente.|[Verificare i numeri di partita IVA](finance-setup-vat.md)|
 |Definire i diversi incoterm offerti ai clienti o dai fornitori.|[Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)|

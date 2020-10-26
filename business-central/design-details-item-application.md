@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787689"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913681"
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
 
@@ -35,7 +35,7 @@ I collegamenti articoli possono essere creati nei seguenti modi.
 |Metodo|Description|Tipo collegamento|  
 |------------|---------------------------------------|----------------------|  
 |Automatico|Viene eseguito come inoltro di costi generale in base al metodo di costing|Collegamento della quantità|  
-|Fisso|Effettuato dall'utente quando:<br /><br /> -   Elaborazione dei resi<br />-   Registrazione di correzioni<br />-   Annullamento delle registrazioni delle quantità<br />-   Creazione di spedizioni dirette **Nota:** il collegamento fisso può essere effettuato manualmente immettendo un numero di movimento nel campo **Collega-da mov. art.** o tramite una funzione, ad esempio **Ottieni righe documento registrato da stornare**.|Collegamento della quantità<br /><br /> Collegamento costo **Nota:** il collegamento dei costi si verifica solo nelle transazioni in entrata dove il campo **Collega da mov. art.** viene compilato per creare un collegamento fisso. Vedere la tabella seguente.|  
+|Fisso|Effettuato dall'utente quando:<br /><br /> - Elaborazione dei resi<br />- Registrazione di correzioni<br />- Annullamento delle registrazioni delle quantità<br />-   Creazione di spedizioni dirette **Nota:** il collegamento fisso può essere effettuato manualmente immettendo un numero di movimento nel campo **Collega-da mov. art.** o tramite una funzione, ad esempio **Ottieni righe documento registrato da stornare** .|Collegamento della quantità<br /><br /> Collegamento costo **Nota:** il collegamento dei costi si verifica solo nelle transazioni in entrata dove il campo **Collega da mov. art.** viene compilato per creare un collegamento fisso. Vedere la tabella seguente.|  
 
 La scelta tra la creazione di collegamenti quantità o di collegamenti costi dipende dalla direzione della transazione di magazzino e dal fatto se il collegamento articoli viene eseguito automaticamente oppure è fisso, in relazione a processi speciali.  
 
@@ -74,7 +74,7 @@ Nella seguente tabella viene illustrato il movimento di collegamento articoli ch
 ## <a name="inventory-decrease"></a>Riduzione di magazzino  
 Quando si registra una riduzione di magazzino, viene creato un movimento di collegamento articoli che collega la riduzione di magazzino a un aumento di magazzino. Questo collegamento viene creato utilizzando come linea guida il metodo di costing dell'articolo. Per gli articoli che utilizzano i metodi di costing FIFO, standard e medio, il collegamento è basato sul principio FIFO. La riduzione di magazzino viene applicata all'aumento di magazzino con la data di registrazione meno recente. Per gli articoli che utilizzano il metodo di costing LIFO, il collegamento è basato sul principio LIFO. La riduzione di magazzino viene applicata all'aumento di magazzino con la data di registrazione più recente.  
 
-Nella tabella **Mov. contabili articoli**, il campo **Quantità residua** indica la quantità che non è ancora stata collegata. Se la quantità residua è superiore a 0, viene selezionata la casella di controllo **Apri**.  
+Nella tabella **Mov. contabili articoli** , il campo **Quantità residua** indica la quantità che non è ancora stata collegata. Se la quantità residua è superiore a 0, viene selezionata la casella di controllo **Apri** .  
 
 ### <a name="example"></a>Esempio  
 Nel seguente esempio viene illustrato un movimento di collegamento articoli creato quando si registra una spedizione di vendita di 5 unità degli articoli ricevuti nell'esempio precedente. Il primo movimento di collegamento articoli è la ricezione acquisti. Il secondo movimento di collegamento è la spedizione di vendita.  
@@ -187,10 +187,10 @@ Nella seguente tabella viene illustrato l'effetto dello storno esatto del costo 
 |03-01-20|Vendita (Nota credito)|1|1100.00|2|3|3|  
 |04-01-20|(Addebito articolo)|1|100.00||1|4|  
 
-Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, il costo aumentato del movimento di acquisto, dovuto all'addebito articolo, viene inoltrato al movimento di vendita (numero movimento 2). Il movimento di vendita inoltra quindi questo costo aumentato al movimento credito di vendita (movimento numero 3). Il risultato finale è che il costo viene stornato correttamente.  
+Quando si esegue il processo batch **Rettifica costo - Movimenti articoli** , il costo aumentato del movimento di acquisto, dovuto all'addebito articolo, viene inoltrato al movimento di vendita (numero movimento 2). Il movimento di vendita inoltra quindi questo costo aumentato al movimento credito di vendita (movimento numero 3). Il risultato finale è che il costo viene stornato correttamente.  
 
 > [!NOTE]  
->  Se si stanno utilizzando resi o note di credito ed è stato impostato il campo **Storno esatto costo obblig.** nella pagina **Setup contabilità fornitori e acquisti** o nella pagina **Setup contabilità clienti e vendite** in base alla propria situazione, [!INCLUDE[d365fin](includes/d365fin_md.md)] compilerà automaticamente i campi di movimento di collegamento quando si utilizza la funzione **Copia da documento**. Se si utilizza la funzione **Ottieni righe documento registrato da stornare**, allora i campi vengono sempre compilati automaticamente.  
+>  Se si stanno utilizzando resi o note di credito ed è stato impostato il campo **Storno esatto costo obblig.** nella pagina **Setup contabilità fornitori e acquisti** o nella pagina **Setup contabilità clienti e vendite** in base alla propria situazione, [!INCLUDE[d365fin](includes/d365fin_md.md)] compilerà automaticamente i campi di movimento di collegamento quando si utilizza la funzione **Copia da documento** . Se si utilizza la funzione **Ottieni righe documento registrato da stornare** , allora i campi vengono sempre compilati automaticamente.  
 
 > [!NOTE]  
 >  Se si registra una transazione con un collegamento fisso e il movimento contabile articolo a cui si sta effettuando il collegamento è chiuso, ovvero la quantità residua è zero, allora il collegamento precedente viene automaticamente annullato e il movimento contabile articolo viene collegato di nuovo utilizzando il collegamento fisso specificato.  
@@ -236,9 +236,9 @@ A causa della modalità di calcolo del costo unitario di un articolo, un collega
 * Ci si è dimenticati di creare un collegamento fisso.  
 * È stato creato un collegamento fisso non corretto.  
 * Si desidera oltrepassare il collegamento creato automaticamente durante la registrazione, in base al metodo di costing dell'articolo.  
-* È necessario restituire un articolo a cui è stata stata collegata manualmente una vendita, senza utilizzare la funzione **Ottieni righe documento registrato da stornare**, ed è di conseguenza necessario annullare il collegamento.  
+* È necessario restituire un articolo a cui è stata stata collegata manualmente una vendita, senza utilizzare la funzione **Ottieni righe documento registrato da stornare** , ed è di conseguenza necessario annullare il collegamento.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre una funzionalità per l'analisi e la correzione dei collegamenti articoli. Questa operazione può essere effettuata nella pagina **Prospetto collegamento**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] offre una funzionalità per l'analisi e la correzione dei collegamenti articoli. Questa operazione può essere effettuata nella pagina **Prospetto collegamento** .  
 
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  

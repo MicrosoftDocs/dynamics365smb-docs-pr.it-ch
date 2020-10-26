@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8951de4a6d44675e92dae9c04c9709caac11c38
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783744"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917919"
 ---
 # <a name="configure-new-companies"></a>Configurare nuove società
 Per configurare una nuova società nell'implementazione della soluzione, in genere occorre seguire tre fasi. La prima fase prevede di importare il pacchetto di configurazione, ovvero un file .rapidstart con informazioni sulla configurazione. Nella seconda fase vengono modificate le informazioni sulla configurazione e collegate alla nuova società. La fase finale consiste nell'analisi e nella correzione degli eventuali errori.  
@@ -27,42 +27,42 @@ Le procedure riportate di seguito presuppongono che la nuova società sia stata 
 ## <a name="before-you-import-a-configuration-package"></a>Prima di importare un pacchetto di configurazione
 Prima di importare un pacchetto di configurazione, è consigliabile verificare che le seguenti istruzioni siano vere. Altrimenti, non sarà possibile importare il pacchetto di configurazione.
 
-* La licenza include le tabelle che si stanno aggiornando. Se non si è sicuri, consultare il **Foglio di lavoro configurazione**. Se la licenza include le tabelle, la la casella di controllo **Tabella con licenza** è selezionata.  
+* La licenza include le tabelle che si stanno aggiornando. Se non si è sicuri, consultare il **Foglio di lavoro configurazione** . Se la licenza include le tabelle, la la casella di controllo **Tabella con licenza** è selezionata.  
 * L'utente che importa il pacchetto di configurazione dispone delle autorizzazioni di inserimento e modifica valide per tutte le tabelle che verranno aggiornate dal pacchetto. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Per importare un pacchetto di configurazione  
 1. Aprire la nuova società nel database di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi selezionare il collegamento correlato.  
-3. Scegliere l'azione **Importa pacchetto**.  
-4. Accedere alla posizione in cui si è stato salvato il file del pacchetto di configurazione .rapidstart, quindi scegliere il pulsante **Apri**.  
+3. Scegliere l'azione **Importa pacchetto** .  
+4. Accedere alla posizione in cui si è stato salvato il file del pacchetto di configurazione .rapidstart, quindi scegliere il pulsante **Apri** .  
 5. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato. Immettere le informazioni relative alla società nella scheda Informazioni società. Includere le informazioni, ad esempio le coordinate bancarie. È inoltre possibile inserire il logo della società.  
 
 Vengono importate tutte le tabelle selezionate per l'inserimento nella nuova società. A questo punto, è possibile collegare i dati del pacchetto al database o rettificare e modificare i dati della tabella in base alle specifiche indicate dai clienti.  
 
 ## <a name="to-apply-package-data"></a>Per collegare i dati dei del pacchetto  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi selezionare il collegamento correlato.  
-2. Selezionare una tabella per cui si intende modificare i dati, quindi scegliere l'azione **Collega dati**. Scegliere il pulsante **Sì** per confermare il collegamento.
-3. Per confermare che i dati siano ora contenuti nel database e che il collegamento sia riuscito, tornare alla pagina **Foglio di lavoro configurazione** e scegliere l'azione **Dati dabase**.  
+2. Selezionare una tabella per cui si intende modificare i dati, quindi scegliere l'azione **Collega dati** . Scegliere il pulsante **Sì** per confermare il collegamento.
+3. Per confermare che i dati siano ora contenuti nel database e che il collegamento sia riuscito, tornare alla pagina **Foglio di lavoro configurazione** e scegliere l'azione **Dati dabase** .  
 
 > [!NOTE]  
 >  Dopo il collegamento i dati possono essere visualizzati solo nel database. Non si trova più nel pacchetto.  
 
 ## <a name="to-modify-and-apply-package-data"></a>Per modificare e collegare i dati del pacchetto  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi selezionare il collegamento correlato.  
-2. Selezionare una tabella per cui si intende modificare i dati, quindi scegliere l'azione **Dati pacchetto**.  
-3. Nella pagina **Record pacchetto di configurazione**, apportare le modifiche. Ad esempio, è possibile eliminare le opzioni non applicabili.  
-4. Scegliere l'azione **Collega dati**, quindi scegliere il pulsante **OK**.  
-5. Per confermare che i dati siano ora contenuti nel database e che il collegamento sia riuscito, tornare alla pagina **Foglio di lavoro configurazione** e scegliere l'azione **Dati dabase**.  
+2. Selezionare una tabella per cui si intende modificare i dati, quindi scegliere l'azione **Dati pacchetto** .  
+3. Nella pagina **Record pacchetto di configurazione** , apportare le modifiche. Ad esempio, è possibile eliminare le opzioni non applicabili.  
+4. Scegliere l'azione **Collega dati** , quindi scegliere il pulsante **OK** .  
+5. Per confermare che i dati siano ora contenuti nel database e che il collegamento sia riuscito, tornare alla pagina **Foglio di lavoro configurazione** e scegliere l'azione **Dati dabase** .  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Per individuare e identificare un errore di configurazione  
 Possono verificarsi alcuni tipi di errore quando si collegano dati a un database. L'errore più comune consiste nella mancata inclusione delle tabelle correlate richieste. È possibile correggere tali errori nel foglio di lavoro configurazione.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi selezionare il collegamento correlato.  
-2. Scegliere il pacchetto che si intende esaminare, quindi scegliere l'azione **Modifica**.  
+2. Scegliere il pacchetto che si intende esaminare, quindi scegliere l'azione **Modifica** .  
 
-    Vengono evidenziate tutte le tabelle contenenti errori. Il numero di errori del pacchetto viene visualizzato nel campo **Nr. errori del pacchetto**.  
+    Vengono evidenziate tutte le tabelle contenenti errori. Il numero di errori del pacchetto viene visualizzato nel campo **Nr. errori del pacchetto** .  
 
-3. Selezionare il campo **Nr. errori pacchetto** per aprire la pagina **Record pacchetto di configurazione**, che elenca i record con errori.  
+3. Selezionare il campo **Nr. errori pacchetto** per aprire la pagina **Record pacchetto di configurazione** , che elenca i record con errori.  
 
 ### <a name="to-fix-an-error"></a>Per correggere un errore  
 1. Aprire la società su cui è stato basato il pacchetto di configurazione.  

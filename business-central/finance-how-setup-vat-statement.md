@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 00b7958c9402ff47e1daf8ddd9b55b7623f7fe6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183518"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913656"
 ---
 # <a name="set-up-a-vat-statement"></a>Impostare una dichiarazione IVA
 
@@ -26,23 +26,23 @@ Le autorità fiscali possono e devono modificare i requisiti per la registrazion
 Una dichiarazione IVA consente di calcolare l'importo di liquidazione dell'IVA per un certo periodo, ad esempio un trimestre.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dichiarazioni IVA** e quindi scegliere il collegamento correlato.  
-2. Scegliere il campo **Nome**, quindi **Nuovo** nella pagina **Nomi dichiarazione IVA**.
+2. Scegliere il campo **Nome** , quindi **Nuovo** nella pagina **Nomi dichiarazione IVA** .
 3. Compilare i campi necessari. Di solito si desidera avere un'impostazione per ciascuna combinazione di Cat. Reg. Business IVA e Cat. reg. art./serv. IVA. Per i numeri di riga ha senso utilizzare numeri o codici equivalenti come nella dichiarazione IVA ufficiale [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
 > [!Tip]
-> È possibile filtrare le informazioni che la dichiarazione includerà, a seconda di ciò che viene scelto nel campo **Tipo**. **Totale conto** è utile quando si desidera ottenere l'IVA di un conto specifico.
-**Totale Mov. IVA** ottiene l'IVA da conti assegnati alle selezioni in **Tipo reg. gen.**, **Cat. reg. business IVA** e/o i campi **Cat. reg. art./serv. IVA**. **Totale Riga** consente di immettere un valore o filtrare rapidamente il campo **Totale Riga**. Per ulteriori informazioni sulla ricerca e l'applicazione di filtri, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md). **Descrizione** è spesso utilizzato aggiungere una nota alla dichiarazione. Ad esempio, potrebbe essere utilizzata come intestazione quando si utilizza il totale riga.
+> È possibile filtrare le informazioni che la dichiarazione includerà, a seconda di ciò che viene scelto nel campo **Tipo** . **Totale conto** è utile quando si desidera ottenere l'IVA di un conto specifico.
+**Totale Mov. IVA** ottiene l'IVA da conti assegnati alle selezioni in **Tipo reg. gen.** , **Cat. reg. business IVA** e/o i campi **Cat. reg. art./serv. IVA** . **Totale Riga** consente di immettere un valore o filtrare rapidamente il campo **Totale Riga** . Per ulteriori informazioni sulla ricerca e l'applicazione di filtri, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md). **Descrizione** è spesso utilizzato aggiungere una nota alla dichiarazione. Ad esempio, potrebbe essere utilizzata come intestazione quando si utilizza il totale riga.
 
 ## <a name="to-preview-the-vat-statement"></a>Per visualizzare in anteprima la dichiarazione IVA
 Una volta definita una dichiarazione IVA, è possibile visualizzarla in anteprima per assicurarsi che soddisfi le proprie esigenze.
 > [!Tip]
-> È consigliabile disporre di una sezione della dichiarazione IVA utilizzando il **tipo** **Totale movimenti IVA** e un'altra sezione usando il **tipo** **Totale conto** per riconciliare gli importi in base alla tabella **Movimento IVA** rispetto all'importo in **Conti G/L**. È possibile anche usare il report **C/G - Riconciliazione IVA** per questo scopo.
+> È consigliabile disporre di una sezione della dichiarazione IVA utilizzando il **tipo** **Totale movimenti IVA** e un'altra sezione usando il **tipo** **Totale conto** per riconciliare gli importi in base alla tabella **Movimento IVA** rispetto all'importo in **Conti G/L** . È possibile anche usare il report **C/G - Riconciliazione IVA** per questo scopo.
 
-1. Scegliere **Anteprima**.
+1. Scegliere **Anteprima** .
 2. Immettere un filtro data per limitare la dichiarazione a un periodo specifico. Per ulteriori informazioni su come personalizzare la pagina per visualizzare il filtro data, vedere [Ricerca, filtro e ordinamento di dati](ui-enter-criteria-filters.md)..
 3. È possibile selezionare varie opzioni per specificare il tipo di movimenti IVA da includere nella dichiarazione.
-4. Per le righe il cui campo **Tipo** contiene il valore **Totale movimenti IVA** è possibile visualizzare un elenco dei movimenti IVA selezionando l'importo nel campo **Importo colonna**.
+4. Per le righe il cui campo **Tipo** contiene il valore **Totale movimenti IVA** è possibile visualizzare un elenco dei movimenti IVA selezionando l'importo nel campo **Importo colonna** .
 5. È possibile utilizzare la personalizzazione per mostrare più campi nelle righe. Ad esempio, l'importo imponibile ad esigibilità differita e l'importo IVA ad esigibilità differita, se si utilizza l'IVA ad esigibilità differita.
 
 ## <a name="see-also"></a>Vedere anche  

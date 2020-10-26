@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: 9cf4817cd85951f193ffadbcd3e7ebc971bcca36
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181598"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919356"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utilizzare i questionari profilo per classificare i contatti business
 È possibile impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti. In ogni questionario, è possibile impostare le diverse domande da porre ai contatti.  
@@ -24,13 +24,13 @@ ms.locfileid: "3181598"
 
 ## <a name="to-add-a-profile-questionnaire"></a>Per aggiungere un questionario profilo
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup questionario** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
+2.  Scegliere l'azione **Nuovo** .  
 3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Per aggiungere domande a un questionario profilo
-1.  Scegliere il questionario profilo pertinente e quindi scegliere l'azione **Modifica setup questionario**.  
-2.  Sulla prima riga vuota, nel campo **Tipo**, scegliere **Domanda** e digitare la domanda desiderata nel campo **Descrizione**. Compilare gli altri campi della riga.  
-3.  Sulla prima riga vuota successiva nel campo **Tipo**, scegliere **Risposta** e digitare la risposta desiderata nel campo **Descrizione**.  
+1.  Scegliere il questionario profilo pertinente e quindi scegliere l'azione **Modifica setup questionario** .  
+2.  Sulla prima riga vuota, nel campo **Tipo** , scegliere **Domanda** e digitare la domanda desiderata nel campo **Descrizione** . Compilare gli altri campi della riga.  
+3.  Sulla prima riga vuota successiva nel campo **Tipo** , scegliere **Risposta** e digitare la risposta desiderata nel campo **Descrizione** .  
 4.  Nel campo **Priorità** selezionare la priorità. Nei campi **Da valore** e **A valore** definire un intervallo di punti. I contatti che ricevono punti entro l'intervallo stabilito otterranno la risposta.  
 
 Ripetere tali passaggi per immettere tutte le domande e le risposte nel questionario profilo.
@@ -41,7 +41,7 @@ Dopo avere creato un questionario, è necessario creare le valutazioni dei conta
 > Se si immette una domanda con risposta automatica, selezionare <STRONG>Riga</STRONG> e quindi <STRONG>Dettagli domanda</STRONG> per immettere i criteri da utilizzare per fornire la risposta automatica.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Classificazione automatica dei contatti
-È possibile classificare automaticamente i contatti in base alle informazioni relative a cliente, fornitore e contatto, mediante una serie di domande sul profilo con risposta automatica nella pagina **Setup questionario profilo**.  
+È possibile classificare automaticamente i contatti in base alle informazioni relative a cliente, fornitore e contatto, mediante una serie di domande sul profilo con risposta automatica nella pagina **Setup questionario profilo** .  
 
 > [!NOTE]
 > È possibile assegnare una classificazione basata sui dati dei clienti solo ai contatti registrati come clienti e una classificazione basata sui dati dei fornitori solo ai contatti registrati come fornitori. La classificazione automatica non viene aggiornata automaticamente. Si consiglia pertanto di aggiornare i questionari profilo una volta effettuato l'aggiornamento dei dati relativi a clienti, fornitori o contatti su cui tali questionari si basano.  

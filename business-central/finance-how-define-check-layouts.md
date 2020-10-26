@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3458951"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917094"
 ---
 # <a name="select-a-check-layout"></a>Selezionare un layout degli assegni
 È possibile progettare i controlli per assicurare la conformità agli standard definiti dalle autorità locali. Le immagini degli assegni possono essere stampati in inglese, francese, o spagnolo.
@@ -24,7 +24,7 @@ Gli assegni sono stati progettati per la stampa dei formati di immagine sia degl
 
 ## <a name="to-select-a-check-layout"></a>Per selezionare un layout degli assegni
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezioni report C/C bancari** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Selez. report - C/C bancario**, nel campo **Utilizzo** selezionare **Assegno**.
+2. Nella pagina **Selez. report - C/C bancario** , nel campo **Utilizzo** selezionare **Assegno** .
 3. Selezionare uno dei seguenti ID report:
 
 | ID report | Nome report | Descrizione |
@@ -34,7 +34,7 @@ Gli assegni sono stati progettati per la stampa dei formati di immagine sia degl
 | 10412 |Assegno (Matrice/Assegno/Matrice) |Il report è progettato per stampare gli assegni in formato Matrice/Assegno/Matrice. |
 | 10413 |Tre Assegni per pagina |Questo report è progettato per stampare tre assegni su ogni pagina. |
 
-Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella pagina **Registrazioni pagamenti**. Per ulteriori informazioni, vedere [Utilizzo degli assegni](payables-how-work-checks.md).
+Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella pagina **Registrazioni pagamenti** . Per ulteriori informazioni, vedere [Utilizzo degli assegni](payables-how-work-checks.md).
 
 Per modificare uno di questi layout degli assegni predefinito, utilizzare l'integrazione Word o RDLC. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 

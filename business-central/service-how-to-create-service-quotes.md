@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 26b250a6c902e70bd4badf712d620f835d4ebb5a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 41cb742ac256e124a273ac202a1c7f112a69795d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784452"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918656"
 ---
 # <a name="create-service-quotes"></a>Creare offerte di assistenza
 Le offerte di assistenza possono essere considerate come ordini di assistenza di base. In effetti, sono quasi identici. Entrambi includono informazioni come l'identità del cliente, il tipo di ordine, l'articolo che necessita di assistenza, nonché informazioni di fatturazione, spedizione e relative al lavoro di assistenza effettivo.
@@ -25,13 +25,13 @@ Un'offerta di assistenza può essere utilizzata come bozza preliminare di un ord
 ## <a name="to-create-a-service-quote"></a>Per creare un'offerta di assistenza  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerte assistenza** e quindi scegliere il collegamento correlato.  
 2. Creare una nuova offerta di assistenza.  
-3. Nel campo **Nr.** immettere un numero per l'offerta di assistenza. In alternativa, se è stata impostata una numerazione per le offerte di assistenza nella pagina **Setup gest. assist.**, per selezionare il successivo numero di offerta di assistenza disponibile, premere INVIO.  
+3. Nel campo **Nr.** immettere un numero per l'offerta di assistenza. In alternativa, se è stata impostata una numerazione per le offerte di assistenza nella pagina **Setup gest. assist.** , per selezionare il successivo numero di offerta di assistenza disponibile, premere INVIO.  
 4. Nel campo **Nr. cliente**  selezionare il cliente appropriato dalla lista.  
 
   > [!Note]  
-  >  I campi del cliente vengono compilati automaticamente con le informazioni della scheda **Cliente**. Se una scheda **Cliente** non esiste per il cliente in questione ed è stato impostato un modello cliente, è possibile creare il cliente a partire dall'offerta di assistenza. Compilare i campi appropriati e scegliere l'azione **Crea cliente**.  
+  >  I campi del cliente vengono compilati automaticamente con le informazioni della scheda **Cliente** . Se una scheda **Cliente** non esiste per il cliente in questione ed è stato impostato un modello cliente, è possibile creare il cliente a partire dall'offerta di assistenza. Compilare i campi appropriati e scegliere l'azione **Crea cliente** .  
   
-5. In base alle impostazioni nella Scheda dettaglio **Campi obbligatori** della pagina **Setup gest. assist.** potrebbe essere necessario compilare il campo **Tipo ordine assistenza** e il campo **Cod. agente**.  
+5. In base alle impostazioni nella Scheda dettaglio **Campi obbligatori** della pagina **Setup gest. assist.** potrebbe essere necessario compilare il campo **Tipo ordine assistenza** e il campo **Cod. agente** .  
 6. Compilare le righe di articolo in assistenza.  
 7. Registrare i costi previsti nelle righe di assistenza.  
   

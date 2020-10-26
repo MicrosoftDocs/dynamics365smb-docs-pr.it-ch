@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5db8c77ab8525ce4e8bd4b461c162448730f4eff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d669df714e6fdba9f8faa8f3b2029f1988c8af5e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783949"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915378"
 ---
 # <a name="create-jobs"></a>Creare commesse
 Quando si inizia un nuovo progetto, è necessario creare una scheda commessa con i task commessa e le righe di pianificazione commessa integrati. La scheda è strutturata su due livelli.  
@@ -32,20 +32,20 @@ Creare una scheda commessa, quindi creare le righe del task commessa e le relati
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Per specificare la commessa utilizzando le informazioni di altre commesse, scegliere l'azione **Copia commessa**, compilare i necessari campi, quindi scegliere **OK**.
+3. Per specificare la commessa utilizzando le informazioni di altre commesse, scegliere l'azione **Copia commessa** , compilare i necessari campi, quindi scegliere **OK** .
 
 > [!NOTE]  
 >   Se con la commessa si stanno utilizzando i fogli presenze, è necessario designare un responsabile. La persona può approvare i fogli presenze per i task degli impiegati associati alla commessa. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Per creare i task di una commessa
-Una parte fondamentale nella creazione di una nuova commessa consiste nello specificare i vari task implicati nella commessa. A tale scopo, è necessario aggiungere nuove righe nella Scheda dettaglio **Task** della pagina **Scheda commessa**, un task per ogni riga. Ogni commessa deve avere almeno un task.
+Una parte fondamentale nella creazione di una nuova commessa consiste nello specificare i vari task implicati nella commessa. A tale scopo, è necessario aggiungere nuove righe nella Scheda dettaglio **Task** della pagina **Scheda commessa** , un task per ogni riga. Ogni commessa deve avere almeno un task.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda commessa di una commessa interessata.
 3. Nella Scheda dettaglio **Task** compilare i campi secondo le necessità su una nuova riga.
-4. Per far rientrare i task e creare così una gerarchia, scegliere l'azione **Task**, quindi l'azione **Indentazione task commesse**.
+4. Per far rientrare i task e creare così una gerarchia, scegliere l'azione **Task** , quindi l'azione **Indentazione task commesse** .
 5. Ripetere i passaggi 3 e 4 per i task con cui si desidera completare la commessa.
-6. Per specificare i task commesse utilizzando le informazioni di altri task commesse, scegliere l'azione **Copia task commessa da**, compilare i campi necessari, quindi scegliere **OK**.
+6. Per specificare i task commesse utilizzando le informazioni di altri task commesse, scegliere l'azione **Copia task commessa da** , compilare i campi necessari, quindi scegliere **OK** .
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Per creare le righe di pianificazione per una commessa
 È possibile perfezionare i nuovi task commessa nelle righe di pianificazione commessa. Una riga di pianificazione può essere utilizzata per acquisire le informazioni di cui si desidera tenere traccia per una commessa. È possibile utilizzare le righe di pianificazione per aggiungere informazioni relative, ad esempio, alle risorse o agli articoli necessari per l'esecuzione della commessa. Se ad esempio si crea un task per ottenere l'approvazione di una commessa da parte del cliente, è possibile associarlo a righe di pianificazione per articoli quali la riunione con il cliente e l'assegnazione di una risorsa.  
@@ -58,12 +58,12 @@ Una riga di pianificazione commessa può contenere uno dei seguenti tipi.
 | **Fatturabile** |Fornisce le stime di fatturazione per il cliente, in genere in un progetto a prezzo fisso. |
 | **Sia Budget sia fatturabile** |Fornisce un utilizzo a budget pari a ciò che si desidera fatturare. |
 
-**Nota**. Quando si immettono le informazioni nelle righe di pianificazione commessa, i dati sui costi vengono inseriti automaticamente. Ad esempio, il costo, il prezzo e lo sconto per le risorse e gli articoli si basano inizialmente sulle informazioni definite nelle schede risorsa e articolo.
+**Nota** . Quando si immettono le informazioni nelle righe di pianificazione commessa, i dati sui costi vengono inseriti automaticamente. Ad esempio, il costo, il prezzo e lo sconto per le risorse e gli articoli si basano inizialmente sulle informazioni definite nelle schede risorsa e articolo.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.
 2. Aprire una scheda commessa di interesse.
-3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione**, quindi scegliere l'azione **Righe pianificazione commessa**.  
-4. Nella pagina **Righe pianificazione commessa**, in una nuova riga compilare i campi secondo le esigenze.
+3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione** , quindi scegliere l'azione **Righe pianificazione commessa** .  
+4. Nella pagina **Righe pianificazione commessa** , in una nuova riga compilare i campi secondo le esigenze.
 5. Ripetere i passaggi 3 e 4 per tutte le righe di pianificazione richieste per il task commessa.
 
 ## <a name="see-also"></a>Vedere anche

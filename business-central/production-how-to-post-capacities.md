@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8a36f33da482970a21ed44ca5541675f05ed955d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 96ed7af85889c20f9792ce904d1ba30660bf1b76
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788743"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919156"
 ---
 # <a name="post-capacities"></a>Registrare le capacità
 Nelle registrazioni delle rettifiche delle capacità vengono registrate le capacità utilizzate che non sono assegnate all'ordine di produzione. La manutenzione, ad esempio, deve essere assegnata alla capacità ma non a un ordine di produzione.  
@@ -25,13 +25,13 @@ Nelle registrazioni delle rettifiche delle capacità vengono registrate le capac
 2.  Immettere la **data di registrazione** e il **nr. di documento** .  
 3.  Immettere nel campo **Tipo** il tipo di capacità, **Centri di Lavoro** o **Aree di Produzione** che si sta registrando.  
 4.  Nel campo **Nr.** immettere il numero del centro di lavoro o dell'area di produzione.  
-5.  Compilare i campi rimanenti **Ora Inizio**, **Ora Fine**, **Quantità** e **Scarto** inserendo i relativi dati.  
-6.  Per registrare le capacità scegliere l'azione **Registra**.  
+5.  Compilare i campi rimanenti **Ora Inizio** , **Ora Fine** , **Quantità** e **Scarto** inserendo i relativi dati.  
+6.  Per registrare le capacità scegliere l'azione **Registra** .  
 
 ## <a name="to-view-work-center-ledger-entries"></a>Per visualizzare i movimenti contabili relativi alle aree di produzione:  
-Nelle pagine **Scheda area di produzione** e **Scheda centri lavoro**, è possibile visualizzare le capacità registrate come risultato di ordini di produzione chiusi.    
+Nelle pagine **Scheda area di produzione** e **Scheda centri lavoro** , è possibile visualizzare le capacità registrate come risultato di ordini di produzione chiusi.    
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Aree di produzione** e quindi scegliere il collegamento correlato.  
-2.  Aprire la scheda **Area di produzione** pertinente dall'elenco e scegliere l'azione **Movimenti contabili capacità**.  
+2.  Aprire la scheda **Area di produzione** pertinente dall'elenco e scegliere l'azione **Movimenti contabili capacità** .  
 
 Nella pagina **Movimenti Contabili Capacità** vengono visualizzati i movimenti registrati relativi all'area di produzione in ordine di registrazione.   
 

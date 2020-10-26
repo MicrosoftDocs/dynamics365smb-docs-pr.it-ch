@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2983a1e87b0cc2ef11ca545de0c485a8348e3aa1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7ae55ba1c1aa0d2f10d1529dbf82b47022d3d9d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785239"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916311"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Specificare come e quando ricevere le notifiche
 Quando si impostano gli utenti nei workflow di approvazione, è necessario specificare nelle pagine **Setup di notifica** e **Programmazione notifica** come e quando ciascun utente riceverà le notifiche relative alle fasi del workflow di approvazione. I singoli utenti possono inoltre modificare la propria impostazione delle notifiche scegliendo il pulsante **Modifica impostazioni di notifica** per qualsiasi notifica.  
@@ -32,7 +32,7 @@ Quando si impostano gli utenti nei workflow di approvazione, è necessario speci
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Specificare come e quando gli utenti ricevono le notifiche  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente approvazione** e quindi scegliere il collegamento correlato.  
-2.  Selezionare la riga per l'utente per il quale si desidera impostare le preferenze di notifica, quindi scegliere l'azione **Setup notifiche**.  
+2.  Selezionare la riga per l'utente per il quale si desidera impostare le preferenze di notifica, quindi scegliere l'azione **Setup notifiche** .  
 3.  Compilare i campi nella pagina **Setup di notifica** come descritto nella tabella riportata di seguito.  
 
     |Campo|Description|  
@@ -44,20 +44,20 @@ Quando si impostano gli utenti nei workflow di approvazione, è necessario speci
 
     A questo punto è stato specificato il modo in cui l'utente riceve le notifiche. Continuare specificando quando l'utente le deve ricevere.  
 
-4.  Scegliere l'azione **Programmazione notifica**.  
+4.  Scegliere l'azione **Programmazione notifica** .  
 5.  Compilare i campi nella pagina **Programmazione notifica** come descritto nella tabella riportata di seguito.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
     |**Ricorrenza**|Specificare il modello di ricorrenza con cui l'utente riceve le notifiche.|  
-    |**Ora**|Specificare il momento della giornata in cui l'utente riceve le notifiche quando il valore del campo **Ricorrenza** è diverso da **Immediatamente**.|  
-    |**Frequenza giornaliera**|Specificare in quale tipo di giorni l'utente riceve le notifiche quando il valore nel campo **Ricorrenza** è **Ogni giorno**.<br /><br /> Selezionare **Giorno feriale** per ricevere le notifiche ogni giorno lavorativo della settimana. Selezionare **Giornaliero** per ricevere le notifiche ogni giorno della settimana, incluso il fine settimana.|  
-    |**Lunedì**-**Domenica**|Specificare in quali giorni l'utente riceve le notifiche quando il valore nel campo **Ricorrenza** è **Ogni settimana**.|  
+    |**Ora**|Specificare il momento della giornata in cui l'utente riceve le notifiche quando il valore del campo **Ricorrenza** è diverso da **Immediatamente** .|  
+    |**Frequenza giornaliera**|Specificare in quale tipo di giorni l'utente riceve le notifiche quando il valore nel campo **Ricorrenza** è **Ogni giorno** .<br /><br /> Selezionare **Giorno feriale** per ricevere le notifiche ogni giorno lavorativo della settimana. Selezionare **Giornaliero** per ricevere le notifiche ogni giorno della settimana, incluso il fine settimana.|  
+    |**Lunedì** - **Domenica**|Specificare in quali giorni l'utente riceve le notifiche quando il valore nel campo **Ricorrenza** è **Ogni settimana** .|  
     |**Data del mese**|Specificare se l'utente riceve le notifiche il primo giorno o l'ultimo giorno del mese o in una data specifica del mese.|  
-    |**Data notifica mensile**|Specificare la data del mese in cui l'utente riceve le notifiche quando il valore nel campo **Data del mese** è **Personalizzato**.|  
+    |**Data notifica mensile**|Specificare la data del mese in cui l'utente riceve le notifiche quando il valore nel campo **Data del mese** è **Personalizzato** .|  
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Modificare come e quando si ricevono le notifiche  
-1.  In una delle notifiche ricevute, come e-mail o nota, fare clic sul pulsante **Modifica impostazioni di notifica**.  
+1.  In una delle notifiche ricevute, come e-mail o nota, fare clic sul pulsante **Modifica impostazioni di notifica** .  
 2.  Nella pagina **Setup di notifica** modificare le preferenze relative alla notifica come descritto nella procedura precedente.  
 
 ## <a name="see-also"></a>Vedere anche  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb0f01c84cb82765c346e45273bff82fbd1a53af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: db613df030a739ac8899b3cea19e89f17dcfe53e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778508"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916593"
 ---
 # <a name="batch-post-output-and-run-times"></a>Registrare l'output e i tempi di lavorazione tramite processo batch
 La quantità di output rappresenta la quantità finita nel WIP ( work in progress).  
@@ -30,7 +30,7 @@ La quantità di output rappresenta la quantità finita nel WIP ( work in progres
 
     Se l'ubicazione della warehouse in cui devono essere stoccati gli articoli prevede l'utilizzo di collocazioni, ma non richiede l'elaborazione degli stoccaggi,  assegnare un codice collocazione alla riga delle registrazioni per specificare dove dovranno essere immagazzinati gli articoli nella warehouse. Per ulteriori informazioni, vedere [Stoccare l'output produzione o l'output assemblaggio](warehouse-how-to-put-away-production-output.md).  
 
-4. Per registrare le operazioni scegliere l'azione **Registra**. La quantità di output verrà registrata. A questo punto, l'articolo è disponibile per la spedizione.  
+4. Per registrare le operazioni scegliere l'azione **Registra** . La quantità di output verrà registrata. A questo punto, l'articolo è disponibile per la spedizione.  
 
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Per registrare il tempo di lavorazione per una o più righe dell'ordine di produzione
 Il tempo di lavorazione rappresenta le ore di lavoro necessarie per il WIP (work in progress).    

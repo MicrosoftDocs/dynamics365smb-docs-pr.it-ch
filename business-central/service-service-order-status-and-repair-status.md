@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed022ead8151d7a17269fd0282fa54cc9acd34dc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 638b1f560dc28374e0e8d5afbc94f6ef8d416c83
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777534"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913164"
 ---
 # <a name="service-order-status-and-repair-status"></a>Stato ordine assistenza e stato riparazione
-Il campo **Stato** nella pagina **Ordine assistenza** e lo stato di riparazione dell'ordine di assistenza, rappresentato dal campo **Codice stato riparazione** nella pagina **Ordine assistenza**, sono correlati in Gestione assistenza. Lo stato dell'ordine di assistenza corrisponde allo stato di riparazione degli articoli in assistenza nell'ordine di assistenza.  
+Il campo **Stato** nella pagina **Ordine assistenza** e lo stato di riparazione dell'ordine di assistenza, rappresentato dal campo **Codice stato riparazione** nella pagina **Ordine assistenza** , sono correlati in Gestione assistenza. Lo stato dell'ordine di assistenza corrisponde allo stato di riparazione degli articoli in assistenza nell'ordine di assistenza.  
 
 > [!NOTE]  
 >  I due campi relativi allo stato non sono correlati al campo **Stato rilascio** nella testata dell'ordine di assistenza, che determina la gestione della warehouse degli articoli in assistenza.  
@@ -28,19 +28,19 @@ Il campo **Stato** nella pagina **Ordine assistenza** e lo stato di riparazione 
 * lo stato dell'ordine di assistenza a cui è collegata ogni stato di riparazione; Per ulteriori informazioni, vedere Stato ordine assistenza.  
 * il livello di priorità di ogni opzione dell'ordine di assistenza. Per ulteriori informazioni, vedere Priorità.  
 
- Quando un'offerta di assistenza viene convertita in ordine di assistenza, lo stato di riparazione di ogni articolo in assistenza viene convertito in **Iniziale** nell'ordine, mentre lo stato dell'ordine di assistenza diventa **Non iniziato**.  
+ Quando un'offerta di assistenza viene convertita in ordine di assistenza, lo stato di riparazione di ogni articolo in assistenza viene convertito in **Iniziale** nell'ordine, mentre lo stato dell'ordine di assistenza diventa **Non iniziato** .  
 
 ## <a name="specifying-service-order-status-for-repair-status"></a>Indicazione dello stato dell'ordine di assistenza per lo stato di riparazione  
-Ogni stato di riparazione è collegato a un particolare stato dell'ordine di assistenza. Le opzioni dello stato dell'ordine di assistenza sono: **Non iniziato**, **In corso**, **In attesa** e **Completato**. Le opzioni dello stato di riparazione sono: **Iniziale**, **In corso**, **Demandato**, **Parzialmente assistito**, **Offerta completata**, **In attesa del cliente**, **Pezzo di ricambio ordinato**, **Pezzo di ricambio ricevuto** e **Completato**.  
+Ogni stato di riparazione è collegato a un particolare stato dell'ordine di assistenza. Le opzioni dello stato dell'ordine di assistenza sono: **Non iniziato** , **In corso** , **In attesa** e **Completato** . Le opzioni dello stato di riparazione sono: **Iniziale** , **In corso** , **Demandato** , **Parzialmente assistito** , **Offerta completata** , **In attesa del cliente** , **Pezzo di ricambio ordinato** , **Pezzo di ricambio ricevuto** e **Completato** .  
 
 ### <a name="pending"></a>In sospeso  
-Lo stato dell'ordine di assistenza **Non iniziato** indica che l'assistenza può iniziare o continuare in qualsiasi momento. Le opzioni dello stato di riparazione **Iniziale**, **Demandato**, **Parzialmente assistito** e **Pezzo di ricambio ricevuto** possono quindi essere collegate a questo stato dell'ordine di assistenza.  
+Lo stato dell'ordine di assistenza **Non iniziato** indica che l'assistenza può iniziare o continuare in qualsiasi momento. Le opzioni dello stato di riparazione **Iniziale** , **Demandato** , **Parzialmente assistito** e **Pezzo di ricambio ricevuto** possono quindi essere collegate a questo stato dell'ordine di assistenza.  
 
 ### <a name="in-process"></a>In Corso  
-Lo stato dell'ordine di assistenza **In corso** indica che l'assistenza è in atto. Le opzioni dello stato di riparazione **In corso** e **Pezzo di ricambio ordinato** possono quindi essere collegate a questo stato dell'ordine di assistenza. Se lo stato **Pezzo di ricambio ordinato** viene collegato allo stato dell'ordine di assistenza **In corso**, a questo stato occorre collegare anche lo stato **Pezzo di ricambio ricevuto**.  
+Lo stato dell'ordine di assistenza **In corso** indica che l'assistenza è in atto. Le opzioni dello stato di riparazione **In corso** e **Pezzo di ricambio ordinato** possono quindi essere collegate a questo stato dell'ordine di assistenza. Se lo stato **Pezzo di ricambio ordinato** viene collegato allo stato dell'ordine di assistenza **In corso** , a questo stato occorre collegare anche lo stato **Pezzo di ricambio ricevuto** .  
 
 ### <a name="on-hold"></a>Fermo  
-Lo stato dell'ordine di assistenza **In sospeso** indica che l'assistenza è temporaneamente interrotta perché si sta aspettando una risposta dal cliente o delle parti di ricambio per iniziare l'assistenza. Le opzioni dello stato di riparazione **Offerta completata**, **Pezzo di ricambio ordinato** e **In attesa del cliente** possono essere collegate a questo stato dell'ordine di assistenza.  
+Lo stato dell'ordine di assistenza **In sospeso** indica che l'assistenza è temporaneamente interrotta perché si sta aspettando una risposta dal cliente o delle parti di ricambio per iniziare l'assistenza. Le opzioni dello stato di riparazione **Offerta completata** , **Pezzo di ricambio ordinato** e **In attesa del cliente** possono essere collegate a questo stato dell'ordine di assistenza.  
 
 ### <a name="finished"></a>Completato  
 Lo stato dell'ordine di assistenza **Completato** indica che l'assistenza è stata completata. Lo stato di riparazione **Completato** viene quindi collegato a questo stato.  
@@ -58,7 +58,7 @@ Una tipica assegnazione del livello di priorità potrebbe essere:
 * In sospeso - Medio bassa  
 * Completato - Bassa  
 
-Se ad esempio un articolo in assistenza ha lo stato di riparazione **Iniziale**, collegato allo stato dell'ordine di assistenza **Non iniziato**, un altro è **In corso**, collegato allo stato **In corso** e a un terzo corrisponde lo stato **Pezzo di ricambio ordinato**, collegato allo stato **In sospeso**, lo stato che ne risulterà sarà **In corso**, in quanto ha la priorità più alta.  
+Se ad esempio un articolo in assistenza ha lo stato di riparazione **Iniziale** , collegato allo stato dell'ordine di assistenza **Non iniziato** , un altro è **In corso** , collegato allo stato **In corso** e a un terzo corrisponde lo stato **Pezzo di ricambio ordinato** , collegato allo stato **In sospeso** , lo stato che ne risulterà sarà **In corso** , in quanto ha la priorità più alta.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Impostare gli stati per gli ordini di assistenza e le riparazioni](service-order-repair-status.md)  

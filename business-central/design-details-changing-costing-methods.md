@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0560e2bf900af4b49d0ce299dfa751a5c41ea54e
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617749"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917544"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Dettagli di progettazione: modifica dei metodi di costing per gli articoli
 
@@ -60,7 +60,7 @@ Questa sezione descrive i seguenti passaggi per modificare il metodo di costing 
 
 ### <a name="define-a-default-costing-method"></a>Definire il metodo di costing di default
 
-Per evitare errori futuri, è possibile specificare un metodo di costing predefinito per i nuovi articoli. Ogni volta che qualcuno crea un nuovo oggetto, [!INCLUDE[d365fin](includes/d365fin_md.md)] suggerirà il metodo di costing predefinito. Si specifica il metodo predefinito nel campo **Metodo di costing di default** della pagina **Setup magazzino**. 
+Per evitare errori futuri, è possibile specificare un metodo di costing predefinito per i nuovi articoli. Ogni volta che qualcuno crea un nuovo oggetto, [!INCLUDE[d365fin](includes/d365fin_md.md)] suggerirà il metodo di costing predefinito. Si specifica il metodo predefinito nel campo **Metodo di costing di default** della pagina **Setup magazzino** . 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identificare gli articoli per cui modificare il metodo di costing e rinumerarli
 
@@ -68,7 +68,7 @@ Si potrebbe voler dare ai nuovi articoli gli stessi numeri di quelli che stanno 
 
 ### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Creare nuovi articoli con il vecchio schema di numerazione e copiare l'anagrafica in un batch
 
-Creare i nuovi articoli utilizzando lo schema numerico corrente. Con l'eccezione del campo **Metodo di costing**, i nuovi articoli dovrebbero contenere la stessa anagrafica degli articoli esistenti. Per trasferire l'anagrafica per l'articolo e i dati correlati da altre funzioni, utilizzare l'azione **Copia articolo** della pagina **Scheda articolo**. Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).
+Creare i nuovi articoli utilizzando lo schema numerico corrente. Con l'eccezione del campo **Metodo di costing** , i nuovi articoli dovrebbero contenere la stessa anagrafica degli articoli esistenti. Per trasferire l'anagrafica per l'articolo e i dati correlati da altre funzioni, utilizzare l'azione **Copia articolo** della pagina **Scheda articolo** . Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).
 
 Dopo aver creato i nuovi articoli e trasferito l'anagrafica, assegnare il metodo di costing corretto.
 
@@ -79,20 +79,20 @@ Per rendere completamente utili i nuovi articoli, è necessario copiare manualme
 |Area  |Cosa copiare  |Come copiarlo  |
 |---------|---------|---------|
 |Inventario     |Unità di stockkeeping (SKU)         |Controllare se è stato specificato una SKU per l'articolo originale. Se sono stati immessi parametri di pianificazione per ciascuna scheda SKU, è necessario creare manualmente la SKU per il nuovo articolo. Se i parametri non sono specificati, è possibile utilizzare il processo batch **Crea unità di stockkeeping** dalla pagina **Scheda articolo** per creare i dati.        |
-|     |Articoli sostitutivi         |Controllare se sono stati definiti articoli sostitutivi per l'articolo originale. Se presenti, trasferire tali dati nel nuovo articolo. Per visualizzare gli articoli sostitutivi, utilizzare l'azione **Sostituzioni** nella pagina **Scheda articolo**.         |
+|     |Articoli sostitutivi         |Controllare se sono stati definiti articoli sostitutivi per l'articolo originale. Se presenti, trasferire tali dati nel nuovo articolo. Per visualizzare gli articoli sostitutivi, utilizzare l'azione **Sostituzioni** nella pagina **Scheda articolo** .         |
 |     |Report di analisi         |Esaminare i report Analisi articoli, Analisi vendite e Analisi acquisti. Se si fa riferimento agli articoli originali è possibile creare un nuovo report di analisi con un riferimento al nuovo articolo (mantenendo il report di analisi originale da utilizzare come cronologia) oppure modificare i report in modo che facciano riferimento al nuovo articolo.         |
 |     |Registrazioni standard         |Verificare se le registrazioni standard fanno riferimento all'articolo originale e trasferire tali dati al nuovo articolo quando necessario. Queste informazioni sono disponibili nelle registrazioni standard, che sono disponibili nella registrazione magazzino.          |
-|Vendite     |Percentuale pagamenti anticipati vendite         | Controllare se sono state definite percentuali di pagamento anticipato vendite per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Vendite** e poi **Percentuali di pagamento anticipato**.        |
-|Acquisti     |Percentuale pagamento anticipato acquisti         |Controllare se sono state definite percentuali di pagamento anticipato acquisti per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Acquisti** e poi **Percentuali di pagamento anticipato**.                 |
+|Vendite     |Percentuale pagamenti anticipati vendite         | Controllare se sono state definite percentuali di pagamento anticipato vendite per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Vendite** e poi **Percentuali di pagamento anticipato** .        |
+|Acquisti     |Percentuale pagamento anticipato acquisti         |Controllare se sono state definite percentuali di pagamento anticipato acquisti per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Acquisti** e poi **Percentuali di pagamento anticipato** .                 |
 |Warehouse     |Contenuto collocazioni         |Rivedere il contenuto collocazione definito per l'articolo originale. Se colonne come Q.tà min.,  Q.tà max.,  Predefinito e Dedicato sono state inserite individualmente, è necessario creare manualmente il contenuto della collocazione per il nuovo articolo. In caso contrario, non è richiesta alcuna azione. [!INCLUDE[d365fin](includes/d365fin_md.md)] manterrà i record quando si registrano documenti e registrazioni di magazzino.|
-|Commessa     |Costi commessa         |Controllare se sono stati definiti costi commessa per l'articolo originale e trasferire tali dati nel nuovo articolo. Questa informazione è disponibile nella pagina **Scheda commessa** nella parte **Dettagli commessa - Nr. prezzi** nel **riquadro Dettaglio informazioni**.         |
-|Assistenza     |Competenza risorsa in assistenza         |Controllare se sono state definite le competenze risorsa in assistenza per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le competenze delle risorse, utilizzare l'azione **Competenze risorse** nella pagina **Scheda articolo**.          |
-|     |Componenti articolo in assistenza         |Controllare se sono stati definiti i componenti per l'articolo in assistenza originale e trasferire tali dati nel nuovo articolo. Per visualizzare i componenti dell'articolo in assistenza, nella pagina **Scheda articolo** usare l'azione **Articolo in assistenza** per aprire l'elenco degli articoli in assistenza correlati, quindi selezionare l'azione **Componenti**.          |
-|Produzione     |Dist.base di produz.         |Controllare se eventuali DB produzione contengono l'articolo originale e sostituirlo con il nuovo articolo. Per sostituire l'articolo originale, nella pagina **DB produzione**, scegliere l'azione **Scambio articolo DB produzione**.         |
+|Commessa     |Costi commessa         |Controllare se sono stati definiti costi commessa per l'articolo originale e trasferire tali dati nel nuovo articolo. Questa informazione è disponibile nella pagina **Scheda commessa** nella parte **Dettagli commessa - Nr. prezzi** nel **riquadro Dettaglio informazioni** .         |
+|Assistenza     |Competenza risorsa in assistenza         |Controllare se sono state definite le competenze risorsa in assistenza per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le competenze delle risorse, utilizzare l'azione **Competenze risorse** nella pagina **Scheda articolo** .          |
+|     |Componenti articolo in assistenza         |Controllare se sono stati definiti i componenti per l'articolo in assistenza originale e trasferire tali dati nel nuovo articolo. Per visualizzare i componenti dell'articolo in assistenza, nella pagina **Scheda articolo** usare l'azione **Articolo in assistenza** per aprire l'elenco degli articoli in assistenza correlati, quindi selezionare l'azione **Componenti** .          |
+|Produzione     |Dist.base di produz.         |Controllare se eventuali DB produzione contengono l'articolo originale e sostituirlo con il nuovo articolo. Per sostituire l'articolo originale, nella pagina **DB produzione** , scegliere l'azione **Scambio articolo DB produzione** .         |
 |Assemblaggio     |DB assemblaggio         |Controllare se eventuali DB assemblaggio contengono l'articolo originale e sostituirlo manualmente con il nuovo articolo.         |
 
 > [!IMPORTANT]
-> Se il nuovo metodo di costing è standard, è necessario immettere un valore nel campo **Costo standard** della pagina **Scheda articolo**. È possibile usare la pagina **Prospetto costo standard** per impostare il dettaglio costi di conseguenza. Per ulteriori informazioni, vedere [Aggiornare i costi standard](finance-how-to-update-standard-costs.md).
+> Se il nuovo metodo di costing è standard, è necessario immettere un valore nel campo **Costo standard** della pagina **Scheda articolo** . È possibile usare la pagina **Prospetto costo standard** per impostare il dettaglio costi di conseguenza. Per ulteriori informazioni, vedere [Aggiornare i costi standard](finance-how-to-update-standard-costs.md).
 
 ### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Determinare la quantità di inventario da convertire dall'articolo originale al nuovo articolo
 
@@ -138,7 +138,7 @@ Quando si creano ordini di assemblaggio, utilizzare le informazioni dalla Regist
 > Un ordine di assemblaggio può gestire una sola SKU di un articolo alla volta. È necessario creare un ordine di assemblaggio per ogni combinazione di SKU che ha una quantità in inventario.
 
 > [!NOTE]
-> Per una posizione di magazzino, potrebbe essere necessario creare prelievi prima di poter registrare l'ordine di assemblaggio. Per indagare su ciò, rivedere il setup per il prelievo nella pagina **Scheda ubicazione**. Per ulteriori informazioni vedere [Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
+> Per una posizione di magazzino, potrebbe essere necessario creare prelievi prima di poter registrare l'ordine di assemblaggio. Per indagare su ciò, rivedere il setup per il prelievo nella pagina **Scheda ubicazione** . Per ulteriori informazioni vedere [Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
 ### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Gestire le quantità di inventario assegnate alla domanda
 
@@ -165,7 +165,7 @@ La tabella seguente elenca le aree funzionali in cui potrebbero esserci quantit�
 
 ### <a name="block-the-original-item-from-further-use"></a>Bloccare l'articolo originale da ulteriore utilizzo
 
-Quando l'inventario per l'articolo originale è zero, è possibile bloccare l'articolo per impedirne l'utilizzo in nuove transazioni. Per bloccare l'articolo, nella pagina **Scheda articolo** attivare l'interruttore **Bloccato**. Per ulteriori informazioni, vedere [Bloccare gli articoli per la vendita o l'acquisto](inventory-how-block-items.md).
+Quando l'inventario per l'articolo originale è zero, è possibile bloccare l'articolo per impedirne l'utilizzo in nuove transazioni. Per bloccare l'articolo, nella pagina **Scheda articolo** attivare l'interruttore **Bloccato** . Per ulteriori informazioni, vedere [Bloccare gli articoli per la vendita o l'acquisto](inventory-how-block-items.md).
 
 ## <a name="summary"></a>Riepilogo
 

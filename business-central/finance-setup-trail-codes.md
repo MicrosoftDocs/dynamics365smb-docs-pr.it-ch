@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372705"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914232"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Impostazione di codici sorgente e causali per audit trail
 
@@ -29,27 +29,27 @@ A volte può essere necessario conoscere la provenienza di un determinato movime
 
 Quando si contabilizzano registrazioni, ordini, fatture, note credito o registrazioni e quando si eseguono alcuni processi batch, vengono generati dei movimenti nei rendiconti finanziari. La pagina **Setup codice origine** contiene varie Schede dettaglio, una per ogni area di applicazione. Ogni Scheda dettaglio contiene i codici origine applicabili a quell'area di applicazione.
 
-Sia in fase di registrazione che di esecuzione di un processo batch, il codice origine corretto viene automaticamente allegato al movimento. Nel caso si contabilizzino delle registrazioni COGE, ad esempio, al movimento viene allegato il codice *GENJNL*. È quindi possibile filtrare la pagina **Movimenti C/G** pagina per mostrare quali movimenti sono stati pubblicati dalla registrazioni COGE o dai documenti di vendita.
+Sia in fase di registrazione che di esecuzione di un processo batch, il codice origine corretto viene automaticamente allegato al movimento. Nel caso si contabilizzino delle registrazioni COGE, ad esempio, al movimento viene allegato il codice *GENJNL* . È quindi possibile filtrare la pagina **Movimenti C/G** pagina per mostrare quali movimenti sono stati pubblicati dalla registrazioni COGE o dai documenti di vendita.
 
 ### <a name="to-define-source-codes"></a>Per definire i codici origine
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup codice origine** e quindi scegliere il collegamento correlato.  
 
-2. Nella finestra **Setup codice origine**, per ogni tipo di registrazione e processo batch, specificare il codice sorgente pertinente.  
+2. Nella finestra **Setup codice origine** , per ogni tipo di registrazione e processo batch, specificare il codice sorgente pertinente.  
 
 È possibile modificare il contenuto di un campo in un secondo momento e tale modifica avrà un impatto sulle registrazioni future.
 
 ## <a name="change-source-codes"></a>Modificare i codici origine
 
-Potrebbe essere necessario modificare un codice origine. Ad esempio, può essere necessario modificare il codice origine *GENJNL* in *GNJ*.
+Potrebbe essere necessario modificare un codice origine. Ad esempio, può essere necessario modificare il codice origine *GENJNL* in *GNJ* .
 
 ### <a name="to-change-source-codes"></a>Per modificare i codici origine
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Codice origine** e quindi scegliere il collegamento correlato.
 
-2. Nella riga che contiene il codice da modificare selezionare il codice nel campo **Codice**.
+2. Nella riga che contiene il codice da modificare selezionare il codice nel campo **Codice** .
 
-3. Immettere il nuovo codice, quindi fare clic sul pulsante **Sì**. È possibile modificare anche il contenuto del campo **Descrizione**.
+3. Immettere il nuovo codice, quindi fare clic sul pulsante **Sì** . È possibile modificare anche il contenuto del campo **Descrizione** .
 
 Tutti i nuovi movimenti contabilizzati dalle registrazioni COGE disporranno di nuovo codice origine.
 
@@ -61,7 +61,7 @@ Le causali integrano i codici sorgente e vengono utilizzati per indicare il moti
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Causali** e quindi scegliere il collegamento correlato.
 
-2. Nella finestra **Causali** immettere il primo codice nel campo **Codice**. Nel campo **Descrizione** immettere un testo esplicativo.
+2. Nella finestra **Causali** immettere il primo codice nel campo **Codice** . Nel campo **Descrizione** immettere un testo esplicativo.
 
 Ripetere la procedura per ogni codice che si intende utilizzare. È possibile impostare quanti codici si ritengono necessari.
 
@@ -71,7 +71,7 @@ La seguente procedura descrive come aggiungere una causale a una definizione di 
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Definizione registrazioni COGE** e quindi scegliere il collegamento correlato.
 
-2. Sulla riga della definizione di registrazioni selezionata immettere il codice pertinente nel campo **Causale**.
+2. Sulla riga della definizione di registrazioni selezionata immettere il codice pertinente nel campo **Causale** .
 
 3. Chiudere la definizione di registrazioni.
 
@@ -81,7 +81,7 @@ La causale selezionata verrà copiata nei nuovi batch di registrazioni creati in
 
 1. Aprire il documento di acquisto o vendita appropriato.
 
-2. Nella testata degli acquisti o delle vendite immettere la causale nel campo **Causale**.
+2. Nella testata degli acquisti o delle vendite immettere la causale nel campo **Causale** .
 
 Quando la fattura viene registrata, la causale viene copiata in ogni movimento C/G, cliente e fornitore. Non è possibile assegnare causali diverse a singole righe di acquisto e vendita, perché tutte le righe vengono registrate come un unico movimento.
 

@@ -8,32 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73005b4c9886e44cf7a9e23e75c247c3739d19ec
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787314"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917294"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Dettagli di progettazione: Riconciliazione con la contabilità generale
 Quando si registrano transazioni di magazzino, ad esempio spedizioni vendite, output di produzione o rettifiche negative, le modifiche alla quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione. È quindi necessario registrare i valori di magazzino nei conti giacenza magazzino nella contabilità generale.  
 
 Esistono due modi per riconciliare i movimenti di magazzino con la contabilità generale:  
 
-* Manualmente, tramite l'esecuzione del processo batch **Registra costo magazzino in CG**.  
+* Manualmente, tramite l'esecuzione del processo batch **Registra costo magazzino in CG** .  
 * Automaticamente, ogni volta che si registra una transazione di magazzino.  
 
 ## <a name="post-inventory-cost-to-gl-batch-job"></a>Processo batch Registra costo magazzino in C/G  
-Se si esegue il processo batch **Registra costo magazzino in CG**, i movimenti di contabilità generale vengono creati in base ai movimenti di valorizzazione. È possibile scegliere di riepilogare i movimenti di contabilità generale per ogni movimento di valorizzazione oppure di creare movimenti di contabilità generale per ogni combinazione di data di registrazione, codice ubicazione, categoria di registrazione magazzino, categoria di registrazione business e categoria di registrazione di articoli o servizi.  
+Se si esegue il processo batch **Registra costo magazzino in CG** , i movimenti di contabilità generale vengono creati in base ai movimenti di valorizzazione. È possibile scegliere di riepilogare i movimenti di contabilità generale per ogni movimento di valorizzazione oppure di creare movimenti di contabilità generale per ogni combinazione di data di registrazione, codice ubicazione, categoria di registrazione magazzino, categoria di registrazione business e categoria di registrazione di articoli o servizi.  
 
 Le date di registrazione dei movimenti di contabilità generale vengono impostate sulla data di registrazione del movimento di valorizzazione corrispondente, eccetto quando il movimento di valorizzazione ricade in un periodo contabile chiuso. In questo caso, il movimento di valorizzazione viene ignorato ed è necessario modificare il setup della contabilità generale o il setup utente per abilitare la registrazione nell'intervallo di date.  
 
-Quando si esegue il processo batch **Registra costo magazzino in CG**, è possibile che si verifichino degli errori a causa di impostazioni mancanti o di impostazioni delle dimensioni incompatibili. Se vengono rilevati errori nel setup delle dimensioni, questi vengono ignorati e vengono utilizzate le dimensioni del movimento di valorizzazione. In caso di errori di altro tipo, il processo batch non registra i movimenti di valore e li elenca alla fine del report in una sezione intitolata **Movimenti saltati**. Per registrare questi movimenti, è prima necessario correggere gli errori. Per visualizzare un elenco di errori prima di eseguire il processo batch, è possibile eseguire il report **Registra costo mag. in C/G - Test**. Nel report vengono elencati tutti gli errori che si verificano durante una registrazione di test. È quindi possibile correggere gli errori e quindi eseguire il processo batch di registrazione del costo di magazzino senza saltare alcun movimento.  
+Quando si esegue il processo batch **Registra costo magazzino in CG** , è possibile che si verifichino degli errori a causa di impostazioni mancanti o di impostazioni delle dimensioni incompatibili. Se vengono rilevati errori nel setup delle dimensioni, questi vengono ignorati e vengono utilizzate le dimensioni del movimento di valorizzazione. In caso di errori di altro tipo, il processo batch non registra i movimenti di valore e li elenca alla fine del report in una sezione intitolata **Movimenti saltati** . Per registrare questi movimenti, è prima necessario correggere gli errori. Per visualizzare un elenco di errori prima di eseguire il processo batch, è possibile eseguire il report **Registra costo mag. in C/G - Test** . Nel report vengono elencati tutti gli errori che si verificano durante una registrazione di test. È quindi possibile correggere gli errori e quindi eseguire il processo batch di registrazione del costo di magazzino senza saltare alcun movimento.  
 
 ## <a name="automatic-cost-posting"></a>Reg. automatica costi  
-Per impostare l'esecuzione automatica della registrazione costi nella contabilità generale quando si registra una transazione di magazzino, selezionare la casella di controllo **Reg. automatica costi** nella pagina **Setup magazzino**. La data di registrazione del movimento di contabilità generale corrisponde alla data di registrazione del movimento contabile articolo.  
+Per impostare l'esecuzione automatica della registrazione costi nella contabilità generale quando si registra una transazione di magazzino, selezionare la casella di controllo **Reg. automatica costi** nella pagina **Setup magazzino** . La data di registrazione del movimento di contabilità generale corrisponde alla data di registrazione del movimento contabile articolo.  
 
 ## <a name="account-types"></a>Tipi conto  
 Durante la riconciliazione, i valori di magazzino vengano registrati nei conti giacenza magazzino nel conto patrimoniale. La stessa quantità, ma con segno opposto, viene registrata nel conto profitti/perdite pertinente. Normalmente la contropartita è un conto di bilancio patrimoniale. Tuttavia, quando si registra un costo diretto correlato al consumo o all'output, la contropartita è un conto di bilancio patrimoniale. Il tipo di movimento contabile articolo e di movimento di valorizzazione determina il conto di contabilità generale in cui registrare.  
@@ -93,7 +93,7 @@ La tabella seguente indica in che modo l'area di produzione è impostata nella s
 
         ![Risultati della registrazione della capacità nei conti C/G](media/design_details_inventory_costing_3_gl_posting_capacity.png "Risultati della registrazione della capacità nei conti C/G")  
 7. L'utente registra il costo previsto di una catena. (Output)  
-8. L'utente completa l'ordine di produzione ed esegue il processo batch **Rettifica costo - Movimenti articoli**. (Output)  
+8. L'utente completa l'ordine di produzione ed esegue il processo batch **Rettifica costo - Movimenti articoli** . (Output)  
 
     1. I conti provvisori vengono cancellati. (Output)  
     2. Il costo diretto viene trasferito dal conto WIP al conto magazzino. (Output)  

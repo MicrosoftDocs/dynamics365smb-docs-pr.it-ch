@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20cca6b2c91c58573d5bef1c8330ca4c691fdfb8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780453"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910773"
 ---
 # <a name="setting-up-cost-accounting"></a>Impostazione della contabilità industriale
 Prima di iniziare a utilizzare la contabilità industriale, è necessario effettuare attività di impostazione.
@@ -37,7 +37,7 @@ Il piano dei tipi di costo è simile al piano dei conti nella contabilità gener
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Per trasferire il piano dei conti della contabilità generale al piano dei tipi di costo  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei tipi di costo** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Ottieni tipi costo da piano dei conti**. Nella finestra di dialogo fare clic sul pulsante **Sì** per confermare il trasferimento. La funzione utilizza il piano dei conti per creare un piano dei tipi di costo.  
+2.  Scegliere l'azione **Ottieni tipi costo da piano dei conti** . Nella finestra di dialogo fare clic sul pulsante **Sì** per confermare il trasferimento. La funzione utilizza il piano dei conti per creare un piano dei tipi di costo.  
 
     Il piano dei tipi di costo contiene ora tutti i conti economici nella contabilità generale e include le testate e i subtotali. È possibile modificare il piano dei tipi di costo, in base alle esigenze. Ad esempio, è possibile eliminare i tipi di costo esistenti duplicati.  
 
@@ -49,21 +49,21 @@ Il piano dei tipi di costo è simile al piano dei conti nella contabilità gener
 2.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  È possibile impostare e gestire tipi di costo nella scheda **Scheda tipo di costo** o nella pagina **Piano dei tipi di costo**. In questa procedura è possibile impostare i tipi di costo nella pagina **Piano dei tipi di costo**.
+    >  È possibile impostare e gestire tipi di costo nella scheda **Scheda tipo di costo** o nella pagina **Piano dei tipi di costo** . In questa procedura è possibile impostare i tipi di costo nella pagina **Piano dei tipi di costo** .
 
-3.  Dopo avere creato tutti i tipi di costo, scegliere l'azione **Indentazione tipi costo**. Nella finestra di dialogo scegliere il pulsante **Sì**.  
+3.  Dopo avere creato tutti i tipi di costo, scegliere l'azione **Indentazione tipi costo** . Nella finestra di dialogo scegliere il pulsante **Sì** .  
 4.  Collegare il nuovo tipo di costo al corrispondente conto di contabilità generale.  
 
     > [!IMPORTANT]  
-    >  Se le definizioni per i conti sono state immesse nei campi **Totale** del tipo riga **Fine-Totale** prima di eseguire la funzione **Indentazione tipi costo**, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Fine-Totale**.  
+    >  Se le definizioni per i conti sono state immesse nei campi **Totale** del tipo riga **Fine-Totale** prima di eseguire la funzione **Indentazione tipi costo** , sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Fine-Totale** .  
 
 ### <a name="to-update-cost-types"></a>Per aggiornare i tipi di costo  
 1.  Nella pagina **Setup contabilità industriale** selezionare se si desidera che il piano dei tipi di costo venga aggiornato automaticamente quando il piano dei conti viene modificato.  
 2.  Nel campo **Allinea conto C/G** è possibile selezionare una delle seguenti opzioni.  
 
-- **Nessun allineamento**: non esiste alcuna modifica corrispondente nel grafico dei tipi di costo quando si modifica il piano dei conti.  
-- **Automatico**: viene apportata una modifica corrispondente nel grafico dei tipi di costo quando si modifica il piano dei conti.  
-- **Richiesta**: viene visualizzato un messaggio in cui viene chiesto se apportare una modifica corrispondente nel grafico dei tipi di costo quando si modifica il piano dei conti.
+- **Nessun allineamento** : non esiste alcuna modifica corrispondente nel grafico dei tipi di costo quando si modifica il piano dei conti.  
+- **Automatico** : viene apportata una modifica corrispondente nel grafico dei tipi di costo quando si modifica il piano dei conti.  
+- **Richiesta** : viene visualizzato un messaggio in cui viene chiesto se apportare una modifica corrispondente nel grafico dei tipi di costo quando si modifica il piano dei conti.
 
 ## <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definizione della relazione tra i tipi di costo e i conti di contabilità generale
 La relazione tra il tipo di costo e il conto di contabilità generale viene creata nel tipo di costo e nel conto di contabilità generale.  
@@ -71,7 +71,7 @@ La relazione tra il tipo di costo e il conto di contabilità generale viene crea
 * Tramite il campo **Intervallo conti CG** della tabella **Tipo costo** è possibile stabilire quali conti di contabilità generale appartengono a un tipo di costo.  
 * Con il campo **Nr. tipo di costo** nel piano dei conti è possibile stabilire il tipo di costo a cui appartiene un conto di contabilità generale.  
 
-Questi due campi vengono compilati automaticamente quando si utilizza la funzione **Ottieni tipi costo da piano dei conti**.  
+Questi due campi vengono compilati automaticamente quando si utilizza la funzione **Ottieni tipi costo da piano dei conti** .  
 
 ### <a name="relationship-between-general-ledger-accounts-and-cost-types"></a>Relazione tra i conti di contabilità generale e i tipi di costo  
 Tra i conti di contabilità generale e i tipi di costo esiste una relazione n:1. A un tipo di costo possono appartenere più conti di contabilità generale, ma ognuno di questi appartiene a un solo tipo di costo. Nella seguente tabella vengono descritti i dettagli delle relazioni.  
@@ -107,21 +107,21 @@ I centri di costo sono i reparti responsabili dei costi e delle entrate. Il graf
 Il grafico dei centri di costo contiene ora tutti i valori dimensioni specificati della contabilità generale e include i titoli e i subtotali.  
 
 ### <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Per creare nuovi centri di costo nella pagina Piano dei centri di costo  
-È possibile impostare e gestire centri di costo nella scheda **Scheda centro di costo** o nella pagina **Piano dei centri di costo**. In questa procedura è possibile impostare i centri di costo nella pagina **Piano dei centri di costo**.  
+È possibile impostare e gestire centri di costo nella scheda **Scheda centro di costo** o nella pagina **Piano dei centri di costo** . In questa procedura è possibile impostare i centri di costo nella pagina **Piano dei centri di costo** .  
 
 1. Aprire la pagina **Piano dei centri di costo** in modalità di modifica.  
 2. Nel campo  **Codice** immettere il codice centro di costo. Tutti i centri di costo devono disporre di un codice.  
 3. Nel campo **Nome** immettere il nome del centro di costo.  
 4. Fare clic sulla freccia a discesa nel campo **Tipo riga** per specificare lo scopo del centro di costo.  
 
-    - Per i centri di costo di tipo **Totale** compilare il campo **Totale**. Utilizzare l'operatore **or**, che è una barra verticale (**&#124;**) per impostare intervalli di centri di costo.  
-    - Per i centri di costo del tipo di riga **Fine-Totale**, questo campo viene compilato automaticamente quando si utilizza la funzione di indentazione.  
-5.  Compilare i campi **Ordinamento** e **Sottotipo costo**.  
+    - Per i centri di costo di tipo **Totale** compilare il campo **Totale** . Utilizzare l'operatore **or** , che è una barra verticale ( **&#124;** ) per impostare intervalli di centri di costo.  
+    - Per i centri di costo del tipo di riga **Fine-Totale** , questo campo viene compilato automaticamente quando si utilizza la funzione di indentazione.  
+5.  Compilare i campi **Ordinamento** e **Sottotipo costo** .  
 6.  Scegliere la successiva riga vuota per creare un nuovo centro di costo, quindi ripetere i passaggi da 2 a 5.  
-7.  Dopo aver impostato tutti i centri di costo, scegliere l'azione **Indentazione centri di costo**. Scegliere il pulsante **Sì**.  
+7.  Dopo aver impostato tutti i centri di costo, scegliere l'azione **Indentazione centri di costo** . Scegliere il pulsante **Sì** .  
 
 > [!IMPORTANT]  
->  Se sono state immesse definizioni nei campi **Totale** per i centri di costo **Fine-Totale** prima di eseguire la funzione di indentazione, è necessario inserirle di nuovo. Questa funzione consente di sovrascrivere i valori in tutti i campi **Fine-Totale**.
+>  Se sono state immesse definizioni nei campi **Totale** per i centri di costo **Fine-Totale** prima di eseguire la funzione di indentazione, è necessario inserirle di nuovo. Questa funzione consente di sovrascrivere i valori in tutti i campi **Fine-Totale** .
 
 ## <a name="setting-up-cost-objects"></a>Impostazione di oggetti di costo
 Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il grafico degli oggetti di costo è simile alle informazioni sulle dimensioni relative alla contabilità generale. È possibile impostare il grafico degli oggetti di costo nelle modalità seguenti:  
@@ -130,7 +130,7 @@ Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il
 * Creando un nuovo grafico dell'oggetto di costo che sia indipendente dalla contabilità generale o aggiungendo un nuovo oggetto di costo a un grafico degli oggetti di costo esistente. È necessario creare ogni oggetto di costo singolarmente.  
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Per trasferire i valori dimensioni dalla contabilità generale al grafico degli oggetti di costo  
-1.  Impostare una dimensione come dimensione dell'oggetto di costo nella pagina **Aggiorna dimensioni contabilità industriale**. Solo i valori di questa dimensione vengono trasferiti.  
+1.  Impostare una dimensione come dimensione dell'oggetto di costo nella pagina **Aggiorna dimensioni contabilità industriale** . Solo i valori di questa dimensione vengono trasferiti.  
 2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano degli oggetti di costo** e quindi scegliere il collegamento correlato.  
 3.  Scegliere l'azione **Ottieni oggetti di costo da dimensione** per trasferire i valori dimensioni al piano degli oggetti di costo. Con la funzione è possibile trasferire i valori dimensioni definiti nel passaggio 1.  
 
@@ -140,27 +140,27 @@ Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il
 Il grafico degli oggetti di costo contiene ora tutti i valori dimensioni specificati della contabilità generale e include i titoli e i subtotali.  
 
 ### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Per creare nuovi oggetti di costo nella pagina Piano degli oggetti di costo  
-È possibile impostare e gestire oggetti di costo nella scheda **Scheda oggetto di costo** o nella pagina **Piano degli oggetti di costo**. In questa procedura è possibile impostare gli oggetti di costo nella pagina **Piano degli oggetti di costo**.  
+È possibile impostare e gestire oggetti di costo nella scheda **Scheda oggetto di costo** o nella pagina **Piano degli oggetti di costo** . In questa procedura è possibile impostare gli oggetti di costo nella pagina **Piano degli oggetti di costo** .  
 
 1.  Aprire la pagina **Piano dei tipi di costo** in modalità di modifica.  
 2.  Nel campo  **Codice** immettere il codice oggetto di costo. Tutti gli oggetti di costo devono disporre di un codice.  
 3.  Nel campo **Nome** immettere il nome dell'oggetto di costo.  
 4.  Fare clic sulla freccia a discesa nel campo **Tipo riga** per specificare lo scopo dell'oggetto di costo.  
 
-    * Per gli oggetti di costo di tipo riga **Totale** compilare il campo **Totale da/a**. Utilizzare l'operatore **or**, vale a dire una riga verticale (**&#124;**), per impostare gli intervalli degli oggetti di costo.  
-    * Per gli oggetti di costo del tipo di riga **Fine-Totale**, questo campo viene compilato automaticamente quando si utilizza la funzione di indentazione.  
-5.  Compilare il campo **Ordinamento**.  
+    * Per gli oggetti di costo di tipo riga **Totale** compilare il campo **Totale da/a** . Utilizzare l'operatore **or** , vale a dire una riga verticale ( **&#124;** ), per impostare gli intervalli degli oggetti di costo.  
+    * Per gli oggetti di costo del tipo di riga **Fine-Totale** , questo campo viene compilato automaticamente quando si utilizza la funzione di indentazione.  
+5.  Compilare il campo **Ordinamento** .  
 6.  Selezionare la successiva riga vuota per creare un nuovo oggetto di costo, quindi ripetere i passaggi da 2 a 5.  
-7.  Dopo aver impostato tutti gli oggetti di costo, scegliere l'azione **Indentazione oggetti di costo**. Scegliere il pulsante **Sì**.  
+7.  Dopo aver impostato tutti gli oggetti di costo, scegliere l'azione **Indentazione oggetti di costo** . Scegliere il pulsante **Sì** .  
 
 > [!IMPORTANT]  
->  Se sono state immesse definizioni nei campi **Totale da/a** per gli oggetti di costo **Fine-Totale** prima di eseguire la funzione di indentazione, è necessario inserirle di nuovo. Questa funzione consente di sovrascrivere i valori in tutti i campi **Fine-Totale**.
+>  Se sono state immesse definizioni nei campi **Totale da/a** per gli oggetti di costo **Fine-Totale** prima di eseguire la funzione di indentazione, è necessario inserirle di nuovo. Questa funzione consente di sovrascrivere i valori in tutti i campi **Fine-Totale** .
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definizione dei centri di costo e degli oggetti di costo per il piano dei conti
 È possibile trasferire automaticamente i movimenti delle entrate e delle spese della contabilità generale alla contabilità industriale per ogni registrazione di contabilità generale o tramite un processo batch. Durante il trasferimento, con [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile trasferire solo i movimenti che sono già stati collegati a un centro di costo o a un oggetto di costo. Per stabilire un trasferimento significativo, è necessario assicurarsi che i centri di costo e gli oggetti di costi siano correttamente definiti.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definizione dei valori dimensioni di default per i conti di contabilità generale  
-Per ogni conto di contabilità generale, è possibile definire i valori dimensioni di default nella tabella **Dimensione di default**. Nell'esempio seguente viene illustrato come sia sempre necessaria la presenza di un centro di costo REPARTO e mai quella di un oggetto di costo PROGETTO quando si effettua una registrazione in un conto di contabilità generale.  
+Per ogni conto di contabilità generale, è possibile definire i valori dimensioni di default nella tabella **Dimensione di default** . Nell'esempio seguente viene illustrato come sia sempre necessaria la presenza di un centro di costo REPARTO e mai quella di un oggetto di costo PROGETTO quando si effettua una registrazione in un conto di contabilità generale.  
 
 |**Codice dimensione**|**Registrazione valore**|  
 |------------------------------------------|-----------------------------------------|  

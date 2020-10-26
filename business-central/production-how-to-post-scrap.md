@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0adc08f7fa30f4ceb88531ea45948c6da36d3c72
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2cfc545e328da020ce8ecd4dc7a79e6303902636
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789343"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916579"
 ---
 # <a name="post-scrap-manually"></a>Registrare lo scarto manualmente
 Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto. 
@@ -26,8 +26,8 @@ Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto
 ## <a name="to-post-scrap-manually"></a>Per registrare lo scarto manualmente  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni output** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Immettere la quantità di scarto nel campo **Quantità Scartata**.  
-4. Immettere il codice di scarto nel campo **Codice scarto**.  
+3. Immettere la quantità di scarto nel campo **Quantità Scartata** .  
+4. Immettere il codice di scarto nel campo **Codice scarto** .  
 5. Scegliere l'azione **Registra** per registrare lo scarto specificato per operazione.  
 
 ## <a name="see-also"></a>Vedi anche  

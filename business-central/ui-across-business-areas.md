@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 774c45d50ac56cb0e950ea8687ee86d24cfb9b0a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782611"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912764"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
@@ -38,7 +38,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Impostare codici testi standard per estendere il testo standard aggiungendo altre righe e impostare condizioni per l'utilizzo di righe aggiuntive. |[Aggiungere testo esteso per gli articoli](ui-how-define-ext-text.md) |
 |Creare task per ricordare le attività da svolgere. È possibile creare task per se stessi, ma è anche possibile assegnarli ad altri utenti o che un'altra persona nell'organizzazione assegni un task all'utente.|[Definisci task dell'utente](across-user-tasks.md)|
 |Utilizzare i dati di Business Central in Excel.|[Esportazione dei dati aziendali in Excel](about-export-data.md)|
-|Capire cosa accade scegliendo l'azione **Registra**.|[Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)|
+|Capire cosa accade scegliendo l'azione **Registra** .|[Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)|
 |Pubblicare molteplici documenti di vendita o di acquisto insieme, immediatamente o come previsto.|[Registrare più documenti contemporaneamente](ui-batch-posting.md)|  
 |Esaminare i risultati di una registrazione prima di eseguirla.|[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md)|
 |Modificare i campi selezionati nei documenti di vendita o di acquisto registrati.|[Modificare i documenti registrati](across-edit-posted-document.md)|

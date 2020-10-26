@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 09bf4d364afdff27dc97396a2d88ea0a934379fb
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.openlocfilehash: 26df3104e99d9e6f647331c48b5a03f8f87c81a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542710"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913514"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizzare il flusso di cassa dell'azienda
 I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per prendere decisioni informate sulla gestione dei contanti.  
@@ -29,14 +29,14 @@ I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per p
 | Le cifre relative a un periodo sembrano anomale?</br> Dovrei approfondire? |Entrate e uscite |
 | Quando potrebbe verificarsi un'eccedenza o un disavanzo di cassa?</br> Dovrei pagare i debiti o stipulare un prestito per le spese imminenti? |Previsioni flusso di cassa |
 
-In Gestione ruolo utente Contabile, **Prestazioni finanziarie**, i grafici **Ciclo di cassa**, **Flusso di cassa** ed **Entrate e uscite** consentono di analizzare il flusso di cassa.  
+In Gestione ruolo utente Contabile, **Prestazioni finanziarie** , i grafici **Ciclo di cassa** , **Flusso di cassa** ed **Entrate e uscite** consentono di analizzare il flusso di cassa.  
 
 * Visualizzare le cifre per un periodo utilizzando il cursore della sequenza temporale.  
 * Filtrare il grafico scegliendo l'origine nella legenda.  
-* Modificare la durata del periodo oppure passare al periodo precedente o successivo, selezionando le opzioni nel menu a discesa **Prestazioni finanziarie**.  
+* Modificare la durata del periodo oppure passare al periodo precedente o successivo, selezionando le opzioni nel menu a discesa **Prestazioni finanziarie** .  
 * Visualizzare i movimenti scegliendo un punto del grafico. Ad esempio, un punto della sequenza temporale o un segmento colonna. Se le cifre sembrano anomale, questo è il punto dove è possibile apportare rettifiche.  
 
-Sebbene sia separato, il grafico **Previsione flusso di cassa** è simile. È possibile visualizzare i dettagli, filtrare i risultati e modificare gli elementi visualizzati negli stessi modi. Se si modifica un'impostazione, è possibile aggiornare la previsione scegliendo **Previsione flusso di cassa** e quindi **Ricalcola previsione**.
+Sebbene sia separato, il grafico **Previsione flusso di cassa** è simile. È possibile visualizzare i dettagli, filtrare i risultati e modificare gli elementi visualizzati negli stessi modi. Se si modifica un'impostazione, è possibile aggiornare la previsione scegliendo **Previsione flusso di cassa** e quindi **Ricalcola previsione** .
 
 Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibile analizzarne il prospetto flussi di cassa. Ad esempio, è possibile vedere come la previsione:
 
@@ -45,9 +45,9 @@ Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibil
 * Salta gli ordini di vendita e di acquisto doppi.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Per visualizzare un prospetto flusso di cassa
-1. Cercare **Previsioni flusso di cassa**, quindi selezionare il collegamento correlato.  
-2. Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa**.  
-3. Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto**.  
+1. Cercare **Previsioni flusso di cassa** , quindi selezionare il collegamento correlato.  
+2. Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa** .  
+3. Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto** .  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 

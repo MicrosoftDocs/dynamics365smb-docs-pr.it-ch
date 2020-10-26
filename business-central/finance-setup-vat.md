@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: fe12cf42dd2f7b763c5a2940e70f6db4617e1005
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611685"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919564"
 ---
 # <a name="set-up-value-added-tax"></a>Impostare l'IVA (imposta sul valore aggiunto)
 
@@ -39,7 +39,7 @@ Si consiglia di utilizzare il setup IVA assistito per impostare l'IVA in [!INCLU
 
 Per avviare la Guida assistita al setup, attenersi a questa procedura:
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Setup assistito**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Setup assistito** .  
 2. Scegliere **Imposta l'IVA** e completare i passaggi.
 3. Dopo aver completato il setup assistito, visitare la pagina **Setup registrazioni IVA** e verificare se è necessario compilare campi aggiuntivi in base ai requisiti della versione di [!INCLUDE [prodshort](includes/prodshort.md)]. Per ulteriori informazioni, vedere [Funzionalità locale in Business Central](about-localization.md)  
 
@@ -49,9 +49,9 @@ Per garantire che le persone inseriscano numeri di partita IVA validi, è possib
 
 Per impostare i numeri di partita VAT, attenersi a questa procedura:
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Paesi**.
-2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA**.
-3. Nel campo **Formati**, specificare il formato immettendo uno o più dei seguenti caratteri:  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Paesi** .
+2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA** .
+3. Nel campo **Formati** , specificare il formato immettendo uno o più dei seguenti caratteri:  
 
 * **#** Richiede un numero a una cifra.  
 * **@** Richiede una lettera. Non viene fatta distinzione tra maiuscole e minuscole.  
@@ -61,9 +61,9 @@ Per impostare i numeri di partita VAT, attenersi a questa procedura:
     > È possibile utilizzare altri caratteri purché siano sempre presenti nel formato del paese. Ad esempio, se è necessario includere un punto o un trattino tra i set di numeri, è possibile definire il formato come ##.####.### o @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Per impostare le categorie di registrazione business IVA
-Le categorie di registrazione business IVA dovrebbero rappresentare i mercati in cui si intrattengono relazioni commerciali con clienti e fornitori e dovrebbero definire il modo in cui calcolare l'IVA in ogni mercato. Esempi di categoria di registrazione business IVA sono **Nazionale** e **Unione Europea (UE)**.  
+Le categorie di registrazione business IVA dovrebbero rappresentare i mercati in cui si intrattengono relazioni commerciali con clienti e fornitori e dovrebbero definire il modo in cui calcolare l'IVA in ogni mercato. Esempi di categoria di registrazione business IVA sono **Nazionale** e **Unione Europea (UE)** .  
 
-Utilizzare codici semplici da ricordare e che descrivano la categoria di registrazione business, ad esempio **Nazionale**, **UE**, **Non UE**. Il codice deve essere unico. Non è possibile utilizzare lo stesso codice più volte in una tabella, sebbene sia possibile impostare un numero indefinito di codici.
+Utilizzare codici semplici da ricordare e che descrivano la categoria di registrazione business, ad esempio **Nazionale** , **UE** , **Non UE** . Il codice deve essere unico. Non è possibile utilizzare lo stesso codice più volte in una tabella, sebbene sia possibile impostare un numero indefinito di codici.
 
 Per impostare una categoria di registrazione business IVA, attenersi a questa procedura:
 
@@ -74,7 +74,7 @@ Le categorie di registrazione business IVA di default vengono impostate collegan
 
 ## <a name="to-set-up-vat-product-posting-groups"></a>Per impostare le categorie di registrazione articoli/servizi IVA
 Le categorie di registrazione articoli/servizi IVA rappresentano articoli e risorse acquistate o vendute e determinano la tipologia di calcolo e di registrazione dell'IVA in base al tipo di articolo o risorsa acquistato o venduto.  
-Si consiglia di utilizzare codici semplici da ricordare e descrittivi. Ad esempio, **NO-IVA** o **Zero**, **IVA10** o **Ridotta** per IVA al 10% e **IVA25** o **Standard** per il 25%.
+Si consiglia di utilizzare codici semplici da ricordare e descrittivi. Ad esempio, **NO-IVA** o **Zero** , **IVA10** o **Ridotta** per IVA al 10% e **IVA25** o **Standard** per il 25%.
 
 Per impostare una categoria di registrazione business IVA, attenersi a questa procedura:
 
@@ -105,20 +105,20 @@ Nelle sezioni successive viene descritto come assegnare le categorie di registra
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Per assegnare categorie di registrazione IVA a singoli conti di contabilità generale
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda **Conto C/G** per il conto.  
-3. Nella Scheda dettaglio **Registrazione**, nel campo **Tipo reg. gen.**, selezionare **Vendita** o **Acquisto**.  
+3. Nella Scheda dettaglio **Registrazione** , nel campo **Tipo reg. gen.** , selezionare **Vendita** o **Acquisto** .  
 5. Scegliere le categorie di registrazione IVA da utilizzare per il conto vendite o acquisti.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Per assegnare le categorie di registrazione business IVA a clienti e fornitori  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cliente** o **Fornitore** e quindi scegliere il collegamento correlato.  
-2. Nella scheda del **Cliente** o **Fornitore**, espandere la Scheda dettaglio **Fatturazione**.  
+2. Nella scheda del **Cliente** o **Fornitore** , espandere la Scheda dettaglio **Fatturazione** .  
 3. Scegliere la categoria di registrazione business IVA.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Per assegnare le categorie di registrazione articoli/servizi IVA a singoli articoli e risorse  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articolo** o **Risorsa** e quindi scegliere il collegamento correlato.  
 2. Effettuare una delle seguenti operazioni:  
 
-* Nella scheda **Articolo** espandere la Scheda dettaglio **Prezzo e registrazione** quindi scegliere **Mostra di più** per visualizzare il campo **Cat. reg. art./serv. IVA**.  
-* Nella scheda **Risorsa** espandere la Scheda dettaglio **Fatturazione**.  
+* Nella scheda **Articolo** espandere la Scheda dettaglio **Prezzo e registrazione** quindi scegliere **Mostra di più** per visualizzare il campo **Cat. reg. art./serv. IVA** .  
+* Nella scheda **Risorsa** espandere la Scheda dettaglio **Fatturazione** .  
 3. Scegliere la categoria di registrazione articoli/servizi IVA.  
 
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Impostazione delle categorie per spiegare l'esenzione IVA o le aliquote IVA non standard
@@ -126,7 +126,7 @@ Nelle sezioni successive viene descritto come assegnare le categorie di registra
 
 Se necessario, è anche possibile specificare come tradurre automaticamente le categorie IVA in altre lingue. Successivamente, quando si crea e si stampa un documento di vendita contenente un codice IVA, il documento includerà la categoria IVA nel testo tradotto. Il codice lingua specificato nella scheda cliente determina la lingua.
 
-Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti, come fatture o note di credito, le società sono generalmente tenute a includere un testo di esenzione (categoria IVA) indicante il motivo per cui è stata calcolata un'IVA ridotta o un'aliquota IVA zero. È possibile definire diverse categorie IVA da includere nei documenti commerciali per tipo di documento, come fattura o nota di credito. È possibile eseguire questa operazione nella pagina **Categorie IVA per tipo di documento**.
+Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti, come fatture o note di credito, le società sono generalmente tenute a includere un testo di esenzione (categoria IVA) indicante il motivo per cui è stata calcolata un'IVA ridotta o un'aliquota IVA zero. È possibile definire diverse categorie IVA da includere nei documenti commerciali per tipo di documento, come fattura o nota di credito. È possibile eseguire questa operazione nella pagina **Categorie IVA per tipo di documento** .
 
 È possibile modificare o eliminare una categoria IVA. Le modifiche si rifletteranno in un report generato. Tuttavia, [!INCLUDE[d365fin](includes/d365fin_md.md)] non conserva una cronologia della modifica. Nel report, le descrizioni della categoria IVA vengono stampate e visualizzate per tutte le righe del report accanto all'importo IVA e all'imponibile IVA. Se una categoria IVA non è stata definita per alcune righe del documento di vendita, allora viene omessa l'intera sezione quando il report viene stampato.
 
@@ -135,10 +135,10 @@ Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti
 2. Nella pagina **Categorie IVA** creare una nuova riga.  
 3. Nel campo **Codice** immettere un identificatore per la categoria. Il codice viene usato per assegnare la categoria ai categorie di registrazione IVA.  
 4. Nel campo **Descrizione** immettere il testo per l'esenzione IVA che si desidera visualizzare nei documenti che possono includere l'IVA. Nel campo **Descrizione 2** immettere testo aggiuntivo, se necessario. Il testo verrà visualizzato sulle nuove righe dei documenti.
-5. Scegliere l'azione **Descrizione per tipo di documento**.
-6. Nella pagina **Categorie IVA per tipo di documento**, compilare i campi per impostare il testo per l'esenzione IVA da visualizzare tipi di documento specifici.  
-7. Facoltativo: per assegnare direttamente la categoria IVA a un setup registrazioni IVA, scegliere **Setup** e quindi la categoria. Se si desidera attendere, è possibile assegnare la categoria in seguito nella pagina **Setup registrazioni IVA**.  
-8. Facoltativo: per specificare come tradurre automaticamente la categoria IVA scegliere l'azione **Traduzioni**.
+5. Scegliere l'azione **Descrizione per tipo di documento** .
+6. Nella pagina **Categorie IVA per tipo di documento** , compilare i campi per impostare il testo per l'esenzione IVA da visualizzare tipi di documento specifici.  
+7. Facoltativo: per assegnare direttamente la categoria IVA a un setup registrazioni IVA, scegliere **Setup** e quindi la categoria. Se si desidera attendere, è possibile assegnare la categoria in seguito nella pagina **Setup registrazioni IVA** .  
+8. Facoltativo: per specificare come tradurre automaticamente la categoria IVA scegliere l'azione **Traduzioni** .
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Per assegnare una categoria IVA a un setup di registrazione
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni IVA** e quindi scegliere il collegamento correlato.  
@@ -146,7 +146,7 @@ Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Per specificare le traduzioni per le categorie IVA
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie IVA** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Traduzioni**.  
+2. Scegliere l'azione **Traduzioni** .  
 3. Nel campo **Codice lingua** selezionare la lingua verso cui tradurre.  
 4. Nei campi **Descrizione** e **Descrizione 2** immettere il testo tradotto delle descrizioni. Questo testo viene visualizzato nei documenti di report IVA tradotti.  
 
@@ -158,7 +158,7 @@ Per impostare i codici per l'IVA sull'importazione, attenersi a questa procedura
 2. Nella pagina Categorie reg. art./serv. IVA impostare una nuova categoria di registrazione articoli/servizi IVA per l'IVA da importazione.  
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni IVA** e quindi scegliere il collegamento correlato.  
 4. Nella pagina Setup registrazioni IVA creare una nuova riga o utilizzare una delle categorie di registrazione business IVA esistenti in combinazione con la nuova categoria di registrazione articoli/servizi IVA per l'IVA da importazione.  
-5. Nel campo **Tipologia IVA** selezionare **Sola IVA**.  
+5. Nel campo **Tipologia IVA** selezionare **Sola IVA** .  
 6. Nel campo **Conto IVA Acquisti** immettere il conto C/G da utilizzare per registrare l'IVA da importazione. Tutti gli altri conti sono facoltativi.  
 
 
@@ -177,7 +177,7 @@ Sulle vendite a società soggette a IVA in altri paesi UE l'IVA non viene calcol
 Per calcolare correttamente l'IVA sulle vendite nei paesi UE, è necessario effettuare le seguenti operazioni:  
 
 * Impostare una riga per le vendite con le stesse informazioni degli acquisti. Se sono già state impostate righe nella pagina Setup registrazioni IVA per gli acquisti dai paesi UE, è possibile quindi utilizzare tali righe anche per le vendite.  
-* Assegnare categorie di registrazione business IVA nel campo **Cat. reg. business IVA** nella Scheda dettaglio **Fatturazione** della scheda cliente di ciascun cliente dell'UE. È inoltre necessario immettere la partita IVA del cliente nel campo **Partita IVA** della Scheda dettaglio **Commercio estero**.  
+* Assegnare categorie di registrazione business IVA nel campo **Cat. reg. business IVA** nella Scheda dettaglio **Fatturazione** della scheda cliente di ciascun cliente dell'UE. È inoltre necessario immettere la partita IVA del cliente nel campo **Partita IVA** della Scheda dettaglio **Commercio estero** .  
 
 Quando si registra una vendita a un cliente in un altro paese UE, viene calcolato l'importo IVA e viene creato un movimento IVA con le informazioni sull'IVA intracomunitaria e sull'imponibile IVA, ovvero l'importo utilizzato per calcolare l'importo IVA. Non vengono registrati movimenti nei conti IVA nella contabilità generale.
 

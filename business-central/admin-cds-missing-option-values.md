@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693042"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911697"
 ---
 # <a name="handling-missing-option-values"></a>Gestione dei valori delle opzioni mancanti
 [!INCLUDE[d365fin](includes/cds_long_md.md)] contiene solo tre campi di set di opzioni che contengono valori di opzioni su cui è possibile eseguire il mapping ai campi [!INCLUDE[d365fin](includes/d365fin_md.md)] di tipo Opzione<!-- Option type, not enum? @Onat can you vertify this? --> per la sincronizzazione automatica. Durante la sincronizzazione, le opzioni non mappate vengono ignorate e le opzioni mancanti vengono aggiunte alla relativa tabella [!INCLUDE[d365fin](includes/d365fin_md.md)] e aggiunte alla tabella di sistema **Mappatura opzione CDS** da gestire manualmente in seguito. Ad esempio, aggiungendo le opzioni mancanti in entrambi i prodotti e quindi aggiornando la mappatura. Questa sezione descrive come funziona.
@@ -36,7 +36,7 @@ La pagina **Mapping tabella integrazione** contiene tre mapping per i campi che 
 | Spedizioniere: FULLLOAD   | 6            | Carico completo            |
 | Spedizioniere: WILLCALL   | 7            | Chiamata            |
 
-Il contenuto della pagina **Mappatura opzione CDS** si basa su valori di enumerazione nella tabella **Account CDS**. In [!INCLUDE[d365fin](includes/cds_long_md.md)], i seguenti campi sull'entità account vengono mappati ai campi nei record cliente e fornitore:
+Il contenuto della pagina **Mappatura opzione CDS** si basa su valori di enumerazione nella tabella **Account CDS** . In [!INCLUDE[d365fin](includes/cds_long_md.md)], i seguenti campi sull'entità account vengono mappati ai campi nei record cliente e fornitore:
 
 - **Indirizzo 1: termini di spedizione** del tipo di dati Enum, dove i valori sono definiti come segue:
 
@@ -109,7 +109,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-d365fin-option-mapping"></a>Aggiornare la mappatura delle opzioni [!INCLUDE[d365fin](includes/cds_long_md.md)]
 Ora puoi ricreare la mappatura tra le opzioni [!INCLUDE[d365fin](includes/cds_long_md.md)] e i record [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Nella pagina **Mapping tabella integrazione**, scegli la riga per il mapping **Condizioni pagamento**, quindi scegliere l'azione **Sincronizza record modificati**. La pagina **Mappatura opzione CDS** viene aggiornata con i record aggiuntivi di seguito.
+Nella pagina **Mapping tabella integrazione** , scegli la riga per il mapping **Condizioni pagamento** , quindi scegliere l'azione **Sincronizza record modificati** . La pagina **Mappatura opzione CDS** viene aggiornata con i record aggiuntivi di seguito.
 
 |         Record                 | Valore opzione   | Didascalia valore opzione |
 |--------------------------------|----------------|----------------------|

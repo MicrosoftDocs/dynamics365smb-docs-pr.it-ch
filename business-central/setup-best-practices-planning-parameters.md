@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 98b0f0542d5d6123b1d512e343b89bd6059bb739
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a1f6002f0c57530282b5688c0fe81c36a1d4e7e1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782561"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912939"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Impostare le procedure ottimali: Pianificazione dei parametri
 La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centrale della supply chain di una società. L'impostazione dei parametri di pianificazione corretti è molto importante per un controllo del magazzino conveniente e un'assistenza clienti di ottima qualità.  
 
- Nella seguente tabella vengono fornite le procedure consigliate sulla modalità di impostazione dei campi dei parametri di pianificazione selezionati. Per ulteriori informazioni su un campo, scegliere il collegamento nella colonna **Campo Setup**.  
+ Nella seguente tabella vengono fornite le procedure consigliate sulla modalità di impostazione dei campi dei parametri di pianificazione selezionati. Per ulteriori informazioni su un campo, scegliere il collegamento nella colonna **Campo Setup** .  
 
 |Campo Setup|Procedura consigliata|Commento|  
 |-----------------|-------------------|-------------|  
 |Metodo di riordino||Per ulteriori informazioni, vedere [Impostare le procedure ottimali: metodi di riordino](setup-best-practices-reordering-policies.md).|  
 |Impegna|Selezionare **Mai** quando l'articolo viene pianificato utilizzando un punto di riordino.<br /><br /> Nella produzione selezionare **Mai** per consentire al sistema di pianificazione di soddisfare tutte le richieste.<br /><br /> Selezionare **Facoltativo** per gli articoli che si potrebbero voler riservare a clienti prioritari.<br /><br /> Selezionare **Sempre** per articoli non specifici, come, ad esempio, articoli di tipo vario che sono in entrata per domande specifiche.|Gli impegni in genere neutralizzano lo scopo della pianificazione, ovvero bilanciare la domanda e l'approvvigionamento. Pertanto, gli articoli impostati per la pianificazione in genere non devono essere impegnati.<br /><br /> Se l'utente impegna una quantità di magazzino per una richiesta futura, la struttura di pianificazione verrà disturbata e il punto di riordino potrebbe non funzionare correttamente. Anche se il livello della quantità scorte previste è ammesso relativamente al punto di riordino, le quantità potrebbero non essere disponibili a causa dell'impegno.|  
-|Periodo di stabilizzazione|Impostare relativamente alla flessibilità del fornitore.<br /><br /> Un periodo più breve consente di ridurre il capitale di lavoro evitando scorte eccessive, ma comporta anche azioni di riprogrammazione.|Se il fornitore accetta le modifiche dell'ultimo minuto agli ordini, utilizzare un periodo più breve, ma essere pronti a più azioni di riprogrammazione. Se il fornitore richiede una pianificazione costante, estendere il periodo il più possibile.<br /><br /> Per informazioni sul campo **Periodo di stabilizzazione**, vedere [Mostra dettagli di pianificazione: Parametri di pianificazione](design-details-planning-parameters.md).|  
+|Periodo di stabilizzazione|Impostare relativamente alla flessibilità del fornitore.<br /><br /> Un periodo più breve consente di ridurre il capitale di lavoro evitando scorte eccessive, ma comporta anche azioni di riprogrammazione.|Se il fornitore accetta le modifiche dell'ultimo minuto agli ordini, utilizzare un periodo più breve, ma essere pronti a più azioni di riprogrammazione. Se il fornitore richiede una pianificazione costante, estendere il periodo il più possibile.<br /><br /> Per informazioni sul campo **Periodo di stabilizzazione** , vedere [Mostra dettagli di pianificazione: Parametri di pianificazione](design-details-planning-parameters.md).|  
 |Includi giacenze|Selezionare sempre quando si sta utilizzando il metodo di riordino lotto-per-lotto.|Non selezionare solo in circostanze particolari, come, ad esempio, quando gli articoli in magazzino non sono vendibili.|  
 |Lead time di sicurezza|Impostare un valore compreso tra 1D e 6D.<br /><br /> Impostare un lead time di sicurezza di almeno un giorno per assicurarsi che i rifornimenti siano disponibili il giorno precedente alla richiesta.<br /><br /> Se si utilizza un nuovo fornitore, definire un tempo maggiore finché non sono note le prestazioni di consegna.<br /><br /> Nella produzione definire lead time di sicurezza più lunghi per componenti critici.|L'approvvigionamento pianificato dal sistema per evitare l'esaurimento delle scorte arriverà lo stesso giorno in cui si verifica l'esaurimento delle scorte. Potrebbe risultare in ritardo di alcune ore se, ad esempio, la domanda è richiesta di mattina e l'approvvigionamento arriva nel pomeriggio. **Nota:** Il campo **Lead time di sicurezza** utilizza il calendario di base. Pertanto, 14D non significa necessariamente due settimane.|  
 |Scorta di sicurezza|Utilizzare per gli articoli con grandi fluttuazioni della domanda.<br /><br /> Nella produzione utilizzare per i componenti critici.<br /><br /> Utilizzare gli articoli che sono soggetti ai contratti di assistenza.|Se il campo **Punto riordino** non è compilato, la scorta di sicurezza funziona anche come punto di riordino.|  
@@ -38,7 +38,7 @@ La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centr
 > [!NOTE]  
 >  Le procedure consigliate per i parametri di pianificazione nelle schede articolo si applicano anche agli stessi campi nelle schede USK.  
 >   
->  Se le società pianificano la domanda in ubicazioni diverse, è consigliabile definire le unità di stockkeeping per ogni ubicazione e che tutta la domanda venga creata utilizzando un valore nel campo **Cod. ubicazione**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
+>  Se le società pianificano la domanda in ubicazioni diverse, è consigliabile definire le unità di stockkeeping per ogni ubicazione e che tutta la domanda venga creata utilizzando un valore nel campo **Cod. ubicazione** . Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
 
 ## <a name="see-also"></a>Vedi anche  
  [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)   

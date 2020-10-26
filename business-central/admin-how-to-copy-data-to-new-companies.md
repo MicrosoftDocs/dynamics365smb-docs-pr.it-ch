@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 120ad8c446f0626443c8c76a649424cd5bc11a4b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d43d41541607985f9e4e9d94788099fd5e438a17
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783719"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911448"
 ---
 # <a name="copy-data-to-new-companies"></a>Copiare i dati in nuove società
 È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database. Ad esempio, se si dispone di un elenco standard dei codici indizio che è comune a tutte le implementazioni di gestione dell'assistenza, è possibile copiare i codici in modo facile da una società a un'altra.  
@@ -23,9 +23,9 @@ ms.locfileid: "3783719"
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Per copiare i dati in una nuova società utilizzando RapidStart Services  
 1. Apre la nuova società.  
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
-3. Scegliere l'azione **Copia dati da società**.  
-4. Nella pagina **Copia dati società**, scegliere una società da copiare dal campo **Copia da**, quindi scegliere **OK**.  
-5. Selezionare una tabella da uno dei pacchetti di configurazione importati quindi scegliere **Copia dati**.
+3. Scegliere l'azione **Copia dati da società** .  
+4. Nella pagina **Copia dati società** , scegliere una società da copiare dal campo **Copia da** , quindi scegliere **OK** .  
+5. Selezionare una tabella da uno dei pacchetti di configurazione importati quindi scegliere **Copia dati** .
 
 ## <a name="see-also"></a>Vedi anche
 [Applicazione della configurazione a nuove società](admin-apply-configuration-to-new-companies.md)  

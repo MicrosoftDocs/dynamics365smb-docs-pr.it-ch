@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 258e17fc2ddd698f0ab74c2ee7afec7b78c63c6e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788673"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915603"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
@@ -34,7 +34,7 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 
 > [!Warning]  
 > Quando si utilizza il Prospetto collegamento, è importante prendere in considerazione quanto indicato di seguito:
-    - Non è consigliabile lasciare i movimenti di collegamento scollegati per lungi periodi di tempo poiché altri utenti non possono elaborare gli articoli finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento**. Gli utenti che provano a realizzare le azioni che includono un movimento di collegamento manualmente scollegato ricevono il seguente messaggio di errore: “Impossibile eseguire questa azione perché i movimenti per l'articolo XXX non sono applicati in XXX dall'utente XXX".
+    - Non è consigliabile lasciare i movimenti di collegamento scollegati per lungi periodi di tempo poiché altri utenti non possono elaborare gli articoli finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento** . Gli utenti che provano a realizzare le azioni che includono un movimento di collegamento manualmente scollegato ricevono il seguente messaggio di errore: “Impossibile eseguire questa azione perché i movimenti per l'articolo XXX non sono applicati in XXX dall'utente XXX".
     - È consigliabile collegare solo i movimenti contabili articoli durante le ore non lavorative per evitare conflitti con altri utenti che registrano transazioni con gli stessi articoli.
     - Quando si chiude il Prospetto collegamento, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene eseguito un controllo automatico per verificare che tutti i movimenti siano collegati. Se, ad esempio, si rimuove il collegamento a una quantità ma non si crea un nuovo collegamento, quindi si chiude il Prospetto collegamento, viene creato un nuovo collegamento. In questo modo, i costi rimangono intatti. Tuttavia, se si rimuove un collegamento fisso, al momento della chiusura del prospetto non ne viene creato automaticamente uno nuovo. È necessario eseguire questa operazione manualmente creando un nuovo collegamento nel prospetto.
     - Nel Prospetto collegamento è possibile rimuovere i collegamenti da più di un movimento per volta. Poiché, tuttavia, il collegamento di movimenti influenza l'insieme dei movimenti disponibili per il collegamento, non è possibile creare un collegamento per più di un movimento per volta.
@@ -44,33 +44,33 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto collegamento** e quindi scegliere il collegamento correlato.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Immettere filtri nella Scheda dettaglio **Generale** per semplificare la ricerca del movimento contabile articolo per il quale si desidera modificare il collegamento.  
-4.  Selezionare il movimento contabile articolo e scegliere l'azione **Movimenti collegati**. Verrà aperta la pagina **Visualizza movimenti collegati - Movimenti collegati** in cui saranno visualizzati uno o più movimenti contabili articoli attualmente collegati al movimento selezionato.  
+4.  Selezionare il movimento contabile articolo e scegliere l'azione **Movimenti collegati** . Verrà aperta la pagina **Visualizza movimenti collegati - Movimenti collegati** in cui saranno visualizzati uno o più movimenti contabili articoli attualmente collegati al movimento selezionato.  
 5.  Selezionare il movimento per il quale si desidera rimuovere il collegamento.  
-6.  Scegliere l'azione **Rimuovi collegamento**. In questo modo si rimuove il movimento di collegamento articolo che collega i due movimenti contabili articoli e lo si sposta nella pagina **Visualizza movimenti collegati - Movimenti scollegati** .  
+6.  Scegliere l'azione **Rimuovi collegamento** . In questo modo si rimuove il movimento di collegamento articolo che collega i due movimenti contabili articoli e lo si sposta nella pagina **Visualizza movimenti collegati - Movimenti scollegati** .  
 7.  Chiudere la pagina **Visualizza movimenti collegati - Movimenti collegati** .  
 
  Il valore dei campi **Quantità residua** dei due movimenti contabili articoli viene aumentato della quantità che non è stata collegata. Il movimento contabile articolo rimosso è ora disponibile per il nuovo collegamento nella pagina **Visualizza movimenti collegati - Movimenti scollegati** .  
 
 > [!IMPORTANT]  
->  Non è consigliabile lasciare i movimenti di collegamento scollegati per periodi di tempo più lunghi poiché altri utenti non possono elaborare gli articoli interessati finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento**. Il seguente messaggio di errore viene visualizzato se si tenta di eseguire operazioni che includono un movimento di collegamento manualmente scollegato:  
+>  Non è consigliabile lasciare i movimenti di collegamento scollegati per periodi di tempo più lunghi poiché altri utenti non possono elaborare gli articoli interessati finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento** . Il seguente messaggio di errore viene visualizzato se si tenta di eseguire operazioni che includono un movimento di collegamento manualmente scollegato:  
 >   
 >  **Impossibile eseguire questa azione perché i movimenti per l'articolo <item> non sono applicati nel prospetto collegamento dall'utente <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Per riapplicare un collegamento articoli tramite il Prospetto collegamento  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto collegamento** e quindi scegliere il collegamento correlato.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
-3.  Per ricollegare i movimenti rimossi dopo l'apertura del prospetto, selezionare il movimento contabile articolo che si desidera ricollegare, quindi scegliere l'azione **Ricollega**.  
+3.  Per ricollegare i movimenti rimossi dopo l'apertura del prospetto, selezionare il movimento contabile articolo che si desidera ricollegare, quindi scegliere l'azione **Ricollega** .  
 
     > [!NOTE]  
-    >  Questo ricollegamento al saldo originale viene eseguito anche automaticamente quando si chiude la pagina **Prospetto collegamento**.  
-4.  Per collegare un movimento contabile aperto disponibile a un altro movimento, selezionare il movimento contabile articolo che si desidera collegare. Scegliere l'azione **Movimenti scollegati**. Viene visualizzata la pagina **Visualizza movimenti collegati - Movimenti scollegati** .  
-5.  Selezionare uno o più movimenti contabili articoli che si desidera collegare al movimento selezionato nella pagina **Prospetto collegamento**, quindi fare clic su **OK**.  
+    >  Questo ricollegamento al saldo originale viene eseguito anche automaticamente quando si chiude la pagina **Prospetto collegamento** .  
+4.  Per collegare un movimento contabile aperto disponibile a un altro movimento, selezionare il movimento contabile articolo che si desidera collegare. Scegliere l'azione **Movimenti scollegati** . Viene visualizzata la pagina **Visualizza movimenti collegati - Movimenti scollegati** .  
+5.  Selezionare uno o più movimenti contabili articoli che si desidera collegare al movimento selezionato nella pagina **Prospetto collegamento** , quindi fare clic su **OK** .  
 
      Verrà creato un movimento collegamento articoli tra i due movimenti contabili articoli. I valori dei campi **Quantità residua** dei due movimenti verranno diminuiti della quantità collegata.  
 
     > [!NOTE]  
     >  Se si è scelto di creare un collegamento che provocherebbe la generazione di un ciclo infinito nel processo di rettifica del costo, il collegamento proposto non viene effettuato. Ciò può avvenire quando tramite i movimenti originali è stato creato uno stock negativo. Il collegamento non viene eseguito. Di conseguenza, è necessario selezionare un movimento diverso per il collegamento.  
-6.  Se nella finestra **Setup magazzino** il campo **Rettifica costo automatica** è impostato su **Sempre**, il processo batch di rettifica del costo viene eseguito automaticamente dopo la creazione di un nuovo collegamento. In caso contrario, eseguire il processo batch **Rettifica costo - Movimenti articoli** per assicurarsi che tutti i costi siano aggiornati.  
+6.  Se nella finestra **Setup magazzino** il campo **Rettifica costo automatica** è impostato su **Sempre** , il processo batch di rettifica del costo viene eseguito automaticamente dopo la creazione di un nuovo collegamento. In caso contrario, eseguire il processo batch **Rettifica costo - Movimenti articoli** per assicurarsi che tutti i costi siano aggiornati.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  

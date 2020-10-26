@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e2099599edcf5217b0130e75bbb171fddd39839e
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611477"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915153"
 ---
 # <a name="the-image-analyzer-extension"></a>Estensione di analisi immagini
 
@@ -25,7 +25,7 @@ L'analisi immagini suggerisce gli attributi in base ai tag trovati dall'API Visi
 
 L'estensione di analisi immagini è gratuita in [!INCLUDE[d365fin](includes/d365fin_md.md)], ma esiste un limite al numero di articoli che è possibile analizzare durante un determinato periodo di tempo. Per impostazione predefinita, è possibile analizzare 100 immagini al mese.
 
-Dopo che l'estensione è stata abilitata, l'analisi delle immagini viene eseguita ogni volta che si importa un'immagine in un articolo o un contatto. Verranno visualizzati gli attributi, il livello di affidabilità e i dettagli immediatamente ed è possibile decidere quali azioni intraprendere con ogni attributo. Se le immagini sono state importate prima di avere abilitato l'estensione di analisi di immagini, è necessario passare all'articolo o alle schede contatti e scegliere l'azione **Analizza immagine**.  
+Dopo che l'estensione è stata abilitata, l'analisi delle immagini viene eseguita ogni volta che si importa un'immagine in un articolo o un contatto. Verranno visualizzati gli attributi, il livello di affidabilità e i dettagli immediatamente ed è possibile decidere quali azioni intraprendere con ogni attributo. Se le immagini sono state importate prima di avere abilitato l'estensione di analisi di immagini, è necessario passare all'articolo o alle schede contatti e scegliere l'azione **Analizza immagine** .  
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
 
@@ -44,12 +44,12 @@ Le immagini devono soddisfare alcuni requisiti:
 L'estensione di analisi delle immagini è incorporata in [!INCLUDE[d365fin](includes/d365fin_md.md)]. È solo necessario attivarla.
 
 > [!NOTE]  
-> Per abilitare l'estensione di analisi delle immagini, è necessario disporre dei diritti di amministratore. Assicurarsi di disporre del set di autorizzazioni come utente con privilegi **AVANZATI**.
+> Per abilitare l'estensione di analisi delle immagini, è necessario disporre dei diritti di amministratore. Assicurarsi di disporre del set di autorizzazioni come utente con privilegi **AVANZATI** .
 
 1. Per attivare l'estensione di analisi immagini, effettuare una delle seguenti operazioni:
 
 * Aprire un articolo o una scheda contatto. Nella barra di notifica scegliere **Analisi immagine** e seguire i passaggi nella Guida assistita di setup.  
-* Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup analisi immagine**. Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
+* Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup analisi immagine** . Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
 
     > [!TIP]  
     > Nella pagina **Setup analisi immagine** è possibile anche modificare il grado di affidabilità per i suggerimenti relativi all'attributo. Ad esempio, se si intende richiedere un maggior grado di affidabilità, è possibile immettere un valore percentuale più alto.
@@ -59,19 +59,19 @@ L'estensione di analisi delle immagini è incorporata in [!INCLUDE[d365fin](incl
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
-2. Selezionare l'articolo, quindi scegliere l'azione **Analizza immagine**.  
+2. Selezionare l'articolo, quindi scegliere l'azione **Analizza immagine** .  
 3. Nella pagina **Attributi analisi immagini** vengono visualizzati gli attributi trovati, il livello di affidabilità e altre informazioni relative all'attributo. Utilizzare le opzioni **Azione da eseguire** per specificare l'azione da intraprendere per l'attributo.  
 
     > [!TIP]  
-    > È possibile aggiungere il nome dell'attributo alla descrizione dell'articolo selezionando **Aggiungi a descrizione articolo**. Ad esempio, questo può essere utile per aggiungere rapidamente un dettaglio.  
+    > È possibile aggiungere il nome dell'attributo alla descrizione dell'articolo selezionando **Aggiungi a descrizione articolo** . Ad esempio, questo può essere utile per aggiungere rapidamente un dettaglio.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Per analizzare un'immagine di una persona di contatto
 
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.  
-2. Selezionare la persona di contatto, quindi scegliere l'azione **Analizza immagine**.  
-3. Nella Scheda dettaglio **Questionario profilo**, esaminare i suggerimenti e apportare le correzioni, se necessario.  
+2. Selezionare la persona di contatto, quindi scegliere l'azione **Analizza immagine** .  
+3. Nella Scheda dettaglio **Questionario profilo** , esaminare i suggerimenti e apportare le correzioni, se necessario.  
 
 ## <a name="block-suggested-attributes"></a>Bloccare gli attributi suggeriti
 
@@ -92,12 +92,12 @@ Se l'analisi propone un attributo che non si desidera visualizzare, è possibile
 È possibile visualizzare il numero delle analisi effettuate e il numero rimanente per il periodo corrente.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup Analizzatore immagine** e quindi scegliere il collegamento correlato.  
-2. I campi **Tipo di limite**, **Valore limite** e **Analisi eseguite** forniscono informazioni sull'utilizzo.  
+2. I campi **Tipo di limite** , **Valore limite** e **Analisi eseguite** forniscono informazioni sull'utilizzo.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Per interrompere l'utilizzo dell'estensione di analisi immagini
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup Analizzatore immagine**.  
-2. Deselezionare la casella di controllo **Abilita analisi immagine**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup Analizzatore immagine** .  
+2. Deselezionare la casella di controllo **Abilita analisi immagine** .  
 
 ## <a name="see-also"></a>Vedi anche
 

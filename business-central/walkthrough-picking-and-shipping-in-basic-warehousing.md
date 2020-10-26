@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d607037d76f0778aa0f1037ac9540cfd3d497dbd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786839"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918508"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base
 
@@ -62,9 +62,9 @@ Per completare questa procedura dettagliata, sarà necessario:
 - Per diventare un impiegato warehouse presso l'ubicazione ARGENTO, effettuare i seguenti passaggi:  
 
   1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
-  2. Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
+  2. Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti** .  
   3. Nel campo **Codice ubicazione** immettere ARGENTO.  
-  4. Selezionare il campo **Default**.  
+  4. Selezionare il campo **Default** .  
 
 - Rendere l'articolo LS-81 disponibile nell'ubicazione ARGENTO seguendo i passaggi di seguito riportati:  
 
@@ -76,7 +76,7 @@ Per completare questa procedura dettagliata, sarà necessario:
         |Rettifica positiva|LS-81|ARGENTO|S-01-0001|20|  
         |Rettifica positiva|LS-81|ARGENTO|S-01-0002|20|  
 
-  3. Scegliere l'azione **Registra**, quindi selezionare il pulsante **Sì**.  
+  3. Scegliere l'azione **Registra** , quindi selezionare il pulsante **Sì** .  
 
 ## <a name="story"></a>Scenario
 
@@ -90,7 +90,7 @@ L'impostazione della pagina **Scheda Ubicazione** definisce i flussi della wareh
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
 2. Aprire la scheda ubicazione ARGENTO.  
-3. Nella Scheda Dettaglio **Warehouse** scegliere la casella di controllo **Richiesto prelievo**.  
+3. Nella Scheda Dettaglio **Warehouse** scegliere la casella di controllo **Richiesto prelievo** .  
 
 ## <a name="creating-the-sales-order"></a>Creazione dell'ordine di vendita
 
@@ -99,7 +99,7 @@ Gli ordini di vendita sono il tipo più comune di documenti origine in uscita.
 ### <a name="to-create-the-sales-order"></a>Per creare l'ordine di vendita
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**.  
+2. Scegliere l'azione **Nuovo** .  
 3. Creare un ordine di vendita per il fornitore 10000 alla data di lavoro (23 gennaio) con la riga di ordine di vendita seguente.  
 
     |Articolo|Cod. ubicazione|Quantità|  
@@ -108,7 +108,7 @@ Gli ordini di vendita sono il tipo più comune di documenti origine in uscita.
 
      Comunicare alla warehouse che l'ordine di vendita è pronto per la gestione warehouse.  
 
-4. Scegliere l'azione **Rilascia**.  
+4. Scegliere l'azione **Rilascia** .  
 
     Gianni procede al prelievo e alla spedizione degli articoli venduti.  
 
@@ -119,17 +119,17 @@ Nella pagina **Prelievo magazzino** è possibile gestire tutte le attività di w
 ### <a name="to-pick-and-ship-items"></a>Per prelevare gli articoli e procedere alla spedizione
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi magazzino** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**.  
+2. Scegliere l'azione **Nuovo** .  
 
     Assicurarsi che il campo **Nr.** della Scheda dettaglio **Generale** sia compilato.
-3. Selezionare il campo **Documento origine**, quindi selezionare **Ordine vendita**.  
-4. Selezionare il campo **Nr. origine**, selezionare la riga per la vendita al cliente 10000 e fare clic sul pulsante **OK**.  
+3. Selezionare il campo **Documento origine** , quindi selezionare **Ordine vendita** .  
+4. Selezionare il campo **Nr. origine** , selezionare la riga per la vendita al cliente 10000 e fare clic sul pulsante **OK** .  
 
-    In alternativa, scegliere l'azione **Prendi documento origine**, quindi selezionare l'ordine di vendita.  
-5. Scegliere l'azione **Autocompil. qtà da gestire**.  
+    In alternativa, scegliere l'azione **Prendi documento origine** , quindi selezionare l'ordine di vendita.  
+5. Scegliere l'azione **Autocompil. qtà da gestire** .  
 
     In alternativa, nel campo **Qtà da gestire** immettere 10 e 20 rispettivamente nelle due righe di prelievo magazzino.  
-6. Scegliere l'azione **Registra**, selezionare **Spedizione**, quindi scegliere il pulsante **OK**.  
+6. Scegliere l'azione **Registra** , selezionare **Spedizione** , quindi scegliere il pulsante **OK** .  
 
     I 30 altoparlanti ora sono registrati come prelevati dalle collocazioni S-01-0001 e S-01-0002 e viene creato un movimento contabile articolo negativo che riflette la spedizione di vendita registrata.  
 

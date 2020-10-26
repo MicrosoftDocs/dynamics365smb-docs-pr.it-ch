@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410710"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910673"
 ---
 # <a name="track-packages"></a>Rintracciare i colli
 
@@ -24,9 +24,9 @@ La seguente procedura mostra come tenere traccia di un collo da una spedizione d
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.
 2. Aprire la spedizione desiderata.
-3. Scegliere l'azione **Aggiorna documento**.
+3. Scegliere l'azione **Aggiorna documento** .
 4. Nel campo **Nr. identificazione collo** immettere il numero di collo che è stato comunicato dallo spedizioniere. Aggiornare **Spedizioniere** se necessario e chiudere la pagina.
-5. Scegliere l'azione **Traccia collo**.
+5. Scegliere l'azione **Traccia collo** .
 
 La pagina di tracciabilità dello spedizioniere viene aperta nel browser predefinito.
 

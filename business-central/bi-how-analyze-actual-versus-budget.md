@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc0497b4e0add53ce983883cd58c10475c9d9a6e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 587e41ebb4e700b376e555e761a4aa221b49b6c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783511"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917669"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analisi degli importi effettivi e degli importi di budget
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, si visualizzano gli importi effettivi rispetto agli importi di budget per tutti i conti e per diversi periodi.
@@ -32,10 +32,10 @@ In un budget per cui siano state impostate delle dimensioni è possibile filtrar
 3. All'inizio della pagina, compilare i campi secondo le necessità per definire cosa viene visualizzato. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Se è stato selezionato il valore **Periodo** nel campo **Mostra come righe** oppure nel campo **Mostra come colonne**, è necessario compilare il campo **Visualizza per**. Se non è stato selezionato il valore **Periodo** nel campo **Mostra come righe** o **Mostra come colonne** immettere il periodo appropriato nel campo **Filtro data**.  
+>   Se è stato selezionato il valore **Periodo** nel campo **Mostra come righe** oppure nel campo **Mostra come colonne** , è necessario compilare il campo **Visualizza per** . Se non è stato selezionato il valore **Periodo** nel campo **Mostra come righe** o **Mostra come colonne** immettere il periodo appropriato nel campo **Filtro data** .  
 
 > [!NOTE]  
->   Sono inclusi nel calcolo solo i movimenti del budget contabilità generale con i codici di filtro che vengono immessi nella Scheda dettaglio **Filtri**. I movimenti di budget con codici di filtro diversi o privi di codice ne sono esclusi. Finché il filtro rimane nella pagina nel budget vengono visualizzate unicamente i movimenti con questi codici di filtro.  
+>   Sono inclusi nel calcolo solo i movimenti del budget contabilità generale con i codici di filtro che vengono immessi nella Scheda dettaglio **Filtri** . I movimenti di budget con codici di filtro diversi o privi di codice ne sono esclusi. Finché il filtro rimane nella pagina nel budget vengono visualizzate unicamente i movimenti con questi codici di filtro.  
 
 > [!TIP]  
 >   Se si desidera modificare il budget, è possibile modificare i movimenti del budget. Scegliere un importo per visualizzare i movimenti del budget della contabilità generale sottostanti.
@@ -44,7 +44,7 @@ In un budget per cui siano state impostate delle dimensioni è possibile filtrar
 È possibile visualizzare budget di contabilità generale e confrontarli con le cifre effettive in diverse aree di [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Piano dei conti**, selezionare l'azione **Saldo budget C/G**.
+2. Nella pagina **Piano dei conti** , selezionare l'azione **Saldo budget C/G** .
 3. All'inizio della pagina, compilare i campi secondo le necessità per definire cosa viene visualizzato.  
 4. Per visualizzare una specifica che costituisce l'importo mostrato, selezionare il campo.  
 
@@ -54,13 +54,13 @@ In un budget per cui siano state impostate delle dimensioni è possibile filtrar
 Le colonne a sinistra contengono il piano dei conti. Delle quattro colonne sulla destra, le prime quattro indicano gli importi dare e avere effettivi e previsti per ciascun conto. La quinta indica la relazione proporzionale tra gli importi effettivi e preventivati del conto C/G.  
 
 > [!TIP]  
->   Utilizzare il campo **Visualizza per** nella pagina **Saldo budget C/G** per selezionare la durata del periodo. Utilizzare il campo **Visualizza come** per selezionare la modalità di calcolo degli importi, **Saldo periodo** o **Saldo alla data**. Scegliere l'azione **Periodo precedente** o **Periodo successivo** per modificare il periodo.  
+>   Utilizzare il campo **Visualizza per** nella pagina **Saldo budget C/G** per selezionare la durata del periodo. Utilizzare il campo **Visualizza come** per selezionare la modalità di calcolo degli importi, **Saldo periodo** o **Saldo alla data** . Scegliere l'azione **Periodo precedente** o **Periodo successivo** per modificare il periodo.  
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Per visualizzare importi effettivi e preventivati per più periodi  
 Oltre a visualizzare importi effettivi e preventivati di tutti i conti all'interno di un unico periodo è possibile visualizzare un certo numero di periodo per un unico conto.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Piano dei conti**, selezionare il conto di contabilità generale pertinente quindi scegliere l'azione **Confronto budget/contabilità generale**.  
+2. Nella pagina **Piano dei conti** , selezionare il conto di contabilità generale pertinente quindi scegliere l'azione **Confronto budget/contabilità generale** .  
 3. All'inizio della pagina, compilare i campi secondo le necessità per definire cosa viene visualizzato.   
 4. Per visualizzare una specifica di un importo mostrato, selezionare il campo.  
 

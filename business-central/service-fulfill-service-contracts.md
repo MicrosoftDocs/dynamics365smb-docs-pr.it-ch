@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 57e10efcd6ec5a2ed54df2bdaa4f2a647a1e981c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194733"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910373"
 ---
 # <a name="fulfilling-service-contracts"></a>Adempimento dei contratti di assistenza 
 Un metodo per impostare un'attività di gestione dell'assistenza è quello di disporre di accordi contrattuali standard tra la propria azienda e i clienti, che descrivano il livello di assistenza e le aspettative del cliente nei confronti dall'assistenza. È possibile creare modelli di contratto che includano le informazioni necessarie, ossia dati del cliente, data di inizio del contratto e periodo di fatturazione.  
   
-Una volta definito il modello, sarà possibile personalizzare il contratto ottenuto per tenere traccia delle ore di assistenza o di altri articoli che possono variare da cliente a cliente. È anche possibile impostare manualmente un contratto da un'offerta di contratto di assistenza. Infine, si possono rettificare i prezzi dell'assistenza per tenere traccia degli sconti a cui un dato cliente ha diritto, specificando l'ammontare dello sconto nella pagina **Contratto di assistenza**.  
+Una volta definito il modello, sarà possibile personalizzare il contratto ottenuto per tenere traccia delle ore di assistenza o di altri articoli che possono variare da cliente a cliente. È anche possibile impostare manualmente un contratto da un'offerta di contratto di assistenza. Infine, si possono rettificare i prezzi dell'assistenza per tenere traccia degli sconti a cui un dato cliente ha diritto, specificando l'ammontare dello sconto nella pagina **Contratto di assistenza** .  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
   

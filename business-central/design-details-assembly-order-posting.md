@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22a31f050c1b1a25e17076c3f1469d97b638add5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5194d1a24b987f0b7ef88d9b535eb00d3203a9b9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788264"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915703"
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
 La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.  
@@ -72,7 +72,7 @@ Nel seguente grafico viene visualizzata la struttura del movimento di rettifica 
 ![Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi](media/design_details_assembly_posting_3.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
 
 ### <a name="performing-the-adjustment"></a>Esecuzione della rettifica  
-La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materiali nei movimenti di output assemblaggio viene eseguita dal processo batch **Rettifica costo - Movimenti articoli**. Contiene la funzione di rettifica multilivello, che è costituita dai seguenti due elementi:  
+La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materiali nei movimenti di output assemblaggio viene eseguita dal processo batch **Rettifica costo - Movimenti articoli** . Contiene la funzione di rettifica multilivello, che è costituita dai seguenti due elementi:  
 
 -   Rettifica ordine di assemblaggio, che inoltra il costo del materiale e dell'utilizzo delle risorse al movimento di output assemblaggio. Ciò è dovuto alle righe 5 e 6 dell'algoritmo riportato di seguito.  
 -   Eseguire rettifiche a livello singolo, che inoltra i costi per i singoli articoli utilizzando il relativo metodo di costing. Ciò è dovuto alle righe 9 e 10 dell'algoritmo riportato di seguito.  
@@ -89,8 +89,8 @@ Per ulteriori informazioni su come i costi dall'assemblaggio e della produzione 
 
 Ciò è possibile grazie alla seguente struttura dei dati.  
 
--   Nel campo **Tipo** nelle righe delle registrazioni magazzino, nelle tabelle **Movimento contabile capacità** e **Movimenti valorizzazione**, il parametro *Risorsa* viene utilizzato per identificare i movimenti di risorse di assemblaggio.  
--   Nel campo **Tipo mov. articolo** nelle righe delle registrazioni magazzino, nelle tabelle **Movimento contabile capacità** e **Movimenti valorizzazione**, vengono utilizzati i parametri *Output assemblaggio* e *Consumo assemblaggio* per identificare rispettivamente i movimenti di articoli di assemblaggio in uscita e i movimenti di componenti di assemblaggio consumati.  
+-   Nel campo **Tipo** nelle righe delle registrazioni magazzino, nelle tabelle **Movimento contabile capacità** e **Movimenti valorizzazione** , il parametro *Risorsa* viene utilizzato per identificare i movimenti di risorse di assemblaggio.  
+-   Nel campo **Tipo mov. articolo** nelle righe delle registrazioni magazzino, nelle tabelle **Movimento contabile capacità** e **Movimenti valorizzazione** , vengono utilizzati i parametri *Output assemblaggio* e *Consumo assemblaggio* per identificare rispettivamente i movimenti di articoli di assemblaggio in uscita e i movimenti di componenti di assemblaggio consumati.  
 
 Inoltre, i campi della categoria di registrazione nella testata ordine di assemblaggio e nelle righe ordine di assemblaggio vengono popolati per impostazione predefinita come indicato di seguito.  
 
@@ -105,7 +105,7 @@ Di conseguenza, solo i costi effettivi vengono registrati nella contabilità gen
 ## <a name="assemble-to-order"></a>Assemblaggio su ordine  
 Il movimento contabile articolo che risulta dalla registrazione di una vendita di assemblaggio su ordine è collegato in modo fisso al movimento contabile articolo correlato per l'output di assemblaggio. Di conseguenza, il costo di una vendita di assemblaggio su ordine è derivato dall'ordine di assemblaggio a cui è stato collegato.  
 
-I movimenti contabili articoli di tipo Vendita che derivano dalla registrazione delle quantità di assemblaggio su ordine sono contrassegnati con **Sì** nel campo **Assemblaggio su ordine**.  
+I movimenti contabili articoli di tipo Vendita che derivano dalla registrazione delle quantità di assemblaggio su ordine sono contrassegnati con **Sì** nel campo **Assemblaggio su ordine** .  
 
 La registrazione di righe ordini di vendita in cui una parte è quantità di magazzino e un'ulteriore parte è quantità per l'assemblaggio su ordine dà come risultato movimenti contabili articoli separati, uno per la quantità di magazzino e uno per la quantità per l'assemblaggio su ordine.  
 

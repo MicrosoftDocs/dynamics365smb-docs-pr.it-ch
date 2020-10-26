@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 176b0e999f10f7cc055ac40431dd3507ed2836f6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2bd63f38e434d15ba0592126a11c5f92f8611aa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787914"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911148"
 ---
 # <a name="design-details-expected-cost-posting"></a>Dettagli di progettazione: Registrazione del costo previsto
 I costi previsti rappresentano, ad esempio, la stima del costo di un articolo acquistato registrato prima di ricevere la fattura per l'articolo.  
@@ -25,12 +25,12 @@ I costi previsti rappresentano, ad esempio, la stima del costo di un articolo ac
 > [!NOTE]  
 >  I costi previsti vengono gestiti solo per le transazioni articoli. I costi previsti non sono per i tipi di transazione immateriali, ad esempio capacità e addebiti articolo.  
 
- Se è stata registrata solo la parte quantitativa di un aumento di magazzino, il valore di magazzino nella contabilità generale non cambierà a meno che non sia stata selezionata la casella di controllo **Reg. costi previsti in CG** nella pagina **Setup magazzino**. In questo caso, il costo previsto viene registrato nei conti provvisori al momento del carico. Dopo che il carico è stato completamente fatturato, i conti provvisori verranno quindi bilanciati e il costo effettivo viene registrato nel conto giacenza magazzino.  
+ Se è stata registrata solo la parte quantitativa di un aumento di magazzino, il valore di magazzino nella contabilità generale non cambierà a meno che non sia stata selezionata la casella di controllo **Reg. costi previsti in CG** nella pagina **Setup magazzino** . In questo caso, il costo previsto viene registrato nei conti provvisori al momento del carico. Dopo che il carico è stato completamente fatturato, i conti provvisori verranno quindi bilanciati e il costo effettivo viene registrato nel conto giacenza magazzino.  
 
  Per supportare il lavoro di riconciliazione e di tracciabilità, il movimento di valorizzazione fatturato mostra l'importo del costo previsto che è stato registrato per bilanciare i conti provvisori.  
 
 ## <a name="example"></a>Esempio  
- L'esempio riportato di seguito mostra il costo previsto se le caselle di controllo **Reg. automatica costi** e **Reg. costi previsti in CG** sono selezionate nella pagina **Setup magazzino**.  
+ L'esempio riportato di seguito mostra il costo previsto se le caselle di controllo **Reg. automatica costi** e **Reg. costi previsti in CG** sono selezionate nella pagina **Setup magazzino** .  
 
  Si registra un ordine di acquisto come ricevuto. Il costo previsto è di VL 95,00.  
 

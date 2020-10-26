@@ -8,34 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1d296f51aa307d3a3336f7a999eb02c51acc18e1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187358"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911473"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Impostare un indicatore colorato nelle pile per la società o per i singoli utenti
 Come amministratore, è possibile impostare le pile che vengono visualizzate in gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.  
 
 L'indicatore viene visualizzato come una barra colorata lungo il bordo superiore della pila. Fornisce un segnale visivo dello stato dell'attività della pila, che può indicare le condizioni favorevoli o sfavorevoli per spingere l'utente a intraprendere un'azione. Ad esempio, se una pila visualizza le fatture di vendita in corso, è possibile impostare l'indicatore in modo che appaia verde (favorevole) quando il totale delle fatture di vendita in corso è minore di 10 e rosso (sfavorevole) quando il totale è maggiore di 20.  
 
-Nella pagina **Setup pila**, si impostano gli indicatori di tutte le pile disponibili nel database della società. È possibile impostare gli indicatori perché siano applicati a tutti gli utenti della società o a un singolo utente. Le impostazioni dell'indicatore nella pagina **Setup pila** fungono da impostazioni predefinite dell'indicatore. Se la pagina **Utente finale setup pila** è disponibile per gli utenti, questi possono personalizzare le impostazioni degli indicatori definiti nella pagina **Setup pila**.  
+Nella pagina **Setup pila** , si impostano gli indicatori di tutte le pile disponibili nel database della società. È possibile impostare gli indicatori perché siano applicati a tutti gli utenti della società o a un singolo utente. Le impostazioni dell'indicatore nella pagina **Setup pila** fungono da impostazioni predefinite dell'indicatore. Se la pagina **Utente finale setup pila** è disponibile per gli utenti, questi possono personalizzare le impostazioni degli indicatori definiti nella pagina **Setup pila** .  
 
 Per impostare l'indicatore, specificare fino a due valori di soglia che definiscono tre intervalli dei valori dei dati (basso, medio e alto) e a cui è possibile applicare un colore diverso (o stile).  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Per impostare indicatori colorati nelle pile  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup pila** e quindi scegliere il collegamento correlato.  
 
-     Verrà visualizzata la pagina **Setup pila**. La pagina elenca gli indicatori che attualmente sono impostati nelle pile. Gli indicatori che si applicano a tutti gli utenti della società hanno un campo **Nome utente** vuoto. Gli indicatori che si applicano a un utente specifico comprendono il nome dell'utente nel campo **Nome utente**.  
+     Verrà visualizzata la pagina **Setup pila** . La pagina elenca gli indicatori che attualmente sono impostati nelle pile. Gli indicatori che si applicano a tutti gli utenti della società hanno un campo **Nome utente** vuoto. Gli indicatori che si applicano a un utente specifico comprendono il nome dell'utente nel campo **Nome utente** .  
 
     > [!NOTE]  
     >  Se si imposta un indicatore per tutta la società e un utente modifica in seguito l'indicatore, una registrazione distinta relativa all'indicatore viene visualizzata nella lista per tale utente.  
 
-2. Scegliere l'azione **Modifica lista**.  
-3. Per impostare un indicatore per una pila non elencata nella pagina, selezionare l'azione **Nuovo**, quindi compilare i campi come descritto di seguito. Se si desidera modificare un indicatore esistente, passare alla fase successiva.  
+2. Scegliere l'azione **Modifica lista** .  
+3. Per impostare un indicatore per una pila non elencata nella pagina, selezionare l'azione **Nuovo** , quindi compilare i campi come descritto di seguito. Se si desidera modificare un indicatore esistente, passare alla fase successiva.  
 
     |  Campo  |  Description  |    
     |---------|---------------|  
@@ -47,13 +47,13 @@ Per impostare l'indicatore, specificare fino a due valori di soglia che definisc
 
     |  Campo  |  Description  |    
     |---------|---------------|  
-    |**LowStyle**|Specifica il colore dell'indicatore quando il valore della pila è inferiore al valore del campo **Soglia 1**.|  
-    |**LowThreshold**|Specifica il valore a partire dal quale l'indicatore cambia il colore specificato nel campo **Stile intervallo medio**.|  
-    |**MiddleStyle**|Specifica il colore dell'indicatore quando il valore della pila è superiore o uguale al valore del campo **Soglia 1** ma inferiore o uguale al valore del campo **Soglia 2**.|  
-    |**HighThreshold**|Specifica il valore al di sopra del quale l'indicatore cambia il colore specificato nel campo **Stile intervallo superiore**.|  
-    |**HighStyle**|Specifica il colore da utilizzare quando il valore della pila è superiore al valore del campo **Soglia 2**.|  
+    |**LowStyle**|Specifica il colore dell'indicatore quando il valore della pila è inferiore al valore del campo **Soglia 1** .|  
+    |**LowThreshold**|Specifica il valore a partire dal quale l'indicatore cambia il colore specificato nel campo **Stile intervallo medio** .|  
+    |**MiddleStyle**|Specifica il colore dell'indicatore quando il valore della pila è superiore o uguale al valore del campo **Soglia 1** ma inferiore o uguale al valore del campo **Soglia 2** .|  
+    |**HighThreshold**|Specifica il valore al di sopra del quale l'indicatore cambia il colore specificato nel campo **Stile intervallo superiore** .|  
+    |**HighStyle**|Specifica il colore da utilizzare quando il valore della pila è superiore al valore del campo **Soglia 2** .|  
 
-     Nella tabella seguente sono elencati i colori corrispondenti alle opzioni dei campi **LowStyle**, **MiddleStyle** e **HighStyle**.  
+     Nella tabella seguente sono elencati i colori corrispondenti alle opzioni dei campi **LowStyle** , **MiddleStyle** e **HighStyle** .  
 
     |  Opzione  |  Colore  |  
     |----------|---------|  

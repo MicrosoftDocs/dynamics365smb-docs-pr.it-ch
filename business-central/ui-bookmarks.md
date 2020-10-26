@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6c3762d9b6ec587cea6915cf292a6bb57e25fd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782511"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912714"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente
 Utilizzando la nuova icona segnalibro, è possibile aggiungere un'azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente. Ciò consente di raggiungere rapidamente i contenuti o le attività aziendali preferiti. Si aggiunge il segnalibro dalla pagina o dal report di destinazione, ovvero la schermata che deve essere aperta con il collegamento in Gestione ruolo utente.
@@ -35,8 +35,8 @@ Un'azione denominata come la pagina viene aggiunta al menu di navigazione in Ges
 Un'azione denominata come il report viene aggiunta al menu di navigazione in Gestione ruolo utente.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Per aggiungere un segnalibro a una pagina o un report dalla finestra della funzionalità delle informazioni
-1. Aprire la finestra della **funzionalità delle informazioni** e immettere, ad esempio, **Ordini vendita**.
-2. Passare il mouse sopra il risultato della ricerca per la pagina o il report **Ordini vendita**, quindi scegliere l'icona ![segnalibro](media/ui_bookmark_icon.png "Segnalibro").
+1. Aprire la finestra della **funzionalità delle informazioni** e immettere, ad esempio, **Ordini vendita** .
+2. Passare il mouse sopra il risultato della ricerca per la pagina o il report **Ordini vendita** , quindi scegliere l'icona ![segnalibro](media/ui_bookmark_icon.png "Segnalibro").
 
 Un'azione denominata come la pagina o il report viene aggiunta al menu di navigazione in Gestione ruolo utente.
 

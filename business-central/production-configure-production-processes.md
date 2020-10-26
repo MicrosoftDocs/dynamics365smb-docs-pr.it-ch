@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b491287a3d59ffe220e91246fd6fbccbb9768115
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6888c3cd599b9c85f67615e7f090d72e8cf5fa23
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786939"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915429"
 ---
 # <a name="setting-up-manufacturing"></a>Impostazione della produzione
 Per convertire il materiale in articoli finali prodotti, è necessario configurare nel sistema le risorse di produzione, ad esempio distinte base, cicli, operatori macchina e macchinari.
@@ -30,8 +30,8 @@ Dopo l'impostazione della produzione, è possibile pianificare ed eseguire gli o
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Configurare le funzionalità di Manufacturing, ad esempio la definizione delle ore di lavoro del reparto e la selezione dei parametri di pianificazione.|La pagina **Setup manufacturing**.|
-|Nella scheda **Pianificazione** della pagina **Setup manufacturing**, impostare i parametri di pianificazione globale che sovrascrivono i parametri impostati sulle singole schede articolo.|[Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)|
+|Configurare le funzionalità di Manufacturing, ad esempio la definizione delle ore di lavoro del reparto e la selezione dei parametri di pianificazione.|La pagina **Setup manufacturing** .|
+|Nella scheda **Pianificazione** della pagina **Setup manufacturing** , impostare i parametri di pianificazione globale che sovrascrivono i parametri impostati sulle singole schede articolo.|[Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)|
 |Definire una settimana lavorativa standard nel reparto di produzione in termini di ora di inizio e di fine di ogni giorno lavorativo e di turni lavorativi correlati.|[Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md)|  
 |Organizzare i valori e i requisiti fissi di una risorsa di produzione come aree di produzione o centri di lavoro per gestirne l'output della produzione.|[Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md)|
 |Organizzare operazioni di produzione nell'ordine richiesto e assegnarle ad aree di produzione o centri di lavoro con i periodi lavorativi necessari.|[Creare cicli](production-how-to-create-routings.md)|

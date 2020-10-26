@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 185e35e9b9f44e8cc18b10adf0dc359c3dce1ef0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784250"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916336"
 ---
 # <a name="enable-workflows"></a>Abilitare i workflow
 Dopo avere creato un workflow ed essersi assicurati che sia pronto, è necessario abilitare il workflow.  
@@ -25,7 +25,7 @@ Dopo avere creato un workflow ed essersi assicurati che sia pronto, è necessari
 ## <a name="to-enable-a-workflow"></a>Per abilitare un flusso di lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
 2.  Aprire il flusso di lavoro che si desidera abilitare.  
-3.  Nella pagina **Workflow** deselezionare la casella di controllo **Abilitato**.  
+3.  Nella pagina **Workflow** deselezionare la casella di controllo **Abilitato** .  
 
 ## <a name="see-also"></a>Vedi anche  
  [Creare i workflow](across-how-to-create-workflows.md)   

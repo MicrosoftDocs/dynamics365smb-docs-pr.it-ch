@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b44648e169d9692e0124c79d170eab1fa9087a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784477"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910173"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Impostare le ore di lavoro e le ore di assistenza
 Solitamente, un sistema di gestione dell'assistenza tiene traccia delle ore delle risorse e dello stato dell'ordine di assistenza al fine di poter prevedere i carichi di lavoro e le esigenze di assistenza. [!INCLUDE[d365fin](includes/d365fin_md.md)] dispone di una serie di strumenti integrati che è possibile personalizzare per poter registrare questo tipo di informazioni.  
@@ -48,11 +48,11 @@ La pagina **Ore Assistenza** consente di impostare ore di assistenza specifiche 
 Se non si impostano ore di assistenza specifiche per il contratto di assistenza, verranno utilizzate quelle di default per i contratti di assistenza.  
   
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contratti assistenza** e quindi scegliere il collegamento correlato.  
-2. Aprire il contratto di assistenza per cui si desidera impostare delle ore di assistenza specifiche, quindi scegliere **Ore assistenza**.  
-4. Per impostare le ore di assistenza in base alle ore di assistenza di default, scegliere l'azione **Copia ore assist. di default**.  
-5. Modificare i campi nei movimenti ore di assistenza. Inserire o eliminare i movimenti per impostare le ore di assistenza per il contratto. Si noti che i campi **Giorno**, **Ora inizio** e **Ora fine** sono obbligatori per ogni riga.  
-6. Se si desidera che le ore di assistenza siano valide a partire da una data specifica, compilare il campo **Data inizio**.  
-7. Se si desidera che le ore di assistenza siano valide anche durante i giorni festivi, immettere un segno di spunta nel campo **Valido nei Giorni Festivi**.  
+2. Aprire il contratto di assistenza per cui si desidera impostare delle ore di assistenza specifiche, quindi scegliere **Ore assistenza** .  
+4. Per impostare le ore di assistenza in base alle ore di assistenza di default, scegliere l'azione **Copia ore assist. di default** .  
+5. Modificare i campi nei movimenti ore di assistenza. Inserire o eliminare i movimenti per impostare le ore di assistenza per il contratto. Si noti che i campi **Giorno** , **Ora inizio** e **Ora fine** sono obbligatori per ogni riga.  
+6. Se si desidera che le ore di assistenza siano valide a partire da una data specifica, compilare il campo **Data inizio** .  
+7. Se si desidera che le ore di assistenza siano valide anche durante i giorni festivi, immettere un segno di spunta nel campo **Valido nei Giorni Festivi** .  
 
 ## <a name="see-also"></a>Vedi anche  
 [Informazioni su stato assegnazione e stato riparazione](service-allocation-status-and-repair-status.md)  
