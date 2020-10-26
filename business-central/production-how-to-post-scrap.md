@@ -8,32 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0adc08f7fa30f4ceb88531ea45948c6da36d3c72
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2cfc545e328da020ce8ecd4dc7a79e6303902636
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789343"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916579"
 ---
-# <a name="post-scrap-manually"></a><span data-ttu-id="363bc-104">Registrare lo scarto manualmente</span><span class="sxs-lookup"><span data-stu-id="363bc-104">Post Scrap Manually</span></span>
-<span data-ttu-id="363bc-105">Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto.</span><span class="sxs-lookup"><span data-stu-id="363bc-105">If scrap is produced during processing, it can be entered in the output journal.</span></span> 
+# <a name="post-scrap-manually"></a><span data-ttu-id="82463-104">Registrare lo scarto manualmente</span><span class="sxs-lookup"><span data-stu-id="82463-104">Post Scrap Manually</span></span>
+<span data-ttu-id="82463-105">Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto.</span><span class="sxs-lookup"><span data-stu-id="82463-105">If scrap is produced during processing, it can be entered in the output journal.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="363bc-106">La quantità di scarto non aumenta la quantità di output.</span><span class="sxs-lookup"><span data-stu-id="363bc-106">The scrap quantity does not increase the output quantity.</span></span>  
+> <span data-ttu-id="82463-106">La quantità di scarto non aumenta la quantità di output.</span><span class="sxs-lookup"><span data-stu-id="82463-106">The scrap quantity does not increase the output quantity.</span></span>  
 
-## <a name="to-post-scrap-manually"></a><span data-ttu-id="363bc-107">Per registrare lo scarto manualmente</span><span class="sxs-lookup"><span data-stu-id="363bc-107">To post scrap manually</span></span>  
-1. <span data-ttu-id="363bc-108">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni output** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="363bc-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="363bc-109">Compilare i campi come necessario.</span><span class="sxs-lookup"><span data-stu-id="363bc-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. <span data-ttu-id="363bc-110">Immettere la quantità di scarto nel campo **Quantità Scartata**.</span><span class="sxs-lookup"><span data-stu-id="363bc-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span></span>  
-4. <span data-ttu-id="363bc-111">Immettere il codice di scarto nel campo **Codice scarto**.</span><span class="sxs-lookup"><span data-stu-id="363bc-111">In the **Scrap Code** field, enter the scrap code.</span></span>  
-5. <span data-ttu-id="363bc-112">Scegliere l'azione **Registra** per registrare lo scarto specificato per operazione.</span><span class="sxs-lookup"><span data-stu-id="363bc-112">Choose the **Post** action to post the specified scrap per operation.</span></span>  
+## <a name="to-post-scrap-manually"></a><span data-ttu-id="82463-107">Per registrare lo scarto manualmente</span><span class="sxs-lookup"><span data-stu-id="82463-107">To post scrap manually</span></span>  
+1. <span data-ttu-id="82463-108">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni output** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="82463-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal** , and then choose the related link.</span></span>  
+2. <span data-ttu-id="82463-109">Compilare i campi come necessario.</span><span class="sxs-lookup"><span data-stu-id="82463-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="82463-110">Immettere la quantità di scarto nel campo **Quantità Scartata** .</span><span class="sxs-lookup"><span data-stu-id="82463-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span></span>  
+4. <span data-ttu-id="82463-111">Immettere il codice di scarto nel campo **Codice scarto** .</span><span class="sxs-lookup"><span data-stu-id="82463-111">In the **Scrap Code** field, enter the scrap code.</span></span>  
+5. <span data-ttu-id="82463-112">Scegliere l'azione **Registra** per registrare lo scarto specificato per operazione.</span><span class="sxs-lookup"><span data-stu-id="82463-112">Choose the **Post** action to post the specified scrap per operation.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="363bc-113">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="363bc-113">See Also</span></span>  
-<span data-ttu-id="363bc-114">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="363bc-114">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="363bc-115">Impostazione della produzione</span><span class="sxs-lookup"><span data-stu-id="363bc-115">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="363bc-116">[Pianif.](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="363bc-116">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="363bc-117">Magazzino</span><span class="sxs-lookup"><span data-stu-id="363bc-117">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="363bc-118">Acquisti</span><span class="sxs-lookup"><span data-stu-id="363bc-118">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="363bc-119">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="363bc-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="82463-113">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="82463-113">See Also</span></span>  
+<span data-ttu-id="82463-114">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="82463-114">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="82463-115">Impostazione della produzione</span><span class="sxs-lookup"><span data-stu-id="82463-115">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="82463-116">[Pianif.](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="82463-116">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="82463-117">Magazzino</span><span class="sxs-lookup"><span data-stu-id="82463-117">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="82463-118">Acquisti</span><span class="sxs-lookup"><span data-stu-id="82463-118">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="82463-119">[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="82463-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
