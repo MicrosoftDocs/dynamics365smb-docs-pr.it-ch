@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0482c797fcc4f7b0ba590cfe757bd616d652d18a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b2536d39bf0121f68172429513bce2ad3180110
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195869"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925290"
 ---
 # <a name="closing-the-books"></a>Chiusura dei registri
 Dopo avere verificato che tutti i conti sono aggiornati e assegnato costi ed entrate, è possibile chiudere i registri per un anno fiscale o un periodo.
@@ -27,7 +27,7 @@ Il processo di chiusura dei libri include le seguenti attività principali:
 
 1. Chiusura del periodo contabile.
 
-    Un anno fiscale è definito come uno o più periodi aperti definiti nella pagina **Periodi contabili**. Un tipico anno fiscale contiene 12 periodi di un mese, tuttavia è possibile scegliere un altro metodo per definire un anno.
+    Un anno fiscale è definito come uno o più periodi aperti definiti nella pagina **Periodi contabili** . Un tipico anno fiscale contiene 12 periodi di un mese, tuttavia è possibile scegliere un altro metodo per definire un anno.
 
     Per ulteriori informazioni, vedere [Chiudere i periodi contabili](year-close-account-periods.md).
 2. Registrazione dei movimenti dell'anno precedente.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18be3b3e5757f3d108ddc9b413eb075aec5ae3af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ca5104a8d4268c9f4822e98150a3e969c6c66d48
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779019"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924171"
 ---
 # <a name="work-with-inventory-periods"></a>Utilizzare periodi di magazzino
 I periodi di magazzino definiscono un periodo di tempo durante il quale è possibile registrare modifiche al magazzino. Un periodo di magazzino è definito dalla data in cui termina, ovvero la data di fine. Quando il periodo di magazzino è chiuso, non è possibile registrare modifiche al magazzino, previsto o fatturato, precedente alla data di fine. Non è inoltre possibile inserire qualsiasi nuovo valore nel magazzino prima della data di fine. Se nel periodo chiuso sono presenti movimenti articoli aperti, ovvero quantità positive non ancora consumate da, o collegate a, transazioni in uscita, è ancora possibile collegare quantità in uscita a questi movimenti, anche se il periodo è chiuso.  
@@ -30,7 +30,7 @@ Nelle sezioni successive viene descritto come effettuare le seguenti operazioni:
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi magazzino** e quindi scegliere il collegamento correlato.  
 2. Creare una nuova riga.  
 3. Nel campo **Data fine** immettere l'ultima data del periodo di magazzino che si desidera definire. Quando il periodo è chiuso, non sarà possibile registrare modifiche al magazzino prima di tale data.  
-4. Nel campo **Nome** immettere un nome descrittivo. Scegliere il pulsante **OK**.  
+4. Nel campo **Nome** immettere un nome descrittivo. Scegliere il pulsante **OK** .  
 
 ## <a name="closing-inventory-periods"></a>Chiusura di periodi di magazzino  
 Il campo **Chiuso** indica se il periodo di magazzino è chiuso, ovvero se non è più possibile apportare modifiche al relativo valore. Non è possibile modificare questo campo.  
@@ -38,7 +38,7 @@ Il campo **Chiuso** indica se il periodo di magazzino è chiuso, ovvero se non �
 È possibile chiudere qualsiasi periodo di magazzino, purché si verifichino le seguenti condizioni:  
 
 * Non devono esserci movimenti contabili articoli in uscita, ovvero giacenze negative, nel periodo.  
-* Il costo di tutti gli articoli deve essere stato rettificato tramite il processo batch **Rettifica costo - Mov. art.**.  
+* Il costo di tutti gli articoli deve essere stato rettificato tramite il processo batch **Rettifica costo - Mov. art.** .  
 
 Questo significa che tutte le quantità relative a transazioni in uscita, ad esempio ordini di vendita, trasferimenti in uscita, fatture di vendita, resi di acquisto o note di credito di acquisto, devono essere collegate a quantità esistenti in magazzino.  
 
@@ -46,12 +46,12 @@ Questo significa che tutte le quantità relative a transazioni in uscita, ad ese
 1. Prima di chiudere un periodo di magazzino, scegliere l'azione **Rettifica costo - Movimenti articoli** per assicurarsi di registrare tutte le rettifiche dei costi.
 
      Eseguire il report **Chiudi periodo magazzino - Test** per determinare se vi sono movimenti articoli in uscita inclusi nel periodo di magazzino o se vi sono articoli il cui costo non è ancora stato rettificato.  
-2. Scegliere l'azione **Chiudi periodo di magazzino - Test**.  
+2. Scegliere l'azione **Chiudi periodo di magazzino - Test** .  
 
      Eseguire il processo batch **Registra costo magazzino in C/G** per fare in modo che tutti i costi vengano registrati nella contabilità generale.  
-3. Scegliere l'azione **Registra magazzino in C/G**.  
+3. Scegliere l'azione **Registra magazzino in C/G** .  
 4. Nella pagina **Periodi magazzino** selezionare il periodo di magazzino che si desidera chiudere.  
-5. Scegliere l'azione **Chiudi periodo**. Dopo che il periodo viene chiuso non è possibile registrare modifiche al magazzino prima della data di fine. Prima di chiudere il periodo di magazzino, è necessario rettificare il costo di tutti gli articoli tramite il processo batch **Rettifica costo - Mov. art.**.  
+5. Scegliere l'azione **Chiudi periodo** . Dopo che il periodo viene chiuso non è possibile registrare modifiche al magazzino prima della data di fine. Prima di chiudere il periodo di magazzino, è necessario rettificare il costo di tutti gli articoli tramite il processo batch **Rettifica costo - Mov. art.** .  
 6. Fare clic su **Sì** per confermare la chiusura del periodo oppure su **No** per annullarla.  
 7. Il periodo di magazzino verrà chiuso e, al termine dell'operazione, verrà visualizzato un messaggio di conferma.  
 
@@ -61,7 +61,7 @@ Dopo aver chiuso una volta il periodo di magazzino, non è più possibile elimin
 ### <a name="to-reopen-an-inventory-period"></a>Per riaprire un periodo di magazzino  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi magazzino** e quindi scegliere il collegamento correlato.  
 2. Selezionare il periodo di magazzino che si desidera riaprire.  
-3. Scegliere l'azione **Riapri periodo**. Confermare che si desidera riaprire il periodo.  
+3. Scegliere l'azione **Riapri periodo** . Confermare che si desidera riaprire il periodo.  
 4. Vengono riaperti anche tutti i periodi con date di fine successive a quella del periodo selezionato.  
 
 ## <a name="see-also"></a>Vedi anche  

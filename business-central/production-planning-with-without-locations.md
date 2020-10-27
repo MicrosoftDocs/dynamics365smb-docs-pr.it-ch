@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2d9afd30c3b81912797ad95871256207d135b673
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2cf9c34434136578b6ab31841c5bb7f69f72ae18
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784000"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921485"
 ---
 # <a name="planning-with-or-without-locations"></a>Pianificazione con o senza ubicazioni
 Nel caso della pianificazione con o senza codici ubicazione nelle righe della domanda, il sistema di pianificazione agisce in modo diretto nei casi indicati di seguito.  
@@ -30,7 +30,7 @@ In caso di rilevamento di una domanda in corrispondenza di un'ubicazione, ovvero
 
 Durante l'esecuzione della pianificazione, viene eseguito il controllo dei 3 valori di setup in sequenza, quindi la pianificazione viene eseguita in base a tali valori, come indicato di seguito.  
 
-1.  Viene verificata la presenza di un segno di spunta nel campo **Ubicazione Obbligatoria**.  
+1.  Viene verificata la presenza di un segno di spunta nel campo **Ubicazione Obbligatoria** .  
 
     In caso affermativo  
 
@@ -42,7 +42,7 @@ Durante l'esecuzione della pianificazione, viene eseguito il controllo dei 3 val
 
     In caso negativo  
 
-3.  Viene verificata la presenza del codice ubicazione richiesto nel campo **Componenti nell'Ubicazione**.  
+3.  Viene verificata la presenza del codice ubicazione richiesto nel campo **Componenti nell'Ubicazione** .  
 
     In caso affermativo  
 
@@ -50,7 +50,7 @@ Durante l'esecuzione della pianificazione, viene eseguito il controllo dei 3 val
 
     In caso negativo  
 
-    L'articolo viene pianificato in base a quanto segue: Metodi di Riordino =  *Lotto-per-Lotto*, Includi Giacenze =  *Sì*, tutti gli altri parametri di pianificazione vuoti. Nel caso degli articoli per i quali è utilizzato il metodo di riordino  *Ordine*, il sistema continuerà a utilizzare  *Ordine* e tutte le altre impostazioni.  
+    L'articolo viene pianificato in base a quanto segue: Metodi di Riordino =  *Lotto-per-Lotto* , Includi Giacenze =  *Sì* , tutti gli altri parametri di pianificazione vuoti. Nel caso degli articoli per i quali è utilizzato il metodo di riordino  *Ordine* , il sistema continuerà a utilizzare  *Ordine* e tutte le altre impostazioni.  
 
 > [!NOTE]  
 >  Questa "alternativa minima" riguarda esclusivamente la domanda. Gli eventuali parametri di pianificazione definiti vengono ignorati.  
@@ -58,8 +58,8 @@ Durante l'esecuzione della pianificazione, viene eseguito il controllo dei 3 val
 Vedere le differenze di scenario riportate di seguito.  
 
 ## <a name="demand-at-blank-location"></a>Domanda nell'"ubicazione vuota"  
-Anche se la casella di controllo **Ubicazione obbligatoria** è selezionata, il sistema consente la creazione delle righe della domanda senza un codice ubicazione, definita anche come ubicazione *VUOTA*. Si tratta di una deviazione per il sistema perché dispone di diversi valori setup ottimizzati per gestire le ubicazioni (vedere sopra) e di conseguenza il motore di pianificazione non creerà una riga di pianificazione per tale riga della domanda. Se il campo **Ubicazione obbligatoria** non è selezionato ma non esiste nessuno dei valori setup dell'ubicazione, anche questa è considerata una deviazione e il sistema di pianificazione reagirà restituendo l'"alternativa minima":   
-L'articolo viene pertanto pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane *Ordine)*, Includi Giacenze =  *Sì*, tutti gli altri parametri vuoti.  
+Anche se la casella di controllo **Ubicazione obbligatoria** è selezionata, il sistema consente la creazione delle righe della domanda senza un codice ubicazione, definita anche come ubicazione *VUOTA* . Si tratta di una deviazione per il sistema perché dispone di diversi valori setup ottimizzati per gestire le ubicazioni (vedere sopra) e di conseguenza il motore di pianificazione non creerà una riga di pianificazione per tale riga della domanda. Se il campo **Ubicazione obbligatoria** non è selezionato ma non esiste nessuno dei valori setup dell'ubicazione, anche questa è considerata una deviazione e il sistema di pianificazione reagirà restituendo l'"alternativa minima":   
+L'articolo viene pertanto pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane *Ordine)* , Includi Giacenze =  *Sì* , tutti gli altri parametri vuoti.  
 
 Vedere le differenze negli scenari di setup riportati di seguito.  
 
@@ -79,7 +79,7 @@ L'articolo viene pianificato in base ai parametri di pianificazione nella scheda
 
 #### <a name="case-13-demand-is-at--green-location"></a>Caso 1.3: domanda nell'ubicazione  *VERDE*  
 
-L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine*), Includi Giacenze =  *Sì*, tutti gli altri parametri di pianificazione vuoti.  
+L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine* ), Includi Giacenze =  *Sì* , tutti gli altri parametri di pianificazione vuoti.  
 
 #### <a name="case-14-demand-is-at--blank-location"></a>Caso 1.4: domanda nell'ubicazione  *VUOTA*  
 
@@ -93,7 +93,7 @@ L'articolo non viene pianificato perché non è definita alcuna ubicazione nella
 
 #### <a name="case-21-demand-is-at--red-location"></a>Caso 2.1: domanda nell'ubicazione  *ROSSO*  
 
-L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine*), Includi Giacenze =  *Sì*, tutti gli altri parametri di pianificazione vuoti.  
+L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine* ), Includi Giacenze =  *Sì* , tutti gli altri parametri di pianificazione vuoti.  
 
 #### <a name="case-22-demand-is-at--blue-location"></a>Caso 2.2: domanda nell'ubicazione *BLU*  
 
@@ -107,7 +107,7 @@ L'articolo viene pianificato in base ai parametri di pianificazione nella scheda
 
 #### <a name="case-31-demand-is-at--red-location"></a>Caso 3.1: domanda nell'ubicazione  *ROSSO*  
 
-L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine*), Includi Giacenze =  *Sì*, tutti gli altri parametri di pianificazione vuoti.  
+L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine* ), Includi Giacenze =  *Sì* , tutti gli altri parametri di pianificazione vuoti.  
 
 #### <a name="case-32-demand-is-at--blue-location"></a>Caso 3.2: domanda nell'ubicazione *BLU*  
 
@@ -115,7 +115,7 @@ L'articolo viene pianificato in base ai parametri di pianificazione nella scheda
 
 #### <a name="case-33-demand-is-at--blank-location"></a>Caso 3.3: domanda nell'ubicazione  *VUOTA*  
 
-L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine*), Includi Giacenze =  *Sì*, tutti gli altri parametri di pianificazione vuoti.  
+L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine* ), Includi Giacenze =  *Sì* , tutti gli altri parametri di pianificazione vuoti.  
 
 ### <a name="setup-4"></a>Setup 4:  
 
@@ -125,7 +125,7 @@ L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lott
 
 #### <a name="case-41-demand-is-at--blue-location"></a>Caso 4.1: domanda nell'ubicazione  *BLU*  
 
-L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine*), Includi Giacenze =  *Sì*, tutti gli altri parametri di pianificazione vuoti.  
+L'articolo viene pianificato in base a quanto segue: Metodo di Riordino =  *Lotto-per-Lotto* ( *Ordine* rimane  *Ordine* ), Includi Giacenze =  *Sì* , tutti gli altri parametri di pianificazione vuoti.  
 
 #### <a name="case-42-demand-is-at--blank-location"></a>Caso 4.2: domanda nell'ubicazione  *VUOTA*  
 

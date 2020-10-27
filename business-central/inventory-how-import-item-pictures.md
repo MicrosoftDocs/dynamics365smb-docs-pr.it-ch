@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: acd08841a8fe26be7fcc3442a8453af4e0108c36
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4da0f30f47827515f8591802ce2ca49c245009ab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782111"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922912"
 ---
 # <a name="import-multiple-item-pictures"></a>Importare molteplici immagini articolo
 È possibile importare più immagini articolo contemporaneamente. Assegnare ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimere i file in un file ZIP, quindi utilizzare la pagina **Importa immagini articolo** per gestire le immagini articolo da importare.
@@ -32,19 +32,19 @@ Tutti i formati di file comuni sono supportati.
     |1001|1001.bmp|
     |1002|1002.bmp|
 
-2. Comprimere tutti i file in un file ZIP. Ad esempio, in Windows Explorer, selezionare i file, quindi scegliere **Invia a**, **Cartella compressa**.     
+2. Comprimere tutti i file in un file ZIP. Ad esempio, in Windows Explorer, selezionare i file, quindi scegliere **Invia a** , **Cartella compressa** .     
 
 ## <a name="to-import-item-pictures"></a>Per importare immagini articolo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Importa immagini articolo**.
-3. Nel campo **Selezionare un file zip**, selezionare la cartella ZIP pertinente quindi scegliere il pulsante **Apri**.
+2. Scegliere l'azione **Importa immagini articolo** .
+3. Nel campo **Selezionare un file zip** , selezionare la cartella ZIP pertinente quindi scegliere il pulsante **Apri** .
 
-    Una riga per ciascun articolo e immagine viene creata nella pagina **Importa immagini articolo**.
+    Una riga per ciascun articolo e immagine viene creata nella pagina **Importa immagini articolo** .
 
     > [!NOTE]
-    > Per le schede articolo che hanno già un'immagine, la casella di controllo **L'immagine esiste già** è selezionata. Se non si desidera sostituire alcuna immagine esistente, deselezionare la casella di controllo **Sostituisci immagini**. Se non si desidera sostituire singole immagini esistenti, eliminare le righe in questione.
+    > Per le schede articolo che hanno già un'immagine, la casella di controllo **L'immagine esiste già** è selezionata. Se non si desidera sostituire alcuna immagine esistente, deselezionare la casella di controllo **Sostituisci immagini** . Se non si desidera sostituire singole immagini esistenti, eliminare le righe in questione.
 
-3. Scegliere l'azione **Importa immagini**.
+3. Scegliere l'azione **Importa immagini** .
 
 Il campo **Stato importazione** viene aggiornato per indicare se l'importazione di un'immagine è stata ignorata o completata.       
 

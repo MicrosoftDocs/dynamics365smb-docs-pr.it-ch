@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ba995628679946810b693184dac191988c7daf65
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d9263f2dda3a944b49ee449ef5f71bb56eb201f2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181520"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925150"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Impostare cicli e fasi di vendita dalle opportunità
 Prima di iniziare a utilizzare le opportunità di vendita, è necessario impostare cicli di vendita e fasi dei cicli di vendita. Un ciclo di vendita è composto da una serie di fasi che vanno dal contatto iniziale alla chiusura della vendita. Per ogni fase possono essere previsti determinati requisiti che devono essere soddisfatti, ad esempio richiesta di un'offerta di vendita, prima che un'opportunità possa passare alla fase successiva. È inoltre possibile specificare se una fase può essere ignorata. È possibile impostare il numero desiderato di cicli di vendita e di fasi all'interno di un ciclo.
@@ -31,20 +31,20 @@ In questo argomento viene descritto anche come impostare i task e le attività e
 Ripetere tali passaggi per impostare altri cicli di vendita. Dopo aver impostato i cicli delle opportunità di vendita, potrebbe essere necessario impostare le diverse fasi all'interno di ciascun ciclo.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Per definire le fasi ciclo di vendita delle opportunità
-1. Nella pagina **Cicli di vendita** selezionare l'opportunità relativa al ciclo di vendita per la quale si desidera impostare le fasi, quindi fare clic sull'azione **Fasi**. Verrà aperta la pagina **Fasi ciclo di vendita**.
+1. Nella pagina **Cicli di vendita** selezionare l'opportunità relativa al ciclo di vendita per la quale si desidera impostare le fasi, quindi fare clic sull'azione **Fasi** . Verrà aperta la pagina **Fasi ciclo di vendita** .
 2. Scegliere l'azione **Nuovo** per inserire una nuova fase nel ciclo di vendita.
 
 Ripetere tali passaggi per impostare altre fasi all'interno del ciclo di vendita.
 
 ## <a name="to-assign-stage-cycles-to-opportunities"></a>Per assegnare cicli della fase alle opportunità
-Una volta aggiunto il ciclo della fase delle opportunità, è possibile iniziare ad aggiungere le opportunità di vendita e quindi assegnare il ciclo della fase alle opportunità impostando il campo **Codice ciclo di vendita**. Per ulteriori informazioni, vedere [Creare opportunità di vendita](marketing-how-create-opportunities.md).
+Una volta aggiunto il ciclo della fase delle opportunità, è possibile iniziare ad aggiungere le opportunità di vendita e quindi assegnare il ciclo della fase alle opportunità impostando il campo **Codice ciclo di vendita** . Per ulteriori informazioni, vedere [Creare opportunità di vendita](marketing-how-create-opportunities.md).
 
 ## <a name="to-set-up-activities-with-tasks"></a>Per impostare attività con task
 È possibile combinare più task, ad esempio task che rappresentano un passaggio, nelle attività. I task delle attività sono in relazione tra essi in base a una formula di date. È possibile assegnare attività alle opportunità, agli agenti o ai contatti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Attività** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari.
-3. Nella Scheda dettaglio **Righe**, compilare tutte le righe necessarie i campi per definire una o più attività nel report.
+3. Nella Scheda dettaglio **Righe** , compilare tutte le righe necessarie i campi per definire una o più attività nel report.
 
 ## <a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a>Per assegnare task o attività di task a opportunità
 Se si è impostato un task, è possibile assegnarlo a una opportunità di vendita e quindi assegnare l'attività di cui il task fa parte.
@@ -53,14 +53,14 @@ Se si è impostato un task, è possibile assegnarlo a una opportunità di vendit
 >   Questa procedura descrive come assegnare i task dell'attività alle opportunità. i passaggi sono simili a quelli per l'assegnazione dei task ad agenti o contatti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Opportunità** e quindi scegliere il collegamento correlato.
-2. Selezionare un'opportunità, quindi scegliere l'azione **Task**.
-3. Nella pagina **Lista task**, selezionare l'azione **Crea task**.
+2. Selezionare un'opportunità, quindi scegliere l'azione **Task** .
+3. Nella pagina **Lista task** , selezionare l'azione **Crea task** .
 4.  Nella pagina **Crea task** compilare i campi secondo le proprie necessità.
 
-    Si noti il campo **Opportunità**, che è assegnato automaticamente all'opportunità in questione.
-5. Scegliere il pulsante **OK**.
-6. Nella pagina **Lista task** selezionare il nuovo task e scegliere l'azione **Assegna attività**.
-7. Nella pagina **Assegna attività** compilare i campi in base alle esigenze, quindi scegliere **OK**.
+    Si noti il campo **Opportunità** , che è assegnato automaticamente all'opportunità in questione.
+5. Scegliere il pulsante **OK** .
+6. Nella pagina **Lista task** selezionare il nuovo task e scegliere l'azione **Assegna attività** .
+7. Nella pagina **Assegna attività** compilare i campi in base alle esigenze, quindi scegliere **OK** .
 
 ## <a name="see-also"></a>Vedere anche
 [Elaborazione delle opportunità di vendita](marketing-processing-sales-opportunities.md)  

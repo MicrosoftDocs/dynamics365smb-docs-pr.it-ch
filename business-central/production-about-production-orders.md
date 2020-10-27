@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f11b92eb0a9941e72c8f6c87e0e052fcc0530fd1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786964"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925023"
 ---
 # <a name="about-production-orders"></a>Informazioni sugli ordini di produzione
 Gli ordini di produzione vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti. Gli ordini di produzione diramano il lavoro in diverse aree di produzione o centri di lavoro nella produzione.  
@@ -38,7 +38,7 @@ Gli ordini di produzione costituiscono il punto iniziale per:
 -   Tracciabilità della produzione finita  
 
 ## <a name="production-order-creation"></a>Creazione di ordini di produzione  
-Gli ordini di produzione possono essere creati manualmente ordine per ordine nella pagina **Ordine di produzione** oppure possono essere generati nelle pagine **Ordine vendita** o **Pianificazione ordine**. È possibile creare più ordini nella pagina **Prospetto pianificazione**.  
+Gli ordini di produzione possono essere creati manualmente ordine per ordine nella pagina **Ordine di produzione** oppure possono essere generati nelle pagine **Ordine vendita** o **Pianificazione ordine** . È possibile creare più ordini nella pagina **Prospetto pianificazione** .  
 
 Gli ordini di produzione vengono creati utilizzando le informazioni relative a:  
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e
 Gli ordini di produzione creati tramite altri mezzi non vengono impegnati e tracciati automaticamente.   
 
 ## <a name="production-order-status"></a>Stato dell'ordine di produzione  
-Lo stato dell'ordine di produzione definisce il comportamento dell'ordine di produzione nell'applicazione. La forma e il contenuto della produzione sono determinati dallo stato dell'ordine. Gli ordini di produzione vengono visualizzati in pagine differenti in funzione del proprio stato. Non è possibile modificare manualmente lo stato di un ordine di produzione, ma è necessario utilizzare la funzione **Modifica stato**.  
+Lo stato dell'ordine di produzione definisce il comportamento dell'ordine di produzione nell'applicazione. La forma e il contenuto della produzione sono determinati dallo stato dell'ordine. Gli ordini di produzione vengono visualizzati in pagine differenti in funzione del proprio stato. Non è possibile modificare manualmente lo stato di un ordine di produzione, ma è necessario utilizzare la funzione **Modifica stato** .  
 
 ### <a name="simulated-production-order"></a>Ordine di produzione simulato  
 L'ordine di produzione simulato si distingue in base alle seguenti caratteristiche:  
@@ -128,7 +128,7 @@ Il reporting dei consumi aut. avanti presuppone che la quantità prevista di tut
 - Nella scheda articolo di ciascun articolo incluso nella DB di produzione di livello principale deve essere selezionata la consuntivazione in avanti.  
 - Tutti i codici di legame tra ciclo e distinta base nella DB di produzione devono essere rimossi.  
 
-Il reporting dei consumi aut. fine registra l'effettiva quantità di tutto il materiale prelevato o consumato quando lo stato di un ordine di produzione viene modificato in *Completato*, a meno che non si utilizzino codici di legame tra ciclo e distinta base. In questo secondo caso, il materiale viene consumato in seguito alla registrazione dell'articolo principale per il passaggio operativo nelle registrazioni di output.  
+Il reporting dei consumi aut. fine registra l'effettiva quantità di tutto il materiale prelevato o consumato quando lo stato di un ordine di produzione viene modificato in *Completato* , a meno che non si utilizzino codici di legame tra ciclo e distinta base. In questo secondo caso, il materiale viene consumato in seguito alla registrazione dell'articolo principale per il passaggio operativo nelle registrazioni di output.  
 
 Quando l'ordine di produzione viene aggiornato, il metodo di consuntivazione viene copiato dalla scheda articolo. Poiché il metodo di consuntivazione per ogni componente dell'ordine di produzione determina la modalità e il momento di registrazione del consumo, è importante notare che è possibile modificare tale metodo per articoli specifici direttamente nell'ordine di produzione.  
 
@@ -178,7 +178,7 @@ L'importo della consuntivazione corrisponde alla quantità per assemblaggio indi
 #### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Reporting automatico - Consuntivazione a ritroso dell'intero ordine  
 In questo metodo di reporting non vengono considerati i codici di legame tra ciclo e distinta base.  
 
-Non viene prelevato alcun componente fino a quando lo stato dell'ordine di produzione rilasciato non viene modificato in *Completato*. L'importo della consuntivazione corrisponde alla quantità per assemblaggio indicata nella DB di produzione moltiplicata per il numero di articoli principali finiti e inseriti in magazzino.  
+Non viene prelevato alcun componente fino a quando lo stato dell'ordine di produzione rilasciato non viene modificato in *Completato* . L'importo della consuntivazione corrisponde alla quantità per assemblaggio indicata nella DB di produzione moltiplicata per il numero di articoli principali finiti e inseriti in magazzino.  
 
 La consuntivazione a ritroso dell'intero ordine di produzione richiede lo stesso setup della consuntivazione in avanti: il metodo di reporting deve essere impostato alla fine in ogni scheda articolo per tutti gli articoli all'interno della DB principale di cui eseguire il reporting. Tutti i codici di legame tra ciclo e distinta base devono essere rimossi dalla DB di produzione.  
 
@@ -200,7 +200,7 @@ Il metodo aut.fine consente di registrare automaticamente l'output e il tempo pr
 ### <a name="posting-consumption-and-output"></a>Registrazione di consumo e output  
 È possibile utilizzare qualsiasi combinazione di consuntivazione automatica e registrazione manuale delle informazioni sia per il consumo che per l'output. È possibile, ad esempio, eseguire la consuntivazione in avanti automatica dei componenti, ma utilizzare le registrazioni dei consumi per registrare lo scarto. Analogamente, è possibile registrare automaticamente l'output, ma utilizzare le registrazioni di output per registrare lo scarto dell'articolo principale o il tempo aggiuntivo speso sull'ordine.  
 
-Se infine si immettono il consumo e l'output manualmente, è necessario determinare la sequenza in cui verranno registrate tali informazioni. È possibile registrare prima il consumo e quindi utilizzare un metodo rapido per immettere le informazioni in base alla quantità di output prevista. In alternativa, è possibile immettere prima l'output utilizzando la funzione **Esplodi ciclo**. Si registrerà quindi il consumo in base all'effettiva quantità di output.  
+Se infine si immettono il consumo e l'output manualmente, è necessario determinare la sequenza in cui verranno registrate tali informazioni. È possibile registrare prima il consumo e quindi utilizzare un metodo rapido per immettere le informazioni in base alla quantità di output prevista. In alternativa, è possibile immettere prima l'output utilizzando la funzione **Esplodi ciclo** . Si registrerà quindi il consumo in base all'effettiva quantità di output.  
 
 ### <a name="production-journal"></a>Registrazioni di produzione  
 La funzionalità Registrazioni di produzione combina le funzioni Registrazioni consumi e Registrazioni output in una singola registrazione, cui è possibile accedere direttamente dall'ordine di produzione rilasciato.  

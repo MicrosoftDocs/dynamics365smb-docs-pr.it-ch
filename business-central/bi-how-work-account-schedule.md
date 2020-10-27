@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 07/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 783e93fd4b9c33a249556b75bc880daff0afd24b
-ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
+ms.openlocfilehash: 23a90d6529da231194b80f75e570e106d66a99c6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617356"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922210"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
 
@@ -39,12 +39,12 @@ Le situazioni contabili sono utilizzate per organizzare i conti elencati nel pia
 
 ## <a name="gl-account-categories"></a>Categorie conto C/G
 
-Le categorie di conto C/G consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella pagina **Categorie conto C/G** e aver scelto l'azione **Genera situazioni contabili**, le situazioni contabili sottostanti i report finanziari principali vengono aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report **Conto patrimoniale**, nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche.
+Le categorie di conto C/G consentono di modificare il layout dei rendiconti finanziari. Dopo aver impostato le categorie di conto nella pagina **Categorie conto C/G** e aver scelto l'azione **Genera situazioni contabili** , le situazioni contabili sottostanti i report finanziari principali vengono aggiornate. Alla successiva esecuzione di uno dei report, ad esempio il report **Conto patrimoniale** , nuovi totali e voci secondarie vengono aggiunte, in base alle modifiche.
 
 > [!NOTE]
 > Le categorie di conto di livello superiore, come ad esempio il nodo **Passività** sono fisse e non è possibile aggiungere. Tuttavia, è possibile eliminare e aggiungere categorie di conto ai livelli inferiori e modificarne la struttura per definire la modalità di visualizzazione della situazione contabile correlata nei report.
 >
-> Si consiglia di creare e strutturare da zero le proprie categorie di conto C/G di livello inferiore, se necessario in una gerarchia, anziché tentare di riorganizzare quelle esistenti. Ad esempio, è possibile ristrutturare il nodo **Passività** per contenere un nuovo nodo **Equità** seguito dai nodi **Passività correnti** e **Debiti a lungo termine**.
+> Si consiglia di creare e strutturare da zero le proprie categorie di conto C/G di livello inferiore, se necessario in una gerarchia, anziché tentare di riorganizzare quelle esistenti. Ad esempio, è possibile ristrutturare il nodo **Passività** per contenere un nuovo nodo **Equità** seguito dai nodi **Passività correnti** e **Debiti a lungo termine** .
 
 ## <a name="to-create-a-new-account-schedule"></a>Per creare una nuova situazione contabile
 
@@ -52,20 +52,20 @@ Utilizzare situazioni contabili per analizzare le cifre nei conti di contabilit�
 
 Le situazioni contabili nella versione standard di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono la base dei report finanziari standard, che potrebbero non essere adatti alle esigenze dell'azienda. Per creare rapidamente i propri report finanziari, è possibile iniziare copiando una situazione contabile esistente. Vedere il passaggio 3 di seguito.
 
-Nella pagina **Sintesi situaz. contabile** è possibile visualizzare un'anteprima del report finanziario definito dalla situazione contabile. Nella procedura seguente, è importante comprendere che le righe e le colonne della situazione contabile configurate possono essere visualizzate e convalidate solo nella pagina **Sintesi situaz. contabile**, a cui si accede da una situazione contabile scegliendo l'azione **Sintesi**. La pagina **Situazione contabile** è soltanto un'area di configurazione.  
+Nella pagina **Sintesi situaz. contabile** è possibile visualizzare un'anteprima del report finanziario definito dalla situazione contabile. Nella procedura seguente, è importante comprendere che le righe e le colonne della situazione contabile configurate possono essere visualizzate e convalidate solo nella pagina **Sintesi situaz. contabile** , a cui si accede da una situazione contabile scegliendo l'azione **Sintesi** . La pagina **Situazione contabile** è soltanto un'area di configurazione.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Situazioni contabili** scegliere l'azione **Nuovo** per creare una nuova situazione contabile.
-3. In alternativa, scegliere l'azione **Copia situazione contabile**, compilare i due campi, quindi scegliere **OK**.
-4. Compilare i campi come necessario. Nel campo **Default layout colonna**, selezionare un layout esistente. Se necessario, è possibile modificarlo in seguito.
+3. In alternativa, scegliere l'azione **Copia situazione contabile** , compilare i due campi, quindi scegliere **OK** .
+4. Compilare i campi come necessario. Nel campo **Default layout colonna** , selezionare un layout esistente. Se necessario, è possibile modificarlo in seguito.
 
     I layout di colonna sono utilizzati per definire colonne per differenti parametri utilizzati per visualizzare i dati finanziari nelle righe. Ad esempio, è possibile creare un layout di colonna che compara saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente, con quattro colonne. Per ulteriori informazioni, vedere [Per modificare un layout di colonna](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
-5. Scegliere l'azione **Modifica situazione contabile**.
+5. Scegliere l'azione **Modifica situazione contabile** .
 6. Creare una riga per ciascun elemento finanziario da visualizzare nel report, ad esempio una riga per i cespiti correnti e un'ulteriore riga per i cespiti. Per avere un'idea, vedere le situazioni contabili esistenti nella società di esempio CRONUS.
 7. Scegliere l'azione **Sintesi** per visualizzare il report finanziario risultante.
-8. Nella pagina **Sintesi situaz. contabile**, nel campo **Nome Layout colonna**, selezionare un altro layout di colonna per visualizzare i dati finanziari mediante altri parametri.
-9. Scegliere il pulsante **OK**.
+8. Nella pagina **Sintesi situaz. contabile** , nel campo **Nome Layout colonna** , selezionare un altro layout di colonna per visualizzare i dati finanziari mediante altri parametri.
+9. Scegliere il pulsante **OK** .
 
 A questo punto, si è definita la base della situazione contabile, le righe dei dati finanziari da visualizzare e un layout esistente delle colonne per visualizzare i dati nelle righe per differenti parametri. Se il layout di colonna predefinito selezionato nel passaggio 4 non è adatto allo scopo, attenersi alla procedura seguente.
 
@@ -74,15 +74,15 @@ A questo punto, si è definita la base della situazione contabile, le righe dei 
 I layout di colonna sono utilizzati per definire le colonne da includere nel report risultante. Ad esempio, è possibile creare un layout che metta a confronto saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente.
 
 > [!NOTE]
-> In una versione stampata/visualizzata in anteprima/salvata di una situazione contabile è possibile visualizzare al massimo cinque colonne. Se la situazione contabile è utilizzata solo per l'analisi nella pagina **Sintesi situaz. contabile**, è possibile creare tutte le colonne necessarie.
+> In una versione stampata/visualizzata in anteprima/salvata di una situazione contabile è possibile visualizzare al massimo cinque colonne. Se la situazione contabile è utilizzata solo per l'analisi nella pagina **Sintesi situaz. contabile** , è possibile creare tutte le colonne necessarie.
 
-1. Nella pagina **Situazioni contabili**, selezionare la situazione contabile pertinente, quindi scegliere l'azione **Modifica setup layout colonna**.
-2. Nella pagina **Layout colonne**, creare una riga per ogni colonna utilizzata per visualizzare i dati finanziari nel report finanziario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Scegliere il pulsante **OK**.
+1. Nella pagina **Situazioni contabili** , selezionare la situazione contabile pertinente, quindi scegliere l'azione **Modifica setup layout colonna** .
+2. Nella pagina **Layout colonne** , creare una riga per ogni colonna utilizzata per visualizzare i dati finanziari nel report finanziario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Scegliere il pulsante **OK** .
 4. Aprire la pagina **Sintesi situaz. contabile** di tanto in tanto per verificare che il nuovo layout di colonna funzioni come previsto.
 
 > [!NOTE]
-> Le colonne definite in ciascuna riga rappresentano la colonna 3 e le colonne successive nella pagina **Sintesi situaz. contabile**. Le prime due colonne, **Nr. riga** e **Descrizione**, sono fisse.  
+> Le colonne definite in ciascuna riga rappresentano la colonna 3 e le colonne successive nella pagina **Sintesi situaz. contabile** . Le prime due colonne, **Nr. riga** e **Descrizione** , sono fisse.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Per creare una colonna per il calcolo delle percentuali
 
@@ -92,9 +92,9 @@ A volte, potrebbe essere necessario includere in una situazione contabile una co
 2. Nella pagina **Descr. situazioni contabili** selezionare una situazione contabile.  
 3. Selezionare l'azione **Modifica situazione contabile** per impostare una riga della situazione contabile per calcolare il totale su cui saranno basate le percentuali.  
 4. Inserire una riga immediatamente sopra la prima riga per la quale si desidera visualizzare una percentuale.  
-5. Compilare i campi della riga nel modo seguente: Nel campo **Tipo totale** immettere **Imposta base per percentuale**. Nel campo **Totale** immettere una formula del totale su cui sarà basata la percentuale. Ad esempio, se il totale vendite è incluso nella riga 11 immettere **11**.  
+5. Compilare i campi della riga nel modo seguente: Nel campo **Tipo totale** immettere **Imposta base per percentuale** . Nel campo **Totale** immettere una formula del totale su cui sarà basata la percentuale. Ad esempio, se il totale vendite è incluso nella riga 11 immettere **11** .  
 6. Scegliere l'azione **Modifica setup layout colonna** per impostare una colonna.  
-7. Compilare i campi della riga nel modo seguente: nel campo **Tipo colonna** selezionare **Formula**. Nel campo **Formula** immettere una formula per l'importo per il quale si desidera calcolare la percentuale, seguita dalla percentuale (%). Ad esempio, se il numero di colonna N contiene il saldo periodo, immettere **N%**.  
+7. Compilare i campi della riga nel modo seguente: nel campo **Tipo colonna** selezionare **Formula** . Nel campo **Formula** immettere una formula per l'importo per il quale si desidera calcolare la percentuale, seguita dalla percentuale (%). Ad esempio, se il numero di colonna N contiene il saldo periodo, immettere **N%** .  
 8. Ripetere i passaggi da 4 a 7 per ogni gruppo di righe che di desidera suddividere per percentuale.
 
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Per impostare situazioni contabili con sintesi
@@ -104,14 +104,14 @@ A volte, potrebbe essere necessario includere in una situazione contabile una co
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Situazioni contabili** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Descr. situazioni contabili** selezionare una situazione contabile.  
 3. Scegliere l'azione **Modifica situazione contabile**  
-4. Nella pagina **Situazione contabile** selezionare il nome della situazione contabile di default nel campo **Nome**.
-5. Scegliere l'azione **Inserisci conti**.  
-6. Selezionare i conti che si intendono includere nella dichiarazione e selezionare il pulsante **OK**.
+4. Nella pagina **Situazione contabile** selezionare il nome della situazione contabile di default nel campo **Nome** .
+5. Scegliere l'azione **Inserisci conti** .  
+6. Selezionare i conti che si intendono includere nella dichiarazione e selezionare il pulsante **OK** .
 
     I conti sono stati inseriti nella situazione contabile. È inoltre possibile modificare il layout colonna.  
-7. Scegliere l'azione **Sintesi**.  
-8. Nella pagina **Sintesi situaz. contabile**, nella scheda dettaglio **Filtri dimensione**, impostare il filtro budget con il nome di filtro desiderato.  
-9. Scegliere il pulsante **OK**.  
+7. Scegliere l'azione **Sintesi** .  
+8. Nella pagina **Sintesi situaz. contabile** , nella scheda dettaglio **Filtri dimensione** , impostare il filtro budget con il nome di filtro desiderato.  
+9. Scegliere il pulsante **OK** .  
 
 Ora è possibile copiare e incollare la dichiarazione di budget in un foglio elettronico.  
 
@@ -142,10 +142,10 @@ Esempi di formule
 | \-1FY\[1..CP\]  | Dall'inizio dell'anno fiscale trascorso al periodo corrente dell'anno fiscale trascorso, compresi entrambi i periodi |
 | \-1FY\[CP..LP\] | Dal periodo corrente dell'anno fiscale trascorso all'ultimo periodo dell'anno fiscale trascorso, compresi entrambi i periodi   |
 
-Se si desidera eseguire i calcoli in base a periodi di tempo regolari, è necessario invece immettere una formula nel campo **Formula confronto data**. Ad esempio, se il campo è impostato su -1A, in [!INCLUDE [prodshort](includes/prodshort.md)] viene effettuato il confronto con lo stesso periodo di un anno prima.
+Se si desidera eseguire i calcoli in base a periodi di tempo regolari, è necessario invece immettere una formula nel campo **Formula confronto data** . Ad esempio, se il campo è impostato su -1A, in [!INCLUDE [prodshort](includes/prodshort.md)] viene effettuato il confronto con lo stesso periodo di un anno prima.
 
 > [!NOTE]
-> Non è sempre trasparente quali periodi si stanno confrontando perché è possibile impostare un filtro per data su un report che si estende su date diverse rispetto ai periodi contabili che si riflettono nei dati nel piano dei conti. Ad esempio, si crea una situazione contabile in cui si desidera confrontare il periodo corrente con lo stesso periodo dell'anno precedente, quindi si imposta il campo **Formula confronto data** su *-1AF*. Quindi, si esegue il report il 28 febbraio e si imposta il filtro della data su gennaio e febbraio. Di conseguenza, la situazione contabile confronta gennaio e febbraio di quest'anno con gennaio dell'anno scorso, che è l'unico periodo contabile completato dei due per l'anno prima.  
+> Non è sempre trasparente quali periodi si stanno confrontando perché è possibile impostare un filtro per data su un report che si estende su date diverse rispetto ai periodi contabili che si riflettono nei dati nel piano dei conti. Ad esempio, si crea una situazione contabile in cui si desidera confrontare il periodo corrente con lo stesso periodo dell'anno precedente, quindi si imposta il campo **Formula confronto data** su *-1AF* . Quindi, si esegue il report il 28 febbraio e si imposta il filtro della data su gennaio e febbraio. Di conseguenza, la situazione contabile confronta gennaio e febbraio di quest'anno con gennaio dell'anno scorso, che è l'unico periodo contabile completato dei due per l'anno prima.  
 
 Per ulteriori informazioni sulle formule di data, vedere [Lavorare con le date e gli orari del calendario ](ui-enter-date-ranges.md).  
 

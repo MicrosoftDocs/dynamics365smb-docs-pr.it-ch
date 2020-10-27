@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/07/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 46c94de4b1852549aea9fb7d2279fe045e33df1f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e12f68f56c5ffe06bf37c51b2e85ea1074a4c92
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789043"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926129"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrare i prezzi di vendita e gli sconti speciali
 
@@ -40,23 +40,23 @@ Poiché i prezzi di vendita e gli sconti riga di vendita si basano su una combin
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Per impostare un prezzo di vendita per un cliente
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
-2. Aprire la scheda cliente interessata e scegliere l'azione **Prezzi**.
+2. Aprire la scheda cliente interessata e scegliere l'azione **Prezzi** .
 
-    Nella pagina **Prezzi vendita**, il campo **Tipo vendita** viene precompilato con **Cliente** e il campo **Codice vendita** viene precompilato con il numero del cliente.
+    Nella pagina **Prezzi vendita** , il campo **Tipo vendita** viene precompilato con **Cliente** e il campo **Codice vendita** viene precompilato con il numero del cliente.
 3. Compilare i campi della riga in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà un prezzo di vendita speciale al cliente.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Per impostare uno sconto riga vendita per un cliente
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
-2. Aprire la scheda cliente interessata e scegliere l'azione **Sconti riga**.
+2. Aprire la scheda cliente interessata e scegliere l'azione **Sconti riga** .
 
-    Nella pagina **Sconti riga vendita**, il campo **Tipo vendita** viene precompilato con **Cliente** e il campo **Codice vendita** viene precompilato con il numero del cliente.
+    Nella pagina **Sconti riga vendita** , il campo **Tipo vendita** viene precompilato con **Cliente** e il campo **Codice vendita** viene precompilato con il numero del cliente.
 3. Compilare i campi della riga in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà uno sconto riga vendita al cliente.
 
 > [!Note]
-> Quando si aprono le finestre **Prezzi vendita** e **Sconti riga vendita** di un cliente specifico, i campi **Filtro tipo vendita** e **Filtro codice vendita** sono impostati per il cliente e non possono essere modificati o rimossi, indicati dal valore in grigio del campo **Filtro codice vendita**.
+> Quando si aprono le finestre **Prezzi vendita** e **Sconti riga vendita** di un cliente specifico, i campi **Filtro tipo vendita** e **Filtro codice vendita** sono impostati per il cliente e non possono essere modificati o rimossi, indicati dal valore in grigio del campo **Filtro codice vendita** .
 >
-> Per impostare i prezzi o gli sconti di riga per tutti i clienti, un gruppo di prezzi dei clienti o una campagna, è necessario aprire le finestre da una scheda articolo. In alternativa, per i prezzi di vendita, utilizzare la pagina **Prospetto Prezzi Vendita**. Per ulteriori informazioni, vedere [Per aggiornare in blocco i prezzi degli articoli](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> Per impostare i prezzi o gli sconti di riga per tutti i clienti, un gruppo di prezzi dei clienti o una campagna, è necessario aprire le finestre da una scheda articolo. In alternativa, per i prezzi di vendita, utilizzare la pagina **Prospetto Prezzi Vendita** . Per ulteriori informazioni, vedere [Per aggiornare in blocco i prezzi degli articoli](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Per impostare uno sconto su fattura per un cliente
 
@@ -71,7 +71,7 @@ Dopo avere stabilito a quali clienti si debbano applicare gli sconti fattura, è
 
 Continuare a impostare le nuove condizioni dello sconto fattura di vendita.
 
-1. Nella pagina **Scheda cliente** scegliere l'azione **Sconti fattura**. Verrà visualizzata la pagina **Sconti fattura clienti**.
+1. Nella pagina **Scheda cliente** scegliere l'azione **Sconti fattura** . Verrà visualizzata la pagina **Sconti fattura clienti** .
 2. Nel campo **Codice valuta** immettere il codice per una valuta alla quale sono collegate le condizioni dello sconto fattura nella riga. Lasciare il campo vuoto se si desidera impostare le condizioni di sconto fattura in valuta locale.
 3. Nel campo **Importo minimo** immettere l'importo minimo che una fattura deve avere affinché le possa essere applicato lo sconto.
 4. Nel campo **% sconto** immettere lo sconto fattura sotto forma di percentuale dell'importo fattura.
@@ -90,11 +90,11 @@ Prima di utilizzare gli sconti fattura con le vendite è necessario immettere un
 - a quali clienti verrà concesso questo tipo di sconto.  
 - quali percentuali di sconto verranno applicate.  
 
-Se lo si desidera, è possibile impostare il calcolo automatico degli sconti fattura nella pagina **Setup contabilità clienti e vendite**.  
+Se lo si desidera, è possibile impostare il calcolo automatico degli sconti fattura nella pagina **Setup contabilità clienti e vendite** .  
 
 Per ciascun cliente è possibile specificare se verranno concessi sconti fattura a condizione che determinati requisiti vengano soddisfatti, cioè quando l'importo della fattura raggiunge una certa somma. Si possono definire le condizioni per gli sconti fattura in valuta locale per i clienti nazionali e in valuta estera per i clienti esteri.  
 
-Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le pagine **Sconti fattura clienti**. È possibile immettere un numero qualsiasi di percentuali in ogni pagina. A ogni cliente è possibile associare una propria pagina oppure è possibile collegare più clienti alla stessa pagina.  
+Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le pagine **Sconti fattura clienti** . È possibile immettere un numero qualsiasi di percentuali in ogni pagina. A ogni cliente è possibile associare una propria pagina oppure è possibile collegare più clienti alla stessa pagina.  
 
 Oltre a (oppure invece di) una percentuale di sconto, è possibile collegare l'importo di un addebito di assistenza a un importo della fattura specifico.  
 
@@ -128,32 +128,32 @@ Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato n
 
 ## <a name="to-copy-sales-prices"></a>Per copiare prezzi di vendita
 
-Eseguire il processo batch **Suggerisci prezzo vendita in prosp.** se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare il processo batch che si avvia dalla pagina **Prospetto Prezzi Vendita**.  
+Eseguire il processo batch **Suggerisci prezzo vendita in prosp.** se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare il processo batch che si avvia dalla pagina **Prospetto Prezzi Vendita** .  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prezzi vendita** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci prezzo vendita in prosp.** .  
-3. Nella Scheda dettaglio **Prezzi vendita** immettere i prezzi di vendita originali che si desidera copiare nei campi **Tipo vendita** e **Codice vendita**.  
+3. Nella Scheda dettaglio **Prezzi vendita** immettere i prezzi di vendita originali che si desidera copiare nei campi **Tipo vendita** e **Codice vendita** .  
 4. Nella sezione superiore della pagina di richiesta compilare i campi **Tipo vendita** e **Codice vendita** con il tipo e il nome con cui si desidera copiare i prezzi di vendita.  
-5. Per creare nuovi prezzi mediante il processo batch, selezionare la casella di controllo **Crea nuovi prezzi**.  
-6. Selezionare il pulsante **OK** per inserire automaticamente i nuovi prezzi suggeriti nelle righe della pagina **Prospetto prezzi vendita**, indicando che sono validi per il tipo vendita selezionato.  
+5. Per creare nuovi prezzi mediante il processo batch, selezionare la casella di controllo **Crea nuovi prezzi** .  
+6. Selezionare il pulsante **OK** per inserire automaticamente i nuovi prezzi suggeriti nelle righe della pagina **Prospetto prezzi vendita** , indicando che sono validi per il tipo vendita selezionato.  
 
 > [!NOTE]  
-> Il processo batch fornisce soltanto suggerimenti e non consente di implementare le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella pagina **Prezzo vendita**, scegliere l'azione **Implementare variazione prezzi** nella pagina **Prospetto prezzi vendita**.
+> Il processo batch fornisce soltanto suggerimenti e non consente di implementare le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella pagina **Prezzo vendita** , scegliere l'azione **Implementare variazione prezzi** nella pagina **Prospetto prezzi vendita** .
 
 ## <a name="to-bulk-update-item-prices"></a>Per aggiornare in blocco i prezzi degli articoli
 
-Eseguire il processo batch **Suggerisci prezzo articolo in prosp.** per aggiornare in blocco i prezzi degli articoli, come aumentare tutti i prezzi di una determinata percentuale. Il collegamento al processo batch è disponibile nella pagina **Prospetto Prezzi Vendita**.  
+Eseguire il processo batch **Suggerisci prezzo articolo in prosp.** per aggiornare in blocco i prezzi degli articoli, come aumentare tutti i prezzi di una determinata percentuale. Il collegamento al processo batch è disponibile nella pagina **Prospetto Prezzi Vendita** .  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prezzi vendita** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci prezzo articolo in prosp.** .  
-3. Nella Scheda dettaglio **Articolo**, riempire il campo **Nr.** o **Categoria registrazione magazzino** o altri campi con i prezzi degli articoli originali che si desidera aggiornare.  
+3. Nella Scheda dettaglio **Articolo** , riempire il campo **Nr.** o **Categoria registrazione magazzino** o altri campi con i prezzi degli articoli originali che si desidera aggiornare.  
 4. Nella sezione superiore della pagina di richiesta compilare i campi **Tipo vendita** e **Codice vendita** con il tipo e il nome con cui si desidera copiare i prezzi di vendita.
-5. Se si desidera che il processo batch rettifichi automaticamente i prezzi degli articoli suggeriti, immettere la rettifica nel campo **Fattore Rettifica**. Ad esempio, immettere 1.15 in **Fattore Rettifica** per aumentare del 15% il prezzo dell'articolo.  
-6. Per creare nuovi prezzi mediante il processo batch, selezionare il campo **Crea nuovi prezzi**.  
-7. Selezionare il pulsante **OK** per inserire automaticamente i nuovi prezzi suggeriti nelle righe della pagina **Prospetto prezzi vendita**, indicando che sono validi per l'**articolo** selezionato.  
+5. Se si desidera che il processo batch rettifichi automaticamente i prezzi degli articoli suggeriti, immettere la rettifica nel campo **Fattore Rettifica** . Ad esempio, immettere 1.15 in **Fattore Rettifica** per aumentare del 15% il prezzo dell'articolo.  
+6. Per creare nuovi prezzi mediante il processo batch, selezionare il campo **Crea nuovi prezzi** .  
+7. Selezionare il pulsante **OK** per inserire automaticamente i nuovi prezzi suggeriti nelle righe della pagina **Prospetto prezzi vendita** , indicando che sono validi per l' **articolo** selezionato.  
 
 > [!NOTE]
-> Il processo batch fornisce soltanto suggerimenti e non consente di implementare le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella tabella **Prezzo vendita**, utilizzare il processo batch **Implementare variazione prezzi**, che è possibile richiamare facendo clic sulla scheda **Azioni**, del gruppo **Funzioni** nella pagina **Prospetto prezzi vendita**.
+> Il processo batch fornisce soltanto suggerimenti e non consente di implementare le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella tabella **Prezzo vendita** , utilizzare il processo batch **Implementare variazione prezzi** , che è possibile richiamare facendo clic sulla scheda **Azioni** , del gruppo **Funzioni** nella pagina **Prospetto prezzi vendita** .
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 

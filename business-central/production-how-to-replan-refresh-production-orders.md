@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48986fc36332c4bbca3f84208261fe8215e58f92
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781878"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921610"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Ripianificare o aggiornare direttamente gli ordini di produzione
 La funzione **Ripianifica** viene solitamente utilizzata negli ordini di produzione dopo l'aggiunta o la modifica di componenti che costituiscono ordini di produzione sottostanti. La funzione consente di calcolare le modifiche apportate alle righe componente e ciclo e include articoli disponibili nei livelli inferiori della distinta base di produzione per i quali potrebbero essere generati nuovi ordini di produzione.  
@@ -37,9 +37,9 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 ## <a name="to-replan-a-production-order"></a>Per ripianificare un ordine di produzione  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ord. produzione confermati** e quindi scegliere il collegamento correlato.  
 2.  Aprire l'ordine di produzione da ripianificare.  
-3.  Nella Scheda dettaglio **Righe**, scegliere l'azione **Righe** e quindi l'azione **Componenti**.  
+3.  Nella Scheda dettaglio **Righe** , scegliere l'azione **Righe** e quindi l'azione **Componenti** .  
 4.  Aggiungere un componente che corrisponda a un articolo prodotto, ovvero un sottoassemblato.  
-5.  Nell'ordine di produzione scegliere l'azione **Ripianifica**.  
+5.  Nell'ordine di produzione scegliere l'azione **Ripianifica** .  
 
     Nella pagina **Ripianifica ordine produzione** specificare la modalità desiderata per la ripianificazione e gli elementi da ripianificare.  
 6.  Nel campo **Direzione programmazione** selezionare una delle seguenti opzioni.  
@@ -66,9 +66,9 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è necessario procedere anche all'aggiornamento delle informazioni nell'ordine di produzione. Nella procedura che segue i componenti vengono calcolati per un ordine produzione confermato. I passaggi sono simili per le righe ciclo.
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione confermato** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
-3.  Scegliere l'azione **Aggiorna**.
-4. Nella pagina **Aggiorna ordine produzione**, selezionare una delle seguenti opzioni:
+2.  Scegliere l'azione **Nuovo** . Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
+3.  Scegliere l'azione **Aggiorna** .
+4. Nella pagina **Aggiorna ordine produzione** , selezionare una delle seguenti opzioni:
 
     |Opzione|Description|  
     |----------------------------------|---------------|---------------------------------------|  

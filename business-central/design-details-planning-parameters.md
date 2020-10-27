@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5d7c419158134c78993c00d6644bb828dd3be1a9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787389"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922015"
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
 In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ La modalità in cui l'approvvigionamento degli articoli è controllato dal siste
 |-------------|---------------|  
 |Definire se l'articolo deve essere pianificato|Metodo di riordino = Vuoto|  
 |Definire quando riordinare|Intervallo di tempo<br /><br /> Punto riordino<br /><br /> Lead time di sicurezza|  
-|Definire la quantità da riordinare|Scorta di sicurezza<br /><br /> Metodo di riordino:<br /><br /> -   Qtà Riordino Fissa più Qtà Riordino<br />-   Qtà Massima più Giacenza massima<br />-   Ordinamento<br />-   Lotto-per-Lotto|  
+|Definire la quantità da riordinare|Scorta di sicurezza<br /><br /> Metodo di riordino:<br /><br /> -   Qtà Riordino Fissa più Qtà Riordino<br />-   Qtà Massima più Giacenza massima<br />-   Ordine<br />-   Lotto-per-Lotto|  
 |Ottimizzare il momento e la quantità di riordino|Periodo di riprogrammazione<br /><br /> Periodo di accumulo lotti<br /><br /> Periodo di stabilizzazione|  
 |Modificare gli ordini di approvvigionamento|Quantità minima ordine<br /><br /> Quantità massima ordine<br /><br /> Molteplicità ordine|  
 |Delimitare l'articolo pianificato|Politica di produzione:<br /><br /> -   Prod. per Magazzino<br />-   Prod. su Ordine|  
@@ -37,14 +37,14 @@ Per essere incluso nel processo di pianificazione, un articolo/USK deve disporre
 ## <a name="define-when-to-reorder"></a>Definire quando riordinare  
 Le proposte di riordino vengono in genere rilasciate solo quando la quantità disponibile prevista è scesa o è inferiore a una quantità specificata. Questa quantità viene definita dal punto di riordino. In caso contrario, sarà uguale a zero. Zero può essere rettificato immettendo una scorta di sicurezza. Se l'utente ha definito un lead time di sicurezza, la proposta verrà consegnata nel periodo precedente alla data di scadenza richiesta.  
 
-Il campo **Intervallo di tempo** viene utilizzato dai criteri dei punti di riordino (**Qtà Riordino Fissa** e **Qtà Massima**), dove il livello del magazzino viene controllato dopo ogni intervallo di tempo. Il primo intervallo di tempo inizia con la data di inizio pianificazione.  
+Il campo **Intervallo di tempo** viene utilizzato dai criteri dei punti di riordino ( **Qtà Riordino Fissa** e **Qtà Massima** ), dove il livello del magazzino viene controllato dopo ogni intervallo di tempo. Il primo intervallo di tempo inizia con la data di inizio pianificazione.  
 
 > [!NOTE]  
->  Durante il calcolo degli intervalli di tempo, il sistema di pianificazione ignora i calendari attivi definiti nel campo **Codice calendario base** delle pagine **Informazioni società** e **Scheda Ubicazione**.  
+>  Durante il calcolo degli intervalli di tempo, il sistema di pianificazione ignora i calendari attivi definiti nel campo **Codice calendario base** delle pagine **Informazioni società** e **Scheda Ubicazione** .  
 
-Il lead time di sicurezza predefinito, nella pagina **Setup manufacturing**, deve essere impostato su almeno un giorno. La data di scadenza della domanda può essere nota, ma non l'ora di scadenza. Le righe di pianificazione retrocedono per soddisfare la domanda lorda e, se non viene definito alcun lead time di sicurezza, le merci possono giungere troppo tardi per soddisfare la domanda.  
+Il lead time di sicurezza predefinito, nella pagina **Setup manufacturing** , deve essere impostato su almeno un giorno. La data di scadenza della domanda può essere nota, ma non l'ora di scadenza. Le righe di pianificazione retrocedono per soddisfare la domanda lorda e, se non viene definito alcun lead time di sicurezza, le merci possono giungere troppo tardi per soddisfare la domanda.  
 
-I seguenti tre campi aggiuntivi relativi al periodo di riordino giocano un ruolo nella definizione del momento in cui eseguire il riordino: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere [Ottimizzare il momento e la quantità di riordino](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
+I seguenti tre campi aggiuntivi relativi al periodo di riordino giocano un ruolo nella definizione del momento in cui eseguire il riordino: **Periodo di riprogrammazione** , **Periodo di accumulo lotti** e **Periodo di stabilizzazione** . Per ulteriori informazioni, vedere [Ottimizzare il momento e la quantità di riordino](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Definire la quantità da riordinare  
 Se il sistema di pianificazione rileva la necessità di un riordino, il metodo di riordino selezionato viene utilizzato per determinare quando e quanto ordinare.  
@@ -57,7 +57,7 @@ Indipendentemente dal metodo di riordino, il sistema di pianificazione in genere
 4. Se esiste più domanda lorda dovuta prima della data finale della proposta di ordine programmata in avanti e questa domanda porta le scorte disponibili previste calcolate correntemente al di sotto della scorta di sicurezza, la quantità dell'ordine viene aumentata per coprire il disavanzo. L'ordine di approvvigionamento suggerito viene pianificato a ritroso dalla data di scadenza della domanda lorda che avrebbe violato la scorta di sicurezza.  
 5. Se il campo **Intervallo di tempo** non è compilato, verrà aggiunta solo la domanda lorda nella stessa data di scadenza.  
 
-     I seguenti campi relativi al periodo di riordino giocano un ruolo nella definizione della quantità da riordinare: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere [Ottimizzare il momento e la quantità di riordino](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
+     I seguenti campi relativi al periodo di riordino giocano un ruolo nella definizione della quantità da riordinare: **Periodo di riprogrammazione** , **Periodo di accumulo lotti** e **Periodo di stabilizzazione** . Per ulteriori informazioni, vedere [Ottimizzare il momento e la quantità di riordino](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Metodi di riordino  
 I seguenti metodi di riordino influiscono sulla quantità da riordinare.  
@@ -78,7 +78,7 @@ Per ottenere un piano di approvvigionamento razionale, un responsabile ottimizze
 |**Periodo di accumulo lotti**|Con il metodo di riordino lotto per lotto, questo campo viene utilizzato per accumulare più esigenze di approvvigionamento in un unico ordine di approvvigionamento. A partire dal primo approvvigionamento pianificato, il sistema accumula tutte le necessità di approvvigionamento nel periodo di accumulo lotti in un approvvigionamento, che viene inserito nella data del primo approvvigionamento. La domanda esterna al periodo di accumulo lotto non è coperta da questo approvvigionamento.|  
 |**Periodo di stabilizzazione**|Questo campo viene utilizzato per evitare la riprogrammazione secondaria di un approvvigionamento esistente nel tempo. Le modifiche a partire dalla data di approvvigionamento fino a un periodo di stabilizzazione dalla data di approvvigionamento non genereranno messaggi di azione.<br /><br /> Il periodo di stabilizzazione specifica un periodo di tempo durante il quale non deve essere proposta alcuna ripianificazione degli ordini di approvvigionamento esistenti. Ciò limita il numero di inutili ripianificazioni dell'approvvigionamento esistente a una data successiva se la data riprogrammata è compresa nel periodo di stabilizzazione.<br /><br /> Di conseguenza, un delta positivo tra la nuova data di approvvigionamento suggerita e la data di approvvigionamento originale sarà sempre maggiore del periodo di stabilizzazione.|  
 > [!NOTE]
-> Con il metodo di riordino lotto per lotto, il valore del campo **Periodo di accumulo lotti** deve essere uguale o superiore rispetto al valore del campo **Periodo di stabilizzazione**. In caso contrario, il periodo di stabilizzazione verrà automaticamente ridotto durante la procedura di pianificazione in base al periodo di accumulo lotti.  
+> Con il metodo di riordino lotto per lotto, il valore del campo **Periodo di accumulo lotti** deve essere uguale o superiore rispetto al valore del campo **Periodo di stabilizzazione** . In caso contrario, il periodo di stabilizzazione verrà automaticamente ridotto durante la procedura di pianificazione in base al periodo di accumulo lotti.  
 
 I tempi del periodo di riprogrammazione, del periodo di stabilizzazione e del periodo di accumulo lotti sono basati su una data di approvvigionamento. L'intervallo di tempo si basa sulla data di inizio della pianificazione, come indicato nell'illustrazione seguente.  
 
@@ -86,23 +86,23 @@ I tempi del periodo di riprogrammazione, del periodo di stabilizzazione e del pe
 
 Negli esempi che seguono, le frecce nere rappresentano l'approvvigionamento (su) e la domanda (giù) esistenti. Le frecce rosse, verdi e arancioni sono suggerimenti di pianificazione.  
 
-**Esempio 1**: la data modificata si trova al di fuori del periodo di riprogrammazione, ciò causa l'annullamento dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda nel periodo di accumulo lotti.  
+**Esempio 1** : la data modificata si trova al di fuori del periodo di riprogrammazione, ciò causa l'annullamento dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda nel periodo di accumulo lotti.  
 
 ![Periodo di riprogrammazione e periodo di accumulo lotti](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periodo di riprogrammazione e periodo di accumulo lotti")  
 
-**Esempio 2**: la data modificata si trova nel periodo di riprogrammazione, ciò causa la riprogrammazione dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda al di fuori del periodo di accumulo lotti.  
+**Esempio 2** : la data modificata si trova nel periodo di riprogrammazione, ciò causa la riprogrammazione dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda al di fuori del periodo di accumulo lotti.  
 
 ![Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione")  
 
-**Esempio 3**: esiste una domanda nel periodo di stabilizzazione e la quantità di approvvigionamento nel periodo di accumulo lotti corrisponde alla quantità dell'approvvigionamento. La domanda successiva è scoperta e viene suggerito un nuovo approvvigionamento.  
+**Esempio 3** : esiste una domanda nel periodo di stabilizzazione e la quantità di approvvigionamento nel periodo di accumulo lotti corrisponde alla quantità dell'approvvigionamento. La domanda successiva è scoperta e viene suggerito un nuovo approvvigionamento.  
 
 ![Periodo di stabilizzazione e periodo di accumulo lotti](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Periodo di stabilizzazione e periodo di accumulo lotti")  
 
-**Esempio 4**: esiste una domanda nel periodo di stabilizzazione e l'approvvigionamento resta nella stessa data. Tuttavia, la quantità di approvvigionamento corrente non è sufficiente a soddisfare la domanda nel periodo di accumulo lotti, pertanto viene suggerita un'azione di modifica della quantità dell'ordine di approvvigionamento esistente.  
+**Esempio 4** : esiste una domanda nel periodo di stabilizzazione e l'approvvigionamento resta nella stessa data. Tuttavia, la quantità di approvvigionamento corrente non è sufficiente a soddisfare la domanda nel periodo di accumulo lotti, pertanto viene suggerita un'azione di modifica della quantità dell'ordine di approvvigionamento esistente.  
 
 ![Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica")  
 
-**Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione**, ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della pagina **Setup manufacturing**.  
+**Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione** , ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della pagina **Setup manufacturing** .  
 
 ## <a name="modify-the-supply-orders"></a>Modificare gli ordini di approvvigionamento  
 Una volta che la quantità della proposta di ordine è stata calcolata, uno o più i modificatori di ordini possono rettificarla. Ad esempio, la quantità ordine massima è più grande o uguale alle quantità ordine minima , che è più grande o uguale al molteplicità ordine.  
@@ -112,9 +112,9 @@ La quantità viene diminuita se supera la quantità massima ordine. Quindi, vien
 ## <a name="delimit-the-item"></a>Delimitare l'articolo  
 L'opzione **Politica di produzione** definisce quali ordini aggiuntivi saranno proposti dal calcolo MRP.  
 
-Se viene utilizzata l'opzione **Prod. per Magazzino**, gli ordini riguarderanno solo l'articolo in questione.  
+Se viene utilizzata l'opzione **Prod. per Magazzino** , gli ordini riguarderanno solo l'articolo in questione.  
 
-Se viene utilizzata l'opzione **Prod. su ordine**, il sistema di pianificazione analizzerà la DB di produzione dell'articolo e creerà delle proposte di ordine collegate aggiuntive per questi articoli di livello inferiore che sono definite anche come produzione su ordine. Questo processo continua fintanto che sono presenti articoli di tipo produzione su ordine nelle strutture DB decrescenti.  
+Se viene utilizzata l'opzione **Prod. su ordine** , il sistema di pianificazione analizzerà la DB di produzione dell'articolo e creerà delle proposte di ordine collegate aggiuntive per questi articoli di livello inferiore che sono definite anche come produzione su ordine. Questo processo continua fintanto che sono presenti articoli di tipo produzione su ordine nelle strutture DB decrescenti.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   

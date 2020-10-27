@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 11efef293064aa5624bc0a5af2c59002ccd914d6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195333"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923388"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Individuare pagine e informazioni con la funzionalità delle informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -29,7 +29,7 @@ Quando si inizia a digitare dei caratteri, [!INCLUDE[d365fin](includes/d365fin_m
 
 La colonna a destra indica la categoria generale del risultato. Ad esempio, se aprirà una pagina elenco o se è un'attività amministrativa.  
 
-Nella parte inferiore della finestra della **funzionalità delle informazioni** vi è un'azione chiamata **esplorare**, la quale apre una panoramica delle funzionalità che mostra tutte le funzionalità disponibili per il proprio ruolo o per tutti i ruoli. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
+Nella parte inferiore della finestra della **funzionalità delle informazioni** vi è un'azione chiamata **esplorare** , la quale apre una panoramica delle funzionalità che mostra tutte le funzionalità disponibili per il proprio ruolo o per tutti i ruoli. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
 
 > [!NOTE]  
 >   Se si preferisce utilizzare la tastiera, utilizzare il tasto TAB e i tasti freccia per scegliere un elemento nei risultati. Se si preme il tasto INVIO sulla tastiera senza scegliere un risultato, [!INCLUDE[d365fin](includes/d365fin_md.md)] apre il risultato elencato per primo.
@@ -43,7 +43,7 @@ La sezione **In pagina corrente** consente di trovare ed eseguire azioni nella p
 ### <a name="finding-a-page-or-a-task"></a>Individuare una pagina o un task
 I risultati nella sezione **Vai a Pagine e task** consentono di accedere ad altre pagine e di eseguire task o cercare informazioni. Se si utilizzano spesso queste pagine, è possibile scegliere l'icona segnalibro per aggiungere un collegamento a qualsiasi pagina in Gestione ruolo utente. Per ulteriori informazioni, vedere [Aggiungere un'azione di pagina a Gestione ruolo utente](ui-bookmarks.md).
 
-Le pagine e i task elencati dipendono dall'interfaccia utente selezionata per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**. La prima volta che si accede, si utilizza l'esperienza **Essential**. Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+Le pagine e i task elencati dipendono dall'interfaccia utente selezionata per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium** . La prima volta che si accede, si utilizza l'esperienza **Essential** . Per ulteriori informazioni, vedere [Personalizzazione dell'esperienza utente di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
 ### <a name="finding-a-report-or-archived-information"></a>Individuare un report o informazioni archiviate
 La sezione **Vai a Report e analisi** offre accesso agli strumenti di reporting. Ad esempio, è possibile aprire il report **Conto patrimoniale** dall'elenco o accedere ai documenti archiviati e altre informazioni.  

@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: e91332cd90ded6560f34bc2378eaf6e286b2eb43
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a2c8071abc075caf359d942da5a3638ef811d126
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195525"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925639"
 ---
 # <a name="view-test-reports-before-posting"></a>Visualizzare i report dei test prima della registrazione
 È possibile verificare un documento pronto per la registrazione, ad esempio un ordine di acquisto, una fattura o una nota di credito, per assicurarsi che non vi siano problemi che possano bloccare la registrazione.
@@ -27,7 +27,7 @@ ms.locfileid: "3195525"
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Per stampare un report di test prima di registrare una fattura di acquisto
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi selezionare il collegamento correlato.
 2. Visualizzare la fattura di acquisto che si desidera testare.
-3. Scegliere l'azione **Report test**.  
+3. Scegliere l'azione **Report test** .  
 
 Tutte le parti della fattura di acquisto vengono controllate e i risultati presentati in un report. Se il report segnala errori o la mancanza di alcune informazioni, occorre correggere il problema prima di registrare la fattura di acquisto.
 

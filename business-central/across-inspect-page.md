@@ -9,13 +9,13 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
-ms.date: 04/01/2020
-ms.openlocfilehash: ab5ebb0dcc654badd16ef3f9954b8f926bde5384
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.date: 10/01/2020
+ms.openlocfilehash: f56dbf4546f5f1b466b23c3bd2794d3c4ffe02c3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778288"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924721"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Controllo di pagine in Business Central
 
@@ -23,25 +23,25 @@ La funzionalità Controllo pagina consente di ottenere dettagli su una pagina, f
 
 ## <a name="working-with-page-inspection"></a>Utilizzo di Controllo pagina
 
-L'ispezione della pagina inizia dalla pagina **Guida e supporto**. Scegli il punto interrogativo nell'angolo superiore destro, scegli **Guida e supporto**, quindi scegli **Controllare pagine e dati**. In alternativa, è possibile semplicemente utilizzare i tasti di scelta rapida **CTRL+ALT+F1**.
+L'ispezione della pagina inizia dalla pagina **Guida e supporto** . Scegli il punto interrogativo nell'angolo superiore destro, scegli **Guida e supporto** , quindi scegli **Controllare pagine e dati** . In alternativa, è possibile semplicemente utilizzare i tasti di scelta rapida **CTRL+ALT+F1** .
 
-Il riquadro **Controllo pagina** viene visualizzato sul lato. Nella seguente figura viene illustrato il riquadro **Controllo pagina** nella pagina **Ordini Vendita**.
+Il riquadro **Controllo pagina** viene visualizzato sul lato. Nella seguente figura viene illustrato il riquadro **Controllo pagina** nella pagina **Ordini Vendita** .
 
 ![Controllo pagina](media/page-inspection-example.png)
 
 Quando il riquadro **Controllo pagina** viene aperto per la prima volta, visualizza informazioni relative all'oggetto della pagina principale.
 
-Utilizzare la tastiera o il dispositivo di puntamento per spostare lo stato attivo su elementi differenti nella pagina. Quando si seleziona un riquadro Dettaglio informazioni o una parte nella pagina principale, l'area di delimitazione è evidenziata da un bordo e il riquadro **Controllo pagina** mostra informazioni sull'elemento selezionato. Ad esempio, la figura precedente mostra informazioni su come utilizzare la parte lista nella pagina **Ordine vendita**. Quando ci si sposta ad altre pagine nell'applicazione, il riquadro **Controllo pagina** verrà automaticamente aggiornato con informazioni sulla pagina.
+Utilizzare la tastiera o il dispositivo di puntamento per spostare lo stato attivo su elementi differenti nella pagina. Quando si seleziona un riquadro Dettaglio informazioni o una parte nella pagina principale, l'area di delimitazione è evidenziata da un bordo e il riquadro **Controllo pagina** mostra informazioni sull'elemento selezionato. Ad esempio, la figura precedente mostra informazioni su come utilizzare la parte lista nella pagina **Ordine vendita** . Quando ci si sposta ad altre pagine nell'applicazione, il riquadro **Controllo pagina** verrà automaticamente aggiornato con informazioni sulla pagina.
 
 Per ulteriori informazioni relative a quanto visualizzato in Controllo pagina, vedere [Controllo delle pagine e risoluzione dei problemi ad esse relativi](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) nella Guida per sviluppatori e professionisti IT di Business Central.
 
-Se le informazioni previste non sono visualizzate nel riquadro **Controllo pagina**, probabilmente non si dispone delle autorizzazioni necessarie, come descritto nella sezione successiva.
+Se le informazioni previste non sono visualizzate nel riquadro **Controllo pagina** , probabilmente non si dispone delle autorizzazioni necessarie, come descritto nella sezione successiva.
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Controllo dell'accesso alle informazioni di Controllo pagina
 
-In veste di amministratore, è possibile controllare l'accesso a tutte le informazioni visualizzate nel riquadro **Controllo pagina** configurando le autorizzazioni degli utenti. Per concedere un'autorizzazione per tutte le informazioni a un utente, fornirgli l'autorizzazione **Esegui** per l'oggetto **Sistema** **5330** . È possibile concedere questa autorizzazione utilizzando un set di autorizzazioni (ad esempio **Risoluzione dei problemi di D365**) o un gruppo di utenti (ad esempio **Risoluzione dei problemi di D365**). Per ulteriori informazioni sulle autorizzazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
+In veste di amministratore, è possibile controllare l'accesso a tutte le informazioni visualizzate nel riquadro **Controllo pagina** configurando le autorizzazioni degli utenti. Per concedere un'autorizzazione per tutte le informazioni a un utente, fornirgli l'autorizzazione **Esegui** per l'oggetto **Sistema** **5330** . È possibile concedere questa autorizzazione utilizzando un set di autorizzazioni (ad esempio **Risoluzione dei problemi di D365** ) o un gruppo di utenti (ad esempio **Risoluzione dei problemi di D365** ). Per ulteriori informazioni sulle autorizzazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
 
-Gli utenti a cui non vengono concesse autorizzazioni per l'**Oggetto sistema 5330** possono comunque accedere al riquadro **Controllo pagina**, ma vedranno solo i campi **Pagina** e **Tabella**, che visualizzano dettagli di base che possono passare al team di supporto.
+Gli utenti a cui non vengono concesse autorizzazioni per l' **Oggetto sistema 5330** possono comunque accedere al riquadro **Controllo pagina** , ma vedranno solo i campi **Pagina** e **Tabella** , che visualizzano dettagli di base che possono passare al team di supporto.
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b08d5a227f2133989948634f32d88aa614941a0f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 095daa34ee8a956da8245f4e02c3bd438ba277fb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780103"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924021"
 ---
 # <a name="about-item-types"></a>Informazioni sui tipi di articolo
 Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda e quindi come viene gestito nel sistema. Sono disponibili tre opzioni:
@@ -43,9 +43,9 @@ I tre tipi dell'articolo supportano rispettivamente le seguenti funzionalità.
 ## <a name="costing-methods-for-types-of-items"></a>Metodi di costing per tipi di articoli
 Quando si registrano le transazioni di magazzino, le modifiche alle quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione. 
 
-Per gli articoli di magazzino, il costo è registrato nel campo **Importo costo (effettivo)** della pagina **Movimenti di valorizzazione** e quando viene riconciliato con la contabilità generale, il costo verrà visualizzato nel campo **Costo registrato in C/G**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
+Per gli articoli di magazzino, il costo è registrato nel campo **Importo costo (effettivo)** della pagina **Movimenti di valorizzazione** e quando viene riconciliato con la contabilità generale, il costo verrà visualizzato nel campo **Costo registrato in C/G** . Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
-Per gli articoli non di inventario e di assistenza il costo è registrato nel campo **Importo costo (non-fatt.)** della pagina **Movimenti di valorizzazione**. Per gli articoli non di inventario e di assistenza il costo è specificato nei documenti e nelle registrazioni di vendita, assemblaggio e produzione. Il costo predefinito può essere specificato nel campo **Costo unitario** delle pagine **Scheda articolo** e **Unità di stockkeeping**. I costi per questi tipi di articoli non sono riconciliati nella contabilità generale. 
+Per gli articoli non di inventario e di assistenza il costo è registrato nel campo **Importo costo (non-fatt.)** della pagina **Movimenti di valorizzazione** . Per gli articoli non di inventario e di assistenza il costo è specificato nei documenti e nelle registrazioni di vendita, assemblaggio e produzione. Il costo predefinito può essere specificato nel campo **Costo unitario** delle pagine **Scheda articolo** e **Unità di stockkeeping** . I costi per questi tipi di articoli non sono riconciliati nella contabilità generale. 
 
 ## <a name="catalog-and-service-items"></a>Catalogo e articoli in assistenza
 Gli articoli offerti ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli possono essere impostati come articoli di catalogo. Gli articoli di catalogo non devono essere confusi con articoli normali di tipo Non in inventario. Per ulteriori informazioni, vedere [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md).

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e244afdb7690ad10eeb99f0c8004cb171469744b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2e600f3b2da20540e224cb1405a50adc4a31f25
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781978"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924971"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utilizzare gli schemi XML per preparare le definizioni di scambio dati
 
@@ -37,7 +37,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Schemi XML** e quindi scegliere il collegamento correlato.  
 
-3. Scegliere l'azione **Nuovo**.  
+3. Scegliere l'azione **Nuovo** .  
 
 4. Compilare i campi come indicato nella tabella seguente.  
 
@@ -48,9 +48,9 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
      Il campo **Spazio dei nomi di destinazione** specifica lo spazio dei nomi nel file schema XML che è stato caricato dalla riga.  
 
-5. Scegliere l'azione **Carica schema**, quindi selezionare il file di schema XML.  
+5. Scegliere l'azione **Carica schema** , quindi selezionare il file di schema XML.  
 
-     Quando il file viene caricato, i campi rimanenti nella riga vengono compilati con informazioni provenienti dal file e viene selezionata la casella di controllo **Schema caricato**.  
+     Quando il file viene caricato, i campi rimanenti nella riga vengono compilati con informazioni provenienti dal file e viene selezionata la casella di controllo **Schema caricato** .  
 
     > [!NOTE]  
     >  La struttura ad albero dello schema XML caricato è compressa per impostazione predefinita. Ogni nodo può essere espanso scegliendo il pulsante **+** accanto al nodo desiderato. Per espandere tutti i nodi, selezionare **Espandi tutto** nella barra multifunzione.  
@@ -64,23 +64,23 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Codice schema XML**|Specificare il file schema XML che è stato caricato nel passaggio 5 nella sezione "Per caricare un file schema XML".|  
-    |**Nuovo nr. XMLport**|Specificare il numero dell'oggetto XMLport che viene creato da questo schema XML quando si sceglie l'azione **Genera XMLport**.|  
+    |**Nuovo nr. XMLport**|Specificare il numero dell'oggetto XMLport che viene creato da questo schema XML quando si sceglie l'azione **Genera XMLport** .|  
 
      Le righe sono ora compilate con nodi che rappresentano tutti gli elementi nello Schema XML. I nodi per gli elementi obbligatori secondo lo Schema XML vengono selezionati per impostazione predefinita.  
 
-3. Nella prima riga, nella colonna **Nome nodo**, espandere il nodo **Documento**, quindi espandere gradualmente i nodi sottostanti che si desidera esaminare.  
+3. Nella prima riga, nella colonna **Nome nodo** , espandere il nodo **Documento** , quindi espandere gradualmente i nodi sottostanti che si desidera esaminare.  
 
-     In alternativa, fare clic con il pulsante destro del mouse su un nodo, quindi selezionare **Espandi tutto**.  
+     In alternativa, fare clic con il pulsante destro del mouse su un nodo, quindi selezionare **Espandi tutto** .  
 
 4. Scegliere una delle seguenti azioni per modificare quali nodi vengono visualizzati.  
 
     |**Azione**|Descrizione|  
     |----------------|---------------------------------------|  
     |**Mostra tutto**|Tutti i nodi vengono visualizzati.|  
-    |**Nascondi voci non obbligatorie**|Solo i nodi che rappresentano gli articoli richiesti in base allo schema XML vengono visualizzati. Questi nodi sono in genere indicati da un **1** nel campo **MinOccurs**.<br /><br /> Selezionare **Mostra tutto** per stornare la visualizzazione.|  
+    |**Nascondi voci non obbligatorie**|Solo i nodi che rappresentano gli articoli richiesti in base allo schema XML vengono visualizzati. Questi nodi sono in genere indicati da un **1** nel campo **MinOccurs** .<br /><br /> Selezionare **Mostra tutto** per stornare la visualizzazione.|  
     |**Nascondi voci non selezionate**|Solo i nodi in cui la casella di controllo **Selezionato** è selezionata vengono visualizzati.<br /><br /> Selezionare **Mostra tutto** per stornare la visualizzazione.|  
 
-5. Scegliere l'azione **Modifica**.  
+5. Scegliere l'azione **Modifica** .  
 
 6. Con la casella di controllo **Selezionato** specificare per ciascun nodo se si desidera che l'elemento sia supportato nella definizione di scambio dati per il file della banca SEPA correlato.  
 
@@ -97,16 +97,16 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Schemi XML** e quindi scegliere il collegamento correlato.  
 
-2. Selezionare lo schema XML rilevante e quindi scegliere l'azione **Apri visualizzatore schema XML**.  
+2. Selezionare lo schema XML rilevante e quindi scegliere l'azione **Apri visualizzatore schema XML** .  
 
 3. Assicurarsi che i nodi pertinenti siano selezionati. Per ulteriori informazioni, vedere la sezione "Per selezionare o rimuovere i nodi in uno schema XML".  
 
-4. Nella pagina **Visualizzatore schema XML** scegliere l'azione **Genera definizione scambio dati**.  
+4. Nella pagina **Visualizzatore schema XML** scegliere l'azione **Genera definizione scambio dati** .  
 
  Verrà creata una definizione di scambio dati nella pagina **Registrazione definizioni di scambio** che si potrà completare specificando gli elementi del file da mappare con i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
-> È inoltre possibile utilizzare la funzione **Ottieni struttura file** della pagina **Registrazione definizioni di scambio** che utilizza la funzionalità della finestra **Visualizzatore schema XML** per precompilare la Scheda dettaglio **Definizioni colonne**.  
+> È inoltre possibile utilizzare la funzione **Ottieni struttura file** della pagina **Registrazione definizioni di scambio** che utilizza la funzionalità della finestra **Visualizzatore schema XML** per precompilare la Scheda dettaglio **Definizioni colonne** .  
 
 > [!NOTE]
 > Nella prima ondata di rilascio del 2019 e nelle versioni precedenti, è possibile generare un XMLport basato sullo schema e poi importalo nella soluzione. Questa funzionalità non è più supportata.

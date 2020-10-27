@@ -1,6 +1,6 @@
 ---
 title: Come visualizzare le istanze di fasi workflow archiviate | Microsoft Docs
-description: Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate**.
+description: Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate** .
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1fd402c3c081fcd4056254ffc6632f0b4f3164e5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 06cc9aa2eb962e8556cb2f026c9be405deb89bef
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781953"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924946"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visualizzare le istanze di fase workflow archiviate
-Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate**.  
+Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate** .  
 
  Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Per visualizzare le istanze del passaggio del flusso di lavoro archiviate  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
 2.  Aprire il flusso di lavoro per cui si desidera visualizzare tutte le istanze del passaggio del flusso di lavoro archiviate.  
-3.  Nella pagina **Workflow** scegliere l'azione **Istanze di fasi workflow archiviate**.  
+3.  Nella pagina **Workflow** scegliere l'azione **Istanze di fasi workflow archiviate** .  
 
     Viene aperta la pagina **Istanze di fasi workflow archiviate** contenente le istanze di fasi workflow archiviate del workflow selezionato.  
 4.  In alternativa, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Istanze di fase workflow archiviate** e quindi scegliere il collegamento correlato.  

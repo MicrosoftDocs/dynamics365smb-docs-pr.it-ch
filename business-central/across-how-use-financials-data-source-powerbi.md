@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c3ec3a511164d85dd01f827227e2cbcff76ce395
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: a19d2bbff275ea4401943b588a68cdd2e6740e12
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697740"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924821"
 ---
 # <a name="building-power-bi-reports-to-display-prodlong-data"></a>Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prodlong](includes/prodlong.md)]
 
@@ -35,7 +35,7 @@ Questo articolo descrive come iniziare a utilizzare Power BI Desktop per creare 
 
 - Assicurarsi che i dati desiderati nel report siano pubblicati come servizio web.
     
-    Ci sono molti servizi web pubblicati per impostazione predefinita. Un modo agevole di individuare i *servizi Web* consiste nel cercarli in [!INCLUDE[prodshort](includes/prodshort.md)]. Nella pagina **Servizi Web**, assicurarsi che il campo **Pubblica** sia selezionato. Questa attività è in genere amministrativa.
+    Ci sono molti servizi web pubblicati per impostazione predefinita. Un modo agevole di individuare i *servizi Web* consiste nel cercarli in [!INCLUDE[prodshort](includes/prodshort.md)]. Nella pagina **Servizi Web** , assicurarsi che il campo **Pubblica** sia selezionato. Questa attività è in genere amministrativa.
     
     Per ulteriori informazioni sulla pubblicazione di servizi Web, vedere [Pubblicare un servizio Web](across-how-publish-web-service.md).
 
@@ -55,20 +55,20 @@ Questo articolo descrive come iniziare a utilizzare Power BI Desktop per creare 
 La prima attività della creazione di report è aggiungere [!INCLUDE[prodshort](includes/prodshort.md)] come origine dati in Power BI Desktop. Una volta connesso, è possibile iniziare a creare il report.
 
 1. Avviare Power BI Desktop.
-2. Selezionare **Ottieni dati**.
+2. Selezionare **Ottieni dati** .
 
-    Se **Ottieni dati** non è visibile, selezionare il menu **File**, quindi **Ottieni dati**.
-2. Nella pagina **Ottieni dati** selezionare **Servizi online**.
+    Se **Ottieni dati** non è visibile, selezionare il menu **File** , quindi **Ottieni dati** .
+2. Nella pagina **Ottieni dati** selezionare **Servizi online** .
 3. Nel riquadro **Servizi online** eseguire una delle seguenti operazioni:
 
-    1. Se ci si sta connettendo a [!INCLUDE [prodshort](includes/prodshort.md)] online, scegliere **Dynamics 365 Business Central**, poi **Connetti**.
-    2. Se ci si sta connettendo a [!INCLUDE [prodshort](includes/prodshort.md)] locale, scegliere **Dynamics 365 Business Central (locale)**, poi **Connetti**.
+    1. Se ci si sta connettendo a [!INCLUDE [prodshort](includes/prodshort.md)] online, scegliere **Dynamics 365 Business Central** , poi **Connetti** .
+    2. Se ci si sta connettendo a [!INCLUDE [prodshort](includes/prodshort.md)] locale, scegliere **Dynamics 365 Business Central (locale)** , poi **Connetti** .
 
 4. Power BI visualizza una procedura guidata per il processo di connessione, incluso l'accesso a [!INCLUDE [prodshort](includes/prodshort.md)].
 
-    Per online, scegliere **Accedi**, quindi selezionare l'account pertinente. Utilizzare lo stesso account usato per accedere a [!INCLUDE [prodshort](includes/prodshort.md)].
+    Per online, scegliere **Accedi** , quindi selezionare l'account pertinente. Utilizzare lo stesso account usato per accedere a [!INCLUDE [prodshort](includes/prodshort.md)].
     
-    Per locale, inserire l'URL OData per [!INCLUDE[prodshort](includes/prodshort.md)] e, facoltativamente, il nome della società. Quindi, quando richiesto, immettere il nome utente e la password dell'account da utilizzare per la connessione a [!INCLUDE[prodshort](includes/prodshort.md)]. Nella casella **Password**, immettere la chiave di accesso del servizio web.
+    Per locale, inserire l'URL OData per [!INCLUDE[prodshort](includes/prodshort.md)] e, facoltativamente, il nome della società. Quindi, quando richiesto, immettere il nome utente e la password dell'account da utilizzare per la connessione a [!INCLUDE[prodshort](includes/prodshort.md)]. Nella casella **Password** , immettere la chiave di accesso del servizio web.
 
     > [!NOTE]  
     > Una volta eseguita la connessione a [!INCLUDE[prodshort](includes/prodshort.md)], non verrà richiesto nuovamente di eseguire l'accesso.
@@ -76,7 +76,7 @@ La prima attività della creazione di report è aggiungere [!INCLUDE[prodshort](
 5. Scegliere **Connetti** per continuare.
 
     La procedura guidata di Power BI mostra un elenco di ambienti, origini dati e società di Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le origini dati, indicano tutti i servizi Web pubblicati tramite [!INCLUDE [prodshort](includes/prodshort.md)].
-6. Specificare i dati che si desidera aggiungere al modello dati quindi scegliere il pulsante **Carica**.
+6. Specificare i dati che si desidera aggiungere al modello dati quindi scegliere il pulsante **Carica** .
 7. Ripetere i passaggi precedenti per aggiungere ulteriori [!INCLUDE [prodshort](includes/prodshort.md)], o altri dati, per il modello dati Power BI.
 
 Dopo che i dati sono stati caricati puoi vederli nel riquadro di spostamento destro nella pagina. A questo punto, è stata stabilita correttamente la connessione ai dati di [!INCLUDE[prodshort](includes/prodshort.md)] ed è possibile iniziare a creare il report di Power BI.  
@@ -104,13 +104,13 @@ Il file del tema è disponibile come file json nella raccolta dei temi di Micros
 
 ### <a name="import-the-theme-on-a-report"></a>Importare il tema in un report
 
-Dopo aver scaricato il tema del report [!INCLUDE [prodshort](includes/prodshort.md)] è possibile importarlo nei report. Per importare il tema, selezionare **Visualizza** > **Temi** > **Cerca temi**. Per ulteriori informazioni, vedere [Power BI Desktop - Importare temi di report personalizzati](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+Dopo aver scaricato il tema del report [!INCLUDE [prodshort](includes/prodshort.md)] è possibile importarlo nei report. Per importare il tema, selezionare **Visualizza** > **Temi** > **Cerca temi** . Per ulteriori informazioni, vedere [Power BI Desktop - Importare temi di report personalizzati](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## <a name="publish-reports"></a>Pubblicare i report
 
 Dopo aver creato o modificato un report è possibile pubblicarlo nel servizio Power BI e condividerlo anche con altre persone nell'organizzazione. Una volta pubblicato, il report è visibile in Power BI. Il report diventa anche disponibile per la selezione in [!INCLUDE[prodshort](includes/prodshort.md)].
 
-Per pubblicare un rapporto, selezionare **Pubblica** nella scheda **Home** della barra multifunzione o dal menu **File**. Se è stato effettuato l'accesso al servizio Power BI il report viene pubblicato in questo servizio. In caso contrario, verrà richiesto di accedere. 
+Per pubblicare un rapporto, selezionare **Pubblica** nella scheda **Home** della barra multifunzione o dal menu **File** . Se è stato effettuato l'accesso al servizio Power BI il report viene pubblicato in questo servizio. In caso contrario, verrà richiesto di accedere. 
 
 ## <a name="distribute-or-share-a-report"></a>Distribuire o condividere un report
 

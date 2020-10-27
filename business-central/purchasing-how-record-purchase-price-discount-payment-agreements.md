@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1269ad2503806669209d642d929bc8b712a5115
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8027465189507ce9ad78ebadea9dcc086e512ea4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783067"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926840"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrare i prezzi di acquisto e gli sconti speciali
 I differenti accordi relativi a prezzi e sconti applicati quando si effettuano acquisti da fornitori diversi devono essere definiti in modo che le regole e i valori concordati vengano applicati ai documenti di acquisto creati per il fornitore.
@@ -35,7 +35,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Per impostare un prezzo di acquisto speciale per un fornitore
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
-2. Aprire la scheda fornitore interessata e scegliere l'azione **Prezzi**.
+2. Aprire la scheda fornitore interessata e scegliere l'azione **Prezzi** .
 
     Il campo **Tipo di acquisto** è già impostato su **Fornitore** e il campo **Codice acquisto** è impostato sul numero del fornitore.
 3. Compilare i campi della riga in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -43,7 +43,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Per impostare uno sconto riga per un fornitore
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
-2. Aprire la scheda fornitore interessata e scegliere l'azione **Sconti riga**.
+2. Aprire la scheda fornitore interessata e scegliere l'azione **Sconti riga** .
 
     Il campo **Tipo di acquisto** è già impostato su **Fornitore** e il campo **Codice acquisto** è impostato sul numero del fornitore.
 3. Compilare i campi della riga in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -60,7 +60,7 @@ Una volta informati degli sconti su fattura concessi dai fornitori, immettere il
     >   I codici sconto fattura sono rappresentati da schede fornitore esistenti. Questo consente di assegnare rapidamente le condizioni dello sconto fattura ai fornitori perché basterà selezionare il nome di un altro fornitore che avrà le stesse condizioni.
 
     Continuare a impostare le nuove condizioni dello sconto fattura di acquisto.
-4. Nella pagina **Scheda fornitore** scegliere l'azione **Sconti fattura**. Verrà visualizzata la pagina **Sconti fattura fornitori**.
+4. Nella pagina **Scheda fornitore** scegliere l'azione **Sconti fattura** . Verrà visualizzata la pagina **Sconti fattura fornitori** .
 5. Nel campo **Codice valuta** immettere il codice per una valuta alla quale sono collegate le condizioni dello sconto fattura nella riga. Lasciare il campo vuoto se si desidera impostare le condizioni di sconto fattura in valuta locale.
 6. Nel campo **Importo minimo** immettere l'importo minimo che una fattura deve avere affinché le possa essere applicato lo sconto.
 7. Nel campo **% sconto** immettere lo sconto fattura sotto forma di percentuale dell'importo fattura.
@@ -71,7 +71,7 @@ Lo sconto fattura è ora impostato e assegnato al fornitore in questione. Quando
 ## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Per scegliere una modalità di registrazione degli sconti di acquisto  
 Quando si registra una fattura di acquisto che include uno o più sconti, si può scegliere fra due modalità di registrazione degli importi dello sconto. Gli sconti possono essere registrati separatamente oppure possono essere sottratti dagli sconti fattura.  
 
-Prima di effettuare questa operazione, è necessario avere precedentemente impostato i conti necessari per la registrazione degli importi degli sconti nel piano dei conti. Verificare inoltre di avere immesso i numeri di conto corretti nel setup registrazioni COGE nei campi **Conto sconto riga acquisto** e **Conto sconto fattura acquisto**.
+Prima di effettuare questa operazione, è necessario avere precedentemente impostato i conti necessari per la registrazione degli importi degli sconti nel piano dei conti. Verificare inoltre di avere immesso i numeri di conto corretti nel setup registrazioni COGE nei campi **Conto sconto riga acquisto** e **Conto sconto fattura acquisto** .
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.
 2. Nel campo **Registrazione sconti** scegliere uno dei criteri seguenti per la registrazione degli sconti.
@@ -88,7 +88,7 @@ Se esistono condizioni fisse per gli sconti sulle fatture con un fornitore quals
 
  Prima di utilizzare gli sconti fattura con gli acquisti, è necessario specificare i fornitori che offrono gli sconti.  
 
- Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le pagine **Sconti fattura fornitori**. È possibile immettere un numero qualsiasi di percentuali in ogni pagina. A ogni fornitore è possibile associare una propria pagina oppure è possibile collegare più fornitori alla stessa pagina.  
+ Per collegare le percentuali di sconto a importi di fatturazione specifici, utilizzare le pagine **Sconti fattura fornitori** . È possibile immettere un numero qualsiasi di percentuali in ogni pagina. A ogni fornitore è possibile associare una propria pagina oppure è possibile collegare più fornitori alla stessa pagina.  
 
  Oltre a una percentuale di sconto, è possibile collegare l'importo di un addebito di assistenza a un importo della fattura specifico.  
 

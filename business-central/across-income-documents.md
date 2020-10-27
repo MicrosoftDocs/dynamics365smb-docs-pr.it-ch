@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2754d69216cb173ef3cf00c661b5c82608689677
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1b2ea6b02613f120cf96f330379bf9928aad4b17
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778313"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924746"
 ---
 # <a name="incoming-documents"></a>Documenti in entrata
 
@@ -29,14 +29,14 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 
 * Registrare i documenti esterni in [!INCLUDE[d365fin](includes/d365fin_md.md)] creando le righe nella pagina **Documenti in entrata** attenendosi a uno dei modi seguenti:
   * Manualmente, utilizzando le funzioni semplici da un PC o un dispositivo mobile, in uno dei seguenti modi:
-    * Utilizzare il pulsante **Crea da file** e compilare i campi pertinenti nella pagina **Documento in entrata**. Il file viene automaticamente allegato.  
+    * Utilizzare il pulsante **Crea da file** e compilare i campi pertinenti nella pagina **Documento in entrata** . Il file viene automaticamente allegato.  
     * Utilizzare il pulsante **Nuovo** e compilare i campi pertinenti nella pagina **Documento in entrata** e allegare manualmente il relativo file.
     * Da un tablet o un telefono, utilizzare il pulsante **Crea da fotocamera** per creare un nuovo record di documento in entrata e quindi inviare l'immagine, ad esempio al servizio OCR.
-  * Automaticamente, ricevendo il documento dal servizio OCR come documento elettronico dopo aver inviato tramite e-mail il PDF o il file di immagine correlato al servizio OCR. La Scheda dettaglio **Informazioni finanziarie** viene automaticamente compilata nella pagina **Documento in entrata**.
+  * Automaticamente, ricevendo il documento dal servizio OCR come documento elettronico dopo aver inviato tramite e-mail il PDF o il file di immagine correlato al servizio OCR. La Scheda dettaglio **Informazioni finanziarie** viene automaticamente compilata nella pagina **Documento in entrata** .
 * Utilizzare il servizio OCR per convertire PDF o file di immagine in documenti elettronici che possono essere convertiti in record di documento in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Creare nuovi documenti o righe registrazione COGE dai record di un documento in entrata immettendo le informazioni mentre vengono lette nei file del documento in entrata.
 * Allegare i file di documenti in entrata ai documenti di acquisto e vendita con qualsiasi stato, ad esempio fornitore, cliente e movimenti di contabilità generale derivanti dalla registrazione.
-* Visualizzare i record di documenti in entrata e i relativi allegati in qualsiasi documento o movimento di acquisto e vendita oppure individuare tutti i movimenti di contabilità generale senza i record di documenti in entrata nella pagina **Piano dei conti**.
+* Visualizzare i record di documenti in entrata e i relativi allegati in qualsiasi documento o movimento di acquisto e vendita oppure individuare tutti i movimenti di contabilità generale senza i record di documenti in entrata nella pagina **Piano dei conti** .
 
 | A | Vedere |
 | --- | --- |

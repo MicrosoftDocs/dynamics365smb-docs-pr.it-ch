@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: d20b1814e6b5a21efee145223b42c703d65a6c2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693117"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924671"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -53,15 +53,15 @@ Per impostare la propria società, la pagina **Setup assistito** elenca le guide
 | Imposta workflow di approvazione clienti |Consente di impostare la possibilità di creare i workflow di approvazione per inviare automaticamente una notifica a un responsabile approvazione quando un utente tenta di creare o modificare una scheda cliente. |
 | Imposta un workflow di approvazione pagamenti |Imposta la capacità di inviare una notifica ad un approvatore quando un utente invia righe di registrazione pagamenti per l'approvazione. |
 | Imposta una connessione a Dynamics 365 Sales |Imposta una connessione a Dynamics 365 Sales, che consente di sincronizzare dati quali contatti e informazioni sugli ordini di vendita. |
-| Imposta previsione flusso di cassa |Consente di impostare il grafico Previsioni flusso di cassa, in modo da visualizzare il movimento di contanti previsto in entrata e in uscita dall'attività commerciale. Il grafico è disponibile in **Gestione ruolo utente Contabile**. |
+| Imposta previsione flusso di cassa |Consente di impostare il grafico Previsioni flusso di cassa, in modo da visualizzare il movimento di contanti previsto in entrata e in uscita dall'attività commerciale. Il grafico è disponibile in **Gestione ruolo utente Contabile** . |
 | Imposta dati reporting|Imposta i set di dati che è possibile utilizzare per creare report efficaci utilizzando Excel o Power BI, ad esempio. |
 | Invita contabile esterno |Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a [!INCLUDE[prodshort](includes/prodshort.md)] in modo che possa utilizzare i dati fiscali dell'azienda. |
 
-La pagina **Setup assistito** può contenere altre voci. Quando si esegue un setup, questo verrà contrassegnato come **Completato**. È possibile impostare aree aggiuntive della società utilizzando il setup manuale. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+La pagina **Setup assistito** può contenere altre voci. Quando si esegue un setup, questo verrà contrassegnato come **Completato** . È possibile impostare aree aggiuntive della società utilizzando il setup manuale. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ### <a name="resetting-your-prodshort-trial-experience"></a>Reimpostare l'esperienza di valutazione di [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[prodshort](includes/prodshort.md)] e si desidera iniziare con una esperienza nuova, è possibile creare una nuova società di valutazione e quindi eliminare la prima società. Apri la pagina **Società** e scegli **Nuovo** per iniziare la guida al setup assistito **Crea una nuova società**. La guida può aiutarti a creare una nuova società di valutazione con dati di esempio. È anche possibile creare una copia della società corrente, disconnettersi e quindi accedere alla nuova società.  
+Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[prodshort](includes/prodshort.md)] e si desidera iniziare con una esperienza nuova, è possibile creare una nuova società di valutazione e quindi eliminare la prima società. Apri la pagina **Società** e scegli **Nuovo** per iniziare la guida al setup assistito **Crea una nuova società** . La guida può aiutarti a creare una nuova società di valutazione con dati di esempio. È anche possibile creare una copia della società corrente, disconnettersi e quindi accedere alla nuova società.  
 
 > [!IMPORTANT]
 > Quando si condivide [!INCLUDE[prodshort](includes/prodshort.md)] con altre persone della propria organizzazione, è necessario assicurarsi che altre persone non siano collegate quando si elimina una società.  
@@ -70,7 +70,7 @@ Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[p
 
 Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner) Il partner rivenditore può fornire assistenza per impostare [!INCLUDE[prodshort](includes/prodshort.md)] in base alle esigenze della propria società, inclusa l'importazione di dati dal sistema precedente. Puoi anche personalizzare [!INCLUDE[prodshort](includes/prodshort.md)] aggiungendo app da [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prodshort](includes/prodshort.md)] online utilizza Office 365. Se la società utilizza un diverso tipo di setup e-mail, il partner rivenditore può fornire assistenza nel decidere come effettuare la migrazione o se si deve utilizzare [!INCLUDE[prodshort](includes/prodshort.md)] (locale).  
+[!INCLUDE[prodshort](includes/prodshort.md)] online utilizza Microsoft 365. Se la società utilizza un diverso tipo di setup e-mail, il partner rivenditore può fornire assistenza nel decidere come effettuare la migrazione o se si deve utilizzare [!INCLUDE[prodshort](includes/prodshort.md)] (locale).  
 
 È inoltre possibile contattare il team di vendita di [[!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 

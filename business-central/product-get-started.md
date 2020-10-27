@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d040507dad53ad6e9ba5407dcf457e04afa751c7
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528756"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970457"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Introduzione a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Effettuare la sottoscrizione è semplice ed è possibile eseguire la migrazione dei dati aziendali esistenti dal sistema legacy.  
@@ -38,10 +38,10 @@ Nella società demo, le pagine Gestione ruolo utente Manager aziendale e Contabi
 
 Quando si è pronti per iniziare a lavorare e si desidera visualizzare alcuni processi aziendali supportati da [!INCLUDE[d365fin](includes/d365fin_md.md)], vedere [Funzionalità aziendale](across-business-functionality.md).
 
-Prima di poter iniziare a utilizzare la funzionalità, è necessario eseguire alcune impostazioni. Per iniziare, seleziona semplicemente l'![Icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'aziomne **Setup assistito**. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Prima di poter iniziare a utilizzare la funzionalità, è necessario eseguire alcune impostazioni. Per iniziare, seleziona semplicemente l'![Icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'aziomne **Setup assistito** . Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!TIP]
-> Alcuni passaggi di configurazione possono essere eseguiti in modo semi-automatico utilizzando le guide al setup assistito. Altri hanno richiesto la configurazione manuale e puoi trovare un elenco nella pagina **Impostazioni avanzate**.
+> Alcuni passaggi di configurazione possono essere eseguiti in modo semi-automatico utilizzando le guide al setup assistito. Altri hanno richiesto la configurazione manuale e puoi trovare un elenco nella pagina **Impostazioni avanzate** .
 
 <!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -56,7 +56,7 @@ La pagina Gestione ruolo utente è basata su un design incentrato sui ruoli per 
 ## <a name="trying-things-out-in-your-own-company"></a>Sperimentare le operazioni nella propria società
 Valutare la sottoscrizione È possibile passare facilmente dalla società d'esempio a una società creata appositamente e lavorare in autonomia. Questo è un primo passo molto per effettuare il passaggio a una sottoscrizione vera e propria. Le impostazioni per i dati finanziari sono già fornite; è sufficiente creare o importare clienti, fornitori e prodotti o servizi venduti. Dopo questo passaggio, è possibile inviare fatture e utilizzare strumenti di business intelligence per analizzare la propria attività. È possibile utilizzare la società gratuitamente per un periodo di valutazione di 30 giorni. Se si effettua una sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)] in questo periodo, si è già pronti. È possibile continuare il lavoro già effettuato durante il test.  
 
-Per creare una società e provare le funzionalità, passare al menu **Impostazioni personali** nell'angolo superiore destro e modificare la società in **La mia società**. Per rendere effettive le modifiche, è necessario disconnettersi e riconnettersi nuovamente a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Una guida di setup assistito aiuterà a fornire le informazioni di base sull'azienda. Al termine, esplorare Gestione ruolo utente e individuare l'azione **Setup assistito**.  
+Per creare una società e provare le funzionalità, passare al menu **Impostazioni personali** nell'angolo superiore destro e modificare la società in **La mia società** . Per rendere effettive le modifiche, è necessario disconnettersi e riconnettersi nuovamente a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Una guida di setup assistito aiuterà a fornire le informazioni di base sull'azienda. Al termine, esplorare Gestione ruolo utente e individuare l'azione **Setup assistito** .  
 
 È anche possibile contattare un partner rivenditore di Dynamics 365. Per ulteriori informazioni, vedere [Come trovare un partner di rivendita?](across-faq.md#findpartner)  
 
@@ -64,7 +64,7 @@ Per creare una società e provare le funzionalità, passare al menu **Impostazio
 
 Se non si è sicuri di come eseguire un'operazione in [!INCLUDE[d365fin](includes/d365fin_md.md)], è eventualmente possibile trovare la risposta leggendo la descrizione comando del campo o il contenuto aprendo il collegamento *Ulteriori informazioni* in una descrizione comando (utilizzare i tasi di scelta rapida CTRL+F1). È inoltre possibile accedere alla documentazione scegliendo il collegamento correlato nella [pagina Guida e supporto](product-help-and-support.md).  
 
-Tutti i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono descritti in descrizioni comando. È possibile accedere alle descrizioni comando scegliendo il nome del campo. Ad esempio, in una pagina come **Scheda cliente**, selezionare il nome del campo per leggere la descrizione comando. In un elenco come **Clienti** o nelle righe di un documento come un ordine di vendita, è necessario scegliere il menu a discesa a destra del nome della colonna e quindi scegliere la voce di menu **Guida rapida**.  
+Tutti i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] sono descritti in descrizioni comando. È possibile accedere alle descrizioni comando scegliendo il nome del campo. Ad esempio, in una pagina come **Scheda cliente** , selezionare il nome del campo per leggere la descrizione comando. In un elenco come **Clienti** o nelle righe di un documento come un ordine di vendita, è necessario scegliere il menu a discesa a destra del nome della colonna e quindi scegliere la voce di menu **Guida rapida** .  
 
 Se si hanno ulteriori domande, chiedere alla community o contattare il partner rivenditore. Per ulteriori informazioni, vedere [Dove posso trovare risposta alle domande?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
@@ -74,8 +74,6 @@ Ogni volta che si accede durante il periodo di valutazione, una notifica in una 
 
 ## <a name="other-dynamics-365-apps"></a>Altre app di Dynamics 365
 Accedere al contenuto sulle altre app di Dynamics 365 scegliendo il collegamento [Dynamics 365](/dynamics365/) nel banner nero nella parte superiore della pagina. Ulteriori informazioni sono disponibili nel [sito Web di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/overview/).  
-
-<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 

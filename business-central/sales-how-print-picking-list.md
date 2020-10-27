@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fadf974c41b34a5beb7b3b313847cc6a5bfcec78
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781653"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926165"
 ---
 # <a name="print-the-picking-list"></a>Stampare la lista prelievo
 È possibile stampare una lista prelievo magazzino direttamente da un ordine di vendita, una fattura di vendita o qualsiasi altro documento che avvia la spedizione di articoli.
@@ -27,7 +27,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di vendita per cui si desidera prelevare gli articoli.  
-3. Scegliere l'azione **Report**, quindi scegliere l'azione **Lista prelievo per ordine**.  
+3. Scegliere l'azione **Report** , quindi scegliere l'azione **Lista prelievo per ordine** .  
 4. Scegliere il pulsante **Stampa** per stampare la lista prelievo oppure scegliere il pulsante **Anteprima** per visualizzarla sullo schermo.
 
 È inoltre possibile salvare la lista prelievo come documento, ad esempio da inviare a qualcuno o da aggiungere come allegato all'ordine di vendita. Per ulteriori informazioni, vedere [Gestire allegati, collegamenti e note in schede e documenti](ui-how-add-link-to-record.md).

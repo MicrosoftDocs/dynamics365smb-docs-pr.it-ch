@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1127bd8e99f8ef6342ec240b4f42b52b11b36bb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0d9b84ff608d6778bb20dfe009978fbe624f47c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781903"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924896"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Aggiungere commenti a schede o documenti
 È possibile aggiungere informazioni supplementari a conti COGE, schede clienti o negli ordini di vendita per comunicare eccezioni o accordi speciali ad altri utenti.
@@ -23,7 +23,7 @@ Praticamente tutte le schede e i documenti hanno un'azione **Commenti** che apre
 
 I commenti sui documenti in corso vengono trasferiti al relativo documento registrato. Ad esempio, un commento in un ordine di vendita viene trasferito a una spedizione di vendita registrata risultante.
 
-Inoltre, è possibile specificare se i commenti devono essere trasferiti da un tipo di documento a un altro tipo di documento risultante, ad esempio da un ordine di vendita a una fattura di vendita. Questa operazione può essere eseguita rispettivamente nelle pagine **Contabilità clienti** e **Contabilità fornitori**.
+Inoltre, è possibile specificare se i commenti devono essere trasferiti da un tipo di documento a un altro tipo di documento risultante, ad esempio da un ordine di vendita a una fattura di vendita. Questa operazione può essere eseguita rispettivamente nelle pagine **Contabilità clienti** e **Contabilità fornitori** .
 
 > [!NOTE]
 > I commenti non vengono stampati o inviati a report o documenti rivolti all'esterno.
@@ -33,8 +33,8 @@ Di seguito viene descritto come aggiungere un commento a una scheda articolo. I 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Per aggiungere dei commenti alla scheda articolo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda articolo desiderata.
-3. Scegliere l'azione **Commenti**.
-4. Nella pagina **Scheda Commenti** immettere il testo desiderato e quindi scegliere il pulsante **OK**.
+3. Scegliere l'azione **Commenti** .
+4. Nella pagina **Scheda Commenti** immettere il testo desiderato e quindi scegliere il pulsante **OK** .
 
 ## <a name="see-also"></a>Vedere anche
 [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

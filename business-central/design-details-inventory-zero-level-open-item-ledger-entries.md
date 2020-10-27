@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1222f3b7ed3c71ded3f653bb121b920c170c40f5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185222"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924295"
 ---
 # <a name="design-details-known-item-application-issue"></a>Dettagli di progettazione: Problema noto di collegamento articoli
 In questo articolo viene discusso un problema in cui il livello di magazzino è pari a zero sebbene vi siano movimenti contabili articoli aperti in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -102,25 +102,25 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Per lo scenario 1, identificare il problema nel modo seguente:  
 
--   Nella pagina **Nota cred. di vend. reg.** o **Carico da reso registrato**, verificare se il campo **Collega\-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
+-   Nella pagina **Nota cred. di vend. reg.** o **Carico da reso registrato** , verificare se il campo **Collega\-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
 
  Per lo scenario 2, identificare il problema in uno dei due seguenti modi:  
 
--   Cercare un movimento contabile articolo in uscita aperto e un movimento contabile articolo in entrata con lo stesso numero nel campo **Nr. documento** e Sì nel campo **Correzione**. Vedere il seguente esempio di tale situazione con movimento contabile articolo.  
+-   Cercare un movimento contabile articolo in uscita aperto e un movimento contabile articolo in entrata con lo stesso numero nel campo **Nr. documento** e Sì nel campo **Correzione** . Vedere il seguente esempio di tale situazione con movimento contabile articolo.  
 
 |Nr. movimento|Data di registrazione|Tipo movimento|Tipo di documento|Nr. documento|Nr. articolo|Cod. ubicazione|Quantità|Importo costo (effettivo)|Quantità fatturata|Quantità residua|Apri|Correzione|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|-1|-10|-1|-1|Sì|No|  
 |334|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|1|10|1|1|Sì|**Sì**|  
 
--   Nella pagina **Spedizioni vendita registrate**, verificare se il campo **Collega-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
+-   Nella pagina **Spedizioni vendita registrate** , verificare se il campo **Collega-da mov. art.** è compilato e in tal caso a quale movimento contabile articolo il carico da reso è collegato al costo.  
 
 > [!NOTE]  
 >  I collegamenti costo non possono essere identificati nella pagina **Mov. articoli collegati** perché quella pagina visualizza solo i collegamenti quantità.  
 
  Per entrambi gli scenari, identificare il collegamento costo interessato nel modo seguente:  
 
-1.  Aprire la tabella **Mov. collegamento articoli**.  
+1.  Aprire la tabella **Mov. collegamento articoli** .  
 
 2.  Filtrare in base al campo **Nr. movimento cont. articolo** utilizzando il numero del movimento contabile articolo Reso vendita.  
 
@@ -138,7 +138,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
  Da notare che il movimento contabile articolo in entrata 334 è collegato al costo al movimento contabile articolo in uscita 333.  
 
 ## <a name="workaround-for-the-issue"></a>Soluzione alternativa per il problema  
- Nella pagina **Registrazioni magazzino**, registrare le seguenti righe per l'articolo in questione:  
+ Nella pagina **Registrazioni magazzino** , registrare le seguenti righe per l'articolo in questione:  
 
 -   Una rettifica positiva per chiudere il movimento contabile articolo in uscita aperto.  
 

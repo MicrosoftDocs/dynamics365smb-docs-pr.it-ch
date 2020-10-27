@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787639"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922110"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Dettagli di progettazione: Tracciabilità articolo e impegni
 
@@ -36,15 +36,16 @@ L'impegno dei numeri di tracciabilità articolo rientra in due categorie, come i
 |Non specifico|Non si seleziona un numero seriale o di lotto specifico quando si impegna l'articolo di magazzino da una domanda, ad esempio un ordine di vendita.<br /><br /> Questo è uno stato che viene imposto in un movimento di impegno per i numeri seriali o di lotto che non sono selezionati in modo specifico. **Nota:** la domanda non contiene numeri seriali o di lotto. <br /><br /> Ad esempio, si desidera impegnare una latta di vernice blu da un lotto per l'ordine di vendita. Una latta di vernice blu da un numero di serie o da un numero di lotto casuale viene spedita al cliente.|  
   
 La principale differenza tra impegno specifico e impegno non specifico è definita dall'esistenza di numeri seriali o di lotto dal lato della domanda, come indicato nella tabella seguente.  
-  
-|<!--blank -->|**Approvvigionamento**|**Richiesta**|  
-|**Specifico**|Numero di serie o lotto.|Numero di serie o lotto.|  
-|**Non specifico**|Numero di serie o lotto.|Numero di serie o lotto.|  
+
+| Tipo            | Approvvigionamento                | Domanda                   |
+|-----------------|-----------------------|--------------------------|
+| **Specifico**    | Numero seriale o di lotto. | Numero seriale o di lotto.    |
+| **Non specifico** | Numero seriale o di lotto. | Nessun numero seriale o di lotto. |
   
 Quando si impegnano quantità di magazzino da una riga di documento in uscita per un articolo con numeri di tracciabilità assegnati e impostato per la tracciabilità di un articolo specifico, dalla pagina **Impegni** è possibile accedere a differenti workflow a seconda che si necessiti dei numeri seriali o dei numeri di lotto.  
   
 ## <a name="specific-reservation"></a>Impegno specifico  
-Scegliendo **Impegno** dalla riga del documento in uscita, verrà visualizzata una finestra di dialogo nella quale verrà chiesto se si desidera impegnare numeri seriali o di lotto specifici. Se si sceglie **Sì**, viene visualizzato un elenco di tutti i numeri seriali o di lotto che sono assegnati alla riga del documento. La pagina **Impegni** viene aperta dopo che è stato selezionato uno dei numeri seriali o di lotto. Successivamente è possibile impegnare uno dei numeri seriali o di lotto secondo la normale procedura.  
+Scegliendo **Impegno** dalla riga del documento in uscita, verrà visualizzata una finestra di dialogo nella quale verrà chiesto se si desidera impegnare numeri seriali o di lotto specifici. Se si sceglie **Sì** , viene visualizzato un elenco di tutti i numeri seriali o di lotto che sono assegnati alla riga del documento. La pagina **Impegni** viene aperta dopo che è stato selezionato uno dei numeri seriali o di lotto. Successivamente è possibile impegnare uno dei numeri seriali o di lotto secondo la normale procedura.  
   
 Se alcuni dei numeri di tracciabilità articolo specifici che si sta tentando di impegnare sono utilizzati in impegni non specifici, verrà visualizzato un messaggio nella parte inferiore della pagina **Impegni** per indicare quanto della quantità impegnata totale è utilizzato in impegni non specifici e se c'è ancora disponibilità.  
   

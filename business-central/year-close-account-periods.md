@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a696f45446f93dba2dedb0976ff646dd6e4b12b1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e49f067eb0410e3d2f6f84241ae83be041bce918
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195893"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925390"
 ---
 # <a name="close-accounting-periods"></a>Chiudere periodi contabili
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito.
 
 ## <a name="to-close-accounting-periods"></a>Per chiudere periodi contabili
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi contabili** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno**.
+2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno** .
 
     Se più anni fiscali sono aperti, viene automaticamente selezionato quello meno recente per la chiusura. Viene visualizzato un messaggio che identifica l'anno che verrà chiuso e le conseguenze di tale operazione.
-3. Per chiudere l'anno, scegliere il pulsante **Sì**.
+3. Per chiudere l'anno, scegliere il pulsante **Sì** .
 
 L'anno fiscale viene chiuso e vengono selezionati i campi **Chiuso** e **Data bloccata** per tutti i periodi dell'anno. L'anno fiscale non può essere riaperto e i segni di spunta nei campi **Chiuso** e **Data bloccata** non possono essere rimossi.
 

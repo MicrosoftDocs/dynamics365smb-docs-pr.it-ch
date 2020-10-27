@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697716"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968404"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -34,21 +34,21 @@ Specificare l'origine dati che contiene i dati relativi all'elenco. Ad esempio, 
 
 ## <a name="defining-the-report-filter"></a>Definizione del filtro report
 
-Per aggiornare i dati al record selezionato nell'elenco, aggiungere un filtro al report. Il filtro deve includere un campo dell'origine dati utilizzata come *chiave primaria*. Nella maggior parte dei casi, la chiave primaria per un elenco è **Nr.** .
+Per aggiornare i dati al record selezionato nell'elenco, aggiungere un filtro al report. Il filtro deve includere un campo dell'origine dati utilizzata come *chiave primaria* . Nella maggior parte dei casi, la chiave primaria per un elenco è **Nr.** .
 
-Per definire un filtro per il report, selezionare la chiave primaria dall'elenco dei campi disponibili e quindi trascinare il campo nella sezione **Filtro Report**. Il filtro deve essere un filtro di report di base. Non può essere un filtro di pagina, visivo o avanzato. 
+Per definire un filtro per il report, selezionare la chiave primaria dall'elenco dei campi disponibili e quindi trascinare il campo nella sezione **Filtro Report** . Il filtro deve essere un filtro di report di base definito per tutte le pagine. Non può essere un filtro di pagina, visivo o avanzato.
 
-![Impostare il filtro del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+![Impostare il filtro del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 
 ## <a name="setting-the-report-size-and-color"></a>Impostazione della dimensione e del colore del report
 
 La dimensione del report deve essere impostata su 325 x 310 pixel. Questa dimensione fornisce il corretto ridimensionamento del report nello spazio disponibile dal controllo del riquadro dettaglio informazioni Power BI in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout di report e quindi scegliere l'icona del rullo di verniciatura.
 
-![Impostare la larghezza e l'altezza del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+![Impostare la larghezza e l'altezza del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
-È possibile modificare la larghezza e l'altezza del report scegliendo **Personalizzato** nel campo **Tipo**.
+È possibile modificare la larghezza e l'altezza del report scegliendo **Personalizzato** nel campo **Tipo** .
 
-Se si desidera che lo sfondo del report sfumi con il colore di sfondo del controllo del riquadro dettaglio informazioni di Power BI, impostare un colore di sfondo personalizzato del report *#FFFFFF*. 
+Se si desidera che lo sfondo del report sfumi con il colore di sfondo del controllo del riquadro dettaglio informazioni di Power BI, impostare un colore di sfondo personalizzato del report *#FFFFFF* . 
 
 ## <a name="using-reports-with-multiple-pages"></a>Uso dei report con più pagine
 
@@ -56,7 +56,7 @@ Power BI consente di creare un unico report con più pagine. Tuttavia, per i rep
 
 ## <a name="naming-the-report"></a>Assegnazione di un nome al report
 
-Assegnare al report un nome che contenga il nome della pagina di elenco associata al report. Ad esempio, se il report è per la pagina di elenco **Fornitore**, includere la parola *fornitore* da qualche parte nel nome.  
+Assegnare al report un nome che contenga il nome della pagina di elenco associata al report. Ad esempio, se il report è per la pagina di elenco **Fornitore** , includere la parola *fornitore* da qualche parte nel nome.  
 
 Questa convenzione di denominazione non è un requisito. Tuttavia, rende la selezione dei report in [!INCLUDE[d365fin](includes/d365fin_md.md)] più veloce. Quando la pagina di selezione del report si apre da una pagina di elenco, viene automaticamente filtrata in base al nome della pagina. Questo filtro viene eseguito per limitare i report visualizzati. Gli utenti possono rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
 
@@ -70,7 +70,7 @@ Probabilmente è perché il nome del report non contiene il nome della pagina di
 
 #### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Il report è caricato ma è vuoto, non filtrato o filtrato in modo errato
 
-Verificare che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G**, ad esempio, è necessario utilizzare il campo **Nr. movimento**.
+Verificare che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G** , ad esempio, è necessario utilizzare il campo **Nr. movimento** .
 
 #### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Il report è caricato, ma mostra una pagina non prevista
 

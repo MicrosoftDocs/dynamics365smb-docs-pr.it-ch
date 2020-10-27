@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1bbdf84a85470aa3d34d34a06efc8efbacd3909
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788589"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926990"
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
@@ -27,9 +27,9 @@ Per poter utilizzare i cespiti, è necessario definire alcune opzioni:
 Nella tabella sottostante sono presenti collegamenti a ulteriori informazioni. Dopo aver impostato tali opzioni, è possibile avviare diverse attività. Per ulteriori informazioni, vedere [Cespiti](fa-manage.md).  
 
 > [!NOTE]  
->   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L**.  
+>   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti** , a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L** .  
 
-Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della pagina **Scheda registro beni ammortizz.**, la pagina **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
+Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della pagina **Scheda registro beni ammortizz.** , la pagina **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 

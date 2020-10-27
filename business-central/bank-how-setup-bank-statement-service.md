@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0fb173ee064b5b62ff110fb33dc8ecbc82d0afcd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783267"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924446"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 
@@ -55,70 +55,70 @@ Quando il servizio di feed bancari è abilitato, è possibile impostare un conto
 Il servizio di feed bancari verrà abilitato quando si collega un conto corrente bancario al conto corrente bancario online correlato. Vedere la procedura seguente.  
 
 > [!NOTE]
-> Se si utilizza la guida di setup assistito **Setup società**, si attiva l'assistenza selezionando la casella di controllo **Utilizza servizio feed bancari**. Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).
+> Se si utilizza la guida di setup assistito **Setup società** , si attiva l'assistenza selezionando la casella di controllo **Utilizza servizio feed bancari** . Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Per creare un nuovo conto bancario collegato
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
-2. Selezionare il conto corrente bancario appropriato e fare clic su **Crea nuovo conto bancario collegato**. Dopo alcuni istanti, si apre la pagina **Collegamento conto bancario**.
+2. Selezionare il conto corrente bancario appropriato e fare clic su **Crea nuovo conto bancario collegato** . Dopo alcuni istanti, si apre la pagina **Collegamento conto bancario** .
 
     > [!NOTE]  
     > Questa pagina mostra l'effettiva pagina Web del servizio Envestnet Yodlee Bank Feeds. La terminologia e la funzionalità della pagina potrebbero non corrispondere alle indicazioni fornite in questo argomento.  
-3. Nella pagina **Collegamento conto bancario online** nel riquadro **Collegamento conto**, utilizzare la funzione di ricerca per trovare la banca presso cui si trovano uno o più conti correnti bancari online.
-4. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso**.
-5. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti**.  
+3. Nella pagina **Collegamento conto bancario online** nel riquadro **Collegamento conto** , utilizzare la funzione di ricerca per trovare la banca presso cui si trovano uno o più conti correnti bancari online.
+4. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso** .
+5. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti** .  
 6. Il servizio di feed bancari prepara il collegamento del primo conto corrente bancario online della banca specificata a un nuovo conto corrente bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
     > [!NOTE]  
     > Se si dispone di più di un conto corrente bancario online presso la banca, è necessario creare conti correnti bancari aggiuntivi in [!INCLUDE[d365fin](includes/d365fin_md.md)] per tali conti. Vedere i passaggi da 8 a 10.  
 
-    Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato**. Il numero tra parentesi indica il numero di conti bancari online che sono stati collegati.  
-7. Scegliere il pulsante **OK**.
+    Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato** . Il numero tra parentesi indica il numero di conti bancari online che sono stati collegati.  
+7. Scegliere il pulsante **OK** .
 
     Se si collega solo un conto corrente bancario online, la pagina **Scheda conto corrente bancario** si apre e visualizza il nome del conto corrente bancario online. Questo indica che l'attività di collegamento del conto corrente bancario è stata completata. L'unica cosa che rimane da fare è impostare il conto bancario. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md).
 
     Se si collegano più conti bancari online, si apre la pagina **Collegamento conto bancario** con un elenco dei conti bancari online aggiuntivi che non sono ancora collegati ai conti bancari in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In questo caso, seguire il passaggio successivo.  
-8. Nella pagina **Collegamento conto bancario**, selezionare la riga per un conto corrente bancario online quindi selezionare l'azione **Collega a nuovo conto bancario**.  
+8. Nella pagina **Collegamento conto bancario** , selezionare la riga per un conto corrente bancario online quindi selezionare l'azione **Collega a nuovo conto bancario** .  
 
     Si apre la pagina **Scheda conto bancario** per un nuovo conto e visualizza il nome del conto bancario online.
 
     Se un conto corrente bancario è già esistente in [!INCLUDE[d365fin](includes/d365fin_md.md)] al quale si desidera collegare il conto bancario online aggiuntivo, seguire il passaggio successivo.  
-9. Nella pagina **Collegamento conto bancario**, selezionare la riga per un conto corrente bancario online quindi selezionare l'azione **Collega a conto bancario esistente**.
-10. Nella pagina **Lista C/C bancari** selezionare il conto bancario per il quale si desidera effettuare il collegamento e quindi fare clic su **OK**.
+9. Nella pagina **Collegamento conto bancario** , selezionare la riga per un conto corrente bancario online quindi selezionare l'azione **Collega a conto bancario esistente** .
+10. Nella pagina **Lista C/C bancari** selezionare il conto bancario per il quale si desidera effettuare il collegamento e quindi fare clic su **OK** .
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Per collegare un conto bancario a un conto bancario online
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
-2. Selezionare la riga per un conto bancario non collegato a un conto bancario online quindi selezionare l'azione **Collega a conto bancario online**. Si apre la pagina **Collegamento conto bancario online** con il nome della banca precompilato nel riquadro **Collegamento conto**.
-3. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso**.
-4. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti**.  
+2. Selezionare la riga per un conto bancario non collegato a un conto bancario online quindi selezionare l'azione **Collega a conto bancario online** . Si apre la pagina **Collegamento conto bancario online** con il nome della banca precompilato nel riquadro **Collegamento conto** .
+3. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso** .
+4. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti** .  
 
     Il servizio di feed bancari prepara il collegamento del conto corrente bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)] al conto bancario online corrispondente.  
 
-    Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato**. Se la banca ha più conti bancari, viene collegato solo il conto che è stato selezionato nel passaggio 2.  
-5. Scegliere il pulsante **OK**.
+    Al termine del processo, il nome della banca sarà visualizzato nel riquadro **Conti personali** della scheda **Collegato** . Se la banca ha più conti bancari, viene collegato solo il conto che è stato selezionato nel passaggio 2.  
+5. Scegliere il pulsante **OK** .
 
-Nella pagina **Lista C/C bancari** è selezionata la casella di controllo **Collegato**.
+Nella pagina **Lista C/C bancari** è selezionata la casella di controllo **Collegato** .
 
 ## <a name="to-unlink-a-bank-account"></a>Per scollegare un conto bancario
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.  
-2. Selezionare la riga per un conto bancario collegato che si desidera scollegare dal relativo conto bancario online e quindi selezionare l'azione **Scollega conto bancario online**.
+2. Selezionare la riga per un conto bancario collegato che si desidera scollegare dal relativo conto bancario online e quindi selezionare l'azione **Scollega conto bancario online** .
 
 > [!NOTE]  
 > Se si sceglie **Sì** nella finestra di dialogo di conferma, il collegamento al conto bancario online viene rimosso e i dettagli di accesso vengono cancellati. Per collegare il nuovo conto bancario al conto bancario online, è necessario collegarsi ancora alla banca. Per ulteriori informazioni, vedere la sezione "Per collegare un conto bancario a un conto bancario online".
 
 ## <a name="to-update-bank-account-linking"></a>Per aggiornare il collegamento del conto bancario
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
-2. Selezionare il conto corrente bancario appropriato e selezionare l'azione **Aggiorna collegamento conto bancario**.
+2. Selezionare il conto corrente bancario appropriato e selezionare l'azione **Aggiorna collegamento conto bancario** .
 
 Se esistono dei problemi per uno dei conti bancari collegati nella pagina **Lista C/C bancari** si apre la finestra **Collegamento conto bancario** in cui sono specificati i conti correnti bancari con problemi. Il modo migliore per risolvere i problemi consiste nello scollegare il conto bancario online e quindi ricreare il collegamento. Per ulteriori informazioni, vedere la sezione "Per collegare un conto bancario a un conto bancario online".
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Per abilitare l'importazione automatica degli estratti conto bancari
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
-2. Selezionare la riga per un conto corrente bancario collegato quindi selezionare l'azione **Setup importazione automatica rendiconti bancari**.
+2. Selezionare la riga per un conto corrente bancario collegato quindi selezionare l'azione **Setup importazione automatica rendiconti bancari** .
 3. Nella pagina **Setup importazione automatica rendiconti bancari** nel campo **Numero di giorni inclusi** specificare il periodo per recuperare le nuove transazioni bancarie.
 
     > [!NOTE]  
     > Si consiglia di impostare il valore di 7 o più giorni.  
-4. Selezionare la casella **Abilitato**.  
+4. Selezionare la casella **Abilitato** .  
 
 Ogni ora la pagina **Registrazione riconciliazione pagamenti** visualizzerà i nuovi pagamenti che vengono effettuati sul conto bancario online.
 

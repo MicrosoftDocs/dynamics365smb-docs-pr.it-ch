@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 1433e22f232b032242a4464730b07df376cadaf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b992fe4f5db07605015a88ea69d9a510adbcca4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189333"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925539"
 ---
 # <a name="list-views-faq"></a>Domande frequenti sulle visualizzazioni elenco
 Questo argomento contiene le risposte alle domande più frequenti sull'utilizzo di visualizzazioni elenco e sul salvataggio di filtri poste da utenti esperti.  
@@ -42,7 +42,7 @@ Le stesse visualizzazioni sono disponibili in una pagina di elenco se vi si acce
 Nella parte inferiore del riquadro filtri, selezionare l'azione **Reimposta filtri** per annullare le modifiche ai filtri apportate alla visualizzazione e ripristinare i campi filtrati e i criteri di filtro originali.
 
 ### <a name="what-is-the-difference-between-hiding-and-removing-views"></a>Qual è la differenza tra nascondere e rimuovere le visualizzazioni?
-La rimozione di una visualizzazione eliminerà definitivamente quella visualizzazione. Quando si nasconde una visualizzazione, questa viene rimossa temporaneamente dal riquadro filtri, ma è possibile renderla di nuovo visibile in seguito scegliendo l'azione **Mostra**.
+La rimozione di una visualizzazione eliminerà definitivamente quella visualizzazione. Quando si nasconde una visualizzazione, questa viene rimossa temporaneamente dal riquadro filtri, ma è possibile renderla di nuovo visibile in seguito scegliendo l'azione **Mostra** .
 
 ### <a name="how-can-i-share-my-views-with-others"></a>Come è possibile condividere le visualizzazioni con altri utenti?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] non fornisce un modo di condividere la visualizzazione elenco precisa, ma è possibile condividere i filtri correnti di modo che altri utenti possano visualizzare un elenco di record simile. Nel browser desktop, copiare semplicemente l'URL e condividerlo con i colleghi. La condivisione dei filtri non garantisce al destinatario un set di filtri identico a quello visualizzato nel proprio browser.
@@ -77,13 +77,13 @@ Da notare che le visualizzazioni di sistema legacy verranno sospese in un futuro
 ### <a name="others-in-my-organization-need-similar-list-views-as-standard-what-can-i-do"></a>Altri utenti nell'organizzazione necessitano di visualizzazioni elenco simili. Come si deve procedere?
 L'utilizzo di visualizzazioni personali è rapido ed efficace, ma [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce strumenti aggiuntivi per definire visualizzazioni elenco necessarie a ruoli utente specifici o a tutti gli utenti nell'organizzazione.
  - Gli sviluppatori possono personalizzare l'ambiente e creare visualizzazioni elenco nelle estensioni per tutti gli utenti nell'organizzazione.
- - Gli utenti non programmatori come gli amministratori o i responsabili di reparto possono creare visualizzazioni elenco specifiche del ruolo quando personalizzano un ruolo dalla pagina **Profili (ruoli)**.
+ - Gli utenti non programmatori come gli amministratori o i responsabili di reparto possono creare visualizzazioni elenco specifiche del ruolo quando personalizzano un ruolo dalla pagina **Profili (ruoli)** .
 
 ### <a name="i-work-with-multiple-languages-how-do-i-translate-the-name-of-the-view"></a>Come è possibile tradurre il nome della visualizzazione?
 Quando si salva una nuova visualizzazione o si rinomina una visualizzazione esistente, è necessario immettere un nome riconoscibile e significativo per quella visualizzazione. Il nome viene salvato per la lingua corrente e verrà visualizzato anche quando si utilizza [!INCLUDE[d365fin](includes/d365fin_md.md)] in altre lingue. Per fornire nomi di visualizzazioni tradotti, è necessario cambiare lingua nella pagina **Impostazioni personali** e quindi rinominare la visualizzazione. In questo modo, si memorizzerà il nome tradotto nella nuova lingua.
 
 ### <a name="do-views-with-expressions-work-in-all-languages"></a>Le visualizzazioni con espressioni sono utilizzabili con tutte le lingue?
-Le espressioni che utilizzano solo simboli, come "**|**" o **..**, sono considerate sicure in qualsiasi lingua. Le visualizzazioni con espressioni che includono lettere, parole chiave o token di filtro sono utilizzabili solo con la lingua in cui sono state create.
+Le espressioni che utilizzano solo simboli, come " **|** " o **..** , sono considerate sicure in qualsiasi lingua. Le visualizzazioni con espressioni che includono lettere, parole chiave o token di filtro sono utilizzabili solo con la lingua in cui sono state create.
 
 
 ### <a name="see-also"></a>Vedere anche  

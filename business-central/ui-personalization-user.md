@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e41c3dd810367f254bd62271083e884afdc9da50
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8b29f96f37448c2ca6eb02330946171adb5f04b9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781328"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925590"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 È possibile personalizzare la propria area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
 
 È possibile personalizzare tutti i tipi di pagine, inclusa la pagina Gestione ruolo utente. Per ulteriori informazioni su Gestione ruolo utente, vedere [Gestione ruolo utente](ui-change-basic-settings.md#role-center).
 
-A seconda del tipo di pagina e del relativo contenuto, è possibile eseguire varie modifiche, come spostare o nascondere campi, colonne, azioni e intere parti e aggiungere nuovi campi. La maggior parte della personalizzazione deve essere effettuata attivando prima il banner **Personalizzazione**, ma modifiche molto semplici, come la larghezza della colonna, possono essere eseguite immediatamente in qualsiasi elenco.
+A seconda del tipo di pagina e del relativo contenuto, è possibile eseguire varie modifiche, come spostare o nascondere campi, colonne, azioni e intere parti e aggiungere nuovi campi. La maggior parte della personalizzazione deve essere effettuata attivando prima il banner **Personalizzazione** , ma modifiche molto semplici, come la larghezza della colonna, possono essere eseguite immediatamente in qualsiasi elenco.
 
 > [!NOTE]
 > Gli amministratori possono eseguire le stesse modifiche al layout degli utenti personalizzando l'area di lavoro per un profilo a cui sono assegnati più utenti. Per ulteriori informazioni, vedere [Personalizzare pagine per ruoli](ui-personalization-manage.md).<br /><br />
@@ -42,7 +42,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Per avviare la personalizzazione di una pagina tramite il banner **Personalizzazione**
 1. Aprire qualsiasi pagina da personalizzare.
-2. Nell'angolo in alto a destra, selezionare l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi scegliere **Personalizza**.
+2. Nell'angolo in alto a destra, selezionare l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi scegliere **Personalizza** .
 
     Viene visualizzato il banner **Personalizzazione** in alto per indicare che è possibile iniziare ad apportare le modifiche.
 
@@ -51,11 +51,11 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
     Se nel banner viene visualizzato ![Blocco della personalizzazione](media/personalization-lock-icon.png "Blocco della personalizzazione") oppure ![Personalizzazione bloccata](media/personalization-blocked-icon.png "Personalizzazione bloccata"), non è possibile personalizzare la pagina. Per ulteriori informazioni, vedere [Perché non è possibile personalizzare una pagina](ui-personalization-locked.md).
 
-3. Per aggiungere un campo, scegliere l'azione **+ Filtro**.
-4. Dal riquadro **Aggiungi campo a pagina**, trascinare e rilasciare un campo nella posizione desiderata nella pagina.
+3. Per aggiungere un campo, scegliere l'azione **+ Filtro** .
+4. Dal riquadro **Aggiungi campo a pagina** , trascinare e rilasciare un campo nella posizione desiderata nella pagina.
 5. Per modificare un elemento dell'interfaccia utente, puntare all'elemento, ad esempio un'azione, un campo o una parte. L'elemento viene immediatamente evidenziato con una freccia o un bordo.
-6. Scegliere l'elemento, quindi scegliere **Sposta**, **Rimuovi**, **Nascondi**, **Mostra**, **Visualizza in "Mostra più"**, **Mostra quando compresso**, **Mostra sempre**, **Imposta/Cancella Blocco riquadro** o **Includi/Escludi da Accesso rapido**, a seconda del tipo e dello stato dell'elemento dell'interfaccia utente. Per ulteriori informazioni, vedere [Elementi personalizzabili](#What).
-7. Al termine della modifica del layout in una o più pagine, selezionare il pulsante **Fatto** nel banner **Personalizzazione**.
+6. Scegliere l'elemento, quindi scegliere **Sposta** , **Rimuovi** , **Nascondi** , **Mostra** , **Visualizza in "Mostra più"** , **Mostra quando compresso** , **Mostra sempre** , **Imposta/Cancella Blocco riquadro** o **Includi/Escludi da Accesso rapido** , a seconda del tipo e dello stato dell'elemento dell'interfaccia utente. Per ulteriori informazioni, vedere [Elementi personalizzabili](#What).
+7. Al termine della modifica del layout in una o più pagine, selezionare il pulsante **Fatto** nel banner **Personalizzazione** .
 
 ## <a name="what-you-can-personalize"></a><a name="What"></a>Elementi personalizzabili
 
@@ -66,10 +66,10 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 |Mostrare azioni e parti nascosti.|Per un elemento in grigio (nascosto), selezionare la freccia, quindi scegliere <b>Mostra</b>.|L'elemento nascosto è di nuovo visibile.|
 |Aggiungere un campo o una colonna.|Nel banner <b>Personalizzazione</b>, scegliere l'azione <b>+ Campo</b>.<br /></br>Si apre a destra il riquadro <b>Aggiungi campo a pagina</b>. Elenca i campi che possono essere aggiunti nella pagina.<br /><br />Per aggiungere un campo, trascinarlo dal riquadro alla posizione che si desidera. La posizione è indicata da una spessa linea orizzontale o verticale.|Ogni pagina include una serie di campi predefiniti che è possibile visualizzare. Utilizzare questa procedura per aggiungere campi o colonne che non sono state visualizzate precedentemente o per visualizzare campi che sono stati nascosti.|
 |Visualizzare un campo nell'intestazione di un Scheda dettaglio quando questa è compressa.|Selezionare la freccia e quindi <b>Mostra quando compresso</b>. <br /> <br />Se questa opzione non è visualizzata, è già impostata. In questo caso, per smettere di visualizzare il campo nell'intestazione della Scheda dettaglio, scegliere <b>Mostra sempre</b>.|*Scheda dettaglio* è il termine utilizzato per un gruppo di campi visualizzati sotto un'intestazione comune. Utilizzare l'opzione <b>Mostra quando compresso</b> per visualizzare i campi più importanti. Se si seleziona un campo nell'intestazione, la Scheda dettaglio verrà visualizzata e lo stato attivo sarà sul campo selezionato.<br /><br />Questa opzione è applicabile solo se una pagina ha più di una Scheda dettaglio. Se vi è una sola Scheda dettaglio, può non essere compressa, per cui l'opzione <b>Mostra quando compresso</b> non è disponibile.|
-|Visualizzare un campo solo quando si seleziona **Mostra di più**.|Selezionare la freccia e quindi <b>Visualizza in "Mostra più"</b>. <br /> <br />Se l'opzione <b>Visualizza in "Mostra più"</b> non è visualizzata, è già impostata. In tal caso, per visualizzare sempre un campo e non solo quando si seleziona **Mostra di più**, scegliere <b>Mostra sempre</b>.||
+|Visualizzare un campo solo quando si seleziona **Mostra di più** .|Selezionare la freccia e quindi <b>Visualizza in "Mostra più"</b>. <br /> <br />Se l'opzione <b>Visualizza in "Mostra più"</b> non è visualizzata, è già impostata. In tal caso, per visualizzare sempre un campo e non solo quando si seleziona **Mostra di più** , scegliere <b>Mostra sempre</b>.||
 |Modificare il riquadro di blocco di un elenco in un'altra colonna. |Selezionare la freccia della colonna che si desidera come ultima colonna del riquadro di blocco, quindi scegliere <b>Imposta Blocca riquadro</b>.<br /><br/>Se si desidera impostare il riquadro di blocco di nuovo sulla posizione originale, selezionare la freccia per la colonna corrente del blocco e scegliere <b>Cancella Blocca riquadro</b>. Nota: non è possibile rimuovere il riquadro di blocco.|Il riquadro di blocco specifica le colonne che sono sempre visualizzate a sinistra, anche quando si scorre orizzontalmente.|  
-|Ignorare un campo quando si preme INVIO.|Selezionare la freccia accanto al campo, o l'intestazione di una colonna in un elenco, e scegliere **Escludi da Accesso rapido**. <br /><br /> Se questa opzione non è visualizzata, il campo è già impostato per essere ignorato. In tal caso, per smettere di ignorare il campo, scegliere **Includi in Accesso rapido**. |Vedere [Accelerazione dell'immissione di dati utilizzando Accesso rapido](ui-enter-data.md#QuickEntry)|
-|Riordinare e rimuovere visualizzazioni che rappresentano elenchi filtrati.|Scegliere la freccia accanto a una visualizzazione, quindi scegliere **Sposta**, **Rimuovi** o **Nascondi**.|Vedere [Salvare e personalizzare visualizzazioni elenco](ui-views.md).|  
+|Ignorare un campo quando si preme INVIO.|Selezionare la freccia accanto al campo, o l'intestazione di una colonna in un elenco, e scegliere **Escludi da Accesso rapido** . <br /><br /> Se questa opzione non è visualizzata, il campo è già impostato per essere ignorato. In tal caso, per smettere di ignorare il campo, scegliere **Includi in Accesso rapido** . |Vedere [Accelerazione dell'immissione di dati utilizzando Accesso rapido](ui-enter-data.md#QuickEntry)|
+|Riordinare e rimuovere visualizzazioni che rappresentano elenchi filtrati.|Scegliere la freccia accanto a una visualizzazione, quindi scegliere **Sposta** , **Rimuovi** o **Nascondi** .|Vedere [Salvare e personalizzare visualizzazioni elenco](ui-views.md).|  
 |Aggiungere una nuova azione a una pagina o un report in Gestione ruolo utente.|Dalla pagina di destinazione, dalla pagina della richiesta di report o dalla finestra della funzionalità delle informazioni, selezionare l'icona del segnalibro.|Vedere [Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente](ui-bookmarks.md)|
 |Avvia sempre un elenco come espanso o compresso|Scegli il pulsante Espandi tutto o Comprimi tutto nell'angolo in alto a sinistra dell'elenco oppure scegli l'azione Espandi tutto o Comprimi tutto nel menu della prima colonna. |Si applica agli elenchi di gerarchie comprimibili.|
 
@@ -77,14 +77,14 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
 La personalizzazione consente di specificare quali azioni visualizzare nelle barre di spostamento e azione e in Gestione ruolo utente e dove. È possibile visualizzare, nascondere o spostare singole azioni o gruppi di azioni. La personalizzazione delle barre di spostamento e azione è praticamente uguale a quella degli altri elementi dell'interfaccia di lavoro. Tuttavia, ciò che è possibile eseguire con un'azione o un gruppo dipende dalla posizione dell'azione o del gruppo. Il modo migliore per saperlo è di attivare la modalità di personalizzazione e di seguire le istruzioni visualizzate.
 
-Per comprendere meglio la personalizzazione delle azioni, è necessario avere una certa familiarità con alcuni termini, ovvero *gruppo di azioni* e *categoria promossa*.  
+Per comprendere meglio la personalizzazione delle azioni, è necessario avere una certa familiarità con alcuni termini, ovvero *gruppo di azioni* e *categoria promossa* .  
 
-Un *gruppo di azioni* è un elemento che si espande per visualizzare altre azioni o gruppi. Ad esempio, nella pagina **Ordini vendita**, l'azione **Funzioni** che viene visualizzata quando si sceglie l'azione **Azioni** è un gruppo di azioni.
+Un *gruppo di azioni* è un elemento che si espande per visualizzare altre azioni o gruppi. Ad esempio, nella pagina **Ordini vendita** , l'azione **Funzioni** che viene visualizzata quando si sceglie l'azione **Azioni** è un gruppo di azioni.
 
-Una *categoria promossa* è un gruppo di azioni visualizzato prima della riga verticale `|` nella barra delle azioni. Le categorie includono in genere le azioni più utilizzate, affinché sia possibile trovarle rapidamente. Ad esempio, nella pagina **Ordini vendita**, le azioni **Ordine**, **Rilascia** e **Registrazione**, le azioni sono categorie promosse.
+Una *categoria promossa* è un gruppo di azioni visualizzato prima della riga verticale `|` nella barra delle azioni. Le categorie includono in genere le azioni più utilizzate, affinché sia possibile trovarle rapidamente. Ad esempio, nella pagina **Ordini vendita** , le azioni **Ordine** , **Rilascia** e **Registrazione** , le azioni sono categorie promosse.
 
 > [!NOTE]
-> Non è possibile personalizzare la barra delle azioni che appare nelle parti della pagina (ad esempio, la parte delle righe di vendita nella pagina **Ordine di vendita**).
+> Non è possibile personalizzare la barra delle azioni che appare nelle parti della pagina (ad esempio, la parte delle righe di vendita nella pagina **Ordine di vendita** ).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Per rimuovere, nascondere e visualizzare azioni e gruppi di azioni
 Quando si desidera mostrare o nascondere un'azione, le opzioni sotto la freccia definiscono le operazioni consentite in base allo stato dell'azione.
@@ -94,7 +94,7 @@ Quando si desidera mostrare o nascondere un'azione, le opzioni sotto la freccia 
 |Opzione|Funzione|
 |------|------------
 |**Elimina**|Questa opzione viene visualizzata se l'azione selezionata è visibile anche altrove nella barra di spostamento o azione. La scelta di questa opzione elimina l'azione dalla posizione selezionata di modo che non sia più visualizzata. L'azione o il gruppo di azioni sarà visibile in altre posizioni. |
-|**Nascondi**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni non si trova altrove nella barra di spostamento o delle azioni. Come per **Elimina**, la scelta di questa opzione rimuoverà l'azione o il gruppo di azioni dalla barra di spostamento o delle azioni. Tuttavia, in modalità di personalizzazione, l'azione o il gruppo di azioni sarà ancora visualizzato nella posizione corrente, ma sarà inattivo.|
+|**Nascondi**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni non si trova altrove nella barra di spostamento o delle azioni. Come per **Elimina** , la scelta di questa opzione rimuoverà l'azione o il gruppo di azioni dalla barra di spostamento o delle azioni. Tuttavia, in modalità di personalizzazione, l'azione o il gruppo di azioni sarà ancora visualizzato nella posizione corrente, ma sarà inattivo.|
 |**Mostra**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni è stato nascosto (inattivo). La scelta di questa opzione visualizzerà l'azione o il gruppo di azioni nella barra di spostamento o delle azioni.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Per spostare azioni e gruppi di azioni
@@ -104,7 +104,7 @@ La posizione in cui è possibile spostare l'azione o i gruppi di azioni è indic
 - Non è possibile spostare un gruppo di azioni in una categoria promossa.
 
 1. Per spostare un azione o un gruppo di azioni, trascinarlo nella posizione desiderata, esattamente come per campi e colonne.
-2. Per spostare un'azione o un gruppo di azioni in un altro gruppo di azioni che è vuoto, trascinare l'azione o il gruppo di azioni sul nuovo gruppo e rilasciarlo nella casella **Rilasciare qui un'azione**.
+2. Per spostare un'azione o un gruppo di azioni in un altro gruppo di azioni che è vuoto, trascinare l'azione o il gruppo di azioni sul nuovo gruppo e rilasciarlo nella casella **Rilasciare qui un'azione** .
 
 
 ## <a name="personalizing-parts"></a><a name="Parts"></a>Personalizzazione delle parti
@@ -121,7 +121,7 @@ Puoi cancellare tutte le modifiche di personalizzazione che hai apportato all'in
 ## <a name="to-clear-personalization"></a>Per cancellare la personalizzazione
 In alcuni casi, potrebbe essere necessario annullare alcune o tutte le modifiche di personalizzazione effettuate nel tempo in una pagina.
 
-1. Nel banner **Personalizzazione**, scegliere l'azione **Cancella personalizzazione**.
+1. Nel banner **Personalizzazione** , scegliere l'azione **Cancella personalizzazione** .
 2. Selezionare una delle seguenti opzioni. Tenere presente che la cancellazione di una personalizzazione non può essere annullata.
 
 |Opzione|Funzione|

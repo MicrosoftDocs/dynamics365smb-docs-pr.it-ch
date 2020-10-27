@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 753a9ae7b6b47113107bb9f9bdf439323cff615a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6d905c6155b305a5788ca48a1364dbd619c084ef
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781753"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926265"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Abilitare i pagamenti clienti tramite i servizi di pagamento
 Come alternativa alla riscossione dei pagamenti tramite bonifico o carte di credito, i clienti possono pagare utilizzando il conto personale e servizi di pagamento, quali Microsoft Pay, PayPal o WorldPay.  
@@ -26,9 +26,9 @@ Le estensioni Microsoft Pay, PayPal Payments Standard e WorldPay Payments Standa
 
 ## <a name="to-enable-a-payment-service-in-d365fin"></a>Per abilitare un servizio di pagamento in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Servizi di pagamento** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Servizi di pagamento** scegliere l'azione **Nuovo**.  
+2. Nella pagina **Servizi di pagamento** scegliere l'azione **Nuovo** .  
 3. Selezionare il servizio di pagamento e chiudere la pagina.  
-4. Nella pagina **Servizi di pagamento** scegliere l'azione **Setup**.  
+4. Nella pagina **Servizi di pagamento** scegliere l'azione **Setup** .  
 5. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Chiudere la pagina.  
 

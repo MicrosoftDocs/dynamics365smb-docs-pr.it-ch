@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f1c082a24348b106a0bcbd0e48084f7ce88b435
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f628ceefb6894f8ca2f05e6345ac4f3b19f3235e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779629"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923287"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base
 Se le operazioni di elaborazione dell'articolo si verificano nell'ubicazione della warehouse, potrebbe essere necessario spostare gli articoli tra le collocazioni interne in modo che corrispondano ai documenti di origine interni, ad esempio produzione, assemblaggio o ordini di assistenza per l'ubicazione.  
@@ -23,24 +23,24 @@ Se le operazioni di elaborazione dell'articolo si verificano nell'ubicazione del
 > [!NOTE]  
 >  Per informazioni sullo spostamento di articoli tra collocazioni senza documenti di origine, vedere Movimentazione interna.  
 
-Nelle configurazioni warehouse avanzate, ovvero ubicazioni che utilizzano il campo di setup **Stoccaggi e prelievi guidati**, è possibile utilizzare la pagina **Prospetto movimentazioni** per spostare gli articoli tra le collocazioni. Per ulteriori informazioni, vedere [Spostare articoli nelle configurazioni della warehouse di base](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Nelle configurazioni warehouse avanzate, ovvero ubicazioni che utilizzano il campo di setup **Stoccaggi e prelievi guidati** , è possibile utilizzare la pagina **Prospetto movimentazioni** per spostare gli articoli tra le collocazioni. Per ulteriori informazioni, vedere [Spostare articoli nelle configurazioni della warehouse di base](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
-Nelle configurazioni di warehouse di base, ovvero ubicazioni che utilizzano il campo di setup **Collocazione obbligatoria** e il campo di setup **Richiesto prelievo**, è possibile registrare le movimentazioni di articoli nelle aree delle operazioni interne in base ai documenti di origine interni nei seguenti modi:  
+Nelle configurazioni di warehouse di base, ovvero ubicazioni che utilizzano il campo di setup **Collocazione obbligatoria** e il campo di setup **Richiesto prelievo** , è possibile registrare le movimentazioni di articoli nelle aree delle operazioni interne in base ai documenti di origine interni nei seguenti modi:  
 
--   Con la pagina **Movimento di magazzino**.  
--   Con la pagina **Prelievi magazzino**.  
+-   Con la pagina **Movimento di magazzino** .  
+-   Con la pagina **Prelievi magazzino** .  
 
 > [!NOTE]  
 >  I prelievi magazzino registrano inoltre i movimenti contabili articoli negativi come consumo e sono supportati solo per i componenti di produzione. Per ulteriori informazioni, vedere la pagina Prelievo magazzino.  
 
 Per informazioni dettagliate sui movimenti di magazzino, vedere la pagina Movimento di magazzino.  
 
-Due diversi ruoli possono creare il movimento di magazzino iniziale. Un addetto all'assemblaggio, ad esempio, può crearlo da un ordine di assemblaggio rilasciato in modo che venga visualizzato nell'elenco dell'addetto warehouse relativo al lavoro da svolgere. Per creare un movimento di magazzino per le righe ordini di assemblaggio i cui componenti sono pronti per essere spostati nelle relative collocazioni specificate, l'addetto all'assemblaggio utilizza la funzione **Crea movimento di magazzino**.  
+Due diversi ruoli possono creare il movimento di magazzino iniziale. Un addetto all'assemblaggio, ad esempio, può crearlo da un ordine di assemblaggio rilasciato in modo che venga visualizzato nell'elenco dell'addetto warehouse relativo al lavoro da svolgere. Per creare un movimento di magazzino per le righe ordini di assemblaggio i cui componenti sono pronti per essere spostati nelle relative collocazioni specificate, l'addetto all'assemblaggio utilizza la funzione **Crea movimento di magazzino** .  
 
 In alternativa, un lavoratore warehouse può crearlo scegliendo l'ordine di assemblaggio rilasciato in questione. Questa funzionalità è descritta nella procedura seguente.  
 
 > [!NOTE]  
->  Se la movimentazione riguarda un ordine di assemblaggio in cui l'articolo è assemblato in base a un ordine di vendita, è possibile definire che il documento di movimento di magazzino viene creato automaticamente quando si crea il documento di prelievo magazzino che accetta l'articolo di assemblaggio completato e registra la spedizione. Per impostare questa operazione, selezionare il campo **Crea movimenti automaticamente** nella pagina **Setup assemblaggio**.  
+>  Se la movimentazione riguarda un ordine di assemblaggio in cui l'articolo è assemblato in base a un ordine di vendita, è possibile definire che il documento di movimento di magazzino viene creato automaticamente quando si crea il documento di prelievo magazzino che accetta l'articolo di assemblaggio completato e registra la spedizione. Per impostare questa operazione, selezionare il campo **Crea movimenti automaticamente** nella pagina **Setup assemblaggio** .  
 >   
 >  Per ulteriori informazioni sugli ordini di assemblaggio e sulle configurazioni di warehouse di base, vedere [Gestione di articoli da assemblare su ordine con prelievi magazzino](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
@@ -50,10 +50,10 @@ La procedura seguente mostra come creare un movimento di magazzino nella pagina 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimento di magazzino** e quindi scegliere il collegamento pertinente.  
 2.  Nella Scheda dettaglio **Generale** compilare il campo **Nr.** . È possibile premere INVIO per selezionare la numerazione.  
 3.  Nel campo **Cod. ubicazione** immettere l'ubicazione in cui si verifica la movimentazione.  
-4.  Scegliere l'azione **Prendi documenti origine**. In alternativa, compilare il campo **Documento origine**, quindi fare clic sul pulsante **AssistEdit** nel campo **Nr. origine**.  
-5.  Nella pagina **Documenti origine** selezionare l'ordine di assemblaggio per cui si desidera spostare i componenti, quindi fare clic sul pulsante **OK**.  
+4.  Scegliere l'azione **Prendi documenti origine** . In alternativa, compilare il campo **Documento origine** , quindi fare clic sul pulsante **AssistEdit** nel campo **Nr. origine** .  
+5.  Nella pagina **Documenti origine** selezionare l'ordine di assemblaggio per cui si desidera spostare i componenti, quindi fare clic sul pulsante **OK** .  
 
-    Per ogni componente necessario che può essere spostato, viene generata una riga Prendere e una riga Mettere nella pagina **Movimenti di magazzino**. Tutti i campi tranne il campo **Qtà da gestire** sono precompilati in base alle righe del documento di origine. Il campo **Qtà da gestire** è uguale a zero fino a quando non si immette la quantità effettivamente spostata.  
+    Per ogni componente necessario che può essere spostato, viene generata una riga Prendere e una riga Mettere nella pagina **Movimenti di magazzino** . Tutti i campi tranne il campo **Qtà da gestire** sono precompilati in base alle righe del documento di origine. Il campo **Qtà da gestire** è uguale a zero fino a quando non si immette la quantità effettivamente spostata.  
 
     È possibile modificare il codice collocazione in una riga Prendere, ma solo in base alla disponibilità. Scegliendo il pulsante **AssistEdit** nel campo **Cod. collocazione** in una riga Prendere, la pagina **Contenuto collocazioni** viene aperta e mostra solo le collocazioni in cui il componente è disponibile.  
 
@@ -61,9 +61,9 @@ La procedura seguente mostra come creare un movimento di magazzino nella pagina 
 6.  Nel campo **Qtà da gestire** immettere la quantità parziale o completa effettivamente spostata. Il valore nelle righe Prendere e Mettere deve essere identico. In caso contrario, non è possibile registrare la movimentazione.  
 
     > [!NOTE]  
-    >  Come in altre attività di warehouse, è possibile suddividere la riga Posizione selezionando l'azione **Azioni** e scegliendo l'azione **Dividi riga**. In questo caso, la somma delle due righe divise Mettere deve essere uguale alla quantità nella riga Prendere.  
+    >  Come in altre attività di warehouse, è possibile suddividere la riga Posizione selezionando l'azione **Azioni** e scegliendo l'azione **Dividi riga** . In questo caso, la somma delle due righe divise Mettere deve essere uguale alla quantità nella riga Prendere.  
 
-7.  Al momento di registrare le movimentazioni effettuate, scegliere l'azione **Registra movimentazioni inv.**.  
+7.  Al momento di registrare le movimentazioni effettuate, scegliere l'azione **Registra movimentazioni inv.** .  
 
     I movimenti warehouse vengono creati in modo da riflettere la presenza dei componenti nelle collocazioni specificate nelle righe ordine di assemblaggio.  
 

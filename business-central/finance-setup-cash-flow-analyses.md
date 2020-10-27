@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ac0630857eb775a904e2bbf5d4a21a89efb73c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 401f471fe8af79c2373547a7ec6f51dc6366bd78
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182822"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923062"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
 Se si desidera informazioni per decidere quali operazioni effettuare con i contanti, è possibile utilizzare i grafici nella Gestione ruolo utente Contabile:  
@@ -42,11 +42,11 @@ I grafici **Ciclo di cassa** ed **Entrate e spese** sono pronti per l'utilizzo, 
 | **I_INCEXP** |Entrate e uscite |
 | **I_MINTRIAL** |Come conto economico se non si utilizza il piano dei conti |
 
-**Nota**: si consiglia di conservare i calcoli forniti per la situazione contabile.  
+**Nota** : si consiglia di conservare i calcoli forniti per la situazione contabile.  
 
-Immettere i conti nel campo **Totale** per **Totale ricavi**, **Totale contabilità clienti**, **Totale contabilità fornitori** e **Totale magazzino**. Per mappare a un intervallo dei conti, o a più di un conto specifico, immettere i numeri di conto separati da ".." o da una barra verticale, rispettivamente. Ad esempio, **1111..4444** o **2222|3333|5555**.  
+Immettere i conti nel campo **Totale** per **Totale ricavi** , **Totale contabilità clienti** , **Totale contabilità fornitori** e **Totale magazzino** . Per mappare a un intervallo dei conti, o a più di un conto specifico, immettere i numeri di conto separati da ".." o da una barra verticale, rispettivamente. Ad esempio, **1111..4444** o **2222|3333|5555** .  
 
-**Suggerimento**: verificare la mappatura scegliendo l'azione **Panoramica**.  
+**Suggerimento** : verificare la mappatura scegliendo l'azione **Panoramica** .  
 
 ## <a name="set-up-the-cash-flow-chart"></a>Impostare il grafico Flusso di cassa
 Il grafico Flusso di cassa è basato sui seguenti elementi:  
@@ -56,7 +56,7 @@ Il grafico Flusso di cassa è basato sui seguenti elementi:
 
 Per agevolare l'inizio, vengono forniti determinati conti ed impostazioni del flusso di cassa. È possibile aggiungerli, modificarli o rimuoverli.  
 
-Per configurarli, cercare **conti di cassa**, selezionare il collegamento e compilare i campi. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Ripetere questa procedura per il **setup flusso di cassa**.  
+Per configurarli, cercare **conti di cassa** , selezionare il collegamento e compilare i campi. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Ripetere questa procedura per il **setup flusso di cassa** .  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Impostare le previsioni flusso di cassa
 Nel grafico **Previsione flusso di cassa** sono utilizzati i conti di cassa, le impostazioni del flusso di cassa e le previsioni dei flussi di cassa. Alcuni conti vengono forniti, tuttavia, è possibile impostare il proprio conto utilizzando una guida assistita di setup. La guida aiuta a specificare aspetti, quali la frequenza di aggiornamento della previsione, i conti sui cui basarla, le informazioni su quando effettuare i pagamenti delle imposte e se utilizzare [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
@@ -68,17 +68,17 @@ Le previsioni del flusso di cassa possono utilizzare Azure per intelligenza arti
 
 Per utilizzare guida al setup assistito:  
 
-1. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa**, scegliere l'azione **Apri setup assistito**.  
+1. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa** , scegliere l'azione **Apri setup assistito** .  
 2. Compilare i campi in ogni step della guida.  
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione flusso di cassa** e quindi scegliere il collegamento correlato.
-4. Nella pagina **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
+4. Nella pagina **Previsione flusso di cassa** , scegliere l'azione **Ricalcola previsione** .  
 
 Per utilizzare una procedura manuale:  
 
 1. Nella Gestione ruolo utente Contabile cercare **Setup flusso di cassa** quindi selezionare il collegamento correlato.  
-2. Espandere la Scheda dettaglio **Azure AI**, quindi scegliere la casella di controllo **Abilitato da Azure AI**.  
+2. Espandere la Scheda dettaglio **Azure AI** , quindi scegliere la casella di controllo **Abilitato da Azure AI** .  
 3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Previsione flusso di cassa** e quindi scegliere il collegamento correlato.
-4. Nella pagina **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
+4. Nella pagina **Previsione flusso di cassa** , scegliere l'azione **Ricalcola previsione** .  
 
 > [!TIP]  
 >   Considerare la durata del periodo che il servizio utilizzerà nei suoi calcoli. Più dati immessi, più accurate saranno le previsioni. Inoltre, prestare attenzione a scostamenti ampi nei periodi. Influiranno anche sulle previsioni. Se Azure AI non trova una quantità sufficiente di dati o i dati variano molto, il servizio non farà una previsione.  
@@ -95,31 +95,31 @@ Questi servizi Web sono apolidi, nel senso che utilizzano i dati solo per calcol
 Per effettuare previsioni su entrate e spese future, i servizi Web richiedono dati storici su crediti, debiti e tasse.
 
 #### <a name="receivables"></a>Crediti:
-I campi **Scadenza**, **Importo (LCY)** della pagina **Movimenti contabili clienti**, dove:
+I campi **Scadenza** , **Importo (LCY)** della pagina **Movimenti contabili clienti** , dove:
 - Il tipo di documento è Fattura o Nota di credito.
 - La data di scadenza è tra la data calcolata in base ai valori nei campi **Periodi storici** e **Tipo di periodo** della pagina **Setup flusso di cassa** e la data del lavoro.
 
-Prima di utilizzare il servizio Web predittivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime le transazioni per **Scadenza** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa**.
+Prima di utilizzare il servizio Web predittivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime le transazioni per **Scadenza** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa** .
 
 #### <a name="payables"></a>Debiti:
-I campi **Scadenza**, **Importo (LCY)** della pagina **Movimenti contabili fornitori**, dove:
+I campi **Scadenza** , **Importo (LCY)** della pagina **Movimenti contabili fornitori** , dove:
 - Il tipo di documento è "Fattura" o "Nota di credito".
 - La data di scadenza è tra la data calcolata in base ai valori nei campi **Periodi storici** e **Tipo di periodo** della pagina **Setup flusso di cassa** e la data del lavoro.
 
-Prima di utilizzare il servizio Web predittivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime le transazioni per **Scadenza** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa**.
+Prima di utilizzare il servizio Web predittivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime le transazioni per **Scadenza** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa** .
 
 #### <a name="tax"></a>Imposta:
-I campi **Data documento**, **Importo (VAT)** della pagina **Movimenti contabili IVA**, dove:
+I campi **Data documento** , **Importo (VAT)** della pagina **Movimenti contabili IVA** , dove:
 - Il tipo di documento è "vendite".
 - La data del documento è tra la data calcolata in base ai valori nei campi **Periodi storici** e **Tipo di periodo** della pagina **Setup flusso di cassa** e la data del lavoro.
 
-Prima di utilizzare il servizio Web predittivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime le transazioni per **Data del documento** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa**.
+Prima di utilizzare il servizio Web predittivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime le transazioni per **Data del documento** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa** .
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Per ulteriori informazioni, vedere Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa.
-È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Forecasting model per Microsoft Business Central**. Il modello predittivo è disponibile anche online nella raccolta Azure AI. Attenersi alla seguente procedura per utilizzare il modello:  
+È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Forecasting model per Microsoft Business Central** . Il modello predittivo è disponibile anche online nella raccolta Azure AI. Attenersi alla seguente procedura per utilizzare il modello:  
 
 1. Aprire un browser e accedere alla [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=828352)  
-2. Cercare il modello **Forecasting Model per Microsoft Business Central**, quindi aprirlo in Azure Machine Learning Studio.  
+2. Cercare il modello **Forecasting Model per Microsoft Business Central** , quindi aprirlo in Azure Machine Learning Studio.  
 3. Utilizzare l'account Microsoft per impostare un'area di lavoro, quindi copiare il modello.  
 4. Eseguire il modello e pubblicarlo come servizio Web.  
 5. Prendere nota dell'URL API e della chiave API. Usare queste le credenziali per un setup del flusso di cassa.  

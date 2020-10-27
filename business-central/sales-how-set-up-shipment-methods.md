@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 117af16fe6536f8db49eb3066e7e06a88450897f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 48a75bd1d5a47e6e91ed64868f15743713e40ec4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780879"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926065"
 ---
 # <a name="set-up-shipment-methods"></a>Impostare i metodi di spedizione
 I metodi di spedizione, denominati anche incoterm, dipendono spesso dagli articoli, dai clienti e dai fornitori. Se ad esempio il cliente ha sede su un'isola, può scegliere che gli articoli gli vengano spediti sempre per via aerea oppure sempre via mare. Alcuni clienti potrebbero richiedere la consegna il giorno successivo. Alcuni potrebbero voler ritirare l'ordine. Nelle schede cliente e fornitore è possibile specificare il tipo di consegna desiderato.
 
-Impostare nella pagina **Metodi di spedizione** la descrizione e il codice di ciascun metodo di spedizione. È possibile ad esempio impostare il codice FOB e immettere Franco a bordo nel campo **Descrizione**. Sarà quindi possibile immettere il codice nei campi **Codice metodo di spedizione** altrove nel sistema ad esempio in una scheda cliente. In seguito, quando si creano nuovi ordini, fatture, note di credito e così via, il sistema immetterà la descrizione rappresentata dal codice. È possibile modificarla sul documento in base alle esigenze.
+Impostare nella pagina **Metodi di spedizione** la descrizione e il codice di ciascun metodo di spedizione. È possibile ad esempio impostare il codice FOB e immettere Franco a bordo nel campo **Descrizione** . Sarà quindi possibile immettere il codice nei campi **Codice metodo di spedizione** altrove nel sistema ad esempio in una scheda cliente. In seguito, quando si creano nuovi ordini, fatture, note di credito e così via, il sistema immetterà la descrizione rappresentata dal codice. È possibile modificarla sul documento in base alle esigenze.
 
 ## <a name="to-set-up-a-shipment-code"></a>Per impostare un codice spedizione
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Metodi di spedizione** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Metodi di spedizione** scegliere l'azione **Nuovo**.
+2. Nella pagina **Metodi di spedizione** scegliere l'azione **Nuovo** .
 3. Nella nuova riga specificare un codice e una descrizione per il metodo di spedizione.
 
 ## <a name="see-also"></a>Vedere anche

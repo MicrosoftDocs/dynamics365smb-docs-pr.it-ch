@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617722"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922460"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Sincronizzazione di dati in Business Central con Common Data Service
 
@@ -43,17 +43,20 @@ Le entità in [!INCLUDE[d365fin](includes/cds_long_md.md)], come i conti, vengon
 
 Nella seguente tabella elenca il mapping standard tra le entità in [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] che [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce.
 
+> [!TIP]
+> È possibile ripristinare le modifiche di configurazione apportate alla tabella di integrazione e ai mapping dei campi sulle impostazioni predefinite selezionando i mapping e quindi scegliendo **Utilizza setup sincronizzazione predefinito** .
+
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Direzione della sincronizzazione | Filtro predefinito |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|
-| Agenti/Addetti acq. | Utente | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro contatto di [!INCLUDE[d365fin](includes/cds_long_md.md)] : il campo **Stato** è impostato su **No**, **Con licenza utente** è impostato su **Sì**, Modalità utente integrazione è su **No** |
-| Cliente | Conto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro conto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il **Tipo di relazione** è **Cliente** e **Stato** è **Attivo**. Filtro di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloccato** è vuoto (il cliente non è bloccato). |
-| Fornitore | Conto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro conto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il **Tipo di relazione** è **Fornitore** e **Stato** è **Attivo**. Filtro di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloccato** è vuoto (il fornitore non è bloccato). |
+| Agenti/Addetti acq. | Utente | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro contatto di [!INCLUDE[d365fin](includes/cds_long_md.md)] : il campo **Stato** è impostato su **No** , **Con licenza utente** è impostato su **Sì** , Modalità utente integrazione è su **No** |
+| Cliente | Conto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro conto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il **Tipo di relazione** è **Cliente** e **Stato** è **Attivo** . Filtro di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloccato** è vuoto (il cliente non è bloccato). |
+| Fornitore | Conto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro conto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il **Tipo di relazione** è **Fornitore** e **Stato** è **Attivo** . Filtro di [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloccato** è vuoto (il fornitore non è bloccato). |
 | Contatto | Contatto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] e [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro contatto di [!INCLUDE[d365fin](includes/d365fin_md.md)]: il campo **Tipo** è **Persona** e il contatto viene assegnato a una società. Filtro contatto di [!INCLUDE[d365fin](includes/cds_long_md.md)]: il contatto è assegnati a una società e il tipo di cliente padre è **Conto** |
 | Valuta | Valuta transazione | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Suggerimento per amministratori: visualizzazione di mapping di entità
-È possibile visualizzare il mapping tra le entità in [!INCLUDE[d365fin](includes/cds_long_md.md)] e le tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] nella pagina **Mapping tabella integrazione**, dove è anche possibile applicare filtri. È possibile definire il mapping tra i campi nelle tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] e i campi nelle entità di [!INCLUDE[d365fin](includes/cds_long_md.md)] nella pagina **Mapping campo integrazione**, in cui è possibile aggiungere ulteriori logica di mapping. Ad esempio, ciò può essere utile se è necessario risolvere problemi relativi alla sincronizzazione.
+È possibile visualizzare il mapping tra le entità in [!INCLUDE[d365fin](includes/cds_long_md.md)] e le tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] nella pagina **Mapping tabella integrazione** , dove è anche possibile applicare filtri. È possibile definire il mapping tra i campi nelle tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] e i campi nelle entità di [!INCLUDE[d365fin](includes/cds_long_md.md)] nella pagina **Mapping campo integrazione** , in cui è possibile aggiungere ulteriori logica di mapping. Ad esempio, ciò può essere utile se è necessario risolvere problemi relativi alla sincronizzazione.
 
 ## <a name="see-also"></a>Vedere anche  
 [Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md)   

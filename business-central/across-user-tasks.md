@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1e6520aeb39a77ecfcbf652b8c328d1595d6f6f
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577219"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922635"
 ---
 # <a name="define-user-tasks"></a>Definisci task dell'utente
 
@@ -25,12 +25,12 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile creare task per ric
 
 La pagina **Task dell'utente** mostra tutti i task e consente di creare e assegnare facilmente nuovi task. Quando si crea un task, è possibile specificare la data di inizio e di fine e aggiungere un collegamento alla pagina o al report in [!INCLUDE[d365fin](includes/d365fin_md.md)] in cui l'utente deve svolgere l'attività.  
 
-Ad esempio, è possibile creare un task per se stessi o un collaboratore per visualizzare tutte le fatture di vendita registrate. In tal caso, collegare il task alla pagina 143, **Fatture di vendita registrate**. Nello screenshot seguente, qualcuno sta creando un'attività per MeganB per rivedere le fatture di vendita registrate.  
+Ad esempio, è possibile creare un task per se stessi o un collaboratore per visualizzare tutte le fatture di vendita registrate. In tal caso, collegare il task alla pagina 143, **Fatture di vendita registrate** . Nello screenshot seguente, qualcuno sta creando un'attività per MeganB per rivedere le fatture di vendita registrate.  
 
 :::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Esempio di un'attività utente":::
 
 > [!TIP]  
-> Utilizzare la funzionalità di ricerca nel campo **Pagina**, quindi utilizzare il campo **Cerca** per identificare la pagina che si desidera.  
+> Utilizzare la funzionalità di ricerca nel campo **Pagina** , quindi utilizzare il campo **Cerca** per identificare la pagina che si desidera.  
 >
 > È possibile collegare a qualsiasi pagina, ma non è possibile collegare singole voci, quindi rendere la descrizione il più esplicita possibile, ad esempio scrivendo "Osservare il cliente n. 10000 e assicurarsi che non abbia pagamenti scaduti.".
 
@@ -42,7 +42,7 @@ Una volta completato il task, contrassegnarlo come completato.
 
 ### <a name="deleting-user-tasks"></a>Eliminazione di task degli utenti
 
-Se si desidera eliminare tutti o alcuni task dell'utente, è possibile utilizzare il report **Elimina task dell'utente**. Nella pagina di richiesta, è possibile impostare i filtri per determinare quali task devono essere eliminati.  
+Se si desidera eliminare tutti o alcuni task dell'utente, è possibile utilizzare il report **Elimina task dell'utente** . Nella pagina di richiesta, è possibile impostare i filtri per determinare quali task devono essere eliminati.  
 
 ## <a name="see-also"></a>Vedi anche
 

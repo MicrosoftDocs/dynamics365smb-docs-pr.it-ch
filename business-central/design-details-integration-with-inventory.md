@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 46d8272903a3a7c9da7247fd96bcd80a16050b58
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e1b7a922109155471c212d688ce3ab468977deb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787839"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922135"
 ---
 # <a name="design-details-integration-with-inventory"></a>Dettagli di progettazione: Integrazione con il magazzino
 L'area di applicazione Gestione warehouse e l'area di applicazione Magazzino interagiscono tra loro nell'inventario fisico e nella rettifica della warehouse o di magazzino.  
@@ -23,7 +23,7 @@ L'area di applicazione Gestione warehouse e l'area di applicazione Magazzino int
 ## <a name="physical-inventory"></a>Inventario fisico  
  La pagina **Registrazioni Inventario Whse.** viene utilizzata con la pagina **Registrazioni inventario fis.** per tutte le ubicazioni warehouse avanzate. Il magazzino a livello di collocazione viene calcolato e viene stampato un elenco per l'impiegato warehouse. L'elenco indica quali elementi devono essere conteggiati in quali collocazioni.  
   
- Un impiegato warehouse immette la quantità conteggiata nella pagina **Registrazioni Inventario Whse.**, quindi effettua le registrazioni.  
+ Un impiegato warehouse immette la quantità conteggiata nella pagina **Registrazioni Inventario Whse.** , quindi effettua le registrazioni.  
   
  Se la quantità conteggiata è maggiore della quantità nella riga delle registrazioni, verrà registrato un movimento per questa differenza dalla collocazione rettifica predefinita alla collocazione conteggiata. In questo modo viene aumentata la quantità nella collocazione conteggiata e viene diminuita la quantità nella collocazione rettifica predefinita.  
   

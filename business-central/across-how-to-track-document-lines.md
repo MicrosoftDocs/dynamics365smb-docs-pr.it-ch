@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee77fe46999d6b586d7c524232ba4883f9c18340
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782003"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924996"
 ---
 # <a name="track-document-lines"></a>Tenere traccia delle righe dei documenti
 È possibile visualizzare documenti correlati a righe ordine di vendita e ordine di acquisto, anche da righe ordine archiviate. I documenti correlati di cui è possibile tenere traccia includono offerte, spedizioni, carichi e ordini programmati. In questo modo è possibile identificare i documenti usati per elaborare gli ordini.  
@@ -25,9 +25,9 @@ Di seguito viene descritto come tenere traccia a partire da una riga ordine di v
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2.  Aprire un ordine di vendita a partire dal quale tenere traccia.  
-3.  Selezionare una riga, quindi scegliere l'azione **Tracciabilità riga documento**.
+3.  Selezionare una riga, quindi scegliere l'azione **Tracciabilità riga documento** .
 4. Nella pagina **Tracciabilità righe documenti** selezionare il documento che si desidera visualizzare, quindi scegliere l'azione **Mostra** per visualizzare la riga correlata.
-5. Per visualizzare l'intero documento per la linea di documento selezionata, scegliere l'azione **Mostra documento**.
+5. Per visualizzare l'intero documento per la linea di documento selezionata, scegliere l'azione **Mostra documento** .
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
