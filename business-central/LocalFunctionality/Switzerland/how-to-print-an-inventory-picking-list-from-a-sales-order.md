@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Stampare una lista prelievi magazzino da un ordine di vendita nella versione svizzera'
-description: È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita.
+title: Stampare una lista prelievi magazzino da un ordine di vendita in Svizzera
+description: Informazioni su come stampare una lista prelievi magazzino direttamente da un ordine di vendita nella versione svizzera di Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,33 +10,33 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cb32effa0660b2e508a48b1ff0c1368448fb615
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: abbab8f71e73bb0bec84497266a0e505b354ddbc
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911706"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014018"
 ---
-# <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a><span data-ttu-id="d2de9-103">Stampare una lista prelievi magazzino da un ordine di vendita nella versione svizzera</span><span class="sxs-lookup"><span data-stu-id="d2de9-103">Print an Inventory Picking List from a Sales Order in the Swiss Version</span></span>
+# <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a><span data-ttu-id="5429e-103">Stampare una lista prelievi magazzino da un ordine di vendita nella versione svizzera</span><span class="sxs-lookup"><span data-stu-id="5429e-103">Print an Inventory Picking List from a Sales Order in the Swiss Version</span></span>
 
-<span data-ttu-id="d2de9-104">È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita.</span><span class="sxs-lookup"><span data-stu-id="d2de9-104">You can print an inventory picking list directly from a sales order.</span></span> <span data-ttu-id="d2de9-105">La lista prelievi contiene un elenco di articoli con le seguenti informazioni:</span><span class="sxs-lookup"><span data-stu-id="d2de9-105">The picking list contains a list of items with the following information:</span></span>  
+<span data-ttu-id="5429e-104">È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita.</span><span class="sxs-lookup"><span data-stu-id="5429e-104">You can print an inventory picking list directly from a sales order.</span></span> <span data-ttu-id="5429e-105">La lista prelievi contiene un elenco di articoli con le seguenti informazioni:</span><span class="sxs-lookup"><span data-stu-id="5429e-105">The picking list contains a list of items with the following information:</span></span>  
 
-- <span data-ttu-id="d2de9-106">Codice collocazione</span><span class="sxs-lookup"><span data-stu-id="d2de9-106">Bin code</span></span>  
-- <span data-ttu-id="d2de9-107">Cod. ubicazione</span><span class="sxs-lookup"><span data-stu-id="d2de9-107">Location code</span></span>  
-- <span data-ttu-id="d2de9-108">Numero di serie</span><span class="sxs-lookup"><span data-stu-id="d2de9-108">Serial number</span></span>  
-- <span data-ttu-id="d2de9-109">Quantità</span><span class="sxs-lookup"><span data-stu-id="d2de9-109">Quantity</span></span>  
+- <span data-ttu-id="5429e-106">Codice collocazione</span><span class="sxs-lookup"><span data-stu-id="5429e-106">Bin code</span></span>  
+- <span data-ttu-id="5429e-107">Cod. ubicazione</span><span class="sxs-lookup"><span data-stu-id="5429e-107">Location code</span></span>  
+- <span data-ttu-id="5429e-108">Numero di serie</span><span class="sxs-lookup"><span data-stu-id="5429e-108">Serial number</span></span>  
+- <span data-ttu-id="5429e-109">Quantità</span><span class="sxs-lookup"><span data-stu-id="5429e-109">Quantity</span></span>  
 
-<span data-ttu-id="d2de9-110">La lista prelievi include solo quegli articoli con una quantità di spedizione superiore a 0.</span><span class="sxs-lookup"><span data-stu-id="d2de9-110">The picking list includes only those items with a shipping quantity greater than 0.</span></span>  
+<span data-ttu-id="5429e-110">La lista prelievi include solo quegli articoli con una quantità di spedizione superiore a 0.</span><span class="sxs-lookup"><span data-stu-id="5429e-110">The picking list includes only those items with a shipping quantity greater than 0.</span></span>  
 
-## <a name="to-print-an-inventory-picking-list-from-a-sales-order"></a><span data-ttu-id="d2de9-111">Per stampare una lista prelievi magazzino da un ordine di vendita</span><span class="sxs-lookup"><span data-stu-id="d2de9-111">To print an inventory picking list from a sales order</span></span>  
+## <a name="to-print-an-inventory-picking-list-from-a-sales-order"></a><span data-ttu-id="5429e-111">Per stampare una lista prelievi magazzino da un ordine di vendita</span><span class="sxs-lookup"><span data-stu-id="5429e-111">To print an inventory picking list from a sales order</span></span>  
 
-1. <span data-ttu-id="d2de9-112">Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="d2de9-112">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="d2de9-113">Selezionare l'ordine di vendita richiesto, quindi scegliere l'azione **Modifica**.</span><span class="sxs-lookup"><span data-stu-id="d2de9-113">Select the required sales order, and then choose the **Edit** action.</span></span>  
-3. <span data-ttu-id="d2de9-114">Scegliere l'azione **Lista prelievi**.</span><span class="sxs-lookup"><span data-stu-id="d2de9-114">Choose the **Picking List** action.</span></span>  
-4. <span data-ttu-id="d2de9-115">Nella Scheda dettaglio **Opzioni** immettere il numero di copie richiesto nel campo **Nr. di copie**.</span><span class="sxs-lookup"><span data-stu-id="d2de9-115">On the **Options** FastTab, in the **No. of Copies** field, enter the required number of copies.</span></span>  
-5. <span data-ttu-id="d2de9-116">Scegliere il pulsante **Stampa** per stampare la lista prelievi oppure scegliere il pulsante **Anteprima** per visualizzarla sullo schermo.</span><span class="sxs-lookup"><span data-stu-id="d2de9-116">Choose the **Print** button to print the picking list or choose the **Preview** button to view it on the screen.</span></span>  
+1. <span data-ttu-id="5429e-112">Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="5429e-112">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="5429e-113">Selezionare l'ordine di vendita richiesto, quindi scegliere l'azione **Modifica**.</span><span class="sxs-lookup"><span data-stu-id="5429e-113">Select the required sales order, and then choose the **Edit** action.</span></span>  
+3. <span data-ttu-id="5429e-114">Scegliere l'azione **Lista prelievi**.</span><span class="sxs-lookup"><span data-stu-id="5429e-114">Choose the **Picking List** action.</span></span>  
+4. <span data-ttu-id="5429e-115">Nella Scheda dettaglio **Opzioni** immettere il numero di copie richiesto nel campo **Nr. di copie**.</span><span class="sxs-lookup"><span data-stu-id="5429e-115">On the **Options** FastTab, in the **No. of Copies** field, enter the required number of copies.</span></span>  
+5. <span data-ttu-id="5429e-116">Scegliere il pulsante **Stampa** per stampare la lista prelievi oppure scegliere il pulsante **Anteprima** per visualizzarla sullo schermo.</span><span class="sxs-lookup"><span data-stu-id="5429e-116">Choose the **Print** button to print the picking list or choose the **Preview** button to view it on the screen.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="d2de9-117">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="d2de9-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5429e-117">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="5429e-117">See Also</span></span>
 
-[<span data-ttu-id="d2de9-118">Documenti di acquisto e di vendita per la Svizzera</span><span class="sxs-lookup"><span data-stu-id="d2de9-118">Swiss Purchase Documents and Sales Documents</span></span>](swiss-purchase-documents-and-sales-documents.md)  
-[<span data-ttu-id="d2de9-119">Importare codici postali svizzeri</span><span class="sxs-lookup"><span data-stu-id="d2de9-119">Import Swiss Post Codes</span></span>](how-to-import-swiss-post-codes.md)  
+[<span data-ttu-id="5429e-118">Documenti di acquisto e di vendita per la Svizzera</span><span class="sxs-lookup"><span data-stu-id="5429e-118">Swiss Purchase Documents and Sales Documents</span></span>](swiss-purchase-documents-and-sales-documents.md)  
+[<span data-ttu-id="5429e-119">Importare codici postali svizzeri</span><span class="sxs-lookup"><span data-stu-id="5429e-119">Import Swiss Post Codes</span></span>](how-to-import-swiss-post-codes.md)  
