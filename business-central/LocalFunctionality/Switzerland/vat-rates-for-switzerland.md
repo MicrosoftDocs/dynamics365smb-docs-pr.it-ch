@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 400be8548cc27838ceadf4ee34a2c6e2e9dfca29
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: afc59c0e5dad70fc9bb680aef38dad999ce8b6e2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923952"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753143"
 ---
 # <a name="vat-rates-for-switzerland"></a>Aliquote IVA per la Svizzera
-Se le aliquote IVA variano, è necessario usare lo strumento di modifica aliquota IVA. Nelle versioni precedenti di [!INCLUDE[d365fin](../../includes/d365fin_md.md)] era possibile usare contemporaneamente per le transazioni sia l'aliquota IVA precedente che quella nuova, a seconda delle date di spedizione. Questa funzionalità è stata deprecata.  
+Se le aliquote IVA variano, è necessario usare lo strumento di modifica aliquota IVA. Nelle versioni precedenti di [!INCLUDE[prod_short](../../includes/prod_short.md)] era possibile usare contemporaneamente per le transazioni sia l'aliquota IVA precedente che quella nuova, a seconda delle date di spedizione. Questa funzionalità è stata deprecata.  
 
 Per ulteriori informazioni, vedere [Dichiarare l'IVA all'autorità fiscale](../../finance-how-report-vat.md).  
 

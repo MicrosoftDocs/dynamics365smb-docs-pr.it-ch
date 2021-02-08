@@ -4,14 +4,14 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec32c54dbf87e3594b6587f9cf66141576cad1d9
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: b2d0a0ff1106431701b8d22c8c8e36f1701cfc39
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959656"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747535"
 ---
-In [!INCLUDE[d365fin](../../../includes/d365fin_md.md)], è possibile usare solleciti di consegna per segnalare ai fornitori le consegne scadute. Per creare solleciti di consegna per i fornitori, è necessario impostare dati di base per la creazione di solleciti di consegna e numerazioni per i solleciti di consegna nella pagina **Setup contabilità fornitori e acquisti**.  
+In [!INCLUDE[prod_short](../../../includes/prod_short.md)], è possibile usare solleciti di consegna per segnalare ai fornitori le consegne scadute. Per creare solleciti di consegna per i fornitori, è necessario impostare dati di base per la creazione di solleciti di consegna e numerazioni per i solleciti di consegna nella pagina **Setup contabilità fornitori e acquisti**.  
 
 ## <a name="to-set-up-delivery-reminders"></a>Per impostare solleciti di consegna  
 

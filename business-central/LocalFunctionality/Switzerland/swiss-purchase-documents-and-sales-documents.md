@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c733dcaea3900c2b53d2e0fbcf9c637dcc044db9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 33548a959177cc2c0f3459415cc58cbd750c9418
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916356"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753163"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documenti di acquisto e di vendita per la Svizzera
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] include miglioramenti svizzeri per documenti di vendita e documenti di acquisto. È incluso quanto segue:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] include miglioramenti svizzeri per documenti di vendita e documenti di acquisto. È incluso quanto segue:  
 
 - Descrizioni di registrazione avanzata per i movimenti di contabilità generale, i movimenti contabili clienti e i movimenti contabili fornitori. Per ulteriori informazioni, vedere la tabella Movimenti C/G, Mov. contabili clienti e Mov. contabili fornitori.  
 - La capacità di avere sottotitoli, subtotali e totali iniziali e finali nelle offerte di vendita e negli ordini di vendita.  
@@ -36,7 +36,7 @@ Gli articoli vengono suddivisi in base ai valori generati dal sistema visualizza
 Specificare un articolo come variante nella riga dell'offerta di vendita. In tal modo è possibile elencare gli articoli alternativi senza includere il prezzo nell'offerta. Inoltre è possibile fare riferimento a parti specifiche di una offerta di vendita o di un ordine di vendita in base al valore visualizzato nel campo **Posizione** della riga dell'offerta di vendita o dell'ordine di vendita. Per ulteriori informazioni, vedere la tabella Righe vendite.  
 
 > [!NOTE]
-> Funzionalità disponibile solo in [!INCLUDE[prodshort](../../includes/prodshort.md)] locale.
+> Funzionalità disponibile solo in [!INCLUDE[prod_short](../../includes/prod_short.md)] locale.
 
 ## <a name="purchase-invoices-and-sales-invoices-with-payment-discounts"></a>Fatture di acquisto e fatture di vendita con sconti di pagamento  
 Per le fatture di acquisto e le fatture di vendita, l'importo della fattura viene ridotto per l'importo dello sconto e quindi arrotondato. Anche il totale della fattura viene arrotondato se c'è uno sconto. Per ulteriori informazioni, vedere la tabella Setup contabilità generale.  

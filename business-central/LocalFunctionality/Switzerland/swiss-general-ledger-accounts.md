@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ff997b55a9a45bc1ec06616591af8a2c2984f5df
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3b6f77b344628dccda66a752573a1a982c45ed7f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916373"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753167"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Conti di contabilità generale per la Svizzera
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] include i miglioramenti svizzeri per i conti C/G.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] include i miglioramenti svizzeri per i conti C/G.
 
 - Gestire i saldi in valuta estera di un conto bancario nella contabilità generale.  
 - Ordinare i numeri di conto della contabilità generale nella pagina **Piano dei conti**.  
 - Visualizzare l'anteprima degli effetti che avrebbe la contabilizzazione delle registrazioni COGE sui saldi di alcuni conti di contabilità generale prima di effettuarla effettivamente.  
 
 ## <a name="general-ledger-accounts-and-general-journals"></a>Conti di contabilità generale e registrazioni COGE  
-Le aziende hanno spesso conti bancari diversi per le valute estere e hanno un conto C/G per ogni conto bancario. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile impostare le informazioni relative al codice valuta e al saldo in valuta estera nella pagina **Piano dei conti**. Ciò consente di mantenere il saldo originale in valuta estera di un conto bancario. Per ulteriori informazioni, vedere [Contabilità generale e piano dei conti](../../finance-general-ledger.md).  
+Le aziende hanno spesso conti bancari diversi per le valute estere e hanno un conto C/G per ogni conto bancario. In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile impostare le informazioni relative al codice valuta e al saldo in valuta estera nella pagina **Piano dei conti**. Ciò consente di mantenere il saldo originale in valuta estera di un conto bancario. Per ulteriori informazioni, vedere [Contabilità generale e piano dei conti](../../finance-general-ledger.md).  
 
 Ad esempio, un'azienda ha due conti bancari: uno per la valuta locale (VL) e uno per gli euro (EUR). È necessario creare un conto C/G per ciascun conto bancario. Per il conto in EUR, definire il codice valuta come **EUR** e contabilizzare le registrazioni in EUR o VL.  
 

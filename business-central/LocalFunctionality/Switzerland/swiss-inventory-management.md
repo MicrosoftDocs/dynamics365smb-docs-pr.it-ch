@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09e9e9b4c5e4a4adee571d34a770050a087393a1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 413f3a7db5230373aaac066e25f385c64036bb58
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916369"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753171"
 ---
 # <a name="swiss-inventory-management"></a>Gestione del magazzino per la Svizzera
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  
 
 - Dichiarazione dettagliata.  Per ulteriori informazioni vedere il report Magazzino - Statistiche di vendita e il report Magazzino - Lista.  
 - La capacità di monitorare una fattura con più spedizioni.  

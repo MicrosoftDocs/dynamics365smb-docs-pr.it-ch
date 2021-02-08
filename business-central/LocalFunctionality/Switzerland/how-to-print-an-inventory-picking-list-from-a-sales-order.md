@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Stampare una lista prelievi magazzino da un ordine di vendita nella versione svizzera'
-description: È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita.
+title: Stampare una lista prelievi magazzino da un ordine di vendita in Svizzera
+description: Informazioni su come stampare una lista prelievi magazzino direttamente da un ordine di vendita nella versione svizzera di Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cb32effa0660b2e508a48b1ff0c1368448fb615
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: abbab8f71e73bb0bec84497266a0e505b354ddbc
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911706"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014018"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>Stampare una lista prelievi magazzino da un ordine di vendita nella versione svizzera
 

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 387e38bbf85d40b10ba4353fc96a96be8fd053ac
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 327e94ac22275078f06e75e0185f8d26445a3619
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916425"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753181"
 ---
 # <a name="create-and-print-a-swiss-vat-statement"></a>Creare e stampare una dichiarazione IVA svizzera
-In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
+In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, [!INCLUDE[prod_short](../../includes/prod_short.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
 
 ## <a name="to-set-up-a-swiss-vat-statement-template"></a>Per impostare un modello di dichiarazione IVA svizzera  
 

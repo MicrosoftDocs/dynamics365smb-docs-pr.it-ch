@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e7cb126ea06d96bd130d644948d08fd7e2e1a11
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: fe306d5fd0f6878e016adc28036c026730d69552
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959661"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747557"
 ---
 I solleciti di consegna sono usati per tracciare le consegne scadute dei fornitori e per segnalare ai fornitori le consegne scadute. Per creare i solleciti di consegna è necessario impostare quanto segue:
 
@@ -31,7 +31,7 @@ Dopo aver impostato i testi, i livelli e i termini di consegna, è necessario as
 
 È possibile anche tracciare i documenti in relazione alle righe degli ordini di vendita e di acquisto.  
 
-[!INCLUDE[d365fin](../../../includes/d365fin_md.md)] fornisce i seguenti report:  
+[!INCLUDE[prod_short](../../../includes/prod_short.md)] fornisce i seguenti report:  
 
 - **Sollecito di consegna inviato** - Per visualizzare i solleciti di consegna per i fornitori.  
 - **Sollecito di consegna - Test** - Per verificare i solleciti di consegna prima dell'invio.  
