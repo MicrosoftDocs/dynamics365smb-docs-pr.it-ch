@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927867"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750998"
 ---
 # <a name="set-up-company-consolidation"></a>Impostare il consolidamento di una società
 
@@ -33,12 +33,12 @@ In base alla complessità delle proprie società, esistono due modi per impostar
 Se il consolidamento è semplice, ad esempio perché si è il solo proprietario delle business unit da consolidare, la guida al setup assistito **Consolidamento società** consente l'esecuzione delle seguenti operazioni:
 
 * Scegliere se creare una nuova società consolidata, oppure se consolidare i dati in una società già creata per il consolidamento. La società non deve contenere transazioni.
-* Visualizzare un'anteprima dei risultati. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica la possibilità di trasferire correttamente transazioni e dati master alla società consolidata.
+* Visualizzare un'anteprima dei risultati. [!INCLUDE[prod_short](includes/prod_short.md)] verifica la possibilità di trasferire correttamente transazioni e dati master alla società consolidata.
 
 Per utilizzare la guida al setup assistito, attenersi a questa procedura:
 
-1. Nella Gestione ruolo utente **Contabile** , scegliere l'azione **Setup assistito** .
-2. Scegliere **Imposta creazione di report di consolidamento** , quindi completare ogni passaggio nella guida al setup assistito.
+1. Nella Gestione ruolo utente **Contabile**, scegliere l'azione **Setup assistito**.
+2. Scegliere **Imposta creazione di report di consolidamento**, quindi completare ogni passaggio nella guida al setup assistito.
 
 ## <a name="advanced-consolidation-setup"></a>Setup avanzato del consolidamento
 
@@ -63,21 +63,21 @@ Il seguente elenco illustra gli aspetti chiave della società consolidata.
     Per ulteriori informazioni, vedere la sezione [Aggiungere business unit](#busunit).
 3. Se si esegue il consolidamento dei rendiconti finanziari di business unit in una valuta estera, è possibile specificare tassi di cambio.
 
-    I tre tassi di cambio utilizzati nel programma sono **Tasso medio (manuale)** , **Tasso di chiusura** e **Ultimo tasso di chiusura** . Per ulteriori informazioni, vedere la sezione [Specificare i tassi di cambio per i consolidamenti](#exchrates).
+    I tre tassi di cambio utilizzati nel programma sono **Tasso medio (manuale)**, **Tasso di chiusura** e **Ultimo tasso di chiusura**. Per ulteriori informazioni, vedere la sezione [Specificare i tassi di cambio per i consolidamenti](#exchrates).
 4. È possibile consolidare le informazioni sulle dimensioni, nonché i conti della contabilità generale.
 
     Per ulteriori informazioni, vedere la sezione [Includere o escludere dimensioni](#dim).
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Aggiungere business unit
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] consente di impostare un elenco di business unit da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
+[!INCLUDE[prod_short](includes/prod_short.md)] consente di impostare un elenco di business unit da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
 
 1. Accedere alla società consolidata.
 2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business Unit** e quindi scegliere il collegamento correlato.  
 3. Scegliere **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
-    > Quando si compilano i campi **Data inizio** e **Data fine** , assicurarsi di essere in conformità con le norme GAAP relative ai periodi fiscali della business unit rispetto alla casa madre.
+    > Quando si compilano i campi **Data inizio** e **Data fine**, assicurarsi di essere in conformità con le norme GAAP relative ai periodi fiscali della business unit rispetto alla casa madre.
 4. Ripetere il passaggio 3 per ogni business unit aggiuntiva
 
 Se una business unit utilizza una valuta straniera, è necessario specificare il tasso di cambio da utilizzare nel consolidamento. È inoltre necessario immettere le informazioni di consolidamento nei conti C/G della business unit. Tali processi sono descritti nelle sezioni riportate di seguito.
@@ -88,12 +88,12 @@ Nel piano dei conti di una società che verrà consolidata devono essere specifi
 
 Se il piano dei conti nella business unit differisce dalla società consolidata, è necessario preparare conti di contabilità generale per il consolidamento. È possibile specificare i conti in cui registrare debiti e crediti nonché il metodo da utilizzare per convertire le valute nella società consolidata. Ciò è utile se, ad esempio, si esegue spesso il report.
 
-1. In [!INCLUDE [prodshort](includes/prodshort.md)] di ogni business unit, scegliere l'icona a ![forma di lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
-2. Aprire la scheda del conto e compilare i campi della Scheda dettaglio **Consolidamento** . [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+1. In [!INCLUDE [prod_short](includes/prod_short.md)] di ogni business unit, scegliere l'icona a ![forma di lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+2. Aprire la scheda del conto e compilare i campi della Scheda dettaglio **Consolidamento**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Specificare i tassi di cambio per i consolidamenti
 
-Se una business unit utilizza una valuta diversa rispetto alla società consolidata, è necessario specificare i metodi dei tassi di cambio per ogni conto prima di eseguire il consolidamento. Per ogni conto, il contenuto del campo **Metodo conversione consol.** determina il tasso di cambio. Nella società consolidata, nel campo **Tabella tasso di cambio valuta** di ogni scheda business unit specificare se per il consolidamento saranno utilizzati i tassi di cambio della business unit o della società consolidata. Se si utilizzano i tassi di cambio della società consolidata, è possibile modificare i tassi di cambio per una business unit. Per le business unit, se nel campo **Tabella tasso di cambio valuta** della scheda business unit è indicato **Locale** , è possibile modificare il tasso di cambio nella scheda stessa. I tassi di cambio vengono copiati dalla tabella **Tassi di cambio valute** , ma è possibile modificarli prima del consolidamento.
+Se una business unit utilizza una valuta diversa rispetto alla società consolidata, è necessario specificare i metodi dei tassi di cambio per ogni conto prima di eseguire il consolidamento. Per ogni conto, il contenuto del campo **Metodo conversione consol.** determina il tasso di cambio. Nella società consolidata, nel campo **Tabella tasso di cambio valuta** di ogni scheda business unit specificare se per il consolidamento saranno utilizzati i tassi di cambio della business unit o della società consolidata. Se si utilizzano i tassi di cambio della società consolidata, è possibile modificare i tassi di cambio per una business unit. Per le business unit, se nel campo **Tabella tasso di cambio valuta** della scheda business unit è indicato **Locale**, è possibile modificare il tasso di cambio nella scheda stessa. I tassi di cambio vengono copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli prima del consolidamento.
 
 Nella tabella seguente sono descritti i metodi dei tassi di cambio che è possibile utilizzare per i conti.
 
@@ -104,15 +104,15 @@ Nella tabella seguente sono descritti i metodi dei tassi di cambio che è possib
 |Ultimo tasso di chiusura | Il tasso valido nel mercato del cambio estero alla data per cui lo stato patrimoniale o il conto economico viene preparato. Questo tasso viene specificato per ogni business unit. Utilizzato per i conti di bilancio patrimoniale.|
 |Tasso storico | Il tasso di cambio valido al momento della transazione.|
 |Tasso composito | Gli importi del periodo corrente vengono convertiti sulla base del tasso medio e aggiunti al saldo precedentemente registrato nella società consolidata. Questo metodo viene solitamente utilizzato per conti utili non distribuiti, poiché includono importi relativi a periodi diversi e sono quindi costituiti da importi convertiti con diversi tassi di cambio.|
-|Tasso equo | È analogo al tasso **composito** . Le differenze sono registrate in conti di contabilità generale separati.|
+|Tasso equo | È analogo al tasso **composito**. Le differenze sono registrate in conti di contabilità generale separati.|
 
 Per specificare i tassi di cambio per le business unit, attenersi alla seguente procedura:
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Business Unit** e quindi scegliere il collegamento correlato.  
-2. Nella pagina **Lista business unit** , scegliere la business unit, quindi l'azione **Tasso medio (manuale)** .  
-3. Nella pagina **Modifica tasso di cambio** , il campo **Importo tasso cambio relativo** contiene valori copiati dalla tabella **Tassi di cambio valute** , ma è possibile modificarli. Chiudere la pagina.  
-4. Scegliere l'azione **Tasso di chiusura** .  
-5. Nel campo **Importo tasso cambio relativo** , immettere il tasso di cambio.
+2. Nella pagina **Lista business unit**, scegliere la business unit, quindi l'azione **Tasso medio (manuale)**.  
+3. Nella pagina **Modifica tasso di cambio**, il campo **Importo tasso cambio relativo** contiene valori copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli. Chiudere la pagina.  
+4. Scegliere l'azione **Tasso di chiusura**.  
+5. Nel campo **Importo tasso cambio relativo**, immettere il tasso di cambio.
 
 ### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Includere o escludere dimensioni
 
@@ -126,15 +126,15 @@ Per specificare i tassi di cambio per le business unit, attenersi alla seguente 
 
 ### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Escludere una società dal consolidamento
 
-Se non si desidera includere una business unit nel consolidamento, è possibile escluderla. A questo proposito, passare alla scheda business unit e deselezionare la casella di controllo **Consolidare** .
+Se non si desidera includere una business unit nel consolidamento, è possibile escluderla. A questo proposito, passare alla scheda business unit e deselezionare la casella di controllo **Consolidare**.
 
 ### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Includere una società di cui si possiede soltanto una parte
 
-Se si possiede solo una parte di una società, è possibile includere una percentuale di ogni transazione che corrisponde alla percentuale della società di cui si è possessore. Ad esempio, se si possiede il 70% della società, il consolidamento includerà € 70 di una fattura di € 100. Per specificare la percentuale della società posseduta, passare alla scheda business unit e immettere la percentuale nel campo **% consolidamento** .  
+Se si possiede solo una parte di una società, è possibile includere una percentuale di ogni transazione che corrisponde alla percentuale della società di cui si è possessore. Ad esempio, se si possiede il 70% della società, il consolidamento includerà € 70 di una fattura di € 100. Per specificare la percentuale della società posseduta, passare alla scheda business unit e immettere la percentuale nel campo **% consolidamento**.  
 
 ## <a name="see-also"></a>Vedere anche
 
 [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)  
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Esportazione dei dati aziendali in Excel](about-export-data.md)

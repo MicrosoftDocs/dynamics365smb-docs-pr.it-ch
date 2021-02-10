@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0b2536d39bf0121f68172429513bce2ad3180110
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925290"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755660"
 ---
 # <a name="closing-the-books"></a>Chiusura dei registri
 Dopo avere verificato che tutti i conti sono aggiornati e assegnato costi ed entrate, è possibile chiudere i registri per un anno fiscale o un periodo.
@@ -27,7 +27,7 @@ Il processo di chiusura dei libri include le seguenti attività principali:
 
 1. Chiusura del periodo contabile.
 
-    Un anno fiscale è definito come uno o più periodi aperti definiti nella pagina **Periodi contabili** . Un tipico anno fiscale contiene 12 periodi di un mese, tuttavia è possibile scegliere un altro metodo per definire un anno.
+    Un anno fiscale è definito come uno o più periodi aperti definiti nella pagina **Periodi contabili**. Un tipico anno fiscale contiene 12 periodi di un mese, tuttavia è possibile scegliere un altro metodo per definire un anno.
 
     Per ulteriori informazioni, vedere [Chiudere i periodi contabili](year-close-account-periods.md).
 2. Registrazione dei movimenti dell'anno precedente.
@@ -54,4 +54,4 @@ Viene quindi generato un movimento di chiusura, che non viene però registrato a
 ## <a name="see-also"></a>Vedere anche
 
 [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

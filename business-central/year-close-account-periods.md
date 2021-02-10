@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e49f067eb0410e3d2f6f84241ae83be041bce918
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6acdc86afc195185f66836bf723c83d4a1647927
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925390"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755686"
 ---
 # <a name="close-accounting-periods"></a>Chiudere periodi contabili
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito.
 
 ## <a name="to-close-accounting-periods"></a>Per chiudere periodi contabili
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi contabili** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno** .
+2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno**.
 
     Se più anni fiscali sono aperti, viene automaticamente selezionato quello meno recente per la chiusura. Viene visualizzato un messaggio che identifica l'anno che verrà chiuso e le conseguenze di tale operazione.
-3. Per chiudere l'anno, scegliere il pulsante **Sì** .
+3. Per chiudere l'anno, scegliere il pulsante **Sì**.
 
 L'anno fiscale viene chiuso e vengono selezionati i campi **Chiuso** e **Data bloccata** per tutti i periodi dell'anno. L'anno fiscale non può essere riaperto e i segni di spunta nei campi **Chiuso** e **Data bloccata** non possono essere rimossi.
 
@@ -41,4 +41,4 @@ Una volta chiuso un anno fiscale, è necessario chiudere i conti economici e tra
 [Chiusura registri](year-close-books.md)  
 [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  
 [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

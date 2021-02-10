@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915792"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753985"
 ---
 # <a name="create-journal-opening-balances"></a>Creare bilanci di apertura delle registrazioni
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire questi dati con la registrazione di clienti, fornitori, magazzino o C/G.
+[!INCLUDE[prod_short](includes/prod_short.md)] comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire questi dati con la registrazione di clienti, fornitori, magazzino o C/G.
 
 Il primo passaggio consiste di creare un pacchetto di configurazione che include le tabelle di setup di queste registrazioni. La procedura seguente presuppone che questo passaggio sia completato. Per ulteriori informazioni, vedere [Impostare la configurazione della società](admin-set-up-company-configuration.md). Questa procedura descrive i passaggi successivi, tra cui il collegamento del pacchetto fornito da un partner.  
 
@@ -34,17 +34,17 @@ Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Ammi
 2. Aprire il foglio di lavoro configurazione e importare dati esistenti relativi a clienti, articoli, fornitori, nonché la contabilità generale. Per ulteriori informazioni, vedere [Eseguire la migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
 
     Ora i dati master sono in posizione. Successivamente, aggiungere i bilanci di apertura. I passaggi seguenti descrivono come creare righe di giornale di registrazione per conti CoGe, ma lo stesso si applica alla creazione di righe di giornale di registrazione per clienti, fornitori e articoli.  
-3. Scegliere l'azione **Crea righe registrazioni conto C/G** .  
-4. Compilare la Scheda dettaglio **Opzioni** come appropriato e impostare i filtri in base alle esigenze. Ad esempio, immettere un nome nel campo **Definizione registrazioni** .  
-5. Scegliere il pulsante **OK** . I record sono ora contenuti nella registrazione, ma gli importi sono vuoti.  
+3. Scegliere l'azione **Crea righe registrazioni conto C/G**.  
+4. Compilare la Scheda dettaglio **Opzioni** come appropriato e impostare i filtri in base alle esigenze. Ad esempio, immettere un nome nel campo **Definizione registrazioni**.  
+5. Scegliere il pulsante **OK**. I record sono ora contenuti nella registrazione, ma gli importi sono vuoti.  
 6. Esportare la tabella delle registrazioni in Excel e immettere manualmente le informazioni relative a registrazioni e contropartita dei dati legacy.
 7. Importare e collegare le informazioni della tabella nella nuova società. Le righe di registrazione sono pronte per la registrazione.  
-8. Nel foglio di lavoro configurazione, selezionare la tabella delle righe di registrazione, quindi scegliere l'azione **Dati database** .  
-9. Esaminare le informazioni, quindi scegliere l'azione **Registra** .  
+8. Nel foglio di lavoro configurazione, selezionare la tabella delle righe di registrazione, quindi scegliere l'azione **Dati database**.  
+9. Esaminare le informazioni, quindi scegliere l'azione **Registra**.  
 10. Ripetere i passaggi per importare e registrare altri bilanci di apertura.  
 
 > [!TIP]
-> È possibile utilizzare gli stessi processi batch per aggiungere bilanci di apertura ogni volta che si registra un nuovo cliente o fornitore con cui già sono stati conclusi affari ma non è registrato in [!INCLUDE [prodshort](includes/prodshort.md)]. Basta cercare l'attività pertinente e quindi scegliere il collegamento pertinente.
+> È possibile utilizzare gli stessi processi batch per aggiungere bilanci di apertura ogni volta che si registra un nuovo cliente o fornitore con cui già sono stati conclusi affari ma non è registrato in [!INCLUDE [prod_short](includes/prod_short.md)]. Basta cercare l'attività pertinente e quindi scegliere il collegamento pertinente.
 
 ## <a name="see-also"></a>Vedere anche
 

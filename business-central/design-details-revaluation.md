@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911023"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751223"
 ---
 # <a name="design-details-revaluation"></a>Dettagli di progettazione: Rivalutazione
 È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] la seguente flessibilità è supportata riguardo alla rivalutazione:  
+In [!INCLUDE[prod_short](includes/prod_short.md)] la seguente flessibilità è supportata riguardo alla rivalutazione:  
 
 -   La quantità rivalutabile può essere calcolata per qualsiasi data, anche indietro nel tempo.  
 -   Per gli articoli che utilizzano il metodo di costing standard, i movimenti di costi previsti vengono inclusi nella rivalutazione.  
@@ -41,7 +41,7 @@ Nel seguente esempio viene illustrato quando un articolo WIP diventa parte del m
 
 ![Magazzino WIP e rivalorizzazione](media/design_details_inventory_costing_10_revaluation_wip.png "Magazzino WIP e rivalorizzazione")  
 
-**1Q** : L'utente registra i collegamenti acquistati come ricevuti. Nella tabella seguente viene mostrato il movimento di valorizzazione articolo risultante.  
+**1Q**: L'utente registra i collegamenti acquistati come ricevuti. Nella tabella seguente viene mostrato il movimento di valorizzazione articolo risultante.  
 
 |Data di registrazione:|Articolo|Tipo movimento|Quantità|Nr. movimento|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -50,13 +50,13 @@ Nel seguente esempio viene illustrato quando un articolo WIP diventa parte del m
 > [!NOTE]  
 >  Ora è disponibile per la rivalutazione un articolo che utilizza il metodo di costing standard.  
 
-**1V** : L'utente registra i collegamenti acquistati come fatturati e i collegamenti diventano parte del magazzino, da un punto di vista finanziario. Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
+**1V**: L'utente registra i collegamenti acquistati come fatturati e i collegamenti diventano parte del magazzino, da un punto di vista finanziario. Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
 
 |Data di registrazione:|Tipo movimento|Data di valutazione|Importo costo (effettivo)|Nr. movimento cont. articolo|Nr. movimento|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Costo Diretto|01-01-20|150,00|1|1|  
 
- **2Q + 2V** : L'utente registra i collegamenti acquistati come utilizzati per la produzione della catena di ferro. Dal punto di vista finanziario, i collegamenti diventano parte del magazzino WIP.  Nella tabella seguente viene mostrato il movimento di valorizzazione articolo risultante.  
+ **2Q + 2V**: L'utente registra i collegamenti acquistati come utilizzati per la produzione della catena di ferro. Dal punto di vista finanziario, i collegamenti diventano parte del magazzino WIP.  Nella tabella seguente viene mostrato il movimento di valorizzazione articolo risultante.  
 
 |Data di registrazione:|Articolo|Tipo movimento|Quantità|Nr. movimento|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -70,31 +70,31 @@ Nella tabella seguente viene mostrato il movimento di valorizzazione risultante.
 
 La data di valutazione viene impostata alla data di registrazione del consumo (20-01-02), come una normale riduzione di magazzino.  
 
-**3Q** : L'utente registra la catena come output e completa l'ordine di produzione. Nella tabella seguente viene mostrato il movimento di valorizzazione articolo risultante.  
+**3Q**: L'utente registra la catena come output e completa l'ordine di produzione. Nella tabella seguente viene mostrato il movimento di valorizzazione articolo risultante.  
 
 |Data di registrazione:|Articolo|Tipo movimento|Quantità|Nr. movimento|  
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|CATENA|Output|1|3|  
 
-**3V** : l'utente esegue il processo batch **(Rettifica costo - Movimenti articoli)** che registra la catena come fatturata per indicare che tutto il consumo dei materiali è stato completamente fatturato. Dal punto di vista finanziario, i collegamenti non fanno più parte del magazzino WIP quando l'output è completamente fatturato e rettificato. Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
+**3V**: l'utente esegue il processo batch **(Rettifica costo - Movimenti articoli)** che registra la catena come fatturata per indicare che tutto il consumo dei materiali è stato completamente fatturato. Dal punto di vista finanziario, i collegamenti non fanno più parte del magazzino WIP quando l'output è completamente fatturato e rettificato. Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
 
 |Data di registrazione:|Tipo movimento|Data di valutazione|Importo costo (effettivo)|Nr. movimento cont. articolo|Nr. movimento|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Costo Diretto|01-01-20|150,00|2|2|  
 |02-01-20|Costo Diretto|02-01-20|-150,00|2|2|  
-|02-15-20|Costo Diretto|02-15-20|150.00|3|3|  
+|02-15-20|Costo Diretto|02-15-20|150,00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Costo previsto nella Rivalutazione  
-La quantità rivalutabile XE "Quantità rivalutabile" XE "Quantità;Rivalutabile" viene calcolata come somma di quantità XE "quantità" per i movimenti XE "Contabili articoli" della XE "Fattura" completamente fatturati con una data di registrazione uguale o precedente alla data di rivalutazione XE "Rivalutazione". Ciò significa che quando alcuni articoli vengono caricati o spediti ma non fatturati, il loro valore di magazzino non può essere calcolato XE "Valore magazzino". Gli articoli che utilizzano il metodo di costing standard non sono limitati a tale riguardo. XE "Valore"  
+La quantità rivalutabile viene calcolata come somma della quantità per i movimenti contabili articolo completamente fatturati con una data di registrazione uguale o precedente alla data di rivalutazione. Ciò significa che quando alcuni articoli vengono caricati o spediti ma non fatturati, il loro valore di magazzino non può essere calcolato. Gli articoli che utilizzano il metodo di costing standard non sono limitati a tale riguardo.  
 
 > [!NOTE]  
->  Un altro tipo di costo previsto che può essere rivalutato è magazzino WIP, all'interno di alcune regole. Per ulteriori informazioni, vedere la sezione "Rivalutazione magazzino WIP" in questo argomento.  
+>  Un altro tipo di costo previsto che può essere rivalutato è magazzino WIP, all'interno di alcune regole. Per ulteriori informazioni, vedere [Rivalutazione del magazzino WIP](design-details-revaluation.md#wip-inventory-revaluation).  
 
 Nel calcolo della quantità rivalutabile per gli articoli tramite il metodo di costing Standard vengono inclusi i movimenti contabili articoli che non sono stati completamente fatturati. Tali movimenti vengono poi rivalutati quando si registra la rivalutazione. Quando si fattura il movimento rivalutato, vengono creati i seguenti movimenti di valorizzazione:  
 
--   Il solito movimento di valorizzazione fatturato con un tipo di movimento **Costo diretto** . L'importo del costo in questo movimento è il costo diretto derivante dalla riga di origine.  
--   Un movimento valorizzazione con un tipo di movimento di **Scostamento** . Questo movimento registra la differenza tra il costo fatturato e il costo standard rivalutato.  
--   Un movimento valorizzazione con un tipo di movimento di **Rivalutazione** . Questo movimento registra lo storno della rivalutazione del costo previsto.  
+-   Il solito movimento di valorizzazione fatturato con un tipo di movimento **Costo diretto**. L'importo del costo in questo movimento è il costo diretto derivante dalla riga di origine.  
+-   Un movimento valorizzazione con un tipo di movimento di **Scostamento**. Questo movimento registra la differenza tra il costo fatturato e il costo standard rivalutato.  
+-   Un movimento valorizzazione con un tipo di movimento di **Rivalutazione**. Questo movimento registra lo storno della rivalutazione del costo previsto.  
 
 ### <a name="example"></a>Esempio  
 Nel seguente esempio, basato sulla produzione della catena nell'esempio precedente, viene illustrato in che modo vengono creati i tre tipi di movimenti. Si basa sullo scenario seguente:  
@@ -103,7 +103,7 @@ Nel seguente esempio, basato sulla produzione della catena nell'esempio preceden
 2.  L'utente registra quindi una rivalutazione dei collegamenti con un nuovo costo unitario di VL 3,00, aggiornando il costo standard a VL 3,00.  
 3.  L'utente registra l'acquisto originale dei collegamenti come fatturato; viene così creato quanto segue:  
 
-    1.  Un movimento di valorizzazione fatturato con un tipo di movimento **Costo diretto** .  
+    1.  Un movimento di valorizzazione fatturato con un tipo di movimento **Costo diretto**.  
     2.  Un movimento di valorizzazione con un tipo di movimento di **Rivalutazione** per registrare lo storno della rivalutazione del costo previsto.  
     3.  Un movimento valorizzazione con un tipo di movimento Scostamento, che registra la differenza tra il costo fatturato e il costo standard rivalutato.  
 Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
@@ -116,7 +116,7 @@ Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.
 |3.b.|01-15-20|Rivalutazione|01-20-20|-150,00|0.00|1|4|  
 |3.c.|01-15-20|Scostamento|01-15-20|0.00|450,00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Determinazione se una riduzioni di magazzino è interessata dalla rivalutazione  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Determinare se una riduzione di magazzino è interessata dalla rivalutazione  
 La data della registrazione o della rivalutazione viene utilizzata per determinare se una riduzione di magazzino è interessata dalla rivalutazione.  
 
 Nella seguente tabella vengono mostrati i criteri utilizzati per un articolo che non utilizza il metodo di costing medio.  
@@ -141,7 +141,7 @@ Il seguente esempio, che illustra la rivalutazione di un articolo che utilizza i
 6.  In data 20-01-02 l'utente registra la vendita di 1 unità.  
 7.  In data 03-01-20 l'utente registra la vendita di 1 unità.  
 8.  In data 04-01-20 l'utente registra la vendita di 1 unità.  
-9. L'utente esegue il processo batch **Rettifica costo - Movimenti articoli** .  
+9. L'utente esegue il processo batch **Rettifica costo - Movimenti articoli**.  
 
 Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.  
 
@@ -163,13 +163,13 @@ Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.
 ## <a name="wip-inventory-revaluation"></a>Rivalutazione del magazzino WIP  
 La rivalutazione del magazzino WIP implica la rivalutazione dei componenti registrati come parte del magazzino WIP al momento della rivalutazione.  
 
-Tenendo ciò a mente, è più importante stabilire convenzioni come quando un articolo viene considerato parte del magazzino WIP da un punto di vista finanziario. In [!INCLUDE[d365fin](includes/d365fin_md.md)] sono presenti le convenzioni seguenti:  
+Tenendo ciò a mente, è più importante stabilire convenzioni come quando un articolo viene considerato parte del magazzino WIP da un punto di vista finanziario. In [!INCLUDE[prod_short](includes/prod_short.md)] sono presenti le convenzioni seguenti:  
 
 -   Un componente acquistato diventa parte delle giacenze di materie prime a partire del momento della registrazione di un acquisto come fatturato.  
 -   Un componente acquistato o subassemblato diventerà parte del magazzino WIP a partire dalla registrazione del consumo in relazione a un ordine di produzione.  
 -   Un componente acquistato o subassemblato resta parte del magazzino WIP fino al momento in cui un ordine di produzione (articolo lavorato) viene fatturato.  
 
-La modalità con cui viene impostata la data di valutazione del movimento di valorizzazione di consumo segue le stesse regole impostate per il magazzino non WIP. Per ulteriori informazioni, vedere la sezione "Determinare se una riduzione di magazzino è interessata dalla rivalutazione" in questo argomento.  
+La modalità con cui viene impostata la data di valutazione del movimento di valorizzazione di consumo segue le stesse regole impostate per il magazzino non WIP. Per ulteriori informazioni, vedere [Determinare se una riduzione di magazzino è interessata dalla rivalutazione](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 Il magazzino WIP può essere rivalutato finché la data di rivalutazione non è successiva alla data di registrazione dei corrispondenti movimenti contabili articoli di tipo Consumo e purché l'ordine di produzione corrispondente non sia stato ancora fatturato.  
 
@@ -181,4 +181,4 @@ Il magazzino WIP può essere rivalutato finché la data di rivalutazione non è 
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)   
  [Dettagli di progettazione: Valutazione di magazzino](design-details-inventory-valuation.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84232aadd133527d06ff0bf2b65490d5dfe8d651
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 93ff6228855c2dccd3d032523c3f0bd38a54a6d2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917719"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755285"
 ---
 # <a name="create-blanket-assembly-orders"></a>Creare ordini di assemblaggio programmati
 È possibile utilizzare gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -33,9 +33,9 @@ ms.locfileid: "3917719"
     > [!NOTE]  
     >  Non è consigliabile creare contratti di ordini programmati per un importo parziale. Di conseguenza, è necessario immettere la stessa quantità immessa nel campo **Quantità** della riga dell'ordine di vendita programmato.  
 
-4. Scegliere l'azione **Assemblaggio su ordine** , quindi l'azione **Righe di assemblaggio su ordine** . In alternativa, scegliere il campo **Qtà per assemblaggio su ordine** della riga.  
+4. Scegliere l'azione **Assemblaggio su ordine**, quindi l'azione **Righe di assemblaggio su ordine**. In alternativa, scegliere il campo **Qtà per assemblaggio su ordine** della riga.  
 5. Nella pagina **Righe di assemblaggio su ordine** esaminare o modificare le righe dell'ordine di assemblaggio in base al contratto di ordini programmati stipulato con il cliente. Se si desidera visualizzare altre informazioni, scegliere l'azione **Mostra documento** per aprire l'ordine di assemblaggio programmato completo. Non è possibile modificare il contenuto della maggior parte dei campi né effettuare la registrazione.  
-6. Dopo avere rettificato le righe dell'ordine di assemblaggio in base al contratto di ordine programmato, chiudere la pagina **Righe di assemblaggio su ordine** per tornare alla pagina **Ordini vendita programmati** .  
+6. Dopo avere rettificato le righe dell'ordine di assemblaggio in base al contratto di ordine programmato, chiudere la pagina **Righe di assemblaggio su ordine** per tornare alla pagina **Ordini vendita programmati**.  
 7. Quando il cliente richiede la creazione di un ordine di vendita in base all'ordine di vendita programmato concordato, creare un ordine di vendita per l'articolo o gli articoli di assemblaggio concordati. Per ulteriori informazioni, vedere [Creare ordini vendita programmati](sales-how-to-create-blanket-sales-orders.md).
 
 L'ordine di assemblaggio programmato collegato ed eventuali personalizzazioni sono collegati al nuovo ordine di vendita per preparare l'assemblaggio dell'articolo o degli articoli da vendere.  
@@ -46,4 +46,4 @@ L'ordine di assemblaggio programmato collegato ed eventuali personalizzazioni so
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

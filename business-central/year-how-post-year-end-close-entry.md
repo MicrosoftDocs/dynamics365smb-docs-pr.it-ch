@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 3181fe2bfa72897a4e8db8dd1bae6b0f235c6eaa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca92d9535a9a15d46d93de6febdfd169c3d7d17a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923188"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755560"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Registrare il movimento di chiusura di fine anno
 Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare il movimento o i movimenti di chiusura di fine anno, è necessario aprire le registrazioni specificate nel processo batch, quindi analizzare e registrare i movimenti.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Per registrare il movimento di chiusura di fine anno
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Registrazione COGE** , nel campo **Nome batch** , selezionare il batch contenente i movimenti di chiusura.
+2. Nella pagina **Registrazione COGE**, nel campo **Nome batch**, selezionare il batch contenente i movimenti di chiusura.
 3. Analizzare i movimenti.
-4. Per contabilizzare le registrazioni, scegliere l'azione **Registra** .
+4. Per contabilizzare le registrazioni, scegliere l'azione **Registra**.
 
 > [!NOTE]  
 >   Se viene rilevato un errore, viene visualizzato un messaggio di errore. Se la registrazione avviene correttamente, i movimenti registrati vengono rimossi dalle registrazioni. Dopo il completamento della registrazione, in ogni conto economico viene registrato un movimento in modo che il relativo saldo sia uguale a zero, e il risultato dell'anno viene trasferito al conto patrimoniale.
@@ -35,4 +35,4 @@ Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare 
 [Chiudere periodi contabili](year-close-account-periods.md)  
 [Chiusura registri](year-close-books.md)  
 [Chiudi conto economico](year-close-income-statement.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

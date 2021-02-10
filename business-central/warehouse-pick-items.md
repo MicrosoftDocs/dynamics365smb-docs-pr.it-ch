@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef457ddf93e2634345c809b241e15acc94d0593e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9e4bf86ec68ad06a22c0a9dcca37eecffb0316b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911739"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755810"
 ---
 # <a name="pick-items"></a>Prelievo degli articoli
 
@@ -24,7 +24,7 @@ L'attività di warehouse di prelievo degli articoli prima della spedizione o del
 Se si decide di organizzare e di registrare l'attività di prelievo associata a documenti di warehouse, inserire un segno di spunta nel campo **Richiesto prelievo** nella scheda Ubicazione. Ciò indica che, nel caso di articoli che devono essere prelevati per un documento di origine in uscita, il prelievo dovrà essere controllato dal sistema. Un documento di origine in uscita può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita, un ordine di assistenza o un ordine di produzione di cui è richiesto il prelievo dei componenti.
 
 > [!NOTE]
-> Anche se l'impostazione è chiamata **Richiesto prelievo** , è possibile registrare carichi e spedizioni direttamente dal documento aziendale di origine nell'ubicazione in cui si seleziona questa casella di controllo.
+> Anche se l'impostazione è chiamata **Richiesto prelievo**, è possibile registrare carichi e spedizioni direttamente dal documento aziendale di origine nell'ubicazione in cui si seleziona questa casella di controllo.
 
 Se l'ubicazione è impostata per la richiesta dell'elaborazione del prelievo, ma non della spedizione, è necessario utilizzare la pagina **Prelievo magazzino** per organizzare le informazioni relative al prelievo, stamparle, immettere i risultati del prelievo e registrare tali informazioni, operazioni che comportano anche la spedizione degli articoli. Nel caso del prelievo di componenti per un ordine di produzione, la registrazione del prelievo comprende anche il consumo.
 
@@ -51,4 +51,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

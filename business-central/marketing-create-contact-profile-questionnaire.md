@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919356"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755460"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utilizzare i questionari profilo per classificare i contatti business
 È possibile impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti. In ogni questionario, è possibile impostare le diverse domande da porre ai contatti.  
@@ -24,13 +24,13 @@ ms.locfileid: "3919356"
 
 ## <a name="to-add-a-profile-questionnaire"></a>Per aggiungere un questionario profilo
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup questionario** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo** .  
+2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Per aggiungere domande a un questionario profilo
-1.  Scegliere il questionario profilo pertinente e quindi scegliere l'azione **Modifica setup questionario** .  
-2.  Sulla prima riga vuota, nel campo **Tipo** , scegliere **Domanda** e digitare la domanda desiderata nel campo **Descrizione** . Compilare gli altri campi della riga.  
-3.  Sulla prima riga vuota successiva nel campo **Tipo** , scegliere **Risposta** e digitare la risposta desiderata nel campo **Descrizione** .  
+1.  Scegliere il questionario profilo pertinente e quindi scegliere l'azione **Modifica setup questionario**.  
+2.  Sulla prima riga vuota, nel campo **Tipo**, scegliere **Domanda** e digitare la domanda desiderata nel campo **Descrizione**. Compilare gli altri campi della riga.  
+3.  Sulla prima riga vuota successiva nel campo **Tipo**, scegliere **Risposta** e digitare la risposta desiderata nel campo **Descrizione**.  
 4.  Nel campo **Priorità** selezionare la priorità. Nei campi **Da valore** e **A valore** definire un intervallo di punti. I contatti che ricevono punti entro l'intervallo stabilito otterranno la risposta.  
 
 Ripetere tali passaggi per immettere tutte le domande e le risposte nel questionario profilo.
@@ -41,12 +41,12 @@ Dopo avere creato un questionario, è necessario creare le valutazioni dei conta
 > Se si immette una domanda con risposta automatica, selezionare <STRONG>Riga</STRONG> e quindi <STRONG>Dettagli domanda</STRONG> per immettere i criteri da utilizzare per fornire la risposta automatica.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Classificazione automatica dei contatti
-È possibile classificare automaticamente i contatti in base alle informazioni relative a cliente, fornitore e contatto, mediante una serie di domande sul profilo con risposta automatica nella pagina **Setup questionario profilo** .  
+È possibile classificare automaticamente i contatti in base alle informazioni relative a cliente, fornitore e contatto, mediante una serie di domande sul profilo con risposta automatica nella pagina **Setup questionario profilo**.  
 
 > [!NOTE]
 > È possibile assegnare una classificazione basata sui dati dei clienti solo ai contatti registrati come clienti e una classificazione basata sui dati dei fornitori solo ai contatti registrati come fornitori. La classificazione automatica non viene aggiornata automaticamente. Si consiglia pertanto di aggiornare i questionari profilo una volta effettuato l'aggiornamento dei dati relativi a clienti, fornitori o contatti su cui tali questionari si basano.  
 
-Dopo avere impostato le domande relative al profilo, se si assegna il questionario profilo a un contatto, le risposte corrette relative a tale contatto vengono assegnate automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dopo avere impostato le domande relative al profilo, se si assegna il questionario profilo a un contatto, le risposte corrette relative a tale contatto vengono assegnate automaticamente da [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="example"></a>Esempio
 È possibile classificare i contatti in base al volume di acquisti da essi effettuati:
@@ -103,28 +103,28 @@ Per effettuare questa operazione, completare la pagina **Setup questionario prof
 <td><p>Domanda</p></td>
 <td><p>Classificazione di ABC</p></td>
 <td><p>Fare clic per inserire un segno di spunta</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Risposta</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500.000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Risposta</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Risposta</p></td>
 <td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>

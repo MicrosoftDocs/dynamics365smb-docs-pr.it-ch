@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb31975e076a923d1e1f371fa27ccbf4f1c01661
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0829b941abdff610ea2597dac1451ebc28ab2086
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918231"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756010"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
 L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile. Per sfruttare al meglio tale funzionalità occorre fornire informazioni aggiuntive sugli articoli, le quali verranno utilizzate per effettuare i calcoli necessari e suggerire le modalità più efficaci ed efficienti per eseguire le attività di warehouse. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).
@@ -24,9 +24,9 @@ L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda per l'articolo da impostare per stoccaggio e prelievo guidati.
 3. Nella Scheda dettaglio **Warehouse** della scheda articolo, compilare i campi appropriati per definire le modalità di gestione dell'articolo nella warehouse.  
-4.  Scegliere l'azione **Unità di misura** .
+4.  Scegliere l'azione **Unità di misura**.
 5. Nella pagina **Unità di misura articoli** compilare i campi per definire le diverse unità di misura utilizzabili nelle transazioni riguardanti l'articolo, incluse altezza, larghezza, lunghezza, cubatura e peso per l'unità di misura.
-6. Scegliere l'azione **Contenuto collocazioni** .
+6. Scegliere l'azione **Contenuto collocazioni**.
 7. Nella pagina **Contenuto collocazioni** definire l'ubicazione e la collocazione a cui deve essere associato l'articolo. Il campo **Default** non è disponibile quando l'ubicazione viene impostata per gli stoccaggi e i prelievi guidati.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Per attivare la funzionalità di stoccaggi e prelievi guidati  
@@ -34,8 +34,8 @@ Gli stoccaggi e i prelievi guidati fanno parte delle funzioni di configurazione 
 
 Per utilizzare la funzionalità di stoccaggi e prelievi guidati, è necessario attivarla nella scheda ubicazione.    
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'ubicazione in cui si desidera utilizzare stoccaggi e prelievi guidati, quindi scegliere l'azione **Modifica** .  
-3.  Selezionare la casella di controllo **Stoccaggi e prelievi guidati** nella Scheda dettaglio **Warehouse** .  
+2.  Selezionare l'ubicazione in cui si desidera utilizzare stoccaggi e prelievi guidati, quindi scegliere l'azione **Modifica**.  
+3.  Selezionare la casella di controllo **Stoccaggi e prelievi guidati** nella Scheda dettaglio **Warehouse**.  
 
 È possibile compilare gli altri campi della scheda ubicazione nelle fasi successive del processo di setup.  
 
@@ -50,7 +50,7 @@ A questo punto, se si desidera utilizzare le zone nella warehouse, è possibile 
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Per impostare una zona nella warehouse  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'ubicazione in cui si desidera impostare la zona e aprire la scheda ubicazione, quindi scegliere l'azione **Zone** .  
+2.  Selezionare l'ubicazione in cui si desidera impostare la zona e aprire la scheda ubicazione, quindi scegliere l'azione **Zone**.  
 3.  Compilare i campi nella pagina **Zone** come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Quando si modifica un parametro di zona, tutte le collocazioni create successivamente in tale zona erediteranno le nuove caratteristiche, mentre le collocazioni originali resteranno invariate.  
@@ -68,4 +68,4 @@ Inoltre, è necessario creare modelli di stoccaggio e periodi di conteggio. Per 
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

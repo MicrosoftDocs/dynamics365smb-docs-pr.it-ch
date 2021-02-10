@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e75dc8824965d3bfdf3c12ba5b0787e9fb066532
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ff52767bbd0a5661cad2dd80abb20885f3fca6d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919656"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754960"
 ---
 # <a name="manage-many-incoming-document-records"></a>Gestire più record di documenti in entrata
 Quando si creano o elaborate i record del documento in entrata, il numero delle righe della pagina **Documenti in entrata** possono aumentare fino a perdere la visibilità di una panoramica. Di conseguenza, è possibile impostare i record del documento in entrata su Elaborato per rimuoverli dalla visualizzazione predefinita. Scegliendo l'azione **Mostra tutto** è possibile visualizzare sia i record elaborati che non elaborati.
@@ -32,28 +32,28 @@ La casella di controllo **Elaborato** viene selezionata automaticamente sui reco
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Per rimuovere i record del documento in entrata dalla visualizzazione predefinita
 1. Nella pagina **Documenti in entrata** selezionare una o più righe dei record del documento in entrata che si desidera rimuovere dalla visualizzazione predefinita.
-2. Scegliere l'azione **Imposta su elaborato** .
+2. Scegliere l'azione **Imposta su elaborato**.
 
     I record in entrata del documento vengono eliminate dalla visualizzazione predefinita e viene selezionata la casella di controllo **Elaborato** nelle righe.
 
 > [!NOTE]  
->   È inoltre possibile eseguire questa azione per il singolo record nella pagina **Scheda Documento in entrata** .
+>   È inoltre possibile eseguire questa azione per il singolo record nella pagina **Scheda Documento in entrata**.
 
 ## <a name="to-view-all-incoming-document-records"></a>Per visualizzare tutti i record dei documenti in entrata
-1. In alternativa, nella pagina **Setup documenti in entrata** scegliere l'azione **Mostra tutto** .
+1. In alternativa, nella pagina **Setup documenti in entrata** scegliere l'azione **Mostra tutto**.
 
-Tutti i record del documento in entrata vengono visualizzati, inclusi quelli in cui non è selezionata la casella di controllo **Elaborato** .
+Tutti i record del documento in entrata vengono visualizzati, inclusi quelli in cui non è selezionata la casella di controllo **Elaborato**.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Per aggiungere i record del documento in entrata alla visualizzazione predefinita
-1. In alternativa, nella pagina **Setup documenti in entrata** scegliere l'azione **Mostra tutto** .
+1. In alternativa, nella pagina **Setup documenti in entrata** scegliere l'azione **Mostra tutto**.
 2. Selezionare una o più righe per i record del documento in entrata che si desidera mostrare nella visualizzazione predefinita.
-3. Scegliere l'azione **Imposta su non elaborato** .  
+3. Scegliere l'azione **Imposta su non elaborato**.  
 
 > [!NOTE]  
->   È inoltre possibile eseguire questa azione per il singolo record nella pagina **Scheda Documento in entrata** .
+>   È inoltre possibile eseguire questa azione per il singolo record nella pagina **Scheda Documento in entrata**.
 
 ## <a name="see-also"></a>Vedi anche
 [Elaborare i documenti in entrata](across-process-income-documents.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
