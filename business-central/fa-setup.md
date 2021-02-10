@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926990"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751173"
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
@@ -27,9 +27,9 @@ Per poter utilizzare i cespiti, è necessario definire alcune opzioni:
 Nella tabella sottostante sono presenti collegamenti a ulteriori informazioni. Dopo aver impostato tali opzioni, è possibile avviare diverse attività. Per ulteriori informazioni, vedere [Cespiti](fa-manage.md).  
 
 > [!NOTE]  
->   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti** , a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L** .  
+>   È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L**.  
 
-Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della pagina **Scheda registro beni ammortizz.** , la pagina **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
+Quando si abilita un'attività del cespite nella sezione **Integrazione C/G** della pagina **Scheda registro beni ammortizz.**, la pagina **Registrazioni cespiti in C/G** viene utilizzata per registrare le transazioni dell'attività in questione.
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
@@ -45,4 +45,4 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

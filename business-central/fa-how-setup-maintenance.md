@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79f893007ab2c81140744a042fed24d1b932a4da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60080b0a8982420ff2f3a6654d496395733bc425
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917243"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749236"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Per impostare la manutenzione cespiti
 Per gestire la manutenzione dei cespiti, è prima necessario impostare alcune informazioni generali di manutenzione, un conto analitico per i costi di manutenzione e i codici di manutenzione per i tipi di lavoro, ad esempio assistenza di routine o riparazione.
@@ -26,17 +26,17 @@ Per gestire la manutenzione dei cespiti, è prima necessario impostare alcune in
 Se vengono impostati campi per la manutenzione è possibile registrare le spese di manutenzione dalla registrazione cespiti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.
-2. Selezionare il cespite per cui si desidera definire la copertura assicurativa, quindi scegliere l'azione **Modifica** .
-3. Compilare i campi appropriati nella Scheda dettaglio **Manutenzione** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Selezionare il cespite per cui si desidera definire la copertura assicurativa, quindi scegliere l'azione **Modifica**.
+3. Compilare i campi appropriati nella Scheda dettaglio **Manutenzione**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Per impostare i codici di manutenzione
 Quando si registrano dei costi di manutenzione dalle registrazioni COGE, si compila il campo **Cod. manutenzione** per registrare il tipo di manutenzione eseguita, ad esempio assistenza di routine o riparazione.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Manutenzione** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Manutenzione** , impostare i codici per i diversi tipi di lavoro di manutenzione.
+2. Nella pagina **Manutenzione**, impostare i codici per i diversi tipi di lavoro di manutenzione.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Per impostare i conti spesa manutenzione
-Per registrare i costi di manutenzione occorre prima immettere un numero di conto nella pagina **Cat. Reg. Cespite** .
+Per registrare i costi di manutenzione occorre prima immettere un numero di conto nella pagina **Cat. Reg. Cespite**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione cespiti** e quindi scegliere il collegamento correlato.
 2. Compilare il campo **Conto Spesa Manutenzione** per ogni categoria di registrazione.
@@ -49,4 +49,4 @@ Per registrare i costi di manutenzione occorre prima immettere un numero di cont
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

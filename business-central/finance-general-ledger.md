@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f370bf9bb7e6aa4571a88d4b868ff86376ecb605
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dbeb9f9cbe0eff61b28dc4d371a1f8d9031ea1b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917169"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747059"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
 
-La contabilità generale memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti C/G. [!INCLUDE[d365fin](includes/d365fin_md.md)] include un piano dei conti standard pronto per supportare l'azienda.
+La contabilità generale memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti C/G. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Setup contabilità generale e setup registrazioni COGE
 
@@ -54,7 +54,7 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 
 La pagina **Categorie conto C/G** visualizza le categorie e le sottocategorie principali esistenti e i conti C/G assegnati ad esse. È possibile creare nuove sottocategorie e assegnarle categorie ai conti esistenti.  
 
-È possibile creare un gruppo di categoria definendo un'indentazione di altre categorie in una riga nella pagina **Categorie conto C/G** . Ciò consente di ottenere una panoramica, in quanto ogni raggruppamento mostra un saldo totale. Ad esempio, è possibile creare sottocategorie per i diversi tipi di cespiti e quindi creare gruppi di categorie per cespiti rispetto a cespiti correnti.  
+È possibile creare un gruppo di categoria definendo un'indentazione di altre categorie in una riga nella pagina **Categorie conto C/G**. Ciò consente di ottenere una panoramica, in quanto ogni raggruppamento mostra un saldo totale. Ad esempio, è possibile creare sottocategorie per i diversi tipi di cespiti e quindi creare gruppi di categorie per cespiti rispetto a cespiti correnti.  
 
 È possibile specificare se i conti di questa sottocategoria devono essere inclusi in determinati tipi di report. Le categorie di conto consentono di definire il layout dei rendiconti finanziari.  
 
@@ -62,7 +62,7 @@ Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai 
 
 1. Aggiungere due nuove sottocategorie. Una per la piccola cassa e una per il conto assegni.  
 2. Specificare la definizione report addizionale **Conti cassa** per queste sottocategorie.  
-3. Applicare un rientro sotto la sottocategoria **Contanti** .  
+3. Applicare un rientro sotto la sottocategoria **Contanti**.  
 
 Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
 

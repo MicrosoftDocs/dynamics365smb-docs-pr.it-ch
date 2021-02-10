@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21eff2a2c52dfabb3788bb06d1d2f684c34441ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916111"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750023"
 ---
 # <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
 È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto o prodotto, trasferito, venduto, consumato o reso. È inoltre possibile trovare tutte le istanze correnti di un numero seriale o di un numero di lotto specifico nel database. A tale scopo si utilizzano le funzionalità Tracciabilità articolo e [Trova movimenti](ui-find-entries.md).  
@@ -55,13 +55,13 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 > [!NOTE]  
 >  Se lo storico delle transazioni aggiuntive sotto una riga di analisi articolo è già stato analizzato da un'altra riga superiore, la casella di controllo **Elemento già analizzato** risulta selezionata. Per fornire una visualizzazione più semplice, tali righe sottostanti non sono mostrate.  
 >   
->  Per individuare le righe di tracciabilità dell'articolo in cui lo storico delle transazioni è già stato analizzato, fare clic sul pulsante **Vai a Elemento già analizzato** . La riga di tracciabilità articolo in questione viene selezionata e tutte le righe sottostanti vengono espanse.  
+>  Per individuare le righe di tracciabilità dell'articolo in cui lo storico delle transazioni è già stato analizzato, fare clic sul pulsante **Vai a Elemento già analizzato**. La riga di tracciabilità articolo in questione viene selezionata e tutte le righe sottostanti vengono espanse.  
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Per trovare gli articoli tracciati con la funzionalità Trova movimenti  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Trova movimenti** e quindi selezionare il collegamento correlato.  
-2. Scegliere **Azioni** > **Trova per** > **Trova per riferimento articolo** .
-3. Nei campi **Nr. lotto** e **Nr. seriale** , immettere i numeri di tracciabilità articolo che si desidera analizzare.  
+2. Scegliere **Azioni** > **Trova per** > **Trova per riferimento articolo**.
+3. Nei campi **Nr. lotto** e **Nr. seriale**, immettere i numeri di tracciabilità articolo che si desidera analizzare.  
 4. Scegliere l'azione **Trova** per trovare tutte le istanze del numero seriale o di lotto nel database.  
 
 ## <a name="see-also"></a>Vedi anche  
@@ -69,6 +69,6 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Prenotare articoli](inventory-how-to-reserve-items.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Procedura dettagliata: Tracciabilità dei numeri seriali/di lotto](walkthrough-tracing-serial-lot-numbers.md)  
 [Trova movimenti](ui-find-entries.md)  

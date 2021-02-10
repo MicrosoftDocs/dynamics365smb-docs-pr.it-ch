@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: bac023393d95623a2731ef1b2ada7d30b135063b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: fb442c7b1e9e7bdcb727ca6de157657e370e254f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968378"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746859"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Saldare immediatamente le fatture di acquisto
 
@@ -24,8 +24,8 @@ Se si deve pagare il fornitore in contanti o con assegno, è possibile registrar
 ## <a name="to-settle-purchase-invoices-promptly"></a>Per saldare immediatamente le fatture di acquisto
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** .  
-3. Per pagare in contanti o tramite bonifico, immettere il numero del conto cassa di contabilità generale o il conto corrente bancario nel campo **Nr. contropartita** .  
+2. Scegliere l'azione **Nuovo**.  
+3. Per pagare in contanti o tramite bonifico, immettere il numero del conto cassa di contabilità generale o il conto corrente bancario nel campo **Nr. contropartita**.  
 
 > [!IMPORTANT]  
 > I campi **Tipo Contropartita** e **Contropartita** non sono inclusi nel layout standard della testata della fattura. Per registrare il pagamento di una fattura è necessario contattare un partner Microsoft che può aggiungere i campi tramite codice.  
@@ -36,4 +36,4 @@ Se si deve pagare il fornitore in contanti o con assegno, è possibile registrar
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

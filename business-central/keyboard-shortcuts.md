@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922887"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746134"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
-In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)].
+In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per una panoramica dei tasti di scelta rapida più utilizzati, vedere [Tasti di scelta rapida (solo PC)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ I tasti di scelta rapida agevolano l'accessibilità e rendono più semplice ed e
 Molti dei tasti di scelta rapida sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS). Tuttavia, alcuni sono differenti per macOS. Questi tasti di scelta rapida sono indicati tra parentesi nelle sezioni seguenti.
 
 > [!NOTE]
-> Oltre ai tasti di scelta rapida globali descritti in questo argomento, sono disponibili numerosi tasti di scelta rapida specifici dell'azienda. Ad esempio, nella versione generica di [!INCLUDE[prodshort](includes/prodshort.md)], F9 registra un documento e CTRL+F7 mostra i movimenti finanziari per un record (questi possono risultare diversi nella propria soluzione). Il tasto di scelta rapida è visualizzato nella descrizione comando per l'azione in questione.
+> Oltre ai tasti di scelta rapida globali descritti in questo argomento, sono disponibili numerosi tasti di scelta rapida specifici dell'azienda. Ad esempio, nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], F9 registra un documento e CTRL+F7 mostra i movimenti contabili per un record quando si apre il record in una scheda. (questi possono risultare diversi nella propria soluzione). Il tasto di scelta rapida è visualizzato nella descrizione comando per l'azione in questione.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Tasti di scelta rapida generali
 
@@ -51,10 +51,10 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |Alt+F2|Visualizzare e nascondere il riquadro Dettaglio informazioni|
 |ALT+MAIUSC+F2|Spostarsi tra **Dettagli** e **Allegati** nel riquadro Dettaglio informazioni.|
 |ALT+O|Aggiungere una nuova nota per il record selezionato, anche se il riquadro Dettaglio informazioni non è aperto.|
-|ALT+Q<br />(CTRL+Opzione+Q)|Aprire la finestra della **funzionalità delle informazioni** . Per ulteriori informazioni, vedere [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md).|
-|ALT+N |Aprire una pagina per creare un nuovo record (equivale a scegliere le azioni **Nuovo** e **+** ).|
+|ALT+Q<br />(CTRL+Opzione+Q)|Aprire la finestra della **funzionalità delle informazioni**. Per ulteriori informazioni, vedere [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md).|
+|ALT+N |Aprire una pagina per creare un nuovo record (equivale a scegliere le azioni **Nuovo** e **+**).|
 |ALT+MAIUSC+N |Chiudere una pagina appena creata e aprirne una nuova per creare un nuovo record. In modo analogo, ALT+F9 registra un documento e ne crea uno nuovo.|
-|ALT+T|Aprire la pagina **Impostazioni personali** .|
+|ALT+T|Aprire la pagina **Impostazioni personali**.|
 |ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit](media/assist-edit-icon.png "Pulsante AssistEdit"). Viene utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
 |Shift+F12|Aprire Esplora ruoli, una panoramica delle funzionalità. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).|
 |CTRL+ALT+MAIUSC+C|Visualizzare informazioni nel badge società.|
@@ -63,13 +63,13 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |Ctrl+F1|Aprire la guida di Business Central per la pagina.|
 |Ctrl+F12|Passare dalla visualizzazione a layout ampio a quella a layout stretto e viceversa.|
 |CTRL+clic|Navigare durante la personalizzazione quando l'azione è evidenziata con una freccia. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).|  
-|Ctrl+F5|Ricaricare l'applicazione [!INCLUDE[prodshort](includes/prodshort.md)] (equivale ad aggiornare/ricaricare nel browser).|
+|Ctrl+F5|Ricaricare l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] (equivale ad aggiornare/ricaricare nel browser).|
 |F5|Aggiornare i dati nella pagina corrente.<br /><br />Utilizzare questo tasto per garantire che i dati nella pagina siano aggiornati con le modifiche apportate da altri utenti mentre si sta lavorando.|
 |Immettere|Abilitare l'elemento o il comando con lo stato attivo o accedervi.|
 |ESC|Chiudere la pagina corrente o l'elenco a discesa.|
 |TAB|Spostare lo stato attivo sul controllo o sull'elemento successivo in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
 |MAIUSC+TAB|Spostare lo stato attivo sul controllo o sull'elemento precedente in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
-|S e N|Attivare i pulsanti **Sì** e **No** nelle finestre di dialogo. I tasti effettivi variano in base alla lingua corrente specificata in **Impostazioni personali** . Ad esempio, premere J per attivare il pulsante **Ja** quando si utilizza la lingua tedesca.|
+|S e N|Attivare i pulsanti **Sì** e **No** nelle finestre di dialogo. I tasti effettivi variano in base alla lingua corrente specificata in **Impostazioni personali**. Ad esempio, premere J per attivare il pulsante **Ja** quando si utilizza la lingua tedesca.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tasti di scelta rapida negli elenchi
 
@@ -83,12 +83,12 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco|Per effettuare questa operazione in una visualizzazione riquadri |
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Ordinare la colonna selezionata in ordine crescente o decrescente.|Non applicabile.|
-|ALT+N|Inserire una nuova riga in un elenco modificabile, ad esempio la pagina **Budget C/G** .|Stessa operazione.|
+|ALT+N|Inserire una nuova riga in un elenco modificabile, ad esempio la pagina **Budget C/G**.|Stessa operazione.|
 |Shift+F10 |Aprire un menu di opzioni disponibili per la riga selezionata.|Stessa operazione.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Spostarsi tra righe e colonne
 
-Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE[prodshort](includes/prodshort.md)], ad esempio pagine di elenco e parti **Righe** sui documenti. Lo spostamento da una cella all'altra attraverso una griglia è completamente abilitato per la tastiera.
+Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio pagine di elenco e parti **Righe** sui documenti. Lo spostamento da una cella all'altra attraverso una griglia è completamente abilitato per la tastiera.
 
 |Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione riquadri |
 |--------------------------------|--------------------------|--------------------------|
@@ -130,23 +130,23 @@ Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
 |F3|Attiva/disattiva la casella di ricerca.<ul><li>Attivare la casella di ricerca, di modo che sia possibile iniziare a digitare il testo di ricerca.</li><li>Se la casella di ricerca è già attivata, F3 torna all'elenco senza cancellare il testo di ricerca.</li><ul>|
-|Shift+F3|Aprire e chiudere il riquadro dei filtri.<ul><li> Se il riquadro filtri non è aperto, MAIUSC+F3 lo apre e viene evidenziata l'azione **+ Filtro** sotto **Filtra elenco per** . È possibile quindi premere Invio per iniziare ad aggiungere un filtro di campo.</li><li>Se il riquadro filtri è già aperto, MAIUSC+F3 lo chiude ma non cancella i filtri aggiunti.</li></ul>|
-|Ctrl+Shift+F3|Aprire e chiudere il riquadro dei filtri.<ul><li> Se il riquadro filtri non è aperto, CTRL+MAIUSC+F3 lo apre e viene evidenziata l'azione **+ Filtro** sotto **Filtra totale per** . È possibile quindi premere Invio per iniziare ad aggiungere un filtro dei totali.</li><li>Se il riquadro filtri è già aperto, CTRL+MAIUSC+F3 lo chiude ma non cancella i filtri aggiunti.</li></ul>  |
+|Shift+F3|Aprire e chiudere il riquadro dei filtri.<ul><li> Se il riquadro filtri non è aperto, MAIUSC+F3 lo apre e viene evidenziata l'azione **+ Filtro** sotto **Filtra elenco per**. È possibile quindi premere Invio per iniziare ad aggiungere un filtro di campo.</li><li>Se il riquadro filtri è già aperto, MAIUSC+F3 lo chiude ma non cancella i filtri aggiunti.</li></ul>|
+|Ctrl+Shift+F3|Aprire e chiudere il riquadro dei filtri.<ul><li> Se il riquadro filtri non è aperto, CTRL+MAIUSC+F3 lo apre e viene evidenziata l'azione **+ Filtro** sotto **Filtra totale per**. È possibile quindi premere Invio per iniziare ad aggiungere un filtro dei totali.</li><li>Se il riquadro filtri è già aperto, CTRL+MAIUSC+F3 lo chiude ma non cancella i filtri aggiunti.</li></ul>  |
 |Alt+F3|Attivare/disattivare i filtri per il valore selezionato.<ul><li>Applica un filtro di colonna sul valore del campo selezionato nell'elenco. Questo equivale a scegliere **Filtra in base a questo valore** da un'intestazione di colonna. Apre il riquadro dei filtri, imposta il filtro sul valore selezionato, mentre lo stato attivo rimane sulla cella dell'elenco.</li><li>Se la colonna è già filtrata, ALT+F3 cancella il filtro su quella colonna.</li></ul> |
 |MAIUSC+ALT+F3|Aprire il riquadro dei filtri e aggiungere un filtro alla colonna selezionata nell'elenco. Lo stato attivo si trova sul nuovo campo filtro che consente di iniziare subito a digitare i criteri del filtro.<br /><br /> Questo equivale a selezionare **Filtro** dall'intestazione della colonna.<br /><br />Se esiste già un filtro sul campo, viene aggiunto un nuovo filtro. |
-|Ctrl+Maiusc+ALT+F3|Reimpostare i filtri. Ciò equivale a scegliere **Reimposta filtri** nel riquadro dei filtri e si applica ai filtri di campi e totali.<br /><br /> I filtri tornano ai filtri predefiniti per la vista corrente. Se la visualizzazione corrente è **Tutto** , equivale a tornare a una visualizzazione non filtrata con tutti i record. |
+|Ctrl+Maiusc+ALT+F3|Reimpostare i filtri. Ciò equivale a scegliere **Reimposta filtri** nel riquadro dei filtri e si applica ai filtri di campi e totali.<br /><br /> I filtri tornano ai filtri predefiniti per la vista corrente. Se la visualizzazione corrente è **Tutto**, equivale a tornare a una visualizzazione non filtrata con tutti i record. |
 |Ctrl+Enter|Spostare di nuovo lo stato attivo dal riquadro filtri all'elenco.|
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Tasti di scelta rapida in schede e documenti
 
-I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cliente** ) e nelle pagine documento (come **Ordine vendita** ) per visualizzare e modificare i record.
+I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cliente**) e nelle pagine documento (come **Ordine vendita**) per visualizzare e modificare i record.
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
 |Alt+F6|Attivare/disattivare la compressione/espansione per la Scheda dettaglio o parte (pagina secondaria) corrente.|
 |Alt + G|Aprire la pagina **Trova movimenti** per la ricerca di movimenti relativi al documento registrato. Funziona anche sugli elenchi.|
-|ALT+N |Aprire una pagina per creare un nuovo record; equivale a selezionare l'azione **Nuovo** . |
-|ALT+MAIUSC+N |Chiudere una pagina e aprirne una nuova per creare un nuovo record; equivale a selezionare l'azione **OK e nuovo** . |
+|ALT+N |Aprire una pagina per creare un nuovo record; equivale a selezionare l'azione **Nuovo**. |
+|ALT+MAIUSC+N |Chiudere una pagina e aprirne una nuova per creare un nuovo record; equivale a selezionare l'azione **OK e nuovo**. |
 |ALT+MAIUSC+W |Aprire la scheda o il documento corrente in una nuova finestra. Per ulteriori informazioni, vedere [Multitasking in più pagine ](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+Enter|Salvare e chiudere la pagina.|
 |CTRL+Freccia GIÙ|Aprire il record successivo per un'entità.|
@@ -173,7 +173,7 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
-|CTRL+HOME|Aprire il calendario se chiuso. **Nota** : non funziona se il campo della data si trova in una griglia, in cui CTRL+HOME passa alla prima riga.|
+|CTRL+HOME|Aprire il calendario se chiuso. **Nota**: non funziona se il campo della data si trova in una griglia, in cui CTRL+HOME passa alla prima riga.|
 |CTRL+HOME<br />(Cmd+HOME)|Spostare il cursore al mese corrente, al giorno corrente.|
 |CTRL+Freccia SINISTRA<br />(Cmd+Freccia SINISTRA)|Sposta il cursore al giorno precedente.|
 |CTRL+Freccia DESTRA<br />(Cmd++Freccia DESTRA)|Spostare il cursore al giorno successivo.|
@@ -206,11 +206,19 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |Pagina giù<br />(Fn+freccia GIÙ)|Passare alla pagina successiva del report.|
 |Pagina su<br />(Fn+freccia SU)|Passare alla pagina precedente del report.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Tasti di scelta rapida per ingrandire e ridurre
+
+|Premere questi tasti|Operazione da eseguire|
+|--------------------------------|----------|
+|CTRL++|Ingrandire la pagina corrente.|  
+|CTRL+-|Ridurre la pagina corrente.|  
+|CTRL+0|Ingrandire o ridurre del 100% la pagina corrente.|  
+
 ## <a name="see-also"></a>Vedere anche
 
 [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Funzionalità di accessibilità](ui-accessibility.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.md)  
 [Trova movimenti](ui-find-entries.md)  

@@ -1,6 +1,6 @@
 ---
 title: Come assemblare articoli | Microsoft Docs
-description: Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio** , il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.
+description: Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fee9631f984c8d9a54c42c63359af2386ea17c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f2e2202b3477b19b26c50627f4ee72a6bb11306b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924521"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747409"
 ---
 # <a name="assemble-items"></a>Assemblare articoli
-Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio** , il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.  
+Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.  
 
 I componenti e le risorse che rientrano in questo tipo di articolo di assemblaggio devono essere definiti in una DB di assemblaggio. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).  
 
@@ -27,9 +27,9 @@ Gli articoli di assemblaggio possono essere impostati per due diversi processi d
 -   Assemblaggio per magazzino.  
 -   Assemblaggio su ordine.  
 
-In genere si utilizza l' **assemblaggio per magazzino** per gli articoli che si desidera assemblare prima delle vendite, ad esempio preparare una campagna di kit e tenerli in stock fino a quando vengono ordinati. Tali articoli sono in genere articoli standard, ad esempio in kit in pacchetti di cui non viene offerta la personalizzazione in base richieste del cliente.  
+In genere si utilizza l'**assemblaggio per magazzino** per gli articoli che si desidera assemblare prima delle vendite, ad esempio preparare una campagna di kit e tenerli in stock fino a quando vengono ordinati. Tali articoli sono in genere articoli standard, ad esempio in kit in pacchetti di cui non viene offerta la personalizzazione in base richieste del cliente.  
 
-In genere si utilizza l' **assemblaggio su ordine** per gli articoli che non si desidera immagazzinare perché si prevede di personalizzarli in base alle richieste del cliente o perché si desidera ridurre i costi di trasporto a magazzino, approvvigionandoli secondo il metodo JIT (Just-In-Time). Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
+In genere si utilizza l'**assemblaggio su ordine** per gli articoli che non si desidera immagazzinare perché si prevede di personalizzarli in base alle richieste del cliente o perché si desidera ridurre i costi di trasporto a magazzino, approvvigionandoli secondo il metodo JIT (Just-In-Time). Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Per ulteriori informazioni sull'impostazione di un articolo di assemblaggio, vedere [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
@@ -42,7 +42,7 @@ In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli
 
 ## <a name="to-assemble-an-item"></a>Per assemblare un articolo  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo** . Verrà visualizzata la pagina **Nuovo ordine di assemblaggio** .  
+2.  Scegliere l'azione **Nuovo**. Verrà visualizzata la pagina **Nuovo ordine di assemblaggio**.  
 3.  Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Nel campo **Nr. articolo** selezionare dell'articolo di assemblaggio che si desidera elaborare. Il campo viene filtrato in modo da visualizzare solo gli articoli impostati per l'assemblaggio, ovvero quelli a cui sono assegnate DB di assemblaggio.  
 5.  Nel campo **Quantità** immettere il numero di unità dell'articolo che si desidera assemblare.  
@@ -58,18 +58,18 @@ In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli
 6.  Nel campo **Quantità da assemblare** immettere il numero di unità dell'articolo di assemblaggio che si desidera registrare come output alla successiva registrazione dell'ordine di assemblaggio. Questa quantità può essere inferiore al valore nel campo **Quantità** per riflettere una registrazione di output parziale.  
 
     > [!NOTE]  
-    >  Per garantire che la registrazione del consumo di componenti corrisponda alla registrazione di output dell'articolo di assemblaggio, i campi relativi alla quantità nelle righe dell'ordine di assemblaggio verranno rettificati automaticamente in base al valore immesso nel campo **Quantità da assemblare** .  
-7.  Nelle righe ordine di assemblaggio di tipo **Articolo** o **Risorsa** , nel campo **Quantità da consumare** immettere il numero di unità che si desidera registrare come consumate alla successiva registrazione dell'ordine di assemblaggio.
-8.  Quando si è pronti per registrare parzialmente o completamente, scegliere l'azione **Registra** .  
+    >  Per garantire che la registrazione del consumo di componenti corrisponda alla registrazione di output dell'articolo di assemblaggio, i campi relativi alla quantità nelle righe dell'ordine di assemblaggio verranno rettificati automaticamente in base al valore immesso nel campo **Quantità da assemblare**.  
+7.  Nelle righe ordine di assemblaggio di tipo **Articolo** o **Risorsa**, nel campo **Quantità da consumare** immettere il numero di unità che si desidera registrare come consumate alla successiva registrazione dell'ordine di assemblaggio.
+8.  Quando si è pronti per registrare parzialmente o completamente, scegliere l'azione **Registra**.  
 
     > [!NOTE]  
     >  Se gli avvisi sono ancora presenti in una qualsiasi delle righe ordini di assemblaggio, la registrazione viene bloccata. Viene visualizzato un messaggio sul componente o sui componenti non presenti in magazzino.  
 
-Una volta effettuata la registrazione, l'articolo di assemblaggio viene registrato come output nel codice ubicazione e nel codice collocazione potenziale definiti nell'ordine di assemblaggio. Per gli ordini di assemblaggio creati manualmente, l'ubicazione può essere copiata dal campo di setup **Ubicazione di default per gli ordini** . Per i flussi di assemblaggio su ordine, il codice ubicazione può essere copiato dalla riga ordine di vendita.  
+Una volta effettuata la registrazione, l'articolo di assemblaggio viene registrato come output nel codice ubicazione e nel codice collocazione potenziale definiti nell'ordine di assemblaggio. Per gli ordini di assemblaggio creati manualmente, l'ubicazione può essere copiata dal campo di setup **Ubicazione di default per gli ordini**. Per i flussi di assemblaggio su ordine, il codice ubicazione può essere copiato dalla riga ordine di vendita.  
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

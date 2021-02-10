@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 746aa6c0146205cbc3f3ed1796b084825bbfdbdf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89a2e2390950bbba0f5d0e93db5ed72359fd637f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915728"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747434"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
 Gli articoli di assemblaggio possono essere forniti nei seguenti due processi:  
@@ -24,7 +24,7 @@ Gli articoli di assemblaggio possono essere forniti nei seguenti due processi:
 -   Assemblaggio per magazzino.  
 
 ## <a name="assemble-to-order"></a>Assemblaggio su ordine  
-In genere si utilizza l' *assemblaggio su ordine* per gli articoli che non si desidera immagazzinare perché si prevede di personalizzarli in base alle richieste del cliente o perché si desidera ridurre i costi di trasporto a magazzino. La funzionalità di supporto include:  
+In genere si utilizza l'*assemblaggio su ordine* per gli articoli che non si desidera immagazzinare perché si prevede di personalizzarli in base alle richieste del cliente o perché si desidera ridurre i costi di trasporto a magazzino. La funzionalità di supporto include:  
 
 -   Capacità di personalizzare gli articoli di assemblaggio quando si accetta un ordine di vendita.  
 -   Panoramica della disponibilità dell'articolo di assemblaggio e dei relativi componenti.  
@@ -41,10 +41,10 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 > [!NOTE]  
 >  Benché non rientri nel processo di default, è possibile vendere le quantità di magazzino con le quantità per l'assemblaggio su ordine. Per altre informazioni, vedere [Vendere gli articoli di magazzino nei flussi assemblaggio su ordine](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
- Per abilitare il processo, il campo **Criteri di assemblaggio** nella scheda articolo deve essere impostato su **Assemblaggio su ordine** .  
+ Per abilitare il processo, il campo **Criteri di assemblaggio** nella scheda articolo deve essere impostato su **Assemblaggio su ordine**.  
 
 ## <a name="assemble-to-stock"></a>Assemblaggio per magazzino  
- In genere si utilizza l' *assemblaggio per magazzino* per gli articoli che si desidera assemblare prima delle vendite, ad esempio preparare una campagna di kit e tenerli in stock fino a quando vengono ordinati. Tali articoli sono in genere articoli standard, ad esempio in kit in pacchetti di cui non viene offerta la personalizzazione in base richieste del cliente.  
+ In genere si utilizza l'*assemblaggio per magazzino* per gli articoli che si desidera assemblare prima delle vendite, ad esempio preparare una campagna di kit e tenerli in stock fino a quando vengono ordinati. Tali articoli sono in genere articoli standard, ad esempio in kit in pacchetti di cui non viene offerta la personalizzazione in base richieste del cliente.  
 
  Nel processo di assemblaggio per magazzino, l'articolo è assemblato senza una richiesta di vendita immediata ed è immagazzinato nella warehouse come articolo di magazzino per la vendita o il consumo successivo come subassemblaggio. Per ulteriori informazioni, vedere [Assemblare articoli](assembly-how-to-assemble-items.md). Da questo punto, l'articolo è prelevato ed elaborato come singolo articolo e viene gestito come un articolo di produzione completato.  
 
@@ -53,20 +53,20 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 > [!NOTE]  
 >  Benché non rientri del processo di default, è possibile assemblare un articolo su ordine anche se è impostato per l'assemblaggio per magazzino. Per altre informazioni, vedere [Vendere insieme articoli assemblaggio su ordine e articoli in magazzino](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
- Per abilitare il processo, il campo **Criteri di assemblaggio** nella scheda articolo deve essere impostato su **Assemblaggio per magazzino** .  
+ Per abilitare il processo, il campo **Criteri di assemblaggio** nella scheda articolo deve essere impostato su **Assemblaggio per magazzino**.  
 
 ## <a name="combination-scenarios"></a>Scenari di combinazione  
  Il principio generale della gestione assemblaggio consiste nel fatto che una volta combinate in una riga ordine di vendita, le quantità per l'assemblaggio su ordine devono essere spedite prima delle quantità di magazzino.  
 
  Se un ordine di assemblaggio è collegato a una riga ordine di vendita, il valore del campo **Qtà per assemblaggio su ordine** nella riga ordine di vendita viene copiato nel campo **Quantità da assemblare** tramite il campo **Quantità** nell'intestazione dell'ordine di assemblaggio. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 
- Inoltre, il valore nel campo **Quantità da assemblare** è correlato al campo **Qtà da spedire** nella riga ordine di vendita e tale relazione gestisce la spedizione delle quantità per l'assemblaggio su ordine, sia parzialmente che completamente. Questo vale sia quando la quantità completa della riga vendita è assemblata su ordine e negli scenari di combinazione in cui una parte della quantità della riga vendita è assemblata su ordine e un'altra parte viene spedita dal magazzino. Tuttavia, nello scenario di combinazione si dispone di flessibilità aggiuntiva in caso di spedizione parziale, in quanto è possibile modificare il campo **Quantità da assemblare** , in base a regole predefinite, per specificare quante unità vengono spedite parzialmente dal magazzino e quante unità vengono spedite parzialmente mediante assemblaggio su ordine.  
+ Inoltre, il valore nel campo **Quantità da assemblare** è correlato al campo **Qtà da spedire** nella riga ordine di vendita e tale relazione gestisce la spedizione delle quantità per l'assemblaggio su ordine, sia parzialmente che completamente. Questo vale sia quando la quantità completa della riga vendita è assemblata su ordine e negli scenari di combinazione in cui una parte della quantità della riga vendita è assemblata su ordine e un'altra parte viene spedita dal magazzino. Tuttavia, nello scenario di combinazione si dispone di flessibilità aggiuntiva in caso di spedizione parziale, in quanto è possibile modificare il campo **Quantità da assemblare**, in base a regole predefinite, per specificare quante unità vengono spedite parzialmente dal magazzino e quante unità vengono spedite parzialmente mediante assemblaggio su ordine.  
 
  Se la quantità completa della riga di vendita deve essere assemblata su ordine e spedita, il valore del campo **Qtà da spedire** viene copiato nel campo **Quantità da assemblare** nell'ordine di assemblaggio collegato quando si modifica la quantità da inviare. Ciò garantisce che la quantità spedita sia totalmente fornita dalla quantità per l'assemblaggio su ordine.  
 
  Tuttavia, negli scenari di combinazione, il valore completo del campo **Qtà da spedire** non viene copiato nel campo **Quantità da assemblare** nell'intestazione dell'ordine di assemblaggio. Viene invece inserito un valore di default nel campo **Quantità da assemblare** calcolato in base al campo **Qtà da spedire** secondo una regola predefinita che assicura che vengano spedite prima le quantità per l'assemblaggio su ordine.  
 
- Se si desidera deviare da questa impostazione di default, ad esempio perché si desidera assemblare solo una quantità maggiore o minore di quella specificata nel campo **Qtà da spedire** , è possibile modificare il campo **Quantità da assemblare** , ma esclusivamente in base a regole predefinite, come illustrato di seguito.  
+ Se si desidera deviare da questa impostazione di default, ad esempio perché si desidera assemblare solo una quantità maggiore o minore di quella specificata nel campo **Qtà da spedire**, è possibile modificare il campo **Quantità da assemblare**, ma esclusivamente in base a regole predefinite, come illustrato di seguito.  
 
  Un esempio del motivo per cui è consigliabile modificare la quantità da assemblare è la possibilità di registrare parzialmente la spedizione di quantità di magazzino prima che possa essere spedito l'output di assemblaggio.  
 
@@ -88,4 +88,4 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

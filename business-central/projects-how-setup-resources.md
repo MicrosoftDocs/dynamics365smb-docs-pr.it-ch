@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbcd6f6e0f1a73316c20f14f143a044c68a5c539
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b6c10cc9a31dcf41d843d2bebc19ef81433cb4ee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919056"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748911"
 ---
 # <a name="set-up-resources"></a>Impostare risorse
 Per gestire correttamente le attività delle risorse, è necessario impostare le risorse, nonché i costi e i prezzi correlati. I prezzi, gli sconti e le regole dei fattori di costi correlati a una commessa vengono impostati nella scheda commessa. È possibile specificare i costi e i prezzi per singole risorse, gruppi di risorse oppure per tutte le risorse disponibili della società.
@@ -34,43 +34,43 @@ L'importo orario di default viene specificato durante la creazione della risorsa
 Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Risorse** e quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Nuovo** .
+2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Per impostare un gruppo di risorse
 È possibile unire diverse risorse in uno stesso gruppo di risorse. Le capacità e i budget di un gruppo di risorse sono il risultato della somma delle capacità e dei budget delle singole risorse. È possibile immettere le capacità dei gruppi di risorse indipendentemente dai valori accumulati oppure in aggiunta a questi.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi di risorse** e quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Nuovo** .
+2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Per impostare la capacità per una risorsa
 Per calcolare quanto tempo una risorsa può dedicare alle commesse, la relativa capacità deve essere prima impostata come tempo disponibile per periodo nel calendario di produzione. Questa impostazione è utilizzata quando si compilano le righe di pianificazione commessa che contengono la risorsa. Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Risorse** e quindi scegliere il collegamento correlato.
-2. Aprire la scheda risorsa interessata e scegliere l'azione **Capacità risorsa** .
-3. Nella pagina **Capacità risorsa** nel campo **Visualizza per** specificare la durata del periodo, ad esempio **giorno** , che viene visualizzato nelle colonne della Scheda dettaglio **Matrice capacità risorse** .
+2. Aprire la scheda risorsa interessata e scegliere l'azione **Capacità risorsa**.
+3. Nella pagina **Capacità risorsa** nel campo **Visualizza per** specificare la durata del periodo, ad esempio **giorno**, che viene visualizzato nelle colonne della Scheda dettaglio **Matrice capacità risorse**.
 4. Per ogni risorsa di una riga, specificare per ogni periodo nelle colonne il numero di ore per cui la risorsa è disponibile.
-5. In alternativa, per dettagliare la capacità settimanale della risorsa con una data di inizio e una data di fine, scegliere l'azione **Imposta capacità** .
+5. In alternativa, per dettagliare la capacità settimanale della risorsa con una data di inizio e una data di fine, scegliere l'azione **Imposta capacità**.
 6. Nella pagina **Impostazioni capacità risorse** compilare i campi in una riga in base alle esigenze.
-7. Scegliere l'azione **Aggiorna capacità** . La pagina **Capacità risorsa** viene aggiornata con la capacità immessa.
+7. Scegliere l'azione **Aggiorna capacità**. La pagina **Capacità risorsa** viene aggiornata con la capacità immessa.
 8. Chiudere la pagina.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Per impostare costi di risorsa alternativi
 Oltre al costo specificato nella scheda risorsa, è possibile impostare dei costi alternativi per ogni risorsa. Se ad esempio un lavoratore percepisce una paga oraria maggiore per il lavoro straordinario, si può impostare un costo risorsa per lo straordinario. Il costo alternativo impostato per la risorsa sovrascriverà il costo nella scheda della risorsa, quando si utilizzerà la risorsa nelle registrazioni risorse.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Risorse** e quindi scegliere il collegamento correlato.  
-2. Selezionare la risorsa per la quale si desidera impostare uno o più costi alternativi, quindi scegliere l'azione **Costi** .  
+2. Selezionare la risorsa per la quale si desidera impostare uno o più costi alternativi, quindi scegliere l'azione **Costi**.  
 3. Nella pagina **Costi risorse** compilare i campi in una riga in base alle esigenze.  
 4. Ripetere il passaggio 3 per ogni costo di risorsa alternativo che si desidera impostare.
 
-**Nota** . Per impostare i costi risorse da applicare a tutte le risorse e ai gruppi di risorse, aprire la pagina **Costi risorse** e compilare i campi.
+**Nota**. Per impostare i costi risorse da applicare a tutte le risorse e ai gruppi di risorse, aprire la pagina **Costi risorse** e compilare i campi.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Per impostare prezzi di risorsa alternativi
 Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei prezzi alternativi per ogni risorsa. Questi prezzi alternativi possono essere condizionali. Possono dipendere dal fatto che la risorsa sia utilizzata con un tipo di lavoro o una commessa specifica.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Risorse** e quindi scegliere il collegamento correlato.
-2. Selezionare la risorsa per la quale si desidera impostare uno o più prezzi alternativi, quindi scegliere l'azione **Prezzi** .
+2. Selezionare la risorsa per la quale si desidera impostare uno o più prezzi alternativi, quindi scegliere l'azione **Prezzi**.
 3. Nella pagina **Prezzi risorse** compilare i campi in una riga in base alle esigenze.
 4. Ripetere il passaggio 3 per ogni prezzo di risorsa alternativo che si desidera impostare.
 
@@ -80,4 +80,4 @@ Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei pre
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84b6c80131662675df1117bcb771aaa0ee9553c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 72e2851ee60d6cb79f722d12e16ddcb30e95fdbe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914332"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746959"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrare le transazioni direttamente nella contabilità generale
 
@@ -38,7 +38,7 @@ Diversamente dai movimenti che vengono registrati con i documenti che richiedono
 4. Ripetere il passaggio 3 tutte le transazioni separate da registrare.
 
     > [!TIP]  
-    > Se si immettono più righe di transazione sopra a una riga di contropartita, ad esempio, per un conto corrente bancario, seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il batch nella pagina **Batch registrazioni COGE** . Il campo **Importo** nella riga di contropartita viene precompilato automaticamente con il valore necessario per pareggiare le transazioni.
+    > Se si immettono più righe di transazione sopra a una riga di contropartita, ad esempio, per un conto corrente bancario, seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il batch nella pagina **Batch registrazioni COGE**. Il campo **Importo** nella riga di contropartita viene precompilato automaticamente con il valore necessario per pareggiare le transazioni.
 5. Scegliere l'azione **Registra** per registrare le transazioni nei conti C/G specificati.
 
 ## <a name="see-also"></a>Vedi anche
@@ -47,4 +47,4 @@ Diversamente dai movimenti che vengono registrati con i documenti che richiedono
 [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)  
 [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

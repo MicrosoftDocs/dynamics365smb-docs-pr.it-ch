@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968352"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749973"
 ---
 # <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
 
@@ -28,7 +28,7 @@ Il supporto di più ubicazioni consente alle società di gestire il magazzino in
 ## <a name="to-set-up-a-responsibility-center"></a>Per impostare i centri di responsabilità
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Centri di responsabilità** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** .  
+2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     In caso di utilizzo di centri di responsabilità per gestire una società, può risultare utile impostare un centro di responsabilità di default per tale società.
@@ -47,19 +47,19 @@ Questo codice verrà utilizzato in tutti i documenti di acquisto, vendita o assi
 Per poter procedere a queste impostazioni è necessario assegnare i centri di responsabilità agli utenti in tre aree funzionali: Acquisti, Vendite e Gestione assistenza.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente** e quindi scegliere il collegamento correlato.  
-2. Selezionare l'utente a cui si intende assegnare un centro di responsabilità nella pagina **Setup utente** . Se l'utente non è nella lista è necessario immettere un ID utente nel campo **User ID** .  
+2. Selezionare l'utente a cui si intende assegnare un centro di responsabilità nella pagina **Setup utente**. Se l'utente non è nella lista è necessario immettere un ID utente nel campo **User ID**.  
 3. Nel campo **Filtro Centro Resp. Vendite** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alle vendite.  
 4. Nel campo  **Filtro Centro Resp. Acquisti** immettere il centro di responsabilità per cui l'utente dovrà svolgere dei compiti correlati agli acquisti.  
 5. Nel campo **Filtro Centro Resp. Assistenza** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alla gestione dell'assistenza.  
 
 > [!NOTE]  
-> Gli utenti rimarranno comunque in grado di visualizzare tutti i documenti e i movimenti contabili registrati e non soltanto quelli relativi al proprio centro di responsabilità.
+> Gli utenti possono visualizzare solo i documenti registrati relativi al proprio centro di responsabilità. Tuttavia, possono visualizzare tutti i movimenti contabili e passare ad altri documenti registrati dai movimenti contabili.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)
 [Magazzino](inventory-manage-inventory.md)[Gestione warehouse](warehouse-manage-warehouse.md)  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

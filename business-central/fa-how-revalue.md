@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dee2521faf6d76ffb36a426361b7f326073770cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cde6af59068954f8404b18fbce5e4c388d3c7a2c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917269"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749336"
 ---
 # <a name="revalue-fixed-assets"></a>Rivalutazione dei cespiti
 La rivalutazione dei cespiti può essere costituita da rivalutazioni, svalutazioni o rettifiche dei valori generali.
@@ -30,33 +30,33 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Per registrare una rivalutazione tramite Registrazioni Cespiti in C/G
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze.
-3. Nel campo **Tipo reg. cespite** scegliere **Rivalutazione** .
-4. Scegliere l'azione **Inserisci conto cespiti** . Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della rivalutazione.
+3. Nel campo **Tipo reg. cespite** scegliere **Rivalutazione**.
+4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della rivalutazione.
 
     > [!NOTE]  
     >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto rivalutazioni** contiene il conto di addebito contabilità generale e il campo **Contropartita rivalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
-5. Scegliere l'azione **Registra** .
+5. Scegliere l'azione **Registra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Per registrare una svalutazione tramite Registrazioni Cespiti in C/G
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze.
-3. Nel campo **Tipo reg. cespite** scegliere **Svalutazione** .
-4. Scegliere l'azione **Inserisci conto cespiti** . Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della svalutazione.
+3. Nel campo **Tipo reg. cespite** scegliere **Svalutazione**.
+4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della svalutazione.
 
     > [!NOTE]  
     >   Il passaggio 4 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite, il campo **Conto svalutazioni** contiene il conto di credito contabilità generale e il campo **Conto spese svalutazione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per le svalutazioni. Per ulteriori informazioni, vedere [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. Scegliere l'azione **Registra** .
+5. Scegliere l'azione **Registra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Per eseguire la rivalutazione generali dei cespiti
 L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di modificare vari importi quali gli importi di svalutazione e di rivalutazione. La casella di controllo **Permetti indicizzazione** nella pagina **Registro beni ammortizzabili** deve essere selezionata.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Indice cespiti** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.
-3. Scegliere il pulsante **OK** .
+3. Scegliere il pulsante **OK**.
 
-    Le righe di rivalutazione vengono create in base alle impostazioni del passaggio 2. Le righe vengono create nella registrazione cespiti o nella registrazione cespiti in C/G, a seconda dell'impostazione del batch e del modello nella pagina **Setup registrazioni cespiti** . Per ulteriori informazioni, vedere [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
+    Le righe di rivalutazione vengono create in base alle impostazioni del passaggio 2. Le righe vengono create nella registrazione cespiti o nella registrazione cespiti in C/G, a seconda dell'impostazione del batch e del modello nella pagina **Setup registrazioni cespiti**. Per ulteriori informazioni, vedere [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
 4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
-5. Selezionare la registrazione con i cespiti da rivalutare, quindi scegliere l'azione **Movimenti contabili** .  
+5. Selezionare la registrazione con i cespiti da rivalutare, quindi scegliere l'azione **Movimenti contabili**.  
 6. Controllare i movimenti creati quindi scegliere l'azione **Registra** per eseguire la registrazione.
 
     > [!TIP]  
@@ -78,25 +78,25 @@ Ricordarsi di selezionare la casella di controllo **Ammort. alla Data Reg. Cespi
 ### <a name="example---posting-additional-acquisition-costs"></a>Esempio: registrazione di costi di acquisto aggiuntivi
 In data 1° agosto 2000 viene acquistato un macchinario. Il costo di acquisto è 4.800. L'ammortamento viene calcolato in base al metodo a quote costanti in quattro anni.
 
-Il 31 agosto 2000 viene eseguita il processo batch **Calcola ammortamento** . L'ammortamento viene calcolato come segue:
+Il 31 agosto 2000 viene eseguita il processo batch **Calcola ammortamento**. L'ammortamento viene calcolato come segue:
 
 *valore contabile x numero di giorni di ammortamento / numero totale di giorni di ammortamento = 4800 x 30 / 1440 = 100*  
 
 Il 15 settembre 2000 viene registrata una fattura per la verniciatura della macchina. L'importo della fattura è 480.
 
-Se, prima di registrare la fattura, è stata selezionata la casella di controllo **Ammort. alla data reg. cespite** , verrà effettuato il seguente calcolo:  
+Se, prima di registrare la fattura, è stata selezionata la casella di controllo **Ammort. alla data reg. cespite**, verrà effettuato il seguente calcolo:  
 
 15 giorni di ammortamento (dal 01/09/00 al 15/09/00) vengono calcolati come segue:
 
 *valore contabile x numero di giorni di ammortamento / numero rimanente di giorni di ammortamento = (4800 - 100) x 15 / 1410 = 50*
 
-Se, prima di registrare la fattura, è stata selezionata la casella di controllo **Amm. costi di acq.** , verrà effettuato il seguente calcolo:  
+Se, prima di registrare la fattura, è stata selezionata la casella di controllo **Amm. costi di acq.**, verrà effettuato il seguente calcolo:  
 
 *il costo di acquisto aggiuntivo viene ammortizzato in base al risultato della seguente formula: ((150 x 100) / 4800) / 100 x 480 = 15*
 
-La base ammortizzabile diventa *5280 = (4800 + 480)* , mentre l'ammortamento maturato è *165 = (100 + 50 + 15)* , equivalente a 45 giorni di ammortamento del costo totale di acquisto. Ciò significa che il cespite viene ammortizzato completamente nel periodo previsto di quattro anni.  
+La base ammortizzabile diventa *5280 = (4800 + 480)*, mentre l'ammortamento maturato è *165 = (100 + 50 + 15)*, equivalente a 45 giorni di ammortamento del costo totale di acquisto. Ciò significa che il cespite viene ammortizzato completamente nel periodo previsto di quattro anni.  
 
-Il 30/09/00 viene effettuata il processo batch **Calcola Ammortamento** . Viene effettuato il seguente calcolo:  
+Il 30/09/00 viene effettuata il processo batch **Calcola Ammortamento**. Viene effettuato il seguente calcolo:  
 
 *la durata residua dell'ammortamento corrisponde a 3 anni, 10 mesi e 15 giorni = 1395 giorni*  
 
@@ -106,7 +106,7 @@ Il 30/09/00 viene effettuata il processo batch **Calcola Ammortamento** . Viene 
 
 *Totale ammortamento = 165 + 55 = 220*  
 
-Se non è stata selezionata la casella di controllo **Ammort. alla data reg. cespite** , vengono persi 15 giorni di ammortamento perché eseguendo il processo batch **Calcolo ammortamento** il 30/09/00 verrebbe calcolato l'ammortamento dal 15/09/00 al 30/09/00. Ciò significa che se il processo batch **Calcolo ammortamento** viene eseguito il 30/09/00, il calcolo è il seguente:  
+Se non è stata selezionata la casella di controllo **Ammort. alla data reg. cespite**, vengono persi 15 giorni di ammortamento perché eseguendo il processo batch **Calcolo ammortamento** il 30/09/00 verrebbe calcolato l'ammortamento dal 15/09/00 al 30/09/00. Ciò significa che se il processo batch **Calcolo ammortamento** viene eseguito il 30/09/00, il calcolo è il seguente:  
 
 *la durata residua dell'ammortamento corrisponde a 3 anni, 10 mesi e 15 giorni = 1395 giorni*  
 
@@ -121,4 +121,4 @@ Se non è stata selezionata la casella di controllo **Ammort. alla data reg. ces
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
 [Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 868b8afe7fb9b36b9fc55930fa702bd181e395f2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916086"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746034"
 ---
 # <a name="set-up-contacts"></a>Setup contatti
 Quando si creano contatti, è possibile immettere informazioni specifiche, ad esempio il settore a cui il contatto appartiene e la relazione d'affari con i contatti.
@@ -30,32 +30,32 @@ Dopo avere impostato queste informazioni, la creazione dei contatti risulterà m
 I gruppi industriali vengono utilizzati per indicare il tipo di settore industriale a cui appartengono i contatti, ad esempio il settore del commercio al dettaglio o l'industria automobilistica.
 
 > [!NOTE]
-> Questa operazione è possibile soltanto per i contatti di tipo **Società** .
+> Questa operazione è possibile soltanto per i contatti di tipo **Società**.
 
-Il codice settore industriale definisce il tipo o la categoria del gruppo, ad esempio ANNUNCIO per la pubblicità o STAMPA per la TV e la radio. È possibile impostare più codici di settori industriali. Per definire i gruppi mailing, utilizzare la pagina **Settori industriali** .
+Il codice settore industriale definisce il tipo o la categoria del gruppo, ad esempio ANNUNCIO per la pubblicità o STAMPA per la TV e la radio. È possibile impostare più codici di settori industriali. Per definire i gruppi mailing, utilizzare la pagina **Settori industriali**.
 
 1. Aprire la scheda contatto desiderata.
-2. Scegliere l'azione **Società** , quindi l'azione **Settori industriali** . Verrà visualizzata la pagina **Settori industriali contatto** .
+2. Scegliere l'azione **Società**, quindi l'azione **Settori industriali**. Verrà visualizzata la pagina **Settori industriali contatto**.
 3. Nel campo **Codice settore industriale** selezionare il settore industriale da assegnare.
 
 Ripetere tali passaggi per assegnare altri settori industriali. È inoltre possibile assegnare settori industriali nella finestra Lista Contatti seguendo la stessa procedura.
 
-Il numero di settori industriali assegnati al contatto è visibile nel campo **Nr. settori industriali** della sezione **Segmentazione** della pagina **Scheda contatto** .
+Il numero di settori industriali assegnati al contatto è visibile nel campo **Nr. settori industriali** della sezione **Segmentazione** della pagina **Scheda contatto**.
 
 Una volta assegnati i settori industriali ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
 ## <a name="to-assign-mailing-groups-to-a-contact"></a> Per assegnare gruppi di mailing a un contatto
 È possibile utilizzare i gruppi mailing per identificare gruppi di contatti a cui inviare le stesse informazioni. È possibile, ad esempio, impostare un gruppo mailing relativo ai contatti a cui si desidera inviare una notifica di un cambio di ufficio o un altro gruppo per inviare gli auguri delle festività.
 
-Il codice gruppo mailing definisce il tipo o la categoria del gruppo, ad esempio SPOSTAMENTO per lo spostamento dell'ufficio o AUGURI per gli auguri festivi. È possibile impostare più codici di settori industriali. Per definire i gruppi mailing, utilizzare la pagina **Gruppi mailing** .
+Il codice gruppo mailing definisce il tipo o la categoria del gruppo, ad esempio SPOSTAMENTO per lo spostamento dell'ufficio o AUGURI per gli auguri festivi. È possibile impostare più codici di settori industriali. Per definire i gruppi mailing, utilizzare la pagina **Gruppi mailing**.
 
 1. Aprire la scheda contatto desiderata.
-2. Selezionare l'azione **Gruppi mailing** . Verrà visualizzata la pagina **Gruppi mailing contatto** .
+2. Selezionare l'azione **Gruppi mailing**. Verrà visualizzata la pagina **Gruppi mailing contatto**.
 3. Nel campo **Codice gruppi mailing** selezionare il gruppo mailing da assegnare.
 
 Ripetere tali passaggi per assegnare altri gruppi mailing. È inoltre possibile assegnare altri gruppi di mailing dalla lista contatti seguendo la stessa procedura.
 
-Il numero di gruppi di mailing assegnati al contatto viene visualizzato nel campo **Nr. di gruppi mailing** nella sezione **Segmentazione** della pagina **Scheda contatto** .
+Il numero di gruppi di mailing assegnati al contatto viene visualizzato nel campo **Nr. di gruppi mailing** nella sezione **Segmentazione** della pagina **Scheda contatto**.
 
 Dopo avere assegnato i gruppi di mailing ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
@@ -63,10 +63,10 @@ Dopo avere assegnato i gruppi di mailing ai contatti, è possibile utilizzare qu
 È possibile assegnare un indirizzo alternativo al quale il contatto desidera ricevere messaggi di posta elettronica e informazioni, ad esempio la residenza estiva. È possibile anche assegnare uno o più intervalli di date per ogni indirizzo alternativo inserito per i contatti per specificarne il periodo di validità.
 
 1. Aprire la scheda contatto desiderata.
-2. Selezionare l'azione **Indirizzo alternativo** quindi scegliere l'azione **Scheda** .
+2. Selezionare l'azione **Indirizzo alternativo** quindi scegliere l'azione **Scheda**.
 
-    Per definire uno specifico periodo di validità dell'indirizzo alternativo, scegliere invece l'azione **Intervallo date** .
-3. Nella pagina **Lista indirizzi alt. contatto** , immettere un indirizzo alternativo e compilare i campi nella pagina **indirizzo alternativo contatto** .
+    Per definire uno specifico periodo di validità dell'indirizzo alternativo, scegliere invece l'azione **Intervallo date**.
+3. Nella pagina **Lista indirizzi alt. contatto**, immettere un indirizzo alternativo e compilare i campi nella pagina **indirizzo alternativo contatto**.
 
 Ripetere tali passaggi per assegnare altri indirizzi alternativi. Per ogni indirizzo alternativo è possibile specificare uno o più intervalli di date.
 
@@ -74,17 +74,17 @@ Ripetere tali passaggi per assegnare altri indirizzi alternativi. Per ogni indir
 È possibile aggiungere informazioni sui ruoli professionali che indicano il ruolo svolto dal contatto all'interno della propria società, ad esempio IT, gestione o produzione. È possibile utilizzare queste informazioni quando si inseriscono informazioni sui contatti.
 
 > [!NOTE]
-> Ciò è possibile solo per i contatti di tipo **Persona** .
+> Ciò è possibile solo per i contatti di tipo **Persona**.
 
-Il codice ruolo professionale definisce il tipo o la categoria di processo, ad esempio MARKETING o ACQUISTO. È possibile impostare più codici di ruoli professionali. Per definire il ruolo professionale, utilizzare la pagina **Ruoli professionali** .
+Il codice ruolo professionale definisce il tipo o la categoria di processo, ad esempio MARKETING o ACQUISTO. È possibile impostare più codici di ruoli professionali. Per definire il ruolo professionale, utilizzare la pagina **Ruoli professionali**.
 
 1. Aprire la scheda contatto desiderata.
-2. Scegliere l'azione **Persona** , quindi l'azione **Ruoli professionali** . Verrà visualizzata la pagina **Ruolo professionale contatto** .
+2. Scegliere l'azione **Persona**, quindi l'azione **Ruoli professionali**. Verrà visualizzata la pagina **Ruolo professionale contatto**.
 3. Nel campo **Cod. ruolo professionale** selezionare il ruolo professionale da assegnare.
 
 Ripetere tali passaggi per assegnare altri ruoli professionali. È inoltre possibile assegnare ruoli professionali dalla lista Contatti seguendo la stessa procedura.
 
-Il numero di ruoli professionali assegnati al contatto viene visualizzato nella pagina **Contatto** , sezione **Segmentazione** , in corrispondenza del campo **Nr. ruoli professionali** .
+Il numero di ruoli professionali assegnati al contatto viene visualizzato nella pagina **Contatto**, sezione **Segmentazione**, in corrispondenza del campo **Nr. ruoli professionali**.
 
 Dopo avere assegnato i ruoli professionali ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
@@ -92,9 +92,9 @@ Dopo avere assegnato i ruoli professionali ai contatti, è possibile utilizzare 
 È possibile usare i livelli organizzativi con i contatti per specificarne la posizione all'interno della società, ad esempio alta dirigenza. È possibile utilizzare queste informazioni quando si inseriscono informazioni sui contatti.
 
 > [!NOTE]
-> Ciò è possibile solo per i contatti di tipo **Persona** .
+> Ciò è possibile solo per i contatti di tipo **Persona**.
 
-Il codice livello organizzativo definisce il tipo o la categoria di livello organizzativo, ad esempio CEO o CFO. È possibile impostare più codici di livello organizzativo. Per definire il livello organizzativo, utilizzare la pagina **Livelli organizzativi** .
+Il codice livello organizzativo definisce il tipo o la categoria di livello organizzativo, ad esempio CEO o CFO. È possibile impostare più codici di livello organizzativo. Per definire il livello organizzativo, utilizzare la pagina **Livelli organizzativi**.
 
 1. Aprire la scheda contatto desiderata.
 2. Nel campo **Livelli organizzativi** scegliere il codice che si desidera assegnare.
@@ -107,12 +107,12 @@ Dopo avere assegnato i ruoli professionali ai contatti, è possibile utilizzare 
 È possibile utilizzare le origini Web con le società contatto per identificare, ad esempio, motori di ricerca e siti Web dove effettuare la ricerca di informazioni sui contatti. Quando si assegna un'origine Web, specificare il motore di ricerca e la parola di ricerca che saranno utilizzati per individuare le informazioni richieste.
 
 > [!NOTE]
-> Questa operazione è possibile soltanto per i contatti di tipo **Società** .
+> Questa operazione è possibile soltanto per i contatti di tipo **Società**.
 
 Quando si assegna un'origine Web, specificare il motore di ricerca e la parola di ricerca che saranno utilizzati per individuare le informazioni richieste.
 
 1. Aprire la scheda contatto desiderata.
-2. Scegliere l'azione **Società** , quindi l'azione **Origini Web** . Verrà visualizzata la pagina **Origine Web contatto** .
+2. Scegliere l'azione **Società**, quindi l'azione **Origini Web**. Verrà visualizzata la pagina **Origine Web contatto**.
 3. Nel campo **Codice origine Web** scegliere l'origine Web che si desidera assegnare.
 4. Nel campo **Parola ricerca** inserire la parola ricerca che verrà utilizzata per individuare le informazioni.
 
@@ -122,15 +122,15 @@ Ripetere tali passaggi per assegnare altre origini Web.
 È possibile utilizzare le relazioni d'affari vengono utilizzate per indicare il tipo di relazione commerciale che intercorre con i contatti, ad esempio potenziale cliente, banca, consulente e fornitore di servizi e così via.
 
 > [!NOTE]
-> Questa operazione è possibile soltanto per i contatti di tipo **Società** .
+> Questa operazione è possibile soltanto per i contatti di tipo **Società**.
 
 1. Aprire la scheda contatto desiderata.
-2. Scegliere l'azione **Società** , quindi l'azione **Relazioni d'affari** .
-3. Nella pagina **Relazioni d'affari contatto** , nel campo **Codice relazione d'affari** , selezionare la relazione d'affari che si desidera assegnare.
+2. Scegliere l'azione **Società**, quindi l'azione **Relazioni d'affari**.
+3. Nella pagina **Relazioni d'affari contatto**, nel campo **Codice relazione d'affari**, selezionare la relazione d'affari che si desidera assegnare.
 
 Ripetere questi passaggi per assegnare altre relazioni d'affari.
 
-Il numero di relazioni d'affari assegnate al contatto viene visualizzato nel campo **Nr. relazione d'affari** nella sezione **Segmentazione** nella pagina **Contatto** .
+Il numero di relazioni d'affari assegnate al contatto viene visualizzato nel campo **Nr. relazione d'affari** nella sezione **Segmentazione** nella pagina **Contatto**.
 
 Una volta assegnate le relazioni d'affari ai contatti, è possibile utilizzare queste informazioni per selezionare i contatti per i segmenti. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
@@ -147,12 +147,12 @@ Per ulteriori informazioni, vedere [Creare contatti](marketing-create-contact-co
 L'eredità dei campi viene sovrascritta ai valori di default impostati. Se ad esempio la lingua di default è stata impostata su Inglese ma la lingua della società contatto è Tedesco, quest'ultimo viene automaticamente assegnato come codice lingua per i contatti registrati relativi a tale società.
 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari
-Per sincronizzare la scheda contatto con una scheda cliente, fornitore o conto corrente bancario, è necessario compilare il campo corrispondente nella sezione **Per codice relazione di bus.** della Scheda dettaglio **Interazioni** nella pagina **Setup marketing** .  
+Per sincronizzare la scheda contatto con una scheda cliente, fornitore o conto corrente bancario, è necessario compilare il campo corrispondente nella sezione **Per codice relazione di bus.** della Scheda dettaglio **Interazioni** nella pagina **Setup marketing**.  
 
 Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Ricerca di contatti duplicati
-È possibile impostare l'applicazione affinché vengano ricercati i duplicati ogni volta che si creano contatti; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati. Questa impostazione viene eseguita nella Scheda dettaglio **Duplicati** della pagina **Setup marketing** .
+È possibile impostare l'applicazione affinché vengano ricercati i duplicati ogni volta che si creano contatti; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati. Questa impostazione viene eseguita nella Scheda dettaglio **Duplicati** della pagina **Setup marketing**.
 
 Una volta individuato un contatto duplicato, è possibile utilizzare la pagina **Unisci duplicato** per unirlo in un record di contatto che si intende mantenere. Per ulteriori informazioni, vedere [Unire record duplicati](sales-how-merge-duplicate-records.md).
 
@@ -160,4 +160,4 @@ Una volta individuato un contatto duplicato, è possibile utilizzare la pagina *
 [Gestione dei contatti](marketing-contacts.md)  
 [Creare contatti](marketing-create-contact-companies.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

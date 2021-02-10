@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 383025059d14bf10abcb812f4a5f17f8f3379d06
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913731"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751473"
 ---
 # <a name="design-details-inventory-posting"></a>Dettagli di progettazione: Registrazione di magazzino
 
@@ -109,7 +109,7 @@ Alla fine del periodo contabile, viene eseguito il processo batch **Registra cos
 > 
 > Il campo **Costo registrato in C/G** nella tabella **Movimenti valorizzazione** viene compilato.  
 
- La relazione tra i movimenti di valorizzazione e i movimenti di contabilità generale viene archiviata nella tabella **Relazione C/G - Mov. contabili art.** .  
+ La relazione tra i movimenti di valorizzazione e i movimenti di contabilità generale viene archiviata nella tabella **Relazione C/G - Mov. contabili art.**.  
 
 ### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Movimenti di relazione nella C/G – Relazione Movimento Articolo (3)
 
@@ -134,4 +134,4 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing
  [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)  
  [Dettagli di progettazione: Componenti costo](design-details-cost-components.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

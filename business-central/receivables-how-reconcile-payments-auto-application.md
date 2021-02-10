@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b759aef09fc2a19ac06a829a64a9ed0ea9b1efa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3b90cb523449367672be71abe0a7cf02effcde5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926534"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748561"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Riconciliare i pagamenti utilizzando il collegamento automatico
 
@@ -24,9 +24,9 @@ La pagina **Registrazione riconciliazione pagamenti** specifica i pagamenti, sia
 > [!NOTE]
 > La pagina offre funzionalità di corrispondenza automatica che applica i pagamenti alle relative voci aperte in base a una corrispondenza di testo su una riga del rendiconto ( riga delle registrazioni) con testo su uno o più movimenti aperti. Si noti che è possibile sovrascrivere i collegamenti automatici suggeriti ed è possibile scegliere di non utilizzare il collegamento automatico per nulla. Per ulteriori informazioni, vedere il passaggio 7.
 
-Una registrazione riconciliazione pagamenti è correlata a un conto bancario in [!INCLUDE[d365fin](includes/d365fin_md.md)] che riflette il conto bancario online in cui vengono registrate le transazioni di pagamento. Se si sceglie l'azione **Registra pagamenti e riconcilia conto bancario** , qualsiasi movimento COGE aperto correlato ai movimenti contabilità fornitori o clienti collegati verrà chiuso. Questo significa che il conto bancario viene riconciliato automaticamente per i pagamenti che si registrano con le scritture registrazioni e chiudere i movimenti contabili correlati.
+Una registrazione riconciliazione pagamenti è correlata a un conto bancario in [!INCLUDE[prod_short](includes/prod_short.md)] che riflette il conto bancario online in cui vengono registrate le transazioni di pagamento. Se si sceglie l'azione **Registra pagamenti e riconcilia conto bancario**, qualsiasi movimento COGE aperto correlato ai movimenti contabilità fornitori o clienti collegati verrà chiuso. Questo significa che il conto bancario viene riconciliato automaticamente per i pagamenti che si registrano con le scritture registrazioni e chiudere i movimenti contabili correlati.
 
-Se si desidera importare i rendiconti bancari come feed bancari, è necessario innanzitutto abilitare il servizio Envestnet Yodlee Bank Feeds e successivamente collegare il conto corrente bancario al relativo conto bancario online. La registrazione riconciliazione pagamenti viene quindi rilevata automaticamente dai feed bancari quando si sceglie l'azione **Importa transazioni bancarie** . Inoltre, è possibile impostare un conto corrente bancario in modo che importi nuovi feed bancari ogni ora. Le transazioni per i pagamenti che sono già state contabilizzate come collegate e/o riconciliate non verranno importate. Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
+Se si desidera importare i rendiconti bancari come feed bancari, è necessario innanzitutto abilitare il servizio Envestnet Yodlee Bank Feeds e successivamente collegare il conto corrente bancario al relativo conto bancario online. La registrazione riconciliazione pagamenti viene quindi rilevata automaticamente dai feed bancari quando si sceglie l'azione **Importa transazioni bancarie**. Inoltre, è possibile impostare un conto corrente bancario in modo che importi nuovi feed bancari ogni ora. Le transazioni per i pagamenti che sono già state contabilizzate come collegate e/o riconciliate non verranno importate. Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Con l'azione **Mappa testo a conto** è possibile impostare le mappature tra testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo che i pagamenti vengano registrati nei conti specificati quando si contabilizzano le registrazioni riconciliazione pagamenti. Vedere il passaggio 8. Per ulteriori informazioni, vedere [Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
@@ -34,45 +34,45 @@ Una funzionalità simile esiste per riconciliare gli importi in eccesso nelle ri
 
 Utilizzare la funzione **Collega automaticamente** quando si importa il feed bancario o il file della banca con transazioni di pagamento o quando lo si attiva, per collegare i pagamenti ai relativi movimenti aperti in base a una corrispondenza di testo in una riga del rendiconto bancario (riga di registrazione) con uno o più movimenti aperti. Per ulteriori informazioni, vedere [Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md).
 
-Nelle righe di registrazione in cui un pagamento è stato collegato automaticamente a uno o più movimenti aperti, il campo **Affidabilità corrispondenza** contiene un valore tra Bassa e Alta per indicare la qualità di corrispondenza di dati sulla quale si basa il collegamento di pagamento suggerito. Inoltre, i campi **Tipo conto** e **Nr. conto** vengono popolati con le informazioni relative al cliente o al fornitore a cui il pagamento è collegato. Se è stata impostata una mappatura testo a conto, il collegamento automatico può ottenere un valore di affidabilità di corrispondenza di **Alta - Mappatura testo a conto** .
+Nelle righe di registrazione in cui un pagamento è stato collegato automaticamente a uno o più movimenti aperti, il campo **Affidabilità corrispondenza** contiene un valore tra Bassa e Alta per indicare la qualità di corrispondenza di dati sulla quale si basa il collegamento di pagamento suggerito. Inoltre, i campi **Tipo conto** e **Nr. conto** vengono popolati con le informazioni relative al cliente o al fornitore a cui il pagamento è collegato. Se è stata impostata una mappatura testo a conto, il collegamento automatico può ottenere un valore di affidabilità di corrispondenza di **Alta - Mappatura testo a conto**.
 
 Per ogni riga di registrazione nella pagina **Registrazione riconciliazione pagamenti** è possibile aprire la pagina **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni, vedere [Esaminare o collegare i pagamenti in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md).
 
 > [!NOTE]  
-> È possibile avviare l'importazione delle transazioni bancarie nello stesso momento in cui si apre la pagina **Registrazione riconciliazione pagamenti** per una registrazione riconciliazione pagamenti nella pagina **Registrazioni riconciliazione pagamenti** . Nella procedura riportata di seguito viene descritto come importare le transazioni bancarie nella pagina **Registrazione riconciliazione pagamenti** dopo avere creato nuove registrazioni.
+> È possibile avviare l'importazione delle transazioni bancarie nello stesso momento in cui si apre la pagina **Registrazione riconciliazione pagamenti** per una registrazione riconciliazione pagamenti nella pagina **Registrazioni riconciliazione pagamenti**. Nella procedura riportata di seguito viene descritto come importare le transazioni bancarie nella pagina **Registrazione riconciliazione pagamenti** dopo avere creato nuove registrazioni.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Per riconciliare i pagamenti utilizzando il collegamento automatico
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riconciliazione pagamenti** e quindi scegliere il collegamento correlato.
-2. Per utilizzare nuove registrazioni riconciliazione pagamenti, scegliere l'azione **Nuove registrazioni** .
-3. Nella pagina **Lista C/C bancari pagamenti** selezionare il conto bancario per il quale si desidera riconciliare i pagamenti, quindi scegliere **OK** .
+2. Per utilizzare nuove registrazioni riconciliazione pagamenti, scegliere l'azione **Nuove registrazioni**.
+3. Nella pagina **Lista C/C bancari pagamenti** selezionare il conto bancario per il quale si desidera riconciliare i pagamenti, quindi scegliere **OK**.
    Verrà aperta la pagina **Registrazione riconciliazione pagamenti** predisposta per il conto corrente bancario selezionato.
-4. Scegliere l'azione **Importa transazioni bancarie** .
+4. Scegliere l'azione **Importa transazioni bancarie**.
    Se il conto corrente bancario della registrazione selezionata non è impostato per importare transazioni bancarie, verrà aperta una finestra di dialogo per aiutare l'utente a compilare i campi pertinenti.
-5. Nella pagina **Seleziona file da importare** selezionare il file contenente le transazioni bancarie dei pagamenti che si desidera riconciliare, quindi fare clic sul pulsante **Apri** .  
-6. Se il Servizio rendiconti bancari è abilitato, nella pagina **Filtro rendiconto bancari** , che viene visualizzata automaticamente, viene specificato l'intervallo di date per i rendiconti bancari che devono essere importati.
+5. Nella pagina **Seleziona file da importare** selezionare il file contenente le transazioni bancarie dei pagamenti che si desidera riconciliare, quindi fare clic sul pulsante **Apri**.  
+6. Se il Servizio rendiconti bancari è abilitato, nella pagina **Filtro rendiconto bancari**, che viene visualizzata automaticamente, viene specificato l'intervallo di date per i rendiconti bancari che devono essere importati.
 
     La pagina **Registrazione riconciliazione pagamenti** viene compilata con righe per i pagamenti che rappresentano le transazioni bancarie nel rendiconto importato.
 
     Nelle righe dei pagamenti che sono stati collegati automaticamente ai relativi movimenti aperti, il campo **Affidabilità corrispondenza** include un valore tra **Bassa** e **Alta** a indicare la qualità della corrispondenza dei dati su cui si basa il collegamento del pagamento suggerito. Inoltre, i campi **Tipo conto** e **Nr. conto** vengono popolati con le informazioni relative al cliente o al fornitore a cui il pagamento è collegato.
-7. Selezionare una riga di registrazione, scegliere l'azione **Collega manualmente** per esaminare, ricollegare o collegare il pagamento manualmente nella pagina **Collegamento pagamenti** . Per ulteriori informazioni, vedere [Esaminare o collegare i pagamenti in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md).
+7. Selezionare una riga di registrazione, scegliere l'azione **Collega manualmente** per esaminare, ricollegare o collegare il pagamento manualmente nella pagina **Collegamento pagamenti**. Per ulteriori informazioni, vedere [Esaminare o collegare i pagamenti in seguito al collegamento automatico](receivables-how-review-apply-payments-auto-application.md).
 
-    Una volta completato il collegamento manuale, il campo **Affidabilità corrispondenza** nella riga di registrazione elaborata manualmente contiene **Accettata** .
-8. Selezionare una riga di registrazione scollegata per un incasso o una spesa ricorrente, ad esempio l'acquisto di carburante auto, quindi scegliere l'azione **Mappa testo a conto** . Per ulteriori informazioni, vedere [Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-9. Dopo avere completato la mappatura testo a conto dei pagamenti, scegliere l'azione **Collega manualmente** .
+    Una volta completato il collegamento manuale, il campo **Affidabilità corrispondenza** nella riga di registrazione elaborata manualmente contiene **Accettata**.
+8. Selezionare una riga di registrazione scollegata per un incasso o una spesa ricorrente, ad esempio l'acquisto di carburante auto, quindi scegliere l'azione **Mappa testo a conto**. Per ulteriori informazioni, vedere [Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+9. Dopo avere completato la mappatura testo a conto dei pagamenti, scegliere l'azione **Collega manualmente**.
 10. Una volta che tutti i pagamenti nelle righe di registrazione sono collegati correttamente o sono impostati per la registrazione diretta, scegliere l'azione **Registra** e quindi una delle due opzioni:
 
     - **Registra pagamenti e riconcilia conto bancario** - Per registrare i pagamenti come collegati e anche per chiudere i movimenti correlati dei conti correnti bancari come riconciliati.
     - **Registra solo pagamenti** - Per registrare solo i pagamenti come collegati, ma lasciare aperti i relativi movimenti contabili bancari. È necessario riconciliare il conto bancario separatamente, ad esempio: Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
-    - Per visualizzare i risultati di una registrazione prima di eseguirla, scegliere l'azione **Report test** . Il report **Estratto conto bancario** si apre e mostra gli stessi campi nella parte inferiore della pagina **registrazione riconciliazione pagamenti** .
+    - Per visualizzare i risultati di una registrazione prima di eseguirla, scegliere l'azione **Report test**. Il report **Estratto conto bancario** si apre e mostra gli stessi campi nella parte inferiore della pagina **registrazione riconciliazione pagamenti**.
 
-Quando si registrano le registrazioni della riconciliazione di pagamento, i movimenti aperti collegati vengono chiusi e i relativi conti cliente, fornitore o di contabilità generale vengono aggiornati. Per i pagamenti nelle righe di registrazione basate sul mapping testo a conto, vengono aggiornati i conti della contabilità generale, cliente e fornitore specificati. Per tutte le righe di registrazione, vengono creati i movimenti contabili di conti correnti bancari. Se si sceglie l'azione **Registra pagamenti e riconcilia conto bancario** , qualsiasi movimento COGE aperto correlato ai movimenti contabilità fornitori o clienti collegati verrà chiuso. Questo significa che il conto bancario viene riconciliato automaticamente per i pagamenti che si registrano con le scritture registrazioni e chiudere i movimenti contabili correlati.
+Quando si registrano le registrazioni della riconciliazione di pagamento, i movimenti aperti collegati vengono chiusi e i relativi conti cliente, fornitore o di contabilità generale vengono aggiornati. Per i pagamenti nelle righe di registrazione basate sul mapping testo a conto, vengono aggiornati i conti della contabilità generale, cliente e fornitore specificati. Per tutte le righe di registrazione, vengono creati i movimenti contabili di conti correnti bancari. Se si sceglie l'azione **Registra pagamenti e riconcilia conto bancario**, qualsiasi movimento COGE aperto correlato ai movimenti contabilità fornitori o clienti collegati verrà chiuso. Questo significa che il conto bancario viene riconciliato automaticamente per i pagamenti che si registrano con le scritture registrazioni e chiudere i movimenti contabili correlati.
 
 È possibile confrontare il valore del campo **Saldo su conto bancario dopo la registrazione** con il valore del campo **Saldo finale estratto conto** per tenere traccia di quando il conto bancario viene riconciliato in base ai pagamenti che vengono registrati.
 
 > [!NOTE]  
->   Se non si desidera riconciliare il conto bancario dalla pagina **Registrazione riconciliazione pagamenti** , è necessario utilizzare la pagina **Riconciliazioni C/C bancari** . Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
+>   Se non si desidera riconciliare il conto bancario dalla pagina **Registrazione riconciliazione pagamenti**, è necessario utilizzare la pagina **Riconciliazioni C/C bancari**. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
