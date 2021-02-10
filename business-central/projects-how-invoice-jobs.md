@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: effed84c3f0d4c625192ac4d41dc2d9edf97c663
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 368b0b1edf1105045a365d8d5ac523c88955ad8a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921460"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758760"
 ---
 # <a name="invoice-jobs"></a>Fatturazione di commesse
 Durante il progetto, è possibile che si accumulino i costi di commessa derivanti dall'utilizzo delle risorse, dai materiali e dagli acquisti correlati alla commessa. A seconda dello stato di avanzamento della commessa, tali transazioni vengono inserite nelle registrazioni commesse. È importante registrare tutti i costi prima di fatturare al cliente.
@@ -23,7 +23,7 @@ Durante il progetto, è possibile che si accumulino i costi di commessa derivant
 > [!NOTE]
 > Puoi inoltre acquistare risorse esterne non correlate a un processo, ad esempio, per fatturare a un fornitore per il lavoro eseguito. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
-È possibile fatturare l'intera commessa dalla pagina **Righe task commessa** oppure fatturare solo le righe fatturabili selezionate dalla pagina **Righe pianificazione** . La fatturazione può essere effettuata dopo la chiusura della commessa oppure durante lo svolgimento delle operazioni correlate alla commessa, a determinati intervalli basati su un'apposita programmazione.
+È possibile fatturare l'intera commessa dalla pagina **Righe task commessa** oppure fatturare solo le righe fatturabili selezionate dalla pagina **Righe pianificazione**. La fatturazione può essere effettuata dopo la chiusura della commessa oppure durante lo svolgimento delle operazioni correlate alla commessa, a determinati intervalli basati su un'apposita programmazione.
 
 > [!NOTE]  
 > Se si seleziona **Fatturabile** nel campo **Tipo riga commessa** dei documenti di acquisto per gli acquisti correlati alla commessa, vengono create le righe di pianificazione commessa che sono pronte per la fatturazione al cliente. Per ulteriori informazioni, vedere [Gestire gli approvvigionamenti per un progetto](projects-how-manage-project-supplies.md).
@@ -38,48 +38,48 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 3. Impostare i filtri se si desidera limitare le commesse che devono essere elaborate nel processo batch.
 4. Scegliere il pulsante **OK** per creare le fatture di assistenza.  
 
-È possibile rivedere e pubblicare le fatture create nella finestra **Fatture vendita** .
+È possibile rivedere e pubblicare le fatture create nella finestra **Fatture vendita**.
 
 > [!NOTE]
-> In alternativa, fatturare a un cliente selezionando la commessa, quindi scegliendo l'azione **Crea fattura vendita per commessa** . 
+> In alternativa, fatturare a un cliente selezionando la commessa, quindi scegliendo l'azione **Crea fattura vendita per commessa**. 
 
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Per creare e registrare una fattura di vendita commessa dalle righe di pianificazione commessa
 È possibile creare una fattura da righe di pianificazione commessa e indicare in quella occasione la quantità dell'articolo, la risorsa o il conto di contabilità generale che si desidera fatturare.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.
 2. Aprire una commessa appropriata.
-3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione** , quindi scegliere l'azione **Righe pianificazione commessa** .  
+3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione**, quindi scegliere l'azione **Righe pianificazione commessa**.  
 4. In una riga di pianificazione commessa, nel campo **Qtà da trasferire in fattura** , immettere la quantità dell'articolo, la risorsa, il tipo del conto di contabilità generale che si desidera fatturare.  
-5. Scegliere l'azione **Crea fattura di vendita** .
-6. Nella pagina **Commessa - Crea fattura vendita** , immettere la data di registrazione e se si desidera creare una nuova fattura o aggiungere questa fattura a una esistente.
-7. Scegliere il pulsante **OK** .  
-8. Nella pagina **Righe pianificazione commessa** scegliere l'azione **Fatture/Note credito vendite** .
+5. Scegliere l'azione **Crea fattura di vendita**.
+6. Nella pagina **Commessa - Crea fattura vendita**, immettere la data di registrazione e se si desidera creare una nuova fattura o aggiungere questa fattura a una esistente.
+7. Scegliere il pulsante **OK**.  
+8. Nella pagina **Righe pianificazione commessa** scegliere l'azione **Fatture/Note credito vendite**.
 
     Verrà visualizzata la pagina **Fatture di vendita** nella quale sarà mostrata la quantità che è stata trasferita in fattura.
-9. Apportare tutte le modifiche aggiuntive, quindi scegliere l'azione **Registra** .
+9. Apportare tutte le modifiche aggiuntive, quindi scegliere l'azione **Registra**.
 
 > [!NOTE]  
 >   La procedura sopra riportata è simile per la creazione, la revisione e la registrazione di una nota di credito di vendita correlata a una commessa.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Per calcolare e registrare i movimenti di completamento della commessa
-Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo per una commessa, è necessario aggiornare la commessa in modo che il campo **Stato** sia impostato su **Completato** . Successivamente, è necessario stornare eventuali WIP registrati nella contabilità generale.
+Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo per una commessa, è necessario aggiornare la commessa in modo che il campo **Stato** sia impostato su **Completato**. Successivamente, è necessario stornare eventuali WIP registrati nella contabilità generale.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare una commessa aperta, quindi scegliere l'azione **Modifica** .
-3. Nel campo **Stato** selezionare **Completato** .
+2. Selezionare una commessa aperta, quindi scegliere l'azione **Modifica**.
+3. Nel campo **Stato** selezionare **Completato**.
 4. Seguire i passaggi di assistenza per calcolare e registrare il WIP. In alternativa, seguire i passaggi 5 e 6 per effettuare questa operazione manualmente.  
-5. Scegliere l'azione **Calcola WIP** .
+5. Scegliere l'azione **Calcola WIP**.
 6. Nella pagina **Commessa - Calcola WIP** compilare i campi in base alle esigenze.  
 
-     Per i movimenti WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata** , a indicare che si tratta di movimenti di completamento.  
-7. Scegliere l'azione **Commessa - Registra WIP in C/G** .
+     Per i movimenti WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.  
+7. Scegliere l'azione **Commessa - Registra WIP in C/G**.
 8. Nella pagina **Commessa - Registra WIP in C/G** compilare i campi in base alle esigenze.  
 
-     Per i movimenti C/G WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata** , a indicare che si tratta di movimenti di completamento.
+     Per i movimenti C/G WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione di progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f978047720f6e67c58c7c845a15f957258aaca3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910323"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757935"
 ---
 # <a name="set-up-service-contracts"></a>Impostare i contratti di assistenza
 Prima di poter utilizzare i contratti, è necessario impostare quanto segue: 
 
-* **Gruppi contratti assistenza** : raggruppano i contratti di assistenza in qualche modo correlati tra di loro.
-* **Gruppi conto del contratto di assistenza** : raggruppano i conti dei contratti di assistenza per le fatture di assistenza create per i contratti di assistenza. È possibile assegnare tali gruppi ai contratti di assistenza.  
-* **Modelli di contratto** : definiscono i layout dei contratti che includono i dettagli dei contratti di assistenza utilizzati più comunemente. È possibile creare le offerte di contratto di assistenza utilizzando i modelli. Quando si crea un'offerta di contratto, i campi vengono automaticamente riempiti con il contenuto dei campi del modello.
-* **Modelli clienti** : consentono di creare delle offerte per i contatti o i potenziali clienti che non sono registrati come clienti in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* **Gruppi contratti assistenza**: raggruppano i contratti di assistenza in qualche modo correlati tra di loro.
+* **Gruppi conto del contratto di assistenza**: raggruppano i conti dei contratti di assistenza per le fatture di assistenza create per i contratti di assistenza. È possibile assegnare tali gruppi ai contratti di assistenza.  
+* **Modelli di contratto**: definiscono i layout dei contratti che includono i dettagli dei contratti di assistenza utilizzati più comunemente. È possibile creare le offerte di contratto di assistenza utilizzando i modelli. Quando si crea un'offerta di contratto, i campi vengono automaticamente riempiti con il contenuto dei campi del modello.
+* **Modelli clienti**: consentono di creare delle offerte per i contatti o i potenziali clienti che non sono registrati come clienti in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Per impostare un gruppo di contratti di assistenza  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi contratti assistenza** e quindi scegliere il collegamento correlato.  
@@ -33,8 +33,8 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 ## <a name="to-set-up-a-service-contract-account-group"></a>Per impostare un gruppo conto dei contratti di assistenza  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi conto contratto assist.** e quindi scegliere il collegamento correlato.  
 2. Creare un nuovo gruppo di conto dei contratti dei assistenza.   
-3. Compilare i campi **Codice** e **Descrizione** . Questi campi forniscono una descrizione del gruppo conto contratti di assistenza.  
-4. Compilare il campo **Conto contratto non prepagato** , quindi scegliere il numero di conto di contabilità generale per il conto non prepagato.  
+3. Compilare i campi **Codice** e **Descrizione**. Questi campi forniscono una descrizione del gruppo conto contratti di assistenza.  
+4. Compilare il campo **Conto contratto non prepagato**, quindi scegliere il numero di conto di contabilità generale per il conto non prepagato.  
 5. Nel campo **Conto contratto prepagato** scegliere il numero di conto di contabilità generale per il conto prepagato.  
 
 ## <a name="to-set-up-a-contract-template"></a>Per impostare un modello di contratto  
@@ -42,17 +42,17 @@ Prima di poter utilizzare i contratti, è necessario impostare quanto segue:
 2. Creare un nuovo modello di contratto di assistenza.  
 3. Nel campo **Nr.** immettere un numero per il modello di contratto.  
   
-     In alternativa, se è stata impostata una numerazione per i modelli di contratti nella pagina **Setup gest. assist.** , è possibile premere INVIO per inserire il successivo numero di modello di contratto disponibile. Compilare gli altri campi, se pertinenti.  
+     In alternativa, se è stata impostata una numerazione per i modelli di contratti nella pagina **Setup gest. assist.**, è possibile premere INVIO per inserire il successivo numero di modello di contratto disponibile. Compilare gli altri campi, se pertinenti.  
   
-4. Nella Scheda dettaglio **Fattura** compilare i campi **Codice gr. conto contratto assist.** , **Periodo di fatturazione** e così via. Compilare gli altri campi, se pertinenti.  
+4. Nella Scheda dettaglio **Fattura** compilare i campi **Codice gr. conto contratto assist.**, **Periodo di fatturazione** e così via. Compilare gli altri campi, se pertinenti.  
 5. Scegliere l'azione **Sconti assistenza** per aggiungere sconti contrattuali.  
 
 ## <a name="to-set-up-a-customer-template"></a>Per impostare un modello di cliente  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli cliente** e quindi scegliere il collegamento correlato.  
 2. Creare una nuova scheda modello cliente.  
-3. Nella Scheda dettaglio **Generale** immettere un codice e una descrizione per il modello cliente rispettivamente nei campi **Codice** e **Descrizione** . 
-4. Per definire i criteri di ricerca, compilare gli altri campi, ad esempio **Cod. paese** , **Cod. regione** e **Cod. lingua** .  
-5. Compilare i campi **Cat. Reg. Business** e **Cat. Reg. Cliente** .  
+3. Nella Scheda dettaglio **Generale** immettere un codice e una descrizione per il modello cliente rispettivamente nei campi **Codice** e **Descrizione**. 
+4. Per definire i criteri di ricerca, compilare gli altri campi, ad esempio **Cod. paese**, **Cod. regione** e **Cod. lingua**.  
+5. Compilare i campi **Cat. Reg. Business** e **Cat. Reg. Cliente**.  
 
 ## <a name="see-also"></a>Vedere anche
 [Impostazione della gestione assistenza](service-setup-service.md)

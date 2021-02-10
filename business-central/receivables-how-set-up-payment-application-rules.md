@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926415"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758360"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
 
-Nella pagina **Regole di collegamento pagamenti** , si impostano le regole per stabilire il modo in cui il testo del pagamento (in una transazione bancaria) viene automaticamente abbinato al testo dei movimenti aperti nei seguenti due processi:
+Nella pagina **Regole di collegamento pagamenti**, si impostano le regole per stabilire il modo in cui il testo del pagamento (in una transazione bancaria) viene automaticamente abbinato al testo dei movimenti aperti nei seguenti due processi:
 
-- Collegare automaticamente i pagamenti a fatture aperte (non pagate), note di credito o altre voci correlate quando si usa la funzione **Collega automaticamente** nella pagina **Registrazione riconciliazione pagamenti** . Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
+- Collegare automaticamente i pagamenti a fatture aperte (non pagate), note di credito o altre voci correlate quando si usa la funzione **Collega automaticamente** nella pagina **Registrazione riconciliazione pagamenti**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
-- Corrispondere automaticamente le transazioni bancarie con i relativi movimenti contabili interni del conto bancario quando si sceglie l'opzione **Corrispondenza automatica** nella pagina **Riconciliazioni C/C bancari** . Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
+- Corrispondere automaticamente le transazioni bancarie con i relativi movimenti contabili interni del conto bancario quando si sceglie l'opzione **Corrispondenza automatica** nella pagina **Riconciliazioni C/C bancari**. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
 
 Impostare una nuova regola di collegamento dei pagamenti scegliendo quali tipi di dati presenti in una riga di registrazione riconciliazione pagamenti devono corrispondere ai dati di uno o più movimenti aperti prima che il pagamento correlato venga collegato automaticamente ai movimenti aperti. La qualità di ogni collegamento automatico in base alle regole di collegamento viene visualizzata come valore da **Basso** ad **Alto** nel campo **Affidabilità corrispondenza** della pagina **Registrazione riconciliazione pagamenti** in base alla regola di collegamento del pagamento utilizzata.
 
-Ogni riga della pagina **Regole di collegamento pagamenti** rappresenta una regola per il collegamento del pagamento. Le regole si collegano nell'ordine specificato dal campo **Ordinamento** . Se vengono utilizzate più regole contemporaneamente, viene utilizzata la regola con affidabilità di corrispondenza più alta.
+Ogni riga della pagina **Regole di collegamento pagamenti** rappresenta una regola per il collegamento del pagamento. Le regole si collegano nell'ordine specificato dal campo **Ordinamento**. Se vengono utilizzate più regole contemporaneamente, viene utilizzata la regola con affidabilità di corrispondenza più alta.
 
 La funzione di collegamento automatico è basata sui criteri di corrispondenza prioritaria. In primo luogo la funzione prova, seguendo un ordine di priorità, ad associare il testo nei cinque campi **Parte correlata** in una riga di registrazione con testo in conto corrente bancario, nome o indirizzo dei clienti o fornitori con i documenti non pagati che rappresentano movimenti aperti. Quindi, la funzione tenta di far corrispondere il testo nei campi **Testo transazione** e **Informazioni transazione aggiuntive** in una riga di registrazione con il testo nei campi **Nr. documento esterno** e **Nr. documento** di movimenti aperti. Infine, la funzione prova ad associare l'importo presente nel campo **Importo estratto conto** di una riga di registrazione con l'importo nei movimenti aperti.
 
@@ -46,15 +46,15 @@ Oltre ai criteri di corrispondenza, il segno dell'importo del pagamento dipende 
 |Campo|Descrizione|
 |-|-|
 |**Affidabilità corrispondenza**|Specifica l'affidabilità della regola di applicazione definita nella riga. <br /></br>Un valore specificato in questo campo viene visualizzato nel campo **Affidabilità corrispondenza** nella pagina **Registrazione riconciliazione pagamenti** in base alla qualità del collegamento automatico di pagamento nella riga di registrazione.|
-|**Priorità**|Specifica la priorità della regola di collegamento relativa alle altre regole di collegamento definite come righe nella pagina **Regole di collegamento pagamenti** . 1 rappresenta la priorità più alta.|
+|**Priorità**|Specifica la priorità della regola di collegamento relativa alle altre regole di collegamento definite come righe nella pagina **Regole di collegamento pagamenti**. 1 rappresenta la priorità più alta.|
 |**Parte correlata corrispondente**|Specifica quante informazioni sul cliente o fornitore, ad esempio indirizzo, città e il numero di conto corrente bancario, nella riga di registrazione della riconciliazione di pagamento devono corrispondere alle informazioni sul movimento aperto prima che la regola di collegamento venga utilizzata per collegare automaticamente il pagamento al movimento aperto.|
 |**Nr. doc./nr. doc. est. corrispondente**|Specifica se il testo nella riga di registrazione riconciliazione pagamenti deve corrispondere al valore nel campo **Nr. documento** o nel campo **Nr. documento esterno** nel movimento aperto prima che venga utilizzata la regola di collegamento per collegare automaticamente il pagamento al movimento aperto.|
 |**Importo incl. tolleranza corrispondente**|Specifica quanti movimenti per un cliente o fornitore devono corrispondere all'importo, compresa la tolleranza pagamento, prima che la regola di collegamento sia utilizzata per collegare automaticamente un pagamento al movimento aperto.|
 
-La seguente tabella mostra quali regole di collegamento del pagamento vengono impostate nella versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)].
+La seguente tabella mostra quali regole di collegamento del pagamento vengono impostate nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> Le regole di collegamento dei pagamenti possono essere diverse nella propria installazione di [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Le regole di collegamento dei pagamenti possono essere diverse nella propria installazione di [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | Affidabilità corrispondenza | Priorità | Parte correlata corrispondente | Nr. doc./nr. doc. est. Corrispondente | Importo incl. tolleranza corrispondente |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -89,4 +89,4 @@ La seguente tabella mostra quali regole di collegamento del pagamento vengono im
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

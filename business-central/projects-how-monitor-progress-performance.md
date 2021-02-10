@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e46b9a11ce3a60711cfa6d01298cfd1aac13d4d6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 059df4f082e1e5a7dfee1f3dda8005e5e3099651
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921410"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758710"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Monitorare lo stato di avanzamento e le prestazioni delle commesse
 Durante lo svolgimento di una commessa, vengono consumati materiali, risorse ed effettuate altre spese che devono essere registrate nella commessa. La funzionalità WIP (Work in Process) consente di stimare il valore finanziario delle commesse nella contabilità generale nelle varie fasi di una commessa. In molti casi è possibile registrare le spese relative a una commessa prima di fatturarla. Se sono state registrate solo le spese, il rendiconto finanziario non sarà accurato. Per ulteriori informazioni, vedere [Metodi WIP](projects-understanding-wip.md).
@@ -48,26 +48,26 @@ Se si desidera visualizzare il risultato utilizzando un metodo diverso, è possi
 Quando si crea una nuova commessa, è necessario specificare il metodo WIP commessa da applicare. In alcuni casi, il metodo WIP commessa che è possibile utilizzare viene impostata automaticamente come default.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Nuovo** . Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).  
-3. Nella pagina **Scheda commessa** , nel campo **Metodo WIP** , selezionare un metodo WIP dall'elenco. Se è stato definito un metodo di default, è possibile selezionare un'altra opzione, se necessario.  
+2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).  
+3. Nella pagina **Scheda commessa**, nel campo **Metodo WIP**, selezionare un metodo WIP dall'elenco. Se è stato definito un metodo di default, è possibile selezionare un'altra opzione, se necessario.  
 
 ## <a name="to-calculate-wip"></a>Per calcolare il WIP
-È possibile determinare l'importo WIP che deve essere registrato per i conti patrimoniali per il reporting di fine periodo. A tale scopo, utilizzare il processo batch **Commessa - Calcola WIP** .  
+È possibile determinare l'importo WIP che deve essere registrato per i conti patrimoniali per il reporting di fine periodo. A tale scopo, utilizzare il processo batch **Commessa - Calcola WIP**.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commessa - Calcola WIP** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Calcola WIP** .
+2. Scegliere l'azione **Calcola WIP**.
 3. Nella pagina **Commessa - Calcola WIP** compilare i campi in base alle esigenze.
-4. Scegliere il pulsante **OK** .  
+4. Scegliere il pulsante **OK**.  
 
 > [!NOTE]  
 >   Il processo batch consente di calcolare il WIP. ma non registrato nella contabilità generale. A tale scopo, è necessario eseguire il processo batch **Registra WIP in C/G** dopo avere calcolato il WIP. Per ulteriori informazioni, vedere la seguente procedura.
 
 ## <a name="to-post-wip"></a>Per registrare il WIP
-Dopo avere calcolato il WIP, è possibile registrarlo nei conti patrimoniali per il reporting di fine periodo. A tale scopo, utilizzare il processo batch **Commessa - Registra WIP in C/G** .
+Dopo avere calcolato il WIP, è possibile registrarlo nei conti patrimoniali per il reporting di fine periodo. A tale scopo, utilizzare il processo batch **Commessa - Registra WIP in C/G**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commessa - Registra WIP in C/G** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Commessa - Registra WIP in C/G** compilare i campi in base alle esigenze.  
-3. Scegliere il pulsante **OK** .
+3. Scegliere il pulsante **OK**.
 
 ## <a name="to-view-job-usage-estimates-and-post-updates"></a>Per visualizzare le stime di utilizzo della commessa e gli aggiornamenti della registrazione
 È possibile visualizzare l'utilizzo della commessa fino al completamento di un progetto in un unico passaggio. A questo scopo, utilizzare il processo batch **Commessa - Calc. utilizzo residuo** per tutti i task fino al termine della commessa incluso.  
@@ -78,16 +78,16 @@ In questo modo è possibile tenere traccia e confrontare le stime iniziali rispe
 >   I movimenti articoli creano movimenti contabili articoli e riducono la quantità di inventario. Il processo batch **Registra costo magazzino in C/GL** trasferisce il costo dal magazzino alla contabilità generale. I movimenti risorse creano movimenti contabili risorse.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare una registrazione commessa corrispondente, quindi scegliere l'azione **Calc. utilizzo residuo** .  
-3. Nella pagina **Commessa - Calc. utilizzo residuo** , immettere il numero di documento e la data di registrazione che deve essere inserita nelle registrazioni, quindi scegliere **OK** .  
+2. Selezionare una registrazione commessa corrispondente, quindi scegliere l'azione **Calc. utilizzo residuo**.  
+3. Nella pagina **Commessa - Calc. utilizzo residuo**, immettere il numero di documento e la data di registrazione che deve essere inserita nelle registrazioni, quindi scegliere **OK**.  
 4. Aggiornare le registrazioni con tutte le necessarie modifiche.  
-5. Scegliere **Registra** .
+5. Scegliere **Registra**.
 
 ## <a name="to-view-job-ledger-entries"></a>Per visualizzare i movimenti contabili commesse
 Tutti i movimenti correlati a una commessa vengono annotati nei registri commesse e numerati in sequenza a partire da 1. Dal registro commesse è possibile ottenere una panoramica di tutti i movimenti contabili della commessa.    
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registri commesse** e quindi scegliere il collegamento correlato.
-2. Selezionare un registro appropriato quindi scegliere l'azione **Movimenti commesse** .
+2. Selezionare un registro appropriato quindi scegliere l'azione **Movimenti commesse**.
 
 Nella pagina **Movimenti cont. commesse** è possibile esaminare le voci associate a qualsiasi commessa.  
 
@@ -97,4 +97,4 @@ Nella pagina **Movimenti cont. commesse** è possibile esaminare le voci associa
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

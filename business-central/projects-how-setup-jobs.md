@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915353"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758660"
 ---
 # <a name="set-up-jobs"></a>Imposta commesse
 
-In veste di manager del progetto, è possibile configurare le commesse che definiscono ogni progetto gestito in [!INCLUDE[prodshort](includes/prodshort.md)]. Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
+In veste di manager del progetto, è possibile configurare le commesse che definiscono ogni progetto gestito in [!INCLUDE[prod_short](includes/prod_short.md)]. Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
 
 Per ogni commessa, si specificano quindi singole schede commessa con informazioni sui prezzi per gli articoli di commessa, le risorse di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
 
@@ -30,14 +30,14 @@ Per ogni commessa, si specificano quindi singole schede commessa con informazion
 
 ### <a name="to-set-up-job-usage-tracking"></a>Per impostare la tracciabilità dell'utilizzo in una commessa
 
-Quando viene eseguita una commessa, potrebbe essere necessario tenere traccia dell'utilizzo rispetto al piano. Per eseguire questa operazione, è possibile creare un collegamento tra le righe di pianificazione commessa e l'utilizzo effettivo. Ciò consente di tenere traccia dei costi e di visualizzare facilmente il lavoro residuo da svolgere. In base all'impostazione predefinita, il tipo di riga di pianificazione commessa è **Budget** , ma con il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
+Quando viene eseguita una commessa, potrebbe essere necessario tenere traccia dell'utilizzo rispetto al piano. Per eseguire questa operazione, è possibile creare un collegamento tra le righe di pianificazione commessa e l'utilizzo effettivo. Ciò consente di tenere traccia dei costi e di visualizzare facilmente il lavoro residuo da svolgere. In base all'impostazione predefinita, il tipo di riga di pianificazione commessa è **Budget**, ma con il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
 
-Se si seleziona il campo **Applica collegamento utilizzo per default** , è possibile esaminare le informazioni nella riga di pianificazione commessa. È possibile impostare la quantità della risorsa, dell'articolo o il conto di contabilità generale e quindi indicare la quantità da trasferire nelle registrazioni commesse. Il campo **Quantità residua** nella riga di pianificazione commessa indicherà ciò che resta da trasferire e registrare nelle registrazioni commesse.
+Se si seleziona il campo **Applica collegamento utilizzo per default**, è possibile esaminare le informazioni nella riga di pianificazione commessa. È possibile impostare la quantità della risorsa, dell'articolo o il conto di contabilità generale e quindi indicare la quantità da trasferire nelle registrazioni commesse. Il campo **Quantità residua** nella riga di pianificazione commessa indicherà ciò che resta da trasferire e registrare nelle registrazioni commesse.
 
 > [!TIP]  
-> È possibile abilitare o disabilitare la tracciabilità dell'utilizzo in una commessa per una specifica commessa. Il valore del campo **Applica collegamento utilizzo** nella singola scheda commessa sostituisce l'impostazione nella pagina **Setup commesse** .  
+> È possibile abilitare o disabilitare la tracciabilità dell'utilizzo in una commessa per una specifica commessa. Il valore del campo **Applica collegamento utilizzo** nella singola scheda commessa sostituisce l'impostazione nella pagina **Setup commesse**.  
 
-Se la casella di controllo **Applica collegamento utilizzo per default** è selezionata e il tipo di riga di pianificazione commessa è **Fatturabile** , viene creata una riga di pianificazione commessa di tipo **Budget** dopo la registrazione di una riga di registrazione commessa.
+Se la casella di controllo **Applica collegamento utilizzo per default** è selezionata e il tipo di riga di pianificazione commessa è **Fatturabile**, viene creata una riga di pianificazione commessa di tipo **Budget** dopo la registrazione di una riga di registrazione commessa.
 
 > [!IMPORTANT]
 > Se la tracciabilità dell'utilizzo in una commessa è abilitata nella pagina **Jobs Setup** e il campo **Tipo riga** nelle registrazioni commesse è vuoto, vengono create nuove righe di pianificazione commessa di tipo **Budget** quando si registrano le righe di registrazione commessa.  
@@ -45,30 +45,30 @@ Se la casella di controllo **Applica collegamento utilizzo per default** è sele
 > Se la tracciabilità dell'utilizzo in una commessa *non* è abilitata nella pagina **Setup commesse** o nella singola commessa e il campo **Tipo riga** nelle registrazioni commesse è vuoto, non viene creata nessuna riga di pianificazione commessa quando si registrano le righe di registrazione commessa. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup commesse** e quindi scegliere il collegamento correlato.
-2. Selezionare la casella di controllo **Applica collegamento utilizzo per default** .
+2. Selezionare la casella di controllo **Applica collegamento utilizzo per default**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Per impostare i prezzi per le risorse di commessa
-È possibile impostare prezzi specifici per le risorse per una commessa. A tale scopo, utilizzare la pagina **Prezzi risorse commesse** .
+È possibile impostare prezzi specifici per le risorse per una commessa. A tale scopo, utilizzare la pagina **Prezzi risorse commesse**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare la relativa commessa, quindi scegliere l'azione **Risorsa** .
+2. Selezionare la relativa commessa, quindi scegliere l'azione **Risorsa**.
 3. Nella pagina **Prezzi risorse commesse** compilare i campi in base alle esigenze.
 
-Le informazioni opzionali nei campi **Nr. task commessa** , **Tipo di lavoro** , **Codice valuta** , **% sconto riga** e **Fattore costo unitario** verranno visualizzate nelle righe di pianificazione commessa e nelle registrazioni utilizzo quando questa risorsa viene immessa e aggiunta alla commessa.  
+Le informazioni opzionali nei campi **Nr. task commessa**, **Tipo di lavoro**, **Codice valuta**, **% sconto riga** e **Fattore costo unitario** verranno visualizzate nelle righe di pianificazione commessa e nelle registrazioni utilizzo quando questa risorsa viene immessa e aggiunta alla commessa.  
 
 Il valore nel campo **Prezzo unitario** per la risorsa verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immessa questa risorsa, una risorsa assegnata al gruppo di risorse, o qualsiasi risorsa.  
 
 > [!NOTE]  
->   Il prezzo sostituisce sempre qualsiasi prezzo impostato nella pagina **Prezzi risorse/Prezzo gruppo risorse** .
+>   Il prezzo sostituisce sempre qualsiasi prezzo impostato nella pagina **Prezzi risorse/Prezzo gruppo risorse**.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Per impostare i prezzi per gli articoli di commessa
-È possibile impostare prezzi specifici per gli articoli per una commessa. A tale scopo, utilizzare la pagina **Prezzi articoli commesse** .
+È possibile impostare prezzi specifici per gli articoli per una commessa. A tale scopo, utilizzare la pagina **Prezzi articoli commesse**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare la relativa commessa, quindi scegliere l'azione **Articolo** .
+2. Selezionare la relativa commessa, quindi scegliere l'azione **Articolo**.
 3. Nella pagina **Prezzi articoli commesse** compilare i campi in base alle esigenze.
 
-Le informazioni opzionali nei campi **Nr. task commessa** , **Codice valuta** e **% sconto riga** verranno utilizzati nelle righe di pianificazione commessa e nelle registrazioni commesse quando questo articolo verrà immesso o aggiunto alla commessa.  
+Le informazioni opzionali nei campi **Nr. task commessa**, **Codice valuta** e **% sconto riga** verranno utilizzati nelle righe di pianificazione commessa e nelle registrazioni commesse quando questo articolo verrà immesso o aggiunto alla commessa.  
 
 Il valore nel campo **Prezzo unitario** per l'articolo verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo articolo.  
 
@@ -76,13 +76,13 @@ Il valore nel campo **Prezzo unitario** per l'articolo verrà utilizzato nelle r
 >   Questo prezzo sostituisce sempre il normale prezzo cliente (il meccanismo "prezzo migliore") per gli articoli. Se si desidera utilizzare i normali meccanismi per il prezzo cliente, evitare di creare prezzi articoli commesse per la commessa.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Per impostare i prezzi dei conti di contabilità generale delle commesse
-È possibile impostare prezzi specifici per le spese di contabilità generale relative a una commessa. A tale scopo, utilizzare la pagina **Prezzi conti C/G commesse** .
+È possibile impostare prezzi specifici per le spese di contabilità generale relative a una commessa. A tale scopo, utilizzare la pagina **Prezzi conti C/G commesse**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Selezionare la relativa commessa, quindi scegliere l'azione **Conto C/G** .  
+2. Selezionare la relativa commessa, quindi scegliere l'azione **Conto C/G**.  
 3. Nella pagina **Prezzi conti C/G commesse** compilare i campi in base alle esigenze.
 
-Le informazioni opzionali nei campi **Nr. task commessa** , **Codice valuta** , **% sconto riga** , **Fattore costo unitario** e **Costo unitario** verranno utilizzate nelle righe di pianificazione commessa e nelle registrazioni commessa quando questo conto C/G verrà immesso o aggiunto a una commessa.  
+Le informazioni opzionali nei campi **Nr. task commessa**, **Codice valuta**, **% sconto riga**, **Fattore costo unitario** e **Costo unitario** verranno utilizzate nelle righe di pianificazione commessa e nelle registrazioni commessa quando questo conto C/G verrà immesso o aggiunto a una commessa.  
 
 Il valore nel campo **Prezzo unitario** per la spesa di commessa contabile verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo conto C/G.
 
@@ -93,7 +93,7 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 >   I conti necessari devono essere impostati nel Piano dei Conti prima delle categorie di registrazione. Per ulteriori informazioni, vedere [Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md).  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione commesse** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** , quindi compilare i campi dei conti come descritto nella tabella che segue.  
+2. Scegliere l'azione **Nuovo**, quindi compilare i campi dei conti come descritto nella tabella che segue.  
 
 | Campo Conto | Descrizione |
 | --- | --- |
@@ -121,4 +121,4 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

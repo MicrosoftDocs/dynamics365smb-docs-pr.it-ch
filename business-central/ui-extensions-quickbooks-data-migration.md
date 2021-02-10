@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36b6eb6970daef6ea2e3aafc28ed232942707728
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912289"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757135"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Estensione di migrazione dei dati QuickBooks
 
-Questa estensione consente di eseguire la migrazione di clienti, fornitori, articoli e conti da QuickBooks [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se l'azienda al momento utilizza QuickBooks, è possibile esportare le informazioni rilevanti e aprire una guida al setup assistito per caricare i dati in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Questa estensione consente di eseguire la migrazione di clienti, fornitori, articoli e conti da QuickBooks [!INCLUDE[prod_short](includes/prod_short.md)]. Se l'azienda al momento utilizza QuickBooks, è possibile esportare le informazioni rilevanti e aprire una guida al setup assistito per caricare i dati in [!INCLUDE[prod_short](includes/prod_short.md)].  
 Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md).
 
 ## <a name="data-from-quickbooks-desktop"></a>Dati da QuickBooks Desktop
@@ -50,14 +50,14 @@ Una parte importante del processo di migrazione consiste nello specificare i con
 Business Central richiede che i conti di contabilità generale abbaino numeri assegnati ad essi. Assicurarsi che i numeri vengano assegnati ai conti in QuickBooks.
 Se le transazioni in QuickBooks includono importi di imposte, è necessario configurare un conto per le imposte in base alle giurisdizioni fiscali di Business Central prima di registrare le transazioni.
 
-Per ottenere i dati dall'applicazione QuickBooks Desktop sarà necessario scaricare lo strumento di esportazione di dati di Microsoft.  Le istruzioni per lo strumento sono contenute nella procedura di migrazione guidata dati in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lo strumento verrà collegato all'applicazione QuickBooks ed esporterà i dati applicabili in un file .zip.  
+Per ottenere i dati dall'applicazione QuickBooks Desktop sarà necessario scaricare lo strumento di esportazione di dati di Microsoft.  Le istruzioni per lo strumento sono contenute nella procedura di migrazione guidata dati in [!INCLUDE[prod_short](includes/prod_short.md)]. Lo strumento verrà collegato all'applicazione QuickBooks ed esporterà i dati applicabili in un file .zip.  
 
 > [!NOTE]
 > Attualmente lo strumento di esportazione di dati è compatibile solo con QuickBooks 2017 e 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Utilizzo dell'estensione per la migrazione dei dati QuickBooks
 
-L'estensione per la migrazione dei dati QuickBooks si trova nella Guida setup assistito Migrazione dati ed è pronta all'uso. Se si è pronti per iniziare, dopo aver esportato i dati da QuickBooks, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere il collegamento correlato. Scegliere **Migra dati aziendali** , quindi seguire i passaggi nella guida.  
+L'estensione per la migrazione dei dati QuickBooks si trova nella Guida setup assistito Migrazione dati ed è pronta all'uso. Se si è pronti per iniziare, dopo aver esportato i dati da QuickBooks, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere il collegamento correlato. Scegliere **Migra dati aziendali**, quindi seguire i passaggi nella guida.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Operazioni successive alla migrazione dei dati
 
@@ -69,4 +69,4 @@ Verificare i saldi iniziali per i conti della contabilità generale. QuickBooks 
 ## <a name="see-also"></a>Vedi anche
 
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
+[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni ](ui-extensions.md)  

@@ -10,20 +10,20 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1c4e33593cd7d0084d3c41a22a865160411ef01f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 064f7fd7f0737263234b7324c298e513ef91e9c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923513"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757485"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Estensione di migrazione dei dati QuickBooks Online
 
-Questa estensione è inclusa nella Guida setup assistito **Migrazione dati** per semplificare la migrazione dei dati aziendali importanti da QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ad esempio, può essere utile quando l'attività si sviluppa e si è deciso di aggiornare l'app di gestione aziendale cominciando a utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Questa estensione è inclusa nella Guida setup assistito **Migrazione dati** per semplificare la migrazione dei dati aziendali importanti da QuickBooks Online a [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, può essere utile quando l'attività si sviluppa e si è deciso di aggiornare l'app di gestione aziendale cominciando a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Quali dati si possono importare da QuickBooks Online?
 
-È possibile importare i seguenti dati da QuickBooks Online a [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+È possibile importare i seguenti dati da QuickBooks Online a [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Clienti
 * Fornitori
@@ -46,28 +46,28 @@ Una parte importante del processo di migrazione consiste nello specificare i con
 * L'acquisto di articoli o servizi dai fornitori.  
 * Rettifiche nella contabilità generale.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] richiede che i conti di contabilità generale abbaino numeri assegnati ad essi. Assicurarsi che i numeri vengano assegnati ai conti in QuickBooks Online.
+[!INCLUDE[prod_short](includes/prod_short.md)] richiede che i conti di contabilità generale abbaino numeri assegnati ad essi. Assicurarsi che i numeri vengano assegnati ai conti in QuickBooks Online.
 
-Se le transazioni in QuickBooks Online includono importi di imposte, è necessario configurare un conto per le imposte in base alle giurisdizioni fiscali di [!INCLUDE[d365fin](includes/d365fin_md.md)] prima di registrare le transazioni.
+Se le transazioni in QuickBooks Online includono importi di imposte, è necessario configurare un conto per le imposte in base alle giurisdizioni fiscali di [!INCLUDE[prod_short](includes/prod_short.md)] prima di registrare le transazioni.
 
 ## <a name="how-do-i-start-using-the-extension"></a>Operazioni iniziali per l'utilizzo dell'estensione
 
-Iniziare è semplice. È necessario solo eseguire la Guida di setup assistito **Migrazione di dati** . Ecco come:
+Iniziare è semplice. È necessario solo eseguire la Guida di setup assistito **Migrazione di dati**. Ecco come:
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere **Esegui migrazione dati aziendali** .
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere **Esegui migrazione dati aziendali**.
 2. Seguire le istruzioni per ogni passaggio della Guida di setup assistito.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Operazioni successive alla migrazione dei dati
 
-Dopo aver migrato i dati, le transazioni hanno come stato **Non registrata** , quindi è possibile esaminarle e apportare modifiche. Per verificare le transazioni, andare alla pagina in cui vengono in genere visualizzate. Ad esempio, per esaminare le fatture di vendita non registrate, andare alla pagina **Fatture di vendita** . Per verificare le registrazioni pagamenti, andare alla pagina **Registrazioni pagamenti** .  
+Dopo aver migrato i dati, le transazioni hanno come stato **Non registrata**, quindi è possibile esaminarle e apportare modifiche. Per verificare le transazioni, andare alla pagina in cui vengono in genere visualizzate. Ad esempio, per esaminare le fatture di vendita non registrate, andare alla pagina **Fatture di vendita**. Per verificare le registrazioni pagamenti, andare alla pagina **Registrazioni pagamenti**.  
 
 Esistono alcune operazioni consigliate:
 
-* Se le transazioni in QuickBooks Online presentano importi di markup o sconti, è necessario aggiungere manualmente gli importi alle transazioni relative in [!INCLUDE[d365fin](includes/d365fin_md.md)] prima di registrarle.
+* Se le transazioni in QuickBooks Online presentano importi di markup o sconti, è necessario aggiungere manualmente gli importi alle transazioni relative in [!INCLUDE[prod_short](includes/prod_short.md)] prima di registrarle.
 * Se si utilizza l'IVA, può essere necessario aggiungere una categoria di registrazione business e articoli/servizi nel Setup registrazione in modo che sia possibile registrare gli importi IVA.
 * Verificare i saldi iniziali per i conti della contabilità generale. QuickBooks Online non memorizza il saldo attuale per tutti i conti, potrebbe quindi essere necessario correggere i saldi iniziali.
 
 ## <a name="see-also"></a>Vedi anche
 
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
+[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  

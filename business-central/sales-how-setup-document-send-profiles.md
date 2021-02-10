@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 424d497154e9fc8023ba38cbd22859c0874124ec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1ec87cbf0885b392dc92bbd9a25fca81db38c5a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926040"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758160"
 ---
 # <a name="set-up-document-sending-profiles"></a>Impostare profili di invio documenti
-È possibile impostare per ogni cliente un metodo preferito di invio documenti di vendita, in modo da non dover selezionare un'opzione di invio ogni volta che si sceglie l'azione **Registra e invia** .
+È possibile impostare per ogni cliente un metodo preferito di invio documenti di vendita, in modo da non dover selezionare un'opzione di invio ogni volta che si sceglie l'azione **Registra e invia**.
 
 Nella pagina **Profili di invio documenti** si impostano differenti profili di vendita che è possibile selezionare dal campo **Profilo di invio documenti** nella scheda cliente. È possibile selezionare la casella di controllo **Default** per specificare che il profilo di invio documenti è il profilo predefinito per tutti i clienti, eccetto per quelli per i quali il campo **Profilo di invio documenti** è compilato con un altro profilo di invio.
 
@@ -31,7 +31,7 @@ Se si sceglie l'azione **Registra e invia** in un documento di vendita, nella fi
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Per impostare un profilo di invio documenti
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Profili di invio documenti** e quindi scegliere il collegamento correlato.
-2. Nella pagina **Profili di invio documenti** scegliere l'azione **Nuovo** .
+2. Nella pagina **Profili di invio documenti** scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Per specificare un profilo di invio in una scheda cliente
@@ -42,4 +42,4 @@ Se si sceglie l'azione **Registra e invia** in un documento di vendita, nella fi
 ## <a name="see-also"></a>Vedere anche
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

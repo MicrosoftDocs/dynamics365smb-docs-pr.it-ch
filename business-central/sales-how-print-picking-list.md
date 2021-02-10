@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 47ae132d862d2c05bef4ea0d0af26688bdd16588
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926165"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758235"
 ---
 # <a name="print-the-picking-list"></a>Stampare la lista prelievo
 È possibile stampare una lista prelievo magazzino direttamente da un ordine di vendita, una fattura di vendita o qualsiasi altro documento che avvia la spedizione di articoli.
@@ -27,7 +27,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2. Aprire l'ordine di vendita per cui si desidera prelevare gli articoli.  
-3. Scegliere l'azione **Report** , quindi scegliere l'azione **Lista prelievo per ordine** .  
+3. Scegliere l'azione **Report**, quindi scegliere l'azione **Lista prelievo per ordine**.  
 4. Scegliere il pulsante **Stampa** per stampare la lista prelievo oppure scegliere il pulsante **Anteprima** per visualizzarla sullo schermo.
 
 È inoltre possibile salvare la lista prelievo come documento, ad esempio da inviare a qualcuno o da aggiungere come allegato all'ordine di vendita. Per ulteriori informazioni, vedere [Gestire allegati, collegamenti e note in schede e documenti](ui-how-add-link-to-record.md).
@@ -38,4 +38,4 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 ## <a name="see-also"></a>Vedere anche  
 [Magazzino](inventory-manage-inventory.md)  
 [Prelievo degli articoli](warehouse-pick-items.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)   
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

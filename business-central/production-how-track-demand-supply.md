@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3d053de6193593256e404803d61b14f4681dc771
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 25eed1edd8aeb92c875e093a177e59c40d3c3a12
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921559"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758949"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Tenere traccia delle relazioni tra domanda e approvvigionamento
 A partire da qualsiasi documento dell'approvvigionamento o della domanda, è possibile tenere traccia della richiesta dell'ordine (quantità tracciata), della previsione, dell'ordine di vendita programmato o del parametro di pianificazione (quantità non tracciata) che ha generato la riga di pianificazione in questione.
@@ -29,15 +29,15 @@ Di seguito viene descritto come tenere traccia degli articoli collegati in un or
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione confermato** e quindi scegliere il collegamento correlato.
 2. Aprire l'ordine di produzione confermato appropriato dall'elenco.
-3. Nella Scheda dettaglio **Righe** scegliere l'azione **Funzioni** , quindi l'azione **Tracciabilità ordine** .
+3. Nella Scheda dettaglio **Righe** scegliere l'azione **Funzioni**, quindi l'azione **Tracciabilità ordine**.
 
 Nelle righe in **Tracciabilità ordine** vengono visualizzati i documenti collegati alla riga dell'ordine di produzione corrente.
 
 ## <a name="untracked-planning-elements"></a>Elementi di pianificazione non tracciati
-Quando si sceglie il campo **Qtà non tracciata** nella pagina **Pianificazione ordini** , viene visualizzata la pagina **Elementi di pianificazione non tracciati** . Questa finestra è utilizzate per due scopi:
+Quando si sceglie il campo **Qtà non tracciata** nella pagina **Pianificazione ordini**, viene visualizzata la pagina **Elementi di pianificazione non tracciati**. Questa finestra è utilizzate per due scopi:
 
 1. Contenere informazioni sulle quantità non tracciate che vengono visualizzate quando l'utente effettua una ricerca dalla pagina Tracciabilità ordine.
-2. Contenere i messaggi di errore visualizzati quando si sceglie un'icona **Avviso** nella pagina **Prospetto pianificazione** .
+2. Contenere i messaggi di errore visualizzati quando si sceglie un'icona **Avviso** nella pagina **Prospetto pianificazione**.
 
 In questa pagina sono contenuti movimenti che rappresentano una quantità di surplus non tracciata nella rete di tracciabilità dell'ordine. Questi movimenti vengono generati durante l'esecuzione della pianificazione e indicano la provenienza di tale quantità presente nelle righe di tracciabilità dell'ordine. Il surplus non tracciato può derivare dai seguenti elementi:
 
@@ -61,4 +61,4 @@ In questa pagina sono contenuti movimenti che rappresentano una quantità di sur
 [Dettagli di progettazione: Impegno, tracciabilità e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

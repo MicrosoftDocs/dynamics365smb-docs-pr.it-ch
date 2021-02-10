@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 93e517c5fb3c9419b6505ccd3d6e56a325bdd43c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5095b4dde92b2d6982bfc8a984f10f5b62454800
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918381"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756260"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Selezionare e stoccare senza un documento di origine
 Dopo avere stoccato gli articoli e prima di prelevarli per soddisfare le richieste di un ordine di produzione o di una spedizione, gli articoli vengono inclusi tra le giacenze disponibili all'interno della warehouse.  
@@ -35,15 +35,15 @@ Analogamente, gli articoli possono essere restituiti alla warehouse per lo stocc
 
 ## <a name="to-create-an-internal-pick"></a>Per creare un prelievo interno  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievo int. whse.** e quindi scegliere il collegamento correlato.  
-2.  Compilare il campo **Nr.** e il campo **A codice collocazione** nella Scheda dettaglio **Generale** . Il campo **A codice collocazione** indica la collocazione da cui devono essere prelevati gli articoli. Ai fini della produzione, questa collocazione rappresenta la collocazione di produzione in entrata o la collocazione del reparto produttivo aperto. Viceversa, per altri scopi scegliere il campo A codice collocazione immettendo il codice per un tipo di collocazione che non viene utilizzata per il prelievo, in genere una collocazione di stazionamento, una collocazione di spedizione o un collocazione ad uso speciale.  
-3.  Selezionare un articolo nel campo **Nr. articolo** , quindi immettere le quantità che si desidera prelevare.  
-4. Scegliere l'azione **Crea prelievo** . Verrà creata un'istruzione di prelievo indirizzata agli impiegati warehouse.  
+2.  Compilare il campo **Nr.** e il campo **A codice collocazione** nella Scheda dettaglio **Generale**. Il campo **A codice collocazione** indica la collocazione da cui devono essere prelevati gli articoli. Ai fini della produzione, questa collocazione rappresenta la collocazione di produzione in entrata o la collocazione del reparto produttivo aperto. Viceversa, per altri scopi scegliere il campo A codice collocazione immettendo il codice per un tipo di collocazione che non viene utilizzata per il prelievo, in genere una collocazione di stazionamento, una collocazione di spedizione o un collocazione ad uso speciale.  
+3.  Selezionare un articolo nel campo **Nr. articolo**, quindi immettere le quantità che si desidera prelevare.  
+4. Scegliere l'azione **Crea prelievo**. Verrà creata un'istruzione di prelievo indirizzata agli impiegati warehouse.  
 
 ## <a name="to-create-an-internal-put-away"></a>Per creare uno stoccaggio interno  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stocc. int. whse.** e quindi scegliere il collegamento correlato.  
-2.  Compilare il campo **Nr.** e il campo **Dal codice collocazione** nella Scheda dettaglio **Generale** . Il campo **Dal codice collocazione** indica la collocazione in cui vengono posizionati gli articoli restituiti alla warehouse, ad esempio dalla produzione.  
+2.  Compilare il campo **Nr.** e il campo **Dal codice collocazione** nella Scheda dettaglio **Generale**. Il campo **Dal codice collocazione** indica la collocazione in cui vengono posizionati gli articoli restituiti alla warehouse, ad esempio dalla produzione.  
 3.  Immettere i numeri di articolo e le quantità nelle righe appropriate.  
-4.  Selezionare l'azione **Crea stoccaggio** . Verrà creata un'istruzione di stoccaggio indirizzata agli impiegati warehouse.  
+4.  Selezionare l'azione **Crea stoccaggio**. Verrà creata un'istruzione di stoccaggio indirizzata agli impiegati warehouse.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
@@ -51,4 +51,4 @@ Analogamente, gli articoli possono essere restituiti alla warehouse per lo stocc
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

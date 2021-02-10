@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915403"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758985"
 ---
 # <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
 L'utilizzo di un conto lavoro per le operazioni eseguite da un fornitore è prassi comune in numerose aziende manifatturiere. Il conto lavoro può verificarsi raramente oppure essere parte integrante di tutti i processi di produzione.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce diversi strumenti per la gestione delle attività di conto lavoro:  
+[!INCLUDE[prod_short](includes/prod_short.md)] fornisce diversi strumenti per la gestione delle attività di conto lavoro:  
 
 - Aree di produzione con fornitore assegnato: questa funzionalità consente di impostare un'area di produzione associata a un fornitore (terzista). Questa è detta un'area di produzione conto lavoro. È possibile specificare un'area di produzione conto lavoro in un'operazione del ciclo, il che consente di elaborare facilmente l'attività in conto lavoro. Inoltre, il costo dell'operazione può essere designato a livello di ciclo o di area di produzione.  
 - Costo area di produzione basato su unità o tempo: questa funzionalità consente di specificare se i costi associati all'area di produzione sono basati sul tempo di produzione o su un addebito fisso per unità. Benché i terzisti utilizzino in genere una spesa fissa per unità da addebitare per i propri servizi, l'applicazione è in grado di gestire entrambe le opzioni (tempo di produzione e addebito fisso per unità).  
@@ -32,9 +32,9 @@ Le aree di produzione conto lavoro vengono impostate allo stesso modo delle aree
 ### <a name="subcontract-work-center-fields"></a>Campi Area di produzione conto lavoro  
 Il campo **Nr. terzista** designa l'area di produzione come area di produzione conto lavoro. È possibile immettere il numero di un terzista che approvvigiona l'area di produzione. Questo campo può essere utilizzato per amministrare le aree di produzione non interne ma che eseguono l'elaborazione sotto contratto.  
 
-Se il conto lavoro con il fornitore prevede un costo diverso per ogni processo, è possibile selezionare il campo **Costo unitario specifico** . In questo modo, è possibile impostare un costo in ogni riga del ciclo ed evitare di dover reimmettere ogni ordine di acquisto. Il costo nella riga del ciclo viene utilizzato per l'elaborazione al posto del costo indicato nei campi relativi al costo delle aree di produzione. Selezionare il campo **Costo unitario specifico** per calcolare i costi per il fornitore in base all'operazione del ciclo.  
+Se il conto lavoro con il fornitore prevede un costo diverso per ogni processo, è possibile selezionare il campo **Costo unitario specifico**. In questo modo, è possibile impostare un costo in ogni riga del ciclo ed evitare di dover reimmettere ogni ordine di acquisto. Il costo nella riga del ciclo viene utilizzato per l'elaborazione al posto del costo indicato nei campi relativi al costo delle aree di produzione. Selezionare il campo **Costo unitario specifico** per calcolare i costi per il fornitore in base all'operazione del ciclo.  
 
-Se il conto lavoro prevede un unico costo per fornitore, lasciare vuoto il campo **Costo unitario specifico** . I costi verranno impostati compilando i campi **Costo unitario diretto** , **% costi indiretti** e **Coeff. costi generali** .  
+Se il conto lavoro prevede un unico costo per fornitore, lasciare vuoto il campo **Costo unitario specifico**. I costi verranno impostati compilando i campi **Costo unitario diretto**, **% costi indiretti** e **Coeff. costi generali**.  
 
 ### <a name="routings-that-use-subcontract-work-centers"></a>Cicli che utilizzano aree di produzione conto lavoro  
 Le aree di produzione conto lavoro possono essere utilizzate per operazioni nei cicli allo stesso modo delle aree di produzione normali.  
@@ -46,24 +46,24 @@ Per ulteriori informazioni, vedere [Creare cicli](production-how-to-create-routi
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calcolare i prospetti conto lavoro e creare gli ordini di acquisto conto lavoro  
 Dopo avere calcolato il prospetto conto lavoro, viene creato il documento pertinente, in questo caso un ordine di acquisto.  
 
-La pagina **Prospetto conto lavoro** funziona come il **Prospetto pianific.** nel calcolo dell'approvvigionamento necessario, in questo caso degli ordini di acquisto, che si esaminano nel prospetto e quindi si creano mediante la funzione **Esegui messaggi di azione** .  
+La pagina **Prospetto conto lavoro** funziona come il **Prospetto pianific.** nel calcolo dell'approvvigionamento necessario, in questo caso degli ordini di acquisto, che si esaminano nel prospetto e quindi si creano mediante la funzione **Esegui messaggi di azione**.  
 
 > [!NOTE]  
->  È possibile accedere e utilizzare da un prospetto conto lavoro solo gli ordini di produzione con stato **Rilasciato** .  
+>  È possibile accedere e utilizzare da un prospetto conto lavoro solo gli ordini di produzione con stato **Rilasciato**.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Per calcolare il prospetto conto lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto conto lavoro** e quindi scegliere il collegamento correlato.  
-2.  Per calcolare il prospetto, scegliere l'azione **Calcolo conto lavoro** .  
+2.  Per calcolare il prospetto, scegliere l'azione **Calcolo conto lavoro**.  
 3.  Nella pagina **Calcolo conto lavoro** impostare i filtri per le operazioni in conto lavoro o le aree di produzione in cui vengono effettuate, per calcolare soltanto gli ordini di produzione desiderati.  
-4.  Scegliere il pulsante **OK** .  
+4.  Scegliere il pulsante **OK**.  
 
-    Esaminare le righe nella pagina **Prospetto conto lavoro** . Le informazioni presenti in questo prospetto provengono dall'ordine di produzione e dalle righe del ciclo dell'ordine di produzione e vengono trasmesse all'ordine di acquisto quando questo viene creato. Analogamente agli altri prospetti, è possibile eliminare una riga dal prospetto senza influire sulle informazioni generali. Le informazioni verranno visualizzate di nuovo alla successiva esecuzione della funzione **Calcolo conto lavoro** .  
+    Esaminare le righe nella pagina **Prospetto conto lavoro**. Le informazioni presenti in questo prospetto provengono dall'ordine di produzione e dalle righe del ciclo dell'ordine di produzione e vengono trasmesse all'ordine di acquisto quando questo viene creato. Analogamente agli altri prospetti, è possibile eliminare una riga dal prospetto senza influire sulle informazioni generali. Le informazioni verranno visualizzate di nuovo alla successiva esecuzione della funzione **Calcolo conto lavoro**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Per creare l'ordine di acquisto conto lavoro  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto conto lavoro** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Esegui messaggi di azione** .  
+2.  Scegliere l'azione **Esegui messaggi di azione**.  
 3.  Selezionare il campo **Stampa ordini** per stampare l'ordine di acquisto mentre viene creato.  
-4.  Scegliere il pulsante **OK** .  
+4.  Scegliere il pulsante **OK**.  
 
 Se tutte le operazioni di conto lavoro devono essere inviate alla stessa ubicazione fornitore, allora verrà creato un unico ordine di acquisto.  
 
@@ -76,9 +76,9 @@ Dopo avere creato gli ordini di acquisto conto lavoro, è possibile registrarli.
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
 2.  Aprire un ordine di acquisto creato dal prospetto conto lavoro.  
 
-    Nelle righe ordine di acquisto è possibile visualizzare le stesse informazioni presenti nel prospetto. I campi **Nr. ordine produzione** , **Nr. riga ordine prod.** , **Nr. operazione** e **Nr. area produzione** vengono compilati con le informazioni dall'ordine di produzione di origine.  
+    Nelle righe ordine di acquisto è possibile visualizzare le stesse informazioni presenti nel prospetto. I campi **Nr. ordine produzione**, **Nr. riga ordine prod.**, **Nr. operazione** e **Nr. area produzione** vengono compilati con le informazioni dall'ordine di produzione di origine.  
 
-3.  Scegliere l'azione **Registra** .  
+3.  Scegliere l'azione **Registra**.  
 
 Quando l'acquisto viene registrato come ricevuto, viene automaticamente registrato un movimento delle registrazioni di output per l'ordine di produzione. Questa opzione è valida solo se l'operazione di conto lavoro è l'ultima del ciclo ordine di produzione.  
 
@@ -95,4 +95,4 @@ Quando l'ordine di acquisto viene registrato come fatturato, il costo diretto de
 [Pianif.](production-planning.md)      
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

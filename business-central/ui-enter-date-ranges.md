@@ -11,26 +11,26 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912489"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757385"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] offre diversi modi per immettere date e orari, incluse potenti funzionalità per accelerare l'immissione dei dati o scrivere espressioni di calendario complesse. È possibile immettere date e orari nei campi in diversi punti dell'applicazione. Ad esempio, in un ordine di vendita, è possibile impostare la data di spedizione. Quando si filtrano gli elenchi o i dati dei report, è possibile immettere date e orari per contrassegnare solo i dati a cui si è interessati.
+[!INCLUDE[prod_short](includes/prod_long.md)] offre diversi modi per immettere date e orari, incluse potenti funzionalità per accelerare l'immissione dei dati o scrivere espressioni di calendario complesse. È possibile immettere date e orari nei campi in diversi punti dell'applicazione. Ad esempio, in un ordine di vendita, è possibile impostare la data di spedizione. Quando si filtrano gli elenchi o i dati dei report, è possibile immettere date e orari per contrassegnare solo i dati a cui si è interessati.
 
 ## <a name="check-your-region-and-language-settings"></a>Verificare le impostazioni di lingua e paese
 La pagina **Impostazioni personali** specifica la **Regione** e il **Linguaggio** che si sta utilizzando nell'applicazione. Queste impostazioni influenzano le modalità di immissione delle date e ore.
 
 -   L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.
 
--   Per gli schemi di date che coinvolgono le parole, la lingua delle parole utilizzate deve corrispondere all'impostazione della **Lingua** .
+-   Per gli schemi di date che coinvolgono le parole, la lingua delle parole utilizzate deve corrispondere all'impostazione della **Lingua**.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utilizza il sistema di calendario gregoriano.
+> [!INCLUDE[prod_short](includes/prod_long.md)] utilizza il sistema di calendario gregoriano.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -72,19 +72,19 @@ In un campo di data è possibile immettere due, quattro, sei o otto cifre:
 
 ### <a name="today"></a>Oggi
 
-Immettere la parola corrispondente a oggi nella lingua impostata in **Lingua** . La data verrà impostata così sulla data corrente. Invece di immettere la parola intera, è possibile immettere una parte della parola, a partire dall'inizio, ad esempio o oppure og, purché non sia anche l'inizio di un'altra parola.
+Immettere la parola corrispondente a oggi nella lingua impostata in **Lingua**. La data verrà impostata così sulla data corrente. Invece di immettere la parola intera, è possibile immettere una parte della parola, a partire dall'inizio, ad esempio o oppure og, purché non sia anche l'inizio di un'altra parola.
 
 ### <a name="period"></a>Periodo
 
-Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/20** , p1 oppure soltanto p filtra il primo periodo contabile dell'anno fiscale 2020 (come 01/01/20..31/01/20). p15 filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2020 (come 01/03/21..31/03/21).
+Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/20**, p1 oppure soltanto p filtra il primo periodo contabile dell'anno fiscale 2020 (come 01/01/20..31/01/20). p15 filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2020 (come 01/03/21..31/03/21).
 
-I periodi contabili sono definiti nella pagina **Periodi contabili** . Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
+I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="current-work-date"></a>Data di lavoro corrente
 
 La funzionalità della data di lavoro consente di registrare le transizioni utilizzando una data diversa dalla data corrente.
 
-La parola "data di lavoro", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina **Impostazioni personali** . Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
+La parola "data di lavoro", nella lingua impostata in **Lingua** imposterà la data sulla data di lavoro attualmente impostata e specificata nella pagina **Impostazioni personali**. Anziché immettere l'intera parola, è possibile immettere una parte della parola, ad esempio "l" o "lavoro".
 
 Se non è stata definita una data di lavoro, per tale valore verrà automaticamente utilizzata la data corrente. Potrebbe essere necessario utilizzare una data di lavoro se sono presenti molte transazioni con una data diversa da quella odierna.
 
@@ -98,7 +98,7 @@ Per specificare che si tratta di una data di chiusura, immettere C prima della d
 
 ### <a name="examples"></a>Esempi
 
-Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati. Presuppone le impostazioni di paese con formato di data **anno.mese.giorno.** , una settimana che inizia il lunedì e la lingua inglese.
+Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati. Presuppone le impostazioni di paese con formato di data **anno.mese.giorno.**, una settimana che inizia il lunedì e la lingua inglese.
 
 |**Immissione**      |**Interpretazione**      |
 |---------------|------------------------|
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Nella tabella seguente sono indicati i diversi formati in cui è possibile immet
 
 Non è possibile utilizzare 24:00 per indicare la mezzanotte oppure utilizzare qualsiasi valore superiore a 24:00.
 
-La parola per "ora" nella lingua usata da [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verrà valutata per l'ora corrente del computer o dispositivo mobile in uso. È possibile immettere qualsiasi parte della parola, a partire dall'inizio, come o oppure ORA.
+La parola per "ora" nella lingua usata da [!INCLUDE[prod_short](includes/prod_long.md)] verrà valutata per l'ora corrente del computer o dispositivo mobile in uso. È possibile immettere qualsiasi parte della parola, a partire dall'inizio, come o oppure ORA.
 
 ## <a name="entering-combined-dates-and-times"></a>Immissione di date e ore combinate
 Quando si immettono dati di tipo datetime che corrispondono a una data e un'ora combinate in un campo, è necessario inserire uno spazio tra la data e l'ora. La parte della data può contenere solo spazi nella forma del separatore della data ufficiale delle impostazioni del paese. L'ora può contenere spazi attorno all'indicatore AM / PM.
@@ -366,6 +366,6 @@ Per visualizzare l'unità di misura utilizzata in un campo di durata, immettere 
 Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
 
 ## <a name="see-also"></a>Vedere anche
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
 [Immissione di criteri di filtro](ui-enter-criteria-filters.md)  

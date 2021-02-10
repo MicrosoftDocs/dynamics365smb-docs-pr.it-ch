@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915328"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757885"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Registrare note di credito e ordini di assistenza
 Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente.  
@@ -52,7 +52,7 @@ Durante la registrazione dell'ordine, verranno creati i movimenti contabili e i 
 
 ## <a name="to-batch-post-service-orders"></a>Per registrare gli ordini di assistenza tramite processo batch
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Registra batch** .  
+2. Scegliere l'azione **Registra batch**.  
 3.  È possibile impostare un filtro per selezionare numeri d'ordine d'assistenza specifici o un intervallo di numeri d'ordine per eseguire il processo batch.  
 4.  Selezionare **OK** per avviare il processo batch.  
 
@@ -60,11 +60,11 @@ Durante la registrazione dell'ordine, verranno creati i movimenti contabili e i 
 Dopo avere creato e compilato una nota di credito di assistenza, è possibile registrare la nota di credito. Se durante la registrazione vengono rilevati errori o informazioni mancanti, il processo verrà interrotto e verrà visualizzato un messaggio di errore.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito assistenza** e quindi scegliere il collegamento correlato.  
-2. Creare una nuova nota di credito di assistenza. Scegliere l'azione **Nuovo** .  
+2. Creare una nuova nota di credito di assistenza. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi necessari.  
-4. Scegliere l'azione **Registra** . Se si desidera stampare la nota di credito contemporaneamente alla registrazione, scegliere l'azione **Registra e stampa** .  
-5. Per testare le note di credito prima di registrarle, scegliere **Report test** . Quando si esegue il report, vengono verificate le date di registrazione specificate nel documento.  
-6. Per registrare più note di credito di assistenza contemporaneamente. eseguire il processo batch **Registra batch note cr. assistenza** . Ciò rappresenta un vantaggio se vi è un gran numero di note di credito da registrare.  
+4. Scegliere l'azione **Registra**. Se si desidera stampare la nota di credito contemporaneamente alla registrazione, scegliere l'azione **Registra e stampa**.  
+5. Per testare le note di credito prima di registrarle, scegliere **Report test**. Quando si esegue il report, vengono verificate le date di registrazione specificate nel documento.  
+6. Per registrare più note di credito di assistenza contemporaneamente. eseguire il processo batch **Registra batch note cr. assistenza**. Ciò rappresenta un vantaggio se vi è un gran numero di note di credito da registrare.  
 
 > [!NOTE]  
 >  Prima di registrare le note di credito mediante il processo batch, è importante immettere tutte le informazioni necessarie. In caso contrario la registrazione potrebbe non avvenire correttamente. Al termine della registrazione da parte del processo batch, verrà visualizzato un messaggio con il numero delle note di credito di assistenza registrate.  
@@ -74,30 +74,30 @@ La procedura seguente indica le modalità di registrazione degli articoli, delle
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l' ordine di assistenza per cui registrare il consumo.  
-3. Scegliere l'articolo in assistenza. Scegliere l'azione **Righe assistenza** .  
-4. Individuare i movimenti necessari e specificare le quantità di cui si desidera registrare il consumo nel campo **Qtà da consumare** . La quantità non può essere maggiore della quantità già spedita né di quella rimanente, ma non fatturata dopo la fatturazione parziale della spedizione.  
+3. Scegliere l'articolo in assistenza. Scegliere l'azione **Righe assistenza**.  
+4. Individuare i movimenti necessari e specificare le quantità di cui si desidera registrare il consumo nel campo **Qtà da consumare**. La quantità non può essere maggiore della quantità già spedita né di quella rimanente, ma non fatturata dopo la fatturazione parziale della spedizione.  
 
     > [!NOTE]  
-    >  Per registrare il consumo relativamente a una commessa, compilare i campi **Nr. commessa** , **Nr. task commessa** e **Tipo riga commessa** della riga di assistenza.  
+    >  Per registrare il consumo relativamente a una commessa, compilare i campi **Nr. commessa**, **Nr. task commessa** e **Tipo riga commessa** della riga di assistenza.  
 
-5. Scegliere le righe da registrare e scegliere l'azione **Registra** . Nella pagina visualizzata selezionare **Spedizione e consumo** .  
+5. Scegliere le righe da registrare e scegliere l'azione **Registra**. Nella pagina visualizzata selezionare **Spedizione e consumo**.  
 
 L'assistenza viene registrata come parzialmente o completamente consumata, a seconda del valore nel campo **Qtà da consumare** e vengono creati i movimenti contabili pertinenti. I documenti di spedizione assistenza registrati in precedenza vengono inoltre aggiornati cronologicamente con le quantità consumate. Le quantità pertinenti verranno aggiornate nelle righe di assistenza dell'ordine.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Per registrare spedizioni da ordini di assistenza  
-Dopo avere specificato i dettagli relativi a un servizio di assistenza, è possibile rettificare e registrare le quantità degli articoli utilizzati, il tempo impiegato e i costi sostenuti. In [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno apportate le modifiche necessarie per riflettere il nuovo stato del magazzino e lo stato corrente del processo di gestione dell'ordine specifico.  
+Dopo avere specificato i dettagli relativi a un servizio di assistenza, è possibile rettificare e registrare le quantità degli articoli utilizzati, il tempo impiegato e i costi sostenuti. In [!INCLUDE[prod_short](includes/prod_short.md)] verranno apportate le modifiche necessarie per riflettere il nuovo stato del magazzino e lo stato corrente del processo di gestione dell'ordine specifico.  
 
 Nella seguente procedura viene illustrato come registrare la spedizione di articoli nelle righe di assistenza in ubicazioni non impostate per richiedere la gestione in warehouse.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine assistenza** e quindi scegliere il collegamento correlato. 2. Nella pagina relativa all'ordine di assistenza selezionato, scegliere **Azioni** , **Ordine** , **Righe assistenza** .  
-3. Nella pagina **Righe assistenza** individuare i movimenti appropriati e specificare la quantità da registrare nel campo **Qtà da spedire** .  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine assistenza** e quindi scegliere il collegamento correlato. 2. Nella pagina relativa all'ordine di assistenza selezionato, scegliere **Azioni**, **Ordine**, **Righe assistenza**.  
+3. Nella pagina **Righe assistenza** individuare i movimenti appropriati e specificare la quantità da registrare nel campo **Qtà da spedire**.  
 
    > [!NOTE]  
-   >  Il valore della quantità da spedire viene stabilito in base alla registrazione parziale o completa della spedizione. Se la spedizione è completa, il valore del campo **Qtà da spedire** deve corrispondere a quello specificato nel campo **Quantità** . Se invece si registra una spedizione parziale, è necessario specificare la quantità da spedire inizialmente. Se una parte dei servizi di assistenza dell'ordine sono già stati spediti, è necessario tenerne nota nel campo **Quantità spedita** . La quantità massima che è possibile immettere nel campo **Qtà da spedire** è costituita dal numero di unità non ancora spedite.  
+   >  Il valore della quantità da spedire viene stabilito in base alla registrazione parziale o completa della spedizione. Se la spedizione è completa, il valore del campo **Qtà da spedire** deve corrispondere a quello specificato nel campo **Quantità**. Se invece si registra una spedizione parziale, è necessario specificare la quantità da spedire inizialmente. Se una parte dei servizi di assistenza dell'ordine sono già stati spediti, è necessario tenerne nota nel campo **Quantità spedita**. La quantità massima che è possibile immettere nel campo **Qtà da spedire** è costituita dal numero di unità non ancora spedite.  
 
-4. Scegliere l'azione **Registra** . Nella pagina visualizzata, selezionare il pulsante **Spedizione** .
+4. Scegliere l'azione **Registra**. Nella pagina visualizzata, selezionare il pulsante **Spedizione**.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] vengono creati i movimenti contabili, ovvero i movimenti garanzia, articolo, assistenza o C/G, generati i documenti di spedizione di assistenza registrati e aggiornati i campi corrispondenti nelle righe di assistenza dell'ordine relativo.  
 
 Se l'ubicazione è impostata in modo da richiedere la gestione warehouse, la spedizione e la movimentazione degli articoli nelle righe di assistenza funzionano allo stesso modo di altri documenti di origine. La sola differenza sta nel fatto che gli articoli nelle righe di assistenza possono essere consumati esternamente o internamente e pertanto richiedono in due diverse funzioni di rilascio.  
 
@@ -108,8 +108,8 @@ Per informazioni sulla spedizione degli articoli nelle configurazioni di warehou
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni assistenza registrate** e quindi scegliere il collegamento correlato.  
 2. Aprire la spedizione di assistenza registrata per cui è stato registrato il consumo errato.  
-3. Scegliere l'azione **Righe spedizioni assistenza** .  
-4. Scegliere le righe contenenti il consumo non corretto, quindi scegliere l'azione **Annulla consumo** .  
+3. Scegliere l'azione **Righe spedizioni assistenza**.  
+4. Scegliere le righe contenenti il consumo non corretto, quindi scegliere l'azione **Annulla consumo**.  
 
  Nei campi relativi alla quantità delle righe selezionate verrà inserita una riga di spedizione di assistenza di contropartita con valori negativi.  
   
@@ -125,9 +125,9 @@ Se in un ordine di assistenza è necessario eseguire operazioni per un elevato p
 Nella procedura seguente viene descritta la registrazione della spedizione direttamente da un ordine di assistenza nelle ubicazioni senza setup di gestione warehouse. Se l'ubicazione è impostata per richiedere la gestione warehouse, la registrazione della spedizione avviene in un documento di warehouse diverso, a seconda del setup dell'ubicazione.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
-2. Aprire l'ordine di assistenza, quindi scegliere l'azione **Righe assistenza** .  
-4. Sulle righe da registrare, compilare i campi **Qtà da spedire** , **Qtà da fatturare** e **Qtà da consumare** , in base alle modalità di registrazione delle righe.  
-5. Scegliere l'azione **Registra** .
+2. Aprire l'ordine di assistenza, quindi scegliere l'azione **Righe assistenza**.  
+4. Sulle righe da registrare, compilare i campi **Qtà da spedire**, **Qtà da fatturare** e **Qtà da consumare**, in base alle modalità di registrazione delle righe.  
+5. Scegliere l'azione **Registra**.
 
 ## <a name="see-also"></a>Vedere anche  
 [Pubblicazione nella gestione assistenza](service-service-posting.md)  
