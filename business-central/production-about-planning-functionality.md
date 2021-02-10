@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b6999be84e2fdaca2eefef41c339c366c330a3dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 12ab5bbc374e40d029acaec27c7eb3596fe19d1a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925048"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759485"
 ---
 # <a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
 
@@ -97,7 +97,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Parametri di pian
 Nella maggior parte degli ordini di approvvigionamento, ad esempio gli ordini di produzione, è possibile selezionare **Illimitata** o **Nessuna** nel campo **Flessibilità pianificazione** delle righe.
 
 Ciò indica se l'approvvigionamento rappresentato dalla riga dell'ordine di produzione viene considerato dal sistema di pianificazione durante il calcolo dei messaggi d'azione.
-Se nel campo è impostato il valore **Illimitata** , il sistema di pianificazione include la riga nel calcolo dei messaggi di azione. Se nel campo è impostato il valore **Nessuna** , la riga sarà fissa e non modificabile e non verrà inserita nel calcolo dei messaggi di azione.
+Se nel campo è impostato il valore **Illimitata**, il sistema di pianificazione include la riga nel calcolo dei messaggi di azione. Se nel campo è impostato il valore **Nessuna**, la riga sarà fissa e non modificabile e non verrà inserita nel calcolo dei messaggi di azione.
 
 ### <a name="warning"></a>Avviso
 
@@ -148,7 +148,7 @@ La pagina **Richiesta di approvvigionamento** viene elenca gli articoli da ordin
 
 - Immettere gli articoli manualmente nella richiesta e compilare i relativi campi.
 
-- Utilizzare il processo batch **Calcola piano** . Calcola un piano di rifornimento per gli articoli e le unità di stockkeeping il cui sistema di rifornimento è impostato su **Acquisto** o **Trasferimento** . Quando si utilizza questo processo batch, il campo **Messaggio azione** viene compilato automaticamente con un suggerimento di azione che è possibile adottare per il rifornimento dell'articolo. Può trattarsi di aumentare la quantità dell'articolo in un ordine esistente o creare un nuovo ordine, ad esempio.
+- Utilizzare il processo batch **Calcola piano**. Calcola un piano di rifornimento per gli articoli e le unità di stockkeeping il cui sistema di rifornimento è impostato su **Acquisto** o **Trasferimento**. Quando si utilizza questo processo batch, il campo **Messaggio azione** viene compilato automaticamente con un suggerimento di azione che è possibile adottare per il rifornimento dell'articolo. Può trattarsi di aumentare la quantità dell'articolo in un ordine esistente o creare un nuovo ordine, ad esempio.
 
 - Se è stato utilizzato il processo batch **Calcola Piano** dalla pagina **Prospetto pianificazione** per calcolare un piano di rifornimento, sarà possibile utilizzare il processo batch **Esegui messaggi di azione** per copiare le proposte di ordine di acquisto e di trasferimento dal prospetto di pianificazione alla richiesta di approvvigionamento. Ciò si rivela particolarmente utile se la responsabilità della gestione degli ordini di produzione e degli ordini di acquisto/trasferimento è affidata a utenti distinti.
 
@@ -156,7 +156,7 @@ La pagina **Richiesta di approvvigionamento** viene elenca gli articoli da ordin
 
 - È possibile utilizzare l'azione **Ordine speciale** per compilare le righe della richiesta di approvvigionamento. Questa azione utilizza il processo batch **Prendi ordini vendite** per determinare le righe dell'ordine di vendita da indicare per un ordine speciale.
 
-Le righe della richiesta di approvvigionamento contengono informazioni dettagliate relative agli articoli da riordinare. È possibile modificare ed eliminare le righe per rettificare il piano di rifornimento, nonché elaborare ulteriormente le righe utilizzando il processo batch **Esegui messaggi di azione** .
+Le righe della richiesta di approvvigionamento contengono informazioni dettagliate relative agli articoli da riordinare. È possibile modificare ed eliminare le righe per rettificare il piano di rifornimento, nonché elaborare ulteriormente le righe utilizzando il processo batch **Esegui messaggi di azione**.
 
 Per dettagli sulla pianificazione con posizioni e trasferimenti, vedere [Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md).
 
@@ -169,4 +169,4 @@ Per dettagli sulla pianificazione con posizioni e trasferimenti, vedere [Pianifi
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

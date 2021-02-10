@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a4fa309b776fd0a11fafbde1df9f93b6583eddb0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bd6392753b41ac080fd0933f9f3a55ddc17a2a54
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916819"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759635"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
 Per una valutazione corretta, è necessario includere nei movimenti di magazzino tutti i costi aggiuntivi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli. Per gli acquisti, il costo franco di tutte le spese allo sbarco di un articolo acquistato è dato dal prezzo di acquisto del fornitore più tutti gli addebiti articolo diretti aggiuntivi che è possibile assegnare ai singoli carichi o alle singole spedizioni di reso. Per le vendite, per un'azienda conoscere il costo della spedizione di articoli venduti è altrettanto importante che conoscere il costo franco di tutte le spese di sbarco degli articoli acquistati.
@@ -55,17 +55,17 @@ Se si conosce l'addebito articolo nel momento in cui si registra una fattura di 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
 2. Creare una nuova fattura di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 3. Assicurarsi che la fattura di acquisto abbia una o più righe di tipo Articolo.
-4. In una nuova riga selezionare **Addebito (Articolo)** nel campo **Tipo** .
+4. In una nuova riga selezionare **Addebito (Articolo)** nel campo **Tipo**.
 5. Nel campo **Quantità** immettere il numero di unità dell'addebito articolo che sono state fatturate.
 6. Nel campo **Costo Diretto Unitario** immettere l'importo dell'addebito articolo.
 7. Compilare i rimanenti campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Nei seguenti passaggi, verrà effettuata l'assegnazione effettiva. Finché l'addebito articolo non è assegnato completamente, il valore nel campo **Qtà da assegnare** verrà visualizzato con carattere rosso.
-8. Nella Scheda dettaglio **Righe** fare clic sull'azione **Assegnazione addebito articolo** .
+8. Nella Scheda dettaglio **Righe** fare clic sull'azione **Assegnazione addebito articolo**.
 
-    Verrà visualizzata la pagina **Assegnazione addebito articolo** che mostra una riga per ogni riga di tipo Articolo nella fattura di acquisto. Per assegnare l'addebito articolo a una o più righe della fattura, è possibile utilizzare una funzione che assegna e distribuisce l'addebito automaticamente oppure è possibile compilare manualmente il campo **Qtà da assegnare** . Nei seguenti passaggi viene descritto come utilizzare la funzione Suggerisci assegnazione addebiti articoli.
+    Verrà visualizzata la pagina **Assegnazione addebito articolo** che mostra una riga per ogni riga di tipo Articolo nella fattura di acquisto. Per assegnare l'addebito articolo a una o più righe della fattura, è possibile utilizzare una funzione che assegna e distribuisce l'addebito automaticamente oppure è possibile compilare manualmente il campo **Qtà da assegnare**. Nei seguenti passaggi viene descritto come utilizzare la funzione Suggerisci assegnazione addebiti articoli.
 
-9. Nella pagina **Assegnazione addebito articolo** , selezionare l'azione **Suggerisci assegnazione addebiti articoli** .
+9. Nella pagina **Assegnazione addebito articolo**, selezionare l'azione **Suggerisci assegnazione addebiti articoli**.
 10. Se vi sono più di una riga fattura di tipo Articolo, selezionare una delle quattro opzioni di distribuzione.  
 
 Finché l'addebito articolo è assegnato completamente, il valore nel campo **Qtà da assegnare** nella fattura di acquisto verrà visualizzato come zero.
@@ -75,9 +75,9 @@ L'addebito è ora assegnato alla fattura di acquisto. Quando si registra il cari
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo da una fattura distinta alla fattura di acquisto per l'articolo
 Se si riceve una fattura per l'addebito articolo dopo aver effettuato la registrazione del carico dell'acquisto originale, attenersi alla procedura seguente.
 1. Ripetere i passaggi da 1 a 8 della sezione [Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
-2. Nella pagina **Assegnaz. addebito art.** scegliere l'azione **Prendi righe di carico** .
-3. Nella pagina **Righe carico acq.** selezionare il carico di acquisto registrato per l'articolo a cui si desidera assegnare l'addebito quindi scegliere **OK** .
-4. Scegliere l'azione **Suggerisci ass. addebiti art.** .
+2. Nella pagina **Assegnaz. addebito art.** scegliere l'azione **Prendi righe di carico**.
+3. Nella pagina **Righe carico acq.** selezionare il carico di acquisto registrato per l'articolo a cui si desidera assegnare l'addebito quindi scegliere **OK**.
+4. Scegliere l'azione **Suggerisci ass. addebiti art.**.
 
 Gli addebiti articoli nella fattura di acquisto distinta vengono ora assegnati all'articolo nel carico di acquisto registrato, viene quindi aggiornato il valore di magazzino dell'articolo con il costo dell'addebito articolo.
 
@@ -85,4 +85,4 @@ Gli addebiti articoli nella fattura di acquisto distinta vengono ora assegnati a
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

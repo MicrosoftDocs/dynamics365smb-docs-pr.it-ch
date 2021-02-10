@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 68844bd869e2e0437ae53ad507e8d2c752c5496f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916619"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759435"
 ---
 # <a name="set-up-standard-routing-lines"></a>Impostare righe di ciclo standard
 
@@ -24,15 +24,15 @@ L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli.
 ## <a name="to-set-up-a-standard-task"></a>Per impostare un task standard
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Task standard** e quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Nuovo** .
+2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Scegliere l'azione **Strumenti** , **Personale** , **Descrizione** o **Strumenti** , quindi, nella pagina visualizzata, aggiungere l'articolo pertinente.
+4. Scegliere l'azione **Strumenti**, **Personale**, **Descrizione** o **Strumenti**, quindi, nella pagina visualizzata, aggiungere l'articolo pertinente.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Per aggiungere un task standard a un'operazione
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cicli** e quindi scegliere il collegamento correlato.
 2. Aprire il ciclo pertinente.
-3. Selezionare una riga del ciclo pertinente, scegliere l'azione **Operazioni** , quindi scegliere l'azione **Strumenti** , **Personale** , **Descrizione** oppure **Strumenti** .
+3. Selezionare una riga del ciclo pertinente, scegliere l'azione **Operazioni**, quindi scegliere l'azione **Strumenti**, **Personale**, **Descrizione** oppure **Strumenti**.
 
 Quando si stampa il foglio di ciclo, è possibile scegliere di includere gli elementi dell'attività standard aggiunta alle righe di ciclo.
 
@@ -45,4 +45,4 @@ Quando si stampa il foglio di ciclo, è possibile scegliere di includere gli ele
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

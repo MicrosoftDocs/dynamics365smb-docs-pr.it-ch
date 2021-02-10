@@ -8,12 +8,12 @@ ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912814"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817274"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Inviare avvisi su normative specifiche di un paese/area geografica
 
@@ -25,13 +25,13 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
     Verranno visualizzati i progetti a cui si ha accesso.
 
-2. Selezionare il progetto **Avvisi normativi - In tutto il mondo** .
+2. Selezionare il progetto **Avvisi normativi - In tutto il mondo**.
 
     Verrà aperto il progetto e verranno visualizzati vari elementi relativi a tale progetto.
 
-3. Selezionare **Servizio avviso** sul lato destro nella sezione **Altri strumenti** .
+3. Selezionare **Servizio avviso** sul lato destro nella sezione **Altri strumenti**.
 
-    Verrà visualizzato un elenco di avvisi con l'intestazione **Invio avviso normativo Dynamics** .
+    Verrà visualizzato un elenco di avvisi con l'intestazione **Invio avviso normativo Dynamics**.
 
 4. È possibile aggiungere un nuovo avviso facendo clic sul segno più **(+)** nella parte superiore dell'elenco.
 
@@ -48,10 +48,10 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
         |Campo        |Description                               |
         |-------------|------------------------------------------|
-        |Titolo  | Immettere un titolo descrittivo per identificare l'area interessata. Ad esempio, immettere *Modifiche nel documento di fatturazione dal 1° luglio 2019* . |
+        |Titolo  | Immettere un titolo descrittivo per identificare l'area interessata. Ad esempio, immettere *Modifiche nel documento di fatturazione dal 1° luglio 2019*. |
         |Description  | Immettere una breve sintesi della legge. La descrizione deve riguardare i problemi pertinenti alla pianificazione delle risorse aziendali (ERP), in modo che gli utenti possano comprendere i requisiti senza dover dapprima leggere la legislazione.|
         |Paese  | Specificare il paese o la l'area geografica a cui la legislazione si applica.|
-        |Settore| Specificare il settore se il requisito si applica soltanto a uno specifico settore. Ad esempio, scegliere **Settore pubblico** , **Vendita al dettaglio** o **Produzione** .|
+        |Settore| Specificare il settore se il requisito si applica soltanto a uno specifico settore. Ad esempio, scegliere **Settore pubblico**, **Vendita al dettaglio** o **Produzione**.|
         |Riferimento funzionalità  | Questo campo non è pertinente a Dynamics 365 Business Central, ma è possibile immettere un riferimento funzionalità, se lo si conosce. L'elenco delle funzionalità per un determinato paese è disponibile nel [portale di localizzazione](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) sul sito CustomerSource. |
         |Data imposta per legge  | Specificare la data a partire dalla quale i clienti interessati devono conformarsi alla legge.|
         |Data annuncio governativo  | Specificare la data in cui l'autorità ha annunciato la modifica.|
@@ -74,9 +74,9 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
 ## <a name="see-also"></a>Vedere anche
 
-[Funzionalità locale in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Funzionalità locale in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Modifica di lingua e impostazioni locali](about-locale-language.md)  
 [Introduzione](product-get-started.md)  
 [Benvenuto su Business Central](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

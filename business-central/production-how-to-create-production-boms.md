@@ -1,5 +1,5 @@
 ---
-title: Come creare distinte base di produzione | Microsoft Docs
+title: Come creare distinte base produzione
 description: Una DB di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella pagina **Componenti ordine produzione** .
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919306"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838500"
 ---
 # <a name="create-production-boms"></a>Creare le distinte base di produzione
+
 Una distinta base (DB) di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella pagina **Componenti ordine produzione** .
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supporta anche le DB di assemblaggio. Utilizzare gli ordini di assemblaggio per la creazione di articoli finali dai componenti in un semplice processo che può essere svolto da una o più risorse di base, che non sono centri di lavoro o aree di produzione, né privi di risorse. Ad esempio, un processo di assemblaggio potrebbe consistere nel prelevare due bottiglie di vino e un pacchetto di caffè, quindi di imballarli come articolo da regalo. Per ulteriori informazioni, vedere [DB di assemblaggio o DB di produzione](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] supporta anche le DB di assemblaggio. Utilizzare gli ordini di assemblaggio per la creazione di articoli finali dai componenti in un semplice processo che può essere svolto da una o più risorse di base, che non sono centri di lavoro o aree di produzione, né privi di risorse. Ad esempio, un processo di assemblaggio potrebbe consistere nel prelevare due bottiglie di vino e un pacchetto di caffè, quindi di imballarli come articolo da regalo. Per ulteriori informazioni, vedere [DB di assemblaggio o DB di produzione](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Prima di poter configurare un ciclo, è necessario verificare quanto segue:  
 
@@ -29,26 +30,26 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 
 ## <a name="to-create-a-production-bom"></a>Per creare una DB di produzione  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **DB produzione** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** .  
+2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Per modificare la distinta base di produzione, impostare il campo **Stato** su **Nuova** o **In sviluppo** . Per attivarla, impostare lo **Stato** su **Certificato** .  
+4. Per modificare la distinta base di produzione, impostare il campo **Stato** su **Nuova** o **In sviluppo**. Per attivarla, impostare lo **Stato** su **Certificato**.  
 
     Compilare le righe della DB di produzione.
 5. Nel campo **Tipo** specificare se l'articolo visualizzato in questa riga della distinta base è un articolo normale o una distinta base di produzione. In tal caso, è necessario che esista già come distinta base di produzione certificata.  
 6.  Nel campo **Nr.** cercare e selezionare l'articolo o la distinta base di produzione desiderata oppure immetterla nel campo.  
 7.  Specificare nel campo **Quantità per** il numero di unità di articolo da utilizzare per l'articolo padre, ad esempio quattro ruote per un'automobile.  
-8.  Nel campo **% scarto** è possibile specificare una percentuale fissa di componenti che verrà scartata nel processo di produzione. Quando i componenti sono pronti per l'utilizzo in un ordine di produzione rilasciato, questa percentuale verrà aggiunta alla quantità prevista, specificata nel campo **Quantità consumi** , nelle registrazioni di produzione. Per ulteriori informazioni, vedere [Registrare consumi e output](production-how-to-register-consumption-and-output.md).  
+8.  Nel campo **% scarto** è possibile specificare una percentuale fissa di componenti che verrà scartata nel processo di produzione. Quando i componenti sono pronti per l'utilizzo in un ordine di produzione rilasciato, questa percentuale verrà aggiunta alla quantità prevista, specificata nel campo **Quantità consumi**, nelle registrazioni di produzione. Per ulteriori informazioni, vedere [Registrare consumi e output](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  Questa percentuale di scarto rappresenta i componenti scartati durante la produzione, quando si effettua il prelievo dal magazzino, mentre la percentuale di scarto nelle righe ciclo rappresenta l'output scartato, prima dell'inserimento in magazzino.  
 
-9.  Nel campo **Cod. legame ciclo-DB** , immettere un codice per connettere il componente a un'operazione specifica. Per ulteriori informazioni, vedere [Per creare collegamenti ciclo](production-how-to-create-routings.md#to-create-routing-links).
+9.  Nel campo **Cod. legame ciclo-DB**, immettere un codice per connettere il componente a un'operazione specifica. Per ulteriori informazioni, vedere [Per creare collegamenti ciclo](production-how-to-create-routings.md#to-create-routing-links).
 10. Per copiare righe di una DB di produzione esistente, scegliere l'azione **Copia DB** per selezionare le righe esistenti.  
 11.  Certificare la distinta base di produzione.  
 12.  È ora possibile associare la nuova distinta base di produzione alla scheda dell'articolo padre desiderato. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  Per ricalcolare il costo standard dell'articolo dalla scheda articolo, scegliere l'azione **Manufacturing** , quindi l'azione **Calc. costo standard** .  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Per ricalcolare il costo standard dell'articolo dalla scheda articolo, scegliere l'azione **Manufacturing**, quindi l'azione **Calc. costo standard**.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Per creare una nuova versione delle DB di produzione
 Vengono utilizzate nuove versioni della distinta base, ad esempio nel caso in cui un articolo viene sostituito oppure quando un cliente fa richiesta di una versione particolare del prodotto. Il principio di versione consente di gestire varie versioni di una distinta base di produzione. La struttura della versione della distinta base di produzione corrisponde alla struttura delle distinte base di produzione. La differenza basilare sta nel tempo di validità delle versioni. La validità viene definita dalla data di inizio.  
@@ -56,15 +57,15 @@ Vengono utilizzate nuove versioni della distinta base, ad esempio nel caso in cu
 La data di inizio indica l'inizio del periodo di validità della versione. Costituisce inoltre un elemento che funge da filtro per calcoli e valutazioni. La versione della distinta base è valida fino alla data di entrata in vigore di quella nuova.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **DB produzione** e quindi scegliere il collegamento correlato.  
-2.  Selezionare la DB di produzione da copiare quindi scegliere l'azione **Versioni** .  
-3.  Scegliere l'azione **Nuovo** .  
+2.  Selezionare la DB di produzione da copiare quindi scegliere l'azione **Versioni**.  
+3.  Scegliere l'azione **Nuovo**.  
 4. Compilare i campi in base alle esigenze.
 5. Nel campo **Cod. versione** immettere il codice identificativo univoco della versione. Nel campo è possibile inserire qualsiasi combinazione di numeri o di lettere.  
 
-    Alla versione appena creata viene assegnato automaticamente lo stato **Nuovo** .
-6. Quando la versione della DB è completata, scegliere **Certificata** nel campo **Stato** .  
+    Alla versione appena creata viene assegnato automaticamente lo stato **Nuovo**.
+6. Quando la versione della DB è completata, scegliere **Certificata** nel campo **Stato**.  
 
-La validità temporale della versione viene specificata nel campo **Data di Inizio** .  
+La validità temporale della versione viene specificata nel campo **Data di Inizio**.  
 
 > [!NOTE]  
 >  Selezionare l'opzione **Articolo** contenuta nel campo **Tipo** per utilizzare un articolo dai dati master della distinta base di produzione. Se l'articolo dispone anche di una DB di produzione, quando vengono inserite informazioni nel campo **Nr. DB di produzione** nella scheda articolo, viene presa in considerazione questa distinta base di produzione.  
@@ -96,4 +97,4 @@ In una distinta base sono necessarie settanta parti metalliche con le dimensioni
 [Pianif.](production-planning.md)   
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

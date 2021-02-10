@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918431"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035524"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
 
@@ -23,7 +23,7 @@ ms.locfileid: "3918431"
 
 Per supportare un magazzino JIT (just-in-time) e la capacità di personalizzare i prodotti in base alle richieste del cliente, gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita. Il collegamento tra la domanda di vendita e l'approvvigionamento di assemblaggio consente ai gestori dell'ordine di vendita di personalizzare l'articolo di assemblaggio al fine di comunicare le date di consegna in base alla disponibilità dei componenti. Inoltre, con la spedizione dell'ordine di vendita collegato vengono registrati automaticamente l'output e il consumo in fase di assemblaggio.  
 
-Questa funzione speciale consente di gestire la spedizione delle quantità per l'assemblaggio su ordine, sia nella configurazione di base che in quella avanzata di warehouse. Quando i lavoratori completano l'assemblaggio delle parti o di tutta la quantità da assemblare su ordine, registrano il campo **Qtà da spedire** sulla riga spedizione warehouse, in configurazioni avanzate, quindi scelgono **Registrare spedizione** . Il risultato consiste nella registrazione dell'output di assemblaggio, incluso il consumo di componenti correlato, oltre che nella registrazione della spedizione della vendita per la quantità corrispondente all'ordine di vendita collegato. Questa procedura dettagliata illustra il processo avanzato in warehouse.  
+Questa funzione speciale consente di gestire la spedizione delle quantità per l'assemblaggio su ordine, sia nella configurazione di base che in quella avanzata di warehouse. Quando i lavoratori completano l'assemblaggio delle parti o di tutta la quantità da assemblare su ordine, registrano il campo **Qtà da spedire** sulla riga spedizione warehouse, in configurazioni avanzate, quindi scelgono **Registrare spedizione**. Il risultato consiste nella registrazione dell'output di assemblaggio, incluso il consumo di componenti correlato, oltre che nella registrazione della spedizione della vendita per la quantità corrispondente all'ordine di vendita collegato. Questa procedura dettagliata illustra il processo avanzato in warehouse.  
 
 Nelle configurazioni di base della warehouse, quando una quantità per l'assemblaggio su ordine è pronta per essere spedita, l'addetto warehouse incaricato registra un prelievo da magazzino per le righe ordine di vendita in questione. Questo crea un movimento di magazzino per i componenti, registra l'output di assemblaggio e la spedizione dell'ordine di vendita. Per ulteriori informazioni, vedere [Gestione di articoli da assemblare su ordine in prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
@@ -37,7 +37,7 @@ Gli articoli di assemblaggio sono caratterizzati dal sistema di rifornimento e d
 -   Creazione di una DB di assemblaggio che elenca i componenti di assemblaggio e le risorse che costituiscono un articolo di assemblaggio.  
 
 ### <a name="selling-customized-assembly-items"></a>Vendita di articoli di assemblaggio personalizzati  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
+[!INCLUDE[prod_short](includes/prod_short.md)] offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
 
 -   Creazione di una riga di ordine di vendita pura di ATO in cui la quantità completa non è disponibile e deve essere assemblata prima della spedizione.  
 -   Personalizzazione degli articoli di ATO.  
@@ -79,30 +79,33 @@ Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:
 ## <a name="prerequisites"></a>Prerequisiti  
 Prima di svolgere le attività di questa procedura dettagliata, è necessario:  
 
--   Installare [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   È possibile diventare un impiegato warehouse presso l'ubicazione BIANCA effettuando i seguenti passaggi:  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
-2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti** .  
+2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
-4.  Selezionare il campo **Default** .  
+4.  Selezionare il campo **Default**.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Preparare l'ubicazione BIANCA per l'elaborazione dell'assemblaggio effettuando i seguenti passaggi:  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda Ubicazione dell'ubicazione BIANCA.  
-3.  Nella Scheda dettaglio **Collocazioni** immettere **W-10-0001** nel campo **Cod. coll. art. per assembl.** .  
+3.  Nella Scheda dettaglio **Collocazioni** immettere **W-10-0001** nel campo **Cod. coll. art. per assembl.**.  
 
     Immettendo questo codice della collocazione non prelievo, tutte le righe dell'ordine di assemblaggio saranno pronte per ricevere i relativi componenti nella collocazione.  
 
-4.  Nel campo **Cod. coll. art. da assembl.** , immettere **W-01-0001** .  
+4.  Nel campo **Cod. coll. art. da assembl.**, immettere **W-01-0001**.  
 
     Immettendo questo codice della collocazione di prelievo, gli articoli di assemblaggio completati verranno inviati alla collocazione.  
 
 Rimuovere il lead time di default per i processi interni effettuando i seguenti passaggi:  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manufacturing** e quindi scegliere il collegamento correlato.  
-2.  Nella pagina **Setup manufacturing** , nella Scheda dettaglio **Pianificazione** rimuovere il valore del campo **Lead time di sicurezza di default** .  
+2.  Nella pagina **Setup manufacturing**, nella Scheda dettaglio **Pianificazione** rimuovere il valore del campo **Lead time di sicurezza di default**.  
 
 Creare il magazzino per i componenti di assemblaggio seguendo le istruzioni [Preparazione dei dati di esempio](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
 
@@ -136,7 +139,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 ## <a name="prepare-sample-data"></a>Preparazione dei dati di esempio  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni articoli whse.** e quindi scegliere il collegamento correlato.  
-2.  Selezionare il campo **Nome batch** , quindi selezionare la registrazione di default.  
+2.  Selezionare il campo **Nome batch**, quindi selezionare la registrazione di default.  
 3.  Creare le rettifiche di magazzino positive nell'ubicazione BIANCA nella data di elaborazione, ossia il 23 gennaio, immettendo le informazioni riportate di seguito.  
 
     |**Nr. Articolo**|**Cod. zona**|**Codice collocazione**|**Quantità**|  
@@ -148,19 +151,19 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     |80203|PRELIEVO|W-01-0001|20|  
     |80209|PRELIEVO|W-01-0001|20|  
 
-4.  Scegliere l'azione **Registro** , quindi scegliere il pulsante **Sì** .  
+4.  Scegliere l'azione **Registro**, quindi scegliere il pulsante **Sì**.  
 
     A questo punto, è necessario sincronizzare i nuovi movimenti warehouse con il magazzino.  
 
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina **Registrazioni magazzino** .  
-6.  Scegliere l'azione **Calcola rettifica whse.** .  
-7.  Nella pagina **Calcola rettifica whse.** scegliere il pulsante **OK** .  
-8.  Nella pagina **Registrazioni magazzino** scegliere l'azione **Registra** quindi scegliere il pulsante **Sì** .  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina **Registrazioni magazzino**.  
+6.  Scegliere l'azione **Calcola rettifica whse.**.  
+7.  Nella pagina **Calcola rettifica whse.** scegliere il pulsante **OK**.  
+8.  Nella pagina **Registrazioni magazzino** scegliere l'azione **Registra** quindi scegliere il pulsante **Sì**.  
 
 ### <a name="creating-the-assembly-items"></a>Creazione degli articoli di assemblaggio  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo** .  
+2.  Scegliere l'azione **Nuovo**.  
 3.  Creare il primo articolo di assemblaggio in base ai seguenti dati.  
 
     |Campo|Valore|  
@@ -175,7 +178,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     > [!NOTE]  
     >  Il Kit A viene in genere fornito in base all'assemblaggio per magazzino, pertanto presenta un metodo di riordino finalizzato a renderlo parte della pianificazione degli approvvigionamenti generale.  
 
-4.  Scegliere l'azione **Assemblaggio** , quindi scegliere **DB assemblaggio** .  
+4.  Scegliere l'azione **Assemblaggio**, quindi scegliere **DB assemblaggio**.  
 5.  Definire una DB di assemblaggio per il Kit A con i seguenti dati.  
 
     |**Tipo**|**Nr.**|**Quantità per**|  
@@ -198,7 +201,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     > [!NOTE]  
     >  Il Kit B viene generalmente fornito in base all'assemblaggio su ordine, pertanto non include un metodo di riordino, perché non deve fare parte della pianificazione degli approvvigionamenti generale.  
 
-7.  Scegliere l'azione **Assemblaggio** , quindi scegliere **DB assemblaggio** .  
+7.  Scegliere l'azione **Assemblaggio**, quindi scegliere **DB assemblaggio**.  
 8.  Definire una DB di assemblaggio per il Kit B con i seguenti dati.  
 
     |**Tipo**|**Nr.**|**Quantità per**|  
@@ -211,7 +214,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 ### <a name="selling-the-assembly-items"></a>Vendita degli articoli di assemblaggio  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo** .  
+2.  Scegliere l'azione **Nuovo**.  
 3.  Creare due righe di ordine di vendita per il cliente 62000, reparto dispositivi, per la data di elaborazione con i seguenti dati.  
 
     |**Tipo**|**descrizione**|**Quantità**|Qtà per assemblaggio su ordine|Data spedizione|  
@@ -222,7 +225,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     > [!NOTE]  
     >  Il seguente problema di disponibilità esiste per la riga dell'ordine di vendita relativa al Kit B:  
     >   
-    >  -   Il componente di assemblaggio 80210 non è disponibile. Ciò significa che le tre unità specificate per il Kit B non possono essere assemblate e questo è indicato dallo **0** nel campo **In grado di assemblare** della pagina **Disponibilità assemblaggio** .  
+    >  -   Il componente di assemblaggio 80210 non è disponibile. Ciò significa che le tre unità specificate per il Kit B non possono essere assemblate e questo è indicato dallo **0** nel campo **In grado di assemblare** della pagina **Disponibilità assemblaggio**.  
     >   
     >  Il seguente problema di disponibilità esiste per la riga dell'ordine di vendita relativa al Kit A:  
     >   
@@ -231,8 +234,8 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     Infine, personalizzare l'ordine di vendita.  
 
 4.  Selezionare la riga dell'ordine di vendita per le tre unità del Kit B.  
-5.  Nella Scheda dettaglio **Righe** scegliere **Riga** , **Assemblaggio su ordine** , quindi **Righe di assemblaggio su ordine** .  
-6.  Nella pagina **Righe di assemblaggio su ordine** , nella riga dell'ordine di assemblaggio per l'articolo 80014, immettere **2** nel campo **Quantità per** .  
+5.  Nella Scheda dettaglio **Righe** scegliere **Riga**, **Assemblaggio su ordine**, quindi **Righe di assemblaggio su ordine**.  
+6.  Nella pagina **Righe di assemblaggio su ordine**, nella riga dell'ordine di assemblaggio per l'articolo 80014, immettere **2** nel campo **Quantità per**.  
 7.  Nella riga dell'ordine di assemblaggio per l'articolo 80210, scegliere il campo **Nr.** e selezionare l'articolo 80209.  
 8.  Creare una nuova riga dell'ordine di assemblaggio con i seguenti dati.  
 
@@ -240,15 +243,15 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     |----------|---------|------------------|  
     |Articolo|80203|1|  
 
-9. Chiudere la pagina **Righe di assemblaggio su ordine** .  
+9. Chiudere la pagina **Righe di assemblaggio su ordine**.  
 
-    Quindi, aggiornare il prezzo unitario del Kit B in base alla personalizzazione appena eseguita. Osservare il valore corrente del campo **Prezzo unitario IVA esclusa** .  
+    Quindi, aggiornare il prezzo unitario del Kit B in base alla personalizzazione appena eseguita. Osservare il valore corrente del campo **Prezzo unitario IVA esclusa**.  
 
-10. Nella Scheda dettaglio **Righe** scegliere **Riga** , **Assemblaggio su ordine** , quindi **Roll up del prezzo** .  
-11. Scegliere il pulsante **Sì** . Osservare il valore più alto del campo **Prezzo unitario IVA esclusa** .  
+10. Nella Scheda dettaglio **Righe** scegliere **Riga**, **Assemblaggio su ordine**, quindi **Roll up del prezzo**.  
+11. Scegliere il pulsante **Sì**. Osservare il valore più alto del campo **Prezzo unitario IVA esclusa**.  
 12. Selezionare la riga dell'ordine di vendita per 15 unità del Kit A.  
-13. Nella Scheda dettaglio **Righe** scegliere **Riga** , **Assemblaggio su ordine** , quindi **Righe di assemblaggio su ordine** .  
-14. Nella pagina **Righe di assemblaggio su ordine** , creare una nuova riga dell'ordine di assemblaggio con i seguenti dati.  
+13. Nella Scheda dettaglio **Righe** scegliere **Riga**, **Assemblaggio su ordine**, quindi **Righe di assemblaggio su ordine**.  
+14. Nella pagina **Righe di assemblaggio su ordine**, creare una nuova riga dell'ordine di assemblaggio con i seguenti dati.  
 
     |Tipo|Nr.|Quantità per|  
     |----------|---------|------------------|  
@@ -256,28 +259,28 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
      Quindi, modificare la data di spedizione della seconda riga dell'ordine di vendita in base alla programmazione di assemblaggio.  
 
-15. Nella riga dell'ordine di vendita relativa alle 15 unità del kit A, immettere **27-01-2014** nel campo **Data spedizione** .  
-16. Scegliere l'azione **Rilascia** .  
-17. Scegliere l'azione **Crea spedizione whse** .  
+15. Nella riga dell'ordine di vendita relativa alle 15 unità del kit A, immettere **27-01-2014** nel campo **Data spedizione**.  
+16. Scegliere l'azione **Rilascia**.  
+17. Scegliere l'azione **Crea spedizione whse**.  
 18. Chiudere l'ordine di vendita.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Pianificazione per gli articoli ATS non disponibili  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto pianificazione** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Calcola piano - Rigenerativo** .  
+2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella pagina **Calcola piano** immettere i seguenti filtri.  
 
     |Data inizio|Data fine|Nr.|  
     |-------------------|-----------------|---------|  
     |23/01/2014|27/01/2014|Kit A - PC di base|  
 
-4.  Scegliere il pulsante **OK** .  
+4.  Scegliere il pulsante **OK**.  
 
     Verrà creata una nuova riga di pianificazione per l'ordine di assemblaggio necessario di dieci unità, con scadenza il 27 gennaio. Non richiede modifiche, pertanto a questo punto è possibile creare l'ordine.  
 
-5.  Scegliere l'azione **Esegui messaggi di azione** .  
-6.  Nella pagina **Pianificaz. - Esegui mess. azioni** , selezionare il campo **Ordine di assemblaggio** , quindi selezionare **Crea ordini di assemblaggio** .  
-7.  Scegliere il pulsante **OK** .  
+5.  Scegliere l'azione **Esegui messaggi di azione**.  
+6.  Nella pagina **Pianificaz. - Esegui mess. azioni**, selezionare il campo **Ordine di assemblaggio**, quindi selezionare **Crea ordini di assemblaggio**.  
+7.  Scegliere il pulsante **OK**.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Assemblaggio e spedizione della prima quantità di ATO  
 
@@ -296,7 +299,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Quindi, creare un documento di prelievo per tutti i componenti di assemblaggio di ATO necessari nella spedizione warehouse.  
 
-3.  Scegliere l'azione **Crea prelievo** , quindi scegliere il pulsante **OK** .  
+3.  Scegliere l'azione **Crea prelievo**, quindi scegliere il pulsante **OK**.  
 
     A questo punto, è necessario eseguire il task di prelievo.  
 
@@ -307,33 +310,33 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Registrare quindi il prelievo senza modificare i dati di default.  
 
-6.  Scegliere l'azione **Autocompil. qtà da gestire** .  
-7.  Scegliere l'azione **Registra prelievo** .  
+6.  Scegliere l'azione **Autocompil. qtà da gestire**.  
+7.  Scegliere l'azione **Registra prelievo**.  
 
     Tornare all'esecuzione dei task di spedizione.  
 
-8.  Riaprire la pagina **Lista spedizioni warehouse** .  
+8.  Riaprire la pagina **Lista spedizioni warehouse**.  
 
     Osservare come il campo **Qtà prelevata** sia ancora vuoto in tutte le righe. Questo si verifica perché gli articoli da spedire non sono stati ancora prelevati e sono stati invece prelevati solo i componenti necessari per assemblare le quantità di ATO.  
 
     Procedere alla revisione dell'ordine di assemblaggio correlato.  
 
 9. Selezionare la riga della spedizione per le tre unità del Kit B.  
-10. Nella Scheda dettaglio **Righe** scegliere **Riga** , quindi selezionare **Assemblaggio su ordine** . Verrà visualizzata la pagina **Ordine di assemblaggio** .  
+10. Nella Scheda dettaglio **Righe** scegliere **Riga**, quindi selezionare **Assemblaggio su ordine**. Verrà visualizzata la pagina **Ordine di assemblaggio**.  
 
     Osservare come più campi dell'ordine di assemblaggio non siano disponibili in quanto l'ordine è collegato a un ordine di vendita.  
 
     Nelle righe dell'ordine di assemblaggio osservare come il campo **Qtà prelevata** sia compilato. Ciò è dovuto al prelievo registrato nel passaggio 7 di questa sezione.  
 
-11. Nel campo **Quantità da assemblare** provare a immettere un valore inferiore a **3** .  
+11. Nel campo **Quantità da assemblare** provare a immettere un valore inferiore a **3**.  
 
     Leggere il messaggio di errore che indica per quale motivo è possibile compilare questo campo solo mediante il campo **Qtà da spedire** della spedizione correlata.  
 
     Il campo **Quantità da assemblare** è modificabile per supportare le situazioni in cui si desidera eseguire una spedizione parziale di una quantità di magazzino anziché assemblare più unità dell'ordine. Per altre informazioni, vedere la sezione "Scenari di combinazione" in [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Chiudere la pagina **Ordine di assemblaggio** per tornare alla pagina **Spedizione warehouse** .  
-13. Nella riga relativa alla spedizione delle tre unità del kit B, nel campo **Qtà da spedire** , immettere **3** .  
-14. Scegliere l'azione **Registrare spedizione** , quindi selezionare il pulsante **Spedizione** .  
+12. Chiudere la pagina **Ordine di assemblaggio** per tornare alla pagina **Spedizione warehouse**.  
+13. Nella riga relativa alla spedizione delle tre unità del kit B, nel campo **Qtà da spedire**, immettere **3**.  
+14. Scegliere l'azione **Registrare spedizione**, quindi selezionare il pulsante **Spedizione**.  
 
     Insieme a questa registrazione della spedizione warehouse, vengono registrati il consumo e le quantità di output totali dell'ordine di assemblaggio correlato, mentre il campo **Quantità residua** è vuoto. La riga dell'ordine di vendita per il kit B viene aggiornata per indicare che le tre unità sono state spedite.  
 
@@ -356,12 +359,12 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Infine, registrare il completamento dell'ordine di assemblaggio.  
 
-3.  Scegliere l'azione **Riga spediz. whse. assem. su ordine** .  
-4.  Nella pagina **Riga spediz. whse. assem. su ordine** , immettere **5** nel campo **Qtà da spedire** , quindi chiudere la pagina.  
+3.  Scegliere l'azione **Riga spediz. whse. assem. su ordine**.  
+4.  Nella pagina **Riga spediz. whse. assem. su ordine**, immettere **5** nel campo **Qtà da spedire**, quindi chiudere la pagina.  
 
     Nella pagina **Ordine di assemblaggio** si noti che i campi **Quantità da assemblare** e **Quantità da consumare** sono ora compilati con le quantità consumi e output che verranno registrati insieme alla spedizione.  
 
-5.  Chiudere la pagina **Ordine di assemblaggio** .  
+5.  Chiudere la pagina **Ordine di assemblaggio**.  
 
 ### <a name="assembling-the-ats-quantity"></a>Assemblaggio della quantità di ATO  
 
@@ -372,8 +375,8 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     A questo punto, è necessario creare un documento di prelievo per recuperare i componenti necessari.  
 
-3.  Scegliere l'azione **Rilascia** .  
-4.  Scegliere l'azione **Crea prelievo whse** , quindi scegliere il pulsante **OK** .  
+3.  Scegliere l'azione **Rilascia**.  
+4.  Scegliere l'azione **Crea prelievo whse**, quindi scegliere il pulsante **OK**.  
 
     A questo punto, è necessario eseguire il task di prelievo.  
 
@@ -382,12 +385,12 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
      Procedere quindi alla registrazione del prelievo senza modificare i dati di default.  
 
-7.  Scegliere l'azione **Autocompil. qtà da gestire** .  
-8.  Scegliere l'azione **Registra prelievo** .  
+7.  Scegliere l'azione **Autocompil. qtà da gestire**.  
+8.  Scegliere l'azione **Registra prelievo**.  
 
     Tornare all'ordine di assemblaggio per eseguire l'ultimo task di assemblaggio.  
 
-9. In **Ordine di assemblaggio** scegliere l'azione **Registra** quindi scegliere il pulsante **Sì** .  
+9. In **Ordine di assemblaggio** scegliere l'azione **Registra** quindi scegliere il pulsante **Sì**.  
 
     Si noti che l'ordine di assemblaggio viene rimosso dalla lista degli ordini aperti.  
 
@@ -400,7 +403,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Successivamente, prelevare tutti gli articoli restanti.  
 
-3.  Scegliere l'azione **Crea prelievo** , quindi scegliere il pulsante **OK** .  
+3.  Scegliere l'azione **Crea prelievo**, quindi scegliere il pulsante **OK**.  
 
     Infine, eseguire l'ultimo task di prelievo relativo a questa spedizione warehouse.  
 
@@ -411,16 +414,16 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Registrare quindi il prelievo senza modificare i dati di default.  
 
-6.  Scegliere l'azione **Autocompil. qtà da gestire** .  
-7.  Scegliere l'azione **Registra prelievo** , quindi scegliere il pulsante **Sì** .  
+6.  Scegliere l'azione **Autocompil. qtà da gestire**.  
+7.  Scegliere l'azione **Registra prelievo**, quindi scegliere il pulsante **Sì**.  
 
     Tornare alla spedizione warehouse per eseguire l'ultimo task di assemblaggio.  
 
-8.  Riaprire la pagina **Lista spedizioni warehouse** .  
+8.  Riaprire la pagina **Lista spedizioni warehouse**.  
 
-    Nella pagina **Spedizione warehouse** , si noti che nella riga relativa a dieci unità di kit A i campi **Qtà da spedire** e **Qtà prelevata** ora contengono **10** .  
+    Nella pagina **Spedizione warehouse**, si noti che nella riga relativa a dieci unità di kit A i campi **Qtà da spedire** e **Qtà prelevata** ora contengono **10**.  
 
-9. Scegliere l'azione **Registrare spedizione** , quindi scegliere **Spedizione** .  
+9. Scegliere l'azione **Registrare spedizione**, quindi scegliere **Spedizione**.  
 
     Il documento di spedizione warehouse viene rimosso ad indicare che le attività di warehouse interessare sono state completate. Infine, verificare che l'ordine di vendita sia stato elaborato.  
 

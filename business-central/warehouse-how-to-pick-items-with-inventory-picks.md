@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f9887c398833fcf817a6c8707b18b0b77da1ff2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b3dafdf2341567d2bf294065cf7508295e60aa3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918331"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759785"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
 
 Quando un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare la pagina **Prelievi magazzino** per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine. Il documento di origine in uscita può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita o un ordine di produzione i cui componenti sono pronti per il prelievo.
 
 > [!NOTE]  
-> I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la pagina **Movimento di magazzino** . Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la pagina **Movimento di magazzino**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 >
 > Durante il prelievo e la spedizione di quantità righe di vendita assemblate sull'ordine, è necessario seguire determinate regole per la creazione di righe di prelievo magazzino. Per ulteriori informazioni, vedere la sezione [Gestione di articoli da assemblare su ordine in prelievi magazzino](#handling-assemble-to-order-items-with-inventory-picks).  
 
@@ -37,9 +37,9 @@ Quando un'ubicazione è impostata in modo da richiedere l'elaborazione dei preli
 Per gli ordini di vendita, gli ordini di reso acquisto e gli ordini di trasferimento in uscita, creare la richiesta warehouse emettendo l'ordine. Di seguito viene descritto come eseguire l'operazione da un ordine di vendita.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
-2. Selezionare l'ordine di vendita che si intende rilasciare, quindi scegliere l'azione **Rilascio** .
+2. Selezionare l'ordine di vendita che si intende rilasciare, quindi scegliere l'azione **Rilascio**.
 
-Per gli ordini di produzione, creare automaticamente la richiesta warehouse per il prelievo di componenti, chiamata *consuntivazione* , quando lo stato dell'ordine di produzione viene modificato in **Rilasciato** oppure quando viene creato l'ordine di produzione rilasciato. Per ulteriori informazioni, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).
+Per gli ordini di produzione, creare automaticamente la richiesta warehouse per il prelievo di componenti, chiamata *consuntivazione*, quando lo stato dell'ordine di produzione viene modificato in **Rilasciato** oppure quando viene creato l'ordine di produzione rilasciato. Per ulteriori informazioni, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).
 
 Dopo aver creato la richiesta warehouse, un dipendente della warehouse addetto al prelievo di articoli può vedere che il documento di origine è pronto per il prelievo e potrà creare un nuovo documento di prelievo basato sulla richiesta warehouse.  
 
@@ -48,7 +48,7 @@ Dopo aver creato la richiesta warehouse, un dipendente della warehouse addetto a
 Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un nuovo prelievo da magazzino basato sul documento di origine rilasciato.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi magazzino** e quindi scegliere il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** .  
+2. Scegliere l'azione **Nuovo**.  
     Assicurarsi che il campo **Nr.** della Scheda dettaglio **Generale** sia compilato.
 3. Nel campo **Documento origine** selezionare il tipo di documento di origine per cui si esegue il prelievo.  
 4. Nel campo **Nr. origine** selezionare il documento di origine.  
@@ -57,16 +57,16 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 
 ## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Per creare un prelievo magazzino dal documento di origine
 
-1. Nel documento di origine, che può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita o un ordine di produzione, scegliere l'azione **Crea stoccaggio / prelievo mag.** .
-2. Selezionare la casella di controllo **Crea prelievo mag.** .  
-3. Scegliere il pulsante **OK** . Verrà creato un nuovo prelievo magazzino.
+1. Nel documento di origine, che può essere un ordine di vendita, un ordine di reso da acquisto, un ordine di trasferimento in uscita o un ordine di produzione, scegliere l'azione **Crea stoccaggio / prelievo mag.**.
+2. Selezionare la casella di controllo **Crea prelievo mag.**.  
+3. Scegliere il pulsante **OK**. Verrà creato un nuovo prelievo magazzino.
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Per creare più prelievi magazzino utilizzando un processo batch
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea stoccaggio/Prelievo mag.** e quindi scegliere il collegamento correlato.  
-2. Nella Scheda dettaglio **Richiesta warehouse** , utilizzare i campi **Nr. origine** e **Documento origine** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti. Ad esempio, è possibile creare prelievi solo per gli ordini di vendita.  
-3. Nella Scheda dettaglio **Opzioni** , selezionare la casella di controllo **Crea prelievo mag.** .
-4. Scegliere il pulsante **OK** . Verranno creati i prelievi magazzino specificati.
+2. Nella Scheda dettaglio **Richiesta warehouse**, utilizzare i campi **Nr. origine** e **Documento origine** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti. Ad esempio, è possibile creare prelievi solo per gli ordini di vendita.  
+3. Nella Scheda dettaglio **Opzioni**, selezionare la casella di controllo **Crea prelievo mag.**.
+4. Scegliere il pulsante **OK**. Verranno creati i prelievi magazzino specificati.
 
 > [!NOTE]  
 > In caso di prelievo e spedizione di quantità righe di vendita assemblate su ordine, è opportuno seguire determinate regole per la creazione di righe di prelievo magazzino. Per ulteriori informazioni, vedere la sezione [Gestione di articoli da assemblare su ordine in prelievi magazzino](#handling-assemble-to-order-items-with-inventory-picks).  
@@ -77,10 +77,10 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievo magazzino** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Codice collocazione** sulle righe di prelievo, la collocazione da cui gli articoli devono essere prelevati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa pagina, se necessario.  
-3. Eseguire il prelievo e immettere le informazioni riguardanti la quantità effettiva stoccata nel campo **Qtà da gestire** .
+3. Eseguire il prelievo e immettere le informazioni riguardanti la quantità effettiva stoccata nel campo **Qtà da gestire**.
 
-    Se è necessario prelevare gli articoli relativi a una riga da più collocazioni, ad esempio perché non sono disponibili nella collocazione designata, utilizzare la funzione **Dividi riga** della Scheda dettaglio **Righe** . Per ulteriori informazioni sulla divisione delle righe, vedere [Suddividere le righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md).  
-4. Dopo avere eseguito il prelievo, scegliere l'azione **Registra** .  
+    Se è necessario prelevare gli articoli relativi a una riga da più collocazioni, ad esempio perché non sono disponibili nella collocazione designata, utilizzare la funzione **Dividi riga** della Scheda dettaglio **Righe**. Per ulteriori informazioni sulla divisione delle righe, vedere [Suddividere le righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md).  
+4. Dopo avere eseguito il prelievo, scegliere l'azione **Registra**.  
 
 Il processo di registrazione contabilizzerà la spedizione delle righe del documento di origine prelevate oppure, nel caso di ordini di produzione, il consumo. Se l'ubicazione prevede l'utilizzo di collocazioni, verranno inoltre creati movimenti warehouse per la registrazione delle modifiche delle quantità nelle collocazioni.  
 
@@ -99,15 +99,15 @@ La pagina **Prelievi magazzino** è inoltre utilizzata per prelevare e spedire v
 
 Gli articoli da spedire non sono presenti fisicamente in una collocazione finché non vengono assemblati e registrati come output in una collocazione nell'area di assemblaggio. Ciò significa che il prelievo di articoli da assemblare su ordine per la spedizione seguono un flusso speciale. Da una collocazione gli addetti alla warehouse trasferiscono gli articoli di assemblaggio al dock di spedizione, quindi registrano il prelievo magazzino. Tramite il prelievo magazzino registrato vengono quindi registrati l'output di assemblaggio, il consumo di componenti e la spedizione di vendita.
 
-È possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] in modo che venga creato automaticamente un movimento di magazzino quando viene creato il prelievo magazzino per l'articolo di assemblaggio. Per eseguire questa operazione, è necessario selezionare il campo **Crea movimenti automaticamente** nella pagina **Setup assemblaggio** . Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+È possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] in modo che venga creato automaticamente un movimento di magazzino quando viene creato il prelievo magazzino per l'articolo di assemblaggio. Per eseguire questa operazione, è necessario selezionare il campo **Crea movimenti automaticamente** nella pagina **Setup assemblaggio**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Le righe di prelievo magazzino per articoli di vendita vengono create in modi diversi a seconda se nessuna, qualche o tutte le quantità della riga di vendita vengano assemblate su ordine.
 
-Nelle vendite normali in cui si utilizzano prelievi magazzino per registrare la spedizione delle quantità di magazzino, per ogni riga di ordine di vendita vengono create una o più righe di prelievo magazzino se l'articolo è posizionato in collocazioni diverse. La riga di prelievo è basata sulla quantità nel campo **Qtà da spedire** .
+Nelle vendite normali in cui si utilizzano prelievi magazzino per registrare la spedizione delle quantità di magazzino, per ogni riga di ordine di vendita vengono create una o più righe di prelievo magazzino se l'articolo è posizionato in collocazioni diverse. La riga di prelievo è basata sulla quantità nel campo **Qtà da spedire**.
 
-Nelle vendite di assemblaggio su ordine in cui la quantità completa nella riga ordine di vendita è assemblata su ordine, viene creata una riga prelievo magazzino per la quantità. Ciò significa che il valore nel campo Quantità da assemblare è simile al valore nel campo **Qtà. da spedire** . Il campo **Assemblaggio su ordine** viene selezionato nella riga.
+Nelle vendite di assemblaggio su ordine in cui la quantità completa nella riga ordine di vendita è assemblata su ordine, viene creata una riga prelievo magazzino per la quantità. Ciò significa che il valore nel campo Quantità da assemblare è simile al valore nel campo **Qtà. da spedire**. Il campo **Assemblaggio su ordine** viene selezionato nella riga.
 
-Se un flusso di output assemblaggio è impostato per l'ubicazione, il valore nel campo **Cod. coll. sp. ass. su ordine** o il valore nel campo **Cod. coll. art. da assembl.** , in tale ordine, viene immesso nel campo **Codice collocazione** sulla riga di prelievo magazzino.
+Se un flusso di output assemblaggio è impostato per l'ubicazione, il valore nel campo **Cod. coll. sp. ass. su ordine** o il valore nel campo **Cod. coll. art. da assembl.**, in tale ordine, viene immesso nel campo **Codice collocazione** sulla riga di prelievo magazzino.
 
 Se nessun codice collocazione è specificato sulla riga di ordine di vendita e non è impostato alcun flusso di output dell'assemblaggio per l'ubicazione, il campo **Codice collocazione** sulla riga di prelievo magazzino è vuoto. L'addetto alla warehouse deve aprire la pagina **Contenuto collocazioni** e selezionare la collocazione in cui sono assemblati gli articoli di assemblaggio.
 
@@ -121,4 +121,4 @@ Negli scenari di combinazione, in cui una parte della quantità deve essere asse
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Procedura dettagliata: prelievo e spedizione nelle configurazioni di warehouse di base](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

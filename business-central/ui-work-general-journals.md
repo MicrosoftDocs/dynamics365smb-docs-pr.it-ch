@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920715"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760145"
 ---
 # <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
 
-La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Ma è anche possibile elaborare attività commerciali come l'acquisto, il pagamento, l'uso delle registrazioni ricorrenti per registrare i ratei o il rimborso delle spese dei dipendenti registrando le righe di registrazione nelle varie registrazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Ma è anche possibile elaborare attività commerciali come l'acquisto, il pagamento, l'uso delle registrazioni ricorrenti per registrare i ratei o il rimborso delle spese dei dipendenti registrando le righe di registrazione nelle varie registrazioni in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-La maggior parte delle registrazioni sono basate *Contabilità generale* ed è possibile elaborare tutte le operazioni nella pagina **Contabilità generale** . Per ulteriori informazioni, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).  
+La maggior parte delle registrazioni sono basate *Contabilità generale* ed è possibile elaborare tutte le operazioni nella pagina **Contabilità generale**. Per ulteriori informazioni, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).  
 
 Ad esempio, è possibile usare la spesa del dipendente nelle spese correlate all'azienda per un risarcimento successivo. Per altre informazioni, vedere [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md).
 
@@ -41,15 +41,15 @@ Esistono numerose definizioni registrazioni COGE. Ogni definizione registrazioni
 Per ogni definizione registrazioni è possibile impostare le proprie registrazioni personali come batch registrazioni. Ad esempio, è possibile definire dei batch registrazioni personali per le registrazioni pagamenti che abbiano delle impostazioni e un layout personali. Di seguito viene fornito un suggerimento come esempio per personalizzare una registrazione.
 
 > [!TIP]  
-> Se si seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il proprio batch nella pagina **Batch registrazioni COGE** , il campo **Importo** ad esempio nelle righe di registrazione COGE per lo stesso numero di documento viene precompilato automaticamente con il valore richiesto per saldare il documento. Per ulteriori informazioni, vedere [Suggerimento automatico dei valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-let-system-suggest-values.md).
+> Se si seleziona la casella di controllo **Suggerisci importo contropartita** nella riga per il proprio batch nella pagina **Batch registrazioni COGE**, il campo **Importo** ad esempio nelle righe di registrazione COGE per lo stesso numero di documento viene precompilato automaticamente con il valore richiesto per saldare il documento. Per ulteriori informazioni, vedere [Suggerimento automatico dei valori in [!INCLUDE[prod_short](includes/prod_short.md)]](ui-let-system-suggest-values.md).
 
 > [!TIP]
-> Per aggiungere o rimuovere campi nelle registrazioni, utilizzare il banner **Personalizzazione** . Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
+> Per aggiungere o rimuovere campi nelle registrazioni, utilizzare il banner **Personalizzazione**. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Convalida di batch registrazioni COGE
-Per aiutare a prevenire ritardi durante la registrazione, è possibile attivare un controllo in background che avviserà quando si verifica un errore nel giornale di registrazione finanziario su cui si sta lavorando che impedisce la registrazione del giornale. Nella pagina **Batch registrazioni COGE** è possibile scegliere **Controllo degli errori in background** per permettere a [!INCLUDE[d365fin](includes/d365fin_md.md)] di convalidare i giornali finanziari, come le registrazioni COGE o pagamenti, mentre ci si lavora. 
+Per aiutare a prevenire ritardi durante la registrazione, è possibile attivare un controllo in background che avviserà quando si verifica un errore nel giornale di registrazione finanziario su cui si sta lavorando che impedisce la registrazione del giornale. Nella pagina **Batch registrazioni COGE** è possibile scegliere **Controllo degli errori in background** per permettere a [!INCLUDE[prod_short](includes/prod_short.md)] di convalidare i giornali finanziari, come le registrazioni COGE o pagamenti, mentre ci si lavora. 
 
-Quando si abilita la convalida, la scheda dettaglio **Verifica registrazione** viene visualizzata accanto alle righe di registrazione e mostrerà i problemi nella riga corrente e nell'intero batch. La convalida si verifica quando si carica un batch registrazioni COGE e quando si sceglie un'altra riga di registrazione. Il riquadro **Problemi totali** nella scheda dettaglio mostra il numero totale di problemi rilevati da [!INCLUDE[d365fin](includes/d365fin_md.md)] ed è possibile selezionarlo per aprire una panoramica dei problemi. 
+Quando si abilita la convalida, la scheda dettaglio **Verifica registrazione** viene visualizzata accanto alle righe di registrazione e mostrerà i problemi nella riga corrente e nell'intero batch. La convalida si verifica quando si carica un batch registrazioni COGE e quando si sceglie un'altra riga di registrazione. Il riquadro **Problemi totali** nella scheda dettaglio mostra il numero totale di problemi rilevati da [!INCLUDE[prod_short](includes/prod_short.md)] ed è possibile selezionarlo per aprire una panoramica dei problemi. 
 
 È possibile utilizzare le azioni **Mostra righe con problemi** e **Mostra tutte le righe** per alternare tra le righe di registrazione che presentano o non presentano problemi. La nuova scheda dettaglio **Dettagli riga di registrazione** fornisce una rapida panoramica e l'accesso ai dati dalle righe di registrazione, come il conto CoGe, il cliente o il fornitore, nonché all'impostazione di registrazione per conti specifici.     
 
@@ -65,10 +65,10 @@ Queste azioni consentono di creare una copia di una riga di registrazione COGE o
 * L'indicazione se con segni opposti (storno di scritture contabili)
 * Un numero di documento o una data di registrazione diversi
 
-Per consentire la copia delle registrazioni nelle registrazioni COGE registrate, nella pagina **Definizioni registrazioni COGE** scegliere la casella di controllo **Copia in righe reg. contabilizzate** . Dopo aver consentito alle persone di copiare le registrazioni COGE registrate, se necessario è possibile disattivare la copia per batch specifici.
+Per consentire la copia delle registrazioni nelle registrazioni COGE registrate, nella pagina **Definizioni registrazioni COGE** scegliere la casella di controllo **Copia in righe reg. contabilizzate**. Dopo aver consentito alle persone di copiare le registrazioni COGE registrate, se necessario è possibile disattivare la copia per batch specifici.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Informazioni su conti principali e contropartita
-Se sono stati impostati conti di contropartita di default per i batch di registrazioni nella pagina **Registrazioni COGE** , il conto di contropartita verrà compilato automaticamente quando si inserisce un valore nel campo **Nr. conto** . In caso contrario, compilare manualmente sia il campo **Nr. conto** che il campo **Contropartita** . Un importo positivo nel campo **Importo** viene addebitato sul conto principale e accreditato nella contropartita. Un importo negativo viene accreditato sul conto principale e addebitato nella contropartita.
+Se sono stati impostati conti di contropartita di default per i batch di registrazioni nella pagina **Registrazioni COGE**, il conto di contropartita verrà compilato automaticamente quando si inserisce un valore nel campo **Nr. conto**. In caso contrario, compilare manualmente sia il campo **Nr. conto** che il campo **Contropartita**. Un importo positivo nel campo **Importo** viene addebitato sul conto principale e accreditato nella contropartita. Un importo negativo viene accreditato sul conto principale e addebitato nella contropartita.
 
 > [!NOTE]  
 >   L'IVA viene calcolata separatamente per il conto principale e il conto di contropartita, quindi possono essere utilizzate percentuali IVA diverse.
@@ -85,10 +85,10 @@ Questo campo consente di determinare in che modo verrà considerato l'importo sp
 | --- | --- |
 |Fisso|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione.|
 |Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione.|
-|Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella tabella Allocazioni registrazioni gen. il saldo nel conto risulterà così uguale a zero. Compilare il campo **Allocazione %** nella pagina **Allocazioni** . Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
+|Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella tabella Allocazioni registrazioni gen. il saldo nel conto risulterà così uguale a zero. Compilare il campo **Allocazione %** nella pagina **Allocazioni**. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Storno Costante|l'importo specificato nella riga delle registrazioni rimarrà invariato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
 |Storno Variabile|l'importo specificato nella riga delle registrazioni verrà eliminato dopo la contabilizzazione e un movimento di quadratura verrà registrato il giorno seguente.|
-|Storno Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella pagina **Allocazioni** . Il saldo nel conto verrà impostato su zero e un movimento di contropartita viene registrato il giorno seguente.|
+|Storno Saldo|L'importo registrato nel conto specificato nella riga verrà allocato tra i conti specificati relativi alla riga nella pagina **Allocazioni**. Il saldo nel conto verrà impostato su zero e un movimento di contropartita viene registrato il giorno seguente.|
 
 > [!NOTE]  
 >  È possibile immettere informazioni nei campi relativi all'IVA nella riga delle registrazioni periodiche o di allocazione ma non in entrambe. È possibile completarli nella pagina **Allocazioni** soltanto se le righe corrispondenti delle registrazioni periodiche non sono completate.
@@ -113,14 +113,14 @@ L'utilizzo di questo campo risulta vantaggioso poiché la riga non viene elimina
 Se il campo rimane vuoto, la riga viene contabilizzata ogni volta che si effettuerà una registrazione fino a quando non verrà eliminata dalle registrazioni.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Allocare importi di registrazioni periodiche a vari conti
-Nella pagina **Reg. periodiche generali** , è possibile scegliere l'azione **Allocazioni** per visualizzare o gestire il modo in cui gli importi nella riga delle registrazioni ricorrenti sono allocati a vari conti e dimensioni. Da notare che un'allocazione è una riga delle registrazioni periodiche nella riga di contropartita.
+Nella pagina **Reg. periodiche generali**, è possibile scegliere l'azione **Allocazioni** per visualizzare o gestire il modo in cui gli importi nella riga delle registrazioni ricorrenti sono allocati a vari conti e dimensioni. Da notare che un'allocazione è una riga delle registrazioni periodiche nella riga di contropartita.
 
 È sufficiente immettere un'allocazione una sola volta, esattamente come nelle registrazioni periodiche. Poiché dopo la contabilizzazione l'allocazione verrà conservata nelle registrazioni di allocazione, non è necessario immettere gli importi e le allocazioni a ogni contabilizzazione della riga delle registrazioni periodiche.
 
-Se il metodo ricorrente nelle registrazioni periodiche viene impostato su **Saldo** o **Saldo a pareggio** , qualsiasi codice valore dimensioni nelle registrazioni periodiche viene ignorato quando il conto risulta uguale a zero. Quindi, se viene allocata una riga ricorrente in diversi valori dimensioni nella pagina **Allocazioni** , sarà creato un solo movimento di pareggio. Se pertanto viene allocata una riga delle registrazioni periodiche contenente un codice valore dimensioni, è necessario non immettere il medesimo codice nella pagina **Allocazioni** . In caso contrario, i valori dimensioni non risulteranno corretti.
+Se il metodo ricorrente nelle registrazioni periodiche viene impostato su **Saldo** o **Saldo a pareggio**, qualsiasi codice valore dimensioni nelle registrazioni periodiche viene ignorato quando il conto risulta uguale a zero. Quindi, se viene allocata una riga ricorrente in diversi valori dimensioni nella pagina **Allocazioni**, sarà creato un solo movimento di pareggio. Se pertanto viene allocata una riga delle registrazioni periodiche contenente un codice valore dimensioni, è necessario non immettere il medesimo codice nella pagina **Allocazioni**. In caso contrario, i valori dimensioni non risulteranno corretti.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Esempio: Allocare pagamenti di affitti a diversi reparti
-l'importo dell'affitto mensile è stato immesso nel conto cassa specificato in una riga delle registrazioni periodiche. Nelle pagina **Allocazioni** , è possibile suddividere la spesa tra più reparti (dimensione Reparto) in base ai metri quadrati occupati da ciascuno. Il calcolo si basa sulla percentuale di allocazione relativa a ogni riga. È possibile immettere diversi conti in differenti righe di allocazione (se anche l'affitto verrà diviso tra più conti) oppure immettere lo stesso conto, ma con diversi codici valore dimensioni per la dimensione Reparto in ogni riga.
+l'importo dell'affitto mensile è stato immesso nel conto cassa specificato in una riga delle registrazioni periodiche. Nelle pagina **Allocazioni**, è possibile suddividere la spesa tra più reparti (dimensione Reparto) in base ai metri quadrati occupati da ciascuno. Il calcolo si basa sulla percentuale di allocazione relativa a ogni riga. È possibile immettere diversi conti in differenti righe di allocazione (se anche l'affitto verrà diviso tra più conti) oppure immettere lo stesso conto, ma con diversi codici valore dimensioni per la dimensione Reparto in ogni riga.
 
 ### <a name="reversal-date-calculation"></a>Calcolo data storno
 Quando si utilizzano le registrazioni COGE ricorrenti per registrare i ratei alla fine di un periodo, è importante avere il pieno controllo sui movimenti di storno. Nella pagina **Registrazioni COGE ricorrenti** il campo **Calcolo data storno** consente di controllare la data in cui verranno registrati i movimenti di storno quando vengono utilizzati metodi ricorrenti di storno.
@@ -132,7 +132,7 @@ I ratei vengono generalmente registrati con i metodi ricorrenti Fisso, Variabile
 * Se il campo contiene una formula di data (ad esempio, **5G** per cinque giorni), il movimento di contropartita verrà registrato con una data di registrazione calcolata utilizzando il calcolo della data di storno.
 
 > [!NOTE]
-> Per impostazione predefinita, il campo **Calcolo data storno** non è disponibile nella pagina **Registrazioni COGE ricorrenti** . Per utilizzare il campo, è necessario aggiungerlo personalizzando la pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
+> Per impostazione predefinita, il campo **Calcolo data storno** non è disponibile nella pagina **Registrazioni COGE ricorrenti**. Per utilizzare il campo, è necessario aggiungerlo personalizzando la pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="working-with-standard-journals"></a>Utilizzo delle registrazioni standard
 Quando si creano righe di registrazione che verranno probabilmente create di nuovo successivamente, è possibile scegliere di salvarle come registrazioni standard prima di contabilizzare la registrazione. Questa funzionalità si applica alle registrazioni di magazzino e alle registrazioni COGE.
@@ -144,8 +144,8 @@ Quando si creano righe di registrazione che verranno probabilmente create di nuo
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.
 2. Immettere una o più righe di registrazione.
 3. Selezionare le righe di registrazione che si desidera riutilizzare.
-4. Scegliere l'azione **Salva come registrazioni standard** .
-5. Nella pagina di richiesta **Salva come Registrazioni Magazzino Standard** , definire una registrazione di magazzino standard nuova o esistente in cui devono essere salvate le righe:
+4. Scegliere l'azione **Salva come registrazioni standard**.
+5. Nella pagina di richiesta **Salva come Registrazioni Magazzino Standard**, definire una registrazione di magazzino standard nuova o esistente in cui devono essere salvate le righe:
 
     Se sono già state create una o più registrazioni magazzino standard e si desidera sostituirne una con il nuovo insieme di righe di registrazione magazzino, selezionare il codice desiderato nel campo Codice.
 6. Scegliere **OK** per verificare l'intenzione di sovrascrivere la registrazione magazzino standard esistente e sostituirne tutto il contenuto.
@@ -157,25 +157,25 @@ Al termine del salvataggio della registrazione magazzino standard, viene visuali
 
 ### <a name="to-reuse-a-standard-journal"></a>Per riutilizzare registrazioni standard
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato.
-2. Scegliere l'azione **Ottieni registrazioni standard** .
+2. Scegliere l'azione **Ottieni registrazioni standard**.
 
     Verrà visualizzata la pagina Registrazioni magazzino standard, contenente i codici e le descrizioni per tutte le registrazioni di magazzino standard esistenti.
-3. Per rivedere una registrazione di magazzino standard prima della relativa selezione a scopo di riutilizzo, scegliere l'azione **Mostra registrazioni** .
+3. Per rivedere una registrazione di magazzino standard prima della relativa selezione a scopo di riutilizzo, scegliere l'azione **Mostra registrazioni**.
 
     Qualsiasi modifica apportata in una registrazione di magazzino standard viene immediatamente implementata. Sarà presente alla successiva apertura o al successivo riutilizzo della registrazione di magazzino standard in questione. È pertanto opportuno assicurarsi che la modifica sia sufficientemente importante da essere applicata a livello generale. In caso contrario, apportare la modifica specifica nella registrazione di magazzino dopo l'inserimento delle righe della registrazione di magazzino standard. Vedere il passaggio 4 di seguito.
-4. Nella pagina **Registrazioni magazzino standard** selezionare la registrazione di magazzino standard che si desidera riutilizzare e quindi scegliere **OK** .
+4. Nella pagina **Registrazioni magazzino standard** selezionare la registrazione di magazzino standard che si desidera riutilizzare e quindi scegliere **OK**.
 
     La registrazione di magazzino sarà ora completata con le righe salvate come registrazione di magazzino standard. Se nella registrazione di magazzino erano già presenti righe di registrazione, le righe inserite verranno posizionate sotto le righe di registrazione esistenti.
 
-    Se non si è selezionato il campo **Salva importo unitario** quando si è utilizzato il processo della funzione **Salva come registrazioni magazzino standard** , il campo **Importo unitario** delle righe inserite dalle registrazioni standard viene automaticamente completato con il valore corrente dell'articolo, copiato dal campo **Costo unitario** della scheda articolo.
+    Se non si è selezionato il campo **Salva importo unitario** quando si è utilizzato il processo della funzione **Salva come registrazioni magazzino standard**, il campo **Importo unitario** delle righe inserite dalle registrazioni standard viene automaticamente completato con il valore corrente dell'articolo, copiato dal campo **Costo unitario** della scheda articolo.
 
     > [!NOTE]  
-    >   in caso di selezione dei campi **Salva Importo Unitario** o **Salva Quantità** , è opportuno assicurarsi che i valori inseriti siano corretti per la rettifica di magazzino specifica prima di contabilizzare la registrazione di magazzino.
+    >   in caso di selezione dei campi **Salva Importo Unitario** o **Salva Quantità**, è opportuno assicurarsi che i valori inseriti siano corretti per la rettifica di magazzino specifica prima di contabilizzare la registrazione di magazzino.
 
     Se le righe di registrazione di magazzino inserite contengono importi unitari salvati che non si desidera contabilizzare, è possibile eseguire rapidamente la rettifica al valore corrente dell'articolo come indicato di seguito.
 
-6. Selezionare e righe di registrazioni magazzino che si desidera rettificare e scegliere l'azione **Ricalcola importo unitario** . Il campo Importo unitario verrà così aggiornato con il costo unitario corrente dell'articolo.
-7. Scegliere l'azione **Registra** .
+6. Selezionare e righe di registrazioni magazzino che si desidera rettificare e scegliere l'azione **Ricalcola importo unitario**. Il campo Importo unitario verrà così aggiornato con il costo unitario corrente dell'articolo.
+7. Scegliere l'azione **Registra**.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Rinumerare i documenti nei giornali di registrazione
 Per evitare errori di registrazione dovuti all'ordine dei numeri di documento, è possibile utilizzare la funzione **Rinumera documenti** prima di effettuare una registrazione.
@@ -188,10 +188,10 @@ Questa funzione può anche essere utilizzata sulle viste filtrate.
 
 La rinumerazione dei documenti rispetterà i collegamenti correlati, ad esempio il collegamento di un pagamento tra il documento nella riga registrazioni e un conto fornitore. Di conseguenza, è possibile aggiornare i campi **Collega-a ID** e **Collega-a nr. doc.** nei movimenti contabili interessati.
 
-La procedura riportata di seguito è basata sulla pagina **Registrazione COGE** , ma si applica a tutte le altre registrazioni basate sulle registrazioni COGE, ad esempio la pagina **Registraz. pagamenti** .
+La procedura riportata di seguito è basata sulla pagina **Registrazione COGE**, ma si applica a tutte le altre registrazioni basate sulle registrazioni COGE, ad esempio la pagina **Registraz. pagamenti**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
-2. Quando si è pronti per contabilizzare la registrazione, scegliere l'azione **Rinumera documenti** .
+2. Quando si è pronti per contabilizzare la registrazione, scegliere l'azione **Rinumera documenti**.
 
 I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo che il numero del documento nelle righe registrazioni singole o raggruppate seguano un ordine sequenziale. Dopo la rinumerazione dei documenti, è possibile procedere con la contabilizzazione delle registrazioni.
 
@@ -203,7 +203,7 @@ I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo 
 [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Allocazione di costi e ricavi](year-allocate-costs-income.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Rivalutare il magazzino nelle registrazioni rivalutazioni](inventory-how-revalue-inventory.md)  
 [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md)  

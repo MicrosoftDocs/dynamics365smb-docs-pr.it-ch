@@ -1,6 +1,6 @@
 ---
-title: 'Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base | Documenti Microsoft'
-description: In Business Central, i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.
+title: 'Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base'
+description: In Business Central, i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità differenti a seconda del livello di complessità della warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b119883babf1f44ff78482c4849faff72c1ec257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 674b095c515c6c8be5dde41861ab2cfdc943855f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918456"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035574"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
 |Metodo|Processo in entrata|Collocazioni|Carichi|Stoccaggi|Livello di complessità (vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -38,7 +38,7 @@ Nella seguente procedura dettagliata viene dimostrato il metodo B nella tabella 
 Nelle configurazioni di warehouse di base in cui un'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare la pagina **Stoccaggio in magazzino** per registrare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine in entrata. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di produzione il cui output è pronto per lo stoccaggio.
 
 > [!NOTE]
-> Anche se le impostazioni sono definite **Richiesto prelievo** e **Richiesto stoccaggio** , è possibile registrare carichi e spedizioni direttamente dai documenti commerciali di origine nelle ubicazioni in cui si selezionano queste caselle di controllo.  
+> Anche se le impostazioni sono definite **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile registrare carichi e spedizioni direttamente dai documenti commerciali di origine nelle ubicazioni in cui si selezionano queste caselle di controllo.  
 
 In questa procedura dettagliata sono illustrati i task seguenti.  
 
@@ -51,6 +51,9 @@ In questa procedura dettagliata sono illustrati i task seguenti.
 -   Creazione di uno stoccaggio in magazzino in base al documento origine rilasciato.  
 -   Verificare che le collocazioni di stoccaggio siano ereditate dell'ordine di acquisto.  
 -   Registrazione della movimentazione warehouse nella warehouse e registrazione contemporanea della ricezione acquisti per l'ordine di acquisto di origine.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Ruoli  
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
@@ -66,9 +69,9 @@ Per completare questa procedura dettagliata, sarà necessario:
 -   Per diventare un impiegato warehouse presso l'ubicazione ARGENTO, effettuare i seguenti passaggi:  
 
     1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
-    2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti** .  
+    2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
     3.  Nel campo **Codice ubicazione** immettere ARGENTO.  
-    4.  Selezionare il campo **Default** .  
+    4.  Selezionare il campo **Default**.  
 
 ## <a name="story"></a>Scenario  
 Ellen, responsabile warehouse presso CRONUS International Ltd., crea un ordine di acquisto per 10 unità dell'articolo LS-75 e 30 unità dell'articolo LS-81 per il fornitore 10000 che deve essere consegnato alla warehouse ARGENTO. Quando la consegna arriva alla warehouse, Gianni, il lavoratore warehouse, esegue lo stoccaggio degli articoli nelle collocazioni di default per gli articoli. Quando Gianni registra lo stoccaggio, gli articoli vengono registrati come ricevuti nel magazzino e disponibili alla vendita o a un'altra domanda.  
@@ -80,17 +83,17 @@ Ellen, responsabile warehouse presso CRONUS International Ltd., crea un ordine d
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda ubicazione ARGENTO.  
-3.  Selezionare la casella di controllo **Richiesto stoccaggio** .  
+3.  Selezionare la casella di controllo **Richiesto stoccaggio**.  
 
     Impostare una collocazione di default per i due numeri articolo per controllare dove vengono stoccati.  
 
-4.  Scegliere l'azione **Collocazioni** .  
-5.  Selezionare la prima riga, per la collocazione S-01-0001, quindi scegliere l'azione **Contenuti** .  
+4.  Scegliere l'azione **Collocazioni**.  
+5.  Selezionare la prima riga, per la collocazione S-01-0001, quindi scegliere l'azione **Contenuti**.  
 
     Notare che nella pagina **Contenuto collocazione** l'articolo LS-75 è già impostato come contenuto nella collocazione S-01-0001.  
 
-6.  Scegliere l'azione **Nuovo** .  
-7.  Selezionare i campi **Fisso** e **Default** .  
+6.  Scegliere l'azione **Nuovo**.  
+7.  Selezionare i campi **Fisso** e **Default**.  
 8.  Nel campo **Nr. articolo** immettere LS-81.  
 
 ## <a name="creating-the-purchase-order"></a>Creazione dell'ordine di acquisto  
@@ -99,7 +102,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 ### <a name="to-create-the-purchase-order"></a>Per creare l'ordine di acquisto.  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo** .  
+2.  Scegliere l'azione **Nuovo**.  
 3.  Creare un ordine di acquisto per il fornitore 10000 alla data di lavoro (23 gennaio) con le righe di ordine di acquisto seguenti.  
 
     |Articolo|Cod. ubicazione|Codice collocazione|Quantità|  
@@ -112,7 +115,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 
     Comunicare alla warehouse che l'ordine di acquisto è pronto per la gestione warehouse al momento della consegna.  
 
-4.  Scegliere l'azione **Rilascia** .  
+4.  Scegliere l'azione **Rilascia**.  
 
     La consegna degli altoparlanti dal fornitore 10000 è arrivata alla warehouse ARGENTO e Gianni continua lo stoccaggio.  
 
@@ -122,17 +125,17 @@ Nella pagina **Stoccaggio in magazzino** è possibile gestire tutte le attività
 ### <a name="to-receive-and-put-the-items-away"></a>Per ricevere e stoccare gli articoli  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi magazzino** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo** .  
-3.  Selezionare il campo **Documento origine** , quindi selezionare **Ordine acquisto** .  
-4.  Selezionare il campo **Nr. origine** , selezionare la riga per gli acquisti dal fornitore 10000 e fare clic sul pulsante **OK** .  
+2.  Scegliere l'azione **Nuovo**.  
+3.  Selezionare il campo **Documento origine**, quindi selezionare **Ordine acquisto**.  
+4.  Selezionare il campo **Nr. origine**, selezionare la riga per gli acquisti dal fornitore 10000 e fare clic sul pulsante **OK**.  
 
-    In alternativa, scegliere l'azione **Prendi documento origine** , quindi selezionare l'ordine di acquisto.  
+    In alternativa, scegliere l'azione **Prendi documento origine**, quindi selezionare l'ordine di acquisto.  
 
-5.  Scegliere l'azione **Autocompil. qtà da gestire** .  
+5.  Scegliere l'azione **Autocompil. qtà da gestire**.  
 
     In alternativa, nel campo **Qtà da gestire** immettere 10 e 30 rispettivamente nelle due righe di stoccaggio magazzino.  
 
-6.  Scegliere l'azione **Registra** , selezionare l'azione **Ricevi** , quindi il pulsante **OK** .  
+6.  Scegliere l'azione **Registra**, selezionare l'azione **Ricevi**, quindi il pulsante **OK**.  
 
     I 40 altoparlanti ora sono registrati come stoccati nella collocazione S-01-0001 e viene creato un movimento contabile articolo positivo che riflette la ricezione acquisti registrata.  
 
@@ -144,4 +147,4 @@ Nella pagina **Stoccaggio in magazzino** è possibile gestire tutte le attività
  [Spostare articoli ad hoc nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

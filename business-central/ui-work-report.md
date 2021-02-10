@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: cdb01a2d74dff2fef15c2207f98ba8893f081aca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4b1615ebf177db94e3dfb372809fa71ed2f1459
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920390"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760185"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilizzo di report, processi batch e XMLport
 
@@ -34,11 +34,11 @@ Quando si apre un report, processo batch o XMLport, viene di norma visualizzata 
 
 ## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Utilizzo dei valori predefiniti: impostazioni predefinite 
 
-La maggior parte delle pagine di richiesta include il campo **Utilizza valori predefiniti di** . Questo campo consente di selezionare le impostazioni predefinite per il report, che impostano automaticamente opzioni e filtri per il report. Selezionare una voce dall'elenco a discesa per vedere che le opzioni e i filtri nella pagina della richiesta cambiano di conseguenza.
+La maggior parte delle pagine di richiesta include il campo **Utilizza valori predefiniti di**. Questo campo consente di selezionare le impostazioni predefinite per il report, che impostano automaticamente opzioni e filtri per il report. Selezionare una voce dall'elenco a discesa per vedere che le opzioni e i filtri nella pagina della richiesta cambiano di conseguenza.
 
 La voce **Filtri e opzioni utilizzati di recente** è sempre disponibile. Questa voce imposta il report per utilizzare le opzioni e i filtri che sono stati utilizzati l'ultima volta che è stato eseguito il report.
 
-Il campo **Utilizza valori predefiniti di** fornisce un modo rapido e affidabile per generare costantemente report che contengono i dati corretti. Dopo aver selezionato una voce, è possibile modificare qualsiasi opzione e filtro prima di visualizzare in anteprima o stampare il report. Le modifiche effettuate non verranno salvate nella voce di impostazione predefinita selezionata, ma verranno salvate in **Filtri e opzioni utilizzati più di recente** .
+Il campo **Utilizza valori predefiniti di** fornisce un modo rapido e affidabile per generare costantemente report che contengono i dati corretti. Dopo aver selezionato una voce, è possibile modificare qualsiasi opzione e filtro prima di visualizzare in anteprima o stampare il report. Le modifiche effettuate non verranno salvate nella voce di impostazione predefinita selezionata, ma verranno salvate in **Filtri e opzioni utilizzati più di recente**.
 
 >[!NOTE]
 > Le impostazioni predefinite vengono generalmente configurate e gestite da un amministratore. Per ulteriori informazioni, vedere [Gestire impostazioni salvate per report e processi batch](reports-saving-reusing-settings.md).
@@ -57,18 +57,18 @@ Usare i campi in **Opzioni** e **Filtri** per limitare le informazioni che si de
 > [!CAUTION]
 > La sezione **Filtra elenco per** in una pagina di richiesta fornisce una generica capacità di filtro per i report. Tali filtri sono facoltativi.
 >
-> Alcuni report ignoreranno tali filtri, nel senso che qualsiasi filtro venga impostato nella sezione **Filtra elenco per** , l'output del report è lo stesso. Non è possibile fornire un elenco dei campi che vengono ignorati in quali report, quindi sarà necessario sperimentare con i filtri quando utilizzati.
+> Alcuni report ignoreranno tali filtri, nel senso che qualsiasi filtro venga impostato nella sezione **Filtra elenco per**, l'output del report è lo stesso. Non è possibile fornire un elenco dei campi che vengono ignorati in quali report, quindi sarà necessario sperimentare con i filtri quando utilizzati.
 >
-> **Esempio** : quando si utilizza il processo batch **Crea solleciti** , un filtro per il campo **Movimenti contabili clienti** di **Livello ultimo sollecito emesso** verrà ignorato perché i filtri sono fissi per tale processo batch.
+> **Esempio**: quando si utilizza il processo batch **Crea solleciti**, un filtro per il campo **Movimenti contabili clienti** di **Livello ultimo sollecito emesso** verrà ignorato perché i filtri sono fissi per tale processo batch.
 
 ## <a name="previewing-a-report"></a>Anteprima di un report
 
 L'anteprima di un report consente di vedere come apparirà il report prima di stamparlo. L'anteprima presenterà il report in base alla [stampante](#Printer) che è mostrata nel campo **Stampante** nella pagina della richiesta. Dopo l'anteprima, è possibile tornare alla pagina della richiesta e modificare le opzioni e i filtri secondo necessità.
 
-Per visualizzare in anteprima un report, scegliere il pulsante **Anteprima** o **Anteprima e chiudi** nella pagina di richiesta del report. Il pulsante visualizzato dipende dal report, quindi alcuni report hanno **Anteprima** mentre altri hanno il pulsante **Anteprima e chiudi** . Entrambi i pulsanti aprono un'anteprima del report. La differenza è che **Anteprima** mantiene la pagina della richiesta aperta, in modo da potervi tornare, apportare modifiche, visualizzare di nuovo l'anteprima o stampare. Con **Anteprima e chiudi** , la pagina di richiesta si chiude, quindi è necessario aprire nuovamente il report per apportare modifiche o stamparlo.
+Per visualizzare in anteprima un report, scegliere il pulsante **Anteprima** o **Anteprima e chiudi** nella pagina di richiesta del report. Il pulsante visualizzato dipende dal report, quindi alcuni report hanno **Anteprima** mentre altri hanno il pulsante **Anteprima e chiudi**. Entrambi i pulsanti aprono un'anteprima del report. La differenza è che **Anteprima** mantiene la pagina della richiesta aperta, in modo da potervi tornare, apportare modifiche, visualizzare di nuovo l'anteprima o stampare. Con **Anteprima e chiudi**, la pagina di richiesta si chiude, quindi è necessario aprire nuovamente il report per apportare modifiche o stamparlo.
 
 > [!NOTE]
-> Se si utilizza il primo ciclo di rilascio di Business Central 2020 o una versione precedente, è disponibile solo un pulsante **Anteprima** che chiude la pagina di richiesta in anteprima, come descritto per **Anteprima e chiudi** .
+> Se si utilizza il primo ciclo di rilascio di Business Central 2020 o una versione precedente, è disponibile solo un pulsante **Anteprima** che chiude la pagina di richiesta in anteprima, come descritto per **Anteprima e chiudi**.
 
 ### <a name="working-with-the-preview"></a>Utilizzo dell'anteprima
 
@@ -79,7 +79,7 @@ Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 - Ridimensionare per adattare alla pagina
 - Seleziona testo
 
-    È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] o Microsoft Word.  Ad esempio, tenere premuto il pulsante del mouse sul punto da cui si desidera iniziare, quindi spostare il mouse per selezionare una o più parole, frasi o paragrafi. Premere il pulsante destro del mouse e selezionare **Copia** . Quindi incollare il testo selezionato nella posizione desiderata.
+    È possibile copiare il testo di un report e incollarlo altrove, come una pagina in [!INCLUDE[prod_short](includes/prod_short.md)] o Microsoft Word.  Ad esempio, tenere premuto il pulsante del mouse sul punto da cui si desidera iniziare, quindi spostare il mouse per selezionare una o più parole, frasi o paragrafi. Premere il pulsante destro del mouse e selezionare **Copia**. Quindi incollare il testo selezionato nella posizione desiderata.
 - Panoramica del documento
 
     È possibile spostare l'area visibile del report in qualsiasi direzione in modo da poter visualizzare altre aree o il report. La panoramica risulta utile quando è stato eseguito l'ingrandimento per visualizzare i dettagli.  Ad esempio, tenere premuto il pulsante del mouse su un punto dell'anteprima del report, quindi spostare il mouse.
@@ -93,15 +93,15 @@ Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Pianificazione dell'esecuzione di un report
 
-È possibile pianificare l'esecuzione di un processo batch o di un report a una data e un'ora specifiche. I report e i processi batch pianificati vengono inseriti nella coda commesse e vengono elaborati all'orario pianificato, in maniera analoga alle altre commesse. Scegliere l'opzione **Programmazione** dopo aver scelto il pulsante **Invia a** , quindi immettere informazioni quali stampante, ora e data. Il report viene aggiunto alla coda processi e sarà eseguito alla data specificata. Quando il report viene elaborato, l'elemento verrà rimosso dalla coda commesse. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).  
+È possibile pianificare l'esecuzione di un processo batch o di un report a una data e un'ora specifiche. I report e i processi batch pianificati vengono inseriti nella coda commesse e vengono elaborati all'orario pianificato, in maniera analoga alle altre commesse. Scegliere l'opzione **Programmazione** dopo aver scelto il pulsante **Invia a**, quindi immettere informazioni quali stampante, ora e data. Il report viene aggiunto alla coda processi e sarà eseguito alla data specificata. Quando il report viene elaborato, l'elemento verrà rimosso dalla coda commesse. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).  
 
-Quando si pianifica l'esecuzione di un report, è possibile specificare che deve essere eseguito ogni giovedì impostando il campo **Prossima esecuzione formula della data** su *D4* , per esempio. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).  
+Quando si pianifica l'esecuzione di un report, è possibile specificare che deve essere eseguito ogni giovedì impostando il campo **Prossima esecuzione formula della data** su *D4*, per esempio. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).  
 
 È possibile salvare il report in un file, ad esempio un file Excel, Word, PDF, o stamparlo con una stampante selezionata, o solo generare il report. Se si sceglie di salvare il report in un file, il report elaborato viene inviato nell'area **Report elaborati** della Gestione ruolo utente, dove è possibile visualizzarlo.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Stampa di un report
 
-Per stampare un report scegliere il pulsante **Stampa** nella pagina di richiesta o nella barra dei menu della pagina **Anteprima** .
+Per stampare un report scegliere il pulsante **Stampa** nella pagina di richiesta o nella barra dei menu della pagina **Anteprima**.
 
 <!--
 ### Printer selection
@@ -116,17 +116,17 @@ If no printer is specified on the **Printer Selections** page or set as default 
 
 Il campo **Stampante** nella pagina di richiesta del report mostra il nome della stampante a cui verrà inviato il report. **(Gestito dal browser)** indica che non esiste una stampante designata per il report. In questo caso, il browser gestirà la stampa e visualizzerà un'esperienza standard, in cui è possibile scegliere una stampante locale collegata al dispositivo.
 
-Non è possibile modificare la stampante utilizzando il campo **Stampante** . Per cambiare la stampante, è necessario andare alle pagine **Selezioni della stampante** o **Gestione della stampante** . L'impostazione della stampante è in genere un'attività dell'amministratore. Per ulteriori informazioni, vedere [Configurare le stampanti](ui-specify-printer-selection-reports.md).
+Non è possibile modificare la stampante utilizzando il campo **Stampante**. Per cambiare la stampante, è necessario andare alle pagine **Selezioni della stampante** o **Gestione della stampante**. L'impostazione della stampante è in genere un'attività dell'amministratore. Per ulteriori informazioni, vedere [Configurare le stampanti](ui-specify-printer-selection-reports.md).
 
 <!--
 ### Browser printing
 
-Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
 
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
+> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
@@ -136,7 +136,7 @@ On the **Printer Management** page, you can see the printers that are set up. Fo
 -->
 ### <a name="printing-reports-in-thai"></a>Stampa di report nella versione tailandese
 
-Nella versione tailandese di [!INCLUDE[prodshort](includes/prodshort.md)], non è possibile stampare correttamente i report con il pulsante **Stampa** a causa delle limitazioni nel servizio che genera il file PDF stampabile. In alternativa, è possibile aprire il report in Word e quindi salvare il report come PDF stampabile.  
+Nella versione tailandese di [!INCLUDE[prod_short](includes/prod_short.md)], non è possibile stampare correttamente i report con il pulsante **Stampa** a causa delle limitazioni nel servizio che genera il file PDF stampabile. In alternativa, è possibile aprire il report in Word e quindi salvare il report come PDF stampabile.  
 
 Oppure è possibile richiedere all'amministratore di creare un layout report Word per i report più utilizzati. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).  
 
@@ -155,11 +155,11 @@ I campi in **Avanzate** impostano le limitazioni sul report generato per control
 |Numero massimo documenti|500|
 
 > [!NOTE]
-> I valori massimi possono essere diversi per [!INCLUDE[d365fin](includes/d365fin_md.md)] in locale e un amministratore può modificarli. Per ulteriori informazioni, vedere [Configurazione di Business Central Server - Report](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Per una panoramica dei limiti dei report in [!INCLUDE[d365fin](includes/d365fin_md.md)] online, vedere [Limiti operativi](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> I valori massimi possono essere diversi per [!INCLUDE[prod_short](includes/prod_short.md)] in locale e un amministratore può modificarli. Per ulteriori informazioni, vedere [Configurazione di Business Central Server - Report](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Per una panoramica dei limiti dei report in [!INCLUDE[prod_short](includes/prod_short.md)] online, vedere [Limiti operativi](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Vedere anche
 
 [Configurare le stampanti](ui-specify-printer-selection-reports.md)  
 [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md)  
 [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

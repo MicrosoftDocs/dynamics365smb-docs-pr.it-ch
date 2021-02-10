@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f158499f0c93e1a991b1f092676f653cf067a46e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a8233ec0ce59e5ce784a00f983b0666b9989255
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910048"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759670"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi warehouse:
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse, è possibile utilizzare la funzionalità relativa ai documenti di stoccaggio warehouse per controllare lo stoccaggio degli articoli.  
@@ -38,19 +38,19 @@ Oltre ai metodi standard per creare stoccaggi warehouse descritti in questo argo
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi** e quindi scegliere il collegamento correlato.
     Se sono state create istruzioni di stoccaggio, verrà visualizzato uno stoccaggio nella warehouse.  
 2.  Aprire lo stoccaggio warehouse che si desidera utilizzare.  
-3.  Quando si inizia a lavorare su un stoccaggio specifico, immettere il proprio ID utente nella Scheda dettaglio **Generale** , se richiesto.  
-4.  Eseguire le azioni Prendere e Mettere indicate nelle righe del campo **Tipo azione** .  
+3.  Quando si inizia a lavorare su un stoccaggio specifico, immettere il proprio ID utente nella Scheda dettaglio **Generale**, se richiesto.  
+4.  Eseguire le azioni Prendere e Mettere indicate nelle righe del campo **Tipo azione**.  
 
     Si tenga presente che a ciascuna riga di carico corrispondono almeno due righe di stoccaggio nella warehouse:  
 
-    -   La prima riga, in cui il campo **Tipo azione** è impostato su **Prendere** , indica l'ubicazione degli articoli nell'area di carico. Non è possibile modificare il campo relativo alla zona e alla collocazione in questa riga.  
-    -   Nelle righe successive, in cui il campo **Tipo azione** è impostato su **Mettere** , viene indicata la posizione in cui inserire gli articoli nell'area di immagazzinamento. Se la warehouse ha ricevuto un numero elevato di articoli in una riga di carico, è possibile che tali articoli debbano essere stoccati in diverse collocazioni, a ciascuna delle quali corrisponde una riga Mettere.  
+    -   La prima riga, in cui il campo **Tipo azione** è impostato su **Prendere**, indica l'ubicazione degli articoli nell'area di carico. Non è possibile modificare il campo relativo alla zona e alla collocazione in questa riga.  
+    -   Nelle righe successive, in cui il campo **Tipo azione** è impostato su **Mettere**, viene indicata la posizione in cui inserire gli articoli nell'area di immagazzinamento. Se la warehouse ha ricevuto un numero elevato di articoli in una riga di carico, è possibile che tali articoli debbano essere stoccati in diverse collocazioni, a ciascuna delle quali corrisponde una riga Mettere.  
 
-        Se si desidera che le righe Prendere e Mettere per ciascuna riga di carico non siano consecutive, è possibile ordinarle selezionando **Articolo** nel campo **Metodo ordinamento** della Scheda dettaglio **Generale** .  
+        Se si desidera che le righe Prendere e Mettere per ciascuna riga di carico non siano consecutive, è possibile ordinarle selezionando **Articolo** nel campo **Metodo ordinamento** della Scheda dettaglio **Generale**.  
 
         Se la disposizione fisica della warehouse riflette le valutazioni delle collocazioni, è possibile utilizzare il metodo di ordinamento **Valutazione collocazione** per preparare un percorso di stoccaggio che consentirà di ridurre le operazioni da eseguire all'interno della warehouse.  
 
-5.  Una volta posizionati tutti gli articoli nelle collocazioni, come indicato nelle istruzioni, scegliere l'azione **Registra stoccaggio** .  
+5.  Una volta posizionati tutti gli articoli nelle collocazioni, come indicato nelle istruzioni, scegliere l'azione **Registra stoccaggio**.  
 
 Nelle ubicazioni impostate per l'utilizzo di stoccaggi e prelievi guidati, le impostazioni che seguono sono prerequisiti per la procedura precedente:  
 
@@ -65,12 +65,12 @@ La valutazione della collocazione viene presa in considerazione quando più coll
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi whse. registrati** e quindi scegliere il collegamento correlato.  
 2.  Selezionare un carico registrato che deve essere stoccato.  
-3.  Scegliere l'azione **Scheda** .  
+3.  Scegliere l'azione **Scheda**.  
 
     Se il campo **Stato del documento** è vuoto, ciò indica che il carico non è stato assolutamente stoccato. In caso contrario, il campo indica che il carico è parzialmente o completamente stoccato.  
 
-4.  Se il carico non è stato stoccato o è stato stoccato solo parzialmente, scegliere l'azione **Crea stoccaggio** .  
-5.  Immettere le informazioni appropriate nella pagina di richiesta del processo batch per creare lo stoccaggio, quindi scegliere **OK** .   
+4.  Se il carico non è stato stoccato o è stato stoccato solo parzialmente, scegliere l'azione **Crea stoccaggio**.  
+5.  Immettere le informazioni appropriate nella pagina di richiesta del processo batch per creare lo stoccaggio, quindi scegliere **OK**.   
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
@@ -78,4 +78,4 @@ La valutazione della collocazione viene presa in considerazione quando più coll
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

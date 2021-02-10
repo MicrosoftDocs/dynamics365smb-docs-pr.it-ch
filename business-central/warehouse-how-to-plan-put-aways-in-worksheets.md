@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b6837c9acec83654c7d85e98e93c00e30e50eb1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925440"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759760"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Pianificare stoccaggi nei prospetti
 Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.  
@@ -32,7 +32,7 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Per pianificare le istruzioni nel prospetto di stoccaggio  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto stoccaggi** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Prendi documenti warehouse** . Verrà visualizzata la pagina **Selezione stoccaggio** .  
+2.  Scegliere l'azione **Prendi documenti warehouse**. Verrà visualizzata la pagina **Selezione stoccaggio**.  
 
     In questa finestra vengono visualizzati tutti i carichi registrati e gli stoccaggi interni registrati inoltrati alla funzione di stoccaggio, inclusi quelli per cui sono già state create istruzioni di stoccaggio. I documenti contenenti righe di stoccaggio per le quali lo stoccaggio è stato eseguito per intero e registrato non vengono visualizzati in questa lista.  
 
@@ -46,17 +46,17 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
     > [!NOTE]  
     >  La modalità di ordinamento delle righe nel prospetto non viene applicata automaticamente alle istruzioni di stoccaggio, tuttavia esistono le stesse possibilità di ordinamento, unitamente alla valutazione collocazione. L'ordine delle righe pianificato nel prospetto può pertanto essere facilmente riprodotto durante la creazione delle istruzioni di stoccaggio o quando si esegue direttamente l'ordinamento nelle istruzioni di stoccaggio.  
 
-5.  Compilare il campo **Qtà da gestire** . Scegliere l'azione **Autocompil. qtà da gestire** oppure compilare i campi manualmente.  
+5.  Compilare il campo **Qtà da gestire**. Scegliere l'azione **Autocompil. qtà da gestire** oppure compilare i campi manualmente.  
 6.  Se necessario, modificare le righe manualmente. È possibile eliminare righe nel caso in cui, ad esempio, sia necessario stoccare alcuni articoli in una collocazione distante dalle collocazioni per altri tipi di articoli.  
 
     > [!NOTE]  
     >  le righe vengono eliminate solo da questo prospetto e non dalla lista di selezione degli stoccaggi.  
 
-7.  Selezionare l'azione **Crea stoccaggio** . Verrà visualizzata la pagina **Crea documento** in cui è possibile aggiungere ulteriori informazioni relative allo stoccaggio che si sta creando, come descritto di seguito.  
+7.  Selezionare l'azione **Crea stoccaggio**. Verrà visualizzata la pagina **Crea documento** in cui è possibile aggiungere ulteriori informazioni relative allo stoccaggio che si sta creando, come descritto di seguito.  
 
     -   È possibile assegnare lo stoccaggio a un addetto al magazzino specifico.  
     -   È possibile ordinare le righe delle istruzioni di stoccaggio in base agli stessi criteri di ordinamento utilizzati nel prospetto o in base alla valutazione collocazione. Quando si esegue un ordinamento in base alla valutazione collocazione, le righe Prendere vengono visualizzate per prime, in quanto alla maggior parte delle collocazioni carichi è associata una valutazione pari a 0, mentre le righe Mettere vengono visualizzate per ultime a partire dalle collocazioni con valutazione più bassa. Se la warehouse è stata strutturata in modo che le collocazioni con valutazione simile siano posizionate l'una accanto all'altra, questa modalità di ordinamento delle righe comporta una semplificazione delle operazioni che gli impiegati warehouse dovranno eseguire.  
-    -   È possibile scegliere di non visualizzare le righe intermedie create durante la conversione automatica di un'unità di misura più grande in unità di misura più piccole selezionando il campo **Impostare filtro breakbulk** . Per ulteriori informazioni, vedere [Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   È possibile scegliere di non visualizzare le righe intermedie create durante la conversione automatica di un'unità di misura più grande in unità di misura più piccole selezionando il campo **Impostare filtro breakbulk**. Per ulteriori informazioni, vedere [Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   È possibile scegliere che il campo **Qtà da gestire** non venga compilato automaticamente nelle istruzioni di stoccaggio.  
     -   È possibile scegliere di stampare il documento immediatamente.  
 
@@ -68,4 +68,4 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

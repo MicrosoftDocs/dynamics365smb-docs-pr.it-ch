@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ea8cbc3b701d8e4fab0d720390db7bab6e1a4e59
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d3ce697bb627bcc8acebc2392fe86b6af4b370b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914778"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759985"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Abilitare breakbulk automatico con stoccaggi e prelievi guidati
-Per le ubicazioni che utilizzano stoccaggi e prelievi guidati, [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di eseguire in varie situazioni il breakbulk automatico, ovvero la suddivisione di unità di misura più grandi in unità di misura più piccole, durante la creazione delle istruzioni di warehouse che consentono di soddisfare le richieste di documenti di origine, ordini di produzione o prelievi e stoccaggi interni. Talvolta il breakbulk consente di raggruppare unità di misura più piccole, se necessario, in modo da soddisfare le richieste in uscita suddividendo le unità di misura più grandi nel documento di origine o nell'ordine di produzione in unità di misura più piccole disponibili nella warehouse.   
+Per le ubicazioni che utilizzano stoccaggi e prelievi guidati, [!INCLUDE[prod_short](includes/prod_short.md)] consente di eseguire in varie situazioni il breakbulk automatico, ovvero la suddivisione di unità di misura più grandi in unità di misura più piccole, durante la creazione delle istruzioni di warehouse che consentono di soddisfare le richieste di documenti di origine, ordini di produzione o prelievi e stoccaggi interni. Talvolta il breakbulk consente di raggruppare unità di misura più piccole, se necessario, in modo da soddisfare le richieste in uscita suddividendo le unità di misura più grandi nel documento di origine o nell'ordine di produzione in unità di misura più piccole disponibili nella warehouse.   
 
 ## <a name="breakbulking-in-picks"></a>Breakbulk relativo ai prelievi  
 Se si desidera immagazzinare articoli con unità di misura differenti e consentire di combinarli automaticamente a seconda delle esigenze nel processo di prelievo, selezionare il campo **Permettere breakbulk** nella scheda ubicazione.  
@@ -31,12 +31,12 @@ Se vengono individuate solo le unità di misura più piccole, viene suggerito di
 Durante lo stoccaggio nella warehouse, la dimensione automaticamente suggerita nelle righe di azione Mettere è l'unità di misura di stoccaggio, ad esempio pezzi, anche se gli articoli giungono nella warehouse in unità di misura differenti.  
 
 ## <a name="breakbulking-in-movements"></a>Breakbulk relativo ai movimenti  
-L'applicazione esegue automaticamente il breakbulk anche nei movimenti di rifornimento qualora venga selezionato il campo **Permettere breakbulk** della Scheda dettaglio **Opzione** nella pagina **Calcola rifornimento collocazione** .  
+L'applicazione esegue automaticamente il breakbulk anche nei movimenti di rifornimento qualora venga selezionato il campo **Permettere breakbulk** della Scheda dettaglio **Opzione** nella pagina **Calcola rifornimento collocazione**.  
 
 I risultati del processo di conversione da un'unità di misura all'altra possono essere visualizzati come righe di breakbulk intermedie nelle istruzioni di stoccaggio, prelievo o movimento.  
 
 > [!NOTE]  
->  Se si seleziona il campo **Impostare filtro breakbulk** dell'intestazione delle istruzioni relative alla warehouse, le righe di breakbulk vengono automaticamente nascoste ogni volta che viene utilizzata l'intera unità di misura più grande. Se, ad esempio, un pallet è costituito da 12 pezzi e viene utilizzata l'intera unità di misura (12 pezzi), viene indicato di prelevare 1 pallet e posizionare 12 pezzi. Se, tuttavia, occorre prelevare solo 9 pezzi, le righe di breakbulk non vengono nascoste, anche se è stato selezionato il campo **Filtro breakbulk** , in quanto è necessario trovare una collocazione per i tre pezzi rimanenti all'interno della warehouse.  
+>  Se si seleziona il campo **Impostare filtro breakbulk** dell'intestazione delle istruzioni relative alla warehouse, le righe di breakbulk vengono automaticamente nascoste ogni volta che viene utilizzata l'intera unità di misura più grande. Se, ad esempio, un pallet è costituito da 12 pezzi e viene utilizzata l'intera unità di misura (12 pezzi), viene indicato di prelevare 1 pallet e posizionare 12 pezzi. Se, tuttavia, occorre prelevare solo 9 pezzi, le righe di breakbulk non vengono nascoste, anche se è stato selezionato il campo **Filtro breakbulk**, in quanto è necessario trovare una collocazione per i tre pezzi rimanenti all'interno della warehouse.  
 
 > [!NOTE]  
 >  Se si desidera ottimizzare l'impiego delle unità di misura nell'applicazione di warehouse, anche in concomitanza con l'utilizzo della funzionalità di breakbulk, si consiglia di eseguire, ove possibile, le seguenti operazioni:  
@@ -50,4 +50,4 @@ I risultati del processo di conversione da un'unità di misura all'altra possono
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
