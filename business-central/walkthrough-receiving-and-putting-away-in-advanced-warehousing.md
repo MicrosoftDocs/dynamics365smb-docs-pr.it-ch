@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 88255d775b52aef089431fd3125a899ffafa3747
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918406"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035674"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedura dettagliata - Ricezione e stoccaggio nelle configurazioni di warehouse avanzate
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
 |Metodo|Processo in entrata|Collocazioni|Carichi|Stoccaggi|Livello di complessità (vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -44,6 +44,8 @@ In questa procedura dettagliata sono illustrati i task seguenti.
 -   Creazione e registrazione di un documento di carico warehouse per più righe di ordini di acquisto da fornitori specifici.  
 -   Registrazione dello stoccaggio warehouse per gli articoli ricevuti.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 ## <a name="roles"></a>Ruoli  
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 
@@ -59,9 +61,9 @@ Per completare questa procedura dettagliata, sarà necessario:
 -   Per diventare un impiegato warehouse presso l'ubicazione BIANCA effettuando i seguenti passaggi:  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
-2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti** .  
+2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
-4.  Selezionare il campo **Default** .  
+4.  Selezionare il campo **Default**.  
 
 ## <a name="story"></a>Scenario  
 Ellen, responsabile warehouse presso CRONUS International Ltd., crea due ordini di acquisto per articoli relativi agli accessori dai fornitori 10000 e 20000 che devono essere consegnati al magazzino BIANCO. Quando le consegne giungono alla warehouse, Sammy, responsabile della ricezione degli articoli dai fornitori 10000 e 20000, utilizza un filtro per creare righe di carico per gli ordini di acquisto che arrivano dai due fornitori. Sammy registra gli articoli ricevuti nel magazzino in un carico warehouse e li mette a disposizione per la vendita o altre richieste. John, il lavoratore warehouse, prende gli articoli dalla collocazione di ricevimento e li stocca. Stocca tutte le unità nelle proprie collocazioni di default, eccetto 40 su 100 cerniere ricevute durante lo stoccaggio nel reparto di assemblaggio suddividendo la riga di stoccaggio. Quando John registra lo stoccaggio, il contenuto delle collocazioni viene aggiornato e gli articoli vengono resi disponibili per il prelievo dalla warehouse.  
@@ -77,7 +79,7 @@ L'impostazione della pagina **Scheda Ubicazione** definisce i flussi della wareh
 
     Ciò significa che l'ubicazione è impostata per il livello massimo di complessità, riflesso dal fatto che tutte le caselle di controllo di gestione della warehouse nella Scheda dettaglio sono selezionate.  
 
-4.  Notare che nella Scheda dettaglio **Collocazioni** le collocazioni sono specificate nei campi **Codice collocazione carichi** e **Codice collocazione spedizione** .  
+4.  Notare che nella Scheda dettaglio **Collocazioni** le collocazioni sono specificate nei campi **Codice collocazione carichi** e **Codice collocazione spedizione**.  
 
 Ciò significa che quando si crea un carico warehouse, il codice collocazione viene copiato nell'intestazione del documento di carico warehouse per impostazione di default e nelle righe degli stoccaggi warehouse risultanti.  
 
@@ -87,7 +89,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 ### <a name="to-create-the-purchase-orders"></a>Per creare gli ordini di acquisto  
 
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo** .  
+2.  Scegliere l'azione **Nuovo**.  
 3.  Creare un ordine di acquisto per il fornitore 10000 alla data di lavoro (23 gennaio) con le righe di ordine di acquisto seguenti.  
 
     |Articolo|Cod. ubicazione|Quantità|  
@@ -97,11 +99,11 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 
     Comunicare alla warehouse che l'ordine di acquisto è pronto per la gestione warehouse al momento della consegna.  
 
-4.  Scegliere l'azione **Rilascia** .  
+4.  Scegliere l'azione **Rilascia**.  
 
     Procedere alla creazione del secondo ordine di acquisto.  
 
-5.  Scegliere l'azione **Nuovo** .  
+5.  Scegliere l'azione **Nuovo**.  
 6.  Creare un ordine di acquisto per il fornitore 20000 alla data di lavoro con le righe di ordine di acquisto seguenti.  
 
     |Articolo|Cod. ubicazione|Quantità|  
@@ -109,7 +111,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
     |70100|BIANCO|10 CAN|  
     |70101|BIANCO|12 CAN|  
 
-    Scegliere l'azione **Rilascia** .  
+    Scegliere l'azione **Rilascia**.  
 
     Le consegne degli articoli dai fornitori 10000 e 20000 sono arrivate alla warehouse BIANCO e Sammy inizia per elaborare le ricezioni di acquisto.  
 
@@ -118,16 +120,16 @@ Nella pagina **Carico warehouse** è possibile gestire più ordini in entrata pe
 
 ### <a name="to-receive-the-items"></a>Per ricevere gli articoli  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi warehouse** e quindi scegliere il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo** .  
+2.  Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
-4.  Scegliere l'azione **Usa filtri per richiamare doc. orig.** .  
-5.  Nel campo **Codice** immettere **ACCESSORIO** .  
-6.  Nel campo **Descrizione** immettere **Fornitori 10000 e 20000** .  
-7.  Scegliere l'azione **Modifica** .  
-8.  Nella Scheda dettaglio **Acquisto** , nel campo **Filtro Acquistare-da Nr. forn.** , immettere **10000&#124;20000** .  
-9. Scegliere l'azione **Esegui** . Il carico warehouse viene compilato con quattro righe che rappresentano le righe ordine di acquisto per i fornitori specificati. Il campo **Qtà da ricevere** è compilato in quanto non è stata selezionata la casella di controllo **Non compilare Qtà da gestire** nella pagina **Filtri per ottenere documenti origine** .  
-10. In alternativa, se si desidera utilizzare un filtro come descritto in precedenza in questa sezione, scegliere l'azione **Prendi documento origine** , quindi selezionare gli ordini di acquisto dai fornitori in questione.  
-11. Scegliere l'azione **Registra carico** , quindi scegliere il pulsante **Sì** .  
+4.  Scegliere l'azione **Usa filtri per richiamare doc. orig.**.  
+5.  Nel campo **Codice** immettere **ACCESSORIO**.  
+6.  Nel campo **Descrizione** immettere **Fornitori 10000 e 20000**.  
+7.  Scegliere l'azione **Modifica**.  
+8.  Nella Scheda dettaglio **Acquisto**, nel campo **Filtro Acquistare-da Nr. forn.**, immettere **10000&#124;20000**.  
+9. Scegliere l'azione **Esegui**. Il carico warehouse viene compilato con quattro righe che rappresentano le righe ordine di acquisto per i fornitori specificati. Il campo **Qtà da ricevere** è compilato in quanto non è stata selezionata la casella di controllo **Non compilare Qtà da gestire** nella pagina **Filtri per ottenere documenti origine**.  
+10. In alternativa, se si desidera utilizzare un filtro come descritto in precedenza in questa sezione, scegliere l'azione **Prendi documento origine**, quindi selezionare gli ordini di acquisto dai fornitori in questione.  
+11. Scegliere l'azione **Registra carico**, quindi scegliere il pulsante **Sì**.  
 
     I movimenti contabili articoli positivi vengono creati sulla base delle ricezioni acquisti registrate di accessori da fornitori 10000 e 20000 e gli articoli sono pronti per lo stoccaggio nella warehouse dalla collocazione di carico.  
 
@@ -136,20 +138,20 @@ Nella pagina **Stoccaggio warehouse** è possibile gestire gli stoccaggi per uno
 
 ### <a name="to-put-the-items-away"></a>Per stoccare gli articoli  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'unico documento di stoccaggio warehouse nell'elenco e scegliere l'azione **Modifica** .  
+2.  Selezionare l'unico documento di stoccaggio warehouse nell'elenco e scegliere l'azione **Modifica**.  
 
     Il documento di stoccaggio warehouse verrà visualizzato con un totale di otto righe Prendere o Mettere per le quattro righe ordine di acquisto.
 
     Al lavoratore warehouse viene detto che il reparto di assemblaggio necessita di 40 cerniere. Inizia così a dividere la singola riga Mettere per specificare una seconda riga Mettere per la collocazione W-02-0001 nel reparto di assemblaggio in cui colloca quella parte di cerniere ricevute.  
 
-3.  Selezionare la seconda riga nella pagina **Stoccaggio warehouse** , la riga Mettere per l'articolo 70200.  
+3.  Selezionare la seconda riga nella pagina **Stoccaggio warehouse**, la riga Mettere per l'articolo 70200.  
 4.  Nel campo **Qtà da gestire** modificare il valore da 100 a 60.  
-5.  Nella Scheda dettaglio **Righe** scegliere **Funzioni** , quindi **Dividi riga** . Una nuova riga viene inserita per l'articolo 70200 con 40 nel campo **Qtà da gestire** .  
+5.  Nella Scheda dettaglio **Righe** scegliere **Funzioni**, quindi **Dividi riga**. Una nuova riga viene inserita per l'articolo 70200 con 40 nel campo **Qtà da gestire**.  
 6.  Nel campo **Codice collocazione** immettere W-02-0001. Il campo **Codice zona** viene compilato automaticamente.  
 
     Procedere con la registrazione dello stoccaggio.  
 
-7.  Scegliere l'azione **Registra stoccaggio** , quindi scegliere il pulsante **Sì** .  
+7.  Scegliere l'azione **Registra stoccaggio**, quindi scegliere il pulsante **Sì**.  
 
     Gli accessori ricevuti vengono a questo punto stoccati nelle collocazioni di default degli articoli e 40 cerniere vengono collocate nel reparto di assemblaggio. Gli articoli ricevuti sono ora disponibili per essere prelevati a seconda delle richieste interne, ad esempio gli ordini di assemblaggio, o delle richieste esterne, ad esempio le spedizioni vendite.  
 
