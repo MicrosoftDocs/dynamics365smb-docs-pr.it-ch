@@ -35,3 +35,6 @@ Se sono state registrate più spedizioni per un cliente, è possibile creare una
 ## <a name="see-also"></a>Vedere anche  
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
  [Impostare le ubicazioni](../../inventory-how-setup-locations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

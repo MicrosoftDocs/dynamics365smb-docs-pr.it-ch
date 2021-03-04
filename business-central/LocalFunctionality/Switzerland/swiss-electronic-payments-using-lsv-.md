@@ -44,3 +44,6 @@ Prima di usare il modulo LSV, è necessario definire le impostazioni nella pagin
  [Pagamenti elettronici svizzeri](swiss-electronic-payments.md)   
  [Pagamenti elettronici svizzeri tramite ESR](swiss-electronic-payments-using-esr.md)   
  [Effettuare i pagamenti](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

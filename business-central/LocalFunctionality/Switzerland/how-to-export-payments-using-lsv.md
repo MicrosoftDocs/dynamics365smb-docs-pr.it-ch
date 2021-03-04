@@ -41,3 +41,6 @@ ms.locfileid: "3916413"
  [Elaborare una riscossione LSV](how-to-process-an-lsv-collection.md)   
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   
  [Registrare pagamenti LSV+](how-to-post-lsv-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

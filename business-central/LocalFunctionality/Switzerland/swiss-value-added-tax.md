@@ -39,3 +39,6 @@ Ulteriori informazioni, come l'aliquota IVA e l'importo in valuta originale, ven
  [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)   
  [Creare e stampare una dichiarazione IVA svizzera](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

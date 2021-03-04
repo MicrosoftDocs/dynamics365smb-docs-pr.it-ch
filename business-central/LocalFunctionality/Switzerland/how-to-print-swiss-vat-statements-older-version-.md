@@ -56,3 +56,6 @@ La **dichiarazione IVA svizzera** è il rapporto di calcolo standard per la real
 ## <a name="see-also"></a>Vedere anche  
  [IVA svizzera](swiss-value-added-tax.md)   
  [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

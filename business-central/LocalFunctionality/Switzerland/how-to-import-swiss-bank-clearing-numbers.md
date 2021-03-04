@@ -45,3 +45,6 @@ La procedura seguente descrive come definire i numeri di filiale bancaria per i 
 ## <a name="see-also"></a>Vedere anche  
  [Pagamenti elettronici svizzeri](swiss-electronic-payments.md)   
  [Impostare i conti correnti bancari](../../bank-how-setup-bank-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

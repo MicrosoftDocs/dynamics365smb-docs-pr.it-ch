@@ -44,3 +44,6 @@ Le informazioni sui pagamenti vengono importate nelle righe di registrazioni. I 
 ## <a name="see-also"></a>Vedere anche  
  [Pagamenti elettronici svizzeri utilizzando ESR](swiss-electronic-payments-using-esr.md)   
  [Stampare fatture ESR](how-to-print-esr-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

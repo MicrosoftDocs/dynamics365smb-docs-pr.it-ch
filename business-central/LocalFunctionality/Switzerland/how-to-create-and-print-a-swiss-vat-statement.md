@@ -51,3 +51,6 @@ In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, 
 
 ## <a name="see-also"></a>Vedere anche  
  [IVA svizzera](swiss-value-added-tax.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

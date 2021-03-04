@@ -51,3 +51,6 @@ La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli s
 ## <a name="see-also"></a>Vedere anche  
  [Pagamenti elettronici svizzeri utilizzando ESR](swiss-electronic-payments-using-esr.md)   
  [Importare i pagamenti ESR](how-to-import-esr-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

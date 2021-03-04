@@ -51,3 +51,6 @@ Per ulteriori informazioni sulla valute IVA ed estere, vedere il sito Web [ESTV]
  [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)   
 [Aggiornare i tassi di cambio valuta](../../finance-how-update-currencies.md)  
 [Impostare una valuta contabile addizionale](../../finance-how-setup-additional-currencies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

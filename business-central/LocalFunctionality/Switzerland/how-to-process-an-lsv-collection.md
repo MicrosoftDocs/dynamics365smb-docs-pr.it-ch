@@ -62,3 +62,6 @@ Tutte le righe correlate vengono trasferite alle registrazioni LSV. Dopo aver el
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   
  [Registrare pagamenti LSV+](how-to-post-lsv-payments.md)   
  [Esportare pagamenti tramite LSV](how-to-export-payments-using-lsv.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

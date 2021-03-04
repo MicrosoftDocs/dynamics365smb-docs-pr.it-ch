@@ -46,3 +46,6 @@ Di seguito viene descritto come definire i codici postali per i clienti, ma gli 
  [Documenti di acquisto e di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md)   
  [Stampare una lista prelievi magazzino da un ordine di vendita](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Registrare nuovi fornitori](../../purchasing-how-register-new-vendors.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

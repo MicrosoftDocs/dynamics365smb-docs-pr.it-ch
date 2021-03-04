@@ -90,3 +90,6 @@ Stiamo pianificando di aggiungere funzionalità all'estensione di gestione di fa
 
 ## <a name="see-also"></a>Vedere anche
 [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ ms.locfileid: "3931405"
 [Impostare i termini, i livelli e i testi di sollecito di consegna](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [Assegnare codici di solleciti di consegna ai fornitori](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

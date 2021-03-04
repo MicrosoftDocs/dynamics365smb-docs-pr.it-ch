@@ -30,3 +30,6 @@ ms.locfileid: "3931329"
 [Assegnare codici di solleciti di consegna ai fornitori](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [Emettere solleciti di consegna](how-to-issue-delivery-reminders.md)  
 [Stampare report di test per i solleciti di consegna](how-to-print-test-reports-for-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

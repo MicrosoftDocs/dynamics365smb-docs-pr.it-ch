@@ -74,3 +74,6 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 [Disponibilità per paese/area geografica e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

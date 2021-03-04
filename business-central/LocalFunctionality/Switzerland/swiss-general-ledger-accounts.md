@@ -45,3 +45,6 @@ Prima di contabilizzare una registrazione COGE è possibile visualizzare l'antep
 
 [Visualizzare i saldi temporanei nelle registrazioni di contabilità generale](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

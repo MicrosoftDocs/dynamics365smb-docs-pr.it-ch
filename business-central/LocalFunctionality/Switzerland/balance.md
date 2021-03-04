@@ -24,3 +24,6 @@ Specifica un saldo di contabilità generale temporaneo. Quando si sceglie l'azio
 
 ## <a name="see-also"></a>Vedi anche  
  [Visualizzare i saldi temporanei nelle registrazioni di contabilità generale](how-to-view-temporary-balances-in-general-ledger-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

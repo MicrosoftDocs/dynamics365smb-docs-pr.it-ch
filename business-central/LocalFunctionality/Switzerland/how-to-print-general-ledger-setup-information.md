@@ -38,3 +38,6 @@ Prima di usare [!INCLUDE[prod_short](../../includes/prod_short.md)] nelle attivi
 
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione di dati finanziari](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

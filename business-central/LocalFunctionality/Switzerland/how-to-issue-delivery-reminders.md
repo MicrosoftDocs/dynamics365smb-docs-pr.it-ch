@@ -27,3 +27,6 @@ ms.locfileid: "3931419"
 [Solleciti consegna](delivery-reminders.md)  
 [Generare solleciti di consegna](how-to-generate-delivery-reminders.md)  
 [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

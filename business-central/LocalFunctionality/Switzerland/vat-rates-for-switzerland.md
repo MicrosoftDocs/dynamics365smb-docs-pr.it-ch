@@ -25,3 +25,6 @@ Per ulteriori informazioni, vedere [Dichiarare l'IVA all'autorità fiscale](../.
 ## <a name="see-also"></a>Vedi anche  
  [IVA svizzera](swiss-value-added-tax.md)   
  [Stampare dichiarazioni IVA svizzere (versione precedente)](how-to-print-swiss-vat-statements-older-version-.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

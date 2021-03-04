@@ -40,3 +40,6 @@ La lista prelievi include solo quegli articoli con una quantità di spedizione s
 
 [Documenti di acquisto e di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md)  
 [Importare codici postali svizzeri](how-to-import-swiss-post-codes.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

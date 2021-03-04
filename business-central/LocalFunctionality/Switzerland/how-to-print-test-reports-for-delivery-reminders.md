@@ -35,3 +35,6 @@ Un report di test è un documento che consente di esaminare e modificare un soll
  [Solleciti consegna](delivery-reminders.md)   
  [Generare solleciti di consegna](how-to-generate-delivery-reminders.md)   
  [Emettere solleciti di consegna](how-to-issue-delivery-reminders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

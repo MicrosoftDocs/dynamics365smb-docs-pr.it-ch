@@ -45,3 +45,6 @@ Quando si impostano le numerazioni per le fatture, è necessario seguire queste 
  [Importare i pagamenti ESR](how-to-import-esr-payments.md)   
  [Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Effettuare i pagamenti](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

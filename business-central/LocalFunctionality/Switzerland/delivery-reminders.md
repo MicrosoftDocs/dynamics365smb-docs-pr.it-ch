@@ -30,3 +30,6 @@ ms.locfileid: "3931413"
  [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)   
  [Emettere solleciti di consegna](how-to-issue-delivery-reminders.md)   
  [Stampare report di test per i solleciti di consegna](how-to-print-test-reports-for-delivery-reminders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

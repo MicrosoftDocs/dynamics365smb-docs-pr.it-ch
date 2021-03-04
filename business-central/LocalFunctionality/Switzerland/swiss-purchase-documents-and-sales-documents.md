@@ -48,3 +48,6 @@ Nella pagina **Setup contabilità clienti e vendite**, il campo **Spedizione e f
  [Importare codici postali svizzeri](how-to-import-swiss-post-codes.md)   
  [Stampare una lista prelievi magazzino da un ordine di vendita](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Per esportare i pagamenti secondo lo standard SEPA, è necessario utilizzare un 
  [Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md)  
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)  
  [Effettuare i pagamenti](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

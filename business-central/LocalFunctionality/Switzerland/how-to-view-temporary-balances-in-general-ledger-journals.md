@@ -35,3 +35,6 @@ Se nei conti di contabilità generale viene usata valuta estera, viene in tali c
 
 ## <a name="see-also"></a>Vedere anche  
  [Conti di contabilità generale per la Svizzera](swiss-general-ledger-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
