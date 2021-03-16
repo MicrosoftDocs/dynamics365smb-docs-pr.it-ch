@@ -3,19 +3,19 @@ title: Gestione del magazzino per la Svizzera
 description: I miglioramenti svizzeri includono funzioni speciali di gestione magazzino.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 413f3a7db5230373aaac066e25f385c64036bb58
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 31830644e2de5878b5e5b383aade8ef4864b0291
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753171"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382687"
 ---
 # <a name="swiss-inventory-management"></a>Gestione del magazzino per la Svizzera
 [!INCLUDE[prod_short](../../includes/prod_short.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  

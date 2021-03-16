@@ -3,19 +3,19 @@ title: Come creare solleciti di consegna manualmente
 description: In Business Central, è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile creare un singolo sollecito di consegna manualmente o generare solleciti di consegna per tutte le consegne scadute.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b95e4ba85235e33cb7fb5ac522b7c4f0ed3b69d9
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 635acca4c88bf3e043bdd99d42c59f64fb8d6de0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383999"
 ---
 # <a name="create-delivery-reminders-manually"></a>Creare solleciti di consegna manualmente
 

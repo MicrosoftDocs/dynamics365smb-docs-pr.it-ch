@@ -3,19 +3,19 @@ title: Come stampare le informazioni di setup della contabilità generale
 description: Prima di usare Business Central nelle attività giornaliere, è possibile eseguire il report Informazioni setup C/G per visualizzare i dati master configurati.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 979b69f58d49c6389a3c5e68326104feb2fb411b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 53db045d040371cf7a50246627bc12854b9db404
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753175"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383959"
 ---
 # <a name="print-general-ledger-setup-information"></a>Stampare le informazioni di setup della contabilità generale
 Prima di usare [!INCLUDE[prod_short](../../includes/prod_short.md)] nelle attività giornaliere, è possibile eseguire il report **Informazioni setup C/G** per visualizzare i dati master configurati. È possibile esaminare i dati master in modo da disporre di una base rispetto alla quale eseguire un confronto e quindi verificare, ad esempio, di aver impostato le categorie di registrazione in modo corretto.  

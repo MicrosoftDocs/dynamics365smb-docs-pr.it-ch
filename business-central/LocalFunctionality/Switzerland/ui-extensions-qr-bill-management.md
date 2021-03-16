@@ -3,19 +3,19 @@ title: Gestione fatture QR | Microsoft Docs
 description: Impostare l'estensione Gestione fattura QR e generare, inviare e importare facilmente fatture QR.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 3542c1f1051850bfc5ae740bc17424072ceba486
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 78ac68690cb72c6f33208dc185b4085bacf510ea
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753147"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382671"
 ---
 # <a name="qr-bill-management-in-prod_short"></a>Gestione fatture QR in [!INCLUDE[prod_short](../../includes/prod_short.md)]
 Dal 1° luglio 2020, le società svizzere devono essere in grado di ricevere le fatture QR. Le fatture QR sono distinte di pagamento che seguono le fatture e rappresentano un'iniziativa a livello nazionale per semplificare i processi di pagamento. Le fatture QR sostituiscono tutte le distinte di pagamento esistenti e le funzionalità relative a PVR. Contengono tutte le informazioni necessarie per effettuare i pagamenti e un codice QR sulla distinta di pagamento semplifica l'importazione delle informazioni [!INCLUDE[prod_short](../../includes/prod_short.md)]. Tutte le informazioni rilevanti vengono importate e utilizzate per generare pagamenti per il fornitore che ha inviato la fattura QR, incluso il riferimento di pagamento, che viene automaticamente incluso nelle voci dei movimenti contabili fornitori ed esportato nei file di pagamento alla banca.
