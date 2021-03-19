@@ -3,36 +3,39 @@ title: Come registrare il consumo tramite processo batch | Microsoft Docs
 description: Se il metodo di consuntivazione è **Manuale**, i componenti devono essere registrati manualmente nelle registrazioni consumi.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ad21fa7f0a18b3549bdab19c07e0065d5fb684dd
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0bf0a92d05b6c9ecb3d5a5ba054b4675680ad43c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391817"
 ---
-# <a name="batch-post-production-consumption"></a><span data-ttu-id="a2079-103">Registrare il consumo produzione tramite processo batch</span><span class="sxs-lookup"><span data-stu-id="a2079-103">Batch Post Production Consumption</span></span>
-<span data-ttu-id="a2079-104">Se il metodo di consuntivazione è **Manuale**, i componenti devono essere registrati manualmente nelle registrazioni consumi.</span><span class="sxs-lookup"><span data-stu-id="a2079-104">If the flushing method is **Manual**, you must post the components manually, using a consumption journal.</span></span>
+# <a name="batch-post-production-consumption"></a><span data-ttu-id="1d6be-103">Registrare il consumo produzione tramite processo batch</span><span class="sxs-lookup"><span data-stu-id="1d6be-103">Batch Post Production Consumption</span></span>
+<span data-ttu-id="1d6be-104">Se il metodo di consuntivazione è **Manuale**, i componenti devono essere registrati manualmente nelle registrazioni consumi.</span><span class="sxs-lookup"><span data-stu-id="1d6be-104">If the flushing method is **Manual**, you must post the components manually, using a consumption journal.</span></span>
 
-<span data-ttu-id="a2079-105">È inoltre possibile impostare il sistema sulla registrazione (*consuntivazione*) automatica dei componenti quando si avviano o si chiudono ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="a2079-105">You can also set the system up to automatically post (*flush*) components when you start or finish production orders.</span></span> <span data-ttu-id="a2079-106">Per ulteriori informazioni vedere [Attivare la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).</span><span class="sxs-lookup"><span data-stu-id="a2079-106">For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).</span></span>
+<span data-ttu-id="1d6be-105">È inoltre possibile impostare il sistema sulla registrazione (*consuntivazione*) automatica dei componenti quando si avviano o si chiudono ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="1d6be-105">You can also set the system up to automatically post (*flush*) components when you start or finish production orders.</span></span> <span data-ttu-id="1d6be-106">Per ulteriori informazioni vedere [Attivare la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).</span><span class="sxs-lookup"><span data-stu-id="1d6be-106">For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).</span></span>
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a><span data-ttu-id="a2079-107">Per registrare il consumo per una o più righe dell'ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="a2079-107">To post consumption for one or more production order lines</span></span>  
-1.  <span data-ttu-id="a2079-108">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni consumi** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="a2079-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="a2079-109">Compilare i campi inserendo i dati relativi agli ordini di produzione e al consumo.</span><span class="sxs-lookup"><span data-stu-id="a2079-109">Fill in the fields with the production order data and the consumption data.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a><span data-ttu-id="1d6be-107">Per registrare il consumo per una o più righe dell'ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="1d6be-107">To post consumption for one or more production order lines</span></span>  
+1.  <span data-ttu-id="1d6be-108">Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni consumi** e quindi scegliere il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="1d6be-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="1d6be-109">Compilare i campi inserendo i dati relativi agli ordini di produzione e al consumo.</span><span class="sxs-lookup"><span data-stu-id="1d6be-109">Fill in the fields with the production order data and the consumption data.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    <span data-ttu-id="a2079-110">Se l'ubicazione della warehouse in cui sono immagazzinati i componenti prevede l'utilizzo di collocazioni, ma non richiede l'elaborazione dei prelievi, assegnare un codice collocazione alla riga delle registrazioni per indicare da dove dovranno essere prelevati gli articoli nella warehouse.</span><span class="sxs-lookup"><span data-stu-id="a2079-110">If the warehouse location where the components are stored is set up to use bins but does not require pick processing, assign a bin code to the journal line to indicate where the items should be taken from in the warehouse.</span></span> <span data-ttu-id="a2079-111">Per ulteriori informazioni, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).</span><span class="sxs-lookup"><span data-stu-id="a2079-111">For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).</span></span>  
-3.  <span data-ttu-id="a2079-112">Per registrare il consumo scegliere l'azione **Registra**.</span><span class="sxs-lookup"><span data-stu-id="a2079-112">Choose the **Post** action to post the consumption.</span></span> <span data-ttu-id="a2079-113">I movimenti articolo collegati vengono ridotti.</span><span class="sxs-lookup"><span data-stu-id="a2079-113">The related item ledger entries are reduced.</span></span>
+    <span data-ttu-id="1d6be-110">Se l'ubicazione della warehouse in cui sono immagazzinati i componenti prevede l'utilizzo di collocazioni, ma non richiede l'elaborazione dei prelievi, assegnare un codice collocazione alla riga delle registrazioni per indicare da dove dovranno essere prelevati gli articoli nella warehouse.</span><span class="sxs-lookup"><span data-stu-id="1d6be-110">If the warehouse location where the components are stored is set up to use bins but does not require pick processing, assign a bin code to the journal line to indicate where the items should be taken from in the warehouse.</span></span> <span data-ttu-id="1d6be-111">Per ulteriori informazioni, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).</span><span class="sxs-lookup"><span data-stu-id="1d6be-111">For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).</span></span>  
+3.  <span data-ttu-id="1d6be-112">Per registrare il consumo scegliere l'azione **Registra**.</span><span class="sxs-lookup"><span data-stu-id="1d6be-112">Choose the **Post** action to post the consumption.</span></span> <span data-ttu-id="1d6be-113">I movimenti articolo collegati vengono ridotti.</span><span class="sxs-lookup"><span data-stu-id="1d6be-113">The related item ledger entries are reduced.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a2079-114">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="a2079-114">See Also</span></span>  
-<span data-ttu-id="a2079-115">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="a2079-115">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="a2079-116">Impostazione della produzione</span><span class="sxs-lookup"><span data-stu-id="a2079-116">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="a2079-117">[Pianif.](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="a2079-117">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="a2079-118">Magazzino</span><span class="sxs-lookup"><span data-stu-id="a2079-118">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="a2079-119">Acquisti</span><span class="sxs-lookup"><span data-stu-id="a2079-119">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="a2079-120">[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a2079-120">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="1d6be-114">Vedi anche</span><span class="sxs-lookup"><span data-stu-id="1d6be-114">See Also</span></span>  
+<span data-ttu-id="1d6be-115">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="1d6be-115">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="1d6be-116">Impostazione della produzione</span><span class="sxs-lookup"><span data-stu-id="1d6be-116">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="1d6be-117">[Pianif.](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="1d6be-117">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="1d6be-118">Magazzino</span><span class="sxs-lookup"><span data-stu-id="1d6be-118">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="1d6be-119">Acquisti</span><span class="sxs-lookup"><span data-stu-id="1d6be-119">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="1d6be-120">[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1d6be-120">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
