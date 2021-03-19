@@ -3,22 +3,22 @@ title: Informazioni sul calcolo del costo standard | Microsoft Docs
 description: In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376655"
 ---
 # <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
-Molte aziende di produzione scelgono una base di valutazione del costo standard. Ciò si applica anche alle società che eseguono la produzione leggera, come assemblaggio e kitting. In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard. Questi costi sono congelati fino a quando non si decide di cambiarli. Il costo effettivo per la produzione di un prodotto può essere diverso dai costi standard previsti. Per consentire il controllo della gestione, il costo effettivo viene messo a confronto con il costo standard di un articolo specifico e le differenze, o *scostamenti* , vengono identificate e analizzate.  
+Molte aziende di produzione scelgono una base di valutazione del costo standard. Ciò si applica anche alle società che eseguono la produzione leggera, come assemblaggio e kitting. In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard. Questi costi sono congelati fino a quando non si decide di cambiarli. Il costo effettivo per la produzione di un prodotto può essere diverso dai costi standard previsti. Per consentire il controllo della gestione, il costo effettivo viene messo a confronto con il costo standard di un articolo specifico e le differenze, o *scostamenti*, vengono identificate e analizzate.  
 
 I costi standard possono essere gestiti per articoli il cui rifornimento viene effettuato tramite acquisto, assemblaggio e produzione. Per ciascun metodo di rifornimento, i costi standard possono essere costituiti dai seguenti elementi.  
 
@@ -48,7 +48,7 @@ I seguenti elementi di costo principali compongono il costo diretto totale di un
  I costi del materiale sono quelli associati ai subassemblaggi e alle materie prime acquistate. Il costo unitario del materiale può essere costituito da elementi di costo diretti e indiretti.  
 
 -   Il costo diretto del materiale rappresenta un importo fatturato per le materie prime acquistate o il costo di produzione di un subassemblaggio.  
--   Il costo indiretto del materiale, o *costo generale* , può rappresentare elementi, quali, i costi di gestione del magazzino per l'articolo finito, dopo la produzione.  
+-   Il costo indiretto del materiale, o *costo generale*, può rappresentare elementi, quali, i costi di gestione del magazzino per l'articolo finito, dopo la produzione.  
 
 L'impostazione del costo del materiale per gli articoli acquistati in relazione al costo diretto o indiretto dipende dal metodo di costing selezionato per l'articolo specificato. Le informazioni sui costi vengono impostate per tutti i metodi di costo nella scheda articolo. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
@@ -81,7 +81,7 @@ Impostare le tariffe per ognuno di questi tipi di tempo per ogni centro di lavor
 > [!NOTE]  
 >  Mentre le tariffe per i tempi di lavorazione si applicano a ogni singolo articolo prodotto, quelle per il tempo di setup si applicano a ogni lotto. Il tempo di setup del ciclo per ogni operazione deve pertanto essere diviso in modo proporzionale alla dimensione del lotto. Specificare la dimensione del loro nel campo corrispondente della Scheda dettaglio **Ordinamento** nella scheda articolo.  
 
-Per specificare il tempo di setup nel ciclo per la pianificazione senza includere questa spesa nel calcolo del costo standard, deselezionare il campo **Costi setup incluso** nella pagina **Setup manufacturing** .  
+Per specificare il tempo di setup nel ciclo per la pianificazione senza includere questa spesa nel calcolo del costo standard, deselezionare il campo **Costi setup incluso** nella pagina **Setup manufacturing**.  
 
 A livello singolo, si tratta del costo della manodopera necessaria per produrre l'articolo finito, specificato nel ciclo dell'articolo di produzione. A più livelli, si tratta del costo della capacità specificato per ogni singolo articolo prodotto incluso nella distinta base dell'articolo principale.  
 
@@ -95,9 +95,9 @@ Per aggiornare o calcolare il costo standard degli articoli di assemblaggio, uti
 
 Il processo di aggiornamento o del calcolo dei costi standard in genere è costituito dai task seguenti:  
 
-1.  Aggiornamento dei costi ai livelli di capacità e componente. Per ulteriori informazioni, vedere i processi batch **Suggerisci costo std. articolo** e **Suggerisci costo standard capacità** .  
+1.  Aggiornamento dei costi ai livelli di capacità e componente. Per ulteriori informazioni, vedere i processi batch **Suggerisci costo std. articolo** e **Suggerisci costo standard capacità**.  
 2.  Consolidamento e roll up dei costi dei componenti e della capacità per calcolare il costo totale di assemblaggio o di produzione degli articoli. Per ulteriori informazioni, vedere la sezione [Per calcolare il costo standard di un articolo di assemblaggio](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Implementazione dei costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Per ulteriori informazioni, vedere il processo batch **Implementa modifiche costo std.** .  
+3.  Implementazione dei costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Per ulteriori informazioni, vedere il processo batch **Implementa modifiche costo std.**.  
 4.  Implementazione delle modifiche per aggiornare il campo **Costo unitario** nella scheda articolo ed eseguire la rivalutazione di magazzino. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Vedi anche  

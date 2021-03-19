@@ -3,19 +3,19 @@ title: Ricerca di movimenti | Microsoft Docs
 description: In questo articolo viene descritto la correlazione tra documenti e movimenti
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 870cd32dc2408236ed8997e1f939c00d1bf519e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 437e0c076b664ad35d5819783e98d9e91abee982
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927869"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393992"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Ricerca di movimenti correlati per documenti registrati 
 
@@ -56,7 +56,7 @@ La pagina **Trova movimenti** include tutti i documenti e i movimenti correlati 
 
 ## <a name="search-for-entries"></a>Ricerca di movimenti
 
-È possibile cercare movimenti in base alle informazioni sul documento, al contatto commerciale o al riferimento articolo. Per modificare la ricerca, selezionare **Azioni** , **Trova per** , quindi una delle seguenti azioni:
+È possibile cercare movimenti in base alle informazioni sul documento, al contatto commerciale o al riferimento articolo. Per modificare la ricerca, selezionare **Azioni**, **Trova per**, quindi una delle seguenti azioni:
 
 |Azione|Descrizione|
 |------|-----------|
@@ -64,10 +64,10 @@ La pagina **Trova movimenti** include tutti i documenti e i movimenti correlati 
 |Contatto business |Visualizzare i movimenti in base a un tipo di contatto specifico, numero di contatto e/o numero di documento esterno. È possibile immettere le informazioni sul documento assegnato da un fornitore o un cliente. Utilizzare i campi disponibili per ricercare i documenti del fornitore utilizzando i numeri da lui assegnati ai documenti.|
 |Riferimento articolo|Visualizzare i movimenti in base a un numero di serie o un numero di lotto. È possibile immettere il numero seriale o di lotto oppure un filtro sui numeri seriali o di lotto di cui si desidera eseguire la ricerca. Questa azione risulta utile per visualizzare elementi in cui è stato utilizzato un numero di tracciabilità articolo specifico, individuarne il fornitore di origine o il cliente a cui è stata effettuata la vendita.|
 
-Dopo aver effettuato una selezione, inserire le informazioni di ricerca pertinenti nei campi in alto. Usare i suggerimenti dei campi come aiuto. Al termine, scegliere **Trova** per avviare la ricerca. Se si modifica qualsiasi filtro, è necessario scegliere nuovamente **Trova** .
+Dopo aver effettuato una selezione, inserire le informazioni di ricerca pertinenti nei campi in alto. Usare i suggerimenti dei campi come aiuto. Al termine, scegliere **Trova** per avviare la ricerca. Se si modifica qualsiasi filtro, è necessario scegliere nuovamente **Trova**.
 
 > [!TIP]
-> Per un paio di esempi sull'utilizzo di **Trova movimenti** , vedere [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md) e [Procedura dettagliata: Tracciabilità dei numeri seriali/lotto](walkthrough-tracing-serial-lot-numbers.md).
+> Per un paio di esempi sull'utilizzo di **Trova movimenti**, vedere [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md) e [Procedura dettagliata: Tracciabilità dei numeri seriali/lotto](walkthrough-tracing-serial-lot-numbers.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

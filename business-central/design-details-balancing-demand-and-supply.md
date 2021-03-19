@@ -3,19 +3,19 @@ title: 'Dettagli di progettazione: Bilanciamento domanda e approvvigionamento | 
 description: Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire che qualsiasi domanda sarà soddisfatta da un approvvigionamento sufficiente e ogni domanda avrà uno scopo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f8f09c843397c7b3fa0a24bc90f5799a157fa883
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917569"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388742"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Dettagli di progettazione: Bilanciamento domanda e approvvigionamento
 Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire quanto segue:  
@@ -99,7 +99,7 @@ Durante la contropartita, il sistema di pianificazione considera l'approvvigiona
 
 Un altro motivo per cui l'approvvigionamento con numero seriale o di lotto non è flessibile è che ai numeri seriali o di lotto in genere vengono assegnati in ritardo nel processo potrebbe confondere se vengono suggerite le modifiche.  
 
-Il saldo dei numeri seriali o di lotto non rispetta la *Zona bloccata* . Se la domanda e l'approvvigionamento non sono sincronizzati, il sistema di pianificazione suggerirà delle modifiche o dei nuovi ordini, indipendentemente dalla data di inizio della pianificazione.  
+Il saldo dei numeri seriali o di lotto non rispetta la *Zona bloccata*. Se la domanda e l'approvvigionamento non sono sincronizzati, il sistema di pianificazione suggerirà delle modifiche o dei nuovi ordini, indipendentemente dalla data di inizio della pianificazione.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>I collegamenti ordine su ordine non sono mai interrotti  
 Nella pianificazione di un articolo ordine su ordine, l'approvvigionamento collegato non deve essere utilizzato per domande diverse da quella originariamente di destinazione. La domanda collegata non dovrebbe essere coperta da un altro approvvigionamento casuale, anche se, in questa situazione, è disponibile per tempo e quantità. Ad esempio, un ordine di assemblaggio collegato a un ordine di vendita in uno scenario di assemblaggio su ordine non può essere utilizzato per coprire un'altra domanda.  
@@ -209,7 +209,7 @@ Se l'utente desidera escludere un ordine di approvvigionamento esistente dai sug
 
 In genere, tutti gli approvvigionamenti hanno una flessibilità di pianificazione che è limitata dalle condizioni di ciascuna delle azioni suggerite.  
 
--   **Riprogramma all'esterno** : la data di un ordine di approvvigionamento esistente può essere programmata per soddisfare la data di scadenza della domanda a meno che:  
+-   **Riprogramma all'esterno**: la data di un ordine di approvvigionamento esistente può essere programmata per soddisfare la data di scadenza della domanda a meno che:  
 
     -   Rappresenta il magazzino (sempre nel giorno zero).  
     -   Contiene un metodo da ordine a ordine collegato a un'altra domanda.  
@@ -219,7 +219,7 @@ In genere, tutti gli approvvigionamenti hanno una flessibilità di pianificazion
     -   L'ordine di approvvigionamento è già stato associato a un'altra domanda in una data precedente.  
     -   La riprogrammazione necessaria è talmente minima che l'utente la trova trascurabile.  
 
--   **Riprogramma all'interno** : la data di un ordine di approvvigionamento esistente può essere programmata nel periodo, ad eccezione delle seguenti condizioni:  
+-   **Riprogramma all'interno**: la data di un ordine di approvvigionamento esistente può essere programmata nel periodo, ad eccezione delle seguenti condizioni:  
 
     -   È collegata direttamente a un'altra domanda.  
     -   Risiede al di fuori della pagina di ripianificazione definita dall'intervallo di tempo.  
@@ -227,18 +227,18 @@ In genere, tutti gli approvvigionamenti hanno una flessibilità di pianificazion
 > [!NOTE]  
 >  Nella pianificazione di un articolo tramite un punto di riordino, l'ordine di approvvigionamento può sempre essere riprogrammato all'interno, se necessario. Ciò è comune negli ordini di approvvigionamento programmati in avanti attivati da un punto di riordino.  
 
--   **Aumentare la quantità** : la quantità di un ordine di approvvigionamento esistente può essere aumentata per soddisfare la domanda a meno che l'ordine di approvvigionamento sia collegato direttamente a una domanda da un collegamento ordine a ordine.  
+-   **Aumentare la quantità**: la quantità di un ordine di approvvigionamento esistente può essere aumentata per soddisfare la domanda a meno che l'ordine di approvvigionamento sia collegato direttamente a una domanda da un collegamento ordine a ordine.  
 
 > [!NOTE]  
 >  Anche se è possibile aumentare l'ordine di approvvigionamento, potrebbe essere limitato a causa di quantità massima ordine definita.  
 
--   **Riduci quantità** : un ordine di approvvigionamento esistente con un surplus rispetto a una domanda esistente può essere ridotto per soddisfare la domanda.  
+-   **Riduci quantità**: un ordine di approvvigionamento esistente con un surplus rispetto a una domanda esistente può essere ridotto per soddisfare la domanda.  
 
 > [!NOTE]  
 >  Anche se la quantità può essere diminuita, può ancora esservi un certo surplus rispetto alla domanda a causa di una quantità minima di ordine definita o molteplicità ordine.  
 
--   **Annulla** : come incidente speciale dell'azione di riduzione quantità, l'ordine di approvvigionamento potrebbe essere annullato se è stato diminuito a zero.  
--   **Nuovo** : se non è presente alcun ordine di approvvigionamento già esistente o un ordine esistente non può essere modificato per soddisfare la quantità necessaria alla data di scadenza richiesta, verrà proposto un nuovo ordine di approvvigionamento.  
+-   **Annulla**: come incidente speciale dell'azione di riduzione quantità, l'ordine di approvvigionamento potrebbe essere annullato se è stato diminuito a zero.  
+-   **Nuovo**: se non è presente alcun ordine di approvvigionamento già esistente o un ordine esistente non può essere modificato per soddisfare la quantità necessaria alla data di scadenza richiesta, verrà proposto un nuovo ordine di approvvigionamento.  
 
 ### <a name="determining-the-supply-quantity"></a>Determinazione della quantità di approvvigionamento  
 I parametri di pianificazione definiti dall'utente controllano la quantità suggerita di ogni ordine di approvvigionamento.  

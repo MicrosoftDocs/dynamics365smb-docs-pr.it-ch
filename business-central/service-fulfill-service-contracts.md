@@ -5,24 +5,24 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16226b3c8cc7661ee44bcac0e6934d175ea460b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910373"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377441"
 ---
 # <a name="fulfilling-service-contracts"></a>Adempimento dei contratti di assistenza 
 Un metodo per impostare un'attività di gestione dell'assistenza è quello di disporre di accordi contrattuali standard tra la propria azienda e i clienti, che descrivano il livello di assistenza e le aspettative del cliente nei confronti dall'assistenza. È possibile creare modelli di contratto che includano le informazioni necessarie, ossia dati del cliente, data di inizio del contratto e periodo di fatturazione.  
   
-Una volta definito il modello, sarà possibile personalizzare il contratto ottenuto per tenere traccia delle ore di assistenza o di altri articoli che possono variare da cliente a cliente. È anche possibile impostare manualmente un contratto da un'offerta di contratto di assistenza. Infine, si possono rettificare i prezzi dell'assistenza per tenere traccia degli sconti a cui un dato cliente ha diritto, specificando l'ammontare dello sconto nella pagina **Contratto di assistenza** .  
+Una volta definito il modello, sarà possibile personalizzare il contratto ottenuto per tenere traccia delle ore di assistenza o di altri articoli che possono variare da cliente a cliente. È anche possibile impostare manualmente un contratto da un'offerta di contratto di assistenza. Infine, si possono rettificare i prezzi dell'assistenza per tenere traccia degli sconti a cui un dato cliente ha diritto, specificando l'ammontare dello sconto nella pagina **Contratto di assistenza**.  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
   

@@ -3,19 +3,19 @@ title: Come bloccare gli articoli per la vendita o l'acquisto
 description: È possibile impedire che un articolo venga utilizzato, ad esempio, nei documenti di vendita o di acquisto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f958600a47daa12a665975d6c41e214fca7cf5ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87628f1983e0bafda9119ef3729dbb142c761b1a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914122"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393142"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Bloccare gli articoli per la vendita o l'acquisto
 È possibile bloccare un articolo in modo che non venga immesso nelle righe dei documenti di acquisto o di vendita ed è possibile bloccarlo in modo che non venga registrato in una qualsiasi transazione. Ad esempio, questo è utile quando un articolo presenta un difetto noto. Se qualcuno sceglie un articolo bloccato su un documento di vendita o di acquisto, un messaggio informerà che l'articolo è bloccato.
@@ -35,15 +35,15 @@ Quando si utilizza la funzione **Copia da documento** per creare nuovi documenti
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Per bloccare un articolo in modo che non venga immesso in righe di vendita  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Vendita bloccata** .  
+2.  Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Vendita bloccata**.  
 
 ## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Per bloccare un articolo in modo che non venga immesso in righe di acquisto  
 1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
-2.  Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Acquisto bloccato** .  
+2.  Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Acquisto bloccato**.  
 
 ## <a name="to-block-an-item-from-being-posted"></a>Per bloccare un articolo in modo che non venga contabilizzato
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
-2. Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Bloccato** .
+2. Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Bloccato**.
 
 ## <a name="see-also"></a>Vedere anche  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  

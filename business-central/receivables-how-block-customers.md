@@ -3,19 +3,19 @@ title: Come bloccare le vendite per i clienti
 description: Se necessario, è possibile impedire a un cliente di essere incluso nei documenti di vendita e in altre transazioni di vendita.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc8014cf0896db1ebbc5f0c5ea22e0f160c1b06d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8401b02677be48d06de2c3dbd67efd1ea8dd18cd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926565"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392717"
 ---
 # <a name="block-customers"></a>Blocca clienti
 È possibile bloccare un cliente, ad esempio a causa di insolvenza, in modo che il cliente non possa essere aggiunto ai documenti di vendita o che non sia possibile registrare transazioni per il cliente.
@@ -33,8 +33,8 @@ Nella seguente tabella vengono illustrate le opzioni per bloccare i clienti.
 
 ## <a name="to-block-a-customer"></a>Per bloccare un cliente  
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
-2. Selezionare un cliente, quindi scegliere l'azione **Modifica** .
-3. Nel campo **Bloccato** , scegliere cosa bloccare, come descritto nella tabella precedente.
+2. Selezionare un cliente, quindi scegliere l'azione **Modifica**.
+3. Nel campo **Bloccato**, scegliere cosa bloccare, come descritto nella tabella precedente.
 
 ## <a name="see-also"></a>Vedere anche  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  

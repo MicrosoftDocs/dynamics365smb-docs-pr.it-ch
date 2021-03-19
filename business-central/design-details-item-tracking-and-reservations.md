@@ -3,19 +3,19 @@ title: 'Dettagli di progettazione: Tracciabilità articolo e impegni | Microsoft
 description: Questo argomento descrive la tracciabilità articolo e gli impegni nonché i relativi concetti.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2883ed1176f20cca289cb68d4f3839f8099c874f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922110"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380270"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Dettagli di progettazione: Tracciabilità articolo e impegni
 
@@ -45,7 +45,7 @@ La principale differenza tra impegno specifico e impegno non specifico è defini
 Quando si impegnano quantità di magazzino da una riga di documento in uscita per un articolo con numeri di tracciabilità assegnati e impostato per la tracciabilità di un articolo specifico, dalla pagina **Impegni** è possibile accedere a differenti workflow a seconda che si necessiti dei numeri seriali o dei numeri di lotto.  
   
 ## <a name="specific-reservation"></a>Impegno specifico  
-Scegliendo **Impegno** dalla riga del documento in uscita, verrà visualizzata una finestra di dialogo nella quale verrà chiesto se si desidera impegnare numeri seriali o di lotto specifici. Se si sceglie **Sì** , viene visualizzato un elenco di tutti i numeri seriali o di lotto che sono assegnati alla riga del documento. La pagina **Impegni** viene aperta dopo che è stato selezionato uno dei numeri seriali o di lotto. Successivamente è possibile impegnare uno dei numeri seriali o di lotto secondo la normale procedura.  
+Scegliendo **Impegno** dalla riga del documento in uscita, verrà visualizzata una finestra di dialogo nella quale verrà chiesto se si desidera impegnare numeri seriali o di lotto specifici. Se si sceglie **Sì**, viene visualizzato un elenco di tutti i numeri seriali o di lotto che sono assegnati alla riga del documento. La pagina **Impegni** viene aperta dopo che è stato selezionato uno dei numeri seriali o di lotto. Successivamente è possibile impegnare uno dei numeri seriali o di lotto secondo la normale procedura.  
   
 Se alcuni dei numeri di tracciabilità articolo specifici che si sta tentando di impegnare sono utilizzati in impegni non specifici, verrà visualizzato un messaggio nella parte inferiore della pagina **Impegni** per indicare quanto della quantità impegnata totale è utilizzato in impegni non specifici e se c'è ancora disponibilità.  
   

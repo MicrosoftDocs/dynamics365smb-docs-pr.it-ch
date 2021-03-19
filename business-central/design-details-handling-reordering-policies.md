@@ -3,19 +3,19 @@ title: 'Dettagli di progettazione: Gestione dei metodi di riordino | Microsoft D
 description: Panoramica dei task per la definizione di un metodo di riordino nella pianificazione dell'approvvigionamento.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9563c503fac844abb67d02934e0a0a666deeab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922260"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390067"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Dettagli di progettazione: Gestione dei metodi di riordino
 Affinché un articolo partecipi alla pianificazione dell'approvvigionamento, i metodi di riordino devono essere definiti. Sono disponibili i seguenti quattro metodi di riordino:  
@@ -76,14 +76,14 @@ Di seguito viene illustrato questo principio:
      Ciò aumenta il livello di scorte previste a +4, mentre la giacenza **disponibile** diventa -1.  
 
 4. Il successivo approvvigionamento **Sb** di 2 (un altro ordine) è già stato immesso nella sequenza temporale.  
-5. Il sistema controlla se esiste un sollecito di riduzione precedente a **Sb** ; in caso negativo, non viene intrapresa alcuna azione.  
+5. Il sistema controlla se esiste un sollecito di riduzione precedente a **Sb**; in caso negativo, non viene intrapresa alcuna azione.  
 6. Il sistema chiude l'approvvigionamento **Sb** (non esiste più domanda) riducendolo a 0 (annullamento) o lasciandolo invariato.  
 
      Ciò aumenta il livello del magazzino previsto (A: +0 => +4 o B: +2 = +6).  
 
-7. Il sistema esegue un controllo finale: è presente un sollecito di riduzione? Sì, ne esiste uno alla data di **Da** .  
+7. Il sistema esegue un controllo finale: è presente un sollecito di riduzione? Sì, ne esiste uno alla data di **Da**.  
 8. Viene aggiunto un sollecito di diminuzione dal sistema di -3 al livello di giacenza disponibile, A: +4 -3 = 1 o B: +6 -3 = +3.  
-9. Nel caso di A, il sistema crea un ordine programmato in avanti che inizia alla data indicata di **Da** .  
+9. Nel caso di A, il sistema crea un ordine programmato in avanti che inizia alla data indicata di **Da**.  
 
      Nel caso di B, viene raggiunto il punto di riordino e viene creato un nuovo ordine.
 
@@ -195,14 +195,14 @@ Il punto di riordino esprime la domanda prevista durante il lead time dell'artic
 
  ![Suggerimenti di pianificazione di emergenza per evitare giacenze negative](media/nav_app_supply_planning_2_negative_inventory.png "Suggerimenti di pianificazione di emergenza per evitare giacenze negative")  
 
-1.  L'approvvigionamento **A** , la giacenza disponibile iniziale, è inferiore al punto di riordino.  
-2.  Viene creato un nuovo approvvigionamento programmato in avanti ( **C** ).  
+1.  L'approvvigionamento **A**, la giacenza disponibile iniziale, è inferiore al punto di riordino.  
+2.  Viene creato un nuovo approvvigionamento programmato in avanti (**C**).  
 
      (Quantità = Giacenza massima – Livello giacenza disponibile)  
-3.  L'approvvigionamento **A** viene chiuso dalla domanda **B** , che non viene coperta completamente.  
+3.  L'approvvigionamento **A** viene chiuso dalla domanda **B**, che non viene coperta completamente.  
 
      La domanda **B** potrebbe provare a pianificare l'Approvvigionamento C ma ciò non accade in base al concetto dell'intervallo di tempo.  
-4.  Un nuovo approvvigionamento ( **D** ) viene creato per coprire la quantità residua sulla domanda **B** .  
+4.  Un nuovo approvvigionamento (**D**) viene creato per coprire la quantità residua sulla domanda **B**.  
 5.  La domanda **B** viene chiusa creando un sollecito alle scorte previste.  
 6.  Il nuovo approvvigionamento **D** viene chiuso.  
 7.  La giacenza disponibile è controllata; il punto di riordino non è stato superato.  
@@ -234,7 +234,7 @@ Gli ordini di approvvigionamento che vengono creati specificamente per soddisfar
 I modificatori di ordini, Quantità minima ordine, Quantità massima ordine e Molteplicità ordine, non devono svolgere un grande ruolo quando vengono utilizzati i criteri di quantità riordino fissa. Tuttavia, il sistema di pianificazione prende ancora in considerazione questi modificatori e diminuirà la quantità alle quantità di ordine massime specificate (e creerà due o più approvvigionamenti per raggiungere la quantità di ordine totale), aumenterà la quantità di ordine minima o arrotonderà la quantità di ordine fino a soddisfare la molteplicità ordine specificata.  
 
 #### <a name="combines-with-calendars"></a>Associazioni con i calendari  
-Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione verifica che l'ordine sia programmato per un giorno non lavorativo, in base ai calendari definiti nel campo **Codice calendario base** delle pagine **Informazioni società** e **Scheda Ubicazione** .  
+Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione verifica che l'ordine sia programmato per un giorno non lavorativo, in base ai calendari definiti nel campo **Codice calendario base** delle pagine **Informazioni società** e **Scheda Ubicazione**.  
 
 Se la data prevista è un giorno non lavorativo, il sistema di pianificazione sposta l'ordine al giorno lavorativo più vicino. In questo modo, potrebbe verificarsi che un ordine soddisfi un punto di riordino ma non una richiesta specifica. Per tale richiesta non bilanciata, il sistema di pianificazione crea un approvvigionamento aggiuntivo.  
 
@@ -258,7 +258,7 @@ Il sistema assicurerà che la giacenza disponibile raggiunga almeno il livello d
 In base all'impostazione, è consigliabile combinare i criteri Quantità massima con i modificatori di ordini per garantire una quantità minima dell'ordine o per arrotondarla a un numero intero di unità di misura di acquisto, o suddividerla in più lotti come definito dalla quantità massima ordine.  
 
 ### <a name="combines-with-calendars"></a>Associazioni con i calendari  
-Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione verifica che l'ordine sia programmato per un giorno non lavorativo, in base ai calendari definiti nel campo **Codice calendario base** delle pagine **Informazioni società** e **Scheda Ubicazione** .  
+Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione verifica che l'ordine sia programmato per un giorno non lavorativo, in base ai calendari definiti nel campo **Codice calendario base** delle pagine **Informazioni società** e **Scheda Ubicazione**.  
 
 Se la data prevista è un giorno non lavorativo, il sistema di pianificazione sposta l'ordine al giorno lavorativo più vicino. In questo modo, potrebbe verificarsi che un ordine soddisfi un punto di riordino ma non una richiesta specifica. Per tale richiesta non bilanciata, il sistema di pianificazione crea un approvvigionamento aggiuntivo.
 
@@ -282,7 +282,7 @@ I criteri lotto per lotto sono i più flessibili perché il sistema reagisce sol
 
 Per certi aspetti, il metodo lotto per lotto è simile al metodo Ordine, ma presenta un approccio generico agli articoli; può accettare quantità in magazzino e aggrega la domanda e il corrispondente approvvigionamento in intervalli di tempo definiti dall'utente.  
 
-L'intervallo di tempo è definito nel campo **Intervallo di tempo** . Il sistema utilizza l'intervallo di tempo minimo pari a un giorno, che è l'unità di misura più piccola per gli eventi di domanda e approvvigionamento offerta dal sistema (sebbene, nella pratica, gli ordini di produzione e le richieste di componenti possano essere misurate in secondi).  
+L'intervallo di tempo è definito nel campo **Intervallo di tempo**. Il sistema utilizza l'intervallo di tempo minimo pari a un giorno, che è l'unità di misura più piccola per gli eventi di domanda e approvvigionamento offerta dal sistema (sebbene, nella pratica, gli ordini di produzione e le richieste di componenti possano essere misurate in secondi).  
 
 L'intervallo di tempo fissa anche dei limiti sui tempi di riprogrammazione di un ordine di approvvigionamento esistente per soddisfare una domanda specificata. Se l'approvvigionamento rientra nell'intervallo di tempo, viene riprogrammato all'interno o all'esterno in modo da soddisfare la domanda. In caso contrario, se risiede in un periodo precedente, causerà un accumulo di magazzino inutile e dovrà essere annullato. Se risiede dopo, verrà invece creato un nuovo ordine di approvvigionamento.  
 
