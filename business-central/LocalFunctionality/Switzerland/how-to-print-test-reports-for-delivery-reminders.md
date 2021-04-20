@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 038747e3fb237b881c22da1b5cdd18e1417dfc35
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 231257f120d0320f8aa87a71094d3a34b7da3a98
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382031"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776552"
 ---
 # <a name="print-test-reports-for-delivery-reminders"></a>Stampare report di test per i solleciti di consegna
 Dopo avere creato i solleciti di consegna e apportato le modifiche necessarie, è possibile stampare i report di test o emettere i solleciti di consegna.  
