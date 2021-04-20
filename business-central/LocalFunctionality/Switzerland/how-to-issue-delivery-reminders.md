@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 122931b0f56f67d57ddbcd1b2892ae0e12629220
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b3196041da0ec8e593ca651b0b98fb19928c4fa2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383975"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777593"
 ---
-# <a name="issue-delivery-reminders-in-the-swiss-version"></a><span data-ttu-id="afd3d-104">Emettere solleciti di consegna nella versione svizzera</span><span class="sxs-lookup"><span data-stu-id="afd3d-104">Issue Delivery Reminders in the Swiss Version</span></span>
+# <a name="issue-delivery-reminders-in-the-swiss-version"></a><span data-ttu-id="420e8-104">Emettere solleciti di consegna nella versione svizzera</span><span class="sxs-lookup"><span data-stu-id="420e8-104">Issue Delivery Reminders in the Swiss Version</span></span>
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## <a name="see-also"></a><span data-ttu-id="afd3d-105">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="afd3d-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="420e8-105">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="420e8-105">See Also</span></span>
 
-[<span data-ttu-id="afd3d-106">Stampare report di test per i solleciti di consegna</span><span class="sxs-lookup"><span data-stu-id="afd3d-106">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)  
-[<span data-ttu-id="afd3d-107">Solleciti consegna</span><span class="sxs-lookup"><span data-stu-id="afd3d-107">Delivery Reminders</span></span>](delivery-reminders.md)  
-[<span data-ttu-id="afd3d-108">Generare solleciti di consegna</span><span class="sxs-lookup"><span data-stu-id="afd3d-108">Generate Delivery Reminders</span></span>](how-to-generate-delivery-reminders.md)  
-[<span data-ttu-id="afd3d-109">Creare solleciti di consegna manualmente</span><span class="sxs-lookup"><span data-stu-id="afd3d-109">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
+[<span data-ttu-id="420e8-106">Stampare report di test per i solleciti di consegna</span><span class="sxs-lookup"><span data-stu-id="420e8-106">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)  
+[<span data-ttu-id="420e8-107">Solleciti consegna</span><span class="sxs-lookup"><span data-stu-id="420e8-107">Delivery Reminders</span></span>](delivery-reminders.md)  
+[<span data-ttu-id="420e8-108">Generare solleciti di consegna</span><span class="sxs-lookup"><span data-stu-id="420e8-108">Generate Delivery Reminders</span></span>](how-to-generate-delivery-reminders.md)  
+[<span data-ttu-id="420e8-109">Creare solleciti di consegna manualmente</span><span class="sxs-lookup"><span data-stu-id="420e8-109">Create Delivery Reminders Manually</span></span>](how-to-create-delivery-reminders-manually.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
