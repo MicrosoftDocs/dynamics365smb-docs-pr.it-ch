@@ -7,32 +7,32 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 640608b810f3ad9812decc493ad4e35bcc316f98
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b53677ab57d6c48b015bb0dd47ea6e315f8e80c3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388167"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776934"
 ---
-# <a name="viewing-database-locks"></a><span data-ttu-id="ab80b-103">Visualizzazione di blocchi di database</span><span class="sxs-lookup"><span data-stu-id="ab80b-103">Viewing Database Locks</span></span>
+# <a name="viewing-database-locks"></a><span data-ttu-id="04d58-103">Visualizzazione di blocchi di database</span><span class="sxs-lookup"><span data-stu-id="04d58-103">Viewing Database Locks</span></span>
 
-<span data-ttu-id="ab80b-104">Il blocco del database controlla l'accesso da parte di più utenti agli stessi dati contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="ab80b-104">Database locking controls access by multiple users to the same data at the same time.</span></span> <span data-ttu-id="ab80b-105">Per proteggere una transazione dalla modifica degli stessi dati da parte di altre transazioni, la prima transazione blocca i dati.</span><span class="sxs-lookup"><span data-stu-id="ab80b-105">To protect a transaction against other transactions modifying the same data, the first transaction puts a lock on the data.</span></span> <span data-ttu-id="ab80b-106">Il blocco rimane fino al termine della transazione.</span><span class="sxs-lookup"><span data-stu-id="ab80b-106">The lock remains until the transaction's done.</span></span>
+<span data-ttu-id="04d58-104">Il blocco del database controlla l'accesso da parte di più utenti agli stessi dati contemporaneamente.</span><span class="sxs-lookup"><span data-stu-id="04d58-104">Database locking controls access by multiple users to the same data at the same time.</span></span> <span data-ttu-id="04d58-105">Per proteggere una transazione dalla modifica degli stessi dati da parte di altre transazioni, la prima transazione blocca i dati.</span><span class="sxs-lookup"><span data-stu-id="04d58-105">To protect a transaction against other transactions modifying the same data, the first transaction puts a lock on the data.</span></span> <span data-ttu-id="04d58-106">Il blocco rimane fino al termine della transazione.</span><span class="sxs-lookup"><span data-stu-id="04d58-106">The lock remains until the transaction's done.</span></span>
 
-<span data-ttu-id="ab80b-107">Agli utenti potrebbe essere impedito di completare le transazioni sui dati bloccati.</span><span class="sxs-lookup"><span data-stu-id="ab80b-107">Users may be blocked from completing transactions on the locked data.</span></span> <span data-ttu-id="ab80b-108">In genere riceveranno un messaggio che indica la condizione di blocco.</span><span class="sxs-lookup"><span data-stu-id="ab80b-108">They'll typically get a message that indicates the lock condition.</span></span>
+<span data-ttu-id="04d58-107">Agli utenti potrebbe essere impedito di completare le transazioni sui dati bloccati.</span><span class="sxs-lookup"><span data-stu-id="04d58-107">Users may be blocked from completing transactions on the locked data.</span></span> <span data-ttu-id="04d58-108">In genere riceveranno un messaggio che indica la condizione di blocco.</span><span class="sxs-lookup"><span data-stu-id="04d58-108">They'll typically get a message that indicates the lock condition.</span></span>
 
-## <a name="to-view-database-locks"></a><span data-ttu-id="ab80b-109">Per visualizzare i blocchi di database</span><span class="sxs-lookup"><span data-stu-id="ab80b-109">To view database locks</span></span>
+## <a name="to-view-database-locks"></a><span data-ttu-id="04d58-109">Per visualizzare i blocchi di database</span><span class="sxs-lookup"><span data-stu-id="04d58-109">To view database locks</span></span>
 
-<span data-ttu-id="ab80b-110">Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immetti **Blocchi database**, quindi scegli il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="ab80b-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Database Locks**, and then choose the related link.</span></span>
+<span data-ttu-id="04d58-110">Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immetti **Blocchi database**, quindi scegli il collegamento correlato.</span><span class="sxs-lookup"><span data-stu-id="04d58-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Database Locks**, and then choose the related link.</span></span>
 
-<span data-ttu-id="ab80b-111">La pagina **Blocchi di database** fornisce uno snapshot di tutti i blocchi del database correnti.</span><span class="sxs-lookup"><span data-stu-id="ab80b-111">The **Database Locks** page gives snapshot of all current database locks.</span></span>
+<span data-ttu-id="04d58-111">La pagina **Blocchi di database** fornisce uno snapshot di tutti i blocchi del database correnti.</span><span class="sxs-lookup"><span data-stu-id="04d58-111">The **Database Locks** page gives snapshot of all current database locks.</span></span>
 
-<span data-ttu-id="ab80b-112">Per ulteriori informazioni sul blocco del database, consultare [Monitoraggio dei blocchi del database](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) nella guida per sviluppatori e professionisti IT di Business Central.</span><span class="sxs-lookup"><span data-stu-id="ab80b-112">For more information about database locking, see [Monitoring Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) in the Business Central Developer and IT Pro help.</span></span>
+<span data-ttu-id="04d58-112">Per ulteriori informazioni sul blocco del database, consultare [Monitoraggio dei blocchi del database](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) nella guida per sviluppatori e professionisti IT di Business Central.</span><span class="sxs-lookup"><span data-stu-id="04d58-112">For more information about database locking, see [Monitoring Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) in the Business Central Developer and IT Pro help.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ab80b-113">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="ab80b-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04d58-113">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="04d58-113">See Also</span></span>
 
-[<span data-ttu-id="ab80b-114">Monitorare i blocchi del database</span><span class="sxs-lookup"><span data-stu-id="ab80b-114">Monitor Database Locks</span></span>](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+[<span data-ttu-id="04d58-114">Monitorare i blocchi del database</span><span class="sxs-lookup"><span data-stu-id="04d58-114">Monitor Database Locks</span></span>](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
