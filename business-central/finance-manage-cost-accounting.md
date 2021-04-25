@@ -8,34 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41c4a56ca390a53a8eabc6af6f5aaa4a3f6cc16d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6505633f7535ed2b9f36d6670d4fdc1d6a6c4172
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391842"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788195"
 ---
-# <a name="accounting-for-costs"></a><span data-ttu-id="ddc3b-104">Contabilizzazione dei costi</span><span class="sxs-lookup"><span data-stu-id="ddc3b-104">Accounting for Costs</span></span>
-<span data-ttu-id="ddc3b-105">La contabilità industriale viene utilizzata per comprendere i costi operativi di un'attività.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-105">Cost accounting is used to help you understand the costs of running a business.</span></span> <span data-ttu-id="ddc3b-106">Per un'introduzione sulla contabilità industriale, vedere i seguenti argomenti.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-106">To get started with cost accounting, see the following topics.</span></span>  
+# <a name="accounting-for-costs"></a><span data-ttu-id="35c8b-104">Contabilizzazione dei costi</span><span class="sxs-lookup"><span data-stu-id="35c8b-104">Accounting for Costs</span></span>
+<span data-ttu-id="35c8b-105">La contabilità industriale viene utilizzata per comprendere i costi operativi di un'attività.</span><span class="sxs-lookup"><span data-stu-id="35c8b-105">Cost accounting is used to help you understand the costs of running a business.</span></span> <span data-ttu-id="35c8b-106">Per un'introduzione sulla contabilità industriale, vedere i seguenti argomenti.</span><span class="sxs-lookup"><span data-stu-id="35c8b-106">To get started with cost accounting, see the following topics.</span></span>  
 
-|<span data-ttu-id="ddc3b-107">Per</span><span class="sxs-lookup"><span data-stu-id="ddc3b-107">To</span></span>|<span data-ttu-id="ddc3b-108">Vedere</span><span class="sxs-lookup"><span data-stu-id="ddc3b-108">See</span></span>|  
+|<span data-ttu-id="35c8b-107">Per</span><span class="sxs-lookup"><span data-stu-id="35c8b-107">To</span></span>|<span data-ttu-id="35c8b-108">Vedere</span><span class="sxs-lookup"><span data-stu-id="35c8b-108">See</span></span>|  
 |--------|---------|  
-|<span data-ttu-id="ddc3b-109">Comprendere la terminologia utilizzata nella contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-109">Understand the terminology that is used in cost accounting.</span></span>|[<span data-ttu-id="ddc3b-110">Terminologia della contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="ddc3b-110">Terminology in Cost Accounting</span></span>](finance-terminology-in-cost-accounting.md)|  
-|<span data-ttu-id="ddc3b-111">Acquisire informazioni generali sulla contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-111">Get an overall understanding of cost accounting.</span></span>|[<span data-ttu-id="ddc3b-112">Informazioni sulla contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="ddc3b-112">About Cost Accounting</span></span>](finance-about-cost-accounting.md)|  
-|<span data-ttu-id="ddc3b-113">Configurare il sistema di contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-113">Configure the cost accounting system.</span></span>|[<span data-ttu-id="ddc3b-114">Impostazione della contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="ddc3b-114">Setting Up Cost Accounting</span></span>](finance-set-up-cost-accounting.md)|  
-|<span data-ttu-id="ddc3b-115">Trasferire movimenti C/G a movimenti di costi.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-115">Transfer general ledger entries to cost entries.</span></span>|[<span data-ttu-id="ddc3b-116">Trasferimento e registrazione di movimenti di costi</span><span class="sxs-lookup"><span data-stu-id="ddc3b-116">Transferring and Posting Cost Entries</span></span>](finance-transfer-and-post-cost-entries.md)|  
-|<span data-ttu-id="ddc3b-117">Assegna costi.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-117">Allocate costs.</span></span>|[<span data-ttu-id="ddc3b-118">Definizione e allocazione dei costi</span><span class="sxs-lookup"><span data-stu-id="ddc3b-118">Defining and Allocating Costs</span></span>](finance-define-and-allocate-costs.md)|  
-|<span data-ttu-id="ddc3b-119">Informazioni sui processi per creare budget costi.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-119">Learn the processes in creating cost budgets.</span></span>|[<span data-ttu-id="ddc3b-120">Creazione di budget di costi</span><span class="sxs-lookup"><span data-stu-id="ddc3b-120">Creating Cost Budgets</span></span>](finance-create-cost-budgets.md)|
-|<span data-ttu-id="ddc3b-121">Annullare movimenti budget costi dal registro budget costi.</span><span class="sxs-lookup"><span data-stu-id="ddc3b-121">Cancel cost budget entries from the cost budget register.</span></span>|[<span data-ttu-id="ddc3b-122">Eliminare movimenti budget costi</span><span class="sxs-lookup"><span data-stu-id="ddc3b-122">Deleting Cost Budget Entries</span></span>](finance-how-to-delete-cost-budget-entries.md)|
+|<span data-ttu-id="35c8b-109">Comprendere la terminologia utilizzata nella contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="35c8b-109">Understand the terminology that is used in cost accounting.</span></span>|[<span data-ttu-id="35c8b-110">Terminologia della contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="35c8b-110">Terminology in Cost Accounting</span></span>](finance-terminology-in-cost-accounting.md)|  
+|<span data-ttu-id="35c8b-111">Acquisire informazioni generali sulla contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="35c8b-111">Get an overall understanding of cost accounting.</span></span>|[<span data-ttu-id="35c8b-112">Informazioni sulla contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="35c8b-112">About Cost Accounting</span></span>](finance-about-cost-accounting.md)|  
+|<span data-ttu-id="35c8b-113">Configurare il sistema di contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="35c8b-113">Configure the cost accounting system.</span></span>|[<span data-ttu-id="35c8b-114">Impostazione della contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="35c8b-114">Setting Up Cost Accounting</span></span>](finance-set-up-cost-accounting.md)|  
+|<span data-ttu-id="35c8b-115">Trasferire movimenti C/G a movimenti di costi.</span><span class="sxs-lookup"><span data-stu-id="35c8b-115">Transfer general ledger entries to cost entries.</span></span>|[<span data-ttu-id="35c8b-116">Trasferimento e registrazione di movimenti di costi</span><span class="sxs-lookup"><span data-stu-id="35c8b-116">Transferring and Posting Cost Entries</span></span>](finance-transfer-and-post-cost-entries.md)|  
+|<span data-ttu-id="35c8b-117">Assegna costi.</span><span class="sxs-lookup"><span data-stu-id="35c8b-117">Allocate costs.</span></span>|[<span data-ttu-id="35c8b-118">Definizione e allocazione dei costi</span><span class="sxs-lookup"><span data-stu-id="35c8b-118">Defining and Allocating Costs</span></span>](finance-define-and-allocate-costs.md)|  
+|<span data-ttu-id="35c8b-119">Informazioni sui processi per creare budget costi.</span><span class="sxs-lookup"><span data-stu-id="35c8b-119">Learn the processes in creating cost budgets.</span></span>|[<span data-ttu-id="35c8b-120">Creazione di budget di costi</span><span class="sxs-lookup"><span data-stu-id="35c8b-120">Creating Cost Budgets</span></span>](finance-create-cost-budgets.md)|
+|<span data-ttu-id="35c8b-121">Annullare movimenti budget costi dal registro budget costi.</span><span class="sxs-lookup"><span data-stu-id="35c8b-121">Cancel cost budget entries from the cost budget register.</span></span>|[<span data-ttu-id="35c8b-122">Eliminare movimenti budget costi</span><span class="sxs-lookup"><span data-stu-id="35c8b-122">Deleting Cost Budget Entries</span></span>](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a><span data-ttu-id="ddc3b-123">Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)</span><span class="sxs-lookup"><span data-stu-id="ddc3b-123">See Related Training at [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)</span></span>
+## <a name="see-related-training-at-microsoft-learn"></a><span data-ttu-id="35c8b-123">Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)</span><span class="sxs-lookup"><span data-stu-id="35c8b-123">See Related Training at [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ddc3b-124">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="ddc3b-124">See Also</span></span>  
-[<span data-ttu-id="ddc3b-125">Finanze</span><span class="sxs-lookup"><span data-stu-id="ddc3b-125">Finance</span></span>](finance.md)  
-[<span data-ttu-id="ddc3b-126">Gestione dei costi di magazzino</span><span class="sxs-lookup"><span data-stu-id="ddc3b-126">Managing Inventory Costs</span></span>](finance-manage-inventory-costs.md)  
-<span data-ttu-id="ddc3b-127">[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ddc3b-127">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="35c8b-124">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="35c8b-124">See Also</span></span>  
+[<span data-ttu-id="35c8b-125">Finanze</span><span class="sxs-lookup"><span data-stu-id="35c8b-125">Finance</span></span>](finance.md)  
+[<span data-ttu-id="35c8b-126">Gestione dei costi di magazzino</span><span class="sxs-lookup"><span data-stu-id="35c8b-126">Managing Inventory Costs</span></span>](finance-manage-inventory-costs.md)  
+<span data-ttu-id="35c8b-127">[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="35c8b-127">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
