@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5cfc99bcbdf9a5037e8c87686cd65badf4ce544c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de2cf5a9a1e1c0967fb6bbf9a35b4c8ec4aae5dd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771499"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435171"
 ---
 Per creare i solleciti di consegna è necessario impostare quanto segue:  
 
@@ -21,7 +21,7 @@ Ogni termine di sollecito di consegna ha due o più livelli di sollecito di cons
 
 ## <a name="to-set-up-delivery-reminder-terms"></a>Per impostare i termini di sollecito di consegna  
 
-1. Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Termini di sollecito consegna** e quindi scegliere il collegamento correlato.  
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Termini solleciti di consegna**, quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come indicato nella tabella seguente.  
 

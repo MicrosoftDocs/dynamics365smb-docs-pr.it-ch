@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 980845c37f478b4608db4987196d2fddb49188f2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 11bc1fdc73b8452d938d33371236dcd2a0c8c2bd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776564"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435694"
 ---
 # <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>Stampare una lista prelievi magazzino da un ordine di vendita nella versione svizzera
 
@@ -30,7 +30,7 @@ La lista prelievi include solo quegli articoli con una quantità di spedizione s
 
 ## <a name="to-print-an-inventory-picking-list-from-a-sales-order"></a>Per stampare una lista prelievi magazzino da un ordine di vendita  
 
-1. Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini vendita**, quindi selezionare il collegamento correlato.  
 2. Selezionare l'ordine di vendita richiesto, quindi scegliere l'azione **Modifica**.  
 3. Scegliere l'azione **Lista prelievi**.  
 4. Nella Scheda dettaglio **Opzioni** immettere il numero di copie richiesto nel campo **Nr. di copie**.  

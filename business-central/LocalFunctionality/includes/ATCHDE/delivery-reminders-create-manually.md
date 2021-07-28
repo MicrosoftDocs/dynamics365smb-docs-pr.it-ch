@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5060724f27f842e06a2e8641605c1c3011d0cd9c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5714e128a4295251c080ed2e61027e5a01ac8fa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774420"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435889"
 ---
 In [!INCLUDE[prod_short](../../../includes/prod_short.md)], è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile creare un singolo sollecito di consegna manualmente o generare solleciti di consegna per tutte le consegne scadute.  
 
@@ -18,7 +18,7 @@ In [!INCLUDE[prod_short](../../../includes/prod_short.md)], è possibile creare 
 
 ## <a name="to-create-a-delivery-reminder-manually"></a>Per creare un sollecito di consegna manualmente  
 
-1. Scegliere l'icona ![L'icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Sollecito consegna** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona della ![lampadina che apre la funzionalità delle informazioni.](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Sollecito Consegna**, quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nella pagina **Sollecito di consegna**, compilare i campi come indicato nella tabella riportata di seguito.  
 

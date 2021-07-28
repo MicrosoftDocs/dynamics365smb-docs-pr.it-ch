@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7cab5533c038dda6082a0455bf480779f143854e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 70d4e0ac0729f8d259f87c65915dfafd8749abbd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777577"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435189"
 ---
 Dopo aver creato i solleciti di consegna, è necessario rilasciarli e stamparli in modo da poter inviare i solleciti ai fornitori. È possibile stampare un report di test prima di rilasciare i solleciti di consegna.  
 
@@ -17,7 +17,7 @@ Quando si rilasciano i solleciti di consegna, vengono creati movimenti contabili
 
 ## <a name="to-issue-delivery-reminders"></a>Per emettere solleciti di consegna  
 
-1. Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Sollecito consegna** e quindi scegliere il collegamento correlato.  
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Sollecito Consegna**, quindi selezionare il collegamento correlato.  
 2. Nella pagina **Sollecito di consegna**, selezionare il sollecito di consegna da rilasciare quindi selezionare l'azione **Modifica**.  
 3. Scegliere l'azione **Emetti**.  
 4. Nella pagina **Emettere sollecito di consegna**, compilare i campi come indicato nella tabella riportata di seguito.  
@@ -39,7 +39,7 @@ Quando si rilasciano i solleciti di consegna, vengono creati movimenti contabili
 
 ## <a name="to-view-delivery-reminder-ledger-entries"></a>Per visualizzare i movimenti contabili solleciti di consegna  
 
-1. Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini acquisto**, quindi selezionare il collegamento correlato.  
 2. Selezionare l'ordine di acquisto per cui si desidera visualizzare lo stato del sollecito, quindi scegliere l'azione **Modifica**.  
 3. Scegliere l'azione **Movimenti contabili sollecito di consegna**.  
 

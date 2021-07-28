@@ -1,6 +1,6 @@
 ---
-title: Come importare pagamenti ESR
-description: Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene informazioni sulle fatture pagate. È possibile ricevere questo file dalla banca in formato elettronico oppure tramite e-mail.
+title: Come importare pagamenti ESR [CH]
+description: Dopo aver ricevuto un pagamento da un cliente, si riceve un file ESR che contiene informazioni sulle fatture pagate dalla banca elettronicamente.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: a69e586ab77889003c8771124e4b453f7e2cb385
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 907a141213d971aac6a5037ea9f3a785d1ed6150
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779167"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435706"
 ---
-# <a name="import-esr-payments"></a>Importare i pagamenti ESR
+# <a name="import-esr-payments-in-the-swiss-version"></a>Importare pagamenti ESR nella versione per la Svizzera
 Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene informazioni sulle fatture pagate. È possibile ricevere questo file dalla banca in formato elettronico oppure tramite e-mail.  
 
 È possibile importare dati di fattura ESR (polizza di versamento con numero di riferimento, in tedesco ESR, Einzahlungsschein mit Referenznummer) dal file, stampare i dati tramite il report ESR della fattura di vendita o tramite il report di tagliandi ESR di vendita ed eseguire la verifica prima della registrazione. Per ulteriori informazioni, vedere [Stampare fatture ESR](how-to-print-esr-invoices.md).  
 
 ## <a name="to-import-esr-payments"></a>Per importare pagamenti ESR  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Registrazioni incassi**, quindi selezionare il collegamento correlato.  
 2.  Nel campo **Nome batch** selezionare il batch contabile necessario.  
 
     > [!NOTE]  
