@@ -1,5 +1,5 @@
 ---
-title: Come rettificare i tassi di cambio
+title: Come rettificare i tassi di cambio [CH]
 description: Se è presente una vendita imponibile in una valuta estera, è necessario usare il tasso ufficiale per la conversione di valuta IVA, come definito dall'ente Federal Tax Administration.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: f903b7d739e870a65ed5c523eaa23dc45ce6579b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b603a6b18f47f139d0dcd70d985065adac8702b3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787308"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437517"
 ---
-# <a name="adjust-exchange-rates"></a>Rettifica tassi di cambio
+# <a name="adjust-exchange-rates-in-the-swiss-version"></a>Rettificare i tassi di cambio nella versione per la Svizzera
 Se è presente una vendita imponibile in una valuta estera, è necessario usare il tasso ufficiale per la conversione di valuta IVA, come definito dall'ente Federal Tax Administration.  
 
 Se tali tassi non corrispondono ai tassi di valuta usati nelle fatture di acquisto o di vendita, in seguito sarà necessario rettificare le aliquote IVA con un processo batch. Tali rettifiche possono essere eseguite solo tramite un'aliquota IVA autorizzata.  
@@ -31,11 +31,11 @@ Per ulteriori informazioni sulla valute IVA ed estere, vedere il sito Web [ESTV]
 
 ## <a name="to-adjust-an-exchange-rate"></a>Per rettificare un tasso di cambio  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Valute** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Valute**, quindi selezionare il collegamento correlato.  
 2.  Scegliere l'azione **Tassi di cambio**.  
 3.  Nella pagina **Tassi di cambio valuta** immettere l'aliquota IVA ufficiale per periodo per ogni valuta nei campi **Importo tasso di cambio IVA** e **Importo tasso di cambio IVA relazionale**.  
 4.  Scegliere il pulsante **OK**.  
-5.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rettifica tassi di cambio** e quindi scegliere il collegamento correlato.  
+5.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Rettifica tassi di cambio**, quindi selezionare il collegamento correlato.  
 6.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.   
 
     |Campo|Descrizione|  
