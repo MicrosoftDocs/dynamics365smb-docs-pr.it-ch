@@ -1,6 +1,6 @@
 ---
-title: Come generare solleciti di consegna
-description: In Business Central, è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente.
+title: Come generare solleciti di consegna [CH]
+description: In Business Central, è possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 8362a77eb63cec652698b926b894b72a4e936304
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 97060e0d7e7e3f2a3c4ed52ed67596c862bdf57d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779165"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320766"
 ---
 # <a name="generate-delivery-reminders-in-the-swiss-version"></a>Generare solleciti di consegna nella versione svizzera
 
