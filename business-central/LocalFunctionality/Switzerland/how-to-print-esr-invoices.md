@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Stampare fatture ESR'
-description: È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) in diversi modi.
+title: 'Procedura: Stampare fatture ESR [CH]'
+description: In questo argomento viene descritto come stampare fatture e tagliandi del bollettino bancario ESR (Einzahlungsschein mit Referenznummer).
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 7d05e3c011951e4187fed9cc5081cb1a60ad6bec
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62801f8ad609fdd746123a32c6866c5773949af3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777587"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439754"
 ---
-# <a name="print-esr-invoices"></a>Stampare fatture ESR
+# <a name="print-esr-invoices-in-the-swiss-version"></a>Stampare fatture ESR svizzere nella versione per la Svizzera
 È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) nei seguenti modi:  
 
 - Incluso nell'ESR della fattura di vendita.  
@@ -34,7 +34,7 @@ La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli s
 
 ## <a name="to-print-esr-invoices"></a>Per stampare fatture ESR  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fattura PVR** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Fattura ESR**, quindi selezionare il collegamento correlato.  
 2.  Nel processo batch **Fattura di vendita ESR**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  

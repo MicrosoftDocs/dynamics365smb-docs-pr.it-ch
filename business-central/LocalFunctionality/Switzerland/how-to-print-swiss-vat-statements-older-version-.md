@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e88c096007e1bc26636f9a73caecdc936b726cd9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f1ef2eea709f9fb2ab5d2e8dbbabd00cf8fa8d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776556"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439746"
 ---
 # <a name="print-swiss-vat-statements-older-version"></a>Stampare dichiarazioni IVA svizzere (versione precedente)
 
@@ -30,7 +30,7 @@ La **dichiarazione IVA svizzera** è il rapporto di calcolo standard per la real
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dichiarazione IVA per la Svizzera** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Dichiarazione IVA svizzera**, quindi selezionare il collegamento correlato.  
 
     > [!NOTE]  
     >  Verrà ricevuto un messaggio indicante che la **dichiarazione IVA svizzera** viene aperta nella lingua locale.  

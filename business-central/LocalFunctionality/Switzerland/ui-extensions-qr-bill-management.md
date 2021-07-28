@@ -1,6 +1,6 @@
 ---
-title: Gestione fatture QR | Microsoft Docs
-description: Impostare l'estensione Gestione fattura QR e generare, inviare e importare facilmente fatture QR.
+title: Gestione fatture QR [CH]
+description: Questo articolo descrive i miglioramenti per l'estensione Gestione fatture QR e come è possibile utilizzare Business Central per generare, inviare e importare facilmente le fatture QR.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: soalex
-ms.openlocfilehash: 229738071822ae68328adaa542e671f03e623b51
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3eecd93dbb2a8ca750568f9a9d576054b322644b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788208"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440483"
 ---
-# <a name="qr-bill-management-in-prod_short"></a>Gestione fatture QR in [!INCLUDE[prod_short](../../includes/prod_short.md)]
+# <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>Gestione fatture QR nella versione svizzera di Business Central
 Dal 1° luglio 2020, le società svizzere devono essere in grado di ricevere le fatture QR. Le fatture QR sono distinte di pagamento che seguono le fatture e rappresentano un'iniziativa a livello nazionale per semplificare i processi di pagamento. Le fatture QR sostituiscono tutte le distinte di pagamento esistenti e le funzionalità relative a PVR. Contengono tutte le informazioni necessarie per effettuare i pagamenti e un codice QR sulla distinta di pagamento semplifica l'importazione delle informazioni [!INCLUDE[prod_short](../../includes/prod_short.md)]. Tutte le informazioni rilevanti vengono importate e utilizzate per generare pagamenti per il fornitore che ha inviato la fattura QR, incluso il riferimento di pagamento, che viene automaticamente incluso nelle voci dei movimenti contabili fornitori ed esportato nei file di pagamento alla banca.
 
 ## <a name="get-started-with-the-qr-bill-management-extension"></a>Inizia con l'estensione Gestione fattura QR
@@ -63,7 +63,7 @@ Puoi ricevere le fatture QR in diversi luoghi in [!INCLUDE[prod_short](../../inc
 ### <a name="to-receive-a-qr-bill-through-an-incoming-documents"></a>Per ricevere una fattura QR tramite documenti in arrivo
 La ricezione di una fattura QR tramite documenti in arrivo è particolarmente utile quando il processo è automatizzato, ma è anche possibile ricevere manualmente una fattura QR tramite documenti in arrivo.
 
-1. Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Documenti in entrata** e quindi scegliere il collegamento correlato.
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Documenti in arrivo**, quindi selezionare il collegamento correlato.
 2. Nella casella **Documenti in arrivo** creare una nuova voce selezionando **Nuovo**, quindi **Nuovo**. 
 3. Nella casella **Documenti in Arrivo** inserisci una descrizione nel campo **Descrizione** .
 4. Per importare la fattura QR selezionare **Azioni**, quindi **Fatture QR**, e **Scannerizza fattura QR** per scannerizzare una fattura QR nei documenti in entrata.

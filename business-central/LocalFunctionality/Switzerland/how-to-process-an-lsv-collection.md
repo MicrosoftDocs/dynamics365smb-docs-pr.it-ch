@@ -1,6 +1,6 @@
 ---
-title: Come elaborare una riscossione LSV
-description: Utilizzare registrazioni LSV per creare ed elaborare i pagamenti di clienti Lastschrift Verfahren (LSV+). È possibile registrare questi pagamenti nella registrazione incassi, creare un file LSV e stampare il RIBA.
+title: Come elaborare una riscossione LSV [CH]
+description: Utilizzare registrazioni LSV per creare ed elaborare i pagamenti di clienti Lastschrift Verfahren (LSV+).
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: e9a6fca39a3dc9077779d683e30d2beb304e6d57
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 336cceefc70b44fb5caa749f44eeeb9459463407
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770613"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439734"
 ---
-# <a name="process-an-lsv-collection"></a>Elaborare una riscossione LSV
+# <a name="process-an-lsv-collection-in-the-swiss-version"></a>Elaborare una riscossione LSV nella versione per la Svizzera
 Utilizzare la pagina **Registrazioni LSV** per creare ed elaborare i pagamenti di clienti Lastschrift Verfahren (LSV+). È possibile registrare questi pagamenti nella registrazione incassi, creare un file LSV e stampare il RIBA. Per ulteriori informazioni, vedere la pagina Registrazioni incassi e [Esportare pagamenti tramite LSV](how-to-export-payments-using-lsv.md).  
 
 Quando si esegue il processo batch **Riscossione suggerimenti LSV**, ogni riscossione suggerita viene registrata nella riga registrazioni LSV e le fatture aperte vengono trasferite nelle registrazioni LSV. Per ulteriori informazioni, vedere la tabella Registrazioni LSV.  
@@ -26,7 +26,7 @@ Quando si esegue il processo batch **Riscossione suggerimenti LSV**, ogni riscos
 
 ## <a name="to-create-an-lsv-collection"></a>Per creare una riscossione LSV  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Lista registrazioni LSV** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Lista registrazioni LSV**, quindi selezionare il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nella pagina **Lista registrazioni LSV** compilare i campi obbligatori come indicato nella tabella riportata di seguito.  
 

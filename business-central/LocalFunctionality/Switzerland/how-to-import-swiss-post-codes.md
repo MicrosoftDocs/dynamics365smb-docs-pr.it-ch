@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Importare codici postali svizzeri'
-description: È possibile importare l'ultimo file di codice postale e utilizzarlo per aggiornare la tabella CAP. Il file di codice postale può essere scaricato dal sito Web dei codici postali svizzeri. Dopo l'importazione del codice postale più recente, è possibile definire i codici postali per i clienti o i fornitori.
+title: 'Procedura: Importare codici postali svizzeri [CH]'
+description: È possibile importare l'ultimo file di codice postale svizzero e utilizzarlo per aggiornare la tabella NPA per definire i numeri postali di avviamento per clienti o fornitori.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 726eb1d2ee1d18c2ee08e7e50e8a2b58205ffe84
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 04effb93a3af6dc983c676788177a8be2bed8d08
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779156"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439758"
 ---
-# <a name="import-swiss-post-codes"></a>Importare codici postali svizzeri
+# <a name="import-swiss-post-codes-in-the-swiss-version"></a>Importare i numeri postali di avviamento svizzeri nella versione per la Svizzera
 È possibile importare l'ultimo file di codice postale e utilizzarlo per aggiornare la tabella **CAP**. Il file di codice postale può essere scaricato dal sito Web dei [codici postali svizzeri](https://go.microsoft.com/fwlink/?LinkId=150292). Dopo l'importazione del codice postale più recente, è possibile definire i codici postali per i clienti o i fornitori. Per ulteriori informazioni, vedere [Registrare nuovi fornitori](../../purchasing-how-register-new-vendors.md).  
 
 ## <a name="to-import-post-codes"></a>Per importare i codici postali  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **NPA** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **NPA**, quindi selezionare il collegamento correlato.  
 2.  Selezionare l'azione **Importa codici postali**.  
 3.  Nella pagina **Importa codici postali** nel campo **Nome file** immettere il nome del file di codice postale da importare nella tabella **CAP**.  
 4.  Scegliere il pulsante **OK**.  
@@ -33,7 +33,7 @@ Di seguito viene descritto come definire i codici postali per i clienti, ma gli 
 
 ## <a name="to-define-post-codes-for-customers"></a>Per definire i codici postali per i clienti  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Clienti**, quindi selezionare il collegamento correlato.  
 2.  Selezionare il cliente per cui definire un codice postale, quindi scegliere l'azione **Modifica**.  
 3.  Nella Scheda dettaglio **Generale** della pagina **Scheda cliente**, nel campo **CAP** selezionare il codice postale per l'indirizzo del cliente.  
 

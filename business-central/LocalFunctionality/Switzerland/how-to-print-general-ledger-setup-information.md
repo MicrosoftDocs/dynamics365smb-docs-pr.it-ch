@@ -1,5 +1,5 @@
 ---
-title: Come stampare le informazioni di setup della contabilità generale
+title: Stampare le informazioni di setup della contabilità generale [CH]
 description: Prima di usare Business Central nelle attività giornaliere, è possibile eseguire il report Informazioni setup C/G per visualizzare i dati master configurati.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 1c39ebde2206524d81f9beccecc80b1b385cc6ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0fa4fc97fb1695062c1940776d3d8ef3e73a8393
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776560"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439750"
 ---
-# <a name="print-general-ledger-setup-information"></a>Stampare le informazioni di setup della contabilità generale
+# <a name="print-general-ledger-setup-information-in-the-swiss-version"></a>Stampare le informazioni di setup della contabilità generale nella versione per la Svizzera
 Prima di usare [!INCLUDE[prod_short](../../includes/prod_short.md)] nelle attività giornaliere, è possibile eseguire il report **Informazioni setup C/G** per visualizzare i dati master configurati. È possibile esaminare i dati master in modo da disporre di una base rispetto alla quale eseguire un confronto e quindi verificare, ad esempio, di aver impostato le categorie di registrazione in modo corretto.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Per stampare le informazioni di setup della contabilità generale  
 
-1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni setup C/G** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Informazioni setup C/G**, quindi selezionare il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni**, nel campo **Informazioni sull'installazione** selezionare l'area di dati master come descritto nella tabella seguente.  
 
     |Opzione|Descrizione|  
