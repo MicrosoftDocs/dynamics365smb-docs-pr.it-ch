@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.date: 09/06/2021
 ms.author: soalex
-ms.openlocfilehash: a1ec0dfceba2755c70b8532ff00d49a4d76aba98
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9e74bb3e31863eba86ede44b687807b47b261f4a
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482419"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011118"
 ---
 # <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>Gestione fatture QR nella versione svizzera di Business Central
 Dal 1° luglio 2020, le società svizzere devono essere in grado di ricevere le fatture QR. Le fatture QR sono distinte di pagamento che seguono le fatture e rappresentano un'iniziativa a livello nazionale per semplificare i processi di pagamento. Le fatture QR sostituiscono tutte le distinte di pagamento esistenti e le funzionalità relative a PVR. Contengono tutte le informazioni necessarie per effettuare i pagamenti e un codice QR sulla distinta di pagamento semplifica l'importazione delle informazioni [!INCLUDE[prod_short](../../includes/prod_short.md)]. Tutte le informazioni rilevanti vengono importate e utilizzate per generare pagamenti per il fornitore che ha inviato la fattura QR, incluso il riferimento di pagamento, che viene automaticamente incluso nelle voci dei movimenti contabili fornitori ed esportato nei file di pagamento alla banca.
@@ -46,6 +46,9 @@ Per i riferimenti ESR è possibile configurare informazioni, ad esempio, in modo
 
 ## <a name="using-multiple-bank-accounts-as-issuers-of-qr-bills"></a>Utilizzo di più conti bancari per emettere fatture QR
 Coloro che emettono fatture QR possono utilizzare più conti bancari per instradare i pagamenti su conti bancari diversi. Questo è legato al metodo di pagamento su cui è possibile specificare il **Nr. conto bancario fattura QR**. Quando specificato, le informazioni IBAN/QR-IBAN di questo conto bancario verranno utilizzate sulle fatture QR che utilizzano il metodo di pagamento indicato. In questo modo puoi indirizzare i pagamenti in entrata sul conto bancario desiderato. Se non utilizzi più conti bancari e specifichi il **numero di conto bancario fattura QR** sulla carta del metodo di pagamento, le informazioni QR-IBAN/IBAN da Informazioni società vengono utilizzate sulle fatture QR. Assicurati di aver impostato almeno le informazioni del tuo conto bancario principale.
+
+> [!Note]
+> Se emetti fatture QR, assicurati di impostare i conti bancari in modo da identificarti con i conti giusti nei confronti dei tuoi clienti, a seconda che utilizzi il QR-IBAN o l'IBAN regolare. Se sei il destinatario e il pagante di fatture QR, ti consigliamo di impostare correttamente i conti bancari dei fornitori per il pagamento e il trasferimento nei conti con IBAN regolare o QR-IBAN.
 
 ## <a name="scanning-and-importing-qr-bills"></a>Scansione ed importazione di fatture QR
 Per analizzare o importare una fattura QR, è necessario utilizzare uno dei seguenti tipi di dispositivi di scansione:
@@ -87,9 +90,6 @@ Puoi scansionare o importare fatture QR direttamente in una **giornale di regist
 
 ## <a name="reconciliation"></a>Riconciliazione
 Quando si importano transazioni bancarie (camt) nella pagina Registrazione riconciliazione pagamenti, si presume che il file includa il riferimento di pagamento, che troverà automaticamente i corrispondenti **movimenti contabili clienti** da liquidare.    
-
-## <a name="upcoming-capabilities-for-qr-bills"></a>Funzionalità in arrivo per fatture QR
-Stiamo pianificando di aggiungere funzionalità all'estensione di gestione di fatture QR nei prossimi aggiornamenti alla versione 1 del 2020. Ad esempio, sarai in grado di ricevere fatture QR tramite documenti di acquisto e registro di acquisto. Ciò fornirà ulteriori convalide e consentirà di automatizzare e semplificare i processi di ricezione. Per informazioni su quando ciò accadrà, tieni d'occhio il nostro [Piano di rilascio](/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
 
 ## <a name="see-also"></a>Vedere anche
 [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)  
