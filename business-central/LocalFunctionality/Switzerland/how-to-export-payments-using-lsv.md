@@ -1,29 +1,30 @@
 ---
-title: Esportare pagamenti tramite LSV [CH]
-description: È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV.
+title: Come esportare pagamenti tramite LSV
+description: È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV. È possibile inviare i file generati alla banca su un disco oppure usare un trasferimento file elettronico, ad esempio tramite il servizio di online banking o tramite un portale Internet.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 088062ff0eace7d0c8c900f370f87879ae029da4
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 8bf948ec9440e22a30b2cc549b81d404d5e303e8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947131"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301060"
 ---
-# <a name="export-payments-using-lsv-in-the-swiss-version"></a>Esportare pagamenti con LSV nella versione per la Svizzera
+# <a name="export-payments-using-lsv"></a>Esportare pagamenti tramite LSV
 È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV. È possibile inviare i file generati alla banca su un disco oppure usare un trasferimento file elettronico, ad esempio tramite il servizio di online banking o tramite un portale Internet.  
 
 ## <a name="to-export-payments-using-lsv"></a>Per esportare pagamenti tramite LSV  
 
-1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Lista registrazioni LSV**, quindi selezionare il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Lista registrazioni LSV**, quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Lista registrazioni LSV** selezionare le registrazioni LSV desiderate.  
 3.  Scegliere l'azione **Scrivi file LSV**.  
 4.  Nella pagina **Scrivi file LSV**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
@@ -40,6 +41,3 @@ ms.locfileid: "7947131"
  [Elaborare una riscossione LSV](how-to-process-an-lsv-collection.md)   
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   
  [Registrare pagamenti LSV+](how-to-post-lsv-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

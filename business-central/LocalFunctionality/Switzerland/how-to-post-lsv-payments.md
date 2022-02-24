@@ -1,29 +1,30 @@
 ---
 title: Come registrare pagamenti LSV+
 description: È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (Lastschrift Verfahren) dalla banca.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 852a0bb2d5f9e2ccc840d1f7c71ade9062d0fd52
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5207c328997f68bfc752550ad4138c1a9b5bcf7e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947151"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301027"
 ---
 # <a name="post-lsv-payments"></a>Registrare pagamenti LSV+
 È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (Lastschrift Verfahren) dalla banca.  
 
 ## <a name="to-post-lsv-payments"></a>Registrare pagamenti LSV+  
 
-1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Registrazioni incassi**, quindi selezionare il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Registrazioni incassi**, quindi scegliere il collegamento correlato.  
 2.  Selezionare le registrazioni richieste, quindi scegliere l'azione **Modifica registrazioni**.  
 
     > [!NOTE]  
@@ -48,6 +49,3 @@ ms.locfileid: "7947151"
  [Elaborare una riscossione LSV](how-to-process-an-lsv-collection.md)   
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   
  [Esportare pagamenti tramite LSV](how-to-export-payments-using-lsv.md) 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
