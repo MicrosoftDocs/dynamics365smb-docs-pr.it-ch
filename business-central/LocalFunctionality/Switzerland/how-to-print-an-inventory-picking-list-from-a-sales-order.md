@@ -1,25 +1,24 @@
 ---
-title: 'Procedura: Stampare una lista prelievi magazzino da un ordine di vendita'
-description: È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita.
-services: project-madeira
-documentationcenter: ''
+title: Stampare una lista prelievi magazzino da un ordine di vendita in Svizzera
+description: Informazioni su come stampare una lista prelievi magazzino direttamente da un ordine di vendita nella versione svizzera di Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: db4afff3219f98a7dc24533bf1dfe5b4e93dd57a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 11bc1fdc73b8452d938d33371236dcd2a0c8c2bd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301021"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435694"
 ---
-# <a name="print-an-inventory-picking-list-from-a-sales-order"></a>Stampare una lista prelievi magazzino da un ordine di vendita
+# <a name="print-an-inventory-picking-list-from-a-sales-order-in-the-swiss-version"></a>Stampare una lista prelievi magazzino da un ordine di vendita nella versione svizzera
+
 È possibile stampare una lista prelievi magazzino direttamente da un ordine di vendita. La lista prelievi contiene un elenco di articoli con le seguenti informazioni:  
 
 - Codice collocazione  
@@ -31,13 +30,16 @@ La lista prelievi include solo quegli articoli con una quantità di spedizione s
 
 ## <a name="to-print-an-inventory-picking-list-from-a-sales-order"></a>Per stampare una lista prelievi magazzino da un ordine di vendita  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Ordini vendita**, quindi scegliere il collegamento correlato.  
-2.  Selezionare l'ordine di vendita richiesto, quindi scegliere l'azione **Modifica**.  
-3.  Scegliere l'azione **Lista prelievi**.  
-4.  Nella Scheda dettaglio **Opzioni** immettere il numero di copie richiesto nel campo **Nr. di copie**.  
-5.  Scegliere il pulsante **Stampa** per stampare la lista prelievi oppure scegliere il pulsante **Anteprima** per visualizzarla sullo schermo.  
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini vendita**, quindi selezionare il collegamento correlato.  
+2. Selezionare l'ordine di vendita richiesto, quindi scegliere l'azione **Modifica**.  
+3. Scegliere l'azione **Lista prelievi**.  
+4. Nella Scheda dettaglio **Opzioni** immettere il numero di copie richiesto nel campo **Nr. di copie**.  
+5. Scegliere il pulsante **Stampa** per stampare la lista prelievi oppure scegliere il pulsante **Anteprima** per visualizzarla sullo schermo.  
 
-## <a name="see-also"></a>Vedi anche  
- [Documenti di acquisto e di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md)   
- [Importare codici postali svizzeri](how-to-import-swiss-post-codes.md)   
- 
+## <a name="see-also"></a>Vedi anche
+
+[Documenti di acquisto e di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md)  
+[Importare codici postali svizzeri](how-to-import-swiss-post-codes.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,30 +1,28 @@
 ---
-title: Come stampare le informazioni di setup della contabilità generale
+title: Stampare le informazioni di setup della contabilità generale [CH]
 description: Prima di usare Business Central nelle attività giornaliere, è possibile eseguire il report Informazioni setup C/G per visualizzare i dati master configurati.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 8c77437487ebba06a6e0000ef7b1f7418807b7e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 0fa4fc97fb1695062c1940776d3d8ef3e73a8393
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301015"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439750"
 ---
-# <a name="print-general-ledger-setup-information"></a>Stampare le informazioni di setup della contabilità generale
-Prima di usare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nelle attività giornaliere, è possibile eseguire il report **Informazioni setup C/G** per visualizzare i dati master configurati. È possibile esaminare i dati master in modo da disporre di una base rispetto alla quale eseguire un confronto e quindi verificare, ad esempio, di aver impostato le categorie di registrazione in modo corretto.  
+# <a name="print-general-ledger-setup-information-in-the-swiss-version"></a>Stampare le informazioni di setup della contabilità generale nella versione per la Svizzera
+Prima di usare [!INCLUDE[prod_short](../../includes/prod_short.md)] nelle attività giornaliere, è possibile eseguire il report **Informazioni setup C/G** per visualizzare i dati master configurati. È possibile esaminare i dati master in modo da disporre di una base rispetto alla quale eseguire un confronto e quindi verificare, ad esempio, di aver impostato le categorie di registrazione in modo corretto.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Per stampare le informazioni di setup della contabilità generale  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Informazioni setup C/G**, quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Informazioni setup C/G**, quindi selezionare il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni**, nel campo **Informazioni sull'installazione** selezionare l'area di dati master come descritto nella tabella seguente.  
 
     |Opzione|Descrizione|  
@@ -40,3 +38,6 @@ Prima di usare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] nelle attività
 
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione di dati finanziari](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

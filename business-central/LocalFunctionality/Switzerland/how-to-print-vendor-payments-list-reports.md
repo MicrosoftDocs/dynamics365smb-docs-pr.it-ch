@@ -1,29 +1,33 @@
 ---
-title: Come stampare report di liste di pagamenti fornitore
+title: Stampare report di liste di pagamenti fornitore [CH]
 description: Il report Lista pagamenti fornitore fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 77fd2f37c9770ca2a17ade1311fd002210b5f629
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: fa75ffd98ce360276665b8e70f575df67d868efd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878808"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439738"
 ---
-# <a name="print-vendor-payments-list-reports"></a>Stampare report di liste di pagamenti fornitore
+# <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Stampare report di liste di pagamenti fornitore nella versione per la Svizzera
+
 Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.  
+
+> [!NOTE]
+> Il report **Lista di pagamenti fornitore** è disponibile nei seguenti mercati: Austria, Germania, Svizzera.
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Per stampare il report di liste di pagamenti fornitore  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Lista pagamenti fornitore**, quindi scegliere il collegamento correlato.  
-2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Lista di pagamenti fornitore**, quindi selezionare il collegamento correlato.  
+2. Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
@@ -32,5 +36,9 @@ Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni
 
  Alla fine del report viene visualizzato il numero di pagamenti elaborati.  
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedere anche
+
 [Effettuare i pagamenti](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

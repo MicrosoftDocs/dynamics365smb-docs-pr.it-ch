@@ -1,25 +1,26 @@
 ---
 title: Funzionalità locale per la Svizzera
-description: Negli argomenti indicati di seguito viene descritta la funzionalità locale nella versione svizzera di Business Central.
+description: Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
+ms.date: 06/21/2021
 ms.author: soalex
-ms.openlocfilehash: 6ae18b49ffd81fd4f2cd6e68a2f18ea481ff8455
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: f6d858efd22d581be89ca37ac6437f37ab80f766
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454214"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947106"
 ---
 # <a name="switzerland-local-functionality"></a>Funzionalità locale per la Svizzera
 
-Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Disponibilità della funzionalità
 
@@ -70,7 +71,10 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità per paese/area geografica e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

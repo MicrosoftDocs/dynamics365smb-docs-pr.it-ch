@@ -3,19 +3,19 @@ title: Come stampare dichiarazioni IVA svizzere (versione precedente)
 description: La dichiarazione IVA svizzera è il rapporto di calcolo standard per la realizzazione dell'IVA. È possibile stampare questo rapporto e utilizzarlo per le dichiarazioni fiscali trimestrali.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 84de1625e8929869bbaa37099b38c7495ac24e68
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 5f1ef2eea709f9fb2ab5d2e8dbbabd00cf8fa8d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878811"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439746"
 ---
 # <a name="print-swiss-vat-statements-older-version"></a>Stampare dichiarazioni IVA svizzere (versione precedente)
 
@@ -30,7 +30,7 @@ La **dichiarazione IVA svizzera** è il rapporto di calcolo standard per la real
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona della funzionalità Cerca pagina o report"), immettere **Dichiarazione IVA Svizzera**, quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Dichiarazione IVA svizzera**, quindi selezionare il collegamento correlato.  
 
     > [!NOTE]  
     >  Verrà ricevuto un messaggio indicante che la **dichiarazione IVA svizzera** viene aperta nella lingua locale.  
@@ -56,3 +56,6 @@ La **dichiarazione IVA svizzera** è il rapporto di calcolo standard per la real
 ## <a name="see-also"></a>Vedere anche  
  [IVA svizzera](swiss-value-added-tax.md)   
  [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

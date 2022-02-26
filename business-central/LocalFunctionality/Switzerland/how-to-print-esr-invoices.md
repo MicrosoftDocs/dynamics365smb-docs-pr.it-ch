@@ -1,25 +1,25 @@
 ---
-title: 'Procedura: Stampare fatture ESR'
-description: È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) in diversi modi.
-services: project-madeira
-documentationcenter: ''
+title: 'Procedura: Stampare fatture ESR [CH]'
+description: In questo argomento viene descritto come stampare fatture e tagliandi del bollettino bancario ESR (Einzahlungsschein mit Referenznummer).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3a298c20c21eda37bc55536547684741573f85c1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 3010531, 3010532
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 0c27928b22a0fd1edd2a882ece7b1173b3dfbb17
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301018"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947138"
 ---
-# <a name="print-esr-invoices"></a>Stampare fatture ESR
+# <a name="print-esr-invoices-in-the-swiss-version"></a>Stampare fatture ESR svizzere nella versione per la Svizzera
+
 È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) nei seguenti modi:  
 
 - Incluso nell'ESR della fattura di vendita.  
@@ -28,26 +28,29 @@ ms.locfileid: "2301018"
 Il report ESR della fattura di vendita corrisponde alla fattura di vendita accompagnata da un tagliando ESR aggiuntivo. Utilizzando il report tagliando ESR di vendita è possibile stampare la distinta di deposito blu.  
 
 > [!NOTE]  
->  È necessario selezionare una stampante e selezionare le impostazioni durante l'installazione del modulo di pagamento ESR per stampare correttamente la distinta di deposito. Per ulteriori informazioni, vedere la tabella Selezioni stampante.  
+> È necessario selezionare una stampante e selezionare le impostazioni durante l'installazione del modulo di pagamento ESR per stampare correttamente la distinta di deposito. Per ulteriori informazioni, vedere la tabella Selezioni stampante.  
 
 La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli stessi passaggi si applicano anche alla stampa dei tagliandi ESR.  
 
 ## <a name="to-print-esr-invoices"></a>Per stampare fatture ESR  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Fattura ESR**, quindi scegliere il collegamento correlato.  
-2.  Nel processo batch **Fattura di vendita ESR**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Fattura ESR**, quindi selezionare il collegamento correlato.  
+2. Nel processo batch **Fattura di vendita ESR**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**Nr di copie**|Immettere il numero richiesto di copie del report.|  
-    |**Banca ESR**|Selezionare il codice bancario ESR da stampare nel report.<br /><br /> Se il valore in questo campo è <Blank> e il codice del metodo di pagamento ESF non è definito nella pagina **Setup ESR**, verrà stampata la banca principale ESR selezionata nella pagina **Setup ESR**.|  
+    |**Banca ESR**|Selezionare il codice bancario ESR da stampare nel report.<br /><br /> Se il valore in questo campo è \<Blank\> e il codice del metodo di pagamento ESF non è definito nella pagina **Setup ESR**, verrà stampata la banca principale ESR selezionata nella pagina **Setup ESR**.|  
     |**LogInteraction**|Specificare se le interazioni con i tuoi contatti verranno registrate.|  
     |**Sistema ESR**|Selezionare il sistema ESR con cui è possibile inviare i nuovi tagliandi ESR ai clienti. Per utilizzare il sistema ESR utilizzato dalla banca che hai specificato nel campo **Banca ESR**, selezionare **Basato su banca ESR**.|  
 
-3.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
+3. Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
 È inoltre possibile ristampare il report ESR della fattura di vendita o il report del tagliando ESR di vendita.  
 
-## <a name="see-also"></a>Vedi anche  
- [Pagamenti elettronici svizzeri tramite ESR](swiss-electronic-payments-using-esr.md)   
+## <a name="see-also"></a>Vedere anche  
+ [Pagamenti elettronici svizzeri utilizzando ESR](swiss-electronic-payments-using-esr.md)   
  [Importare i pagamenti ESR](how-to-import-esr-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

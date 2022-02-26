@@ -1,26 +1,24 @@
 ---
-title: Gestione del magazzino per la Svizzera
-description: I miglioramenti svizzeri includono funzioni speciali di gestione magazzino.
-services: project-madeira
-documentationcenter: ''
+title: Gestione del magazzino per la Svizzera [CH]
+description: Questo articolo descrive i miglioramenti per la Svizzera alle funzioni speciali di gestione dell'inventario in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 53386804f286b3cfff882c647240dfa9cca2c161
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 8986455ccbab0adc26a17605fdb7f4889732d950
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300961"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319304"
 ---
 # <a name="swiss-inventory-management"></a>Gestione del magazzino per la Svizzera
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  
 
 - Dichiarazione dettagliata.  Per ulteriori informazioni vedere il report Magazzino - Statistiche di vendita e il report Magazzino - Lista.  
 - La capacità di monitorare una fattura con più spedizioni.  
@@ -37,3 +35,6 @@ Se sono state registrate più spedizioni per un cliente, è possibile creare una
 ## <a name="see-also"></a>Vedere anche  
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
  [Impostare le ubicazioni](../../inventory-how-setup-locations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

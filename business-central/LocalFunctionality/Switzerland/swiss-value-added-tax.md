@@ -1,26 +1,24 @@
 ---
-title: IVA svizzera
-description: I miglioramenti svizzeri includono funzioni speciali di dichiarazione IVA.
-services: project-madeira
-documentationcenter: ''
+title: IVA svizzera [CH]
+description: Questo articolo spiega diversi miglioramenti apportati alle funzionalità di dichiarazione IVA svizzera.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f07e27118002f7c793b7d49ddadcef023dc026ef
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: b8ebca2f78a70b1cceab1825bfa1d54fd91628ed
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300964"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319296"
 ---
 # <a name="swiss-value-added-tax"></a>IVA svizzera
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includono i seguenti miglioramenti alla dichiarazione IVA svizzera:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includono i seguenti miglioramenti alla dichiarazione IVA svizzera:  
 
 - Rettifica automatica degli importi IVA per fatture, in base agli sconti di pagamento.  
 - Tassi di cambio IVA aggiuntivi per le fatture in valute estere.  
@@ -41,3 +39,6 @@ Ulteriori informazioni, come l'aliquota IVA e l'importo in valuta originale, ven
  [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)   
  [Creare e stampare una dichiarazione IVA svizzera](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
