@@ -2,7 +2,6 @@
 title: Importare numeri di clearing svizzeri [CH]
 description: Questo argomento spiega come importare numeri di clearing bancari svizzeri utilizzando la versione svizzera di Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11501
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: b444706b55f3c64705dae6ccdb6e13060ffcb9a7
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 62ac4362592ee15dbc2ed9f748ab5411b0ae9b83
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947078"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135511"
 ---
 # <a name="import-swiss-bank-clearing-numbers-in-the-swiss-version"></a>Importare i numeri di clearing bancari svizzeri nella versione per la Svizzera
 I numeri di clearing bancari sono numeri univoci usati per identificare ogni agenzia o filiale nella directory delle banche. Questa informazioni è necessaria per effettuare un pagamento elettronico. Il file può essere scaricato dal sito Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121).  

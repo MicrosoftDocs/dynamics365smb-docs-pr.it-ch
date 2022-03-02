@@ -2,7 +2,6 @@
 title: Visualizzazione di saldi temporanei nelle registrazioni di contabilità generale [CH]
 description: È possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni di una nuova transazione nelle registrazioni COGE.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11500
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 93cfcce21a6de2c2db7158639ae99d26ae4150c3
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 335ecbc8976e620c7953f87cb5daf8a10e90002e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947142"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144124"
 ---
 # <a name="view-temporary-balances-in-general-ledger-journals-in-the-swiss-version"></a>Visualizzare i saldi temporanei nelle registrazioni di contabilità generale nella versione per la Svizzera
 

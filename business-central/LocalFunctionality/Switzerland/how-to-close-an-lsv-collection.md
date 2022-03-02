@@ -2,7 +2,6 @@
 title: Chiudere una riscossione LSV [CH]
 description: Per scrivere file LSV che possono essere inviati alla banca per la riscossione dei pagamenti, è necessario chiudere le riscossioni Lastchrift Verfahren (LSV+).
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 9c1c599d6a9326157f2b5e01736304bc14278411
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 5e6d78d3c38866e877acfc5cd87e8827027ae480
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947199"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146004"
 ---
 # <a name="close-an-lsv-collection-in-the-swiss-version"></a>Chiudere una riscossione LSV nella versione per la Svizzera
 Per scrivere file LSV che possono essere inviati alla banca per la riscossione dei pagamenti, è necessario chiudere le riscossioni Lastchrift Verfahren (LSV+). Quando si chiude una riscossione, questa risulta completata e vengono combinati gli inserimenti nelle registrazioni LSV.  

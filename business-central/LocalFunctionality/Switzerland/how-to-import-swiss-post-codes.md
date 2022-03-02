@@ -2,7 +2,6 @@
 title: 'Procedura: Importare codici postali svizzeri [CH]'
 description: È possibile importare l'ultimo file di codice postale svizzero e utilizzarlo per aggiornare la tabella NPA per definire i numeri postali di avviamento per clienti o fornitori.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 04effb93a3af6dc983c676788177a8be2bed8d08
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 50614decaf1148eeecbdf063c79efcd9c77d24f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439758"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138117"
 ---
 # <a name="import-swiss-post-codes-in-the-swiss-version"></a>Importare i numeri postali di avviamento svizzeri nella versione per la Svizzera
 È possibile importare l'ultimo file di codice postale e utilizzarlo per aggiornare la tabella **CAP**. Il file di codice postale può essere scaricato dal sito Web dei [codici postali svizzeri](https://go.microsoft.com/fwlink/?LinkId=150292). Dopo l'importazione del codice postale più recente, è possibile definire i codici postali per i clienti o i fornitori. Per ulteriori informazioni, vedere [Registrare nuovi fornitori](../../purchasing-how-register-new-vendors.md).  

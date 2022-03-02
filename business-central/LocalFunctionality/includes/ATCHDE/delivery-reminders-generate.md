@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 641706baec534f45fef8d70e6601d513967d5a79
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ee803e8451b89f3e666cc5a513db842a965e43fa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435712"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139005"
 ---
 In [!INCLUDE[prod_short](../../../includes/prod_short.md)], è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente.  
 

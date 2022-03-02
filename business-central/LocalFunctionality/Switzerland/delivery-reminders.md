@@ -2,7 +2,6 @@
 title: Solleciti consegna [CH]
 description: I solleciti di consegna sono usati per tracciare le consegne scadute dei fornitori e per segnalare ai fornitori le consegne scadute nella versione svizzera.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 5005270, 5005272
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 7acea9db678684d33de03edd00c2dd67947402be
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 48ca834ebed0e1ed16bf9a4c1e1d7db90830ffe9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947207"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129307"
 ---
 # <a name="delivery-reminders-in-the-swiss-version"></a>Solleciti di consegna nella versione svizzera
 

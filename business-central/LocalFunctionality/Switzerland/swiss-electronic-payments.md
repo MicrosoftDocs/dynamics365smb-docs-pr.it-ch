@@ -2,7 +2,6 @@
 title: Pagamenti elettronici svizzeri
 description: I miglioramenti svizzeri consentono di inviare le fatture ai clienti elettronicamente. Le fatture vengono presentate e pagate direttamente utilizzando il software bancario online del cliente.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9fdf837b76dfe089c81a439953206bb028d176a1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 570804934f0cd4fae17a797f383048d95b0b5ae5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785211"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134438"
 ---
 # <a name="swiss-electronic-payments"></a>Pagamenti elettronici svizzeri
 [!INCLUDE[prod_short](../../includes/prod_short.md)] consente di inviare le fatture ai clienti elettronicamente. Le fatture vengono presentate e pagate direttamente utilizzando il software bancario online del cliente.  

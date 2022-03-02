@@ -2,7 +2,6 @@
 title: Assegnare codici di solleciti di consegna ai fornitori [CH]
 description: Per abilitare solleciti di consegna per acquisti scaduti, è necessario assegnare termini di solleciti di consegna ai fornitori nella versione svizzera.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 5005270, 5005272
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: b4d12354d2e15d2a55b7520116e9f88acd6c3337
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: be17b992ec2e26ae97de100e7ad792000991a3a9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947169"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129313"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Assegnare codici di solleciti di consegna ai fornitori nella versione svizzera
 

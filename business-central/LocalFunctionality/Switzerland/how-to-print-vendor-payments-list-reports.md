@@ -2,7 +2,6 @@
 title: Stampare report di liste di pagamenti fornitore [CH]
 description: Il report Lista pagamenti fornitore fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: fa75ffd98ce360276665b8e70f575df67d868efd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6d3c52b52090a8bff9d70c983a0bfa8170aad1ff
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439738"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145963"
 ---
 # <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Stampare report di liste di pagamenti fornitore nella versione per la Svizzera
 

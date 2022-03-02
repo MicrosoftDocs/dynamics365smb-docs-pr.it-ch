@@ -2,7 +2,6 @@
 title: Gestione fatture QR [CH]
 description: Questo articolo descrive i miglioramenti per l'estensione Gestione fatture QR e come è possibile utilizzare Business Central per generare, inviare e importare facilmente le fatture QR.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.date: 09/06/2021
 ms.author: soalex
-ms.openlocfilehash: 9e74bb3e31863eba86ede44b687807b47b261f4a
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 38aedb281643b549a05ce32e1fbb0c81f89053db
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011118"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139987"
 ---
 # <a name="qr-bill-management-in-the-swiss-version-of-business-central"></a>Gestione fatture QR nella versione svizzera di Business Central
 Dal 1° luglio 2020, le società svizzere devono essere in grado di ricevere le fatture QR. Le fatture QR sono distinte di pagamento che seguono le fatture e rappresentano un'iniziativa a livello nazionale per semplificare i processi di pagamento. Le fatture QR sostituiscono tutte le distinte di pagamento esistenti e le funzionalità relative a PVR. Contengono tutte le informazioni necessarie per effettuare i pagamenti e un codice QR sulla distinta di pagamento semplifica l'importazione delle informazioni [!INCLUDE[prod_short](../../includes/prod_short.md)]. Tutte le informazioni rilevanti vengono importate e utilizzate per generare pagamenti per il fornitore che ha inviato la fattura QR, incluso il riferimento di pagamento, che viene automaticamente incluso nelle voci dei movimenti contabili fornitori ed esportato nei file di pagamento alla banca.

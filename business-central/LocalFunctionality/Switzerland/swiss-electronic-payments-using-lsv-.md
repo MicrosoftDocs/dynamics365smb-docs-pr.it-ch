@@ -2,7 +2,6 @@
 title: Pagamenti elettronici svizzeri tramite LSV+ [CH]
 description: Il metodo di pagamento elettronico svizzero, ovvero Lastschrift Verfahren (LSV+) o addebito diretto consente alle aziende di recuperare i pagamenti direttamente dai conti correnti dei clienti.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 9b156d23fd6b3ae4e7b912c9a8cbc51685ffb08a
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: c89e9f8c0de593407e401e3c6cba83b64f7125b1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947082"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136618"
 ---
 # <a name="swiss-electronic-payments-using-lsv-in-the-swiss-version"></a>Pagamenti elettronici svizzeri tramite LSV+ nella versione per la Svizzera
 Il metodo di pagamento elettronico svizzero, ovvero Lastschrift Verfahren (LSV+) o addebito diretto, versione migliorata del metodo LSV, consente alle aziende di recuperare i pagamenti direttamente dai conti correnti dei clienti. Per recuperare i pagamenti dei clienti, è necessario inviare un file LSV alla banca, che raccoglierà i pagamenti richiesti nel file.  

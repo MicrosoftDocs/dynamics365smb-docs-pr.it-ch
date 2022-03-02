@@ -2,7 +2,6 @@
 title: Conti di contabilità generale per la Svizzera [CH]
 description: Questo articolo spiega i miglioramenti ai conti di contabilità generale e alle registrazioni COGE per la Svizzera.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11500
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: cabc3e856769b2641201290576b7001c21705492
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 2d9f77f0b3ed6659df693df59617d3c4c20fe865
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947088"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136614"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Conti di contabilità generale per la Svizzera
 [!INCLUDE[prod_short](../../includes/prod_short.md)] include i miglioramenti svizzeri per i conti C/G.

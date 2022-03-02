@@ -2,7 +2,6 @@
 title: IVA svizzera [CH]
 description: Questo articolo spiega diversi miglioramenti apportati alle funzionalità di dichiarazione IVA svizzera.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b8ebca2f78a70b1cceab1825bfa1d54fd91628ed
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 67352d0f06215f96ca6944f486408cd99f0ed8d9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319296"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141777"
 ---
 # <a name="swiss-value-added-tax"></a>IVA svizzera
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includono i seguenti miglioramenti alla dichiarazione IVA svizzera:  
