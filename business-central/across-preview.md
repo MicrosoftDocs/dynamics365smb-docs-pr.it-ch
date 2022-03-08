@@ -2,18 +2,18 @@
 title: Versioni di valutazione e sottoscrizioni
 description: Informazioni su come ottenere una versione di valutazione di Business Central, utilizzare ambienti sandbox e iscriversi per una sottoscrizione.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.search.form: 1803, 1801
-ms.date: 02/18/2022
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335545"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589325"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -37,7 +37,7 @@ Se decidi di non usare [!INCLUDE [prod_short](includes/prod_short.md)], puoi far
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Aggiungere i propri dati a un'azienda di prova vuota
 
-Se vuoi provare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati, puoi passare a una prova gratuita di 30 giorni con una società vuota. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Il partner può anche aiutarti a migrare i tuoi dati in [!INCLUDE [prod_short](includes/prod_short.md)] online.  
+Se vuoi provare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati, puoi passare a una prova gratuita di 30 giorni con una società vuota. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Se 30 giorni non sono sufficienti per decidere, è possibile prolungare il periodo di valutazione. Per ulteriori informazioni, vedere [Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?](admin-extend-trial.md).  
 
@@ -104,7 +104,6 @@ L'amministratore del tuo [!INCLUDE[prod_short](includes/prod_short.md)] e il tuo
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.yml)  
 [Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner)  
-[Migrazione dei dati](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Scegliere l'ambiente sandbox di sviluppo di Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Disponibilità nazionale/regionale e traduzioni supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Estensione delle prove (come amministratore)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

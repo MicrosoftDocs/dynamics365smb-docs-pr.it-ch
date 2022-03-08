@@ -1,24 +1,26 @@
 ---
-title: Utilizzo di funzionalità generali tra le aree aziendali
+title: Utilizzo di funzionalità generali tra le aree aziendali | Documenti Microsoft
 description: Informazioni sulle funzionalità comuni alle aree aziendali in Business Central.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: c078195f25d28b517a25b23cbb22c78bfb4e9ec4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322869"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192093"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
-[!INCLUDE[prod_short](includes/prod_short.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
 
 Per supportare questi task specifici del settore commerciale, è possibile utilizzare un'ampia gamma di funzionalità generali commerciali, ad esempio la definizione del testo esteso per le righe del documento e l'organizzazione del collegamento dei task aziendali nei workflow.
 
@@ -48,10 +50,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Impostare le definizioni di scambio dati per inviare e ricevere i documenti elettronici. |[Scambio di dati in modalità elettronica](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Vedi anche
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Amministrazione](admin-setup-and-administration.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

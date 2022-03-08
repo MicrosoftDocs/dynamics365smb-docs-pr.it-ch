@@ -1,28 +1,28 @@
 ---
-title: Creare e stampare una dichiarazione IVA svizzera [CH]
-description: Questo argomento spiega come creare e stampare una dichiarazione IVA svizzera in base alle informazioni specificate nella pagina Setup registrazioni IVA.
+title: Come creare e stampare una dichiarazione IVA svizzera
+description: In base alle informazioni specificate nella pagina Setup registrazioni IVA, Business Central può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 11023, 11024
-ms.date: 06/25/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c00157642f2f6ab0d6dc8d769a540536350b6e87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f172628db69a761105339deed2a66abfe5bc98fb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146000"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784859"
 ---
-# <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Creare e stampare una dichiarazione IVA svizzera nella versione per la Svizzera
-In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, [!INCLUDE[prod_short](../../includes/prod_short.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
+# <a name="create-and-print-a-swiss-vat-statement"></a>Creare e stampare una dichiarazione IVA svizzera
+In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
 
 ## <a name="to-set-up-a-swiss-vat-statement-template"></a>Per impostare un modello di dichiarazione IVA svizzera  
 
-1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Aggiorna definizione dichiarazione IVA**, quindi selezionare il collegamento correlato.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Aggiorna definizione dichiarazione IVA** e quindi scegliere il collegamento correlato.  
 2.  Selezionare una definizione nel campo **Nome definizione dichiarazione IVA**.
 3.  Scegliere il pulsante **OK**. Selezionare il pulsante **Sì** per confermare che si desidera creare una nuova definizione.  
 4.  Verificare la dichiarazione IVA risultante e modificarla in base alle esigenze.  
@@ -31,7 +31,7 @@ In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, 
 
 ## <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera  
 
-1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Dichiarazione IVA svizzera**, quindi selezionare il collegamento correlato.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dichiarazione IVA per la Svizzera** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
     |Campo|Descrizione|  
@@ -51,6 +51,3 @@ In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, 
 
 ## <a name="see-also"></a>Vedere anche  
  [IVA svizzera](swiss-value-added-tax.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

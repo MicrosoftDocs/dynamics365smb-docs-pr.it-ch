@@ -1,21 +1,21 @@
 ---
-title: Pulisci i dati con i criteri di conservazione
+title: Pulizia dei dati con criteri di conservazione | Microsoft Docs
 description: È possibile specificare la frequenza con cui si desidera eliminare determinati tipi di dati.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.search.form: 3903, 3901
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132203"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754060"
 ---
 # <a name="define-retention-policies"></a>Definire i criteri di conservazione
 Gli amministratori possono definire i criteri di conservazione per specificare la frequenza con cui desiderano che [!INCLUDE[prod_short](includes/prod_short.md)] elimini i dati obsoleti nelle tabelle che contengono voci di log e record archiviati. Ad esempio, la pulizia delle voci di log può semplificare il lavoro con i dati effettivamente rilevanti. I criteri possono includere tutti i dati nelle tabelle che hanno superato la data di scadenza oppure è possibile aggiungere criteri di filtro che includeranno solo determinati dati scaduti nel criterio. 
@@ -40,7 +40,7 @@ I periodi di conservazione possono essere lunghi o brevi come si desidera. Per c
 > Per motivi di conformità, è stato definito un periodo di conservazione minimo per alcune tabelle. Se si imposta un periodo di conservazione inferiore al minimo richiesto, un messaggio visualizzerà il periodo obbligatorio.
 
 ### <a name="set-up-a-retention-policy"></a>Impostare i criteri di conservazione
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Criteri di conservazione**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Criteri di conservazione** e quindi scegliere il collegamento correlato.
 2. Nel campo **ID tabella**, scegliere la tabella che si desidera includere nel criterio.
 3. Nel campo **Periodo di conservazione** specificare il periodo di tempo per il quale conservare i dati nella tabella.
 4. Facoltativo: per applicare il criterio a dati specifici in una tabella, disattivare il pulsante Applica a tutti i record. Verrà visualizzata la Scheda dettaglio Criteri di conservazione dei record, in cui è possibile impostare i filtri per creare sottoinsiemi di dati per ciascuna riga. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#filtering).
@@ -67,7 +67,7 @@ Quando uno sviluppatore aggiunge una tabella, può specificare filtri obbligator
 
 Di seguito sono riportati esempi di come aggiungere una tabella all'elenco di tabelle consentite con e senza filtri obbligatori o predefiniti. Per un esempio più complesso, vedere codeunit 3999 "Reten. Pol. Install - BaseApp". 
 
-```al
+```
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Di seguito sono riportati esempi di come aggiungere una tabella all'elenco di ta
 
 L'esempio seguente include un filtro obbligatorio.
 
-```al
+```
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,15 +98,10 @@ L'esempio seguente include un filtro obbligatorio.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
-
 Dopo che uno sviluppatore ha aggiunto le tabelle all'elenco, un amministratore può includerle in un criterio di conservazione. 
 
 ## <a name="see-also"></a>Vedere anche
-
-[Analisi della telemetria della traccia dei criteri di conservazione](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Revisione delle modifiche in Business Central](across-log-changes.md)  
 [Filtri](ui-enter-criteria-filters.md#filtering)  
 [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

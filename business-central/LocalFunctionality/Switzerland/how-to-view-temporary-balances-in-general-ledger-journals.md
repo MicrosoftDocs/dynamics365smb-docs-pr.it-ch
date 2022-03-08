@@ -1,40 +1,40 @@
 ---
-title: Visualizzazione di saldi temporanei nelle registrazioni di contabilità generale [CH]
-description: È possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni di una nuova transazione nelle registrazioni COGE.
+title: Come visualizzare i saldi temporanei nelle registrazioni di contabilità generale
+description: Quando si immette una nuova transazione nelle registrazioni COGE, è possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni. È possibile visualizzare i dettagli del saldo del conto e del conto di contropartita per la riga delle registrazioni attiva. È inoltre possibile visualizzare i valori non registrati per le registrazioni correnti.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 11500
-ms.date: 06/21/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 335ecbc8976e620c7953f87cb5daf8a10e90002e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8bf1a1cbfacc682c91d220b8ed9b16f93f3cf611
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144124"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382011"
 ---
-# <a name="view-temporary-balances-in-general-ledger-journals-in-the-swiss-version"></a>Visualizzare i saldi temporanei nelle registrazioni di contabilità generale nella versione per la Svizzera
-
+# <a name="view-temporary-balances-in-general-ledger-journals"></a>Visualizzare i saldi temporanei nelle registrazioni di contabilità generale
 Quando si immette una nuova transazione nelle registrazioni COGE, è possibile visualizzare i saldi temporanei che indicano come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni. È possibile visualizzare i dettagli del saldo del conto e del conto di contropartita per la riga delle registrazioni attiva. È inoltre possibile visualizzare i valori non registrati per le registrazioni correnti.  
 
 Se nei conti di contabilità generale viene usata valuta estera, viene in tali conto viene popolato anche il campo relativo al saldo. In questo modo è possibile analizzare i movimenti che verranno registrati e decidere quali registrare. Per ulteriori informazioni, vedere la pagina **Registrazioni COGE** e la tabella **Righe registrazioni COGE**.  
 
 ## <a name="to-view-temporary-balances-in-general-ledger-journals"></a>Per visualizzare i saldi temporanei nelle registrazioni di contabilità generale  
 
-1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Registrazioni COGE**, quindi selezionare il collegamento correlato.  
-2. Selezionare la scrittura contabile richiesta, quindi scegliere l'azione **Saldo**.  
+1.  Scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.  
+2.  Selezionare la scrittura contabile richiesta, quindi scegliere l'azione **Saldo**.  
 
     Nella pagina **Visualizza - Saldo temporaneo conti di contabilità generale**, nella Scheda dettaglio **Generale** è possibile visualizzare come i saldi dei conti di contabilità generale saranno interessati dalle registrazioni.  
 
-3. Selezionare il pulsante **Chiudi**.  
+3.  Selezionare il pulsante **Chiudi**.  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche  
+ [Conti di contabilità generale per la Svizzera](swiss-general-ledger-accounts.md)
 
-[Conti di contabilità generale per la Svizzera](swiss-general-ledger-accounts.md)
-[Saldi di contabilità generale nella versione per la Svizzera](balance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: Elaborare gli ordini di restituzione delle vendite
 description: Descrive come creare un ordine di restituzione delle vendite per elaborare una restituzione, una cancellazione o un rimborso per articoli o servizi per i quali si è ricevuto il pagamento.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return, order
-ms.search.form: 44, 134, 144, 9302
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8a82b9116984f8b824375238fd1e6e4eb73930a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7e2dbaa1bce2c698191e866e20cca2102d53d26c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137073"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589761"
 ---
 # <a name="process-sales-return-orders"></a>Elaborare gli ordini di restituzione delle vendite  
 

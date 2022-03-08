@@ -1,21 +1,21 @@
 ---
 title: Funzionalità di accessibilità
-description: Questo articolo fornisce informazioni sui tasti di scelta rapida e altre funzionalità di assistenza in Business Central per le persone con disabilità.
+description: Tasti di scelta rapida e altre funzionalità di accessibilità.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/23/2021
+ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: 6389387e2b2e9dcaa2d709e7e376f38a3dd8e1a9
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334583"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961570"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accessibilità e tasti di scelta rapida
 
@@ -85,6 +85,6 @@ Le descrizioni comando sono disponibili sulla maggior parte degli elementi dell'
 
 [Preparazione al business](ui-get-ready-business.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Domande frequenti](across-faq.yml)  
+[Domande frequenti](across-faq.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

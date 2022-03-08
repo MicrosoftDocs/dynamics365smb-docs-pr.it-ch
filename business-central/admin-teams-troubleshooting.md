@@ -2,19 +2,20 @@
 title: Risoluzione dei problemi relativi all'integrazione di Microsoft Teams
 description: Scopri cosa puoi fare in veste di amministratore per controllare l'integrazione di Microsoft Teams.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 10/01/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147026"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882197"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Risoluzione dei problemi relativi all'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -41,9 +42,9 @@ Dopo aver modificato la società nella pagina **Impostazioni**, potresti notare 
 
 È possibile che si verifichi questo errore quando si esegue una ricerca in una società che non è stata inizializzata o che non risponde. Ad esempio, non puoi cercare in una nuova società di prova che non ha ancora accettato i termini di utilizzo. Per risolvere questo problema, prova ad accedere al client Web di [!INCLUDE [prod_short.md](includes/prod_short.md)] e agisci o chiudi le finestre di dialogo iniziali visualizzate.
 
-## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Errore "Impossibile trovare l'API di contatto/riepilogo contatto" durante la ricerca dei contatti
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Errore "L'API dei contatti non è stata trovata" durante la ricerca dei contatti
 
-Questo problema può essere causato da personalizzazioni o soluzioni di settore che influiscono o modificano [!INCLUDE [prod_short.md](includes/prod_short.md)] oppure non forniscono un'API di contatto o di riepilogo dei contatti. Se il problema persiste, contatta l'amministratore o il partner di supporto.
+Questo problema potrebbe essere dovuto a personalizzazioni o soluzioni di settore che influiscono, modificano o non forniscono un'API di contatto in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Se il problema persiste, contatta l'amministratore o il partner di supporto.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Nessuno dei miei collegamenti si espande in una scheda 
 
@@ -148,22 +149,12 @@ In qualità di amministratore, con autorizzazioni di amministratore di Azure Act
 > [!NOTE]
 > Ci vorrà del tempo prima che questa modifica abbia effetto.
 
-## <a name="duplicate-text-in-the-share-to-teams-window"></a>Duplicare il testo nella finestra Condividi in Teams
-
-Quando incolli del testo nella casella del messaggio nella finestra **Condividi in Teams**, il testo viene duplicato. Questo problema è noto a Microsoft e sarà affrontato in un aggiornamento successivo. 
-
-## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Impossibile accedere alla finestra Condividi in Teams 
-
-Questo problema può essere causato da varie ragioni. Ad esempio, l'identità che stai usando per accedere deve avere accesso a Microsoft Teams, come attraverso un abbonamento a Microsoft 365.
 
 ## <a name="see-also"></a>Vedere anche
 
-[[!INCLUDE [prod_short](includes/prod_short.md)] e Panoramica sull’integrazione di Microsoft Teams](across-teams-overview.md)  
-[Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
-[Ricerca di clienti, fornitori e altri contatti da Microsoft Teams](across-search-contacts-teams.md)  
-[Condividere i record in Microsoft Teams](across-working-with-teams.md)  
+[Panoramica dell'integrazione di [!INCLUDE [prod_short](includes/prod_short.md)] e Microsoft Teams](across-teams-overview.md)  
+[Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
 [Domande frequenti su Teams](teams-faq.md)  
-[Modifica della società e di altre impostazioni in Teams](across-teams-settings.md)  
 [Sviluppo per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

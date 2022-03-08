@@ -1,20 +1,21 @@
 ---
-title: Utilizzo di periodi contabili e anni fiscali
+title: Utilizzare periodi contabili e anni fiscali | Microsoft Docs
 description: Informazioni su come utilizzare periodi contabili per stabilire quando la società genera report sulle prestazioni finanziarie.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 100
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8d7927c8adcf19fae55af48ea699ea9b852d6974
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b9c6015f1fb3acded65a1de881af1b89db1b034
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136184"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389092"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Utilizzo di periodi contabili e anni fiscali
 
@@ -34,7 +35,7 @@ Per molte società l'anno fiscale non coincide con l'anno di calendario. Ad esem
 
 Utilizzare il processo batch **Crea anno fiscale** per dividere un anno fiscale in periodi di uguale durata.  
 
-1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Periodi contabili**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Periodi contabili** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Crea anno nuovo**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Nel campo **Data inizio**, immettere la data di inizio dell'anno fiscale.  
 4. Nel campo **Nr. di periodi**, immettere il numero di periodi contabili in cui dividere l'anno fiscale. È possibile avere fino a 365 periodi in un anno.  
@@ -45,7 +46,7 @@ Utilizzare il processo batch **Crea anno fiscale** per dividere un anno fiscale 
 
 Se i periodi contabili nell'anno fiscale hanno durate differenti, come il calendario 4-4-5 utilizzato negli Stati Uniti nel settore del commercio al dettaglio, è possibile impostarli manualmente.  
   
-1. Scegli l'icona ![Cerca pagina o report.](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Periodi contabili**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Periodi contabili** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Data inizio**, immettere la data di inizio dell'anno fiscale. Nel campo **Nome** viene visualizzato il nome del mese.  
 3. Scegliere la casella di controllo **Nuovo anno fiscale** per indicare che si tratta del primo periodo dell'anno. [!INCLUDE[prod_short](includes/prod_short.md)] utilizzerà questo periodo per determinare i periodi da chiudere a fine anno.
 4. Ripetere i passaggi 2 e 3 per ogni altro periodo.  
@@ -57,7 +58,7 @@ La chiusura di un anno fiscale è una delle attività di chiusura dei libri. Dop
 > [!NOTE]  
 > È sempre necessario avere almeno un anno fiscale aperto. Quando si chiude un anno, verificare di aver creato un nuovo anno. Da notare inoltre che dopo aver chiuso un anno, non è possibile modificare la data iniziale di quello successivo.
 
-1. Scegli l'icona ![Cerca pagina o report.](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Periodi contabili**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Periodi contabili** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Chiudi anno**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Registrazione di movimenti in un anno fiscale chiuso

@@ -1,32 +1,28 @@
 ---
-title: Estensione migrazione Cloud base
-description: Utilizzare l'estensione Cloud base per connettere la soluzione locale a Business Central Online.
+title: Estensione Cloud intelligente base | Microsoft Docs
+description: Utilizzare l'estensione Cloud intelligente per creare una copia nel cloud dei dati per connettersi a Cloud intelligente.
 author: edupont04
 manager: edupont
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2021
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8999ad14b3937ddcbc0f0935338173a35f698b30
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9139855aa90aa0505f8735660d233475cc42bf91
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136813"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250229"
 ---
-# <a name="cloud-migration-base-extension"></a>Estensione migrazione Cloud base
+# <a name="intelligent-cloud-base-extension"></a>Estensione Cloud intelligente base
 
-Questa estensione ti guiderà attraverso il processo per configurare una connessione tra la tua soluzione locale e il tuo ambiente [!INCLUDE [prod_short](includes/prod_short.md)] Online quando si avvia la migrazione al cloud.  
+Questa estensione guiderà nel processo per configurare e gestire l'ambiente Cloud intelligente. Una volta configurato l'ambiente Cloud intelligente, sarà possibile gestire le repliche dei dati dalla soluzione locale al tenant cloud di [!INCLUDE[prodshort](includes/prodshort.md)]. L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale. Per ulteriori informazioni, vedere [Accesso a Cloud intelligente](about-intelligent-cloud.md).  
 
-Una volta configurata la connessione, puoi migrare i dati dalla tua soluzione locale su [!INCLUDE[prod_short](includes/prod_short.md)] Online. L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale. Per ulteriori informazioni, vedere [Esecuzione dello strumento di migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
+## <a name="see-also"></a>Vedi anche
 
-## <a name="see-also"></a>Vedere anche
-
-[Esecuzione dello strumento di migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
-[Estensioni cloud intelligente per la migrazione al cloud](ui-extensions-data-replication.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Accesso a Cloud intelligente](about-intelligent-cloud.md)  
+[Estensione Cloud intelligente di Business Central](ui-extensions-data-replication.md)  

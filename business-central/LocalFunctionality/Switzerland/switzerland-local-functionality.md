@@ -1,25 +1,24 @@
 ---
 title: Funzionalità locale per la Svizzera
-description: Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di Business Central.
+description: Negli argomenti indicati di seguito viene descritta la funzionalità locale nella versione svizzera di Business Central.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
-ms.date: 06/21/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 9c3765e5087caa1af7f482e10d7712e160fe2f4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 84d3f21bc1300059ae95a4edfb5ad6807dac6cf0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136604"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189059"
 ---
 # <a name="switzerland-local-functionality"></a>Funzionalità locale per la Svizzera
-
-Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilità della funzionalità
 
@@ -69,11 +68,6 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Documenti di acquisto e ordini di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md) **Disponibile ora**
 
 ## <a name="see-also"></a>Vedere anche
+[Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
-[Utilizzo di [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Disponibilità per paese/area geografica e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
-
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

@@ -2,15 +2,16 @@
 title: Avvisi e messaggi di errore
 description: Informazioni su come risolvere i problemi e trovare soluzioni ai messaggi di errore quando si utilizza Business Central.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137645"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779500"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Avvisi e messaggi di errore in Dynamics 365 Business Central
 
@@ -35,9 +36,9 @@ Se si è amministratore o superutente, è possibile aiutare gli altri cercando i
 ## <a name="see-also"></a>Vedere anche
 
 [Risorse per Guida e supporto](product-help-and-support.md)  
-[Domande frequenti](across-faq.yml)  
+[Domande frequenti](across-faq.md)  
 [Domande frequenti relative alla funzionalità delle informazioni](ui-search-faq.md)  
-[Domande frequenti su ricerca e filtro](ui-search-filter-faq.yml)  
+[Domande frequenti su ricerca e filtro](ui-search-filter-faq.md)  
 [Domande frequenti sulla funzionalità di copia e incolla](faq-copy-paste.yml)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Preparazione al business](ui-get-ready-business.md)  

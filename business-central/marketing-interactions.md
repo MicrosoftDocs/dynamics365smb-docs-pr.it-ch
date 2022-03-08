@@ -1,22 +1,23 @@
 ---
-title: Gestire le interazioni con i contatti
+title: Gestire le interazioni con i contatti| Documenti Microsoft
 description: È possibile gestire tutti i tipi di comunicazioni o interazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via lettera, fax, e-mail, telefono, riunioni e così via.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 156e36af1110bcf153ed00b16eb041f28a5c3168
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131397"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308974"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrare interazioni con i contatti
 L'impostazione dell'applicazione per registrare le interazioni consiste in queste attività:
@@ -49,12 +50,9 @@ In questa pagina è possibile:
 * Visualizzare lo stato delle interazioni.
 * Contrassegnare le interazioni come annullate.
 
-È possibile eliminare i movimenti log interazione che sono stati annullati. Per eliminare i movimenti log interazione, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina movimenti log interazione annullati**, quindi scegli il collegamento correlato e compila le informazioni.
+È possibile eliminare i movimenti log interazione che sono stati annullati. Per eliminare i movimenti log interazione, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina movimenti log interazione annullati** quindi selezionare il collegamento correlato e immettere le informazioni.
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione dei contatti](marketing-contacts.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

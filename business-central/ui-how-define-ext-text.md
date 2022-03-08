@@ -1,20 +1,20 @@
 ---
-title: Aggiungere testo esteso
+title: Aggiungere righe ulteriori per definire descrizioni estese
 description: È possibile aggiungere righe supplementari per estendere il testo standard che descrive un articolo, un conto C/G e altri dati.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 391, 30
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 25c0701151e3250adb62f781f83e8483178f73e5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1dd6c3085c0cb8696b6e7011fbea3c3cd9a1c86e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138302"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920465"
 ---
 # <a name="add-extended-text"></a>Aggiungere testo esteso
 
@@ -43,7 +43,4 @@ La sezione seguente descrive come aggiungere testo esteso a una descrizione di u
 ## <a name="see-also"></a>Vedi anche
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

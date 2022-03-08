@@ -1,20 +1,20 @@
 ---
-title: Utilizzare le notifiche smart e specificare quando visualizzarle
+title: Utilizzare le notifiche smart e specificare quando visualizzarle | Documenti Microsoft
 description: È possibile ricevere notifiche con informazioni sulle modifiche di stato o di eventi, ad esempio, per un saldo scaduto o un magazzino in esaurimento.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
-ms.openlocfilehash: 53a1852ca3c957b4b2cf0a2c23652b616bd383cb
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334641"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783177"
 ---
 # <a name="manage-notifications"></a>Gestire le notifiche
 
@@ -32,7 +32,7 @@ Inoltre, in alcune notifiche è possibile specificare le condizioni per l'invio.
 
 L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizioni si applicano solo al cliente.  
 
-1. Nell'angolo superiore destro scegli l'icona **Impostazioni** ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegli l'azione **Impostazioni personali**.  
+1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegliere l'azione **Impostazioni personali**.  
 2. Nella pagina **Impostazioni personali**, nel campo **Notifiche**, scegliere il collegamento *Modificare il momento in cui ricevere le notifiche* .  
 3. Nella pagina visualizzata, attivare o disattivare una notifica selezionando o deselezionando la casella di controllo **Abilitato**.  
 4. Per specificare le condizioni che danno origine a una notifica, selezionare il collegamento **Visualizza dettagli filtro** e compilare i campi.  

@@ -1,23 +1,26 @@
 ---
-title: Gestione del magazzino per la Svizzera [CH]
-description: Questo articolo descrive i miglioramenti per la Svizzera alle funzioni speciali di gestione dell'inventario in Business Central.
+title: Gestione del magazzino per la Svizzera
+description: I miglioramenti svizzeri includono funzioni speciali di gestione magazzino.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 09f4a1b5afb326beb0b8f264b487f84b2c53b1ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 697e9501ba09daf63eecc2e17f7695f757bafb5a
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136610"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245630"
 ---
 # <a name="swiss-inventory-management"></a>Gestione del magazzino per la Svizzera
-[!INCLUDE[prod_short](../../includes/prod_short.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] include i miglioramenti svizzeri per la gestione magazzino. È incluso quanto segue:  
 
 - Dichiarazione dettagliata.  Per ulteriori informazioni vedere il report Magazzino - Statistiche di vendita e il report Magazzino - Lista.  
 - La capacità di monitorare una fattura con più spedizioni.  
@@ -31,9 +34,7 @@ Ulteriori informazioni, come il numero cliente, il codice dell'indirizzo di sped
 ## <a name="invoices-with-multiple-shipments"></a>Fatture con più spedizioni  
 Se sono state registrate più spedizioni per un cliente, è possibile creare una fattura combinata con la funzione **Prendi righe di spedizione**. Per ulteriori informazioni, vedere la pagina Prendi righe di spedizione. Quando si utilizza questa funzione, il testo creato nelle righe della fattura include informazioni sul numero di spedizione e sulla data di spedizione. Ad esempio, il testo potrebbe essere Nr. spedizione 102040 di 25.01.01. Ciò consente di tracciare facilmente le fatture con più spedizioni.  
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedi anche  
+ [Copiare articoli esistenti in nuovi articoli](how-to-copy-existing-items-to-new-items.md)  
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
  [Impostare le ubicazioni](../../inventory-how-setup-locations.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

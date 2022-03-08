@@ -1,23 +1,24 @@
 ---
 title: Documenti di acquisto e di vendita per la Svizzera
-description: Questo articolo descrive i miglioramenti apportati alla versione svizzera di Business Central, comprese le funzionalità speciali del documento di acquisto e del documento di vendita svizzero.
+description: I miglioramenti svizzeri includono funzioni speciali di documento di vendita e di acquisto.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
+ms.date: 04/30/2020
 ms.author: edupont
-ms.openlocfilehash: 2a0094a9c20d306831bed9e9aefd2d21a0382499
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: aa17f7ec295ba84bc64c06f7476cc462b678ed59
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139991"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778172"
 ---
 # <a name="swiss-purchase-documents-and-sales-documents"></a>Documenti di acquisto e di vendita per la Svizzera
-[!INCLUDE[prod_short](../../includes/prod_short.md)] include miglioramenti svizzeri per documenti di vendita e documenti di acquisto. È incluso quanto segue:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] include miglioramenti svizzeri per documenti di vendita e documenti di acquisto. È incluso quanto segue:  
 
 - Descrizioni di registrazione avanzata per i movimenti di contabilità generale, i movimenti contabili clienti e i movimenti contabili fornitori. Per ulteriori informazioni, vedere la tabella Movimenti C/G, Mov. contabili clienti e Mov. contabili fornitori.  
 - La capacità di avere sottotitoli, subtotali e totali iniziali e finali nelle offerte di vendita e negli ordini di vendita.  
@@ -35,7 +36,7 @@ Gli articoli vengono suddivisi in base ai valori generati dal sistema visualizza
 Specificare un articolo come variante nella riga dell'offerta di vendita. In tal modo è possibile elencare gli articoli alternativi senza includere il prezzo nell'offerta. Inoltre è possibile fare riferimento a parti specifiche di una offerta di vendita o di un ordine di vendita in base al valore visualizzato nel campo **Posizione** della riga dell'offerta di vendita o dell'ordine di vendita. Per ulteriori informazioni, vedere la tabella Righe vendite.  
 
 > [!NOTE]
-> Funzionalità disponibile solo in [!INCLUDE[prod_short](../../includes/prod_short.md)] locale.
+> Funzionalità disponibile solo in [!INCLUDE[prodshort](../../includes/prodshort.md)] locale.
 
 ## <a name="purchase-invoices-and-sales-invoices-with-payment-discounts"></a>Fatture di acquisto e fatture di vendita con sconti di pagamento  
 Per le fatture di acquisto e le fatture di vendita, l'importo della fattura viene ridotto per l'importo dello sconto e quindi arrotondato. Anche il totale della fattura viene arrotondato se c'è uno sconto. Per ulteriori informazioni, vedere la tabella Setup contabilità generale.  
@@ -47,6 +48,3 @@ Nella pagina **Setup contabilità clienti e vendite**, il campo **Spedizione e f
  [Importare codici postali svizzeri](how-to-import-swiss-post-codes.md)   
  [Stampare una lista prelievi magazzino da un ordine di vendita](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

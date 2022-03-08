@@ -1,28 +1,29 @@
 ---
 title: Impostare le procedure ottimali - Metodo di costing
 description: Il Metodo di costing sulla scheda articolo definisce come viene registrato il flusso del costo dell'articolo e se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi.
-author: edupont04
-ms.topic: conceptual
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8eafa5661bd61bc72df55171a2a2a79da045f0e8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b08ebbdd24e821f5ed528d9956f2753c84fbc05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140529"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747861"
 ---
 # <a name="setup-best-practices-costing-method"></a>Impostare le procedure ottimali: metodo di costing
 
 Il **Metodo di costing** sulla scheda articolo definisce come viene registrato il flusso del costo dell'articolo e se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi.  
 
-È importante impostare il metodo di costing corretto in base al tipo di articolo e all'ambiente aziendale per assicurare magazzini economici.  
+ È importante impostare il metodo di costing corretto in base al tipo di articolo e all'ambiente aziendale per assicurare magazzini economici.  
 
-Nella seguente tabella vengono fornite le procedure consigliate sulla modalità di impostazione del campo **Metodo di costing**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).  
+ Nella seguente tabella vengono fornite le procedure consigliate sulla modalità di impostazione del campo **Metodo di costing**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).  
 
 |Opzione di setup|Procedura consigliata|Commento|  
 |------------------|-------------------|-------------|  
@@ -32,12 +33,8 @@ Nella seguente tabella vengono fornite le procedure consigliate sulla modalità 
 |Specifico|Utilizzare nella produzione o nel commercio di articoli facilmente identificabili a costi unitari abbastanza elevati.<br /><br /> Utilizzare gli articoli che sono soggetti a regolazione.<br /><br /> Utilizzare per articoli con numeri di serie.|Il costo unitario di un articolo è il costo esatto con la particolare unità è stata ricevuta.|
 |Standard|Utilizzare quando il controllo costi è fondamentale.<br /><br /> Utilizzare nella produzione ripetitiva per stimare i costi di materiale diretto, di manodopera diretta e i costi generali di produzione.<br /><br /> Utilizzare quando esiste una disciplina e del personale per gestire gli standard.|Il costo unitario di un articolo è prestabilito in base a una stima.<br /><br /> Quando il costo effettivo viene realizzato successivamente, il costo standard deve essere rettificato con il costo effettivo tramite i valori di scostamento.|  
 
-## <a name="see-also"></a>Vedi anche
-
-[Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
-[Dettagli di progettazione: determinazione dei costi di inventario](design-details-inventory-costing.md)  
-[Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Vedi anche  
+ [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)   
+ [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
+ [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
