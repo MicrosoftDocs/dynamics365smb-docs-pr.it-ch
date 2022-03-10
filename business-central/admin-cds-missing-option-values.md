@@ -1,22 +1,21 @@
 ---
 title: Gestione dei valori delle opzioni mancanti
-description: Scopri come impedire la mancata sincronizzazione completa poiché le opzioni differiscono nei campi mappati.
+description: Scopri come impedire la mancata sincronizzazione completa poiché le opzioni differiscono nei campi mappati. Questo processo richiede l'aiuto di uno sviluppatore.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.date: 06/14/2021
+ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493029"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133984"
 ---
 # <a name="handling-missing-option-values"></a>Gestione dei valori delle opzioni mancanti
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Questo argomento è destinato a utenti esperti. I processi descritti richiedono l'aiuto di uno sviluppatore.
 

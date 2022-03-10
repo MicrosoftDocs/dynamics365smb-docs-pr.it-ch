@@ -1,51 +1,37 @@
 ---
-title: "Ricerca per categorie: video sull'utilizzo di Business Central | Documenti Microsoft"
-description: Consente di accedere a video introduttivi che illustrano come eseguire le attività comuni.
-services: project-madeira
-documentationcenter: ''
+title: Visitare la videoteca
+description: Visita la nostra videoteca per ricevere assistenza tramite i video introduttivi che illustrano le attività di "procedura" comuni nei video sui prodotti in oggetto.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 10/01/2019
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7786dab73b28a0107aac746f8029207592e6b78b
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304750"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323258"
 ---
 # <a name="visit-our-video-library"></a>Visitare la videoteca
-La videoteca con video sulle procedure è in fase di aggiornamento. Una conseguenza dei recenti miglioramenti in [!INCLUDE[d365fin](includes/d365fin_md.md)] è la necessità di aggiornare il contenuto affinché rifletta in modo accurato il prodotto.
 
-Nell'attesa, vengono forniti tre video con informazioni utili su come iniziare a utilizzare il prodotto.
+Alcune persone preferiscono guardare contenuti anziché leggere. Per questo motivo è in corso la produzione di brevi video di facile comprensione, che possono essere utilizzati in modo autonomo o come integrazione al servizio di assistenza fornito all'utente.  
 
-|Titolo|Description|
-|----|----|
-|Introduzione|Organizzazione delle funzionalità del prodotto e come ottenere vari tipi di attività e informazioni.|
-|Inizia|Comprendere le prime fasi chiave quando si prova [!INCLUDE[d365fin](includes/d365fin_md.md)] o si è appena acquistato il prodotto. |
-|Ottenere assistenza|Dove ottenere le risposte a vari tipi di domande.|
+Se non si ha familiarità con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile guardare i video introduttivi dalla pagina di benvenuto visualizzata. Se si sta già utilizzando [!INCLUDE[prod_short](includes/prod_short.md)], è possibile accedere alla libreria da Gestioni ruolo utente **Manager aziendale** e **Contabile** scegliendo il riquadro **Video dei prodotti**.  
 
-È possibile accedere ai video in diversi modi. Quando si esegue [!INCLUDE[d365fin](includes/d365fin_md.md)] per la prima volta, è possibile riprodurre i video dalla pagina di benvenuto visualizzata. Se si sta già utilizzando [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile accedere alla libreria da Gestioni ruolo utente **Manager aziendale** e **Contabile** scegliendo il riquadro **Video dei prodotti**.
+È anche possibile visualizzare i video delle procedure e molti altri contenuti nella playlist YouTube creata per [!INCLUDE[prod_short](includes/prod_short.md)]. Per guardare subito i video, [fare clic qui](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > I video nella libreria vengono visualizzati in una cornice che potrebbe sembrare un po' piccola. Per ingrandire la cornice, scegli l'icona a forma di freccia a due punte nell'angolo superiore destro. In seguito, i video verranno visualizzati nella cornice più grande finché non la cornice non verrà di nuovo ridotta.
 
-È anche possibile visualizzare i video delle procedure e molti altri contenuti nel canale YouTube creato per [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per visitare subito il canale, [fare clic qui](https://go.microsoft.com/fwlink/?linkid=851533).
+## <a name="see-also"></a>Vedere anche
 
-## <a name="content-that-is-coming-soon"></a>Contenuto disponibile a breve
-Solo per menzionare alcuni esempi, i video in fase di aggiornamento mostreranno come effettuare le seguenti operazioni:  
+[Preparazione al business](ui-get-ready-business.md)  
+[Canale Dynamics 365 in YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
 
-* Migrare i dati aziendali da un'altra app finanziaria in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Impostare le dimensioni in modo da poter analizzare e tenere traccia dei vari documenti e entità
-* Connettere [!INCLUDE[d365fin](includes/d365fin_md.md)] a Dynamics 365 Sales
-* Imposta workflow di approvazione  
-* Utilizzare Power BI con [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Impostare messaggi e-mail e inviare documenti direttamente da [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
-## <a name="see-also"></a>Vedi anche
-[Introduzione](product-get-started.md)
+[!INCLUDE[footer-include](includes/footer-banner.md)]

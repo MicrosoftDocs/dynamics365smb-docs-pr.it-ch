@@ -2,26 +2,26 @@
 title: Definire autorizzazioni granulari
 description: Questo argomento descrive come definire autorizzazioni granulari concedendo a determinati utenti l'accesso agli oggetti e assegnando loro set di autorizzazioni.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
+ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547042"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146142"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 
 Il sistema di sicurezza di [!INCLUDE[prod_short](includes/prod_short.md)] sicurezza consente di controllare gli oggetti a cui un utente può accedere all'interno di ciascun database o ambiente. Per ciascun utente è possibile specificare se si desidera consentire di leggere, modificare o inserire dati negli oggetti di database selezionati. Per informazioni dettagliate, vedere [Sicurezza dati ](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in Guida per sviluppatori e professionisti IT per [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Prima di assegnare autorizzazioni a utenti e gruppi di utenti, è necessario definire chi può accedere alle funzionalità specifiche creando utenti in base alla licenza come definito nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
+Prima di assegnare autorizzazioni a utenti e gruppi di utenti, è necessario definire chi può accedere a funzionalità specifiche creando utenti in base alla licenza come definito nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] esistono due livelli di autorizzazioni per gli oggetti di database:
 

@@ -1,30 +1,27 @@
 ---
-title: 'Procedura: Importare codici postali svizzeri'
-description: È possibile importare l'ultimo file di codice postale e utilizzarlo per aggiornare la tabella CAP. Il file di codice postale può essere scaricato dal sito Web dei codici postali svizzeri. Dopo l'importazione del codice postale più recente, è possibile definire i codici postali per i clienti o i fornitori.
-services: project-madeira
-documentationcenter: ''
+title: 'Procedura: Importare codici postali svizzeri [CH]'
+description: È possibile importare l'ultimo file di codice postale svizzero e utilizzarlo per aggiornare la tabella NPA per definire i numeri postali di avviamento per clienti o fornitori.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: d3bd15587c73e88bada510771e82961a791ee584
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 50614decaf1148eeecbdf063c79efcd9c77d24f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241314"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138117"
 ---
-# <a name="import-swiss-post-codes"></a>Importare codici postali svizzeri
+# <a name="import-swiss-post-codes-in-the-swiss-version"></a>Importare i numeri postali di avviamento svizzeri nella versione per la Svizzera
 È possibile importare l'ultimo file di codice postale e utilizzarlo per aggiornare la tabella **CAP**. Il file di codice postale può essere scaricato dal sito Web dei [codici postali svizzeri](https://go.microsoft.com/fwlink/?LinkId=150292). Dopo l'importazione del codice postale più recente, è possibile definire i codici postali per i clienti o i fornitori. Per ulteriori informazioni, vedere [Registrare nuovi fornitori](../../purchasing-how-register-new-vendors.md).  
 
 ## <a name="to-import-post-codes"></a>Per importare i codici postali  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Cerca pagina o report"), immettere **Codici postali** e quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **NPA**, quindi selezionare il collegamento correlato.  
 2.  Selezionare l'azione **Importa codici postali**.  
 3.  Nella pagina **Importa codici postali** nel campo **Nome file** immettere il nome del file di codice postale da importare nella tabella **CAP**.  
 4.  Scegliere il pulsante **OK**.  
@@ -35,7 +32,7 @@ Di seguito viene descritto come definire i codici postali per i clienti, ma gli 
 
 ## <a name="to-define-post-codes-for-customers"></a>Per definire i codici postali per i clienti  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Clienti**, quindi scegliere il collegamento correlato.  
+1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Clienti**, quindi selezionare il collegamento correlato.  
 2.  Selezionare il cliente per cui definire un codice postale, quindi scegliere l'azione **Modifica**.  
 3.  Nella Scheda dettaglio **Generale** della pagina **Scheda cliente**, nel campo **CAP** selezionare il codice postale per l'indirizzo del cliente.  
 
@@ -47,5 +44,7 @@ Di seguito viene descritto come definire i codici postali per i clienti, ma gli 
 ## <a name="see-also"></a>Vedi anche   
  [Documenti di acquisto e di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md)   
  [Stampare una lista prelievi magazzino da un ordine di vendita](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
- [Stampare ordini di vendita e acquisto durante la registrazione batch](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  [Registrare nuovi fornitori](../../purchasing-how-register-new-vendors.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

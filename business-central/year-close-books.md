@@ -1,21 +1,21 @@
 ---
-title: Panoramica delle attività di chiusura dei registri | Documenti Microsoft
+title: Panoramica delle attività di chiusura dei registri
 description: Informazioni sul processo di chiusura dei registri contabili per un anno fiscale o un periodo e su cosa accade dopo la chiusura di un anno.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2020
+m.search.form: 100
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ae841ec6f4b5a511304d792bf90b6bcaec9e1fb2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392192"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142768"
 ---
 # <a name="closing-the-books"></a>Chiusura dei registri
 Dopo avere verificato che tutti i conti sono aggiornati e assegnato costi ed entrate, è possibile chiudere i registri per un anno fiscale o un periodo.

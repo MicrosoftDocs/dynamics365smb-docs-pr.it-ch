@@ -1,25 +1,23 @@
 ---
-title: Pagamenti elettronici svizzeri tramite LSV+
-description: Il metodo di pagamento elettronico svizzero, ovvero Lastschrift Verfahren (LSV+) o addebito diretto, versione migliorata del metodo LSV, consente alle aziende di recuperare i pagamenti direttamente dai conti correnti dei clienti. Per recuperare i pagamenti dei clienti, è necessario inviare un file LSV alla banca, che raccoglierà i pagamenti richiesti nel file.
-services: project-madeira
-documentationcenter: ''
+title: Pagamenti elettronici svizzeri tramite LSV+ [CH]
+description: Il metodo di pagamento elettronico svizzero, ovvero Lastschrift Verfahren (LSV+) o addebito diretto consente alle aziende di recuperare i pagamenti direttamente dai conti correnti dei clienti.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 106bc8eafdc289bc2b242582032d3d14180dfa1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: c89e9f8c0de593407e401e3c6cba83b64f7125b1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240787"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136618"
 ---
-# <a name="swiss-electronic-payments-using-lsv"></a>Pagamenti elettronici svizzeri tramite LSV+
+# <a name="swiss-electronic-payments-using-lsv-in-the-swiss-version"></a>Pagamenti elettronici svizzeri tramite LSV+ nella versione per la Svizzera
 Il metodo di pagamento elettronico svizzero, ovvero Lastschrift Verfahren (LSV+) o addebito diretto, versione migliorata del metodo LSV, consente alle aziende di recuperare i pagamenti direttamente dai conti correnti dei clienti. Per recuperare i pagamenti dei clienti, è necessario inviare un file LSV alla banca, che raccoglierà i pagamenti richiesti nel file.  
 
 Il metodo LSV+ è un principio di addebito diretto con facoltà di opporsi. Il metodo BDD (Business Direct Debit) è invece un sistema di addebito diretto senza facoltà di opporsi. Il formato di file da inviare alla banca è lo stesso per i sistemi LSV+ e BDD.  
@@ -46,3 +44,6 @@ Prima di usare il modulo LSV, è necessario definire le impostazioni nella pagin
  [Pagamenti elettronici svizzeri](swiss-electronic-payments.md)   
  [Pagamenti elettronici svizzeri tramite ESR](swiss-electronic-payments-using-esr.md)   
  [Effettuare i pagamenti](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

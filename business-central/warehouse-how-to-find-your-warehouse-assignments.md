@@ -1,29 +1,26 @@
 ---
-title: 'Procedura: Individuare le assegnazioni della warehouse | Documenti Microsoft'
-description: Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per un articolo selezionato. Se sono state create istruzioni di warehouse, vengono visualizzate le righe Prendere e Mettere e sarà possibile iniziare a svolgere le operazioni necessarie relative a un'assegnazione. In alcune warehouse è possibile che il responsabile abbia assegnato istruzioni specifiche a ciascun addetto.
-services: project-madeira
-documentationcenter: ''
+title: Come individuare le assegnazioni della warehouse
+description: Questo argomento spiega come individuare le assegnazioni della warehouse assegnate all'utente nella pagina Scheda articolo quando sono state create le istruzioni.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f0ad51c742e67ba9be77117ea7538d8f56bb6f4e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248658"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141995"
 ---
 # <a name="find-your-warehouse-assignments"></a>Individuare le assegnazioni della warehouse
 Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per un articolo selezionato. Se sono state create istruzioni di warehouse, vengono visualizzate le righe Prendere e Mettere e sarà possibile iniziare a svolgere le operazioni necessarie relative a un'assegnazione. In alcune warehouse è possibile che il responsabile abbia assegnato istruzioni specifiche a ciascun addetto. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Per individuare un'istruzione assegnata a se stessi  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi warehouse**, **Prelievi warehouse** o **Movimentazione warehouse** e quindi scegliere il collegamento correlato.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi warehouse**, **Prelievi warehouse**, o **Movimentazione warehouse**, quindi seleziona il collegamento correlato.
 
     Tutte e tre le pagina mostrano le assegnazioni per tutte le ubicazioni di warehouse.  
 
@@ -38,4 +35,7 @@ Se il responsabile di warehouse non assegna istruzioni specifiche ai singoli add
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) 
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

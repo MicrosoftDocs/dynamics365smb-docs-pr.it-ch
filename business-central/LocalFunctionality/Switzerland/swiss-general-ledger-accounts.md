@@ -1,21 +1,21 @@
 ---
-title: Conti di contabilità generale per la Svizzera
-description: I miglioramenti svizzeri includono funzioni speciali di conto C/G.
+title: Conti di contabilità generale per la Svizzera [CH]
+description: Questo articolo spiega i miglioramenti ai conti di contabilità generale e alle registrazioni COGE per la Svizzera.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 11500
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 3b6f77b344628dccda66a752573a1a982c45ed7f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2d9f77f0b3ed6659df693df59617d3c4c20fe865
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753167"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136614"
 ---
 # <a name="swiss-general-ledger-accounts"></a>Conti di contabilità generale per la Svizzera
 [!INCLUDE[prod_short](../../includes/prod_short.md)] include i miglioramenti svizzeri per i conti C/G.
@@ -45,3 +45,6 @@ Prima di contabilizzare una registrazione COGE è possibile visualizzare l'antep
 
 [Visualizzare i saldi temporanei nelle registrazioni di contabilità generale](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

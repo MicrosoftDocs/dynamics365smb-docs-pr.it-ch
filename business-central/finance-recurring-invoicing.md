@@ -1,27 +1,27 @@
 ---
-title: Utilizzo del ricavo ricorrente | Microsoft Docs
+title: Utilizzo del ricavo ricorrente
 description: Informazioni sulle opzioni disponibili per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico.
 author: AndreiPanko
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 08/12/2020
+ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693167"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128809"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Utilizzo del ricavo ricorrente in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Utilizzo del ricavo ricorrente in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Molte aziende stanno passando da un modello di ricavo aziendale in cui i ricavi vengono effettuati dall'acquisto singolo di un cliente a un modello di abbonamento in cui i ricavi vengono effettuati su base ricorrente in cambio di un accesso coerente alla consegna di un bene o servizio.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ha le seguenti opzioni per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico. 
+[!INCLUDE[prod_short](includes/prod_short.md)] ha le seguenti opzioni per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrare il ricavo con un giornale generale di registrazione periodica
 
@@ -31,7 +31,7 @@ Una registrazione periodica è una registrazione generale con campi specifici pe
 
 Con questa opzione, è possibile definire periodi di fatturazione flessibili con le [formule della data](ui-enter-date-ranges.md#using-date-formulas).
 
-Tuttavia, con questa opzione, non è possibile stampare e inviare fatture nella versione predefinita di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Tuttavia, con questa opzione, non è possibile stampare e inviare fatture nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Per ulteriori informazioni, vedere [Utilizzo delle registrazioni periodiche](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +57,7 @@ Se è spesso necessario creare righe di vendita e acquisto con informazioni simi
 
 Con questa opzione, è possibile assegnare le stesse righe ricorrenti a più clienti. È possibile definire un periodo di validità per le righe di vendita ricorrenti per un cliente specifico. È possibile assegnare più righe ricorrenti allo stesso cliente e tutte saranno incluse nella fattura.
 
-Tuttavia, non è possibile impostare prezzi fissi per gli articoli perché [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzerà i prezzi effettivi e gli sconti validi alla data del documento, cercando di trovare la migliore combinazione per il prezzo più basso.  
+Tuttavia, non è possibile impostare prezzi fissi per gli articoli perché [!INCLUDE[prod_short](includes/prod_short.md)] utilizzerà i prezzi effettivi e gli sconti validi alla data del documento, cercando di trovare la migliore combinazione per il prezzo più basso.  
 
 Per altre informazioni, vedere [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Tuttavia, questa opzione richiede la licenza Premium. Impostare la gestione del 
 Per ulteriori informazioni, vedere [Utilizzare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md) e [Fatturare diversi contratti di assistenza](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Funzionalità correlate
-Ci sono diverse funzionalità correlate in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Ci sono diverse funzionalità correlate in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Ordini vendita programmati
 
@@ -103,7 +103,7 @@ Con questa opzione, è possibile scegliere tra prezzi fissi e "migliori".
 
 L'opzione è disponibile solo in Norvegia. Il periodo di validità può essere definito a livello di categoria ricorrente.
 
-Per ulteriori informazioni, vedere [Ordini ricorrenti (Norvegia)](/localfunctionality/norway/recurring-orders.md).
+Per ulteriori informazioni, vedere [Ordini ricorrenti](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Ricavo ricorrente e fatturazione in abbonamento da parte di altri fornitori
 
@@ -120,4 +120,7 @@ In [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ott
 [Fatturare più contratti di assistenza](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Previsioni della domanda e ordini programmati](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Utilizzare gli ordini di vendita programmati](sales-how-to-create-blanket-sales-orders.md)  
-[Ordini ricorrenti (Norvegia)](/localfunctionality/norway/recurring-orders.md)  
+[Ordini ricorrenti (Norvegia)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

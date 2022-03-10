@@ -2,7 +2,6 @@
 title: Componente di integrazione Power BI e panoramica dell'architettura per Business Central | Microsoft Docs
 description: Scopri i diversi aspetti dell'integrazione Power BI con Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9ce0b5232a0629bb6248eaaaade69b7c7ebceb02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: b4f48182e6d4356e9621dc5a041945700f5d7599
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012359"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143964"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Componente di integrazione Power BI e panoramica dell'architettura per [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,7 +47,9 @@ Nella seguente tabella vengono illustrate le funzionalità disponibili.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] si integra con Power BI tramite un connettore utilizzando OData. L'origine dati per i report Power BI è esposta come pagine API e servizi web OData.
 
-![Architettura Power BI per l'integrazione con Business Central.](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Testo alternativo immagine." lightbox="./media/power-bi-architecture.png":::
+
+A partire da febbraio 2022, i report Power BI per [!INCLUDE[prod_short](includes/prod_short.md)] online provengono da una replica del database di sola lettura secondaria. La replica del database fa parte della funzionalità [scalabilità orizzontale in lettura](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in [!INCLUDE[prod_short](includes/prod_short.md)] online. Questa configurazione libera il database principale per le transazioni, migliorando le prestazioni del sistema. La connessione alla replica del database di sola lettura è parte integrante del connettore di Business Central online e non richiede alcuna configurazione aggiuntiva da parte dell'utente. Tutti i nuovi report si collegheranno alla replica del database di sola lettura per impostazione predefinita. I vecchi report continueranno a utilizzare il database principale. Per ulteriori informazioni, vedi [Piano del secondo ciclo di rilascio del 2021 di Business Central](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Flusso generale
 

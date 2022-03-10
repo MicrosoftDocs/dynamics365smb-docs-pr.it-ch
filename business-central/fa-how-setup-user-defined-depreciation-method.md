@@ -2,18 +2,17 @@
 title: Impostare un metodo di ammortamento del cespite definito dall'utente
 description: In Business Central, è possibile applicare un metodo di ammortamento definito dall'utente per definire il metodo di ammortamento del cespite nella pagina Scheda cespite.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
-ms.author: a-jillk
-ms.openlocfilehash: 63cfcddf397fce1895fa5ac3a37a66478d7aecac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.author: edupont
+ms.openlocfilehash: 517c3cdb51762c3c0fadcf29ff1ad6dbf949f971
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440617"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145001"
 ---
 # <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Impostare i cespiti con metodi di ammortamento definiti dall'utente
 
@@ -31,7 +30,7 @@ La formula per il calcolo dell'importo di ammortamento è la seguente:
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Per assegnare un registro beni ammortizzabili a un cespite con un metodo di ammortamento definito dall'utente
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.
 2. Selezionare il cespite per il quale si desidera impostare un registro beni ammortizzabili.
 3. Scegli l'azione **Correlato** quindi scegli **Cespite**, poi **Registri beni ammortizzabili**. Questo apre la pagina **Registro beni amm. cespiti**.
 
@@ -46,7 +45,7 @@ La formula per il calcolo dell'importo di ammortamento è la seguente:
 
 La pagina **Tabella ammortamento** consente di impostare metodi di ammortamento personalizzati. Ad esempio, è possibile impostare l'ammortamento in base al numero di unità.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tabelle ammortamento**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tabelle ammortamento**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
 3. Nella pagina **Scheda tabella ammortamento** compila i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

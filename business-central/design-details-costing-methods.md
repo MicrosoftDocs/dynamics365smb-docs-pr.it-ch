@@ -2,20 +2,19 @@
 title: Dettagli di progettazione - Metodi di costing
 description: In questo argomento viene descritto come il metodo di costing determina se i valori effettivi e a budget vengono capitalizzati e utilizzati nel calcolo dei costi.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 42, 43
+ms.search.form: 30, 31, 8645
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 78c69d4849dc7e7687f6bb0cdeb0229baeec1b0c
-ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
+ms.openlocfilehash: 6c52c6399beae37b65627e00a96dfc16e665a4e4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7975010"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139799"
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
 

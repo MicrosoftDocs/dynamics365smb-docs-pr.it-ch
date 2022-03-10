@@ -2,20 +2,19 @@
 title: 'Dettagli di progettazione: Collegamento articoli | Microsoft Docs'
 description: Questo argomento descrive dove vengono registrati la quantità e il valore di magazzino quando si registra una transazione di magazzino.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b0b73731584ee844706180d2127c65369fe74e82
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 581ffdce943844d466adc6320fe32aaaa29138b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380649"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143574"
 ---
 # <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
 

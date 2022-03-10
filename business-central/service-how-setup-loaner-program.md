@@ -2,29 +2,28 @@
 title: 'Procedura: Impostare gli articoli in prestito | Documenti Microsoft'
 description: È possibile impostare degli articoli da prestare ai clienti in sostituzione degli articoli che sono in assistenza.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fdf20f215cee14d8cfb2d4287f8f0a5173ce4466
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 252696484a8c7d90bac90628cf74896240889ba9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195261"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132646"
 ---
 # <a name="set-up-a-loaner-program"></a>Impostazione di un programma di prestito articoli
-Talvolta è necessario fornire a un cliente un articolo in prestito da poter utilizzare quando il personale addetto all'assistenza clienti esegue una riparazione. In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile impostare un programma di prestito articoli, prestare articoli ai clienti e tenere traccia della restituzione degli stessi. Inoltre, è possibile aggiungere commenti relativi agli articoli in prestito in uno dei seguenti due modi:  
+Talvolta è necessario fornire a un cliente un articolo in prestito da poter utilizzare quando il personale addetto all'assistenza clienti esegue una riparazione. In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare un programma di prestito articoli, prestare articoli ai clienti e tenere traccia della restituzione degli stessi. Inoltre, è possibile aggiungere commenti relativi agli articoli in prestito in uno dei seguenti due modi:  
   
 * Immettere una nota o un commento relativo all'articolo in prestito.  
 * Immettere una nota su un articolo in assistenza relativamente all'esigenza di fornire un articolo in prestito.  
 
 ## <a name="to-set-up-a-loaner"></a>Per impostare un articolo in prestito  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in prestito** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in prestito**, quindi scegli il collegamento correlato.  
 2. Creare una nuova scheda articoli in prestito. 
 3. Nel campo **Nr.** inserire un numero per l'articolo in prestito. In alternativa, se è stata impostata una numerazione per gli articoli in prestito nella pagina **Setup gest. assist.**, è possibile premere INVIO per inserire il successivo numero di articolo in prestito disponibile.  
 4. Compilare i campi **Descrizione**, **Descrizione 2** e **Nr. seriale**.  
@@ -35,3 +34,6 @@ Talvolta è necessario fornire a un cliente un articolo in prestito da poter uti
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Fornitura dell'assistenza](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

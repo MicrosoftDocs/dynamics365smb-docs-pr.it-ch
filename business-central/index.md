@@ -2,19 +2,18 @@
 title: Introduzione a Microsoft Dynamics 365 Business Central
 description: Informazioni sulle funzionalità e sugli scenari di lavoro in Business Central che consentono alle società di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e altro ancora.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588219"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138510"
 ---
 # <a name="welcome-to-prod_long"></a>Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -90,12 +89,7 @@ Puoi anche visualizzare video di funzionalità nuove e di uso comune nella nostr
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ricevere una notifica sulle modifiche tramite un feed RSS
 
-Per abbonarsi a un feed RSS (Really Simple Syndication) di tutti gli aggiornamenti relativi al contenuto su docs.microsoft.com del contenuto delle funzionalità aziendali per [!INCLUDE [prod_short](includes/prod_short.md)], utilizza il seguente collegamento:
-
-[Feed RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
-
-> [!NOTE]
-> Il feed RSS restituisce un elenco dei 100 articoli aggiornati più di recente. L'elenco non è ordinato per data.  
+[!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 

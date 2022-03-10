@@ -1,23 +1,20 @@
 ---
 title: Dettagli di progettazione - Tracciabilità e pianificazione degli articoli | Microsoft Docs
 description: Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/20/2019
-ms.author: sgroespe
-ms.openlocfilehash: 062cee5473de267a479bc76e166ed85948544a51
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 82979335348a3a007acb34282495949b52b1c096
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887686"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142411"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Dettagli di progettazione: Tracciabilità articolo e pianificazione
 Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini. Ciò significa che agli articoli con record di tracciabilità ordini possono essere assegnati numeri di tracciabilità articoli. Al contrario, gli articoli con numeri di tracciabilità articolo possono diventare record di tracciabilità ordini. Per altre informazioni, vedere [Dettagli di progettazione - Progettazione tracciabilità articolo](design-details-item-tracking-design.md).
@@ -58,3 +55,6 @@ Per altre informazioni, vedere [Dettagli di progettazione - Bilanciamento della 
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

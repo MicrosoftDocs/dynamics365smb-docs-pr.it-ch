@@ -1,23 +1,22 @@
 ---
 title: Gestire i segmenti e selezionare i contatti
 description: Questo argomento descrive come creare un segmento selezionando un gruppo di contatti in base a criteri specifici per indirizzare successivamente quel segmento con una campagna.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: c107a9ae74343663eea6a97fb0360852b49ecd05
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323611"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130351"
 ---
 # <a name="managing-segments"></a>Gestione dei segmenti
 È possibile creare segmenti per selezionare un gruppo di contatti in base a criteri specifici. Un segmento potrebbe essere ad esempio il settore industriale a cui appartengono i contatti o la propria relazione d'affari con i contatti. È possibile creare un segmento per selezionare i contatti da utilizzare come target di una campagna.

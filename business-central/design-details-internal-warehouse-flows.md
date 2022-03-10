@@ -1,23 +1,20 @@
 ---
-title: 'Dettagli di progettazione: Flussi warehouse interni | Microsoft Docs'
-description: Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine.
-services: project-madeira
-documentationcenter: ''
+title: Dettagli di progettazione - Flussi warehouse interni
+description: Il flusso tra i contenitori è incentrato sul prelievo dei componenti e sullo stoccaggio degli articoli finali per gli ordini di assemblaggio o di produzione e movimenti ad hoc, senza documenti di origine.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: bce55cda1ba5fd5dd89ad75b224651df719d76d5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303478"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136392"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Dettagli di progettazione: Flussi warehouse interni
 Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine. L'ambito e la natura delle attività implicate variano tra la gestione di base e avanzata della warehouse.  
@@ -92,7 +89,7 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 ## <a name="flushing-production-components-in-the-warehouse"></a>Consuntivazione componenti di produzione nel magazzino  
  Se impostati in una scheda articolo, i componenti prelevati con prelievi warehouse vengono registrati come consumati dall'ordine di produzione durante la registrazione del prelievo warehouse. Utilizzando il metodo **Prelievo+Aut.Inizio** e il metodo di flushing **Prelievo+Aut.Fine** la registrazione del prelievo attiva la registrazione del consumo correlata quando inizia la prima operazione o quando termina l'ultima operazione, rispettivamente.  
 
- Considerare il seguente scenario in base all'ubicazione BIANCA del database di esempio di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Considerare il seguente scenario in base all'ubicazione BIANCA del database di esempio di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Esiste un ordine di produzione per 15 PZ dell'articolo LS-100. Alcuni degli articoli nell'elenco dei componenti devono essere consuntivati manualmente in una registrazione di consumo, mentre altri articoli dell'elenco possono essere prelevati e consuntivati automaticamente utilizzando il metodo di consuntivazione **Prelievo+Aut.Fine**.  
 
@@ -116,7 +113,10 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 
  Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione** nell'elenco di componenti viene compilato in base all'ubicazione o all'impostazione area di produzione/centro di lavoro.  
 
- ![Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato](media/binflow.png "Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato")  
+ ![Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.](media/binflow.png "Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato")  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

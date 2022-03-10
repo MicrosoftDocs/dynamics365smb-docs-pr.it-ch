@@ -1,21 +1,20 @@
 ---
-title: Sintesi della riga di registrazione di contabilità generale | Microsoft Docs
-description: In questo argomento vengono presentate le modifiche alla Codeunit 12, **Registrazioni Gen.-Riga di registrazione**, ovvero il principale oggetto applicazione per la registrazione di contabilità generale e la sola area per registrare contabilità generale, IVA e movimenti contabili di clienti e fornitori.
+title: Sintesi della riga di registrazione di contabilità generale
+description: Questo argomento introduce le modifiche a Codeunit 12, Gen. Jnl.-Post Line ed è la sola area in cui inserire i movimenti di contabilità generale, IVA e clienti e fornitori.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2a4d9715f6fdfaef63bf6ac4090bb71d86346e51
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215271"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146714"
 ---
 # <a name="general-journal-post-line-overview"></a>Sintesi della riga di registrazione di contabilità generale
 

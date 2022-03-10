@@ -2,7 +2,6 @@
 title: Sincronizzazione manuale di mapping di tabella | Microsoft Docs
 description: La sincronizzazione copia i dati tra le tabelle di Microsoft Dataverse e Business Central per mantenere aggiornati entrambi i sistemi.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d36032b28790052ad568a91c40d0b6eec7e2bc31
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435540"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149249"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Sincronizzare manualmente i mapping di tabella
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Un mapping di tabella di integrazione associa una tabella [!INCLUDE[prod_short](includes/cds_long_md.md)], come un cliente, a una tabella di [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio un conto. La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record della tabella di [!INCLUDE[prod_short](includes/prod_short.md)] e della tabella di [!INCLUDE[prod_short](includes/cds_long_md.md)] associati. Inoltre, a seconda della configurazione di un mapping di tabella, la sincronizzazione può creare e associare nuovi record nella soluzione di destinazione per i record non associati nell'origine.  
 

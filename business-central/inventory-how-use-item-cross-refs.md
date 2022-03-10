@@ -2,20 +2,20 @@
 title: Utilizzare i riferimenti dell'elemento
 description: Imposta i riferimenti tra le descrizioni, le unità di misura e le varianti che tu e il tuo fornitore o cliente utilizzate per un articolo.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
+ms.search.forms: 5737, 5735, 5736
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 180b07e9970d9387988bae4db7655fca73d5f4fd
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a53ce228f1edc337b8f3fb004984f80f6db5dec8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701509"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135333"
 ---
 # <a name="use-item-references"></a>Utilizzare i riferimenti dell'elemento
 

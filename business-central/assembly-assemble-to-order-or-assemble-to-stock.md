@@ -2,7 +2,6 @@
 title: Assemblaggio su ordine e assemblaggio per magazzino
 description: Gli articoli di assemblaggio possono essere approvvigionati assemblandoli quando vengono ordinati o assemblandoli per essere conservati in magazzino fino a quando non vengono richiesti in un ordine di vendita.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326356"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128974"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
 Gli articoli di assemblaggio possono essere forniti nei seguenti due processi:  
@@ -70,20 +69,29 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 
  Un esempio del motivo per cui è consigliabile modificare la quantità da assemblare è la possibilità di registrare parzialmente la spedizione di quantità di magazzino prima che possa essere spedito l'output di assemblaggio.  
 
- La seguente tabella illustra le regole che definiscono i valori minimo e massimo che è possibile immettere nel campo **Quantità da assemblare** per deviare dal valore di default in uno scenario di combinazione. La tabella viene visualizzata in uno scenario di combinazione in cui il campo **Qtà da spedire** nella riga ordine di vendita collegato viene modificato da 7 a 4 e nel campo **Quantità da assemblare** viene immesso di default il valore 4.  
+ Le seguenti tabelle illustrano le regole che definiscono i valori minimo e massimo che è possibile immettere nel campo **Quantità da assemblare** per deviare dal valore di default in uno scenario di combinazione. La tabella viene visualizzata in uno scenario di combinazione in cui il campo **Qtà da spedire** nella riga ordine di vendita collegato viene modificato da 7 a 4 e nel campo **Quantità da assemblare** viene immesso di default il valore 4.  
 
-|-|Riga ordine vendita|Testata ordine di assemblaggio|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**Quantità**|**Qtà da spedire**|**Qtà per assemblaggio su ordine**|**Quantità spedita**|**Quantità**|**Quantità da assemblare**|**Quantità assemblata**|**Quantità residua**|  
-|Iniziale|10|7|7|0|7|7|0|7|  
-|Cambia||4||||4 (immesso di default)|||  
+- Riga ordine vendita
 
- Sulla base della situazione precedente, è possibile modificare soltanto il campo **Quantità da assemblare** come segue:  
+    |                | **Quantità** | **Qtà da spedire** | **Qtà per assemblaggio su ordine** | **Quantità spedita** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Valore iniziale**| 10          | 7                | 7                             | 0                    |
+    |**Modifica**      |              | 4                |                               |                      |
 
--   La quantità minima che è possibile immettere è 1. Ciò avviene in quanto è necessario assemblare almeno un'unità per poter vendere le quattro unità, presupponendo che le tre restanti siano disponibili in magazzino.  
--   La quantità massima che è possibile immettere è 4. Questo avviene per garantire che non sia assemblata una quantità di questo articolo di assemblaggio su ordine maggiore della quantità richiesta per la vendita.  
+- Testata ordine di assemblaggio
 
-## <a name="see-also"></a>Vedi anche  
+    |                | **Quantità** | **Qtà da spedire** | **Qtà per assemblaggio su ordine** | **Quantità spedita** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Valore iniziale**| 7           | 7                | 0                             | 7                    |
+    |**Modifica**      |              | 4 (immesso di default)|                         |                      |
+
+Sulla base di questo esempio, è possibile modificare soltanto il campo **Quantità da assemblare** come segue:  
+
+- La quantità minima che è possibile immettere è 1. Ciò avviene in quanto è necessario assemblare almeno un'unità per poter vendere le quattro unità, presupponendo che le tre restanti siano disponibili in magazzino.  
+- La quantità massima che è possibile immettere è 4. Questo avviene per garantire che non sia assemblata una quantità di questo articolo di assemblaggio su ordine maggiore della quantità richiesta per la vendita.  
+
+## <a name="see-also"></a>Vedi anche
+
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  

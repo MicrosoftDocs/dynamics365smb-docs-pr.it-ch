@@ -1,24 +1,23 @@
 ---
-title: Estensioni cloud intelligente Business Central per la migrazione cloud | Microsoft Docs
-description: Utilizzare le estensioni di migrazione cloud per migrare i dati locali in Business Central online. Queste estensioni spostano i dati locali nel cloud in modo da poter utilizzare Business Central online con i dati esistenti.
+title: Estensioni per la migrazione al cloud
+description: Utilizzare le estensioni di migrazione cloud per migrare i dati locali in Business Central online. Queste estensioni spostano i dati locali nel cloud.
 author: jenolson
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5c18605da5ba115f39d46c317eaf51278c8948cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757310"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129998"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Estensioni cloud intelligente per la migrazione al cloud
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Estensioni per la migrazione al cloud per la migrazione a Business Central Online
 
 A seconda della soluzione locale, è necessario utilizzare estensioni diverse per connettere i dati con [!INCLUDE[prod_short](includes/prod_short.md)] online allo scopo di migrare la soluzione nel cloud.  
 
@@ -43,5 +42,7 @@ Se si utilizza Dynamics SL, acquisire le estensioni **Estensione Cloud intellige
 
 ## <a name="see-also"></a>Vedere anche
 
-[Informazioni intelligenti](about-intelligent-cloud.md)  
-[Estensione Cloud intelligente base](ui-extensions-intelligent-cloud.md)  
+[Estensione migrazione Cloud base](ui-extensions-intelligent-cloud.md)  
+[Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
