@@ -9,35 +9,39 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 67352d0f06215f96ca6944f486408cd99f0ed8d9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 45d469e4aaf2f0e464b00c6e10a64e6fa4771dd4
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141777"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485132"
 ---
 # <a name="swiss-value-added-tax"></a>IVA svizzera
+
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includono i seguenti miglioramenti alla dichiarazione IVA svizzera:  
 
 - Rettifica automatica degli importi IVA per fatture, in base agli sconti di pagamento.  
 - Tassi di cambio IVA aggiuntivi per le fatture in valute estere.  
 
-Per ulteriori informazioni sui requisiti di codifica a reporting dell'IVA svizzera, vedi [Informazioni sull'IVA svizzera](https://www.estv.admin.ch/estv/en/home/estv-suissetax/sw-hersteller.html). Le informazioni sono disponibili in francese, tedesco e italiano.  
+Per ulteriori informazioni sui requisiti di codifica a reporting dell'IVA svizzera, vedi [Informazioni sull'IVA svizzera](https://www.estv.admin.ch/estv/en/home/value-added-tax.html). Le informazioni sono disponibili in francese, tedesco, italiano e inglese.  
 
-## <a name="vat-amounts-and-vat-exchange-rates"></a>Importi IVA e tassi di cambio IVA  
+## <a name="vat-amounts-and-vat-exchange-rates"></a>Importi IVA e tassi di cambio IVA
+
 Secondo le leggi locali dell'IVA, l'importo base dell'IVA per una fattura può essere ridotto dello sconto di pagamento se viene concesso uno sconto. Per consentire la rettifica automatica dell'IVA per uno sconto di pagamento su una fattura, il campo **Rettifica per sconto pagamento** viene attivato per impostazione predefinita nella pagina **Setup contabilità generale**. È anche possibile attivare questa funzione nel setup registrazioni IVA. Per ulteriori informazioni, vedere la tabella Setup contabilità generale e Setup registrazioni IVA.  
 
-### <a name="currency-exchange-rates-for-vat-reporting"></a>Tassi di cambio valuta per dichiarazione IVA   
+### <a name="currency-exchange-rates-for-vat-reporting"></a>Tassi di cambio valuta per dichiarazione IVA 
+
 Per le fatture in valuta estera è necessario utilizzare il tasso di cambio ufficiale fornito dal governo per il calcolo dell'IVA. È inoltre possibile impostare ulteriori tassi di cambio per l'IVA, che è possibile utilizzare per aspetti della fattura diversi dal calcolo dell'IVA. È possibile fornire il corretto tasso di cambio dell'IVA di governo per ogni valuta estera rilevante nel setup dei tassi di cambio per le fatture. Per ulteriori informazioni, vedere la tabella Tassi di cambio valute.  
 
 È inoltre possibile rettificare tutti gli importi IVA nei movimenti IVA risultanti da transazioni in valuta estera. Quando si attiva la funzione di rettifica del tasso di cambio IVA, i tassi di cambio IVA vengono rettificati automaticamente. Le differenze positive derivanti dai tassi di cambio sono registrate in conti di utili di conversione. Le differenze negative derivanti dai tassi di cambio sono registrate in conti di perdite di conversione. Per ulteriori informazioni, vedere il processo batch Rettifica tassi di cambio.  
 
 Ulteriori informazioni, come l'aliquota IVA e l'importo in valuta originale, vengono trasferiti ai movimenti IVA. Per ulteriori informazioni, vedere la tabella Movimenti IVA.  
 
-## <a name="see-also"></a>Vedi anche  
- [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)   
- [Creare e stampare una dichiarazione IVA svizzera](how-to-create-and-print-a-swiss-vat-statement.md)   
- [Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
+## <a name="see-also"></a>Vedi anche
+
+[Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)   
+[Creare e stampare una dichiarazione IVA svizzera](how-to-create-and-print-a-swiss-vat-statement.md)   
+[Funzionalità locale per la Svizzera](switzerland-local-functionality.md)   
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
