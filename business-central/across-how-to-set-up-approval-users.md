@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 464212d90ba43648bcb5d2852f5d3fec0c23ca41
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129813"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530802"
 ---
 # <a name="set-up-approval-users"></a>Impostare gli utenti per l'approvazione
 
@@ -26,7 +26,7 @@ Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario
  Una volta impostati questi utenti, è possibile utilizzare l'impostazione per creare le risposte del flusso di lavoro per i flussi di lavoro di approvazione. Per ulteriori informazioni, vedere il passaggio 9 in [Creare workflow](across-how-to-create-workflows.md).  
 
 > [!NOTE]  
-> Per definire che una richiesta di approvazione non venga approvata fino a che non venga approvata da più responsabili di una catena di approvazione, impostare i responsabili di approvazione in una gerarchia. Per il tipo **Responsabile approvazione**, impostare i responsabili approvazione nella pagina **Setup utente approvazione**. Per il tipo **Gruppo di utenti del workflow**, impostare i responsabili di approvazione nella pagina **Gruppi di utenti del workflow** e definire la gerarchia assegnando numeri incrementali a ogni responsabile nel campo **Nr. sequenza** . Per ulteriori informazioni, vedere questo argomento e [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md).  
+> Per definire che una richiesta di approvazione non venga approvata fino a che non venga approvata da più responsabili di una catena di approvazione, impostare i responsabili di approvazione in una gerarchia. Per il tipo **Responsabile approvazione**, impostare i responsabili approvazione nella pagina **Setup utente approvazione**. Per il tipo **Gruppo di utenti del workflow**, impostare i responsabili di approvazione nella pagina **Gruppi di utenti del workflow** e definire la gerarchia assegnando numeri incrementali a ogni responsabile nel campo **Nr. sequenza**   Per ulteriori informazioni, vedere questo argomento e [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md).  
 
 ## <a name="to-set-up-an-approval-user"></a>Per impostare un utente per l'approvazione
 
@@ -54,7 +54,7 @@ Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario
 3. Per testare l'impostazione degli utenti per l'approvazione, scegliere l'azione **Test Setup utente approvazione**.  
 4. Ripetere i passaggi 2 e 3 per ogni utente che si desidera impostare come utente di approvazione.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Vedere anche
 
