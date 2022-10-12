@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11023, 11024
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c00157642f2f6ab0d6dc8d769a540536350b6e87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9a7323ebc505f90d6f76c105211b3c6bab51de0
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146000"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617903"
 ---
 # <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Creare e stampare una dichiarazione IVA svizzera nella versione per la Svizzera
 In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, [!INCLUDE[prod_short](../../includes/prod_short.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
@@ -36,7 +36,8 @@ In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, 
 
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
-    |**Data inizio**|Immettere la data in cui si desidera che inizi l'intervallo di tempo per le righe della dichiarazione IVA visualizzate nel report.|  
+    |**Tipo di data periodo**|Specifica il tipo di data utilizzata per il periodo a partire dalla quale i movimenti IVA vengono elaborati nel processo batch.|
+    |**Data Inizio**|Immettere la data in cui si desidera che inizi l'intervallo di tempo per le righe della dichiarazione IVA visualizzate nel report.|  
     |**Data fine**|Immettere la data in cui si desidera che termini l'intervallo di tempo per le righe della dichiarazione IVA visualizzate nel report.|  
     |**Chiusi con nr. registro IVA**|Selezionare il registro IVA che contiene l'origine di registrazione dei movimenti di rettifica IVA. Questa opzione valuta i periodi contabili già liquidati. Quando si sceglie questa opzione, non specificare opzioni nei campi **Includi movimenti IVA** seguenti.|  
     |**Includi movimenti IVA**|Selezionare una delle opzioni disponibili.|  
