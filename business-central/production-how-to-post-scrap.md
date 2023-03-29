@@ -9,21 +9,15 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d28439357d179e41dfacbaa8504dc0a7fa98230e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-CH
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516710"
 ---
-# <a name="post-scrap-manually"></a>Registrare lo scarto manualmente
+# Registrare lo scarto manualmente
 
 Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto.  
 
 > [!NOTE]
 > La quantità di scarto non aumenta la quantità di output.  
 
-## <a name="to-post-scrap-manually"></a>Per registrare lo scarto manualmente
+## Per registrare lo scarto manualmente
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +25,7 @@ Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto
 4. Immettere il codice di scarto nel campo **Codice scarto**.  
 5. Scegliere l'azione **Registra** per registrare lo scarto specificato per operazione.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Manufacturing](production-manage-manufacturing.md)
 [Impostazione della produzione](production-configure-production-processes.md)  
