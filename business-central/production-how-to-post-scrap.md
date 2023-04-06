@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000823
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Registrare lo scarto manualmente
@@ -24,6 +24,8 @@ Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto
 3. Immettere la quantità di scarto nel campo **Quantità Scartata**.  
 4. Immettere il codice di scarto nel campo **Codice scarto**.  
 5. Scegliere l'azione **Registra** per registrare lo scarto specificato per operazione.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## Vedi anche
 

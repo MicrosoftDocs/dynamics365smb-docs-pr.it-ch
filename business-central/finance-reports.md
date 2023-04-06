@@ -24,7 +24,7 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 
 * [Analisi degli importi effettivi e degli importi di budget](bi-how-analyze-actual-versus-budget.md)  
 * [Preparare Financial Reporting con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)  
-* [Impostare e pubblicare servizi Web indicatore di prestazioni chiave (KPI) basati sui report finanziari](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Impostare e pubblicare servizi Web KPI basati sui report finanziari](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  
 * [Creare report di analisi](bi-how-create-analysis-views-reports.md)  
 * [Creare report con XBRL](bi-create-reports-with-xbrl.md)  

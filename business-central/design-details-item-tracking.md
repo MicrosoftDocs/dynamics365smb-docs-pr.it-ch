@@ -18,10 +18,10 @@ Un sistema di tracciabilità articolo deve offrire a una società la semplice ge
 ## In questa sezione  
 [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)  
 [Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo](design-details-item-tracking-posting-structure.md)  
-[Dettagli di progettazione: movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md)  
-[Dettagli di progettazione: pagina Righe tracciabilità articolo](design-details-item-tracking-lines-window.md)  
-[Dettagli di progettazione: disponibilità della tracciabilità articolo](design-details-item-tracking-availability.md)  
-[Dettagli di progettazione: tracciabilità articolo e pianificazione](design-details-item-tracking-and-planning.md)  
+[Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md)  
+[Dettagli di progettazione: Pagina righe tracciabilità articolo](design-details-item-tracking-lines-window.md)  
+[Dettagli di progettazione: Disponibilità tracciabilità articolo](design-details-item-tracking-availability.md)  
+[Dettagli di progettazione: Tracciabilità articolo e pianificazione](design-details-item-tracking-and-planning.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Dettagli di progettazione: Tracciabilità articolo nel magazzino](design-details-item-tracking-in-the-warehouse.md)
 

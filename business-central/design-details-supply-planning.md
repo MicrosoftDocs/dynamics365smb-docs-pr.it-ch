@@ -24,9 +24,9 @@ Gli articoli spiegano come funziona il sistema di pianificazione:
 
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Dettagli di progettazione: bilanciamento di domanda e offerta](design-details-balancing-demand-and-supply.md)  
-[Dettagli di progettazione: gestione dei metodi di riordino](design-details-handling-reordering-policies.md)  
-[Dettagli di progettazione: parametri di pianificazione](design-details-planning-parameters.md)  
+[Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
+[Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)  
+[Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
 [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  
 [Dettagli di progettazione: Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md)  
 [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)

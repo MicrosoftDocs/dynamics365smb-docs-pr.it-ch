@@ -28,6 +28,7 @@ Nella tabella seguente sono descritti i livelli di riservatezza dei dati che è 
 |Normale | Dati generali che non appartengono a nessun altra categoria.|
 
 ## Come si classificano i dati personali?
+
 La classificazione dei livelli di riservatezza per ogni singolo campo potrebbe richiedere molto tempo. Per accelerare il processo, vengono forniti strumenti per classificare in blocco la riservatezza dei campi e ottimizzare le classificazioni per campi specifici. È possibile trovare strumenti nel foglio di lavoro Classificazione di dati, disponibile nella Gestione ruolo utente Amministrazione di utenti, gruppi di utenti e autorizzazioni. Per utilizzare questo foglio di lavoro è necessario essere un amministratore di sistema.
 
 > [!Important]

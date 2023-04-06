@@ -59,8 +59,8 @@ Puoi creare una spedizione warehouse in uno di due modi:
     * In modalità push, dove utilizzi l'azione **Crea prelievo**. Seleziona le righe da prelevare e specifica le informazioni sui prelievi. Ad esempio, da quali collocazioni prelevare e inserire e quante unità gestire. Le collocazioni possono essere predefinite per l'ubicazione o la risorsa warehouse.
     * In modalità pull, dove utilizzi l'azione **Rilascia**. Nella pagina **Prospetto prelievi**, usa l'azione **Prendi documenti warehouse** per ottenere i prelievi assegnati. Una volta registrati i prelievi della warehouse, le righe nel **Prospetto prelievi** vengono eliminate. Per ulteriori informazioni vedi [Prelevare articoli per la spedizione warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> Per un'ubicazione che non richiede il prelievo, è possibile stampare la spedizione warehouse e utilizzarla come lista prelievo.
+    > [!TIP]
+    > Per un'ubicazione che non richiede il prelievo, è possibile stampare la spedizione warehouse e utilizzarla come lista prelievo.
 
 8. Specifica la quantità da spedire.  
 
@@ -71,6 +71,8 @@ Puoi creare una spedizione warehouse in uno di due modi:
     Per impostare il valore nel campo **Qtà da spedire** in tutte le righe su zero, scegli l'azione **Elimina qtà da spedire**. Ad esempio, l'impostazione delle quantità su zero è utile se utilizzi uno scanner di codici a barre per aggiornare le quantità di spedizione. Per aggiungere la quantità disponibile per la spedizione, scegli l'azione **Autocompilazione qtà da spedire**.
 
 9. Registrare la spedizione.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## Come utilizzare i filtri per ottenere i documenti di origine
 
