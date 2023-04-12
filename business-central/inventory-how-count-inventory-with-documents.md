@@ -83,10 +83,10 @@ Quando i dipendenti hanno conteggiato le quantità di inventario, è necessario 
 4. Selezionare la casella di controllo **Registrato** in ogni riga.
 5. Dopo aver immesso tutti i dati per una registrazione di inventario fisico, scegliere l'azione **Fine**. Da notare che la casella di controllo **Registrato** deve essere selezionata per tutte le righe.
 
-> [!NOTE]
-> Quando si termina una registrazione di inventario fisico, ogni riga viene trasferita alla riga esattamente corrispondente nell'ordine di inventario fisico correlato. Per un'esatta corrispondenza, i campi **Nr. articolo**, **Codice variante**, **Codice ubicazione** e **Codice collocazione** devono essere gli stessi nella registrazione e nelle righe dell'ordine.<br /><br />
-> Se non vi è una riga di ordine di inventario fisico corrispondente e se la casella di controllo **Consenti registrazione senza ordine** è selezionata, una nuova riga viene inserita automaticamente e viene selezionata la casella di controllo **Registrato senza ordine** nella riga dell'ordine di inventario fisico correlato. In caso contrario, viene visualizzato un messaggio di errore e il processo viene annullato.<br /><br />
-> Se più righe della registrazione di inventario fisico corrispondono a una riga dell'ordine di inventario fisico, viene visualizzato un messaggio e il processo viene annullato. Se, per qualche ragione, nell'ordine di inventario fisico vi sono due righe di inventario fisico identiche, è possibile utilizzare una funzione per risolvere il problema. Per ulteriori informazioni, vedere [Per trovare righe di ordine di inventario fisico duplicate](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > Quando si termina una registrazione di inventario fisico, ogni riga viene trasferita alla riga esattamente corrispondente nell'ordine di inventario fisico correlato. Per un'esatta corrispondenza, i campi **Nr. articolo**, **Codice variante**, **Codice ubicazione** e **Codice collocazione** devono essere gli stessi nella registrazione e nelle righe dell'ordine.<br /><br />
+    > Se non vi è una riga di ordine di inventario fisico corrispondente e se la casella di controllo **Consenti registrazione senza ordine** è selezionata, una nuova riga viene inserita automaticamente e viene selezionata la casella di controllo **Registrato senza ordine** nella riga dell'ordine di inventario fisico correlato. In caso contrario, viene visualizzato un messaggio di errore e il processo viene annullato.<br /><br />
+    > Se più righe della registrazione di inventario fisico corrispondono a una riga dell'ordine di inventario fisico, viene visualizzato un messaggio e il processo viene annullato. Se, per qualche ragione, nell'ordine di inventario fisico vi sono due righe di inventario fisico identiche, è possibile utilizzare una funzione per risolvere il problema. Per ulteriori informazioni, vedere [Per trovare righe di ordine di inventario fisico duplicate](#to-find-duplicate-physical-inventory-order-lines).
 
 ## Per completare un ordine di inventario fisico
 
@@ -102,7 +102,7 @@ Per visualizzare le quantità previste e le eventuali differenze registrate per 
 2. Aprire l'ordine di inventario fisico per il quale si desidera visualizzare le righe duplicate.
 3. Scegliere l'azione **Visualizza righe duplicate**.
 
-Eventuali righe di ordine di inventario fisico duplicate vengono visualizzate affinché sia possibile eliminarle e mantenere solo una riga con un set di valori univoco nei campi **Nr. articolo**, **Codice variante**, **Codice ubicazione** e **Codice collocazione**.
+Le righe di ordine di inventario fisico duplicate vengono visualizzate affinché sia possibile eliminarle e mantenere solo una riga con un set di valori univoco nei campi **Nr. articolo**, **Codice variante**, **Codice ubicazione** e **Codice collocazione**.
 
 ### Per registrare un ordine di inventario fisico
 
@@ -118,10 +118,12 @@ Dopo il completamento di un ordine di inventario fisico e la modifica del relati
     Nella pagina **Ordine inventario fisico**, si visualizza la quantità registrata nel campo **Quantità registrata (base)**.
 3. Scegliere l'azione **Fine**.
 
-    Il valore nel campo **Stato** diventa **Completato** ed è ora possibile modificare l'ordine soltanto scegliendo dapprima l'azione **Riapri**.
+    Il valore nel campo **Stato** è **Completato** ed è ora possibile modificare l'ordine soltanto scegliendo dapprima l'azione **Riapri**.
 4. Per registrare l'ordine, scegliere l'azione **Registra**, quindi scegliere il pulsante **OK**.
 
-I movimenti contabili articoli interessati vengono aggiornati insieme ai movimenti di tracciabilità ordine correlati.
+    I movimenti contabili articoli vengono aggiornati insieme ai movimenti di tracciabilità ordine correlati.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### Per visualizzare ordini di inventario fisico registrati
 
@@ -141,9 +143,9 @@ La casella di controllo **Usa tracciabilità articolo** nelle righe di ordine di
 
 Considerare un inventario fisico per l'articolo A, che è immagazzinato nell'inventario come dieci numeri seriali differenti.
 1. Nella riga di registrazione per l'articolo, selezionare la casella di controllo **Usa tracciabilità articolo**.
-2.  Scegliere il campo **Nr. seriale**, selezionare il primo numero seriale presente nell'inventario per l'articolo, quindi scegliere il pulsante **OK**.
+2. Scegliere il campo **Nr. seriale**, selezionare il primo numero seriale presente nell'inventario per l'articolo, quindi scegliere il pulsante **OK**.
 
-    Procedere con la copia della riga del primo articolo tracciato per inserire righe aggiuntive corrispondenti al numero di numeri seriali immagazzinati nell'invetario.
+    Copia la riga del primo articolo tracciato per inserire righe aggiuntive corrispondenti al numero di numeri seriali immagazzinati nell'inventario.
 
 3. Scegliere l'azione **Funzioni** e quindi l'azione **Copia riga**.
 4. Nella pagina **Copia riga record magazzino fisico**, immettere 9 nel campo **Nr. di copie** quindi scegliere il pulsante **OK**.
@@ -192,8 +194,8 @@ Nella pagina **Ordine inventario fisico**, il campo **Quantità negativa (base)*
 
 I seguenti tipi di documenti sono utili per la gestione del tuo warehouse:
 
-- Usa **Ricevute di magazzino** per registrare rettifiche positive di articoli in base a qualità, quantità e costo.
-- Usa **Spedizioni di magazzino** per cancellare merci mancanti o danneggiate.
+* Usa **Ricevute di magazzino** per registrare rettifiche positive di articoli in base a qualità, quantità e costo.
+* Usa **Spedizioni di magazzino** per cancellare merci mancanti o danneggiate.
 
 Puoi stampare questi documenti in qualsiasi fase, rilasciarli e riaprirli e assegnare valori comuni, comprese le dimensioni, nell'intestazione. Se desideri ristampare i documenti dopo che sono stati pubblicati, puoi farlo nelle pagine **Ricevuta scorte registrata** e **Spedizione magazzino registrata**.
 
@@ -206,10 +208,11 @@ La seguente procedura illustra come impostare una numerazione per i documenti de
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.
 2. Nella Scheda dettaglio **Numerazione**, specifica nei seguenti campi la serie di numeri per i documenti:
-   - **N. ricevuta magazzino**  
-   - **N. ricevute magazzino registrate**  
-   - **N. spedizione magazzino**  
-   - **N. spedizione magazzino registrata**  
+
+   * **N. ricevuta magazzino**  
+   * **N. ricevute magazzino registrate**  
+   * **N. spedizione magazzino**  
+   * **N. spedizione magazzino registrata**  
 
 ### Per creare e registrare un documento di magazzino
 
@@ -222,17 +225,19 @@ La procedura seguente mostra come creare, stampare e registrare una ricevuta di 
 
 Le seguenti funzioni sono disponibili nella pagina **Ricevuta di magazzino**:
 
-- Scegli le azioni **Rilascio** o **Riapri** per impostare lo stato per la fase di elaborazione successiva  
-- Scegli l'azione **Registra** per registrare la ricevuta di magazzino o scegli **Registra e stampa** per registrare la ricevuta e stampare il report di prova  
+* Scegli le azioni **Rilascio** o **Riapri** per impostare lo stato per la fase di elaborazione successiva  
+* Scegli l'azione **Registra** per registrare la ricevuta di magazzino o scegli **Registra e stampa** per registrare la ricevuta e stampare il report di prova  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Stampa dei documenti di magazzino
 
 Puoi specificare i report che devono essere stampati in fasi diverse scegliendo una delle seguenti opzioni nel campo **Uso** nella pagina **Selezione report - Magazzino**:
 
-- Ricevuta magazzino
-- Spedizione magazzino
-- Ricevuta magazzino registrata
-- Spedizione magazzino registrata
+* Ricevuta magazzino
+* Spedizione magazzino
+* Ricevuta magazzino registrata
+* Spedizione magazzino registrata
 
 > [!NOTE]
 > I report disponibili possono variare in base alla localizzazione del tuo paese. L'applicazione di base non include alcun layout.

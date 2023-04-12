@@ -44,7 +44,7 @@ Dall'applicazione e-mail, è possibile inoltrare un messaggio e-mail al provider
 Dal momento che non esiste alcun record di documento in entrata per il file, un nuovo record verrà creato automaticamente nella pagina **Documenti in entrata** quando si riceve il documento elettronico risultante dal servizio OCR. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> Se si utilizza un tablet o un telefono, è possibile inviare il file al servizio OCR non appena viene scattata la foto del documento oppure è possibile creare direttamente un documento in entrata. Per ulteriori informazioni, vedere [Creare un record di documento in entrata facendo una foto](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> Se si utilizza un tablet o un telefono, è possibile inviare il file al servizio OCR non appena viene scattata la foto del documento oppure è possibile creare direttamente un documento in entrata. Per ulteriori informazioni, vedere [Creare un record di documento in entrata facendo una foto](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## Per ricevere il documento elettronico risultante dal servizio OCR
 

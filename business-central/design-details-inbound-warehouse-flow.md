@@ -48,11 +48,6 @@ Nei metodi A, B e C, il carico e lo stoccaggio sono combinati in un unico passag
 > * Lo stoccaggio di magazzino utilizzato nel metodo B, insieme alla registrazione delle informazioni di stoccaggio, registra anche la ricezione del documento di origine.
 > * Lo stoccaggio di warehouse utilizzato nel metodo D non può essere registrato e registra solo lo stoccaggio. La registrazione rende gli articoli disponibili per l'ulteriore elaborazione ma non registra il carico. Nel flusso in entrata, lo stoccaggio warehouse richiede un carico warehouse.
 
-> [!NOTE]
-> Sebbene gli stoccaggi di warehouse e gli stoccaggi di magazzino sembrino simili, i documenti sono diversi e vengono utilizzati in processi diversi.
-> * Lo stoccaggio di magazzino utilizzato nel metodo B, insieme alla registrazione delle informazioni di stoccaggio, registra anche la ricezione del documento di origine.
-> * Lo stoccaggio di warehouse utilizzato nel metodo D non può essere registrato e registra solo lo stoccaggio. La registrazione rende gli articoli disponibili per l'ulteriore elaborazione ma non registra il carico. Nel flusso in entrata, lo stoccaggio warehouse richiede un carico warehouse.
-
 ## Nessuna attività di warehouse dedicata
 
 I seguenti articoli forniscono informazioni su come elaborare le ricevute per i documenti di origine se non sono disponibili attività di magazzino dedicate.
