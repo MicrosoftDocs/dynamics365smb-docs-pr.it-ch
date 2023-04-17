@@ -1,27 +1,21 @@
 ---
-title: Solleciti consegna [CH]
+title: 'Solleciti consegna [CH]'
 description: I solleciti di consegna sono usati per tracciare le consegne scadute dei fornitori e per segnalare ai fornitori le consegne scadute nella versione svizzera.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 5005270, 5005272
+ms.search.keywords: null
+ms.search.form: '5005270, 5005272'
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 48ca834ebed0e1ed16bf9a4c1e1d7db90830ffe9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129307"
 ---
-# <a name="delivery-reminders-in-the-swiss-version"></a>Solleciti di consegna nella versione svizzera
+# Solleciti di consegna nella versione svizzera
 
 [!INCLUDE [delivery-reminders](../includes/ATCHDE/delivery-reminders.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
  [Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md)   
  [Impostare i termini, i livelli e i testi di sollecito di consegna](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   

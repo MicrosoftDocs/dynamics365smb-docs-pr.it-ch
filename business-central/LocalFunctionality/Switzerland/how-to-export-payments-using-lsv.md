@@ -1,26 +1,20 @@
 ---
-title: Esportare pagamenti tramite LSV [CH]
+title: 'Esportare pagamenti tramite LSV [CH]'
 description: È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.search.keywords: null
+ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 6b028dfb4a33c3bfa54dc12411e41952eaf3afbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136623"
 ---
-# <a name="export-payments-using-lsv-in-the-swiss-version"></a>Esportare pagamenti con LSV nella versione per la Svizzera
+# Esportare pagamenti con LSV nella versione per la Svizzera
 È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV. È possibile inviare i file generati alla banca su un disco oppure usare un trasferimento file elettronico, ad esempio tramite il servizio di online banking o tramite un portale Internet.  
 
-## <a name="to-export-payments-using-lsv"></a>Per esportare pagamenti tramite LSV  
+## Per esportare pagamenti tramite LSV  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Lista registrazioni LSV**, quindi selezionare il collegamento correlato.  
 2.  Nella pagina **Lista registrazioni LSV** selezionare le registrazioni LSV desiderate.  
@@ -34,7 +28,7 @@ ms.locfileid: "8136623"
 
 5.  Tutte le righe correlate vengono trasferite alle registrazioni LSV. Il file LSV viene generato nella cartella determinata in precedenza.  
 
-## <a name="see-also"></a>Vedi anche  
+## Vedi anche  
  [Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Elaborare una riscossione LSV](how-to-process-an-lsv-collection.md)   
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   

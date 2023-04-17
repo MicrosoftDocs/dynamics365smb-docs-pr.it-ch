@@ -1,12 +1,12 @@
 ---
 title: Impostare la sincronizzazione dei contatti di Outlook per Business Central locale
-description: Informazioni su come configurare un ambiente locale di Business Central per impostare la sincronizzazione dei contatti con Outlook per Business Central locale
+description: Informazioni su come configurare un ambiente locale di Business Central per sincronizzare i contatti in Business Central e Outlook.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 03/17/2023
+ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 

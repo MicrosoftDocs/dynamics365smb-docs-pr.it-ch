@@ -1,29 +1,23 @@
 ---
-title: Stampare report di liste di pagamenti fornitore [CH]
+title: 'Stampare report di liste di pagamenti fornitore [CH]'
 description: Il report Lista pagamenti fornitore fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6d3c52b52090a8bff9d70c983a0bfa8170aad1ff
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145963"
 ---
-# <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Stampare report di liste di pagamenti fornitore nella versione per la Svizzera
+# Stampare report di liste di pagamenti fornitore nella versione per la Svizzera
 
 Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.  
 
 > [!NOTE]
 > Il report **Lista di pagamenti fornitore** è disponibile nei seguenti mercati: Austria, Germania, Svizzera.
 
-## <a name="to-print-the-vendor-payments-list-report"></a>Per stampare il report di liste di pagamenti fornitore  
+## Per stampare il report di liste di pagamenti fornitore  
 
 1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Lista di pagamenti fornitore**, quindi selezionare il collegamento correlato.  
 2. Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
@@ -35,7 +29,7 @@ Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni
 
  Alla fine del report viene visualizzato il numero di pagamenti elaborati.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Effettuare i pagamenti](../../payables-make-payments.md)
 

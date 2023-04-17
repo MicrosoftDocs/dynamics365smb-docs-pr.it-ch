@@ -3,19 +3,14 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d8fd310dc1e843c859c99e6ce6e8e63cb484bd7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135544"
 ---
+
 In [!INCLUDE[prod_short](../../../includes/prod_short.md)], è possibile creare solleciti di consegna quando un acquisto non è stato consegnato come previsto. È possibile creare un singolo sollecito di consegna manualmente o generare solleciti di consegna per tutte le consegne scadute.  
 
 > [!NOTE]
 > Per creare solleciti di consegna, è necessario impostare i testi, i livelli e i termini del sollecito di consegna.
 
-## <a name="to-create-a-delivery-reminder-manually"></a>Per creare un sollecito di consegna manualmente  
+## Per creare un sollecito di consegna manualmente  
 
 1. Scegliere l'icona della ![lampadina che apre la funzionalità delle informazioni.](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Sollecito Consegna**, quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  

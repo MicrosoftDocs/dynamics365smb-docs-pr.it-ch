@@ -1,29 +1,23 @@
 ---
-title: Importare numeri di clearing svizzeri [CH]
+title: 'Importare numeri di clearing svizzeri [CH]'
 description: Questo articolo spiega come importare numeri di clearing bancari svizzeri utilizzando la versione svizzera di Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 11501
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: e15f20b4758a0681703dd690f4bef5e9ee762851
-ms.sourcegitcommit: d8a84a008c6bd3baf1ca7ade49310313cb4942f8
-ms.translationtype: HT
-ms.contentlocale: it-CH
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9201950"
 ---
-# <a name="import-swiss-bank-clearing-numbers-in-the-swiss-version"></a>Importare i numeri di clearing bancari svizzeri nella versione per la Svizzera
+# Importare i numeri di clearing bancari svizzeri nella versione per la Svizzera
 
 I numeri di clearing bancari sono numeri univoci usati per identificare ogni agenzia o filiale nella directory delle banche. Questa informazioni è necessaria per effettuare un pagamento elettronico. Il file può essere scaricato dal sito Web [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121).  
 
 È possibile importare il file .txt Bank Master di numeri di clearing, ovvero il file ufficiale dei numeri di clearing bancari, per aggiornare le informazioni sui numeri di clearing nella directory delle banche. Quando si importa il file dei numeri di clearing bancari, i dati vengono inseriti nella tabella **Directory banche** e i dati esistenti vengono sovrascritti. Dopo aver importato il file dei numeri di clearing bancari, è possibile definire il numero di filiale aggiornato per clienti e fornitori. Per ulteriori informazioni, vedere le tabelle Conti correnti clienti e Conti correnti fornitori.  
 
-## <a name="to-import-swiss-bank-clearing-numbers"></a>Per importare numeri di clearing svizzeri  
+## Per importare numeri di clearing svizzeri  
 
 1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Directory banche**, quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Importa directory banche**.  
@@ -36,7 +30,7 @@ I numeri di clearing bancari sono numeri univoci usati per identificare ogni age
 
 Di seguito viene descritto come definire i numeri di filiale bancaria per i conti correnti dei clienti. Gli stessi passaggi si applicano anche per la definizione dei numeri di filiale bancaria per i conti bancari dei fornitori.  
 
-## <a name="to-define-bank-branch-numbers-for-customer-bank-accounts"></a>Per definire i numeri di filiale bancaria per i conti correnti dei clienti  
+## Per definire i numeri di filiale bancaria per i conti correnti dei clienti  
 
 1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Clienti**, quindi selezionare il collegamento correlato.  
 2. Selezionare il cliente per cui creare informazioni di conto corrente, quindi scegliere l'azione **C/C bancari**.  
@@ -44,7 +38,7 @@ Di seguito viene descritto come definire i numeri di filiale bancaria per i cont
 4. Nella scheda dettaglio **Generale**, nel campo **Nr. filiale banca** selezionare il numero dell'agenza o filiale bancaria.  
 5. Scegliere il pulsante **OK**.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Pagamenti elettronici svizzeri](swiss-electronic-payments.md)  
 [Impostare i conti correnti bancari](../../bank-how-setup-bank-accounts.md)

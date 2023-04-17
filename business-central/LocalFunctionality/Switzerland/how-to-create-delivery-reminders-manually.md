@@ -1,26 +1,20 @@
 ---
-title: Come creare solleciti di consegna manualmente [CH]
-description: In Business Central, è possibile creare manualmente solleciti di consegna quando un acquisto non è stato consegnato come previsto.
+title: 'Come creare solleciti di consegna manualmente [CH]'
+description: 'In Business Central, è possibile creare manualmente solleciti di consegna quando un acquisto non è stato consegnato come previsto.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: ecb27fce443a9695eeef6cb81041dfa771f8920c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-CH
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145061"
 ---
-# <a name="create-delivery-reminders-manually-in-the-swiss-version"></a>Creare solleciti di consegna manualmente nella versione svizzera
+# Creare solleciti di consegna manualmente nella versione svizzera
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Solleciti consegna](delivery-reminders.md)  
 [Generare solleciti di consegna](how-to-generate-delivery-reminders.md)  
