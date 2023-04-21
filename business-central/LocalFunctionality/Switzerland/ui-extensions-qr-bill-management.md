@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'QR-bill, invoice, incoming documents, payment reference'
 ms.search.form: '11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 11518'
-ms.date: 03/22/2022
+ms.date: 04/05/2023
 ms.author: soalex
 ---
 # Gestione fatture QR nella versione svizzera di Business Central
@@ -62,7 +62,7 @@ Coloro che emettono fatture QR possono utilizzare più conti bancari per instrad
 
 Per utilizzare un QR-IBAN diverso da quello impostato nella pagina **Informazioni società**, specifica i dati del conto bancario nella **Scheda conto bancario**:
 
-1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Conti bancari**, quindi seleziona il collegamento correlato.
+1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Conti bancari**, quindi seleziona il collegamento correlato.
 2. Nell'elenco **Metodi di pagamento** scegli l'azione **Nuovo** o **Modifica**.
 3. Nella Scheda dettaglio **Trasferimento**, immetti il conto bancario nel campo **QR-IBAN**.
 
@@ -88,7 +88,7 @@ Puoi ricevere le fatture QR in diversi luoghi in [!INCLUDE[prod_short](../../inc
 
 La ricezione di una fattura QR tramite documenti in arrivo è particolarmente utile quando il processo è automatizzato, ma è anche possibile ricevere manualmente una fattura QR tramite documenti in arrivo.
 
-1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immettere **Documenti in arrivo**, quindi selezionare il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Documenti in arrivo**, quindi selezionare il collegamento correlato.
 2. Nella casella **Documenti in arrivo** creare una nuova voce selezionando **Nuovo**, quindi **Nuovo**.
 3. Nella casella **Documenti in Arrivo** inserisci una descrizione nel campo **Descrizione** .
 4. Per importare la fattura QR, scegli una delle seguenti azioni:
@@ -101,7 +101,38 @@ La ricezione di una fattura QR tramite documenti in arrivo è particolarmente ut
 Dal documento in arrivo è possibile creare un giornale acquisti o una fattura acquisti e il riferimento di pagamento dalla fattura QR viene assegnato a entrambi. Per ulteriori informazioni, vedi [Utilizzo dei documenti in entrata](../../across-income-documents.md).
 
 > [!NOTE]
-> Quando si importano fatture QR, [!INCLUDE[prod_short](../../includes/prod_short.md)] proverà a trovare un conto bancario del fornitore con un IBAN o QR-IBAN corrispondente. Quando importi le fatture QR in documenti in arrivo, un documento o un giornale di registrazione di acquisto viene creato e il conto bancario del fornitore determinerà il fornitore da utilizzare. L'approccio del documento in arrivo aiuta a garantire l'assegnazione del fornitore corretto.
+> Quando si importano fatture QR, [!INCLUDE[prod_short](../../includes/prod_short.md)] cerca un conto bancario del fornitore con un IBAN o QR-IBAN corrispondente. Quando importi le fatture QR in documenti in arrivo, un documento o un giornale di registrazione di acquisto viene creato e il conto bancario del fornitore determina il fornitore da utilizzare. L'approccio del documento in arrivo aiuta a garantire l'assegnazione del fornitore corretto. 
+
+#### Ricezione tramite il servizio Kofax OCR
+
+> [!NOTE]
+> Se le aziende esistenti in [!INCLUDE[prod_short](../../includes/prod_short.md)] desiderano che venga restituito un riferimento QR quando utilizzano il servizio Kofax OCR, devono aggiornare la definizione di scambio di dati esistente utilizzata come **Tipo scambio dati** per l'elaborazione delle fatture nei documenti in entrata.  
+
+Completa i passaggi seguenti per aggiornare una definizione di scambio di dati esistente. 
+
+1. Seleziona la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **definizioni di scambio dati**, quindi seleziona il collegamento correlato. 
+2. Nella lista **definizioni di scambio dati**, trova la riga che desideri aggiornare e apri la scheda. 
+3. Nella Scheda dettaglio **Definizioni righe** seleziona **OCRINVHEADER**.  
+4. Nella scheda dettaglio **Definizioni colonne** crea una nuova riga e immetti i seguenti valori.
+
+    | Campo | Valore |
+    |-------|-------|
+    | **Nr. colonna** | 11513 |
+    | **Nome** | Nr. riferimento fattura QR Svizzera |
+    | **Descrizione** | Nr. riferimento fattura QR Svizzera |
+    | **Percorso** | /Document/HeaderFields/HeaderField\[Type\[text()='qrreference'\]\]/Text |
+    
+5. Nella Scheda dettaglio **Definizioni righe** seleziona **Mapping dei campi**.  
+6. Nella pagina **Mapping dei campi** crea una nuova riga e immetti i seguenti valori.
+
+    | Campo | Valore |
+    |-------|-------|
+    | **Nr. colonna** | 11513 |
+    | **ID tabella di destinazione** | 38 |
+    | **ID campo di destinazione** | 171 |
+    | **Solo convalida** | False |
+
+7. Chiudi le pagine.  
 
 ### Ricezione di una fattura QR con ordini di acquisto o fatture di acquisto
 

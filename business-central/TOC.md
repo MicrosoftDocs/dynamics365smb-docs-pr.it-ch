@@ -428,6 +428,7 @@
 ### [Creare budget C/G](finance-how-create-budgets.md)
 ### [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)
 ### [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)
+### [Esportazione file di controllo](finance-how-to-export-audit-files.md)
 ### [Allocare costi e ricavi](year-allocate-costs-income.md)
 ### [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)
 ### [Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)
@@ -807,8 +808,9 @@
 #### Generale
 ##### [Numeri impresa e numeri filiali](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Limitare il periodo di registrazione](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
-##### [Impostare la data del lavoro come data di registrazione.](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Impostare la data del lavoro come data di registrazione](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Rendere obbligatorie le definizioni di registrazioni](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Differimenti nei report del movimento contabile vendite e acquisti](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Funzionalità locale nella versione canadese](LocalFunctionality/Canada/canada-local-functionality.md)
