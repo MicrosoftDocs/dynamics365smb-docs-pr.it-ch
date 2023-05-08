@@ -47,11 +47,11 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 ## Scenario  
  Il cliente, Cannon Group PLC, ordina cinque biciclette da turismo con consegna il 05-02-2021 (5 febbraio).  
 
- Eduardo, il responsabile della pianificazione produzione, pianifica gli approvvigionamenti per la prima settimana di febbraio 2021. Prima di calcolare un piano di approvvigionamento iniziale, filtra in base alla propria ubicazione, EST, e immette un intervallo di pianificazione compreso tra le date di lavoro 01-23-2021 e 07-02-2021.  
+ Eduardo, il responsabile della pianificazione produzione, pianifica gli approvvigionamenti per la prima settimana di febbraio 2021. Prima di calcolare un piano di approvvigionamento iniziale, Eduardo filtra in base alla propria ubicazione, EST, e immette un intervallo di pianificazione compreso tra le date di lavoro 01-23-2021 e 07-02-2021.  
 
  L'unica domanda per quella settimana riguarda l'ordine di vendita di Cannon Group. Eduardo vede che nessuna delle righe di pianificazione contiene avvisi, quindi procede alla creazione di ordini di approvvigionamento senza modifiche per le righe di pianificazione suggerite.  
 
- Il giorno successivo, prima che qualsiasi ordine di approvvigionamento iniziale venga avviato o registrato, Eduardo viene avvisato che un altro cliente ha ordinato dieci biciclette da turismo da spedire il 12-02-2021. Procede alla rettifica del piano di approvvigionamento in base alla nuova domanda. Il ricalcolo restituisce un piano solo cambiamenti che suggerisce modifiche sia ai tempi sia alla quantità di alcuni degli ordini di approvvigionamento creati inizialmente.  
+ Il giorno successivo, prima che qualsiasi ordine di approvvigionamento iniziale venga avviato o registrato, Eduardo viene avvisato che un altro cliente ha ordinato dieci biciclette da turismo da spedire il 12-02-2021. Eduardo procede alla rettifica del piano di approvvigionamento in base alla nuova domanda. Il ricalcolo restituisce un piano solo cambiamenti che suggerisce modifiche sia ai tempi sia alla quantità di alcuni degli ordini di approvvigionamento creati inizialmente.  
 
  Durante i vari passaggi di pianificazione, Eduardo cerca gli ordini interessati e utilizza la funzionalità Tracciabilità ordine per visualizzare le diverse domande associate ai diversi approvvigionamenti.  
 
@@ -80,7 +80,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
  I dati di esempio per la procedura dettagliata sono pronti.  
 
 ## Creazione di un piano di approvvigionamento rigenerativo  
- In seguito a un nuovo ordine di vendita per cinque biciclette da turismo, Ricardo avvia il processo di pianificazione impostando le opzioni, i filtri e pianificando l'intervallo per escludere tutte le altre domande ad eccezione della prima settimana di febbraio presso l'ubicazione EST. Inizia calcolando una programmazione produzione master (MPS), quindi elaborerà un piano di approvvigionamento completo per tutte le domande di ultimo livello (MRP).  
+ In seguito a un nuovo ordine di vendita per cinque biciclette da turismo, Ricardo avvia il processo di pianificazione impostando le opzioni, i filtri e pianificando l'intervallo per escludere tutte le altre domande ad eccezione della prima settimana di febbraio presso l'ubicazione EST. Ricardo inizia calcolando una programmazione produzione master (MPS), quindi elaborerà un piano di approvvigionamento completo per tutte le domande di ultimo livello (MRP).  
 
 ### Per creare l'ordine di vendita  
 
@@ -198,7 +198,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
  Il calcolo, l'analisi e la creazione iniziali di un piano di approvvigionamento per la domanda presso l'ubicazione EST nella prima settimana di febbraio sono stati completati. Nella sezione seguente un altro cliente ordina dieci biciclette da turismo ed Eduardo deve ripianificare.  
 
 ## Creazione di un piano solo cambiamenti  
- Il giorno successivo, prima che qualsiasi ordine di approvvigionamento venga avviato o registrato, viene ricevuto un nuovo ordine di vendita da Libros S.A. per dieci biciclette da turismo con consegna il 12-02-2021. Dopo essere stato avvisato della nuova domanda, Eduardo procede alla ripianificazione per rettificare il piano di approvvigionamento corrente. Eduardo utilizza la funzione Solo cambiamenti per calcolare solo le modifiche apportate alla domanda o all'approvvigionamento dopo l'esecuzione dell'ultima pianificazione. Inoltre, estende il periodo di pianificazione al 14-02-2021 per includere la nuova domanda di vendita il 12-02-2014.  
+ Il giorno successivo, prima che qualsiasi ordine di approvvigionamento venga avviato o registrato, viene ricevuto un nuovo ordine di vendita da Libros S.A. per dieci biciclette da turismo con consegna il 12-02-2021. Dopo essere stato avvisato della nuova domanda, Eduardo procede alla ripianificazione per rettificare il piano di approvvigionamento corrente. Eduardo utilizza la funzione Solo cambiamenti per calcolare solo le modifiche apportate alla domanda o all'approvvigionamento dopo l'esecuzione dell'ultima pianificazione. Inoltre, Eduardo estende il periodo di pianificazione al 14-02-2021 per includere la nuova domanda di vendita il 12-02-2014.  
 
  Il sistema di pianificazione calcola il modo migliore per coprire la domanda per questi due prodotti identici, ad esempio per consolidare alcuni ordini di acquisto e produzione, riprogrammare altri ordini e creare nuovi ordini in base alle esigenze.  
 
