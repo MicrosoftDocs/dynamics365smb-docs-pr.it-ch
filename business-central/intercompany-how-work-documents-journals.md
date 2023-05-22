@@ -7,12 +7,14 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
-ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
 # Utilizzo di documenti e registrazioni intercompany
 
-Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany. Quando si registra un documento o una riga di registrazione intercompany nella società, viene creato un documento o una riga di registrazione corrispondente nella casella in uscita IC. Trasferisci la riga dalla casella in uscita al tuo partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
+Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany. È possibile registrare transazioni in conti C/G e, se sono stati impostati conti bancari interaziendali, è anche possibile registrare transazioni da banca a banca. Per ulteriori informazioni sulla configurazione di conti bancari interaziendali, vai a [Specificare i conti bancari da utilizzare per i partner intercompany](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
+
+Quando si registra un documento o una riga di registrazione intercompany nella società, viene creato un documento o una riga di registrazione corrispondente nella casella in uscita IC. Trasferisci la riga dalla casella in uscita al tuo partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
 
 Per i documenti di acquisto e di vendita, il codice partner IC per il cliente o il fornitore garantisce che tutte le fatture e gli ordini per le transazioni tra i partner producano i documenti corrispondenti nella società partner. I conti della società si bilanciano correttamente.
 
