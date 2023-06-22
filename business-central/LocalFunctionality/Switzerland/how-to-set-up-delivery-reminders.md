@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Impostare solleciti di consegna nella versione svizzera
+# <a name="set-up-delivery-reminders-in-the-swiss-version" />Impostare solleciti di consegna nella versione svizzera
 
 [!INCLUDE [delivery-reminders-setup](../includes/ATCHDE/delivery-reminders-setup.md)]
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Solleciti consegna](delivery-reminders.md)  
 [Impostare i termini, i livelli e i testi di sollecito di consegna](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
