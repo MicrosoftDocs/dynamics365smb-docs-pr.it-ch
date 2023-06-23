@@ -53,7 +53,7 @@ Tutti i record del documento in entrata vengono visualizzati, inclusi quelli in 
 > [!NOTE]  
 > È inoltre possibile eseguire questa azione per il singolo record nella pagina **Scheda Documento in entrata**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" /><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" /><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" /><a name="see-also"></a>Vedere anche
   

@@ -75,7 +75,7 @@ A seconda della banca, il venditore può vedere questa transazione in entrata su
 
 Ci sono diverse opzioni su come gestire le transazioni di pagamento in [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Opzione 1: riconcilia i trasferimenti in entrata sul conto bancario con le fatture originali
+### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Opzione 1: riconcilia i trasferimenti in entrata sul conto bancario con le fatture originali
   
 Il venditore importa l'ordine di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] e registra la spedizione e la fattura.
 
@@ -88,7 +88,7 @@ Problemi:
 1. Può essere difficile se ci sono più fatture (e note di credito), ma un solo pagamento dal provider di servizi di pagamento in un'unica soluzione.
 2. L'importo di solito non corrisponde a causa della commissione. Puoi utilizzare la tolleranza di pagamento o/e gli sconti sui pagamenti per gestire le commissioni.
 
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Opzione 2: riconciliare i bonifici in entrata sul conto bancario con il conto provvisorio che rappresenta denaro presso il provider di servizi di pagamento
+### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Opzione 2: riconciliare i bonifici in entrata sul conto bancario con il conto provvisorio che rappresenta denaro presso il provider di servizi di pagamento
   
 Il venditore importa l'ordine di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] e registra la spedizione e la fattura.
   

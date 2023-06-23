@@ -71,7 +71,7 @@ Per ulteriori informazioni sulle metriche Power BI, vedi [Introduzione alle metr
 - Se Power BI è già configurato e desideri provare le funzionalità, vai a [Uso dei report Power BI in Business Central](across-working-with-powerbi.md).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 
