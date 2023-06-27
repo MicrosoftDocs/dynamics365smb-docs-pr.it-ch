@@ -10,7 +10,7 @@ In [!INCLUDE[prod_short](../../../includes/prod_short.md)], è possibile creare 
 > [!NOTE]  
 > Per creare solleciti di consegna, è necessario impostare i testi, i livelli e i termini del sollecito di consegna.  
 
-## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries" />Per generare solleciti di consegna per tutte le consegne scadute
+## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Per generare solleciti di consegna per tutte le consegne scadute
 
 1. Scegliere l'icona della ![lampadina che apre la funzionalità delle informazioni.](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Sollecito Consegna**, quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  

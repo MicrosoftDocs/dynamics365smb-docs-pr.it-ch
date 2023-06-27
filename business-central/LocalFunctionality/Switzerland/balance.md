@@ -11,7 +11,7 @@ ms.search.form: 11500
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="general-ledger-balance-in-the-swiss-version" />Saldi di contabilità generale nella versione per la Svizzera
+# <a name="general-ledger-balance-in-the-swiss-version"></a>Saldi di contabilità generale nella versione per la Svizzera
 
 Quando si sceglie l'azione **Saldo** nella pagina **Conti C/G** viene visualizzata la finestra **Saldo provvisorio conti di contabilità generale**. In tale finestra viene visualizzato il saldo dei movimenti contabili registrati finali e il saldo di quelli immessi nelle registrazioni COGE correnti.  
 
@@ -29,7 +29,7 @@ Ad esempio, dopo aver registrato i pagamenti dei clienti è possibile verificare
 
     Viene calcolato solo il saldo non registrato per il giornale di registrazione generale attualmente visualizzato.
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Visualizzare i saldi temporanei nelle registrazioni di contabilità generale](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 
