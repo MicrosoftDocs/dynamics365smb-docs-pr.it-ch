@@ -92,10 +92,10 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse 
 
 Nella seguente procedura dettagliata viene dimostrato il metodo D nella tabella precedente.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Elisabetta, la responsabile degli ordini, crea gli ordini di vendita per vari chicchi tostati e li passa al magazzino. Poiché tutti gli ordini provengono dallo stesso cliente, Ellen, la responsabile del magazzino, decide di spedirli insieme. Gianni, il lavoratore warehouse deve assicurarsi che la spedizione sia preparata e consegnata al cliente.
 
-### <a name="steps" />Passaggi
+### <a name="steps-1" />Passaggi
 Questa è la continuazione di [Flusso in entrata: ricezione e stoccaggio nelle configurazioni di warehouse di base](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Rilascia gli ordini di vendita alla warehouse.  
@@ -137,7 +137,7 @@ Questa è la continuazione di [Flusso in entrata: ricezione e stoccaggio nelle c
     4. Scegli l'azione **Registra spedizione**.
     5. Conferma l'opzione **Spedisci**.
 
-### <a name="results" />Risultati
+### <a name="results-1" />Risultati
  - I chicchi tostati sono ora registrati come prelevati 
  - Viene creato il **prelievo warehouse registrato**
  - Viene creata la **spedizione warehouse registrata**

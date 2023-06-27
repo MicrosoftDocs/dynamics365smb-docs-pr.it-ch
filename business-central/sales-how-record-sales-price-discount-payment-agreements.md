@@ -306,7 +306,7 @@ Continua a impostare le nuove condizioni dello sconto fattura di vendita.
 4. Nel campo **% sconto** immettere lo sconto fattura sotto forma di percentuale dell'importo fattura.
 5. Ripetere i passaggi da 5 a 7 per ogni valuta per la quale il cliente riceverà uno sconto fattura diverso.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-sales-prices-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 

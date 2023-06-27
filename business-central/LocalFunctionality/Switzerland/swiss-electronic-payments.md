@@ -34,7 +34,7 @@ LSV+ è un servizio di addebito diretto che viene utilizzato per l'elaborazione 
 
 Per esportare i pagamenti secondo lo standard SEPA, è necessario utilizzare un conto bancario. Nei conti bancari, il campo **Categoria registrazione C/C bancario** deve specificare il conto di contabilità generale pertinente. In questo modo, i relativi movimenti di contabilità generale saranno coerenti con i movimenti generati per i metodi di pagamento svizzeri. Per ulteriori informazioni su come esportare i pagamenti SEPA, vedere [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
-### <a name="a-nameiban-qraiban-and-qr-iban" /><a name="iban-qr"></a>IBAN e QR-IBAN
+### <a name="iban-and-qr-iban" /><a name="iban-qr"></a>IBAN e QR-IBAN
 
 In Svizzera, le richieste di pagamento basate su bonifici SEPA possono includere un normale codice IBAN per il conto bancario o un codice QR-IBAN. Per ulteriori informazioni, vedi [Gestione fatture QR](ui-extensions-qr-bill-management.md).  
 

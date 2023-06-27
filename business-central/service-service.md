@@ -41,7 +41,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Commesse](projects-how-create-jobs.md)   
 [Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

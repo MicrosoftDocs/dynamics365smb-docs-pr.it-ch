@@ -109,7 +109,7 @@ Per le importazioni in blocco, utilizzare i pacchetti di configurazione per impo
 > [!NOTE]
 > Non puoi utilizzare **Modifica in Excel** per creare righe di registrazione con informazioni di tracciabilità.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Vedere anche
 

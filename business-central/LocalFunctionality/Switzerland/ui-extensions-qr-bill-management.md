@@ -15,7 +15,7 @@ ms.author: soalex
 
 Dal 1° luglio 2020, le società svizzere devono essere in grado di ricevere le fatture QR. Le fatture QR sono distinte di pagamento che seguono le fatture e fanno parte di un'iniziativa a livello nazionale per semplificare i processi di pagamento. Le fatture QR sostituiscono tutte le distinte di pagamento esistenti e le funzionalità relative a PVR. Contengono tutte le informazioni necessarie per effettuare i pagamenti e un codice QR sulla distinta di pagamento semplifica l'importazione delle informazioni [!INCLUDE[prod_short](../../includes/prod_short.md)]. Tutte le informazioni rilevanti vengono importate e utilizzate per generare pagamenti per il fornitore che ha inviato la fattura QR, incluso il riferimento di pagamento, che viene automaticamente incluso nelle voci dei movimenti contabili fornitori ed esportato nei file di pagamento alla banca.
 
-## <a name="a-nameget-startedaget-started-with-the-qr-bill-management-extension" /><a name="get-started"></a>Inizia con l'estensione Gestione fattura QR
+## <a name="get-started-with-the-qr-bill-management-extension" /><a name="get-started"></a>Inizia con l'estensione Gestione fattura QR
 
 L'estensione Gestione fattura QR è inclusa e installata automaticamente in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Per iniziare con l'estensione, è necessario apportare alcune modifiche alla configurazione [!INCLUDE[prod_short](../../includes/prod_short.md)]. Un modo semplice per eseguire questa operazione è scegliere l'![icona a forma di lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup fattura QR**, quindi seleziona il collegamento correlato. La guida ti aiuta a inserire informazioni, come:
 
@@ -45,13 +45,13 @@ Il flusso è simile alla precedente funzionalità di riferimento ESR che le fatt
 
 Per i riferimenti ESR è possibile configurare informazioni, ad esempio, in modo che includano il numero cliente e il numero di fattura. Non è possibile configurare il riferimento di pagamento nelle fatture QR. Ci sarà sempre una relazione 1: 1 tra una fattura QR emessa e un pagamento, il che semplifica la riconciliazione ed elimina la necessità di configurare il riferimento di pagamento sulle fatture QR. Pertanto, [!INCLUDE[prod_short](../../includes/prod_short.md)] utilizza un contatore univoco per il riferimento di pagamento.  Inoltre, è in atto la logica per bloccare due volte l'importazione o la scansione dello stesso riferimento di pagamento.
 
-### <a name="a-nameformatsaformats-for-qr-references-and-creditor-references" /><a name="formats"></a>Formati per riferimenti QR e riferimenti creditori
+### <a name="formats-for-qr-references-and-creditor-references" /><a name="formats"></a>Formati per riferimenti QR e riferimenti creditori
 
 Il riferimento QR è composto da 26 posizioni numeriche più una cifra di controllo.  
 
 Il riferimento creditore ISO (ISO 11649) consente al creditore di effettuare confronti automatici tra le proprie fatture e i pagamenti in entrata. Deve includere il valore *SC* in posizione 1-2 e un carattere di test corretto in posizione 3-4 e può includere fino a un massimo di 25 caratteri.  
 
-## <a name="a-namemultiplebankaccountsausing-multiple-bank-accounts-as-issuers-of-qr-bills" /><a name="multiplebankaccounts"></a>Utilizzo di più conti bancari per emettere fatture QR
+## <a name="using-multiple-bank-accounts-as-issuers-of-qr-bills" /><a name="multiplebankaccounts"></a>Utilizzo di più conti bancari per emettere fatture QR
 
 Coloro che emettono fatture QR possono utilizzare più conti bancari per instradare i pagamenti su conti bancari diversi. Questo è legato al metodo di pagamento in cui specifichi il **Nr. conto bancario fattura QR** Quando specificato, le informazioni IBAN/QR-IBAN di questo conto bancario verranno utilizzate sulle fatture QR che utilizzano il metodo di pagamento indicato. In questo modo puoi indirizzare i pagamenti in entrata sul conto bancario desiderato. Se non utilizzi più conti bancari e specifichi il **numero di conto bancario fattura QR** sulla scheda **Metodi di pagamento**, le informazioni QR-IBAN/IBAN dalla pagina **Informazioni società** vengono utilizzate sulle fatture QR. Assicurati di aver impostato almeno le informazioni del tuo conto bancario principale. Per ulteriori informazion, vedi [Impostare i conti correnti bancari](../../bank-how-setup-bank-accounts.md).
 

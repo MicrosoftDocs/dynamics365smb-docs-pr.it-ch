@@ -22,7 +22,7 @@ ms.search.form: '2500, 20350'
 
 Per utilizzare un'estensione, devi disporre dei set di autorizzazioni fornito con essa.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Installare un'estensione
+## <a name="install-an-extension" /><a name="install"></a>Installare un'estensione
 
 Le app e le estensioni vengono gestite nella pagina **Gestione estensioni**. È possibile accedere a questa pagina dalla home page. In alternativa scegli l'icona **Cerca pagina o report** ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") nell'angolo in alto a destra, inserisci **Estensione**, quindi scegli il collegamento correlato.  
 
@@ -103,7 +103,7 @@ Per impostazione predefinita, quando disinstalli un'app che hai utilizzato, i tu
 [Estensioni per [!INCLUDE[prod_short](includes/prod_short.md)] fornite da altri provider](ui-extensions-other.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
