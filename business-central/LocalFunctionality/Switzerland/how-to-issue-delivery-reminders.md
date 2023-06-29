@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="issue-delivery-reminders-in-the-swiss-version"></a>Emettere solleciti di consegna nella versione svizzera
+# <a name="issue-delivery-reminders-in-the-swiss-version"></a><a name="issue-delivery-reminders-in-the-swiss-version"></a>Emettere solleciti di consegna nella versione svizzera
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)]
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Stampare report di test per i solleciti di consegna](how-to-print-test-reports-for-delivery-reminders.md)  
 [Solleciti consegna](delivery-reminders.md)  
