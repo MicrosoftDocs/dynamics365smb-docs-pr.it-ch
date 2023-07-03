@@ -996,10 +996,11 @@
 ##### [Eliminazione di note di credito e fatture registrate](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
 ### India
-#### [Sintesi](LocalFunctionality/India/india-local-functionality.md)
+#### [Panoramica](LocalFunctionality/India/india-local-functionality.md)
 #### [Impostare le serie di numeri di posta](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Log di modifica e audit trail per il software per la contabilità in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Motore imposte
-##### [Sintesi](LocalFunctionality/India/TaxEngine-001-Overview.md)  
+##### [Panoramica](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configurazione di esportazione/importazione del motore imposte](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
 ##### Configurazione del motore imposte
 ###### [Configurazione del tipo di imposta e dell'aliquota fiscale](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
