@@ -13,7 +13,7 @@ Per creare i solleciti di consegna è necessario impostare quanto segue:
 
 Ogni termine di sollecito di consegna ha due o più livelli di sollecito di consegna e per ogni livello di sollecito di consegna è possibile specificare il testo che fa parte del sollecito di consegna.  
 
-## <a name="to-set-up-delivery-reminder-terms"></a><a name="to-set-up-delivery-reminder-terms"></a>Per impostare i termini di sollecito di consegna
+## <a name="to-set-up-delivery-reminder-terms"></a><a name="to-set-up-delivery-reminder-terms"></a><a name="to-set-up-delivery-reminder-terms"></a>Per impostare i termini di sollecito di consegna
 
 1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Termini solleciti di consegna**, quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -27,7 +27,7 @@ Ogni termine di sollecito di consegna ha due o più livelli di sollecito di cons
 
 4. Scegliere il pulsante **OK**.  
 
-## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a><a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>Per aggiungere livelli di sollecito di consegna a un termine di sollecito di consegna
+## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a><a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a><a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>Per aggiungere livelli di sollecito di consegna a un termine di sollecito di consegna
 
 1. Nella pagina **Termini di sollecito di consegna** selezionare il termine di sollecito di consegna per cui si desidera impostare i livelli e scegliere l'azione **Livelli**.  
 2. Scegliere l'azione **Nuovo**.  
@@ -44,7 +44,7 @@ Per ciascun livello di sollecito di consegna è possibile definire messaggi di t
 
 La procedura seguente descrive come impostare i messaggi di testo iniziali, ma gli stessi passaggi si applicano per impostare i messaggi di testo finali.  
 
-## <a name="to-set-up-delivery-reminder-text-messages"></a><a name="to-set-up-delivery-reminder-text-messages"></a>Per impostare i messaggi di testo di sollecito di consegna
+## <a name="to-set-up-delivery-reminder-text-messages"></a><a name="to-set-up-delivery-reminder-text-messages"></a><a name="to-set-up-delivery-reminder-text-messages"></a>Per impostare i messaggi di testo di sollecito di consegna
 
 1. Nella pagina **Livelli del sollecito di consegna** selezionare un livello e scegliere l'azione **Testo iniziale**.  
 2. Scegliere l'azione **Nuovo**.  

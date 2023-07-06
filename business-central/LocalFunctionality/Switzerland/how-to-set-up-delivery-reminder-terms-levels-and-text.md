@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a><a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Impostare termini, livelli e testo dei solleciti di consegna nella versione svizzera
+# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a><a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a><a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Impostare termini, livelli e testo dei solleciti di consegna nella versione svizzera
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Solleciti consegna](delivery-reminders.md)  
 [Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md)  
