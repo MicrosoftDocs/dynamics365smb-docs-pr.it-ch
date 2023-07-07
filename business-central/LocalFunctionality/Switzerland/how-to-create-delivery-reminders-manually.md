@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="create-delivery-reminders-manually-in-the-swiss-version"></a><a name="create-delivery-reminders-manually-in-the-swiss-version"></a><a name="create-delivery-reminders-manually-in-the-swiss-version"></a>Creare solleciti di consegna manualmente nella versione svizzera
+# <a name="create-delivery-reminders-manually-in-the-swiss-version"></a>Creare solleciti di consegna manualmente nella versione svizzera
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Solleciti consegna](delivery-reminders.md)  
 [Generare solleciti di consegna](how-to-generate-delivery-reminders.md)  

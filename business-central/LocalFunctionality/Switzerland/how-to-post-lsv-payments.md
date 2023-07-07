@@ -11,10 +11,10 @@ ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="post-lsv-payments"></a><a name="post-lsv-payments"></a><a name="post-lsv-payments"></a>Registrare pagamenti LSV+
+# <a name="post-lsv-payments"></a>Registrare pagamenti LSV+
 È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (Lastschrift Verfahren) dalla banca.  
 
-## <a name="to-post-lsv-payments"></a><a name="to-post-lsv-payments"></a><a name="to-post-lsv-payments"></a>Registrare pagamenti LSV+
+## <a name="to-post-lsv-payments"></a>Registrare pagamenti LSV+
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Registrazioni incassi**, quindi selezionare il collegamento correlato.  
 2.  Selezionare le registrazioni richieste, quindi scegliere l'azione **Modifica registrazioni**.  
@@ -36,7 +36,7 @@ ms.author: edupont
 
 6.  Scegliere l'azione **Registra**.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
  [Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Elaborare una riscossione LSV](how-to-process-an-lsv-collection.md)   
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   

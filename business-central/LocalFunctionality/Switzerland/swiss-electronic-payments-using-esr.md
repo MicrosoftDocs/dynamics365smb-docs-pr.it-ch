@@ -11,7 +11,7 @@ ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a><a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a><a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a>Pagamenti elettronici svizzeri tramite ESR nella versione per la Svizzera
+# <a name="swiss-electronic-payments-using-esr-in-the-swiss-version"></a>Pagamenti elettronici svizzeri tramite ESR nella versione per la Svizzera
 Il metodo di pagamento elettronico ESR (polizza di versamento con numero di riferimento, in tedesco ESR, Einzahlungsschein mit Referenznummer) è un servizio debitori elettronico che consente al cliente di fatturare fatture aperte in franchi svizzeri (CHF) ed euro (EUR) e di registrare pagamenti in entrata in modo efficiente. Il numero di riferimento, o riga di codice, contiene tutti i dati contabili rilevanti.  
 
 Con i pagamenti elettronici ESR è possibile effettuare le seguenti operazioni:  
@@ -33,7 +33,7 @@ Quando si impostano le numerazioni per le fatture, è necessario seguire queste 
 - Usare solo caratteri numerici.  
 - Non anteporre zero ai numeri.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
  [Pagamenti elettronici svizzeri](swiss-electronic-payments.md)   
  [Stampare fatture ESR](how-to-print-esr-invoices.md)   
  [Importare i pagamenti ESR](how-to-import-esr-payments.md)   
