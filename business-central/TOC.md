@@ -106,9 +106,9 @@
 ##### [Panoramica della riga registrazioni COGE](design-details-general-journal-post-line-overview.md)  
 ##### [Dettagli di progettazione: struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)  
 ##### [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)  
-
-## Versione di valutazione
-### [Iscrizione a una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)
+#### [Dettagli di progettazione: IVA non deducibile](design-details-nondeductible-vat.md)
+## Prova
+### [Iscrizione per una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)
 ### [Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central](trial-faq.md)
 ### [Versioni di valutazione e sottoscrizioni (solo inglese)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Preparazione al business](ui-get-ready-business.md)
