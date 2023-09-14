@@ -1,19 +1,19 @@
 ---
 title: 'Procedura: Importare codici postali svizzeri [CH]'
 description: È possibile importare l'ultimo file di codice postale svizzero e utilizzarlo per aggiornare la tabella NPA per definire i numeri postali di avviamento per clienti o fornitori.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/21/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="import-swiss-post-codes-in-the-swiss-version"></a>Importare i numeri postali di avviamento svizzeri nella versione per la Svizzera
+# Importare i numeri postali di avviamento svizzeri nella versione per la Svizzera
 È possibile importare l'ultimo file di codice postale e utilizzarlo per aggiornare la tabella **CAP**. Il file di codice postale può essere scaricato dal sito Web dei [codici postali svizzeri](https://go.microsoft.com/fwlink/?LinkId=150292). Dopo l'importazione del codice postale più recente, è possibile definire i codici postali per i clienti o i fornitori. Per ulteriori informazioni, vedere [Registrare nuovi fornitori](../../purchasing-how-register-new-vendors.md).  
 
-## <a name="to-import-post-codes"></a>Per importare i codici postali
+## Per importare i codici postali  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **NPA**, quindi selezionare il collegamento correlato.  
 2.  Selezionare l'azione **Importa codici postali**.  
@@ -24,7 +24,7 @@ ms.author: edupont
 
 Di seguito viene descritto come definire i codici postali per i clienti, ma gli stessi passaggi si applicano anche per definire i codici postali per i fornitori.  
 
-## <a name="to-define-post-codes-for-customers"></a>Per definire i codici postali per i clienti
+## Per definire i codici postali per i clienti  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Clienti**, quindi selezionare il collegamento correlato.  
 2.  Selezionare il cliente per cui definire un codice postale, quindi scegliere l'azione **Modifica**.  
@@ -35,7 +35,7 @@ Di seguito viene descritto come definire i codici postali per i clienti, ma gli 
 
 4.  Scegliere il pulsante **OK**.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche   
  [Documenti di acquisto e di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md)   
  [Stampare una lista prelievi magazzino da un ordine di vendita](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Registrare nuovi fornitori](../../purchasing-how-register-new-vendors.md)  

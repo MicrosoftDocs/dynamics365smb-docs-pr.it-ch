@@ -5,28 +5,28 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 06/15/2023
+ms.date: 08/25/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Funzionalità nuove e pianificate per Dynamics 365 Business Central
+# Funzionalità nuove e pianificate per Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
 Il seguente elenco fornisce informazioni sulle ultime versioni di [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-* [2023 rilascia l'ondata 1](/dynamics365/release-plans/)
-* [2022 rilascia l'ondata 2](/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features)  
+* [2023 rilascia l'ondata 2](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features)
+* [2023 rilascia l'ondata 1](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features)
 
 È consigliabile visitare il sito [Funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) e il sito [Roadmap di Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/).  
 
 Scopri come [!INCLUDE [prod_short](includes/prod_short.md)] online riceve i prossimi aggiornamenti su [Aggiornamenti principali e aggiornamenti minori](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (solo in inglese).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ricevere una notifica sulle modifiche tramite un feed RSS
+## Ricevere una notifica sulle modifiche tramite un feed RSS
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Visitare la videoteca](across-videos.md)  
 [Risorse per guida e supporto](product-help-and-support.md)  

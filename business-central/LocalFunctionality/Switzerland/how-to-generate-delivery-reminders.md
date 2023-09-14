@@ -1,20 +1,20 @@
 ---
 title: 'Come generare solleciti di consegna [CH]'
 description: 'In Business Central, è possibile generare solleciti di consegna per tutte le consegne scadute oppure è possibile creare un singolo sollecito di consegna manualmente.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/21/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="generate-delivery-reminders-in-the-swiss-version"></a>Generare solleciti di consegna nella versione svizzera
+# Generare solleciti di consegna nella versione svizzera
 
 [!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Creare solleciti di consegna manualmente](how-to-create-delivery-reminders-manually.md)  
 [Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md)  
