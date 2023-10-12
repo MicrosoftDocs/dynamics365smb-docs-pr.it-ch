@@ -3,7 +3,7 @@ title: Risoluzione dei problemi di sincronizzazione tra Shopify Business Central
 description: Scopri cosa fare in caso di errore durante la sincronizzazione dei dati tra Shopify e Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
@@ -20,31 +20,41 @@ ms.search.form: '30118, 30119, 30120, 30101, 30102'
 2. Seleziona il punto vendita per il quale desideri risolvere i problemi per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Disattiva l'opzione **Consenti sincronizzazioni in background**.
 
-Ora, quando viene attivata l'azione di sincronizzazione, l'attività verrà eseguita in primo piano. Se si verifica un errore, viene visualizzata una finestra di dialogo di errore con un collegamento **Copia dettagli**. Utilizza il collegamento per copiare informazioni in un editor di testo per ulteriori analisi.
+Quando viene attivata l'azione di sincronizzazione, l'attività viene eseguita in primo piano. Se si verifica un errore, viene visualizzata una finestra di dialogo di errore con un collegamento **Copia dettagli**. Utilizza il collegamento per copiare informazioni in un editor di testo per ulteriori analisi.
 
 ## Log
 
-Se un'attività di sincronizzazione non riesce, puoi attivare l'interruttore **Registro abilitato** nella pagina **Scheda punto vendita Shopify** per attivare la registrazione. Quindi attiva manualmente l'attività di sincronizzazione e rivedi i log.
+Le funzionalità di registrazione possono semplificare l'identificazione del motivo per cui si è verificato un errore. Nella pagina **Scheda punto vendita Shopify**, nel campo **Modalità di registrazione**, puoi specificare il livello di dettagli che desideri acquisire sugli errori. Il campo fornisce le seguenti opzioni:
 
-### Per abilitare la registrazione
+- **Disabilitato**  - Non vengono registrate informazioni sugli errori.
+- **Solo errore** - Viene registrato solo il messaggio di errore, senza le coppie richiesta/risposta. Questa è l'impostazione di default per i nuovi punti vendita.
+- **Tutto** - Vengono registrate le coppie richiesta/risposta per tutte le transazioni, comprese quelle andate a buon fine.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
-2. Seleziona il punto vendita per il quale desideri risolvere i problemi per l'apertura della pagina **Scheda del punto vendita Shopify**.
-3. Abilita l'interruttore **Log abilitato**.
+> [!NOTE]
+> La registrazione continua degli errori può rallentare [!INCLUDE [prod_short](../includes/prod_short.md)]. Per evitare ciò, puoi attivare la registrazione dopo aver trovato un errore nella sincronizzazione. Puoi attivare nuovamente manualmente la sincronizzazione e quindi esaminare il log per scoprire cosa è andato storto.
 
-### Per esaminare i registri
+### Gestire i dati dei movimenti log
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Movimenti di registri Shopify**, quindi scegli il collegamento correlato.
-2. Seleziona la voce di registro correlata e apri la pagina **Voce di registro Shopify**.
-3. Esamina la richiesta, il codice di stato e la descrizione e i valori di risposta. È possibile scaricare i valori di richiesta e risposta come file in un formato di testo.
+Per mantenere sotto controllo le dimensioni del database, i criteri di conservazione di dati denominati **Movimento log Shopify** includono movimenti log. I criteri di conservazione ti consentono di specificare per quanto tempo desideri archiviare differenti tipi di dati. Per impostazione predefinita, i movimenti log di Shopify vengono conservati per un mese. Per altre informazioni sui criteri di conservazione, vai a [Definire i criteri di conservazione](../admin-data-retention-policies.md).
 
-Quindi ricordati di disattivare la registrazione per evitare un effetto negativo sulle prestazioni e aumentare le dimensioni del database.
+Inoltre, nella pagina **Movimenti log Shopify**, puoi eliminare tutti i movimenti log o solo quelli più vecchi di sette giorni.
 
-Dalla pagina **Voci di registro Shopify**, è possibile attivare l'eliminazione di tutte le voci di registro o di quelle più vecchie di sette giorni.
+### Per esaminare i log
+
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Movimenti log Shopify**, quindi scegli il collegamento correlato.
+2. Seleziona il movimento log correlato e apri la pagina **Movimento log Shopify**.
+3. Esamina la richiesta, il codice di stato e la descrizione e i valori di risposta.
+
+> [!TIP]
+> Se devi contattare il servizio di assistenza di Shopify per assistenza nella risoluzione dei problemi, annota le informazioni nel campo **ID richiesta**. Tali informazioni possono aiutare il servizio di assistenza a risolvere il problema più rapidamente.
+
+È possibile scaricare i valori di richiesta e risposta come file in un formato di testo.
+
+Per evitare effetti negativi sulle prestazioni e sulle dimensioni del database, prendi in considerazione la disattivazione della registrazione.
 
 ## Acquisizione dati
 
-Indipendentemente dal fatto che **Registro attivato** sia attivato, alcune risposte Shopify vengono sempre registrate. Puoi ispezionare o scaricare i registri dalla pagina **Lista acquisizione dati**.
+Indipendentemente dall'attivazione o meno della registrazione, alcune risposte Shopify vengono sempre registrate. Puoi ispezionare o scaricare i log dalla pagina **Lista acquisizione dati**.
 
 Scegli l'azione **Dati Shopify recuperati** in una delle seguenti pagine:
 
@@ -71,18 +81,18 @@ Questa funzione si applica solo alle sincronizzazioni da Shopify a [!INCLUDE[pro
 
 Se [!INCLUDE[prod_short](../includes/prod_short.md)] non si connette al tuo account Shopify, prova a richiedere il token di accesso da Shopify. Potrebbe essere necessario richiedere un nuovo token se sono state apportate modifiche alle chiavi di sicurezza o alle autorizzazioni richieste (ambiti di applicazione).
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri recuperare il token di accesso per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegli l'azione **Richiedi accesso**.
 4. Se richiesto, accedi al tuo account Shopify.
 
-L'interruttore **Con chiave di accesso** verrà attivato.
+L'interuttore **Con chiave di accesso** è attivato.
 
 ## Verifica e abilita le autorizzazioni per effettuare richieste HTTP in un ambiente non di produzione
 
-Per funzionare correttamente, l'estensione connettore Shopify richiede l'autorizzazione per effettuare richieste HTTP. Durante il test nel sandbox, le richieste HTTP sono vietate per tutte le estensioni.
+Per funzionare correttamente, l'estensione connettore Shopify richiede l'autorizzazione per effettuare richieste HTTP. Le richieste HTTP sono vietate per tutte le estensioni durante l'esecuzione di test nell'ambiente sandbox.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Gestione estensioni**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Gestione estensioni**, quindi scegli il collegamento correlato.
 2. Seleziona l'estensione **Connettore Shopify**.
 3. Scegli l'azione **Configura** per aprire la pagina **Impostazione estensione**.
 4. Assicurati che l'interruttore **Consenti richieste HTTPClient** sia abilitato.
@@ -142,7 +152,11 @@ Sembra che usi l'[app Embed](/dynamics365/business-central/dev-itpro/deployment/
 
 ### Errore: errore interno. A quanto pare si è verificato un errore. ID richiesta: XXXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
-Contatta l'assistenza di Shopify entro 7 giorni dal verificarsi di questo errore e fornisci l'ID richiesta. Per saperne di più, vai a [Opzioni di supporto per Shopify](shopify-faq.md#shopify).
+Contatta il servizio di assistenza di Shopify entro sette giorni dal verificarsi di questo errore e fornisci l'ID richiesta. Per saperne di più, vai a [Opzioni di supporto per Shopify](shopify-faq.md#shopify).
+
+### Errore: errore Oauth invalid_request: il tuo account non dispone dell'autorizzazione per concedere l'accesso richiesto per questa app. 
+
+Sembra che l'utente che richiede l'accesso non abbia i diritti per gestire le app (capacità di gestire e installare app e canali, nonché potenzialmente approvare gli addebiti delle app). Potresti riuscire a risolvere questo problema installando l'app come proprietario dell'account. In alternativa puoi controllare le **Autorizzazioni dell'app** per l'utente nelle impostazioni [**Utente e autorizzazioni**](https://www.shopify.com/admin/settings/account) in **Amministrazione Shopify**.  
 
 ## Vedere anche
 

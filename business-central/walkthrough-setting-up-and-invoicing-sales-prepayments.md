@@ -127,7 +127,7 @@ Crea quindi la fattura di pagamento anticipato e la invia al cliente
     |**Articolo**|**1896-S**|**1**|  
     |**Articolo**|**1900-S**|**1**|
 
-    I campi del pagamento anticipato nella riga di vendita sono nascosti per default. Per visualizzare i campi è necessario personalizzare la pagina. Per ulteriori informazioni, vedere [Per avviare la personalizzazione di una pagina tramite il banner Personalizzazione](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+    I campi del pagamento anticipato nella riga di vendita sono nascosti per default. Per visualizzare i campi è necessario personalizzare la pagina. Per ulteriori informazioni, vedere [Per avviare la personalizzazione di una pagina tramite il banner Personalizzazione](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 6. Verificare che il campo **% pagamento anticipato** sulla riga dell'articolo **1900-S** contenga **30**. Il valore di default è stato copiato dalla testata di vendita, popolata dalla scheda cliente.  
 
@@ -235,13 +235,11 @@ Inoltre, è stata registrata una fattura di pagamento anticipato, creata una fat
 
 Le funzionalità di pagamento anticipato semplificano l'impostazione e l'applicazione delle regole di pagamento anticipato per clienti e articoli. Ti consentono anche di registrare ogni pagamento per una fattura.  
 
-## Vedi il relativo [training Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
-[Finanze](finance.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dati finanziari](finance.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
 
 

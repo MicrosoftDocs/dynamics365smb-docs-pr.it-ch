@@ -31,7 +31,7 @@ Se crei:
 Dopo aver creato un modello, è possibile utilizzare l'azione **Applica modello** per applicarlo a uno o più clienti selezionati. Per creare un modello, compila le informazioni che si vogliono riutilizzare nella pagina della **Scheda cliente**, e poi si salva come modello. Ulteriori informazioni nella sezione [Per salvare la scheda cliente come modello](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
-> Può essere utile personalizzare la pagina **Modello cliente** quando si crea un modello. Per esempio, si potrebbe voler aggiungere il campo **Limite di credito** a un modello. Ulteriori informazioni nella sezione [Personalizza l'area di lavoro](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Può essere utile personalizzare la pagina **Modello cliente** quando si crea un modello. Per esempio, si potrebbe voler aggiungere il campo **Limite di credito** a un modello. Ulteriori informazioni nella sezione [Personalizza l'area di lavoro](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode).
 
 Puoi anche creare un cliente da un contatto. Ulteriori informazioni nella sezione [Creare un cliente, un fornitore, un dipendente o un conto bancario da un contatto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
@@ -81,8 +81,6 @@ Il campo **Limite credito** in una scheda cliente specifica l'importo massimo ch
     |**Limite credito**|Il valore contenuto nel campo **Limite credito** della scheda del cliente viene confrontato con il saldo del cliente e viene visualizzato un avviso che informa se il saldo del cliente supera questo importo.|
     |**Oltre Fido**|Il campo **Oltre fido** viene controllato e viene visualizzato un avviso che informa se il cliente ha un oltre fido.|
     |**Nessun Avviso**|Nessun avviso di credito viene visualizzato sullo stato del cliente.|
-
-## Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## Vedere anche
 

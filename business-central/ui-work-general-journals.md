@@ -224,12 +224,10 @@ La procedura riportata di seguito è basata sulla pagina **Registrazione COGE**,
 
 I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo che il numero del documento nelle righe registrazioni singole o raggruppate seguano un ordine sequenziale. Dopo la rinumerazione dei documenti, è possibile contabilizzare le registrazioni.
 
-## Vedi il relativo [training Microsoft](/training/paths/use-journals-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
-[Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md)  
+[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Allocazione di costi e ricavi](year-allocate-costs-income.md)  
 [Finanze](finance.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

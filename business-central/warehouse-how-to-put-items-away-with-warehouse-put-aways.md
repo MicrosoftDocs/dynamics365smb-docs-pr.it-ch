@@ -3,10 +3,10 @@ title: Come stoccare articoli con gli stoccaggi warehouse
 description: Informazioni sui diversi modi per utilizzare gli stoccaggi warehouse per stoccare gli articoli ricevuti.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/24/2023
+ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
@@ -43,6 +43,8 @@ La valutazione collocazione viene usata quando più collocazioni soddisfano i cr
 
 ## Per creare documenti di stoccaggio in blocco con i prospetti stoccaggi  
 
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
+
 È possibile creare documenti di stoccaggio per più carichi contemporaneamente nella pagina **Prospetto stoccaggi**.  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetti stoccaggi**, quindi scegli il collegamento correlato.  
@@ -69,7 +71,7 @@ La valutazione collocazione viene usata quando più collocazioni soddisfano i cr
 
     * È possibile assegnare lo stoccaggio a un addetto al magazzino specifico.  
     * È possibile ordinare le righe delle istruzioni di stoccaggio in base agli stessi criteri di ordinamento utilizzati nel prospetto o in base alla valutazione collocazione. Quando esegui l'ordinamento in base alla valutazione collocazione, le righe *Prendere* appaiono per prime, poiché la maggior parte delle collocazioni di carico ha una valutazione collocazione pari a 0. Le righe *Mettere* appaiono per ultime, a partire dalle collocazioni con la valutazione più bassa. Se la warehouse è stata strutturata in modo che le collocazioni con valutazione simile siano posizionate l'una accanto all'altra, questa modalità di ordinamento delle righe comporta una semplificazione delle operazioni che gli addetti warehouse dovranno eseguire.  
-    * È possibile scegliere di non includere le righe create da [!INCLUDE[prod_short](includes/prod_short.md)]] durante la conversione di un'unità di misura di grande dimensione in unità di misura più piccole selezionando il campo **Impostare filtro breakbulk**. Per ulteriori informazioni su breakbulk, vedi [Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    * Puoi scegliere di non includere le righe create da [!INCLUDE [prod_short](includes/prod_short.md)] durante la conversione di un'unità di misura di grande dimensione in unità di misura più piccole selezionando il campo **Impostare filtro breakbulk**. Per ulteriori informazioni su breakbulk, vedi [Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     * È possibile scegliere che il campo **Qtà da gestire** non venga compilato automaticamente nelle istruzioni di stoccaggio.  
     * È possibile scegliere di stampare il documento immediatamente.  
 
@@ -111,8 +113,6 @@ Se un'ubicazione è impostata per l'elaborazione degli stoccaggi e dei carichi e
     > Se è necessario inserire gli articoli relativi a una riga in più collocazioni, ad esempio perché la collocazione designata è piena, utilizza l'azione **Dividi riga** della Scheda dettaglio **Righe**. L'azione crea una riga per la quantità rimanente da gestire.
 
 5. Una volta posizionati tutti gli articoli nelle collocazioni, come indicato nelle istruzioni, scegliere l'azione **Registra stoccaggio**.  
-
-## Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
 
 ## Vedere anche
 

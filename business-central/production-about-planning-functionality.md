@@ -1,14 +1,13 @@
 ---
 title: Informazioni sulla funzionalità di pianificazione
-description: 'La pianificazione considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l''approvvigionamento in modo da soddisfare la domanda.'
+description: Scopri come la pianificazione utilizza i dati di domanda e offerta per suggerire come bilanciare l'offerta per soddisfare la domanda.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 5430
-ms.date: 08/30/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.form: '5430,'
+ms.date: 09/19/2023
+ms.custom: bap-template
 ---
 # Informazioni sulla funzionalità di pianificazione
 
@@ -19,11 +18,11 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Pianificazione ap
 > [!NOTE]  
 > Per tutti i campi citati in questo argomento, leggere la descrizione comando per comprenderne la funzione. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Domanda e approvvigionamento
+## Domanda e offerta
 
-La pianificazione è costituita da due elementi, la domanda e l'approvvigionamento. Tali elementi devono essere proporzionati uno all'altro per assicurare che la domanda sia soddisfatta in modo tempestivo ed economicamente vantaggioso.  
+La pianificazione è costituita da due elementi, la domanda e l'approvvigionamento. Questi devono bilanciarsi per garantire che la domanda sia soddisfatta.  
 
-- Domanda è il termine comune utilizzato per qualsiasi fabbisogno lordo quale un ordine di vendita, un ordine di assistenza, un componente necessario da un assemblaggio o ordine di produzione, un trasferimento in uscita, un ordine programmato o una previsione. Oltre a questi, l'applicazione supporta altri tipi tecnici di domanda, ad esempio una produzione negativa o un ordine di acquisto, una giacenza negativa e un reso di acquisto.  
+- La domanda è un qualsiasi fabbisogno lordo quale un ordine di vendita, un ordine di assistenza o un componente necessario per ordini di produzione o assemblaggio, un trasferimento in uscita, un ordine programmato o una previsione. Inoltre, vi sono altri tipi tecnici di domanda, ad esempio una produzione negativa o un ordine di acquisto, una giacenza negativa e un reso di acquisto.  
 - L'approvvigionamento si riferisce a qualsiasi tipo di rifornimento, quale magazzino, ordine di acquisto, ordine di assemblaggio, ordine di produzione o trasferimento in entrata. In modo analogo, può essere presente un ordine di vendita o di assistenza negativo oppure un componente necessario o un reso vendite negativo, che rappresentano un tipo di approvvigionamento.  
 
 Un altro obiettivo del sistema di pianificazione consiste nel garantire che il magazzino non aumenti in modo superfluo. Nel caso di un calo della domanda, verrà suggerito dal sistema di pianificazione di rimandare, ridurre in quantità o annullare gli ordini di rifornimento esistenti.  
@@ -39,7 +38,7 @@ Le base della procedura di pianificazione consiste nel calcolo del fabbisogno da
 
 ## Pianificazione con ordini di trasferimento manuali
 
-Come indicato nel campo **Sistema di Rifornimento** in una scheda USK, è possibile impostare il sistema di pianificazione in modo da creare ordini di trasferimento per bilanciare l'approvvigionamento e la domanda tra le ubicazioni.  
+Nel campo **Sistema di Rifornimento** in una scheda SKU, puoi impostare il sistema di pianificazione per creare ordini di trasferimento per bilanciare l'approvvigionamento e la domanda tra le ubicazioni.  
 
 Oltre a tali ordini di trasferimento automatici, è possibile che in alcuni casi sia necessario eseguire uno spostamento generale delle quantità di magazzino in un'altra ubicazione, indipendentemente dalla domanda esistente. A tale scopo, è necessario creare manualmente un ordine di trasferimento per la quantità da spostare. Per evitare che tale ordine di trasferimento manuale venga manipolato dal sistema di pianificazione, impostare **Flessibilità pianificazione** nelle righe di trasferimento su Nessuna.  
 
@@ -84,9 +83,9 @@ I campi di setup di pianificazione globale nella pagina **Setup manufacturing** 
 - Periodo di stabilizzazione di default  
 - Quantità di smorzamento di default  
 
-Per ulteriori informazioni, vedere [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
+Per ulteriori informazioni, vedi [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
 
-## Altri campi di pianificazione rilevanti
+## Altri campi di pianificazione importanti
 
 ### Flessibilità pianificazione
 
@@ -126,7 +125,7 @@ Intaccare il livello di scorta di sicurezza è considerata un'eccezione perché 
 
 ### Attenzione
 
-L'avviso di attenzione è visualizzato in due situazioni:
+L'avviso Attenzione è visualizzato in due situazioni:
 
 - La data di inizio pianificazione precede la data di lavoro.
 - La riga di pianificazione suggerisce di cambiare un ordine di acquisto o di produzione rilasciato.
@@ -137,6 +136,8 @@ L'avviso di attenzione è visualizzato in due situazioni:
 ## Prospetti pianificazione e richieste di approvvigionamento
 
 Come descritto in [Pianificazione](production-planning.md), è possibile scegliere tra due fogli di lavoro per la maggior parte delle attività di pianificazione, il prospetto pianificazione e la richiesta di approvvigionamento. La maggior parte dei processi viene descritta in base al prospetto pianificazione, ma esistono un paio di scenari in cui è preferibile la richiesta di approvvigionamento.
+
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
 ### Richiesta di approvvigionamento
 
@@ -159,11 +160,9 @@ Per dettagli sulla pianificazione con posizioni e trasferimenti, vedere [Pianifi
 > [!TIP]
 > Quando lavori nelle pagina **Richiesta di approvvigionamento** o **Prospetto pianificazione**, puoi organizzare le righe ordinandole in base al nome di una colonna. Ciò è particolarmente utile nella pagina Prospetto pianificazione perché può essere utilizzato per ordini di produzione multilivello. Per impostazione predefinita, le righe sono ordinate in base al campo **Nr. articolo**. Per raggruppare le righe per un ordine multilivello, ordina in base al campo **Nr. ordine rif.** . Anche i campi **Ordine MPS** e **Livello pianificazione** possono aiutare a mostrare la gerarchia delle righe.
 
-## Vedi il relativo [training Microsoft](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Vedere anche
 
-[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
+[Dettagli di progettazione: pianificazione approvvigionamento](design-details-supply-planning.md)  
 [Pianif.](production-planning.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

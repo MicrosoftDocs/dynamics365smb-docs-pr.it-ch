@@ -142,7 +142,7 @@ Puoi importare i profili che sono stati esportati da [!INCLUDE[prod_short](inclu
 
 L'utente visualizzerà le modifiche all'accesso successivo.
 
-È anche possibile eliminare tutte le personalizzazioni di pagine per un profilo. Per ulteriori informazioni, vedere [Per eliminare tutte le personalizzazioni per un profilo](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
+È anche possibile eliminare tutte le personalizzazioni di pagine per un profilo. Per ulteriori informazioni, vedere [Per eliminare tutte le personalizzazioni per un profilo](ui-personalization-manage.md#delete-all-customizations-for-a-profile).
 
 ## Per eliminare le personalizzazioni per pagine specifiche
 
@@ -159,7 +159,7 @@ L'utente visualizzerà le modifiche all'accesso successivo.
 
 L'utente visualizzerà le modifiche dopo l'accesso successivo.  
 
-È anche possibile eliminare singole personalizzazioni di pagina per un profilo. Per ulteriori informazioni, vedere [Per eliminare la personalizzazione di specifiche pagine per un profilo](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+È anche possibile eliminare singole personalizzazioni di pagina per un profilo. Per ulteriori informazioni, vedere [Per eliminare la personalizzazione di specifiche pagine per un profilo](ui-personalization-manage.md#delete-customization-for-specific-pages-for-a-profile).
 
 ## Gestione delle sessioni utente
 
@@ -167,12 +167,10 @@ Come amministratore di [!INCLUDE[prod_short](includes/prod_short.md)] online, è
 
 Per [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, è possibile gestire le sessioni utilizzando, ad esempio, SQL Server Management Studio. Per ulteriori informazioni, vedere [Documentazione tecnica su SQL Server](/sql/sql-server).  
 
-## Vedi il relativo [training Microsoft](/training/modules/users-security-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
-[Personalizzare pagine per profili](ui-personalization-manage.md)  
+[Personalizzare le pagine per profili](ui-personalization-manage.md)  
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
 
 

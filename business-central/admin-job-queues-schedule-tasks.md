@@ -5,11 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 08/24/2023
+ms.date: 09/15/2023
 ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
 ---
-# Utilizzare le code processi per programmare i task
+# Usare le code processi per pianificare le attività
 
 Usa la pagina **Movimenti coda processi** per programmare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile eseguire il report **Venditore * Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino.
 
@@ -21,7 +21,7 @@ Nella pagina Movimenti coda processi sono elencati tutti i processi esistenti. S
 * Quando e con quale frequenza verrà eseguito il movimento coda processi.
 
 > [!IMPORTANT]  
-> Se hai il set di autorizzazioni SUPER assegnato con [!INCLUDE[prod_short](includes/prod_short.md)], disponi delle autorizzazioni per eseguire tutti gli oggetti inclusi nella licenza. Se hai il ruolo di amministratore con delega, puoi creare e pianificare i movimenti coda processi, ma solo gli amministratori e gli utenti con licenza possono eseguirli. Gli utenti con la licenza del dispositivo non possono creare o eseguire i movimenti coda processi.
+> Se hai il set di autorizzazioni SUPER assegnato con [!INCLUDE[prod_short](includes/prod_short.md)], disponi delle autorizzazioni per eseguire tutti gli oggetti inclusi nella licenza. Se hai il ruolo di amministratore con delega, puoi creare e pianificare i movimenti coda processi, ma solo gli amministratori e gli utenti con licenza possono eseguirli.
 
 Dopo la configurazione e l'esecuzione delle code processi, lo stato può cambiare come segue durante ogni periodo ricorrente:
 
@@ -36,6 +36,14 @@ Dopo la configurazione e l'esecuzione delle code processi, lo stato può cambiar
 > Lo stato **In sospeso a causa di inattività** è utilizzato principalmente per i movimenti della coda processi che pianificano la sincronizzazione tra [!INCLUDE [prod_short](includes/prod_short.md)] e un'altra applicazione, come [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Per ulteriori informazioni su questo stato, vedi [Informazioni sui timeout di inattività](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
 
 Dopo che un processo viene eseguito correttamente, viene rimosso dell'elenco dei movimenti coda processi a meno che non sia un processo ricorrente. Se è un processo ricorrente, il campo **Prima data/ora inizio** viene rettificato per mostrare la volta successiva in cui viene eseguito il processo.  
+
+## La prima data di inizio
+
+Il valore nel campo **Prima data/ora di inizio** nella pagina **Scheda movimento coda processi** mostra la prossima volta che il lavoro verrà eseguito. Esistono diversi fattori che possono influire sull'esecuzione effettiva di una voce della coda processi in quel momento.
+
+I fattori più comuni sono il numero di voci della coda di lavoro in un ambiente e il numero complessivo di attività pianificate. Per proteggere i livelli delle prestazioni, esistono limiti operativi. Se ci sono molte voci in coda e, ad esempio, una di esse fallisce o le voci richiedono più tempo del previsto, il lavoro successivo potrebbe non avviarsi all'ora prevista. Se disponi di codeunit che generano 100.000 o più attività pianificate, dovresti verificare se hai effettivamente bisogno di tutte quelle attività. È possibile accedere all'elenco di tutte le attività pianificate nella pagina **Attività pianificate**.
+
+Per ulteriori informazioni sul monitoraggio dello stato delle voci della coda dei lavori, vai a [Per visualizzare lo stato di qualsiasi processo](#to-view-status-for-any-job). Per ulteriori informazioni sui limiti operativi, vai a [Limiti delle attività asincrone](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
 
 ## Monitorare lo stato o gli errori nella coda processi
 

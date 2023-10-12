@@ -32,7 +32,7 @@ Puoi aggiungere nuovi venditori manualmente, compilando nella pagina **Scheda fo
 Dopo aver creato un modello, è possibile utilizzare l'azione **Applica modello** per applicarlo a uno o più fornitori selezionati. Per creare un modello, si compilano le informazioni che si vogliono riutilizzare nella pagina della **Scheda fornitore**, e poi si salva come modello. Ulteriori informazioni nella sezione [Salvare la pagina della scheda fornitore come modello](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
-> Può essere utile personalizzare la pagina **Modello fornitore** quando si crea un modello. Per esempio, potresti voler aggiungere un campo che non è già visualizzato nella pagina. Ulteriori informazioni nella sezione [Personalizza l'area di lavoro](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Può essere utile personalizzare la pagina **Modello fornitore** quando si crea un modello. Per esempio, potresti voler aggiungere un campo che non è già visualizzato nella pagina. Ulteriori informazioni nella sezione [Personalizza l'area di lavoro](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode).
 
 Puoi anche creare un fornitore da un contatto. Ulteriori informazioni nella sezione [Creare un cliente, un fornitore, un dipendente o un conto bancario da un contatto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
@@ -69,8 +69,6 @@ Puoi modificare le informazioni sulle carte dei venditori in qualsiasi momento. 
 4. Modificare o immettere i codici di dimensione da collegare alle nuove schede fornitore create utilizzando la definizione.
 5. Una volta completato il nuovo modello fornitore, scegli **OK**.  
    Il modello fornitore viene aggiunto all'elenco dei modelli fornitore, in modo che sia possibile utilizzarlo per creare nuove schede fornitore.
-
-## Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## Vedere anche
 

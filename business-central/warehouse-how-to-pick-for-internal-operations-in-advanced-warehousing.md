@@ -2,13 +2,12 @@
 title: Prelevare per le operazioni interne in configurazioni di warehouse avanzate
 description: 'Se le ubicazioni utilizzano il prelievo e la spedizione, preleva i componenti per le attività di produzione, assemblaggio e commessa nella pagina Prelievo warehouse.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 09/02/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 09/12/2023
+ms.custom: bap-template
 ---
 # Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate
 
@@ -54,6 +53,10 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 > È stata aggiunta la possibilità di selezionare i componenti per le righe di pianificazione commesse in [!INCLUDE[d365fin](includes/d365fin_md.md)] nel secondo ciclo di rilascio del 2022. Per iniziare a utilizzare la funzionalità, un amministratore deve attivare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
 >
 > Le commesse non supportano le configurazioni avanzate in cui l'interruttore **Prelievo e stoccaggio diretti** è attivato.
+
+## Controllare se gli articoli sono disponibili per il prelievo
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
@@ -167,11 +170,9 @@ Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione**
 
 :::image type="content" source="media/binflow.png" alt-text="Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.":::
 
-## Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
-
 ## Vedere anche
 
-[Magazzino](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)

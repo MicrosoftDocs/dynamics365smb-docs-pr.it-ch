@@ -49,7 +49,7 @@ Nella Scheda dettaglio **Numerazioni** è necessario specificare codici di ident
 
 La funzione **Storno esatto costo obblig.** aiuta a garantire che le merci restituite siano valutate allo stesso costo di quando erano state originariamente estratte dall'inventario, utilizzando un collegamento fisso invece di seguire un metodo di determinazione dei costi FIFO (first in, first-out). Scopri di più nella sezione [Dettagli di progettazione: Collegamento fisso](design-details-item-application.md#fixed-application). Se successivamente viene aggiunto un costo addizionale all'acquisto originale, il valore del reso da acquisto verrà automaticamente aggiornato.
 
-Con la funzione abilitata, una transazione di reso può essere registrata solo specificando il numero di movimento contabile dell'articolo nel campo **Collega-a mov. art.** nella riga dell'ordine di reso acquisto. Il campo non viene visualizzato per impostazione predefinita nella scheda dettaglio **Righe**. Scopri come aggiungere campi alle pagine nella sezione [Personalizzare l'area di lavoro](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+Con la funzione abilitata, una transazione di reso può essere registrata solo specificando il numero di movimento contabile dell'articolo nel campo **Collega-a mov. art.** nella riga dell'ordine di reso acquisto. Il campo non viene visualizzato per impostazione predefinita nella scheda dettaglio **Righe**. Scopri come aggiungere campi alle pagine nella sezione [Personalizzare l'area di lavoro](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
@@ -68,14 +68,12 @@ Con la funzione abilitata, una transazione di reso può essere registrata solo s
 | Gestisci le interazioni commerciali con i tuoi fornitori, importa i documenti di fatturazione ricevuti e registra i nuovi fornitori utilizzando il client di posta elettronica di Outlook. | [Impostare il componente aggiuntivo Business Central per Outlook](admin-outlook.md) |
 | Esamina le ricevute di spesa, converti documenti cartacei ed elettronici in righe di giornale di registrazione e digitalizza le fatture cartacee dei fornitori. | [Impostare documenti in entrata](across-how-setup-income-documents.md) |
 | Specificare report predefiniti da utilizzare per diversi tipi di documenti. |[Selezione report in Business Central](across-report-selections.md)|
-|Specifica se gli utenti possono registrare le fatture di acquisto e se devono registrarle insieme a una spedizione. |[Definire un criterio di registrazione delle fatture per gli utenti](admin-setup-invoice-posting-policy.md)|
-
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+|Specifica se gli utenti possono registrare le fatture di acquisto e se devono registrarle insieme a una spedizione. |[Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)|
 
 ## Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Panoramica dell'impostazione](setup.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

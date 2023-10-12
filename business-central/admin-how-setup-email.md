@@ -2,17 +2,17 @@
 title: Configurare la posta elettronica in Business Central (video)
 description: Descrizione di come connettere gli account di posta elettronica a Business Central in modo da poter inviare messaggi in uscita senza dover aprire un'altra app.
 author: brentholtorf
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.topic: get-started
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Configurare la posta elettronica
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono collegare uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Inoltre, i layout di report consentono agli amministratori di includere solo le informazioni chiave dei documenti. Ulteriori informazioni in [Inviare documenti via e-mail](ui-how-send-documents-email.md).
 
@@ -56,9 +56,11 @@ La tabella seguente descrive le estensioni di posta elettronica disponibili per 
 Se desideri utilizzare il protocollo SMTP per inviare e-mail da [!INCLUDE[prod_short](includes/prod_short.md)], puoi utilizzare l'estensione del connettore SMTP. Quando si configura un account che utilizza SMTP, il campo **tipo di mittente** è importante. Se scegli **Utente specifico**, le e-mail verranno inviate utilizzando il nome e altre informazioni dall'account che stai configurando. Tuttavia, se scegli **Utente corrente**, le e-mail verranno inviate dall'account e-mail specificato per l'account di ciascun utente. L'utente corrente è simile alla funzione Invia come. Per altre informazioni vedi [Utilizzare un indirizzo mittente sostitutivo nei messaggi di posta elettronica in uscita](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] locale, non è possibile utilizzare il protocollo di autenticazione OAuth 2.0. È necessario creare una registrazione dell'applicazione nel portale di Azure, quindi eseguire la guida al setup assistito **Impostazione Azure Active Directory** in [!INCLUDE[prod_short](includes/prod_short.md)] per connettersi ad Azure AD. Per ulteriori informazioni, vedi [Crea una registrazione dell'app per Business Central nel portale di Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] locale, non è possibile utilizzare il protocollo di autenticazione OAuth 2.0. Per utilizzare OAuth per SMTP, tutti gli utenti devono trovarsi nello stesso Microsoft Entra Microsoft Entra. 
+> 
+> Devi creare una registrazione dell'applicazione nel portale di Azure, quindi eseguire la guida al setup assistito **Impostazione Microsoft Entra ID** in [!INCLUDE[prod_short](includes/prod_short.md)] per la connessione a Microsoft Entra ID. Per ulteriori informazioni, vedi [Crea una registrazione dell'app per Business Central nel portale di Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online sta deprecando l'uso dell'autenticazione di base per SMPT. I tenant che attualmente usano SMTP AUTH non saranno interessati da questa modifica. Tuttavia, consigliamo vivamente di utilizzare l'ultima versione di [!INCLUDE [prod_short](includes/prod_short.md)] e di configurare l'autenticazione OAuth 2.0 per SMTP. Non aggiungeremo l'autenticazione basata su certificato per le versioni precedenti di [!INCLUDE [prod_short](includes/prod_short.md)], ad esempio la versione 14. Se non riesci a configurare l'autenticazione OAuth 2.0, ti invitiamo a esplorare alternative di terze parti se desideri utilizzare l'e-mail SMTP nelle versioni precedenti.
+> Exchange Online sta deprecando l'uso dell'autenticazione di base per SMTP. I tenant che attualmente usano SMTP AUTH non saranno interessati da questa modifica. Tuttavia, consigliamo vivamente di utilizzare l'ultima versione di [!INCLUDE [prod_short](includes/prod_short.md)] e di configurare l'autenticazione OAuth 2.0 per SMTP. Non aggiungeremo l'autenticazione basata su certificato per le versioni precedenti di [!INCLUDE [prod_short](includes/prod_short.md)], ad esempio la versione 14. Se non riesci a configurare l'autenticazione OAuth 2.0, ti invitiamo a esplorare alternative di terze parti se desideri utilizzare l'e-mail SMTP nelle versioni precedenti.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -202,11 +204,11 @@ Gli amministratori possono attivare la funzione di telemetria in [!INCLUDE[prod_
 
 ## Configurazione della posta elettronica per Business Central locale
 
-[!INCLUDE[prod_short](includes/prod_short.md)] locale può integrarsi con i servizi basati su Microsoft Azure. Ad esempio, puoi usare Cortana Intelligence per previsioni di flusso di cassa più intelligenti, Power BI per visualizzare l'attività e Exchange Online per l'invio di e-mail. L'integrazione con questi servizi si basa su una registrazione dell'app in Azure Active Directory. La registrazione dell'app fornisce servizi di autenticazione e autorizzazione per le comunicazioni. Per utilizzare le funzionalità di posta elettronica in [!INCLUDE[prod_short](includes/prod_short.md)] locale, è necessario registrare [!INCLUDE[prod_short](includes/prod_short.md)] come app nel portale di Azure e quindi connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app. Nelle sezioni successive viene descritto come effettuare tali operazioni.
+[!INCLUDE[prod_short](includes/prod_short.md)] locale può integrarsi con i servizi basati su Microsoft Azure. Ad esempio, puoi usare Cortana Intelligence per previsioni di flusso di cassa più intelligenti, Power BI per visualizzare l'attività e Exchange Online per l'invio di e-mail. L'integrazione con questi servizi si basa su una registrazione dell'app in Microsoft Entra ID. La registrazione dell'app fornisce servizi di autenticazione e autorizzazione per le comunicazioni. Per utilizzare le funzionalità di posta elettronica in [!INCLUDE[prod_short](includes/prod_short.md)] locale, è necessario registrare [!INCLUDE[prod_short](includes/prod_short.md)] come app nel portale di Azure e quindi connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app. Nelle sezioni successive viene descritto come effettuare tali operazioni.
 
 ### Creare una registrazione dell'app per Business Central nel portale di Azure
 
-I passaggi per registrare [!INCLUDE[prod_short](includes/prod_short.md)] nel portale di Azure sono descritti in [Registrare un'applicazione in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+I passaggi per registrare [!INCLUDE[prod_short](includes/prod_short.md)] nel portale di Azure sono descritti in [Registrare un'applicazione in Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
 > [!NOTE]
 > Per usare le funzionalità di posta elettronica, la registrazione dell'app deve usare una configurazione multi-tenant.
@@ -243,26 +245,26 @@ In caso di problemi nell'utilizzo del protocollo SMTP per inviare e-mail dopo la
 
 ### Connettere l'app [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app
 
-Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_short](includes/prod_short.md)], utilizza la pagina **Registrazione AAD dell'applicazione e-mail** per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla stessa.
+Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_short](includes/prod_short.md)], utilizza la pagina **Registrazione Microsoft Entra ID dell'applicazione e-mail** per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla stessa.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione AAD dell'applicazione e-mail**, quindi scegli il collegamento correlato.
-2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione Microsoft Entra ID dell'applicazione e-mail**, quindi scegli il collegamento correlato.
+2. Compila i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> In alternativa, se ci si connette per la prima volta, è possibile eseguire la guida al setup assistito **Configurare la posta elettronica**. In questo caso, la guida includerà anche la pagina di registrazione AAD dell'applicazione e-mail per aggiungere le informazioni per la connessione alla registrazione dell'app. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> In alternativa, se ci si connette per la prima volta, è possibile eseguire la guida al setup assistito **Configurare la posta elettronica**. In questo caso, la guida includerà anche la pagina Registrazione Microsoft Entra ID dell'applicazione e-mail per aggiungere le informazioni per la connessione alla registrazione dell'app. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], start the **Email Application AAD Registration** assisted setup guide.
 2. On the first page of the guide, copy the value in the **Redirect URL** field.
-3. In Azure Active Directory, search for **App registrations**, and then open the **App registrations** page.
+3. In Microsoft Entra ID, search for **App registrations**, and then open the **App registrations** page.
 4. Choose **New registration**.
 5. In the **Name** field, enter a name for your app.
-6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Azure AD Directory - Multitenant)** or **Accounts in any organizational directory (Any Azure AD Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
+6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant)** or **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
 7. Under **Redirect URI (optional)**, choose **Web**, paste the URL you copied from the **Redirect URL** field in the assisted setup guide in Business Central, and then choose **Register**.
 8. On the navigation pane, choose **Overview**, and then copy the value in the **Application (client) ID** field.
 9. In [!INCLUDE[prod_short](includes/prod_short.md)], in the assisted setup guide, paste the ID in **Client ID** field.
-10. In Azure Active Directory, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
+10. In Microsoft Entra ID, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
 11. On the **Request API permissions** pane, on the **Microsoft APIs** tab, choose **Microsoft Graph**.  
 12. Choose **Delegated permissions**, and then in the **Select permissions** field, search for **Mail.ReadWrite**, **Mail.Send**, and **offline_access**. Choose those permissions, and then choose **Add permissions**.
 13. On the navigation pane, choose **Certificates & secrets**.
@@ -274,14 +276,12 @@ Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_shor
 
 -->
 
-## Vedi il relativo [training Microsoft](/training/modules/set-up-email/)
-
 ## Vedi anche
 
 [Cassette postali condivise in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Inviare documenti tramite e-mail](ui-how-send-documents-email.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Scarica [!INCLUDE[prod_short](includes/prod_short.md)] sul dispositivo mobile](install-mobile-app.md)   

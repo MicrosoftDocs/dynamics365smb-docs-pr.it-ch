@@ -1,11 +1,14 @@
 ---
 title: Panoramica delle informazioni sulla società
 description: 'La pagina Informazioni sulla società specifica le informazioni di base per un''entità aziendale, come nome, indirizzi e informazioni sulla spedizione.'
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 08/31/2022
-ms.author: bholtorf
+ms.date: 09/24/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Panoramica delle informazioni sulla società
@@ -24,7 +27,7 @@ Una volta completata la compilazione delle informazioni puoi chiudere la pagina.
 
 ## Lavorare con più società
 
-Se [!INCLUDE [prod_short](includes/prod_short.md)] include più società, i tuoi utenti potrebbero voler utilizzare i *badge aziendali* per sapere velocemente con quale azienda stanno attualmente lavorando. Per ulteriori informazioni, vedi [Visualizzare un badge società](#badge).
+Se [!INCLUDE [prod_short](includes/prod_short.md)] include più società, i tuoi utenti potrebbero voler utilizzare i *badge società* per sapere velocemente con quale azienda stanno attualmente lavorando. Per ulteriori informazioni, vedi [Visualizzare un badge società](#badge).
 
 Ci sono alcune funzioni che puoi utilizzare per passare da una società all'altra mentre lavori, come il selettore società (<kbd>CTRL</kbd>+<kbd>O</kbd>). Per ulteriori informazioni, vedi [Passare a un'altra società o ambiente](ui-organization-switch.md).
 
@@ -34,7 +37,11 @@ Quando c'è più di una società o un ambiente, vedrai il selettore società nel
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Mostra l'icona del selettore società nell'intestazione del client Business Central.":::  
 
-Usando la pagina **Informazioni società** puoi sostituire l'icona società standard con un badge personalizzato per la società se il badge della società consente agli utenti di identificare più facilmente la società in cui lavorano.
+A partire dal secondo ciclo di rilascio del 2023, versione 23, il badge società viene visualizzato nella scheda del browser quando si utilizza il client Web. È incluso anche nei collegamenti alle pagine che [copi e incolli](across-share-data-features.md#copying-a-link) negli editor di testo RTF, come Word, Outlook e Teams.
+ 
+### Impostare il badge società
+
+Usando la pagina **Informazioni società** puoi sostituire l'icona società standard con un badge personalizzato per la società se il badge società consente agli utenti di identificare più facilmente la società in cui lavorano.
 
 1. Nella Scheda dettaglio **Badge società** compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 2. Al termine, aggiorna il browser (seleziona <kbd>CTRL</kbd>+<kbd>F5</kbd>) per aggiornare il badge nel client.  
@@ -53,8 +60,6 @@ Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra 
 ## Esperienza
 
 L'esperienza utente predefinita in una versione di prova di [!INCLUDE [prod_short](includes/prod_short.md)] non rivela tutte le capacità. Puoi attivare l'esperienza completa nella pagina **Informazioni sulla società**. Per ulteriori informazioni, vedi [Modifica delle funzionalità visualizzate](ui-experiences.md).  
-
-## Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## Vedere anche
 

@@ -31,8 +31,6 @@ Viene visualizzata la pagina **Documenti registrati senza documento in entrata**
 
 Se nella pagina **Documenti in entrata** non è presente un record di documento in entrata adeguato, è possibile crearlo. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).
 
-## Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Creare i record di documenti in entrata](across-how-create-income-document-records.md)
