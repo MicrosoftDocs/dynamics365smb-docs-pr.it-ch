@@ -348,7 +348,12 @@
 #### [Usare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
 
-### Gestione IVA
+### Gestire documenti elettronici
+#### [Impostare documenti elettronici](finance-how-setup-edocuments.md)
+#### [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md)
+#### [Estensione della funzionalità dei documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Gestire l'IVA
 #### [Panoramica della gestione IVA](finance-manage-vat.md)
 #### [Triangolazioni intracomunitarie](finance-how-to-eu3party-trade-purchase.md)
 #### Impostare l'IVA
