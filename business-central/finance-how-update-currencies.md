@@ -139,6 +139,13 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
 
 Il valore nel campo **Tasso di cambio** della pagina **Valute** viene aggiornato con il tasso di cambio delle valute più recente.
 
+## Correggere errori
+
+Di tanto in tanto è possibile che sia necessario correggere un errore in una transazione di pagamento associata a rettifiche a utili e perdite in valuta estera. Puoi utilizzare l'azione **Storna transazione** nelle pagine **Movimenti contabili bancari**, **Registro cliente Movimenti** e **Movimenti contabili fornitori** per annullare e stornare la transazione di pagamento.
+
+> [!NOTE]
+> Quando annulli e storni un pagamento per un movimento a cui erano associate rettifiche del tasso di cambio, lo storno registra i movimenti di storno per le rettifiche. È possibile che tu debba eseguire nuovamente la rettifica del tasso di cambio per ottenere il saldo corrente corretto.
+
 ## Vedi anche
 
 [Valute in Business Central](finance-currencies.md)  
