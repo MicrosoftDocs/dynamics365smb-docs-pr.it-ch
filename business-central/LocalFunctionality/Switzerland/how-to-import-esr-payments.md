@@ -11,12 +11,12 @@ ms.search.form: '3010531, 3010532'
 ms.date: 06/21/2021
 ms.author: bholtorf
 ---
-# <a name="import-esr-payments-in-the-swiss-version"></a>Importare pagamenti ESR nella versione per la Svizzera
+# Importare pagamenti ESR nella versione per la Svizzera
 Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene informazioni sulle fatture pagate. È possibile ricevere questo file dalla banca in formato elettronico oppure tramite e-mail.  
 
 È possibile importare dati di fattura ESR (polizza di versamento con numero di riferimento, in tedesco ESR, Einzahlungsschein mit Referenznummer) dal file, stampare i dati tramite il report ESR della fattura di vendita o tramite il report di tagliandi ESR di vendita ed eseguire la verifica prima della registrazione. Per ulteriori informazioni, vedere [Stampare fatture ESR](how-to-print-esr-invoices.md).  
 
-## <a name="to-import-esr-payments"></a>Per importare pagamenti ESR
+## Per importare pagamenti ESR  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Registrazioni incassi**, quindi selezionare il collegamento correlato.  
 2.  Nel campo **Nome batch** selezionare il batch contabile necessario.  
@@ -33,7 +33,7 @@ Dopo aver ricevuto un pagamento da un cliente, si riceve un file che contiene in
 
 Le informazioni sui pagamenti vengono importate nelle righe di registrazioni. I pagamenti vengono applicati automaticamente alle rispettive fatture in base a numeri di riferimento ESR univoci.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
  [Pagamenti elettronici svizzeri utilizzando ESR](swiss-electronic-payments-using-esr.md)   
  [Stampare fatture ESR](how-to-print-esr-invoices.md)
 

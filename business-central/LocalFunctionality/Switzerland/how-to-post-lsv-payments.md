@@ -1,6 +1,6 @@
 ---
 title: Come registrare pagamenti LSV+
-description: È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (Lastschrift Verfahren) dalla banca.
+description: È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (addebito diretto) dalla banca.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -8,13 +8,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
-ms.date: 04/01/2021
+ms.date: 11/27/2023
 ms.author: bholtorf
 ---
-# <a name="post-lsv-payments"></a>Registrare pagamenti LSV+
-È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (Lastschrift Verfahren) dalla banca.  
+# Registrazione dei pagamenti LSV+
+È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (addebito diretto) dalla banca.  
 
-## <a name="to-post-lsv-payments"></a>Registrare pagamenti LSV+
+## Registrare pagamenti LSV+  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Registrazioni incassi**, quindi selezionare il collegamento correlato.  
 2.  Selezionare le registrazioni richieste, quindi scegliere l'azione **Modifica registrazioni**.  
@@ -32,11 +32,11 @@ ms.author: bholtorf
 
     La riga delle registrazioni LSV viene importata nelle registrazioni incassi. Il valore del campo **Stato LSV** nella pagina **Lista registrazioni LSV** viene modificato da **File creato** a **Completato**.  
 
-    È possibile verificare i pagamenti importati e confrontarli con l'avviso di pagamento bancario nella pagina **Registrazioni incassi**. È anche possibile eliminare le righe di pagamento che la banca non ha potuto elaborare e per cui è necessario contattare direttamente il cliente.  
+    È possibile verificare i pagamenti importati e confrontarli con l'avviso di pagamento bancario nella pagina **Registrazioni incassi**. È anche possibile eliminare le righe di pagamento che la banca non elabora e per cui è necessario contattare direttamente il cliente.  
 
 6.  Scegliere l'azione **Registra**.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedere anche  
  [Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Elaborare una riscossione LSV](how-to-process-an-lsv-collection.md)   
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   
