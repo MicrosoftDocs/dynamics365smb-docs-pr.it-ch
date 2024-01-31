@@ -3,19 +3,18 @@ title: Impostare solleciti di consegna (CH)
 description: 'Nella versione svizzera di Business Central, è possibile usare solleciti di consegna per segnalare ai fornitori le consegne scadute.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '5005270, 5005272'
 ms.date: 11/17/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-delivery-reminders-in-the-swiss-version"></a>Impostare solleciti di consegna nella versione svizzera
+# Impostare solleciti di consegna nella versione svizzera
 
 [!INCLUDE [delivery-reminders-setup](../includes/ATCHDE/delivery-reminders-setup.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Solleciti consegna](delivery-reminders.md)  
 [Impostare termini, livelli e testi di sollecito di consegna](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  

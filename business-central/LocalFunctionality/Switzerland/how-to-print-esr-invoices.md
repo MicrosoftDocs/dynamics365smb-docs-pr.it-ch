@@ -3,15 +3,14 @@ title: 'Procedura: Stampare fatture ESR [CH]'
 description: In questo articolo viene descritto come stampare fatture e tagliandi del bollettino bancario ESR (Einzahlungsschein mit Referenznummer).
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '3010531, 3010532'
 ms.date: 12/08/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="print-esr-invoices-in-the-swiss-version"></a>Stampare fatture ESR svizzere nella versione per la Svizzera
+# Stampare fatture ESR svizzere nella versione per la Svizzera
 
 È possibile stampare il bollettino bancario ESR (Einzahlungsschein mit Referenznummer) nei seguenti modi:  
 
@@ -25,7 +24,7 @@ Il report ESR della fattura di vendita corrisponde alla fattura di vendita accom
 
 La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli stessi passaggi si applicano anche alla stampa dei tagliandi ESR.  
 
-## <a name="to-print-esr-invoices"></a>Per stampare fatture ESR
+## Per stampare fatture ESR  
 
 1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Fattura ESR**, quindi selezionare il collegamento correlato.  
 2. Nel processo batch **Fattura di vendita ESR**, nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella seguente.  
@@ -41,7 +40,7 @@ La procedura seguente descrive come stampare le fatture di vendita ESR, ma gli s
 
 È inoltre possibile ristampare il report ESR della fattura di vendita o il report del tagliando ESR di vendita.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
  [Pagamenti elettronici svizzeri utilizzando ESR](swiss-electronic-payments-using-esr.md)   
  [Importare i pagamenti ESR](how-to-import-esr-payments.md)
 

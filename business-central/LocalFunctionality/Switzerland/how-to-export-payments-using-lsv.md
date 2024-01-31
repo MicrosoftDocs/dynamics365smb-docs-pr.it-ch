@@ -3,18 +3,17 @@ title: 'Esportare pagamenti tramite LSV [CH]'
 description: È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '3010830, 3010831, 3010832,3010834, 3010835'
 ms.date: 06/21/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="export-payments-using-lsv-in-the-swiss-version"></a>Esportare pagamenti con LSV nella versione per la Svizzera
+# Esportare pagamenti con LSV nella versione per la Svizzera
 È possibile esportare o creare file LSV+ (Lastschrift Verfahren) che contengono informazioni sui pagamenti dopo aver chiuso la riscossione LSV. È possibile inviare i file generati alla banca su un disco oppure usare un trasferimento file elettronico, ad esempio tramite il servizio di online banking o tramite un portale Internet.  
 
-## <a name="to-export-payments-using-lsv"></a>Per esportare pagamenti tramite LSV
+## Per esportare pagamenti tramite LSV  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Lista registrazioni LSV**, quindi selezionare il collegamento correlato.  
 2.  Nella pagina **Lista registrazioni LSV** selezionare le registrazioni LSV desiderate.  
@@ -28,7 +27,7 @@ ms.author: bholtorf
 
 5.  Tutte le righe correlate vengono trasferite alle registrazioni LSV. Il file LSV viene generato nella cartella determinata in precedenza.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
  [Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Elaborare una riscossione LSV](how-to-process-an-lsv-collection.md)   
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   
