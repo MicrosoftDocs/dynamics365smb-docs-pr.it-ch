@@ -3,9 +3,7 @@ title: Ricevere e convertire documenti elettronici
 description: In questo argomento viene spiegato come ricevere documenti elettronici direttamente da partner commerciali o da un servizio OCR.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021

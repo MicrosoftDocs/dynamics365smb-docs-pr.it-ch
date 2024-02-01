@@ -3,9 +3,7 @@ title: Estensioni per Business Central fornite da altri provider
 description: Questo argomento fornisce un elenco di app ed estensioni fornite da altre società per personalizzare Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'app, add-in, manifest, customize'
 ms.date: 06/24/2021
 ms.author: bholtorf

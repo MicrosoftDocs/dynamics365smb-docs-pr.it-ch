@@ -3,9 +3,7 @@ title: Addebito diretto SEPA in Business Central
 description: 'Con il consenso del cliente, è possibile riscuotere i pagamenti direttamente dal conto bancario del cliente in conformità al formato SEPA.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '371, 423, 424, 427, 1208, 1207, 1230'
 ms.date: 06/16/2021
 ms.author: bholtorf

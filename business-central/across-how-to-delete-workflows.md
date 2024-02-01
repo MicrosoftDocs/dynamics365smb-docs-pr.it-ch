@@ -3,9 +3,7 @@ title: Come eliminare i workflow di approvazione
 description: È possibile eliminare un flusso di lavoro che non si desidera utilizzare più. Lo stato di tutte le istanze dei passaggi del flusso di lavoro che sono definite nel flusso di lavoro deve essere impostato su **Completato**.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500,'
 ms.date: 09/08/2022

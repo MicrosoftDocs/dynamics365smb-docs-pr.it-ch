@@ -3,9 +3,7 @@ title: Modifica delle funzionalità visualizzate
 description: 'Informazioni sulle caratteristiche dei livelli dell''esperienza utente Essential e Premium che hanno effetto su interfaccia utente, aree di applicazione e società.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'essential, basic, user interface, application area, experience'
 ms.search.form: 1
 ms.date: 04/01/2021

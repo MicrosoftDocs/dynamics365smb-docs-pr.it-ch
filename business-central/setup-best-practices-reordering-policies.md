@@ -3,9 +3,7 @@ title: 'Impostare le procedure ottimali: metodi di riordino | Microsoft Docs'
 description: Nel campo Metodo di riordino delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Creare opportunità di vendita
 description: In questo articolo viene descritto come creare opportunità da un agente o un contatto in Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer

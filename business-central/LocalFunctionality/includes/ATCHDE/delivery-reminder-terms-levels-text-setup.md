@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 12/20/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Per creare i solleciti di consegna è necessario impostare i seguenti prerequisiti:  

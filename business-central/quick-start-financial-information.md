@@ -3,9 +3,7 @@ title: Inizio rapido su Informazioni finanziarie
 description: Prepara la tua azienda per il business impostando le informazioni finanziarie in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/25/2022

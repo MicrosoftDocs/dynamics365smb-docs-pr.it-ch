@@ -3,9 +3,7 @@ title: Gestire la crittografia dei dati | Microsoft Docs
 description: È possibile crittografare dati in Business Central Server generando nuove chiavi di crittografia o importando chiavi esistenti che vengono abilitate nel server.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/12/2023
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Impostare e gestire un budget per una commessa
 description: 'Descrive come pianificare le risorse, prevedere e controllare i costi di un progetto impostando un budget per ciascuna commessa.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'project budget, forecast'
 ms.search.form: '1002, 1007'
 ms.date: 04/01/2021

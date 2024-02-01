@@ -3,9 +3,7 @@ title: Come copiare articoli esistenti in nuovi articoli
 description: 'Quando si aggiunge un nuovo articolo, per risparmiare tempo è possibile usare la funzione Articolo copia per copiare un articolo esistente da usare come modello per un nuovo articolo.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021

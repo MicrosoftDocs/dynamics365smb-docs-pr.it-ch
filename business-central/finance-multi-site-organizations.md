@@ -3,9 +3,7 @@ title: Business Central per organizzazioni multisito e internazionali | Microsof
 description: Business Central fornisce funzionalità che supportano un modello di business hub and spoke.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'hub-and-spoke, multi-site, headquarter, sites'
 ms.date: 10/01/2020
 ms.author: bholtorf

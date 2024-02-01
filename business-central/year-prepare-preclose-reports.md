@@ -3,9 +3,7 @@ title: Panoramica dei report preliminari alla chiusura per verificare l'accurate
 description: Fornisce una panoramica dei report che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer

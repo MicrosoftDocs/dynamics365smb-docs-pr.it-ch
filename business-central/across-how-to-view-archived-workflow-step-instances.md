@@ -3,9 +3,7 @@ title: Come visualizzare le istanze di fasi workflow archiviate
 description: Tutte le istanze di fasi workflow vengono salvate nella pagina Istanze di fasi workflow archiviate. Ogni passaggio è costituito da un evento del flusso di lavoro e da una risposta del flusso di lavoro.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1530,'
 ms.date: 09/09/2022

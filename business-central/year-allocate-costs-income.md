@@ -3,9 +3,7 @@ title: Panoramica delle attività per l'allocazione di costi e ricavi
 description: 'Descrive i task per allocare un movimento in una registrazione COGE periodica a più conti diversi, quando tale registrazione viene contabilizzata.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '283, 5629'
 ms.date: 09/26/2023
 ms.author: bholtorf

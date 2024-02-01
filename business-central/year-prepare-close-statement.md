@@ -3,9 +3,7 @@ title: Panoramica di report a supporto della preparazione degli estratti conto d
 description: Fornisce una panoramica dei report che è possibile utilizzare per raccogliere le informazioni e preparare gli estratti conto di chiusura della società alla chiusura dell'anno fiscale.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer

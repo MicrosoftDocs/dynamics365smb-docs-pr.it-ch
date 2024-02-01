@@ -3,9 +3,7 @@ title: Funzionalità aziendali supportate da Business Central
 description: 'Fornisce una panoramica funzionale di tutti i reparti e le funzioni aziendali che sono supportati dalle aree di applicazione, ad esempio finanze, magazzino e gestione dei progetti.'
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 11/01/2023

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 I solleciti di consegna sono usati per tracciare le consegne scadute dei fornitori e per segnalare ai fornitori le consegne scadute. Per creare i solleciti di consegna è necessario impostare quanto segue:
 

@@ -3,9 +3,7 @@ title: Utilizzare periodi di magazzino
 description: È possibile controllare l'intervallo temporale durante il quale si possono registrare modifiche al magazzino defininendo periodi di magazzino.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'inventory, periods'
 ms.search.form: 5828
 ms.date: 04/01/2021

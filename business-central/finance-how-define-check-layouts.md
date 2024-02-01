@@ -3,9 +3,7 @@ title: Specificare il layout di un assegno
 description: È possibile progettare e stampare gli assegni in modi diversi per conformità agli standard impostati dalle autorità locali.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'print check, customize'
 ms.search.form: '374, 404'
 ms.date: 06/16/2021

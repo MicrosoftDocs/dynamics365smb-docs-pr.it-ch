@@ -3,9 +3,7 @@ title: Informazioni sul setup della gestione dei contatti e del marketing
 description: È possibile impostare la gestione dei contatti e del marketing in Business Central per ottimizzare relazioni con i clienti o i clienti potenziali e migliorare le campagne e le promozioni.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect, client, customer, campaign, promo'
 ms.search.forms: '5172, 5173, 5170, 5094, 429'
 ms.date: 04/01/2021

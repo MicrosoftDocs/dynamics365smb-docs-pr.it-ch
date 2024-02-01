@@ -3,9 +3,7 @@ title: Inizio rapido di Business Intelligence
 description: Scopri come Business Central ti aiuta a trasformare i dati aziendali in informazioni fruibili utilizzando report e dashboard di Business Intelligence.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/17/2022

@@ -3,12 +3,11 @@ title: Chiudere i movimenti contabili articoli derivanti dall'utilizzo del colle
 description: Scopri come creare un collegamento fisso tra una transazione in entrata e la transazione in uscita originale nelle registrazioni articoli.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 40
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino
 

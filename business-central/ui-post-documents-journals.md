@@ -3,9 +3,7 @@ title: Contabilizzazione dei documenti e delle registrazioni
 description: Questo argomento descrive le azioni di registrazione e le modalità di registrazione di documenti e registrazioni nei vari libri contabili aziendali.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf

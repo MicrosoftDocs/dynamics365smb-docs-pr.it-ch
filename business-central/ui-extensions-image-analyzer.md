@@ -3,9 +3,7 @@ title: Estensione di analisi immagini
 description: Questa estensione consente di analizzare le immagini delle persone di contatto e degli articoli per trovare gli attributi e quindi assegnarli rapidamente in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition'
 ms.search.form: '2026, 2027, 2029,'
 ms.date: 05/19/2021

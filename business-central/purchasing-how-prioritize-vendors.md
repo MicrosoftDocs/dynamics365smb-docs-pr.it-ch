@@ -3,9 +3,7 @@ title: Assegnare un livello di priorità a un fornitore (video)
 description: È possibile assegnare dei numeri ai fornitori per assegnare loro una priorità e semplificare i suggerimenti di pagamento in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'supplier, payment priority'
 ms.search.form: '26, 27'
 ms.date: 04/01/2021

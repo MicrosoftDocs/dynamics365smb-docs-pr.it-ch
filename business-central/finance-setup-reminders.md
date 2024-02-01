@@ -3,9 +3,7 @@ title: Impostare i termini e i livelli di sollecito
 description: Informazioni su come impostare Business Central per inviare un sollecito a un cliente per un pagamento scaduto e aggiungere addebiti o oneri al pagamento a causa del ritardo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022

@@ -3,9 +3,7 @@ title: Pianificazione con o senza ubicazioni
 description: 'In questo argomento vengono fornite informazioni sulla produzione, inclusa la pianificazione degli approvvigionamenti, in Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: bholtorf

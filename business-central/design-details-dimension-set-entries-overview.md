@@ -3,9 +3,7 @@ title: Sintesi movimenti set di dimensioni
 description: Questo articolo offre una panoramica su come i movimenti set di dimensioni vengono archiviati come movimenti set di dimensioni e su come vengono registrati.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: bholtorf

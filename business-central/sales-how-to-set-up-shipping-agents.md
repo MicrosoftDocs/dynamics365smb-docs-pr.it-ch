@@ -3,9 +3,7 @@ title: Come impostare gli spedizionieri
 description: Scopri come impostare un codice per ciascuno dei tuoi spedizionieri e inserire informazioni descrittive su ciascuno di essi e sui servizi che forniscono.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

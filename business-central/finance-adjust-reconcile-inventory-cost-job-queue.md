@@ -3,9 +3,7 @@ title: Programmare processi per regolare e riconciliare il costo dell'inventario
 description: 'Informazioni su come utilizzare la coda processi per spostare in background le attività per la rettifica del costo di magazzino o per riconciliarlo con la contabilità generale. Ad esempio, se la tua società esegue molte attività o elabora molte transazioni.'
 author: brentholtorf
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: 461
 ms.date: 09/19/2023

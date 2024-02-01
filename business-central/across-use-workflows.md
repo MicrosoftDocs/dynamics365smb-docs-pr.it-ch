@@ -3,9 +3,7 @@ title: Utilizzare i flussi di lavoro di approvazione
 description: È possibile impostare e utilizzare flussi di lavoro che collegano le attività dei processi aziendali come la pubblicazione automatica o la richiesta e la concessione dell'approvazione per nuovi record.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022

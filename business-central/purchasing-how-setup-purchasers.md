@@ -3,9 +3,7 @@ title: Impostare addetti agli acquisti e assegnarli ai fornitori (video)
 description: 'Se numerosi addetti agli acquisti, o rivenditori, lavorano presso la società, è possibile organizzarli per analisi statistiche.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: purchasing agent
 ms.search.form: '14, 5116'
 ms.date: 04/01/2021

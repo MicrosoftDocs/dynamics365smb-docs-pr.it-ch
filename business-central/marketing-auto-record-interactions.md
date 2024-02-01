@@ -3,12 +3,11 @@ title: Impostare la registrazione automatica delle interazioni | Documenti Micro
 description: 'È possibile registrare automaticamente le interazioni del client o clienti, ad esempio, per le vendite, acquisti e documenti di assistenza o telefonate.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'marketing, relationship, prospect, contact, client, customer'
 ms.date: 12/12/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Registrazione automatica delle interazioni con contatti
 È possibile impostare l'applicazione per la registrazione automatica delle interazioni relative ai documenti di vendite, acquisti e assistenza, copertine, messaggi e-mail, telefonate, ad esempio:

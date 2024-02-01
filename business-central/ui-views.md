@@ -3,9 +3,7 @@ title: Salvare e personalizzare visualizzazioni elenco
 description: 'Scopri come creare le tue visualizzazioni per gli elenchi filtrati e come salvare, rinominare e gestire tali visualizzazioni.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: null
 ms.date: 11/02/2023
 ms.author: bholtorf

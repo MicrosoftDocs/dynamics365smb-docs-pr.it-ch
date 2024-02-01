@@ -3,9 +3,7 @@ title: Utilizzare Excel per importare i dati in Business Central
 description: Utilizzare il pacchetto di configurazione di default per aggiungere i dati del cliente in Excel e importare nuovamente i dati in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: bholtorf

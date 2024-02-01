@@ -3,9 +3,7 @@ title: 'Dettagli di progettazione: IVA non detraibile'
 description: 'Questo articolo fornisce informazioni sull''imposta sul valore aggiunto (IVA) non detraibile è l''IVA che è dovuta da un acquirente, ma che non è detraibile dal proprio debito IVA dell''acquirente.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 07/04/2023
 ms.author: altotovi

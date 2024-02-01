@@ -3,9 +3,7 @@ title: Specificare come e quando ricevere le notifiche del flusso di lavoro
 description: 'Quando imposti gli utenti nei flussi di lavoro di approvazione, puoi specificare come e quando ogni utente di approvazione riceve le notifiche.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022

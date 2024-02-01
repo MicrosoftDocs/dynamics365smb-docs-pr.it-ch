@@ -3,7 +3,6 @@ title: Connessione a Microsoft Dataverse (video)
 description: Imposta una connessione tra Business Central e Dataverse. In genere le aziende creano la connessione per integrare i dati con un'altra app aziendale di Dynamics 365.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
 ms.date: 09/28/2023

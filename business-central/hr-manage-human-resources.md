@@ -3,9 +3,7 @@ title: Gestione personale
 description: 'È possibile registrare il nuovo personale, modificare le informazioni sul personale esistente e registrare e analizzare le assenze.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'personnel, people, employee, staff, HR'
 ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: Creare un'offerta di acquisto per richiedere un'offerta
 description: Descrive come creare un documento di un'offerta di vendita o una richiesta di offerta (RdO) per registrare la propria offerta a un cliente per la vendita di prodotti in base a termini determinati.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022

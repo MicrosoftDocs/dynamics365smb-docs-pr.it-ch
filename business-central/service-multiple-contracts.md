@@ -3,9 +3,7 @@ title: Contratti multipli | Documenti Microsoft
 description: 'A seconda degli accordi a livello di assistenza stipulati con un cliente, può essere necessario utilizzare più di un contratto di assistenza per gestire un articolo.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

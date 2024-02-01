@@ -3,9 +3,7 @@ title: Modificare manualmente i costi degli articoli
 description: È possibile modificare la valutazione di magazzino di un articolo mediante i metodi di costing Media o FIFO quando cambiano i costi dei prodotti.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'cost adjustment, cost forwarding, costing method, inventory valuation, costing'
 ms.date: 06/16/2021
 ms.author: bholtorf

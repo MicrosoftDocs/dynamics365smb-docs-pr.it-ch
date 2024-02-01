@@ -3,9 +3,7 @@ title: Stornare la registrazione dell'output
 description: La registrazione dell'output deve essere stornata in tre casi diversi. Questo argomento descrive la procedura per lo storno della registrazione di output.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: bholtorf

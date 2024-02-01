@@ -3,12 +3,11 @@ title: Come registrare ordini di assistenza
 description: 'Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Registrare note di credito e ordini di assistenza
 Dopo avere creato un ordine di assistenza, immesso tutte le informazioni necessarie e apportato le modifiche, è possibile registrarlo. Per eseguire questa operazione, è necessario che l'ordine contenga almeno una riga di articolo in assistenza e una riga di assistenza. Se l'ordine contiene più di una riga di assistenza, tutte le righe verranno registrate contemporaneamente.  

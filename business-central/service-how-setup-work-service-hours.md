@@ -3,9 +3,7 @@ title: Come impostare le ore di lavoro e le ore di assistenza
 description: Scopri come impostare le ore di lavoro e assistenza utilizzate per il calcolo della data e dell'ora di risposta per ordini e offerte di assistenza.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Dettagli di progettazione - Tracciabilità articolo nel magazzino
 description: I documenti di warehouse in entrata e in uscita dispongono di funzionalità standard per l'assegnazione e la selezione dei numeri di tracciabilità articolo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, item, tracking, serial number, lot number, outbound documents'
 ms.date: 06/15/2021
 ms.author: bholtorf

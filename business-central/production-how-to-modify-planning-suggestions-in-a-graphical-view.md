@@ -3,9 +3,7 @@ title: Modificare i suggerimenti di pianificazione in una visualizzazione grafic
 description: Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione Esegui messaggi di azione.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/22/2023
 ms.author: bholtorf

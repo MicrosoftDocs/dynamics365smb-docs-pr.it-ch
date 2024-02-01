@@ -3,12 +3,11 @@ title: Utilizzo dell'estensione per l'importazione del file retribuzioni di Quic
 description: In questo articolo viene descritto come utilizzare l'estensione per importare transazioni di retribuzioni e stipendi da QuickBooks.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'app, add-in, manifest, customize, salary, wage'
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Estensione per l'importazione del file retribuzioni di QuickBooks
 Utilizzare l'estensione per l'importazione del file retribuzioni di Quickbooks per importare transazioni da QuickBooks nei conti C/G in [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, ciò è utile quando si esegue la transizione da QuickBooks a [!INCLUDE[prod_short](includes/prod_short.md)], oppure se si affida il servizio retribuzioni a terze parti ma si intende tenerne comunque traccia in [!INCLUDE[prod_short](includes/prod_short.md)].

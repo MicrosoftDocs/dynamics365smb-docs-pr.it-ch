@@ -3,9 +3,7 @@ title: Impostare condizioni interessi finanziari
 description: Informazioni su come impostare Business Central in modo da poter informare i clienti degli addebiti aggiuntivi inviando note addebito interessi.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge'
 ms.search.form: '6, 494'
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: Impostazione di attività standard per le operazioni
 description: Scopri come impostare task standard e aggiungere task standard alle operazioni per semplificare la manutenzione dei cicli.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
 ms.author: bholtorf
