@@ -1,19 +1,22 @@
 ---
 title: 'Creare e stampare una dichiarazione IVA svizzera [CH]'
-description: Questo argomento spiega come creare e stampare una dichiarazione IVA svizzera in base alle informazioni specificate nella pagina Setup registrazioni IVA.
+description: Questo articolo spiega come creare e stampare una dichiarazione IVA svizzera in base alle informazioni specificate nella pagina Setup registrazioni IVA.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '11023, 11024'
-ms.date: 06/25/2021
+ms.date: 02/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-and-print-a-swiss-vat-statement-in-the-swiss-version"></a>Creare e stampare una dichiarazione IVA svizzera nella versione per la Svizzera
-In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, [!INCLUDE[prod_short](../../includes/prod_short.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo argomento, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
+# Creare e stampare una dichiarazione IVA svizzera nella versione per la Svizzera
+In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, [!INCLUDE[prod_short](../../includes/prod_short.md)] può creare automaticamente un nuovo setup di registrazioni IVA per il reporting dell'IVA a esigibilità immediata. Prima di eseguire le procedure indicate in questo articolo, verificare che la registrazione IVA sia stata impostata con i valori specificati nei campi cifrati di vendite e acquisti.  
 
-## <a name="to-set-up-a-swiss-vat-statement-template"></a>Per impostare un modello di dichiarazione IVA svizzera
+>[!NOTE]
+> Da gennaio 2024 in poi, la dichiarazione IVA della società Cronus è stata aggiornata per includere i nuovi codici 303 e 383.  
+
+## Per impostare un modello di dichiarazione IVA svizzera  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Aggiorna definizione dichiarazione IVA**, quindi selezionare il collegamento correlato.  
 2.  Selezionare una definizione nel campo **Nome definizione dichiarazione IVA**.
@@ -22,7 +25,7 @@ In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, 
 
      La pagina Dichiarazione IVA contiene il campo **Crittografia dichiarazione IVA**, che indica la crittografia del report con cui verrà stampato il risultato. Questo campo viene popolato automaticamente dal processo batch in base alle informazioni della pagina **Setup registrazioni IVA**. Il campo può essere modificato, se necessario.  
 
-## <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera
+## Per stampare la dichiarazione IVA svizzera  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Dichiarazione IVA svizzera**, quindi selezionare il collegamento correlato.  
 2.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
@@ -43,7 +46,7 @@ In base alle informazioni specificate nella pagina **Setup registrazioni IVA**, 
     |**Alloggio (altra aliquota) %**|Immettere un'aliquota IVA alternativa per alloggi applicabile a determinate transazioni durante il periodo di tempo.|  
     |**Mostra importi in valuta contabile addizionale**|Selezionare questa opzione per visualizzare una valuta contabile addizionale.|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
  [IVA svizzera](swiss-value-added-tax.md)
 
 
