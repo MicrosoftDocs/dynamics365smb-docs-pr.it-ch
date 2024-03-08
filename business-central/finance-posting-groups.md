@@ -7,7 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'posting setup, initialize'
 ms.search.form: '312, 313'
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -113,7 +113,19 @@ In questo modo, quando lavori su un documento che utilizza un gruppo di registra
 >
 > In tal caso, disabilita la notifica *Il conto C/G non è presente nel setup o nella categoria di registrazione*, quindi collabora con il contabbile per apportare le modifiche pertinenti al gruppo di registrazione, all'impostazione o al documento. Questo è un passaggio importante, perché una volta che i documenti sono stati registrati, eventuali gruppi di registrazione o impostazioni utilizzati in modo errato non possono essere eliminati perché sono stati creati movimenti contabili generali.
 
-A partire dal primo ciclo di rilascio del 2022, puoi utilizzare il campo **Bloccato** della pagina **Setup registrazioni COGE** per impedire agli utenti di utilizzare erroneamente un'impostazione che non è più rilevante per le nuove registrazioni.  
+Utilizza il campo **Bloccato** della pagina **Setup registrazioni COGE** per impedire agli utenti di utilizzare erroneamente un'impostazione che non è più rilevante per le nuove registrazioni. 
+
+## Accesso a tutti i campi e agli account quando imposti una categoria di registrazione  
+
+I gruppi di registrazione possono essere complessi da configurare. Poiché alcuni tipi di conti non vengono utilizzati di frequente, [!INCLUDE [prod_short](includes/prod_short.md)] non li mostra come colonne sulle righe. Inoltre, per rendere un po' più semplice la scelta degli account giusti, [!INCLUDE [prod_short](includes/prod_short.md)] filtra gli account che puoi scegliere nelle ricerche nei campi. 
+
+Se desideri accedere a tutti gli account sulle linee e nelle ricerche sul campo, ci sono un paio di impostazioni che possono aiutarti:
+
+* Per mostrare tutti i conti come colonne sulle righe, attiva l'interruttore **Mostra tutti i conti**.
+* Nelle singole righe, per accedere a tutti gli account nel campo Ricerche, seleziona la casella di controllo **Visualizza tutti gli account nella ricerca**.
+
+> [!NOTE]
+> L'interruttore **Mostra tutti gli account** potrebbe non funzionare nella pagina **Impostazione generale della registrazione**. Questo perché [!INCLUDE [prod_short](includes/prod_short.md)] mostra sempre tutti i conti come colonne nelle righe di quella pagina.
 
 ## Risoluzione degli errori del gruppo di posting
 

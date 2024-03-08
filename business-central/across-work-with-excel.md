@@ -65,10 +65,10 @@ Se si apportano modifiche al componente aggiuntivo, è necessario ricaricarlo pe
 
 Quando **Modifica in Excel** viene utilizzato nelle pagine elenco per tabelle con molte colonne, la cartella di lavoro risultante potrebbe avere troppe colonne per consentire la visualizzazione del file in Excel per il Web. [!INCLUDE[prod_short](includes/prod_short.md)] limita automaticamente la cartella di lavoro esportata a 100 colonne quando OneDrive è configurato per le funzioni del sistema. 
 
-## Vedere le differenze tra le opzioni
+<!--## See the differences between the options
 <br><br>  
 
-> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
 ## Vedi anche
 
