@@ -9,11 +9,11 @@ ms.date: 11/16/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Creare solleciti di consegna manualmente nella versione svizzera
+# <a name="create-delivery-reminders-manually-in-the-swiss-version"></a>Creare solleciti di consegna manualmente nella versione svizzera
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Solleciti consegna](delivery-reminders.md)  
 [Generare solleciti di consegna](how-to-generate-delivery-reminders.md)  
