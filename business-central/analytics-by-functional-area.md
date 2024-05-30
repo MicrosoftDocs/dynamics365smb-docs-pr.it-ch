@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-by-functional-area"></a>Analisi per area funzionale
+# Analisi per area funzionale
 
 Il contenuto generale sull'analisi è disponibile anche in versioni speciali per molte delle aree funzionali di [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -20,11 +20,11 @@ Il contenuto generale sull'analisi è disponibile anche in versioni speciali per
 | Dati finanziari | [Analisi finanziaria](bi.md) |
 | Vendita | [Analisi delle vendite](sales-analytics-overview.md) |
 | Acquisti | [Analisi degli acquisti](purchasing-analytics-overview.md) |
-| Inventario | [Panoramica dell'analisi di magazzino](inventory-analytics-overview.md) |
+| Inventario | [Panoramica dell'analisi dell'inventario](inventory-analytics-overview.md) |
 | Gestione dei cespiti | [Analisi dei cespiti](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'analisi](reports-bi-reporting.md)  
 

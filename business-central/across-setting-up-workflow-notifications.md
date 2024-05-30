@@ -10,7 +10,7 @@ ms.date: 05/03/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="approval-workflow-notifications"></a>Notifiche del workflow di approvazione
+# Notifiche del workflow di approvazione
 
 Impostare i workflow per notificare automaticamente agli utenti quando è richiesta la loro attenzione per un passaggio del workflow. Molte risposte del workflow riguardano la comunicazione, a un utente, di un evento che si è verificato e la relativa necessità di intervento.
 
@@ -20,9 +20,9 @@ Ad esempio, è possibile impostare che l'utente 2, l'utente responsabile dell'ap
 > La versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] supporta le notifiche come messaggi e-mail e note interne.  
 
 > [!IMPORTANT]  
-> Tutte le notifiche del workflow vengono inviate tramite una coda processi. Assicurarsi che la coda processi nella propria installazione sia impostata in modo da gestire le notifiche del workflow e che la casella di controllo **Avvia automaticamente da server** sia selezionata. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).
+> Tutte le notifiche del flusso di lavoro vengono inviate tramite una coda processi. Assicurarsi che la coda processi nella propria installazione sia impostata in modo da gestire le notifiche del workflow e che la casella di controllo **Avvia automaticamente da server** sia selezionata. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Impostazione delle notifiche
+## Impostazione delle notifiche
 
 È possibile impostare diversi aspetti delle notifiche del workflow nelle aree seguenti:  
 
@@ -51,15 +51,15 @@ Ad esempio, è possibile impostare che l'utente 2, l'utente responsabile dell'ap
 
   Per i workflow di approvazione, aggiungere un passaggio di risposta del workflow per notificare al mittente quando la richiesta è stata approvata o rifiutata. Scopri di più dal passaggio 9 nella sezione [Creare workflow](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Impostare gli utenti del flusso di lavoro](across-how-to-set-up-workflow-users.md)  
 [Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md)  
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
 [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  
-[Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
-[Configurare la posta elettronica](admin-how-setup-email.md)  
+[Usare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
+[Impostare la posta elettronica](admin-how-setup-email.md)  
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
 

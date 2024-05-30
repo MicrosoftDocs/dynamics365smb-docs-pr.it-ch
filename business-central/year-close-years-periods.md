@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
+# Chiusura di anni e periodi
 
 Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, ad esempio assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.
 
@@ -19,7 +19,7 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 
 | A | Vedere |
 | --- | --- |
-| Definire l'anno fiscale e dividerlo in periodi di tempo per i quali generare un report delle prestazioni finanziare. | [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)|
+| Definire l'anno fiscale e dividerlo in periodi di tempo per i quali generare un report delle prestazioni finanziare. | [Usare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)|
 | Specificare intervalli di date di registrazione a livello di sistema e specifici dell'utente. In base alle esigenze aziendali, è possibile limitare gli intervalli di date di registrazione all'inizio del processo di chiusura del periodo o successivamente. |[Specificare i periodi di registrazione](finance-how-specify-posting-periods.md) |
 | Prepararsi per dichiarare al servizio Web delle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
 | Fornisce una panoramica delle attività che vengono comunemente eseguite alla fine di un periodo, come la contabilizzazione di tutti i documenti e le registrazioni o l'esecuzione dei report finanziari. |[Periodi di chiusura](year-how-complete-period-end-processes.md) |
@@ -29,10 +29,10 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 | Stampare report per facilitare la creazione di rendiconti finanziari. |[Preparazione degli estratti conto di chiusura](year-prepare-close-statement.md) |
 | Chiudere i periodi contabili e l'anno fiscale, trasferire i saldi dal conto economico al conto patrimoniale e registrare il movimento di chiusura di fine anno. |[Chiusura registri](year-close-books.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Usare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

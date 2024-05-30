@@ -1,5 +1,5 @@
 ---
-title: Gestione assistenza
+title: Gestione dei servizi
 description: Informazioni su come utilizzare le funzionalità di Business Central progettate per gestire e monitorare l'assistenza per supportare le operazioni di riparazione e assistenza sul campo.
 author: brentholtorf
 ms.author: bholtorf
@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="service-management"></a>Gestione dei servizi
+# Gestione dei servizi
 
 > [!NOTE]
 > La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
@@ -25,16 +25,16 @@ Fornire un'assistenza continua ai clienti è un aspetto fondamentale dell'attivi
 
 Inoltre, è possibile standardizzare la definizione dei codici, impostare contratti, implementare una politica di sconti e creare tabelle di marcia per gli addetti all'assistenza.  
 
-Nella tabella seguente viene descritta una sequenza di attività, con collegamenti agli articoli che le descrivono.
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli articoli che li descrivono.
 
-|**Task**|**Vedere**|  
+|**Per**|**Vedere**|  
 |------------|-------------|  
 |Impostare la gestione dell'assistenza, inclusi codici guasto, criteri, documenti predefiniti e modelli|[Impostazione della gestione assistenza](service-setup-service.md)|  
 |Gestire il prezzo di assistenza, creare articoli in assistenza e comprendere come monitorare lo stato di avanzamento.|[Pianificazione dell'assistenza](service-plan-service.md)|  
 |Creare e gestire accordi contrattuali tra la propria azienda e i clienti.|[Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)|  
 |Fornire assistenza ai clienti e fatturare gli ordini di assistenza.|[Fornitura dell'assistenza](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Progetti](projects-how-create-jobs.md)  
