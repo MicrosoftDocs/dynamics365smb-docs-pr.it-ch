@@ -10,10 +10,10 @@ ms.date: 11/27/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Registrazione dei pagamenti LSV+
+# <a name="post-lsv-payments"></a>Registrazione dei pagamenti LSV+
 È possibile registrare pagamenti dopo aver ricevuto l'avviso di pagamento LSV+ (addebito diretto) dalla banca.  
 
-## Registrare pagamenti LSV+  
+## <a name="to-post-lsv-payments"></a>Registrare pagamenti LSV+
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Registrazioni incassi**, quindi selezionare il collegamento correlato.  
 2.  Selezionare le registrazioni richieste, quindi scegliere l'azione **Modifica registrazioni**.  
@@ -35,7 +35,7 @@ ms.service: dynamics-365-business-central
 
 6.  Scegliere l'azione **Registra**.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
  [Pagamenti elettronici svizzeri tramite LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Elaborare una riscossione LSV](how-to-process-an-lsv-collection.md)   
  [Chiudere una riscossione LSV](how-to-close-an-lsv-collection.md)   
