@@ -9,11 +9,11 @@ ms.date: 06/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="report-selection-for-documents-in-business-central"></a>Selezione dei report per i documenti in Business Central
+# Selezione dei report per i documenti in Business Central
 
 Puoi impostare report predefiniti da utilizzare per stampare documenti relativi alle vendite, agli acquisti e all'assistenza, come ordini, offerte e fatture. Ad esempio, se si dispone di un layout specifico per le fatture vendita, è possibile specificare tale report nella pagina **Selezioni report - Vendite** di modo che venga utilizzato per inviare o stampare fatture vendita.  
 
-## <a name="available-report-selections"></a>Selezioni report disponibili
+## Selezioni report disponibili
 
 Le pagine **Selezioni report** specificano quale report verrà stampato nelle diverse situazioni. [!INCLUDE [prod_short](includes/prod_short.md)] fornisce le configurazioni predefinite, ma è possibile modificarle se necessario. È inoltre possibile aggiungere report alle pagine **Selezione report**, ad esempio per stampare più di un report per tipo di documento. 
 
@@ -27,7 +27,7 @@ La tabella seguente descrive dove è possibile trovare informazioni sulle divers
 |Definire report per report IVA (Germania)|[Impostare report per l'IVA e l'Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> [!INCLUDE [prod_short](includes/prod_short.md)] può includere ulteriori pagine **Selezione report**, a seconda della posizione e del settore, ad esempio. Per controllare la configurazione scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Selezione report**, quindi scegli il collegamento pertinente.
+> [!INCLUDE [prod_short](includes/prod_short.md)] può includere ulteriori pagine **Selezione report**, a seconda della posizione e del settore, ad esempio. Per controllare la configurazione scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Selezione report**, quindi scegli il collegamento pertinente.
 
 La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] include le pagine **Selezione report** seguenti:
 
@@ -40,7 +40,7 @@ La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] inclu
 * **Selezione report - Commessa**  
 * **Selezione report - Assistenza**
 
-## <a name="example-report-selection-for-sales-documents"></a>Esempio: Selezione report per documenti vendita
+## Esempio: Selezione report per documenti vendita
 
 La pagina **Selezione report - Vendite** offre i report predefiniti da utilizzare in diversi scenari per ogni tipo di documento correlato. Scegli un tipo di documento nel campo **Utilizzo**, quindi aggiungi o esamina la selezione report. Puoi impostare più di un report e specificare la sequenza in cui i report devono essere inviati o stampati.  
 
@@ -56,13 +56,13 @@ Ad esempio, nelle pagine **Selezione report - Vendite** e **Selezione report - A
 |**Utilizza per allegato e-mail**| Allega il relativo documento all'e-mail.|
 |**Descrizione layout corpo e-mail**|Specifica il layout del corpo dell'e-mail da utilizzare. In genere, è un layout di report personalizzato. |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare testi e-mail riutilizzabili e layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Selezionare un layout degli assegni](finance-how-define-check-layouts.md)  
 [Impostare report per l'IVA e l'Intrastat (Germania)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
-[Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
-[Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md)  
+[Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
+[Definire i layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md)  
 [Configurare le stampanti](ui-specify-printer-selection-reports.md)  
 [Report finanziari e analisi in Business Central](finance-reports.md)  
 [Report di contabilità clienti e analisi in Business Central](receivables-reports.md)  

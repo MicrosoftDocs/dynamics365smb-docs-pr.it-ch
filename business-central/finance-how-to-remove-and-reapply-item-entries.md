@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
+# Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
 
 Quando si registra una transazione in cui gli articoli vengono spostati in magazzino o fuori da esso, viene creato un collegamento articoli tra un aumento di magazzino a una riduzione di magazzino. Questi collegamenti determinano il flusso dei costi dalle merci ricevute in magazzino a quelle in uscita dal magazzino. A causa della modalità di calcolo del costo unitario, un collegamento articoli non corretto potrebbe portare a un costo medio o a un costo unitario non attendibile. Per ulteriori informazioni, vedere Dettagli di progettazione: Collegamento articoli.
@@ -32,9 +32,9 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
     - Nel Prospetto collegamento è possibile rimuovere i collegamenti da più di un movimento per volta. Poiché, tuttavia, il collegamento di movimenti influenza l'insieme dei movimenti disponibili per il collegamento, non è possibile creare un collegamento per più di un movimento per volta.
     - Il Prospetto collegamento non consente di creare un collegamento nel seguente caso: se non è disponibile una quantità in stock sufficiente per il collegamento, il Prospetto collegamento non consente di creare un collegamento quando si tenta di collegare un movimento di riduzione di magazzino senza informazioni sulla tracciabilità articolo a un movimento di aumento di magazzino con informazioni sulla tracciabilità articolo.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Per rimuovere un collegamento articoli tramite il Prospetto collegamento
+## Per rimuovere un collegamento articoli tramite il Prospetto collegamento
 
-1.  Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Immettere filtri nella Scheda dettaglio **Generale** per semplificare la ricerca del movimento contabile articolo per il quale si desidera modificare il collegamento.  
 4.  Selezionare il movimento contabile articolo e scegliere l'azione **Movimenti collegati**. Verrà aperta la pagina **Visualizza movimenti collegati - Movimenti collegati** in cui saranno visualizzati uno o più movimenti contabili articoli attualmente collegati al movimento selezionato.  
@@ -49,9 +49,9 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 >   
 >  **Impossibile eseguire questa azione perché i movimenti per l'articolo \<item\> non sono applicati nel prospetto collegamento dall'utente \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Per riapplicare un collegamento articoli tramite il Prospetto collegamento
+## Per riapplicare un collegamento articoli tramite il Prospetto collegamento
 
-1.  Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , inserire **Foglio di lavoro dell'applicazione**e poi scegliere il link relativo.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Per ricollegare i movimenti rimossi dopo l'apertura del prospetto, selezionare il movimento contabile articolo che si desidera ricollegare, quindi scegliere l'azione **Ricollega**.  
 
@@ -66,12 +66,12 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
     >  Se si è scelto di creare un collegamento che provocherebbe la generazione di un ciclo infinito nel processo di rettifica del costo, il collegamento proposto non viene effettuato. Ciò può avvenire quando tramite i movimenti originali è stato creato uno stock negativo. Il collegamento non viene eseguito. Di conseguenza, è necessario selezionare un movimento diverso per il collegamento.  
 6.  Se nella finestra **Setup magazzino** il campo **Rettifica costo automatica** è impostato su **Sempre**, il processo batch di rettifica del costo viene eseguito automaticamente dopo la creazione di un nuovo collegamento. In caso contrario, eseguire il processo batch **Rettifica costo - Movimenti articoli** per assicurarsi che tutti i costi siano aggiornati.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
- [Dettagli del design: Applicazione dell'articolo](design-details-item-application.md)  
+ [Dettagli di progettazione: collegamento articoli](design-details-item-application.md)  
  [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

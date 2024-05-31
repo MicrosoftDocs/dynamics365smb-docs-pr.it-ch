@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
+# Procedure dettagliate per i processi aziendali
 
 Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS. Esse consistono di diverse procedure secondarie, alcune delle quali sono normalmente effettuate da un solo utente, mentre altre coinvolgono più ruoli utente. Per simulare l'ambiente lavorativo, alcune delle procedure dettagliate richiedono operazioni preliminari necessarie a completare gli esercizi come descritto. Tali operazioni aiutano a comprendere quali tipi di informazioni gli utenti devono condividere con il personale informatico della loro società.  
 
@@ -20,13 +20,13 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
 
 |A|Vedere|  
 |--------|---------|  
-|Impostare una campagna di marketing.|[Procedura dettagliata: Conduzione di una campagna di vendita](walkthrough-conducting-a-sales-campaign.md)|  
+|Impostare una campagna di marketing.|[Procedura dettagliata: conduzione di una campagna di vendita](walkthrough-conducting-a-sales-campaign.md)|  
 |Utilizzare pagamenti anticipati per gestire pagamenti parziali per vendite e acquisti. <!-- **Requires complete sample data** --> |[Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Impostare gli utenti approvazione, come e quando gli utenti ricevono la notifica sui flussi di lavoro di approvazione, quindi modificare e abilitare il relativo flusso di lavoro di approvazione.|[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Pianificare un progetto, dall'inizio alla fine. <!-- **Requires complete sample data** --> |[Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)|  
-|Generare report sui costi di un progetto. <!-- **Requires complete sample data** --> |[Procedura dettagliata: Calcolo del valore WIP per una commessa](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Generare report sui costi di un progetto. <!-- **Requires complete sample data** --> |[Procedura dettagliata: calcolo del semilavorato per una commessa](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Prelevare gli articoli per la spedizione nelle configurazioni di warehouse di base. <!-- **Requires complete sample data** --> |[Procedura dettagliata: prelievo e spedizione nelle configurazioni di warehouse di base](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Esportare i dati aziendali per scopi di controllo in Germania.|[Procedura dettagliata: Esportazione di dati per un audit digitale](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
+|Esportare i dati aziendali per scopi di controllo in Germania.|[Procedura dettagliata: esportazione di dati per un audit digitale](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 <!-- |Assemble and ship items that are customized on the sales order. **Requires complete sample data** |[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|   -->
 <!-- |Plan supply orders to fulfill demand automatically. **Requires complete sample data** |[Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)|   -->
@@ -35,7 +35,7 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

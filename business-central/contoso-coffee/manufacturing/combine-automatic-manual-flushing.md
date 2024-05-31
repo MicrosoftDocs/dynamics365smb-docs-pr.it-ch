@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procedura dettagliata: Combinare la consuntivazione automatica e manuale
+# Procedura dettagliata: Combinare la consuntivazione automatica e manuale
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee nella consuntivazione.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessario creare un nuovo ordine di produzione per dieci unità dell'articolo SP-SCM1004, AutoDrip. Alcuni componenti e operazioni verranno consuntivati in avanti, altri all'indietro in base a condizioni diverse.
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 > [Nota!] Ricordati di rettificare l'inventario registrando il giornale di registrazione articolo con i saldi di apertura.
 
@@ -34,7 +34,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
 3. Esamina i movimenti contabili dell'articolo e della capacità per l'ordine di produzione.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
 
     2. Apri l'ordine di produzione con le 5 unità della macchina da caffè AutoDrip.  
 
@@ -46,7 +46,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
     È possibile eseguire la consuntivazione manualmente degli articoli componenti utilizzando il giornale di registrazione consumo o produzione. La consuntivazione manuale consente di regolare la quantità prima della registrazione. Ad esempio, se è necessaria una quantità aggiuntiva per coprire le materie prime di bassa qualità.
 4. Esegui la consuntivazione dei componenti manualmente.  
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni consumi**, quindi scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni consumi**, quindi scegli il collegamento correlato.  
 
     2. Sceglie l'azione **Calcola consumo**.  
 
@@ -58,7 +58,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
     Devi compilare manualmente i campi **Tempo di setup** e **Tempo lavorazione**. È inoltre possibile specificare la quantità effettivamente prodotta e lo scarto. Immetti *3* come quantità di output e registra l'output.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
+    1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 
     2. Nella pagina **Registrazioni output**, crea una nuova riga di registrazione.  
 
@@ -103,7 +103,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
 Questo è tutto per la consuntivazione manuale e automatica dei componenti.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Eseguire la consuntivazione dei componenti in base all'output dell'operazione](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduzione ai dati demo Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

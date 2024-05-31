@@ -10,7 +10,7 @@ ms.date: 11/02/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="register-new-items"></a>Registrare nuovi articoli
+# Registrare nuovi articoli
 
 Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
 
@@ -33,7 +33,7 @@ La seguente procedura illustra come creare manualmente una scheda articolo da ze
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## <a name="to-create-a-new-item-card"></a>Per creare una nuova scheda articolo
+## Per creare una nuova scheda articolo
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -48,7 +48,7 @@ L'articolo è ora registrato e la scheda articolo è pronta per essere utilizzat
 
 Se si desidera utilizzare questa scheda articolo come modello quando si creano nuove schede articolo, è possibile salvarla come modello. Per ulteriori informazioni, vedere la seguente sezione:  
 
-### <a name="to-save-the-item-card-as-a-template"></a>Per salvare la scheda articolo come modello
+### Per salvare la scheda articolo come modello
 
 1. Nella pagina **Scheda articolo** scegliere l'azione **Salva come modello**. Nella pagina **Modello articolo** verrà visualizzata la scheda articolo come modello.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -58,15 +58,15 @@ Se si desidera utilizzare questa scheda articolo come modello quando si creano n
 
 Il modello articolo viene aggiunto all'elenco dei modelli articolo, in modo che sia possibile utilizzarlo per creare nuove schede articolo.
 
-### <a name="items-used-in-production-orders"></a>Articoli utilizzati negli ordini di produzione
+### Articoli utilizzati negli ordini di produzione
 
 Se vuoi registrare gli articoli che vengono quindi utilizzati negli ordini di produzione, specifica il sistema di rifornimento come *Ordine produzione* nella scheda dettaglio **Rifornimento**. Per ulteriori informazioni, vedere [Informazioni sugli ordini di produzione](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Per impostare più fornitori per un articolo
+## Per impostare più fornitori per un articolo
 
 Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le informazioni relative a ogni singolo fornitore dell'articolo quali il prezzo, il lead time, lo sconto e così via.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Selezionare il relativo articolo, quindi scegliere l'azione **Modifica**.  
 3. Scegliere l'azione **Fornitori**.  
 4. Selezionare il campo **Nr. fornitore** e selezionare il fornitore che si intende impostare per l'articolo.  
@@ -75,13 +75,13 @@ Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le 
 
 I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** che si apre dalla scheda articolo per poter selezionare facilmente un fornitore alternativo.
 
-## <a name="set-up-item-substitutions"></a>Configurare articoli sostitutivi
+## Configurare articoli sostitutivi
 
 È possibile impostare articoli in modo che abbiano articoli sostitutivi, ad esempio altri articoli che possono essere utilizzati al posto dell'articolo originale.
 
-### <a name="to-make-an-item-substitution"></a>Per sostituire un articolo
+### Per sostituire un articolo
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserisci **Elemento** e scegli il link relativo.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Trova l'elemento pertinente, quindi scegli **Nr. Articolo** per aprire la Scheda articolo.  
 3. Scegli l'azione **Correlato**, quindi scegli **Articolo**, **Sostituzioni** per aprire la pagina **Mov. articoli sostitutivi**.  
 4. Scegli il campo **Nr. sostituto** quindi seleziona l'articolo sostitutivo nell'elenco.
@@ -92,45 +92,45 @@ Quando la quantità richiesta supera la quantità disponibile in magazzino, un m
 > [!NOTE]  
 > Tieni presente che le sostituzioni non determinano automaticamente la sostituzione di un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
 
-## <a name="categories-attributes-and-variants"></a>Categorie, attributi e varianti
+## Categorie, attributi e varianti
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Ulteriori informazioni sulle varianti in [Gestire le varianti di prodotto](inventory-item-variants.md).  
 
-## <a name="delete-item-cards"></a>Eliminare schede articolo
+## Eliminare schede articolo
 
 Se registri una transazione per un articolo, non puoi eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.  
 
-## <a name="manage-inventory-in-warehouses"></a>Gestione del magazzino in warehouse
+## Gestione del magazzino in warehouse
 
 Quando registri un nuovo articolo, vengono visualizzati i campi relativi alla gestione del magazzino, in particolare nella scheda dettaglio **Warehouse**. Se l'organizzazione non utilizza le funzionalità di gestione del magazzino in [!INCLUDE [prod_short](includes/prod_short.md)] è possibile ignorare quei campi.  
 
 Se la tua organizzazione in seguito imposta la gestione del magazzino, ti consigliamo di assicurarti che ogni articolo esistente abbia le informazioni corrette nei vari campi. In questo modo, i processi di magazzino possono essere eseguiti come previsto. Le informazioni possono includere campi come **Codice classe warehouse** o **Codice modello stoccaggio**. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).  
 
-## <a name="planning"></a>Piano
+## Pianificazione
 
 Quando la tua azienda utilizza i processi di pianificazione della fornitura in [!INCLUDE [prod_short](includes/prod_short.md)], devi compilare i campi pertinenti nella Scheda dettaglio **Pianificazione**. Per un'introduzione all'area di pianificazione, vedi [Dettagli di progettazione: concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md).  
 
 Per esempi di come è possibile utilizzare i campi nella Scheda dettaglio **Pianificazione**, vedi [Procedure consigliate per la configurazione: parametri di pianificazione](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Inventario](inventory-manage-inventory.md)  
+[Magazzino](inventory-manage-inventory.md)  
 [Impostare unità di misura](inventory-how-setup-units-of-measure.md)  
 [Gestire le varianti di prodotto](inventory-item-variants.md)  
 [Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
-[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Riconciliare i costi del magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Creazione di numerazioni](ui-create-number-series.md)  
 [Impostazione delle categorie di registrazione](finance-posting-groups.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
 [Informazioni sulla funzionalità di pianificazione](production-about-planning-functionality.md)  
-[Impostare le procedure ottimali: Pianificazione dei parametri](setup-best-practices-planning-parameters.md)  
+[Impostare le procedure consigliate: pianificazione dei parametri](setup-best-practices-planning-parameters.md)  
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)  
-[Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
-[Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
+[Dettagli di progettazione: concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)  
+[Dettagli di progettazione: bilanciamento di domanda e offerta](design-details-balancing-demand-and-supply.md)  
+[Dettagli di progettazione: parametri di pianificazione](design-details-planning-parameters.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

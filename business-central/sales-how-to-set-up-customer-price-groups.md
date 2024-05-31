@@ -10,19 +10,19 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-customer-price-groups"></a>Impostare i gruppi di prezzi dei clienti
+# Impostare i gruppi di prezzi dei clienti
   
 I prezzi di vendita possono essere fatti dipendere dai gruppi di clienti a cui si vende. Questi sono chiamati gruppi di prezzi per i clienti.
 
 Prima di impostare i gruppi di prezzi per i clienti, dovete decidere quanti gruppi volete e quali clienti apparterranno a ciascun gruppo.  
 
-## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>Come creare prezzi di vendita per un gruppo di clienti
+## Come creare prezzi di vendita per un gruppo di clienti  
 
 Quando hai concordato i prezzi che il gruppo di clienti pagherà per certi articoli, registra l'accordo per i singoli articoli nelle righe della pagina **Prezzi di vendita** .
 
-### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Per creare prezzi di vendita per un gruppo di clienti
+### Per creare prezzi di vendita per un gruppo di clienti
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , immetti **Gruppi di prezzi per clienti** e poi scegliere il link relativo.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , immetti **Gruppi di prezzi per clienti** e poi scegliere il link relativo.  
 
 2. Selezionare la linea per il gruppo di prezzo del cliente. Se una linea non esiste già, puoi crearne una nuova. Selezionare **Nuovo** per creare una nuova entità e darle un nome.  
     
@@ -42,24 +42,24 @@ Quando hai concordato i prezzi che il gruppo di clienti pagherà per certi artic
 
 Ripeti i passi da 4 a 8 per ogni articolo per cui vuoi creare un prezzo di vendita.
 
-## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>Come inserire i codici dei gruppi di prezzo dei clienti sulle carte cliente
+## Come inserire i codici dei gruppi di prezzo dei clienti sulle carte cliente  
 
 Dopo aver impostato i gruppi di prezzi per i clienti, potete inserire i codici dei gruppi di prezzi per i clienti sulle schede clienti.
 
-### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Per inserire i codici dei gruppi di prezzo dei clienti su una carta cliente
+### Per inserire i codici dei gruppi di prezzo dei clienti su una carta cliente  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Clienti**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Clienti**, quindi selezionare il collegamento correlato.  
 
 2. Aprite la relativa **scheda cliente** per un cliente che volete far parte di un gruppo di prezzi clienti.  
 
 3. Nella FastTab **Fatturazione**, nel campo **Gruppo prezzo cliente**, seleziona il codice **Gruppo prezzo cliente** .  
 
 
-## <a name="see-also"></a>Vedi anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Record di prezzi speciali e sconti](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Registrare prezzi speciali e sconti](sales-how-record-sales-price-discount-payment-agreements.md)  
 [Impostazione delle categorie sconto clienti](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

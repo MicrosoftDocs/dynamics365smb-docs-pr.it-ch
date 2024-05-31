@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="edit-posted-documents"></a>Modifica dei documenti registrati
+# Modifica dei documenti registrati
 
 A volte è necessario aggiornare un documento registrato perché le informazioni rilevanti per il documento sono cambiate. In un documento di vendita registrato, ad esempio, questo può essere il numero di registrazione del pacchetto dell'agente di spedizione. Su un documento di acquisto registrato, questo può essere un testo di riferimento di pagamento.
 
@@ -19,8 +19,8 @@ Eseguire la modifica su una versione modificabile del documento originale, indic
 
 La funzionalità è disponibile per i seguenti documenti in tutti i mercati supportati:
 
-- Spedizioni vendita registrate
-- Fatture acquisto registrate
+- Spedizione vendita registrata
+- Fattura di acquisto registrata
 - Spedizione reso registrata
 - Carico da reso registrato
 
@@ -31,23 +31,23 @@ I seguenti documenti aggiuntivi possono essere modificati nei paesi/aree geograf
 - RU: Nota credito di vendita registrate
 - IT: Spedizione trasferimento registrata, Spedizione assistenza registrata
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Per modificare una spedizione vendita registrata
+## Per modificare una spedizione vendita registrata
 
 Di seguito viene spiegato come modificare una spedizione vendita registrata. I passaggi sono simili per gli altri documenti supportati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.
 2. Selezionare il documento che si desidera modificare, quindi scegliere l'azione **Aggiorna documento**. In alternativa, aprire il documento e scegliere l'azione.
 3. Nella pagina **Spedizioni vendita registrate - Aggiornamento** modificare il campo **Nr. identificazione collo**, ad esempio.
-4. Scegli il pulsante **OK**.
+4. Scegliere il pulsante **OK**.
 
 La spedizione vendita registrata viene aggiornata.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
-[Ricerca di movimenti correlati per documenti](ui-find-entries.md)  
+[Ricerca di movimenti correlati per i documenti](ui-find-entries.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

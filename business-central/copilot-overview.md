@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 04/16/2024
+ms.date: 05/17/2024
 ms.custom: bap-template
 ---
 
@@ -43,6 +43,10 @@ Copilot include una serie di funzionalità in costante espansione che assistono 
 ## Copilot è a conoscenza delle personalizzazioni del mio ambiente?
 
 Alcune, ma non tutte le funzionalità di Copilot sono in grado di funzionare con le tue pagine e tabelle personalizzate. Ad esempio, puoi usare [assistenza all'analisi](analysis-assist.md) nei tuoi elenchi personalizzati, o [chattare con Copilot](chat-with-copilot.md)  per trovare i record nelle tabelle personalizzate. Per comprendere quali funzionalità di Copilot funzionano con le personalizzazioni, consulta gli articoli relativi a ciascuna funzionalità.
+
+## Copilot deve essere addestrato sui miei dati?
+
+Copilot in Business Central si basa su potenti modelli di base di intelligenza artificiale abbinati alle funzionalità di gestione dei dati della piattaforma Business Central. Non è necessaria alcuna formazione costosa o dispendiosa in termini di tempo affinché la tua organizzazione possa iniziare a utilizzare Copilot con i dati aziendali.
 
 ## Posso sviluppare i miei copiloti per Business Central?
 
@@ -86,6 +90,6 @@ L'intelligenza artificiale generativa in Copilot in Business Central è in linea
 [Analizzare i dati negli elenchi con Copilot](analysis-assist.md)  
 [Chat con Copilot](chat-with-copilot.md)  
 [Creare testo di marketing con Copilot](item-marketing-text.md)  
-[Mappare documenti elettronici a righe di ordini di acquisto con Copilot](map-edocuments-with-copilot.md)  
+[Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot](map-edocuments-with-copilot.md)  
 [Riconciliare i conti correnti bancari con Copilot](bank-reconciliation-with-copilot.md)  
 [Suggerire righe in ordini vendita con Copilot](sales-suggest-sales-lines-with-copilot.md)  

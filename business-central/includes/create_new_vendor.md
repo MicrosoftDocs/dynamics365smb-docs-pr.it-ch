@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 2](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Fornitori**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 2.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Fornitori**, quindi selezionare il collegamento correlato.  
 2. Nella pagina **Fornitori** selezionare **Nuovo**.
 
     Se esistono più modelli fornitore, verrà aperta una pagina nella quale sarà possibile selezionare un modello. In questo caso, seguire i due passaggi successivi.

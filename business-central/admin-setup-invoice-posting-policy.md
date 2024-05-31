@@ -11,11 +11,11 @@ ms.search.forms: '119, 9807,'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="define-an-invoice-posting-policy-for-users"></a>Definire un criterio di registrazione delle fatture per gli utenti
+# Definire un criterio di registrazione delle fatture per gli utenti
 
 Le aziende hanno spesso processi univoci per la registrazione di fatture di vendita e acquisto e spedizioni. Ad esempio, i processi possono variare da una persona che registra tutto su un ordine di acquisto a più dipendenti. È possibile impedire agli utenti di registrare fatture o richiedere che le fatture vengano registrate insieme a spedizioni o ricevute.
 
-## <a name="to-specify-a-posting-policy"></a>Per specificare un criterio di registrazione
+## Per specificare un criterio di registrazione
 
 Nella pagina **Configurazione utente** nei campi **Criteri di registrazione delle fatture di vendita** e **Criteri di registrazione delle fatture di acquisto**, scegli una delle seguenti opzioni:
 
@@ -23,7 +23,7 @@ Nella pagina **Configurazione utente** nei campi **Criteri di registrazione dell
 * **Proibito** - Impedisce all'utente di registrare le fatture. Business Central mostrerà una finestra di dialogo di conferma che fornisce solo le opzioni **Spedisci** o **Ricevi**.
 * **Obbligatorio** - Consente all'utente di registrare le fatture insieme a ricevute o spedizioni. Business Central mostrerà una finestra di dialogo di conferma con le opzioni **Spedisci e fattura** o **Ricevi e fattura**.
 
-## <a name="effect-on-documents"></a>Effetto sui documenti
+## Effetto sui documenti
 
 La tabella seguente descrive in che modo i criteri di registrazione delle fatture influiscono sui documenti.
 
@@ -41,15 +41,15 @@ La tabella seguente descrive in che modo i criteri di registrazione delle fattur
 |Fattura di acquisto|Nessuna opzione|Registrare la fattura?|Registrare la fattura?|
 |Nota di credito acquisto|Nessuna opzione|Registrare la nota di credito?|Registrare la nota di credito?|
 |Ord. reso di acquisto |- Spedisci <br>- Fattura <br>- Spedisci e fattura |Registrare la spedizione? |Registrare la spedizione e la fattura?|
-|Stoccaggio in magazzino |- Ricevi <br>- Ricevi e fattura |Registrare la ricevuta? |Registrare la ricevuta e la fattura?|
+|Stoccaggio inventario |- Ricevi <br>- Ricevi e fattura |Registrare la ricevuta? |Registrare il carico e la fattura?|
 |Spedizione warehouse |- Spedisci <br>- Spedisci e fattura | Registrare la spedizione? |Registrare la spedizione e la fattura?|
 
    > [!Note]
    > L'impostazione non influisce sulla registrazione delle righe di registrazioni generali in cui è possibile selezionare **Fattura** nel campo **Tipo di documento**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Fatturare le vendite](sales-how-invoice-sales.md)  
+[Fatturazione delle vendite](sales-how-invoice-sales.md)  
 [Registrare gli acquisti con le fatture e gli ordini di acquisto](purchasing-how-record-purchases.md)  
 [Acquistare articoli per una vendita creando fatture di acquisto](purchasing-how-purchase-products-sale.md)
 [Prepararsi per fare affari](ui-get-ready-business.md)  

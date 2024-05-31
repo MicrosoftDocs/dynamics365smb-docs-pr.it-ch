@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Abilitare il collegamento dei movimenti contabili fornitore in valute diverse
+# Abilitare il collegamento dei movimenti contabili fornitore in valute diverse
 
 Se si acquista da un fornitore con una valuta e si paga con un'altra valuta, è possibile collegare il pagamento all'acquisto.
 
@@ -18,9 +18,9 @@ In modo analogo, se si effettua una vendita a un cliente in una valuta e si rice
 
 Nella procedura riportata di seguito viene descritto come configurare questa impostazione per i movimenti contabili fornitori nella pagina **Setup contabilità fornitori e acquisti**. L'impostazione è simile per i movimenti contabili clienti nella pagina **Setup contabilità clienti e vendite**.
 
-## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Per abilitare il collegamento dei movimenti contabili fornitore in valute diverse
+## Per abilitare il collegamento dei movimenti contabili fornitore in valute diverse
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità fornitori**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Setup contabilità fornitori**, quindi selezionare il collegamento correlato.
 2. Nel campo **Collegamenti tra valute** selezionare una delle seguenti opzioni:
 
 | Opzione | Descrizione |
@@ -29,23 +29,23 @@ Nella procedura riportata di seguito viene descritto come configurare questa imp
 | UE |Collegamento fra valute UE consentito |
 | Tutto |Collegamento fra tutte le valute consentito |
 
-## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Per impostare i conti C/G per le differenze di arrotondamento di applicazione delle valute
+## Per impostare i conti C/G per le differenze di arrotondamento di applicazione delle valute
 
 Se movimenti in diverse valute vengono collegati, è necessario impostare il conto di contabilità generale in cui verranno registrate le differenze di arrotondamento.  
 
 > [!NOTE]  
 > È necessario impostare i conti di contabilità generale prima di completare il task. Per ulteriori informazioni, vedere [Contabilità generale e piano dei conti](finance-general-ledger.md).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cat. reg. clienti**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cat. reg. clienti**, quindi scegli il collegamento correlato.  
 2. Nei campi **Conto dare arrot. coll. val.** e **Conto avere arrot. coll. val.** immettere i conti di contabilità generale pertinenti per registrare le differenze di arrotondamento.  
-3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cat. reg. fornitori**, quindi scegli il collegamento correlato.  
+3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cat. reg. fornitori**, quindi scegli il collegamento correlato.  
 4. Nei campi **Conto dare arrot. coll. val.** e **Conto avere arrot. coll. val.** immettere i conti di contabilità generale pertinenti per registrare le differenze di arrotondamento.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

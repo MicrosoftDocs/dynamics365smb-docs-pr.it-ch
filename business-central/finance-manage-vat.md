@@ -10,14 +10,14 @@ ms.date: 01/31/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
-# <a name="vat-management-overview"></a>Panoramica della gestione IVA
+# Panoramica della gestione IVA
 L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni e servizi. L'IVA viene riscossa in ogni fase della catena di approvvigionamento in cui il valore viene aggiunto dalla produzione iniziale al punto vendita. Per un'introduzione sulla gestione dell'IVA, vedi i seguenti argomenti.  
 
 |  Articolo  |  Descrizione  |  
 |--------|--------------|  
 | [Usare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md) | Questo articolo descrive i vari modi di utilizzare l'IVA con una configurazione manuale o automatica. Fornisce inoltre informazioni su come soddisfare le normative specifiche del Paese o dell'area geografica.|
 | [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md) | Questo articolo fornisce informazioni per calcolare, registrare e creare report corretti sull'IVA di vendite e acquisti.|
-| [Configurazione della categoria di registrazione](finance-posting-groups.md#tax-posting-groups) | Questo articolo fornisce una panoramica sul gruppo IVA e su altre categorie di registrazione che puoi usare per risparmiare tempo ed evitare errori quando registri le transazioni.|
+| [Impostare la categoria di registrazione](finance-posting-groups.md#tax-posting-groups) | Questo articolo fornisce una panoramica sul gruppo IVA e su altre categorie di registrazione che puoi usare per risparmiare tempo ed evitare errori quando registri le transazioni.|
 | [Impostare l'IVA non detraibile](finance-setup-nondeductible-vat.md) | Questo articolo fornisce informazioni su come impostare correttamente l'IVA non detraibile relativa a percentuali e conti.|
 | [Impostare l'IVA ad esigibilità differita](finance-setup-unrealized-vat.md) | Se utilizzi contabilità basata su contanti, questo articolo fornisce informazioni su come specificare la gestione dell'IVA ad esigibilità differita per vendite e acquisti.|
 | [Inviare la dichiarazione IVA alle autorità fiscali](finance-how-report-vat.md) | Questo articolo fornisce informazioni su come preparare report che elencano l'IVA di vendita durante un periodo, oppure l'IVA di vendite e acquisti, e su come inviarli a un'autorità fiscale.|
@@ -28,9 +28,9 @@ L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni 
 | [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md) | Questo articolo descrive come usare la convalida di Business Central per i numeri di partita IVA per contatti, clienti e fornitori in base al servizio di convalida dei numeri di partita IVA (VIES) dell'Unione Europea.|
 
 
-## <a name="see-also"></a>Vedi anche
-[Dati finanziari](finance.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Vedere anche  
+[Finanze](finance.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

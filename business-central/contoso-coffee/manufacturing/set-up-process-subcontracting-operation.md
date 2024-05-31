@@ -8,27 +8,27 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Impostare ed elaborare un'operazione di subappalto
+# Impostare ed elaborare un'operazione di subappalto
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee nel conto lavoro.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. A causa di limiti di capacità, prevedi di utilizzare un subappaltatore per produrre l'articolo **SP-SCM1009, Airpot**.
 
 Crei un nuovo ordine di produzione rilasciato per 12 unità dell'articolo SP-SCM1009, Airpot, utilizzando Routing - SP-SCM1009-SUB-2. Utilizza il foglio di lavoro conto lavoro per generare un ordine d'acquisto per la produzione, quindi completa l'operazione ricevendo e fatturando l'ordine d'acquisto.
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 1. Crea un nuovo ordine di produzione rilasciato per 12 unità dell'articolo SP-SCM1009, Airpot.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
 
     2. Scegliere l'azione **Nuovo**, quindi compilare i campi come descritto nella tabella che segue.  
 
         |Campo  |Valore  |
         |---------|---------|
-        |**Tipo Origine** |Articolo|
+        |**Tipo Origine** |Elemento|
         |**Nr. Origine** |SP-SCM1009|
         |**Quantità** |100|
     3. Scegli l'azione **Aggiorna ordine produzione**.  
@@ -45,7 +45,7 @@ Crei un nuovo ordine di produzione rilasciato per 12 unità dell'articolo SP-SCM
 
 3. Utilizza il foglio di lavoro conto lavoro per generare un ordine d'acquisto per l'operazione in conto lavoro nell'ordine di produzione creato nel passaggio 2.  
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **prospetto conto lavoro**, quindi scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **prospetto conto lavoro**, quindi scegli il collegamento correlato.  
 
     2. Scegli l'azione **Calcolo conto lavoro**.
 
@@ -59,7 +59,7 @@ Crei un nuovo ordine di produzione rilasciato per 12 unità dell'articolo SP-SCM
 
 4. Ricevi e fattura l'ordine di acquisto.  
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **ordini acquisto**, quindi scegli il collegamento correlato.  
+    1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **ordini acquisto**, quindi scegli il collegamento correlato.  
 
     2. Nell'elenco **Ordini di acquisto** trova l'ordine di acquisto dal fornitore 82000 Subappaltatore.
 
@@ -67,12 +67,12 @@ Crei un nuovo ordine di produzione rilasciato per 12 unità dell'articolo SP-SCM
 
     4. Nella scheda dettaglio **Righe** seleziona la riga, quindi imposta il campo **Costo diretto** su *18*.
 
-    5. Scegli l'azione **Registra**.  
+    5. Scegliere l'azione **Registra**.  
 
     6. Nel messaggio di richiesta, scegli l'opzione **Ricevi e fattura**.  
 
 L'output dell'articolo SP-SCM1009 Airpot è ora registrato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

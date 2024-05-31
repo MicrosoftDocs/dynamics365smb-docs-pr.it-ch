@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Procedura dettagliata: varianti
+# Procedura dettagliata: varianti
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee per apprendere le varianti.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessario aggiornare la previsione della domanda per ciascuna variante dell'articolo SP-SCM1006, AutoDripLite. Poiché ha colori diversi, è necessario garantire che venga utilizzata la distinta base (DB) corretta per ciascuna variante. Esegui il prospetto pianificazione per calcolare l'offerta.  
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 1. Imposta le unità di stockkeeping per l'articolo SP-SCM1006, AutoDripLite. Assegna una distinta base per SKU con le varianti ROSSO e BIANCO.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserisci *Articoli* e scegli il collegamento relativo.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , inserisci *Articoli* e scegli il collegamento relativo.  
 
     2. Apri l'articolo **SP-SCM1006, AutoDripLite**.
 
@@ -42,7 +42,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
 2. Aggiorna il setup di produzione e rispetta le previsioni della domanda per ubicazioni e varianti.  
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti *setup manufacturing*, quindi scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti *setup manufacturing*, quindi scegli il collegamento correlato.  
 
     2. Attiva il campo **Usa previsioni per le ubicazioni**.
 
@@ -52,7 +52,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
 3. Crea una nuova previsione mensile della domanda, *AUTODRIP*. Filtra per articolo SP-SCM1006 e ubicazione PRINCIPALE. Imposta la domanda per maggio per ogni variante. 
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti *Previsione della domanda*, quindi seleziona il collegamento correlato.
+    1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti *Previsione della domanda*, quindi seleziona il collegamento correlato.
 
     2. Crea una nuova previsione della domanda con il nome *AUTODRIP*.
 
@@ -80,7 +80,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
 4. Esegui il piano MPS a maggio per le previsioni della domanda creata. Esamina i componenti per vedere che la vernice dell'articolo è correlata alla variante.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti *prospetto pianificazione*, quindi scegli il collegamento correlato.
+    1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti *prospetto pianificazione*, quindi scegli il collegamento correlato.
 
     2. Scegliere l'azione **Calcola piano - Rigenerativo**.
 
@@ -98,6 +98,6 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
     9. Per ogni riga creata, scegli l'azione **Componenti** e rivedi quale vernice viene utilizzata.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

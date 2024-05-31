@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Procedura dettagliata del flusso in entrata e in uscita nella configurazione warehouse avanzata
+# Procedura dettagliata del flusso in entrata e in uscita nella configurazione warehouse avanzata
 
 Questa procedura dettagliata illustra come completare i flussi in entrata e in uscita nella configurazione avanzata per stoccaggio e prelievo diretti. Per ulteriori informazioni, vedi [Panoramica delle diverse opzioni di configurazione](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti  
 Per completare questa procedura, devi diventare un dipendente warehouse presso l'ubicazione *BIANCA* effettuando i seguenti passaggi:  
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
 2. Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
@@ -23,32 +23,32 @@ Per completare questa procedura, devi diventare un dipendente warehouse presso l
 4. Attiva l'interruttore **Predefinito**.
 
 
-## <a name="scenario"></a>Scenario
+## Scenario  
 Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e di rifornimento delle collocazioni per velocizzare i tempi di ricezione e spedizione.  
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 1. Crea spedizione warehouse.  
 
-    1. Scegli l'icona ![lampadina che apre la funzione Dimmi 2.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+    1. Scegli l'icona ![lampadina che apre la funzione Dimmi 2.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini vendita**, quindi selezionare il collegamento correlato.  
     2. Seleziona l'ordine per il cliente 10000 per l'ubicazione BIANCA. Il numero dell'ordine esterno è *W-1*.
     3. Scegli l'azione **Crea spedizione warehouse** per creare una spedizione warehouse per l'ordine di vendita selezionato.
     4. Scegli l'azione **Rilascia** per comunicare alla warehouse che la spedizione ordine di vendita è pronta per la gestione warehouse.  
 
 2. Definire le collocazioni per l'articolo per controllare dove viene stoccato 
 
-    1.  Scegli l'icona ![lampadina che apre la funzione Dimmi 3.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli** e scegli il collegamento correlato.  
+    1.  Scegli l'icona ![lampadina che apre la funzione Dimmi 3.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
     2.  Seleziona *WRB-1000* e scegli l'azione **Contenuto delle collocazioni**.  
-    3.  Scegli l'azione **Nuovo**. Aggiungi due righe.
+    3.  Scegliere l'azione **Nuovo**. Aggiungi due righe.
     
-    |Articolo|Cod. ubicazione|Codice collocazione|Corretto|Unità di misura|
+    |Elemento|Cod. ubicazione|Codice collocazione|Corretto|Unità di misura|
     |----------|----------|---------|---|------|  
-    |WAR-1000|BIANCO|W-05-0001|Sì|BORSA|  
+    |WRB-1000|BIANCO|W-05-0001|Sì|BORSA|  
     |WRB-1000|BIANCO|W-05-0002|Sì|BORSA|
 
 3. Crea il carico warehouse.  
 
-    1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
+    1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini acquisto**, quindi selezionare il collegamento correlato.  
     2. Seleziona l'ordine del fornitore 10000 per l'ubicazione BIANCA. Il numero dell'ordine fornitore è *W-2*. Utilizza gli strumenti di personalizzazione se il campo **Numero ordine fornitore** non è visibile. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](../../ui-personalization-user.md).
     3. Scegli l'azione **Crea carico warehouse** per creare un carico warehouse per l'ordine di acquisto selezionato.
 
@@ -82,7 +82,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
     2.  Aprire la scheda ubicazione *BIANCA*.  
     3.  Scegli l'azione **Collocazioni** nella **Scheda ubicazione**
     4.  Seleziona la collocazione *W-02-0001* e scegli l'azione **Contenuto**.  
-    5.  Scegli l'azione **Nuovo**.  
+    5.  Scegliere l'azione **Nuovo**.  
     6.  Attiva l'interruttore **Fisso**.  
     7.  Nel campo **Nr. articolo** immetti *WRB-1000*. 
     8.  Nel campo **Quantità minima** immetti *2*. 
@@ -117,7 +117,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
     3. Ispeziona il campo **Qtà in collocazione cross-dock**. 
 
     4. Scegliere l'azione **Crea prelievo**.
-    5. Conferma una qualsiasi delle impostazioni di prelievo necessarie, ad esempio abilita l'interruttore **Per zona di partenza**. Scegli il pulsante **OK**.
+    5. Conferma una qualsiasi delle impostazioni di prelievo necessarie, ad esempio abilita l'interruttore **Per zona di partenza**. Scegliere il pulsante **OK**.
     
     Viene visualizzato un messaggio di conferma con i numeri di prelievo. Ci sono due prelievi in quanto alcuni articoli si trovano nella zona di cross-dock, vicino all'area di spedizione, e avrebbe senso elaborarli separatamente.
 
@@ -135,7 +135,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
     4. Conferma l'opzione **Spedisci**.
 
 
-## <a name="results"></a>Risultati
+## Risultati
 - Viene creato il **carico warehouse registrato**
 - Viene creato lo **stoccaggio warehouse registrato**    
 - Viene creato il **carico acquisto registrato**    
@@ -149,7 +149,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
 
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Ricevere articoli](../../warehouse-how-receive-items.md) 
 [Dettagli di progettazione: flusso di magazzino in entrata](../../design-details-inbound-warehouse-flow.md) 
 [Spedizione articoli](../../warehouse-how-ship-items.md) 

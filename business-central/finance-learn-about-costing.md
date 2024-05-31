@@ -9,7 +9,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="about-inventory-costing"></a>Informazioni sul costing di magazzino
+# Informazioni sul costing di magazzino
 La gestione dei costi di magazzino include la registrazione e il reporting dei costi operativi business. Comprende inoltre il reporting dei costi di produzione e di magazzino, ovvero il valore degli articoli.  
 
  Di seguito sono elencati i principi fondamentali di questa materia: i metodi di costing definiscono il modo in cui gli articoli vengono valutati quando escono dal magazzino, la rettifica dei costi aggiorna il costo della merce venduta con costi di acquisto correlati registrati dopo la vendita e infine il valore di magazzino deve essere registrato in appositi conti C/G con periodicità regolare.  
@@ -25,12 +25,12 @@ La gestione dei costi di magazzino include la registrazione e il reporting dei c
 |Distinguere il costo previsto (non ancora fatturato) dal costo effettivo e apprendere come viene gestito nella contabilità generale.|[Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md)|  
 |Comprendere il meccanismo di rettifica dei costi, che assicura il riporto dei costi anche se le transazioni di magazzino avvengono in modo casuale.|[Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)|  
 |Apprendere per quale motivo i costi standard vengono spesso utilizzati dalle aziende manifatturiere come base di valutazione per componenti e articoli finali.|[Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)|  
-|Comprendere il modo in cui il valore di magazzino viene riflesso nella contabilità generale.|[Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Comprendere il modo in cui il valore di magazzino viene riflesso nella contabilità generale.|[Riconciliare i costi del magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Ottenere informazioni sul modo in cui gli addebiti articoli, come le spese di trasposto e l'assicurazione, possono attribuire componenti di costo supplementari al costo unitario di un articolo.|[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|  
 |Apprendere come i periodi di magazzino consentano a una società di controllare il valore di magazzino nel tempo mediante la definizione di periodi più brevi, che possono essere chiusi per la registrazione con l'avanzamento dell'anno fiscale.|[Utilizzare periodi di magazzino](finance-how-to-work-with-inventory-periods.md)|  
-|Comprendere tutti i meccanismi del motore di costing, incluso quanto accade quando si registrano transazioni di produzione e di assemblaggio.|[Dettagli di progettazione: determinazione dei costi di inventario](design-details-inventory-costing.md)|  
+|Comprendere tutti i meccanismi del motore di costing, incluso quanto accade quando si registrano transazioni di produzione e di assemblaggio.|[Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)    
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

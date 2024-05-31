@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-service-contracts-for-service-items"></a>Procedura dettagliata sui contratti di assistenza per articoli in assistenza
+# Procedura dettagliata sui contratti di assistenza per articoli in assistenza
 
 Questa procedura dettagliata illustra diversi processi principali:
 
@@ -20,39 +20,39 @@ Questa procedura dettagliata illustra diversi processi principali:
 - Completare l'inserimento di ore per l'ordine di assistenza
 - Registrare e fatturare l'ordine di assistenza del contratto
 
-## <a name="creation-of-service-items"></a>Creazione di articoli in assistenza
+## Creazione di articoli in assistenza
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Susan, la responsabile degli ordini, registra un ordine di vendita vendendo un articolo configurato per generare un articolo in assistenza.  
 
-### <a name="steps"></a>Passaggi
+### Passaggi
 
 1. Verifica che per **Articolo** sia selezionato **Gruppo articoli in assistenza**.
    
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli** e scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
     2. Seleziona l'articolo *S-100* e aprilo.
     3. Controlla il valore nel campo **Gruppo articoli in assistenza**.
        
 2. Registra l'**Ordine vendita** per creare l'articolo in assistenza per il cliente.  
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini vendita**, quindi selezionare il collegamento correlato.  
     2. Seleziona l'ordine per il cliente 10000. Il numero dell'ordine esterno è *SVC-1*.
     3. Scegli l'azione **Registra** per spedire l'articolo al cliente.
 
-### <a name="results"></a>Risultati
+### Risultati
 
 - Viene creato un articolo in assistenza per il cliente 10000
 
-## <a name="invoicing-a-service-contract"></a>Fatturazione di un contratto di assistenza
+##  Fatturazione di un contratto di assistenza
 
-### <a name="scenario-1"></a>Scenario
+### Scenario
 
 Charles, il responsabile dell'assistenza, crea quindi un contratto di assistenza per fatturare le visite di manutenzione periodiche.
 
 3. Crea il **Contratto di assistenza** per il nuovo articolo in assistenza
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Contratti assistenza**, quindi scegli il collegamento correlato.
-    2. Scegli l'azione **Nuovo**.  
+    1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contratti assistenza**, quindi scegli il collegamento correlato.
+    2. Scegliere l'azione **Nuovo**.  
     3. Nella finestra di dialogo di conferma, scegli **Sì** per creare un contratto utilizzando il modello. 
     4. Seleziona *Contratto non prepagato - Mensile*.
     5. Nella Scheda dettaglio Assistenza, in **Tipo ordine assistenza**, immetti **MANUTEN**.
@@ -66,24 +66,24 @@ Charles, il responsabile dell'assistenza, crea quindi un contratto di assistenza
     8. Scegli **Sì** per confermare la creazione di una fattura di assistenza. Viene visualizzato un messaggio di conferma con il numero di fattura di assistenza.
 
 3. Registra la fattura di assistenza
-   1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture assistenza**, quindi scegli il collegamento correlato.
+   1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture assistenza**, quindi scegli il collegamento correlato.
    2. Trova la fattura di assistenza e scegli l'azione **Registra**.
 
-### <a name="results-1"></a>Risultati
+### Risultati
 
 - Viene creato un contratto di assistenza firmato, con movimenti contabili
 - Viene creata una fattura assistenza registrata
 
-## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Creare un ordine di assistenza per un contratto di assistenza e assegnare le risorse
+## Creare un ordine di assistenza per un contratto di assistenza e assegnare le risorse
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 
 Charles, il responsabile dell'assistenza, crea gli ordini di assistenza per ordini di manutenzione periodici nell'ambito del contratto di assistenza, quindi esaminerà la pagina Quadro attività per assegnarli.
 
-### <a name="steps-1"></a>Passaggi
+### Passaggi
 
 1. Esegui gli ordini di assistenza che adempiono agli obblighi dei contratti di assistenza attivi.
-   1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea ordini assistenza a contratto**, quindi seleziona il collegamento correlato.
+   1. Scegli la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea ordini assistenza a contratto**, quindi seleziona il collegamento correlato.
    2. Immetti le date di inizio e fine del mese nei campi Data di inizio e Data di fine nella Scheda dettaglio Opzioni
    3. Scegli **OK** per confermare la creazione di ordini di assistenza. Viene visualizzato un messaggio di conferma con il numero di ordini di assistenza creati.
 
@@ -103,24 +103,24 @@ Charles, il responsabile dell'assistenza, crea gli ordini di assistenza per ordi
     3. Lo stato dell'assegnazione diventa Attivo.
     4. Aggiornando la pagina Quadro attività mostra che il valore di **N. di assegnazioni** è passato da 0 a 1 per l'ordine di assistenza.
 
-### <a name="results-2"></a>Risultati
+### Risultati
 
 - Vengono creati ordini di assistenza per i contratti di assistenza
 - Gli ordini di assistenza vengono assegnati a una risorsa per completare il lavoro
 
-## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Completare l'inserimento di ore per l'ordine di assistenza e registrare l'ordine di assistenza
+## Completare l'inserimento di ore per l'ordine di assistenza e registrare l'ordine di assistenza
 
-### <a name="scenario-3"></a>Scenario
+### Scenario  
 
 Il tecnico dell'assistenza registra il tempo speso direttamente nell'ordine di assistenza, quindi contrassegnerà l'ordine come completato.
 
 > [!NOTE]
 > L'inserimento delle ore per gli ordini di assistenza può essere eseguito tramite i fogli presenze. Per ulteriori informazioni, vedi [collegamento al foglio presenza se questa nota ha senso].
 
-### <a name="steps-2"></a>Passaggi
+### Passaggi
 
 1. Trova l'ordine di assistenza e immetti le ore nella riga dell'assistenza
-   1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , entrare in **Ordini di servizio**, e poi scegliere il link relativo.
+   1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini assistenza**, quindi scegli il collegamento correlato.
    2. Individua l'ordine di assistenza per il quale immettere il tempo speso.
    3. Scegli l'azione **Riga assistenza**.
    4. Immetti le seguenti informazioni
@@ -132,11 +132,11 @@ Il tecnico dell'assistenza registra il tempo speso direttamente nell'ordine di a
 2. Registra il consumo nell'ordine di assistenza
    1. Scegli l'azione **Registra** per completare l'ordine di assistenza, seleziona l'azione **Spedisci e consuma**, quindi scegli il pulsante **OK**.
 
-### <a name="results-3"></a>Risultati
+### Risultati
 
 - Vengono creati movimenti contabili di assistenza associati all'articolo in assistenza, al contratto di assistenza e alla risorsa
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../../contoso-coffee/contoso-coffee-intro.md)  
 [Informazioni sugli ordini di produzione](../../production-about-production-orders.md)

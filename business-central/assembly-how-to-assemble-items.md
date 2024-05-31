@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="assemble-items"></a>Assemblare articoli
+# Assemblare articoli
 
 Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo predefinito per l'approvvigionamento dell'articolo è l'assemblaggio in base a un assemblaggio BOM e potenzialmente in base a una risorsa specifica. Per ulteriori informazioni, vedi [Utilizzo delle DB assemblaggio](assembly-how-work-assembly-boms.md). Per ulteriori informazioni sull'impostazione di un articolo di assemblaggio, vedi [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -27,13 +27,13 @@ Questo articolo descrive le impostazioni standard per l'assemblaggio per magazzi
 > [!NOTE]  
 > I componenti di assemblaggio sono gestiti in modo speciale in configurazioni di warehouse di base. Ulteriori informazioni in [Gestione di articoli da assemblare su ordine con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Per assemblare un articolo per magazzino
+## Per assemblare un articolo per magazzino
 
 Segui i passaggi di questa procedura per assemblare un articolo per magazzino. Per informazioni sull'assemblaggio su ordine, vai a [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di assemblaggio**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di assemblaggio**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Verrà visualizzata la pagina **Nuovo ordine di assemblaggio**.  
-3. Compila i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Nel campo **Nr. articolo** seleziona l'articolo di assemblaggio da assemblare. Puoi selezionare articoli impostati per l'assemblaggio e con una distinta base di assemblaggio o articoli senza una distinta base di assemblaggio. Quest'ultima è utile per assemblaggi o scenari non pianificati quando si desidera usare la riclassificazione degli articoli e tenere traccia dei costi.  
 5. Nel campo **Quantità** immettere il numero di unità dell'articolo che si desidera assemblare.  
 
@@ -61,11 +61,11 @@ Segui i passaggi di questa procedura per assemblare un articolo per magazzino. P
 
 Una volta effettuata la registrazione, l'articolo di assemblaggio viene registrato come output nel codice ubicazione e nel codice collocazione potenziale definiti nell'ordine di assemblaggio. Per gli ordini di assemblaggio creati manualmente, l'ubicazione può essere copiata dal campo di setup **Ubicazione di default per gli ordini**. Per i flussi di assemblaggio su ordine, il codice ubicazione può essere copiato dalla riga ordine di vendita.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Usare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Magazzino](inventory-manage-inventory.md)  
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

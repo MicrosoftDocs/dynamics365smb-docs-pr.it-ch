@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="making-payments"></a>Effettuare i pagamenti
+# Effettuare i pagamenti
 
 Quando si eseguono i pagamenti ai fornitori, ai clienti o i rimborsi ai dipendenti, si registrano le relative righe di pagamento nella pagina **Registrazioni pagamenti**. Le registrazioni pagamenti sono registrazioni generali ottimizzate per effettuare pagamenti e includono una serie di potenti funzioni come **Sugg. pagamenti fornitore** che consente di individuare i pagamenti fornitore in scadenza e il report **Fornitori - Scadenziario riepilogativo** che mostra una panoramica dei pagamenti scadenza dei fornitori.  
 
@@ -26,7 +26,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | A | Vedere |
 | --- | --- |
-|Comprendere la funzioni di base della pagina **Registrazioni pagamenti**, su cui si basano le registrazioni COGE, per preparare la registrazione dei pagamenti ai fornitori o ai dipendenti.|[Utilizzare le registrazioni COGE](ui-work-general-journals.md)|
+|Comprendere la funzioni di base della pagina **Registrazioni pagamenti**, su cui si basano le registrazioni COGE, per preparare la registrazione dei pagamenti ai fornitori o ai dipendenti.|[Usare le registrazioni COGE](ui-work-general-journals.md)|
 |Registrare i pagamenti ai fornitori o ai dipendenti e i rimborsi ai clienti ed eventualmente collegare i pagamenti alle fatture o note di credito non pagate correlati per consentirne la chiusura come pagate.|[Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md)|
 | Utilizzare una funzione nella pagina **Registrazioni pagamenti** per suggerire i pagamenti fornitore in base ai criteri selezionati, ad esempio la data di scadenza, l'idoneità allo sconto e la liquidità. |[Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md) |
 | Emettere assegni per i pagamenti fornitore o i rimborsi ai clienti, come stampati o come assegni automatici. Annullare gli assegni prima o dopo la registrazione. |[Effettuare pagamenti tramite assegno](payables-how-work-checks.md) |
@@ -34,7 +34,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Pagare un fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Esportare un file Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

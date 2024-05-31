@@ -10,26 +10,26 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-multiple-documents-at-the-same-time"></a>Registrare più documenti contemporaneamente
+# Registrare più documenti contemporaneamente
 
 Anziché registrare un singolo documento alla volta, è possibile selezionare più documenti non registrati in un elenco per una registrazione immediata o una registrazione batch programmata, ad esempio, per la fine della giornata. Ciò può essere utile se solo un supervisore può registrare documenti creati da altri utenti o per evitare problemi di prestazioni del sistema dovuti alla registrazione durante l'orario di lavoro.
 
-## <a name="to-post-multiple-purchase-orders-immediately"></a>Per registrare immediatamente più ordini di acquisto
+## Per registrare immediatamente più ordini di acquisto
 
 La seguente procedura descrive come registrare immediatamente più ordini di acquisto. I passaggi sono simili per tutti i documenti di acquisto e vendita.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini acquisto**, quindi selezionare il collegamento correlato.
 2. Nella pagina **Ordini acquisto**, selezionare tutti gli ordini da registrare:
 3. Nel campo **Nr.** selezionare i tre punti verticali per aprire il menu di scelta rapida, quindi scegliere il l'azione **Seleziona più elementi**.
 4. Selezionare la casella di controllo per tutte le righe che rappresentano gli ordini che si desidera registrare contemporaneamente.
 5. Scegliere l'azione **Registrazione** e quindi l'azione **Registra**.
 6. Scegliere il pulsante **Sì** nel messaggio di conferma.
 
-## <a name="to-batch-post-multiple-purchase-orders"></a>Per eseguire registrazioni batch di ordini di acquisto
+## Per eseguire registrazioni batch di ordini di acquisto
 
 La seguente procedura descrive come eseguire registrazioni batch di ordini di acquisto. I passaggi sono simili per tutti i documenti di acquisto e vendita in cui l'azione **Registra batch** è disponibile.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini acquisto**, quindi selezionare il collegamento correlato.  
 2. Nella pagina **Ordini acquisto**, selezionare tutti gli ordini da registrare:
 3. Nel campo **Nr.** selezionare i tre punti verticali per aprire il menu di scelta rapida, quindi scegliere il l'azione **Seleziona più elementi**.
 4. Selezionare la casella di controllo per tutte le righe che rappresentano gli ordini che si desidera registrare contemporaneamente.
@@ -41,12 +41,12 @@ La seguente procedura descrive come eseguire registrazioni batch di ordini di ac
 > [!NOTE]
 > La registrazione di più documenti potrebbe richiedere tempo e bloccare altri utenti. Considerare l'abilitazione della registrazione in background. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
-## <a name="to-set-up-background-posting-with-job-queues"></a>Per configurare la registrazione background con le code processi
-Le code processi sono un efficace strumento per programmare l'esecuzione dei processi aziendali in background, ad esempio quando più utenti tentano di registrare gli ordini di vendita, ma un solo ordine può essere elaborato alla volta.  
+## Per configurare la registrazione background con le code processi
+Le code processi sono un efficace strumento per pianificare l'esecuzione dei processi aziendali in background, ad esempio quando più utenti tentano di registrare gli ordini di vendita, ma un solo ordine può essere elaborato alla volta.  
 
 La procedura seguente illustra come configurare la registrazione in background di ordini di vendita. I passaggi sono simili per un acquisto.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup contabilità clienti e vendite**, selezionare la casella di controllo **Registra mediante coda processi**.
 3. Scegliere il campo **Codice categoria coda processi** e specificare il codice **SALESPOST**.
 
@@ -66,20 +66,20 @@ La procedura seguente illustra come configurare la registrazione in background d
 4. Per verificare che la coda processi stia funzionando come previsto, registrare un ordine di vendita. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
     Gli ordini vendita verranno ora aggiunti a un movimento coda processi dedicato, che definisce quando i documenti vengono registrati. 
 
-### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Per visualizzare lo stato di un documento di vendita o di acquisto
+### Per visualizzare lo stato di un documento di vendita o di acquisto
 Se la coda processi non può registrare l'ordine di vendita, lo stato viene modificato in **Errore** e l'ordine di vendita viene aggiunto all'elenco degli ordini di vendita che l'utente deve gestire manualmente.
 1. Dal documento che si è tentato di registrare con la registrazione in background, scegliere il campo **Stato coda processi**, che conterrà **Errore**.
 2. Analizzare il messaggio di errore e correggere il problema.
 
 In alternativa, è possibile verificare nella pagina **Voci log coda processi** se l'ordine di vendita è stato registrato correttamente. Per ulteriori informazioni, vedere la sezione [Monitorare la coda processi](#monitor-the-job-queue).
 
-## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Per creare un movimento coda processi per la registrazione batch di ordini di vendita
+## Per creare un movimento coda processi per la registrazione batch di ordini di vendita
 
 In alternativa, è possibile rimandare le registrazioni nelle ore in cui è conveniente per la propria organizzazione. Ad esempio, può avere senso nella propria l'attività commerciale eseguire determinate procedure quando si è conclusa la maggior parte dell'immissione dati del giorno. Per riuscirci, impostare la coda commesse sull'esecuzione di diversi report di registrazione tramite processo batch, come i report **Registra ordini vendite tramite processo batch**, **Registra fatture vendita tramite processo batch** e report simili. [!INCLUDE[prod_short](includes/prod_short.md)] supporta la registrazione in background per tutti i documenti di vendita, acquisto e assistenza.
 
 La seguente procedura illustra come impostare il report **Registra batch ordini vendite** per registrare automaticamente gli ordini di vendita alle ore 16 nei giorni della settimana.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nel campo **Tipo oggetto da eseguire**, selezionare **Report**.  
 4. Nel campo **ID oggetto da eseguire**, selezionare 296, **Registra batch ordini vendite**.
@@ -110,16 +110,16 @@ La seguente procedura illustra come impostare il report **Registra batch ordini 
 
 Gli ordini di vendita entro i filtri definiti saranno registrati ogni giorno della settimana alle ore 16.
 
-## <a name="monitor-the-job-queue"></a>Monitorare la coda processi
+## Monitorare la coda processi
 
 Se si imposta la pubblicazione in background con code processi, monitorare regolarmente la coda processi per rilevare eventuali problemi. È possibile tenere traccia dello stato nella pagina **Movimenti coda processi**. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).  
 
 In qualità di amministratore, è possibile usare [Application Insights](/azure/azure-monitor/app/app-insights-overview) per raccogliere e analizzare i dati di telemetria da utilizzare per identificare i problemi. Per ulteriori informazioni, vedere [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) nel contenuto per sviluppatori e amministratori.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
-[Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
+[Usare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
 [Modificare i documenti registrati](across-edit-posted-document.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  

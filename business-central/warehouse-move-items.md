@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Spostamento di articoli
+# Spostamento di articoli
 
 Puoi spostare gli articoli nella warehouse in diversi modi, a seconda di come hai configurato la warehouse. La complessità può variare:
 
@@ -36,12 +36,12 @@ Le attività di conteggio, rettifica e riclassificazione degli articoli possono 
 |Utilizza il prospetto movimentazione warehouse, prelievo e stoccaggio interni, per spostare gli articoli in configurazioni di warehouse avanzate con prelievo e stoccaggio diretti.|[Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Ristrutturare la warehouse con nuovi codici collocazione e nuove caratteristiche per le collocazioni e spostarli.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica della gestione warehouse](design-details-warehouse-management.md)  
-[Inventario](inventory-manage-inventory.md)  
-[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Magazzino](inventory-manage-inventory.md)  
+[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

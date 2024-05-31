@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Fornitori**, quindi selezionare il collegamento correlato.
 2. Apri la scheda per il fornitore.
 3. Scegliere l'azione **C/C bancari**.
 4. Dalla **lista dei conti bancari del fornitore**, scegli il conto bancario pertinente o aggiungi un nuovo conto bancario scegliendo **Nuovo**.

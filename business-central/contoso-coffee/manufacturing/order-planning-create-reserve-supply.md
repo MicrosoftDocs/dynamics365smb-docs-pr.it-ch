@@ -8,25 +8,25 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Procedura dettagliata: Utilizzare la pianificazione degli ordini per creare e prenotare la fornitura
+# Procedura dettagliata: Utilizzare la pianificazione degli ordini per creare e prenotare la fornitura
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee nella pianificazione ordini.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. Hai creato un ordine di produzione per 100 unità dell'articolo **SP-SCM1009, Airpot** e vuoi pianificare i sottoassiemi per questo ordine. Utilizza la pianificazione degli ordini per creare l'ordine di produzione richiesto per la fornitura. Poiché si sta creando l'ordine di produzione per soddisfare i requisiti di un ordine specifico, decidi di prenotare l'output dell'ordine di produzione.  
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 1. Crea il nuovo ordine di produzione rilasciato per 100 unità dell'articolo **SP-SCM1009, Airpot**.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
 
     2. Scegliere l'azione **Nuovo**, quindi compilare i campi come descritto nella tabella che segue.  
 
         |Campo  |Valore  |
         |---------|---------|
-        |**Tipo Origine** |Articolo|
+        |**Tipo Origine** |Elemento|
         |**Nr. Origine** |SP-SCM1009|
         |**Quantità** |100|
     3. Scegli l'azione **Aggiorna ordine produzione**.  
@@ -59,7 +59,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. Hai creato
 
 Questo è tutto per la pianificazione degli ordini in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  
 [Informazioni sugli ordini di produzione](../../production-about-production-orders.md)  

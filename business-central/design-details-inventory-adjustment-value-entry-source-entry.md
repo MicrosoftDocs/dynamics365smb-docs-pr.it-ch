@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Data di registrazione nella registrazione del valore di aggiustamento rispetto alla registrazione di origine
+# Data di registrazione nella registrazione del valore di aggiustamento rispetto alla registrazione di origine
 
 Questo articolo confronta la data di registrazione sulla registrazione del valore di aggiustamento con la data di registrazione sulla registrazione che causa l'esecuzione del lavoro batch Rettifica costo movimenti articoli, in particolare uno scenario di rivalutazione e uno scenario di addebito dell'articolo.
 
 Il lavoro batch **Rettifica costo movimenti articoli** elaborerà i vostri dati a seconda del vostro scenario e della configurazione di [!INCLUDE[prod_short](includes/prod_short.md)]. In questa sezione, descriviamo due processi separati, e per ognuno mostriamo il tipo di impatto che il lavoro batch Rettifica costo movimenti articoli ha sui dati.
 
-## <a name="revaluation-scenario"></a>Scenario di rivalutazione
+## Scenario di rivalutazione
 
-### <a name="prerequisites"></a>Prerequisiti
+### Prerequisiti  
 
 Inserite i seguenti valori:
 
 **Impostazione dell'inventario**:  
 
-- Registrazione automatica dei costi = Sì  
+- Reg. automatica costi = Sì  
 
 - Adeguamento automatico dei costi = Sempre  
 
@@ -44,7 +44,7 @@ Inserite i seguenti valori:
 
 - Permettere di inviare a = Vuoto  
 
-### <a name="to-test-the-scenario"></a>Per verificare lo scenario:
+### Per verificare lo scenario:
 
 Testate questo scenario eseguendo i seguenti passi.
 
@@ -84,7 +84,7 @@ Testate questo scenario eseguendo i seguenti passi.
 
      - Articolo = TEST  
 
-     - Tipo di voce = Aggiustamento negativo  
+     - Tipo movimento = Rettifica negativa  
 
      - Quantità = 3  
 
@@ -100,41 +100,41 @@ I seguenti **movimenti contabili articoli** e **movimenti di valorizzazione** so
 
 **Mov. Contabile Articoli - acquisto**  
 
-|Numero movimento  |Nr. Articolo  |Data di registrazione  |Tipo movimento  |Nr. documento  |Quantità  |Importo costo (effettivo)  |Quantità residua  |
+|Numero movimento  |Nr. Articolo  |Data di Registrazione  |Tipo di movimento  |Nr. Documento  |Quantità  |Importo costo (effettivo)  |Quantità Residua  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |317     |TEST         |2020-12-15         |Acquisti         |T00001         |100         |4000         |95        |
 
 **Mov. valorizzazione**  
 
-|Numero movimento  |Nr. Articolo  |Data di registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo movimento  |Nr. documento  |Quantità num. mov. contabili art.  |Importo costo (effettivo)  |Costo registrato in C/G  |Rettifica  |Movimento collegato  |Codice origine  |
+|Numero movimento  |Nr. Articolo  |Data di Registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo di movimento  |Nr. Documento  |Quantità num. mov. contabili art.  |Importo costo (effettivo)  |Costo registrato in C/G  |Rettifica  |Movimento collegato  |Codice Origine  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|376     |TEST|   2020-12-15    |317         |Acquisti         |Costo diretto         |T00001         |100         |1 000,00          |1 000,00    |No         |0         |ITEMNL         |
-|379     |TEST   |**12-2020-15**    |317         |Acquisti         |Rivalutazione         |T04002         |0         |3 000,00         |3 000,00         |No         |0         |REVALINL         |
+|376     |TEST|   2020-12-15    |317         |Acquisti         |Costo diretto         |T00001         |100         |1 000,00          |1 000,00    |Nr.         |0         |ITEMNL         |
+|379     |TEST   |**12-2020-15**    |317         |Acquisti         |Rivalutazione         |T04002         |0         |3 000,00         |3 000,00         |Nr.         |0         |REVALINL         |
 
 **Mov. Contabile Articoli - rettifica negativa, passaggio 3**  
 
-|Nr. movimento  |Nr. Articolo  |Data di registrazione  |Tipo movimento  |Nr. documento  |Quantità  |Importo costo (effettivo)  |Quantità residua  |
+|Nr. Movimento  |Nr. Articolo  |Data di Registrazione  |Tipo di movimento  |Nr. Documento  |Quantità  |Importo costo (effettivo)  |Quantità Residua  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |318     |TEST      |2020-12-20   |Rettifica negativa  |T00002         |-2         |-80         | 0        |
 
 **Mov. valorizzazione**  
 
-|Numero movimento  |Nr. Articolo  |Data di registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo movimento  |Nr. documento  |Quantità num. mov. contabili art.  |Importo costo (effettivo)  |Costo registrato in C/G  |Rettifica  |Movimento collegato  |Codice origine  |
+|Numero movimento  |Nr. Articolo  |Data di Registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo di movimento  |Nr. Documento  |Quantità num. mov. contabili art.  |Importo costo (effettivo)  |Costo registrato in C/G  |Rettifica  |Movimento collegato  |Codice Origine  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|377     |TEST|   2020-12-20    |318         |Rettifica negativa         |Costo diretto         |T00002         |-2         |-20          |-20    |No         |0         |ITEMNL         |
+|377     |TEST|   2020-12-20    |318         |Rettifica negativa         |Costo diretto         |T00002         |-2         |-20          |-20    |Nr.         |0         |ITEMNL         |
 |380     |TEST   |**01-2021-01**    |318         |Rettifica negativa         |Costo diretto         |T04002         |0         |-60         |-60         |Sì         |377         |INVTADAMT         |
 
 **Mov. Contabile Articoli - rettifica negativa, passaggio 4**  
 
-|Nr. movimento  |Nr. Articolo  |Data di registrazione  |Tipo movimento  |Nr. documento  |Quantità  |Importo costo (effettivo)  |Quantità residua  |
+|Nr. Movimento  |Nr. Articolo  |Data di Registrazione  |Tipo di movimento  |Nr. Documento  |Quantità  |Importo costo (effettivo)  |Quantità Residua  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |319     |TEST      |2021-01-15   |Rettifica negativa  |T00003         |-3         |-120         | 0        |
 
 **Mov. valorizzazione**  
 
-|Numero movimento  |Nr. Articolo  |Data di registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo movimento  |Nr. documento  |Quantità num. mov. contabili art.  |Importo costo (effettivo)  |Costo registrato in C/G  |Rettifica  |Movimento collegato  |Codice origine  |
+|Numero movimento  |Nr. Articolo  |Data di Registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo di movimento  |Nr. Documento  |Quantità num. mov. contabili art.  |Importo costo (effettivo)  |Costo registrato in C/G  |Rettifica  |Movimento collegato  |Codice Origine  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|378     |TEST|   2021-01-15    |319         |Rettifica negativa         |Costo diretto         |T00003         |-3         |-30          |-30    |No         |0         |ITEMNL         |
+|378     |TEST|   2021-01-15    |319         |Rettifica negativa         |Costo diretto         |T00003         |-3         |-30          |-30    |Nr.         |0         |ITEMNL         |
 |381     |TEST   |**01-2021-15**    |319         |Rettifica negativa         |Costo diretto         |T04003         |0         |-90         |-90         |Sì         |378         |INVTADAMT         |
 
 Il lavoro batch **Rettifica costo movimenti articoli** ha riconosciuto un cambiamento nel costo e ha regolato gli aggiustamenti negativi.  
@@ -149,27 +149,27 @@ La rettifica apportata per la rettifica negativa nel passaggio 3 è oggetto di d
 
 Per ottenere l'aggiustamento in dicembre dell'aggiustamento negativo al passo 3, il campo Setup contabilità generale, Consenti registrazione da, deve indicare una data in dicembre.  
 
-### <a name="conclusion"></a>Conclusione
+### Conclusione
 
 Con l'esperienza acquisita in questo scenario, quando si considera la configurazione più adatta per un intervallo di date di invio consentito per un'azienda, si potrebbe voler considerare quanto segue. Finché si permette che i cambiamenti nel valore dell'inventario siano registrati in un periodo, come dicembre in questo caso, la configurazione che l'azienda usa per gli intervalli di date di registrazione permessi dovrebbe essere allineata con questa decisione. Il campo Consenti registraz. da nel setup di contabilità generale, indicante il 1° dicembre, permetterebbe il trasferimento della rivalutazione effettuata a dicembre ai movimenti in uscita interessati nello stesso periodo.  
 
 Per i gruppi di utenti a cui non è consentito registrare in dicembre ma a gennaio, condizione probabilmente determinata dal setup di contabilità generale in questo scenario, si deve utilizzare il setup utente.  
 
-## <a name="item-charge-scenario"></a>Scenario di addebito dell'articolo
+## Scenario di addebito dell'articolo  
 
-### <a name="prerequisites-1"></a>Prerequisiti
+### Prerequisiti  
 
 Inserite i seguenti valori:
 
 **Impostazione dell'inventario**:  
 
-- Registrazione automatica dei costi = Sì  
+- Reg. automatica costi = Sì  
 
 - Adeguamento automatico dei costi = Sempre  
 
 - Calcolo del costo medio. Tipo = Articolo  
 
-- Periodo di costo medio = giorno  
+- Costo medio periodo = Giorno  
 
 **Impostazione della contabilità generale**:  
 
@@ -179,27 +179,27 @@ Inserite i seguenti valori:
 
 **Impostazione dell'utente**:  
 
-- Consentire l'invio da = 1 dicembre 2020.  
+- Consenti registraz. da = 1° dicembre 2020  
 
 - Consentire la pubblicazione di = vuoto  
 
-### <a name="to-test-the-scenario-1"></a>Per testare lo scenario
+### Per verificare lo scenario:  
 
 Testate questo scenario eseguendo i seguenti passi:
 
 1.  Creare un addebito **Elemento** con i seguenti valori:  
 
-     - Unità di misura di base = PCS  
+     - Unità di misura base = PZ  
 
-     - Metodo di calcolo dei costi = Media  
+     - Metodo di costing = Media  
 
-     - Seleziona i gruppi di pubblicazione opzionali.  
+     - Selezionare categorie di registrazione facoltative.  
 
 2.  Creare un nuovo **ordine di acquisto** con i seguenti valori:  
 
      - Acquistare da - Nr. for.: 10000  
 
-     - Data di invio = 15 dicembre 2020
+     - Data di registrazione = 15 dicembre 2020
 
      - Nr. fattura fornitore: 1234  
 
@@ -231,13 +231,13 @@ Testate questo scenario eseguendo i seguenti passi:
 
 4.  Inserire i valori per la pagina **Setup contabilità generale** :  
 
-     - Permettere il distacco da = 1 gennaio 2021  
+     - Consenti registraz. da = 1° gennaio 2021  
 
     -  Consenti registrazioni fino a = vuoto  
 
 5.  Creare un nuovo **ordine di acquisto** con i seguenti valori:  
 
-     - Acquista dal venditore No: 10000  
+     - Acquistare da - Nr. for.: 10000  
 
      - Data di registrazione = 2 gennaio 2021  
 
@@ -258,35 +258,35 @@ Testate questo scenario eseguendo i seguenti passi:
 
 **Stato Mov. Contabile Articoli dell'acquisto passaggio 2**:  
   
-|Numero movimento  |Nr. Articolo  |Data di registrazione  |Tipo movimento  |Nr. documento  |Quantità  |Importo costo (effettivo)  |Quantità residua  |
+|Numero movimento  |Nr. Articolo  |Data di Registrazione  |Tipo di movimento  |Nr. Documento  |Quantità  |Importo costo (effettivo)  |Quantità Residua  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |324     |ADDEBITO         |2020-12-15         |Acquisti         |107030         |1         |105         |0        |
 
 **Mov. valorizzazione**  
 
-|Numero movimento |Nr. Articolo  |Data di registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo movimento  |Nr. documento  | Nr. addebito articolo    |  Quantità mov. contabili art.   |Importo costo (effettivo)     |Costo registrato in C/G |Rettifica |Movimento Collegato |
+|Numero movimento |Nr. Articolo  |Data di Registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo di movimento  |Nr. Documento  | Nr. addebito articolo    |  Quantità mov. contabili art.   |Importo costo (effettivo)     |Costo registrato in C/G |Rettifica |Collegare a - Movimento |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 |397      |ADDEBITO|   2020-12-15    |324         |Acquisti         |Costo diretto         |108029         |         |1          |100    |100         |NO         |0         |
 |399      |ADDEBITO   |2021-01-02    |324         |Acquisti         |Costo diretto         |108009         |JBFREIGHT         |0         |3         |3         |NO         |0         |
 
 **Stato Mov. Contabile Articoli vendita**:  
   
-|Nr. movimento  |Nr. Articolo  |Data di registrazione  |Tipo movimento  |Nr. documento  |Quantità  |Importo costo (effettivo)  |Quantità residua  |
+|Nr. Movimento  |Nr. Articolo  |Data di Registrazione  |Tipo di movimento  |Nr. Documento  |Quantità  |Importo costo (effettivo)  |Quantità Residua  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-|325     |ADDEBITO         |2020-12-16         |Vendite         |102035         |-1         |-105         |0        |
+|325     |ADDEBITO         |2020-12-16         |Vendita         |102035         |-1         |-105         |0        |
 
 **Mov. valorizzazione**  
 
-|Numero movimento |Nr. Articolo  |Data di registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo movimento  |Nr. documento  | Nr. addebito articolo    |  Quantità mov. contabili art.   |Importo costo (effettivo)     |Costo registrato in C/G |Rettifica |Movimento Collegato |
+|Numero movimento |Nr. Articolo  |Data di Registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo di movimento  |Nr. Documento  | Nr. addebito articolo    |  Quantità mov. contabili art.   |Importo costo (effettivo)     |Costo registrato in C/G |Rettifica |Collegare a - Movimento |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|398      |ADDEBITO|   2020-12-16    |325         |Vendite         |Costo diretto         |109024         |         |-1          |-100    |-100         |NO         |0         |
-|400      |ADDEBITO   |2021-01-01    |325         |Vendite         |Costo diretto         |109024         |         |0         |-3         |-3         |Sì         |398         |
+|398      |ADDEBITO|   2020-12-16    |325         |Vendita         |Costo diretto         |109024         |         |-1          |-100    |-100         |NO         |0         |
+|400      |ADDEBITO   |2021-01-01    |325         |Vendita         |Costo diretto         |109024         |         |0         |-3         |-3         |Sì         |398         |
 
 6.  Il 3 gennaio, data di lavoro, arriva una fattura d'acquisto che contiene un costo aggiuntivo all'acquisto fatto nel passo 2. Questa fattura ha data di documento 30 dicembre, ed è quindi registrata con Posting Date 30 dicembre 2020.  
 
      Creare un nuovo **ordine di acquisto** con i seguenti valori:  
 
-     - Acquista dal venditore No: 10000  
+     - Acquistare da - Nr. for.: 10000  
 
      - Data di registrazione = 30 dicembre 2020  
 
@@ -294,7 +294,7 @@ Testate questo scenario eseguendo i seguenti passi:
 
      Nella linea dell'ordine di acquisto selezionare i seguenti valori:  
 
-     - Costo dell'articolo = JB-FREIGHT  
+     - Addebito articolo = COM-SPEDIZ  
 
      - Quantità = 1  
 
@@ -307,31 +307,31 @@ Testate questo scenario eseguendo i seguenti passi:
 
 **Stato Mov. Contabile Articoli dell'acquisto**:  
 
-|Numero movimento  |Nr. Articolo  |Data di registrazione  |Tipo movimento  |Nr. documento  |Quantità  |Importo costo (effettivo)  |Quantità residua  |
+|Numero movimento  |Nr. Articolo  |Data di Registrazione  |Tipo di movimento  |Nr. Documento  |Quantità  |Importo costo (effettivo)  |Quantità Residua  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |324     |ADDEBITO         |2020-12-15         |Acquisti         |107030         |1         |105         |0        |
 
 **Mov. valorizzazione**  
 
-|Nr. movimento |Nr. Articolo  |Data di registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo movimento  |Nr. documento  | Nr. addebito articolo    |  Quantità mov. contabili art.   |Importo costo (effettivo)     |Costo registrato in C/G |Rettifica |Movimento Collegato |
+|Nr. Movimento |Nr. Articolo  |Data di Registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo di movimento  |Nr. Documento  | Nr. addebito articolo    |  Quantità mov. contabili art.   |Importo costo (effettivo)     |Costo registrato in C/G |Rettifica |Collegare a - Movimento |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|397      |ADDEBITO   |2020-12-15    |324         |Acquisti         |Costo diretto         |108029         |            |1         |100    |100         |No         |0         |
-|399      |ADDEBITO   |2021-01-02    |324         |Acquisti         |Costo diretto         |108030         |JBFREIGHT   |0         |3         |3         |No         |0         |
-|401      |ADDEBITO   |**12-2020-30**    |324         |Acquisti         |Costo diretto         |108031         |JBFREIGHT   |0         |2         |2         |No         |0         |
+|397      |ADDEBITO   |2020-12-15    |324         |Acquisti         |Costo diretto         |108029         |            |1         |100    |100         |Nr.         |0         |
+|399      |ADDEBITO   |2021-01-02    |324         |Acquisti         |Costo diretto         |108030         |JBFREIGHT   |0         |3         |3         |Nr.         |0         |
+|401      |ADDEBITO   |**12-2020-30**    |324         |Acquisti         |Costo diretto         |108031         |JBFREIGHT   |0         |2         |2         |Nr.         |0         |
 
 **Stato Mov. Contabile Articoli vendita**:  
   
-|Numero movimento  |Nr. Articolo  |Data di registrazione  |Tipo movimento  |Nr. documento  |Quantità  |Importo costo (effettivo)  |Quantità residua  |
+|Numero movimento  |Nr. Articolo  |Data di Registrazione  |Tipo di movimento  |Nr. Documento  |Quantità  |Importo costo (effettivo)  |Quantità Residua  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-|325     |ADDEBITO         |2020-12-16         |Vendite         |102035         |-1         |-105         |0        |
+|325     |ADDEBITO         |2020-12-16         |Vendita         |102035         |-1         |-105         |0        |
 
 **Mov. valorizzazione**  
 
-|Nr. movimento |Nr. Articolo  |Data di registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo movimento  |Nr. documento  | Nr. addebito articolo    |  Quantità mov. contabili art.   |Importo costo (effettivo)     |Costo registrato in C/G |Rettifica |Movimento Collegato |
+|Nr. Movimento |Nr. Articolo  |Data di Registrazione  |Nr. movimento cont. articolo  |Tipo mov. articolo  |Tipo di movimento  |Nr. Documento  | Nr. addebito articolo    |  Quantità mov. contabili art.   |Importo costo (effettivo)     |Costo registrato in C/G |Rettifica |Collegare a - Movimento |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|398      |ADDEBITO   |2020-12-16        |325         |Vendite         |Costo diretto         |103024         |            |-1         |-100       |-100         |No         |0         |
-|400      |ADDEBITO   |2021-01-01        |325         |Vendite         |Costo diretto         |103024         |            |0          |-3         |-3         |Sì         |398         |
-|402      |ADDEBITO   |**01-2021-01**    |325         |Vendite         |Costo diretto         |103024         |            |0          |-2         |-2         |Sì         |398         |
+|398      |ADDEBITO   |2020-12-16        |325         |Vendita         |Costo diretto         |103024         |            |-1         |-100       |-100         |Nr.         |0         |
+|400      |ADDEBITO   |2021-01-01        |325         |Vendita         |Costo diretto         |103024         |            |0          |-3         |-3         |Sì         |398         |
+|402      |ADDEBITO   |**01-2021-01**    |325         |Vendita         |Costo diretto         |103024         |            |0          |-2         |-2         |Sì         |398         |
 
 Il report Valutazione magazzino viene stampato in data 31 dicembre 2020
 
@@ -349,10 +349,10 @@ La data 1° gennaio indicata nel campo Consenti registraz. da del setup di conta
 
 Come alternativa in questo scenario si sarebbe potuto avere una data in dicembre di un paio di giorni in più nel campo Consenti registraz. da del setup di contabilità generale e differire la registrazione del primo addebito articolo per consentire il riconoscimento di tutti i costi relativi al periodo/anno fiscale per il periodo a cui appartengono inizialmente, quindi eseguire il processo batch Rettifica costo - Movimenti articoli e infine spostare la data di registrazione consentita al nuovo periodo\/anno fiscale. Si sarebbe quindi potuto registrare il primo addebito con la data 2 gennaio.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
-[Dettagli del design: Data di registrazione del valore di aggiustamento](design-details-inventory-adjustment-value-entry-posting-date.md)  
-[Dettagli del design: Inventario dei costi](design-details-inventory-costing.md)  
-[Dettagli del design: Applicazione dell'articolo](design-details-item-application.md)  
+[Dettagli di progettazione: data di registrazione del movimento di valorizzazione della rettifica](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)  
+[Dettagli di progettazione: collegamento articoli](design-details-item-application.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

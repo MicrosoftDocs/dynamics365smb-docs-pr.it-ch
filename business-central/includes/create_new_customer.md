@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 11](../media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , immetti **Clienti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 11.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Clienti**, quindi selezionare il collegamento correlato.  
 2. Nella pagina **Clienti** scegliere l'azione **Nuovo**.
 
     Se esiste solo un modello cliente, allora verrà visualizzata una nuova scheda cliente con alcuni campi compilati con le informazioni derivanti dal modello.

@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
+# Impostare le regole per il collegamento automatico dei pagamenti
 
 Nella pagina **Regole di collegamento pagamenti**, si impostano le regole per stabilire in che modo il testo del pagamento (in una transazione bancaria) viene collegato automaticamente al testo sulle relative fatture aperte (non pagate), note di credito o altre voci quando viene utilizzata la funzione **Applica automaticamente** nella pagina **Registrazione riconciliazione pagamenti**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
@@ -28,8 +28,8 @@ Oltre ai criteri di corrispondenza, il segno dell'importo del pagamento dipende 
 - Per gli importi negativi, viene creata una corrispondenza innanzitutto con i movimenti aperti che rappresentano le fatture cliente e poi con le note di credito fornitore.
 - Per gli importi positivi, viene creata una corrispondenza innanzitutto con i movimenti aperti che rappresentano le fatture fornitore e poi con le note di credito cliente.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Per impostare una regola di collegamento del pagamento
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Regole di collegamento pagamenti**, quindi seleziona il collegamento correlato.
+## Per impostare una regola di collegamento del pagamento
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Regole di collegamento pagamenti**, quindi seleziona il collegamento correlato.
 2. Definire una regola dell'applicazione di pagamento nuova o modificata compilando i campi di una riga come descritto nella tabella.
 
 |Campo|Descrizione|
@@ -48,32 +48,32 @@ La tabella seguente descrive le regole di collegamento dei pagamenti standard in
 
 | Affidabilità corrispondenza | Priorità | Parte correlata corrispondente | Nr. doc./nr. doc. est. Corrispondente | Importo incl. tolleranza corrispondente |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
-| Alto             | 1        | Completamente                 | Sì - Multiplo                 | Una corrispondenza                      |
-| Alto             | 2        | Completamente                 | Sì - Multiplo                 | Più corrispondenze               |
-| Alto             | 3        | Completamente                 | Sì                            | Una corrispondenza                      |
-| Alto             | 4        | Completamente                 | Sì                            | Più corrispondenze               |
-| Alto             | 5        | Parzialmente             | Sì - Multiplo                 | Una corrispondenza                      |
-| Alto             | 6        | Parzialmente             | Sì - Multiplo                 | Più corrispondenze               |
-| Alto             | 7        | Parzialmente             | Sì                            | Una corrispondenza                      |
-| Alto             | 8        | Completamente                 | No                             | Una corrispondenza                      |
-| Alto             | 9        | No                    | Sì - Multiplo                 | Una corrispondenza                      |
-| Alto             | 10       | No                    | Sì - Multiplo                 | Più corrispondenze               |
-| Medio           | 1        | Completamente                 | Sì - Multiplo                 | Non considerato                 |
-| Medio           | 2        | Completamente                 | Sì                            | Non considerato                 |
-| Medio           | 3        | Completamente                 | No                             | Più corrispondenze               |
-| Medio           | 4        | Parzialmente             | Sì - Multiplo                 | Non considerato                 |
-| Medio           | 5        | Parzialmente             | Sì                            | Non considerato                 |
-| Medio           | 6        | No                    | Sì                            | Una corrispondenza                      |
-| Medio           | 7        | No                    | Sì-Multiplo                   | Non considerato                 |
-| Medio           | 8        | Parzialmente             | No                             | Una corrispondenza                      |
-| Medio           | 9        | No                    | Sì                            | Non considerato                 |
-| Basso              | 1        | Completamente                 | No                             | Nessuna corrispondenza                     |
-| Basso              | 2        | Parzialmente             | No                             | Più corrispondenze               |
-| Basso              | 3        | Parzialmente             | No                             | Nessuna corrispondenza                     |
+| Alta             | 1        | Completamente                 | Sì - Multiplo                 | Una corrispondenza                      |
+| Alta             | 2        | Completamente                 | Sì - Multiplo                 | Più corrispondenze               |
+| Alta             | 3        | Completamente                 | Sì                            | Una corrispondenza                      |
+| Alta             | 4        | Completamente                 | Sì                            | Più corrispondenze               |
+| Alta             | 5        | Parzialmente             | Sì - Multiplo                 | Una corrispondenza                      |
+| Alta             | 6        | Parzialmente             | Sì - Multiplo                 | Più corrispondenze               |
+| Alta             | 7        | Parzialmente             | Sì                            | Una corrispondenza                      |
+| Alta             | 8        | Completamente                 | Nr.                             | Una corrispondenza                      |
+| Alta             | 9        | Nr.                    | Sì - Multiplo                 | Una corrispondenza                      |
+| Alta             | 10       | Nr.                    | Sì - Multiplo                 | Più corrispondenze               |
+| Media           | 1        | Completamente                 | Sì - Multiplo                 | Non considerato                 |
+| Media           | 2        | Completamente                 | Sì                            | Non considerato                 |
+| Media           | 3        | Completamente                 | Nr.                             | Più corrispondenze               |
+| Media           | 4        | Parzialmente             | Sì - Multiplo                 | Non considerato                 |
+| Media           | 5        | Parzialmente             | Sì                            | Non considerato                 |
+| Media           | 6        | Nr.                    | Sì                            | Una corrispondenza                      |
+| Media           | 7        | Nr.                    | Sì-Multiplo                   | Non considerato                 |
+| Media           | 8        | Parzialmente             | Nr.                             | Una corrispondenza                      |
+| Media           | 9        | Nr.                    | Sì                            | Non considerato                 |
+| Bassa              | 1        | Completamente                 | Nr.                             | Nessuna corrispondenza                     |
+| Bassa              | 2        | Parzialmente             | Nr.                             | Più corrispondenze               |
+| Bassa              | 3        | Parzialmente             | Nr.                             | Nessuna corrispondenza                     |
 | Bassa              | 4        | Nr.                    | Nr.                             | Una corrispondenza                      |
 | Bassa              | 5        | Nr.                    | Nr.                             | Più corrispondenze               |
 
-## <a name="see-also"></a>Vedi anche
+## Vedere anche
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 22](../media/ui-search/search_small.png "Lente d'ingrandimento per la ricerca"). immetti **Articoli**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 22.](../media/ui-search/search_small.png "Lente d'ingrandimento per la ricerca") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Articoli** scegliere l'azione **Nuovo**.
 
     Se esiste solo un modello articolo, allora verrà visualizzata una nuova scheda articolo con alcuni campi compilati con le informazioni derivanti dal modello.

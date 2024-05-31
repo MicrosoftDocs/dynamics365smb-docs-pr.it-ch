@@ -9,12 +9,12 @@ Quando ricevi una fattura da un'azienda in valuta estera, è abbastanza facile c
 
 Nell'esempio seguente, il 1° gennaio viene ricevuta una fattura con l'importo in valuta di 1000. Al momento il tasso di cambio è 1,123.
 
-|Date|Azione|Importo valuta|Aliquota documento|Importo LCY nel documento|Tasso di cambio|Importo utili non realizzati|Aliquota Pagamento|Importo perdite realizzate|  
+|Data|Azione|Importo valuta|Aliquota documento|Importo LCY nel documento|Tasso di cambio|Importo utili non realizzati|Aliquota Pagamento|Importo perdite realizzate|  
 |-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Fattura**|1000|1,123|1123|||||
-|1/31|**Rettifica**|1000||1125|1,125|2|||
+|1/1|**Fattura**|1000|1.123|1123|||||
+|1/31|**Rettifica**|1000||1125|1.125|2|||
 |2/15|**Rettifica Storno al pagamento**|1000||||-2|||
-|2/15|**Pagamento**|1000||1120|||1,120|-3|
+|2/15|**Pagamento**|1000||1120|||1.120|-3|
 
 Alla fine del mese viene eseguito un aggiustamento valutario in cui il tasso di valuta aggiustamento è stato impostato a 1,125, che attiva un guadagno non realizzato di 2.
 

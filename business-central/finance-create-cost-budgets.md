@@ -9,13 +9,13 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="creating-cost-budgets"></a>Creazione di budget di costi
+# Creazione di budget di costi
 
 L'impostazione del budget nella contabilità industriale è simile a quella della contabilità generale. Un budget costi viene creato in base ai tipi di costo proprio come il budget della contabilità generale viene creato in base ai conti della contabilità generale.  
 
 Un budget costi viene creato per un certo periodo di tempo, ad esempio, un anno fiscale. È possibile creare tutti i budget costi necessari. Un nuovo budget costi può essere creato manualmente, importando un budget costi o copiando un budget costi esistente come base del budget. Per ulteriori informazioni, vedere [Creare budget C/G](finance-how-create-budgets.md).
 
-Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") per trovare una pagina, quindi leggi il suggerimento.
+Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") per trovare una pagina, quindi leggi il suggerimento.
 
 |A|Vedere|  
 |--------|---------|  
@@ -25,7 +25,7 @@ Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegli l'i
 |Visualizzare i registri budget costi e i movimenti di budget costi.|Pagina **Registri budget costi**|  
 |Stampare i confronti del budget costi utilizzando vari report.|Report **Saldo/Budget contabilità industriale**<br /><br /> Report **Estratto conto/Budget di contabilità industriale**<br /><br /> Report **Budget costi per centro di costo**<br /><br /> Report **Budget costi per oggetto di costo**|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
 [Creare budget C/G](finance-how-create-budgets.md)  

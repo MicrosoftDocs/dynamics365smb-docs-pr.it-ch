@@ -9,37 +9,37 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-bins"></a>Creare collocazioni
+# Creare collocazioni
 
 Il metodo più efficace per creare le collocazioni della warehouse consiste nel generare gruppi di collocazioni simili nel prospetto di creazione collocazioni. È tuttavia possibile creare le collocazioni singolarmente dalla scheda ubicazione. È inoltre possibile utilizzare una funzione nella pagina **Prospetto creaz. collocazione** per creare automaticamente le collocazioni.  
 
-## <a name="to-create-a-bin-from-the-location-card"></a>Per creare una collocazione nella scheda ubicazione
+## Per creare una collocazione nella scheda ubicazione
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, e quindi scegli il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, e quindi scegli il collegamento correlato.  
 2.  Selezionare l'ubicazione da cui si desidera creare una collocazione e scegliere l'azione **Collocazioni**.  
-3. Scegli l'azione **Nuovo**.
-4. Compila i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Scegliere l'azione **Nuovo**.
+4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="the-dedicated-field"></a>Campo dedicato
+### Campo dedicato
 
 Il campo **Dedicata** nella pagina **Collocazioni** specifica che le quantità nella collocazione sono protette dal prelievo per altre domande. Tuttavia, le quantità nelle collocazioni dedicate possono comunque essere impegnate. Di conseguenza, le quantità nelle collocazioni dedicate sono incluse nel campo **Quantità totale disponibile** della pagina **Impegno**.
 
 La creazione di una collocazione dedicata risulta in una funzionalità simile nelle attività di warehouse di base all'utilizzo di tipi di collocazione, disponibile solo nella gestione warehouse avanzata. Per ulteriori informazioni, vedere [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).
 
-### <a name="example"></a>Esempio
+### Esempio
 
 Un'area di produzione impostata con un codice collocazione nel campo **Cod. coll. art. per produzione**. Le righe componenti di ordini di produzione con il codice collocazione che necessitano di componenti prelevati a priori vengono posizionate in quel punto. Tuttavia, fino a quando i componenti vengono utilizzati da tale collocazione, in seguito alle domande di altri componenti è possibile prelevare o utilizzare questi ultimi da tale collocazione perché sono ancora considerati contenuti della collocazione disponibili. Per verificare che il contenuto della collocazione sia disponibile solo per la domanda di componenti che utilizza la collocazione articoli per produzione, è necessario selezionare il campo **Dedicata** sulla riga per tale codice collocazione.
 
 > [!Caution]
 > Gli articoli nelle collocazioni dedicate non sono protetti quando vengono prelevati e utilizzati come componenti di produzione o di assemblaggio tramite la pagina **Prelievo magazzino**. Per ulteriori informazioni, vedere [Prelevare per produzione o assemblaggio in configurazioni di warehouse di base](warehouse-how-to-pick-for-production.md).
 
-## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Per creare singole collocazioni nel prospetto di creazione delle collocazioni
+## Per creare singole collocazioni nel prospetto di creazione delle collocazioni
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto creaz. collocazione**, e seleziona il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto creaz. collocazione**, e seleziona il collegamento correlato.  
 2.  In ciascuna riga, compilare i campi necessari per assegnare un nome e caratteristiche specifiche alle collocazioni che si sta creando.  
 3.  Scegliere l'azione **Crea collocazioni**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Per creare collocazioni automaticamente nel prospetto di creazione collocazioni
+## Per creare collocazioni automaticamente nel prospetto di creazione collocazioni
 
 Prima di avviare la creazione automatica delle collocazioni, è necessario individuare i generi di collocazione essenziali per le operazioni da eseguire, nonché determinare il percorso più efficiente per il flusso degli articoli attraverso la struttura fisica della warehouse.  
 
@@ -48,7 +48,7 @@ Prima di avviare la creazione automatica delle collocazioni, è necessario indiv
 
 Per utilizzare la pagina **Prospetto creaz. collocazione**, è necessario essere impostato come impiegato warehouse nell'ubicazione in cui si trovano le collocazioni. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto creaz. collocazione**, e quindi seleziona il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto creaz. collocazione**, e quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Calcola collocazioni**.
 3. Nella pagina **Calcola collocazioni**, nel campo **Codice modello collocazione**, quindi selezionare il modello da utilizzare per le collocazioni che si stanno creando.
 4.  Immettere una descrizione per le collocazioni in fase di creazione.  
@@ -69,13 +69,13 @@ Per utilizzare la pagina **Prospetto creaz. collocazione**, è necessario essere
 
 Ripetere la procedura per un altro gruppo di collocazioni finché non sono state create tutte le collocazioni desiderate per la warehouse.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica della gestione warehouse](design-details-warehouse-management.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Magazzino](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)    
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

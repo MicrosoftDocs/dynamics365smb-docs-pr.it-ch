@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-prepayment-invoices"></a>Creare fatture per i pagamenti anticipati
+# Creare fatture per i pagamenti anticipati
 
 Se è necessario che i clienti paghino prima della spedizione di un ordine, è possibile utilizzare le funzionalità di pagamento anticipato. Lo stesso vale se il fornitore richiede di pagare prima di spedire un ordine.  
 
@@ -20,9 +20,9 @@ Dopo avere creato un ordine di vendita o di acquisto, è possibile creare una fa
 
 La procedura seguente descrive come fatturare un pagamento anticipato per un ordine di vendita. I passaggi sono simili per un ordine di acquisto.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Per creare una fattura di pagamento anticipato
+## Per creare una fattura di pagamento anticipato
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Ordini vendita**, quindi selezionare il collegamento correlato.  
 2. Creare un nuovo ordine di vendita per un cliente pertinente. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
 
     Nella scheda dettaglio **Pagamento anticipato** il campo **% pagamento anticipato** specifica la percentuale da utilizzare per calcolare l'importo del pagamento anticipato. Se nella scheda cliente è impostata una percentuale pagamento anticipato di default, il campo viene compilato automaticamente. È possibile modificare la percentuale. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -49,7 +49,7 @@ La procedura seguente descrive come fatturare un pagamento anticipato per un ord
     Se è stata specificata una percentuale di pagamento anticipato predefinita per il cliente o nella scheda dettaglio **Pagamento anticipato** sul documento, questo valore viene copiato in ogni riga. È possibile modificare il contenuto del campo **% pagamento anticipato** nella riga.  
 
     > [!TIP]
-    > Se il campo **% pagamento anticipato** non è visualizzato, è possibile aggiungerlo tramite personalizzazione.  Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
+    > Se il campo **% pagamento anticipato** non è visualizzato, è possibile aggiungerlo tramite personalizzazione.  Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 4. Per visualizzare l'importo del pagamento anticipato totale, scegliere l'azione **Statistiche**.
 
@@ -71,17 +71,17 @@ Puoi emettere altre fatture pagamento anticipato per l'ordine. A tale fine, aume
 
  Quando sei pronto per registrare il resto della fattura, effettua la registrazione come con qualsiasi fattura. L'importo pagamento anticipato verrà automaticamente dedotto dall'importo dovuto.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Aggiornare automaticamente lo stato degli ordini con pagamento anticipato e delle fatture
+## Aggiornare automaticamente lo stato degli ordini con pagamento anticipato e delle fatture
 
-È possibile velocizzare l'elaborazione di ordini e fatture impostando movimenti nella coda processi che aggiornano automaticamente lo stato di tali documenti. Quando viene pagata una fattura con pagamento anticipato, le voci della coda processi possono modificare automaticamente lo stato del documento da **In attesa di pagamento anticipato** a **Rilasciato**. Quando imposti le voci della coda processi, le codeunit che dovrai utilizzare sono **384 Aggiornamento pagamento anticipato vendita in sospeso** e **384 Aggiornamento pagamento anticipato acquisto in sospeso**. Ti consigliamo di pianificare l'esecuzione frequente delle voci, ad esempio ogni minuto. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
+È possibile velocizzare l'elaborazione di ordini e fatture impostando movimenti nella coda processi che aggiornano automaticamente lo stato di tali documenti. Quando viene pagata una fattura con pagamento anticipato, le voci della coda processi possono modificare automaticamente lo stato del documento da **In attesa di pagamento anticipato** a **Rilasciato**. Quando imposti le voci della coda processi, le codeunit che dovrai utilizzare sono **384 Aggiornamento pagamento anticipato vendita in sospeso** e **384 Aggiornamento pagamento anticipato acquisto in sospeso**. Ti consigliamo di pianificare l'esecuzione frequente delle voci, ad esempio ogni minuto. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
 [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanze](finance.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Personalizzare l'area di lavoro](ui-personalization-user.md)  
+[Personalizza l'area di lavoro](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

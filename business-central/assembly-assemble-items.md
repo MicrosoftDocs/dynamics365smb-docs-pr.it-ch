@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-management"></a>Gestione assemblaggio
+# Gestione assemblaggio
 
 Le società possono fornire prodotti ai clienti combinando componenti senza utilizzare le funzionalità di produzione. Le funzionalità per l'assemblaggio degli articoli si integrano con funzionalità correlate come vendite, pianificazione, impegni e warehouse.  
 
@@ -45,22 +45,22 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Fai un'offerta per un articolo di assemblaggio personalizzato e poi converti l'offerta in una vendita quando il cliente la accetta.|[Offerta per una vendita assemblaggio su ordine](assembly-how-to-quote-an-assemble-to-order-sale.md)|
 |Combina i componenti per creare un articolo, su ordine o per magazzino.|[Assemblare articoli](assembly-how-to-assemble-items.md)|  
 |Vendi gli articoli di assemblaggio che al momento non sono disponibili creando un ordine di assemblaggio collegato per fornire la quantità completa o parziale dell'ordine di vendita.|[Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md)|
-|Quando alcuni articoli di assemblaggio su ordine sono già in magazzino, deduci la quantità dall'ordine di assemblaggio e impegnala dal magazzino.|[Vendere gli articoli di magazzino nei flussi da assemblare su ordine](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
+|Quando alcuni articoli di assemblaggio su ordine sono già in magazzino, deduci la quantità dall'ordine di assemblaggio e impegnala dal magazzino.|[Vendere articoli di magazzino nei flussi assemblaggio su ordine](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Quando gli articoli di assemblaggio non sono in magazzino, utilizza un ordine di assemblaggio per fornire la quantità parziale o totale.|[Vendere articoli di assemblaggio su ordine e articoli di magazzino insieme](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
 |Crea gli articoli di assemblaggio personalizzati per ordini di vendita programmati prima di creare gli ordini di vendita.|[Creare ordini di assemblaggio programmati](assembly-how-to-create-blanket-assembly-orders.md)|
 |Annulla un ordine di assemblaggio registrato, ad esempio perché l'ordine è stato registrato con errori.|[Annullare la registrazione di assemblaggi](assembly-how-to-undo-assembly-posting.md)|
 |Scopri come lavorare con le distinte base di assemblaggio e le principali differenze rispetto alle distinte base di produzione.|[Usare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)|
 |Informazioni sulla registrazione del consumo e dell'output di assemblaggio e su come [!INCLUDE [prod_short](includes/prod_short.md)] distribuisce i costi degli articoli e delle risorse nella contabilità generale.|[Dettagli di progettazione: registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Usare le distinte base](inventory-how-work-BOMs.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Magazzino](inventory-manage-inventory.md)  
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Dettagli di progettazione: pianificazione dell'approvvigionamento](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

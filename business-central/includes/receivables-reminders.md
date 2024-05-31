@@ -20,20 +20,20 @@ Per un movimento contabile cliente con selezionato il campo **In sospeso** non v
 
 Dopo avere creato i solleciti e apportato le modifiche necessarie, è possibile stampare report di test o emettere i solleciti, in genere tramite posta elettronica.
 
-### <a name="to-create-a-reminder-automatically"></a>Per creare un sollecito automaticamente
+### Per creare un sollecito automaticamente
 
 Un sollecito è simile a una fattura. Quando viene creato un sollecito, è necessario compilare una testata e una o più righe. È possibile utilizzare una funzione che consente di creare i solleciti automaticamente per tutti i clienti.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 0](../media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Solleciti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 0.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Solleciti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Sollecito**, selezionare l'azione **Crea sollecito**.
 3. Nella pagina **Crea solleciti** compilare i campi per definire come e per chi vengono creati i solleciti.
 4. Scegliere il pulsante **OK**.
 
-### <a name="to-create-a-reminder-manually"></a>Per creare un sollecito manualmente
+### Per creare un sollecito manualmente
 
 Nella pagina **Sollecito** è possibile compilare manualmente la Scheda dettaglio **Generale** e quindi compilare automaticamente le righe.
 
-1. Scegli la ![lampadina che apre nuovamente la funzione Dimmi 2.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Solleciti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre nuovamente la funzione Dimmi 2.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Solleciti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.
 4. Scegliere l'azione selezionare **Suggerisci riga sollecito**.
@@ -46,16 +46,16 @@ Nella pagina **Sollecito** è possibile compilare manualmente la Scheda dettagli
 
 8. Scegliere il pulsante **OK**.
 
-### <a name="to-replace-reminder-texts"></a>Per sostituire i testi di un sollecito
+### Per sostituire i testi di un sollecito
 
 Esistono diverse modalità per determinare il testo che verrà visualizzato nella stampa del sollecito. In alcuni casi può essere necessario sostituire i testi iniziali e finali definiti per il livello attuale con i testi di un livello diverso.
 
-1. Scegli la ![lampadina che apre nuovamente la funzione Dimmi 3.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Solleciti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre nuovamente la funzione Dimmi 3.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Solleciti**, quindi scegli il collegamento correlato.
 2. Aprire il sollecito pertinente quindi scegliere l'azione **Aggiorna testo sollecito**.
 3. Nella pagina **Aggiorna testo sollecito**, immettere il livello richiesto nel campo **Livello di sollecito**.
 4. Scegliere **OK** per aggiornare il testo iniziale e finale.
 
-### <a name="to-issue-a-reminder"></a>Per emettere un sollecito
+### Per emettere un sollecito
 
 Dopo avere creato i solleciti e apportato le modifiche necessarie, è possibile stampare report di test o emettere i solleciti.
 
@@ -80,7 +80,7 @@ L'emissione di un sollecito può inoltre risultare nei movimenti IVA.
 
 Il sollecito viene stampato per l'invio a un indirizzo e-mail specificato come allegato PDF.
 
-### <a name="to-cancel-an-issued-reminder"></a>Per annullare un sollecito emesso
+### Per annullare un sollecito emesso
 
 Se i solleciti sono stati emessi per errore, è possibile annullarli uno a uno o come batch prima che vengano inviati.
 

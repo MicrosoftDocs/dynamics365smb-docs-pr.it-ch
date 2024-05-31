@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="undo-assembly-posting"></a>Annullare la registrazione di assemblaggi
+# Annullare la registrazione di assemblaggi
 
 Annulla la registrazione di un ordine di assemblaggio per correggere un errore o rimuovere una registrazione indesiderata.
 
@@ -34,11 +34,11 @@ Gli ordini di assemblaggio esistenti possono essere ripristinati solo se il nume
 
 La procedura seguente illustra come annullare ordini di assemblaggio registrati contenenti articoli che sono stati assemblati per magazzino. Per annullare gli ordini di assemblaggio registrati con articoli assemblati su ordine, utilizza l'azione **Annulla spedizione** nella relativa spedizione registrata. Per ulteriori informazioni sull'annullamento delle spedizioni, vedi [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md). L'annullamento dell'ordine di assemblaggio registrato viene eseguito come descritto in questo articolo.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Per annullare la registrazione di un ordine di assemblaggio
+## Per annullare la registrazione di un ordine di assemblaggio
 
 È possibile annullare in tutto o in parte gli ordini di assemblaggio registrati.
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini assemblaggio registrati**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini assemblaggio registrati**, quindi scegli il collegamento correlato.  
 
    Ogni registrazione parziale crea un ordine di assemblaggio registrato separato.  
 2. Aprire l'ordine di assemblaggio registrato che si desidera annullare, quindi scegliere l'azione **Annulla assemblaggio**.  
@@ -51,10 +51,10 @@ Il campo **Stornato** nell'ordine di assemblaggio viene impostato su **Sì**. La
 > [!NOTE]  
 > Per ripristinare quantità da registrazioni parziali multiple in un ordine di assemblaggio, è necessario annullare tutti gli ordini di assemblaggio registrati seguendo i passaggi da 1 a 3.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md)  
+[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md)  
 [Usare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)  
 [Magazzino](inventory-manage-inventory.md)  

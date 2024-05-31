@@ -9,7 +9,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-microsoft-pay-extension"></a>Estensione Microsoft Pay
+# Estensione Microsoft Pay
 
 > [!IMPORTANT]
 > A partire dall'8 febbraio 2020, le modifiche del servizio Microsoft Pay interesseranno l'estensione Microsoft Pay in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. A causa delle modifiche, dopo l'8 febbraio, il collegamento di pagamento **Paga ora** generato dall'estensione Microsoft Pay per le fatture in [!INCLUDE[prod_short](includes/prod_short.md)] non aprirà Microsoft Pay. I clienti che utilizzano l'estensione devono modificare l'impostazione dei servizi di pagamento per iniziare a utilizzare l'estensione PayPal.<br /></br>
@@ -33,9 +33,9 @@ L'estensione Microsoft Pay offre i seguenti vantaggi:
 - Il collegamento Microsoft Pay può essere incorporato automaticamente in ogni documento della fattura o dall'utente.
 - Poiché questa funzionalità è progettata come un'estensione, offre il controllo completo dell'abilitazione quando e se i processi aziendali la richiedono.
 
-L'abilitazione delle estensioni del servizio di pagamento è gratuita in [!INCLUDE[prod_short](includes/prod_short.md)], tuttavia, sarà necessario contattare il servizio di pagamento per ottenere un conto. Per ulteriori informazioni, vedi [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
+L'abilitazione delle estensioni del servizio di pagamento è gratuita in [!INCLUDE[prod_short](includes/prod_short.md)], tuttavia, sarà necessario contattare il servizio di pagamento per ottenere un conto. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Setup Vendite](sales-setup-sales.md)  

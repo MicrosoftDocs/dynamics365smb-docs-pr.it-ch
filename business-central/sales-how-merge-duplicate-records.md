@@ -9,7 +9,7 @@ ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="merge-duplicate-records"></a>Unire record duplicati
+# Unire record duplicati
 
 Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contatto, oppure nuovi record vengono creati automaticamente durante la migrazione, un cliente, un fornitore o un contatto possono essere rappresentati nel sistema con più di un record. In tal caso, è possibile utilizzare la pagina **Unisci duplicato** nella scheda del record che si desidera mantenere. La pagina fornisce una panoramica dei valori di campo duplicati e funzioni per selezionare i valori da mantenere o eliminare quando si uniscono due record.
 
@@ -21,7 +21,7 @@ Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contat
 
 La seguente procedura è basata su una scheda cliente. I passaggi sono simili per una scheda contatto o fornitore.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Clienti**, quindi selezionare il collegamento correlato.
 2. Selezionare il cliente per il quale un record duplicato esiste o se ne sospetta l'esistenza, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda cliente** scegliere l'azione **Unisci con**.
 4. Nella pagina **Unisci duplicato**, nel campo **Unisci con**, selezionare il cliente che si ritiene sia un duplicato di quello aperto, indicato nel campo **Corrente**.
@@ -55,11 +55,11 @@ La seguente procedura è basata su una scheda cliente. I passaggi sono simili pe
 > [!NOTE]
 > Per i contatti, è possibile utilizzare la funzionalità per trovare contatti duplicati prima di utilizzare la pagina **Unisci duplicato**. Per ulteriori informazioni, vedere [Ricerca di contatti duplicati](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup contatti](marketing-setup-contacts.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

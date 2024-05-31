@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a>Procedura dettagliata: Impostare una nuova capacità
+# Procedura dettagliata: Impostare una nuova capacità
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee per gestire la capacità.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. In risposta ai cambiamenti della produzione, è necessario impostare una nuova area di produzione, il Reparto test. La nuova area di produzione dispone di un centro di lavoro, Test. Le nuove aree devono avere un calendario di capienza per un unico turno dalle 08:00:00 alle 16:00:00, dal lunedì al venerdì.  
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 1. Imposta l'area di produzione.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **aree di produzione**, quindi scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **aree di produzione**, quindi scegli il collegamento correlato.  
 
     2. Scegliere l'azione **Nuovo**, quindi compilare i campi come descritto nella tabella che segue.  
 
@@ -29,7 +29,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. In rispost
         |**Nr.** |700|
         |**Nome** |Reparto test|
         |**Cod. gruppo aree prod.** |1, Reparto produzione|
-        |**Costo Diretto Unitario**|3,25|
+        |**Costo Diretto Unitario**|3.25|
         |**Calcolo costo unitario**|Ora|
         |**Metodo Consuntivazione Produz.**|Manuale|
         |**Cat. Reg. Articolo/Servizio**|NO IVA</br></br>Tieni presente che questa selezione dipende dall'impostazione della tua contabilità e dal tuo paese/area geografica.|
@@ -44,7 +44,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. In rispost
 
 2. Imposta il centro di lavoro.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **centri di lavoro**, quindi scegli il collegamento correlato.  
+    1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **centri di lavoro**, quindi scegli il collegamento correlato.  
 
     2. Scegliere l'azione **Nuovo**, quindi compilare i campi come descritto nella tabella che segue.  
 
@@ -53,7 +53,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. In rispost
         |**Nr.** |760|
         |**Nome** |Test|
         |**Nr. area produzione** |700, Reparto test|
-        |**Costo Diretto Unitario**|3,25|
+        |**Costo Diretto Unitario**|3.25|
         |**Metodo Consuntivazione Produz.**|Manuale|
         |**Cat. Reg. Articolo/Servizio**|NO IVA</br></br>Tieni presente che questa selezione dipende dall'impostazione della tua contabilità e dal tuo paese.|
         |**Capacità** |1|
@@ -76,7 +76,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. In rispost
 
     7. Nella Scheda dettaglio **Centro di lavoro** nel campo di filtro **Nr.** seleziona *760, Test*.  
 
-    8. Scegli il pulsante **OK**. Al termine del processo batch, torna alla pagina **Matrice calendario centri lavoro**.  
+    8. Scegliere il pulsante **OK**. Al termine del processo batch, torna alla pagina **Matrice calendario centri lavoro**.  
 
     9. Scegliere l'azione **Aggiorna**.  
 
@@ -84,6 +84,6 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. In rispost
 
 Nella pagina **Movimenti calendario**, i movimenti di capacità giornaliera nel campo **Capacità (totale)** sono per 480 minuti. Ciò riflette un turno di otto ore per ogni giorno lavorativo. Inoltre il campo **Capacità (effettiva)** mostra 432 minuti. Ciò riflette il tasso di efficienza del 90% assegnato al centro di lavoro.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

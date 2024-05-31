@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="accounting-and-bookkeeping"></a>Contabilità e tenuta dei libri
+# Contabilità e tenuta dei libri
 
 La contabilità è una funzione fondamentale in qualsiasi soluzione di pianificazione delle risorse aziendali (ERP) nonché nella maggior parte delle aziende. La contabilità rappresenta il processo di registrazione e catalogazione delle transazioni finanziarie di un'azienda e quindi il recupero, la misurazione, la sintesi e la presentazione dei risultati utilizzando differenti report spesso richiesti dalla legislazione locale. L'obiettivo principale di questo processo è aiutare la direzione dell'azienda a comprendere i dati finanziari della stessa e misurare i risultati delle attività economiche dell'azienda.
 
@@ -31,15 +31,15 @@ La tabella seguente descrive una sequenza di attività e fornisce collegamenti a
 | Specificare la modalità di pagamento dei clienti e quella dei fornitori. | [Impostare i metodi di pagamento](finance-payment-methods.md) |
 | Specificare le condizioni pagamento per gestire le date di scadenza e per calcolare eventuali sconti pagamento. | [Impostare le condizioni pagamento](finance-payment-terms.md) |
 | Specificare le categorie di registrazione che associano entità (come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto) a conti di contabilità generale. | [Configurazione delle categorie di registrazione](finance-posting-groups.md)|
-| Creare report finanziari e definire le categorie di conti per determinare il contenuto dei grafici e dei report finanziari, ad esempio i report **Conto patrimoniale** e **Conto economico**. | [Preparare il reporting finanziario con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)|
+| Creare report finanziari e definire le categorie di conti per determinare il contenuto dei grafici e dei report finanziari, ad esempio i report **Conto patrimoniale** e **Conto economico**. | [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)|
 | Impostare una tolleranza con cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura. | [Usare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md) |
-| Impostare periodi fiscali. | [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md) |
+| Impostare periodi fiscali. | [Usare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md) |
 | Impostare i termini di fatturazione che ricordano ai tuoi clienti di effettuare i pagamenti. | [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md)|
 | Definire come dichiarare alle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. | [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md) |
 | Determinare la gestione dell'IVA ad esigibilità differita in connessione con metodi di contabilità basata su contanti. | [Impostare l'IVA ad esigibilità differita per la contabilità basata su contanti](finance-setup-unrealized-vat.md) |
 | Definire le valute estere in cui fai trading o crei i report per le transazioni. | [Impostare le valute](finance-set-up-currencies.md) |
 | Impostare le funzionalità di vendite e acquisti per gestire i pagamenti in valute estere. | [Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md) |
-| Definire una o più valute aggiuntive in modo da indicare automaticamente gli importi sia nella valuta locale (VL) che in una valuta di dichiarazione addizionale in ogni movimento di contabilità generale e in altri movimenti. | [Impostare una valuta di dichiarazione addizionale](finance-how-setup-additional-currencies.md) |
+| Definire una o più valute aggiuntive in modo da indicare automaticamente gli importi sia nella valuta locale (VL) che in una valuta di dichiarazione addizionale in ogni movimento di contabilità generale e in altri movimenti. | [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md) |
 | Rettificare periodicamente gli equivalenti della valuta addizionale per compensare tassi di cambio fluttuanti. | [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|
 | Definire molteplici tassi di interesse per periodi differenti correlati a pagamenti in ritardo nelle transazioni commerciali. | [Impostare più tassi d'interesse](finance-how-to-set-up-multiple-interest-rates.md) |
 | Fare in modo che gli importi vengano arrotondati automaticamente durante la creazione delle fatture. | [Impostare l'arrotondamento delle fatture](finance-set-up-invoice-rounding.md) |
@@ -66,7 +66,7 @@ La tabella seguente descrive una sequenza di attività e fornisce collegamenti a
 | Creare budget di contabilità generale per prevedere differenti attività finanziarie e assegnare le dimensioni per scopi di business intelligence. | [Creare budget C/G](finance-how-create-budgets.md) |
 | Registrare le entrate o le spese direttamente nella contabilità generale senza registrare documenti aziendali dedicati. | [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md) |
 | Registrare i movimenti di pareggio per annullare le registrazioni dei valori nelle registrazioni o le registrazioni delle quantità sui documenti di vendita e di acquisto. | [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md) |
-| Assegnare un movimento in una registrazione generale a più conti, quando tale registrazione viene contabilizzata. | [Allocazione di costi e ricavi](year-allocate-costs-income.md) |
+| Assegnare un movimento in una registrazione generale a più conti, quando tale registrazione viene contabilizzata. | [Allocare costi e ricavi](year-allocate-costs-income.md) |
 | Assegnare costi aggiuntivi, quali trasporto e gestione fisica sopportata durante il commercio, agli articoli interessati. Il costo viene quindi riflesso nella valutazione del magazzino. | [Usare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md) |
 | Registrare le spese dei dipendenti per attività legate al lavoro ed effettuare rimborsi direttamente sui conti bancari dei dipendenti. | [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md) |
 | Allocare ricavi e spese a periodi diversi dai periodi in cui sono state effettivamente registrate le transazioni. | [Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md) |
@@ -81,25 +81,25 @@ La tabella seguente descrive una sequenza di attività e fornisce collegamenti a
 | Impostare il reporting Intrastat per fornire scambi con altri membri dell'UE in base alla legislazione locale. | [Impostare il reporting Intrastat]( finance-how-setup-report-intrastat.md) |
 | Compilare, convalidare e inviare il report Intrastat. | [Usare il reporting Intrastat]( finance-how-report-intrastat.md) |
 | Impostare, compilare, convalidare e inviare il report sulla dichiarazione di servizio per i servizi commerciali in tutta l'UE. | [ Impostare e usare la Dichiarazione di servizio]( finance-how-setup-use-service-declaration.md) |
-| Creare cespiti, assegnare di metodi di ammortamento, registrare acquisti e valori di realizzo e stampare liste di cespiti. | [Acquisire i cespiti](fa-how-acquire.md) |
-| Registrare le visite di assistenza, pubblicare e monitorare i costi di manutenzione. | [Gestione di cespiti](fa-how-maintain.md) |
-| Aggiornare informazioni di assicurazione, registrare costi di acquisto in polizze assicurative, modificare la copertura assicurativa, visualizzare le statistiche di assicurazione e creare liste delle polizze assicurative. | [Assicurazione di cespiti](fa-how-insure.md) |
+| Creazione di cespiti, assegnazione di metodi di ammortamento, registrazione di acquisti, valori di realizzo e stampa di liste di cespiti. | [Acquisire i cespiti](fa-how-acquire.md) |
+| Registrazione delle visite di assistenza, pubblicazione dei costi di manutenzione e monitoraggio dei costi di manutenzione. | [Gestione di cespiti](fa-how-maintain.md) |
+| Aggiornamento delle informazioni di assicurazione, registrazione dei costi di acquisto in polizze assicurative, modifica della copertura assicurativa, visualizzazione delle statistiche di assicurazione e creazione di liste delle polizze assicurative. | [Assicurazione di cespiti](fa-how-insure.md) |
 | Riclassificare i cespiti, trasferire i cespiti in ubicazioni diverse e suddividere o raggruppare i cespiti. | [Trasferimento, divisione o combinazione di cespiti](fa-how-trans-split-combine.md) |
 | Rettificare il valore dei cespiti, registrare l'ammortamento e transazioni di svalutazione. | [Rivalutazione dei cespiti](fa-how-revalue.md) |
 | Calcolare e registrare l'ammortamento e analizzare l'ammortamento nei report sui cespiti. | [Ammortamento dei cespiti](fa-how-depreciate-amortize.md) |
-| Registrare transazioni di cessione, visualizzare movimenti contabili di cessione e registrare cessioni parziali. | [Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md) |
-| Gestire budget per cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. | [Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
+| Registrazione di transazioni di cessione, visualizzazione dei movimenti contabili di cessione e registrazione di cessioni parziali. | [Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md) |
+| Gestione dei budget per i cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. | [Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
 | Impostare gli utenti del workflow di approvazione, specificare la modalità di notifica per gli utenti e creare nuovi flussi di lavoro. Per creare i nuovi flussi di lavoro per gli scenari non sostenuti, implementare gli elementi necessari del flusso di lavoro personalizzando il codice dell'applicazione. | [Impostare i flussi di lavoro di approvazione](across-set-up-workflows.md) |
 | Abilitare i workflow di approvazione, intervenire sulle relative notifiche (ad esempio, richiedendo e approvando la fase del flusso di lavoro) e archivare ed eliminare i flussi di lavoro. | [Usare workflow di approvazione](across-use-workflows.md) |
-| Visualizzare gli importi effettivi rispetto agli importi previsti per tutti i conti e per diversi periodi. | [Analisi degli importi effettivi e degli importi di budget](bi-how-analyze-actual-versus-budget.md) |
-| Creare nuovi report finanziari per definire i rendiconti finanziari per il reporting o la visualizzazione in grafici. | [Preparare i report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md) |
+| Visualizzare gli importi effettivi rispetto agli importi previsti per tutti i conti e per diversi periodi. | [Analizzare gli importi effettivi e gli importi di budget](bi-how-analyze-actual-versus-budget.md) |
+| Creare nuovi report finanziari per definire i rendiconti finanziari per il reporting o la visualizzazione in grafici. | [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md) |
 | Analizzare le prestazioni finanziarie impostando indicatori di prestazioni chiave (KPI) basati su report finanziari e pubblicare i KPI come servizi Web. Gli indicatori KPI dei report finanziari pubblicati possono essere visualizzati in un sito Web o essere importati in Excel utilizzando i servizi Web OData. | [Impostare e pubblicare servizi Web indicatore di prestazioni chiave (KPI) basati sui report finanziari](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md) |
 | Impostare le visualizzazioni per analizzare i dati utilizzando le dimensioni. | [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md) |
 | Creare nuovi report di analisi per vendite, acquisti e magazzino e impostare modelli di analisi. | [Creare report di analisi](bi-how-create-analysis-views-reports.md) |
 | Abilitare il reporting finanziario globale per organizzazioni contabili internazionali utilizzando lo standard eXtensible Business Reporting Language (XBRL). | [Creare report con XBRL](bi-create-reports-with-xbrl.md) |
 | Modificare l'intento di accesso al database in report, pagine di tipo API e query per ridurre il carico e migliorare le prestazioni. | [Gestire l'intento di accesso al database](admin-data-access-intent.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Vendite](sales-manage-sales.md)  
@@ -107,7 +107,7 @@ La tabella seguente descrive una sequenza di attività e fornisce collegamenti a
 [Chiusura di periodi fiscali](year-close-years-periods.md)  
 [Gestione di progetti](projects-manage-projects.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
+[Usare le registrazioni COGE](ui-work-general-journals.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]

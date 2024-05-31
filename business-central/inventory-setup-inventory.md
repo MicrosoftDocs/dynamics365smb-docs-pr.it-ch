@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-inventory"></a>Impostazione del magazzino
+# Impostazione del magazzino
 Prima di poter gestire le attività di warehouse e i costi di magazzino, è necessario configurare le regole e i valori che definiscono i criteri di acquisto del magazzino.
 
 È possibile offrire assistenza clienti e ottimizzare la catena di approvvigionamento organizzando il magazzino presso indirizzi diversi. È quindi possibile acquistare, archiviare o vendere articoli in ubicazioni diverse e trasferire il magazzino tra loro.
@@ -28,10 +28,10 @@ Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi 
 |Impostare più unità di misura per un articolo che può essere utilizzato come UDM alternativa, ad esempio, nelle transazioni di vendita, acquisto o produzione.|[Impostare unità di misura articolo](inventory-how-setup-units-of-measure.md)|
 |In aggiunta alle schede articolo, registrare le informazioni relative agli articoli in una specifica ubicazione e/o di una specifica variante.|[Impostare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)|
 | Assegnare articoli alle categorie e dare loro attributi per consentire alla propria azienda e ai clienti la ricerca degli articoli. |[Classificare gli articoli](inventory-how-categorize-items.md) |
-|Importare molteplici immagini articolo contemporaneamente da un file zip in cui i file sono denominati in base ai numeri di articolo.|[Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)|
+|Importare molteplici immagini articolo contemporaneamente da un file zip in cui i file sono denominati in base ai numeri di articolo.|[Importare più immagini articolo](inventory-how-import-item-pictures.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Vedi anche
+## Vedere anche
 
 [Gestione dei costi del magazzino](inventory-manage-inventory.md)  
 [Gestione acquisti](purchasing-manage-purchasing.md)  

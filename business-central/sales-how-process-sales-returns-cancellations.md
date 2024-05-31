@@ -10,14 +10,14 @@ ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
+# Elaborare i resi o gli annullamenti vendite
 
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette della fattura di vendita, puoi effettuare quanto segue:  
 
 - Creare la nota di credito di vendita direttamente dalla fattura di vendita registrata.
 - Creare una nuova nota di credito di vendita con le informazioni della fattura copiate.
 
-Se hai bisogno di un maggiore controllo del processo di ritorno delle vendite, come i documenti di magazzino per la gestione degli articoli, o una migliore visione d'insieme quando ricevi articoli da più documenti di vendita con un ritorno delle vendite, allora puoi creare ordini di ritorno delle vendite. Un ordine di restituzione delle vendite emette automaticamente la relativa nota di credito di vendita e altri documenti relativi alla restituzione, come un ordine di vendita sostitutivo, se necessario. Per maggiori informazioni, vedi [Elabora gli ordini di restituzione delle vendite](sales-how-process-sales-returns-orders.md).
+Se hai bisogno di un maggiore controllo del processo di ritorno delle vendite, come i documenti di magazzino per la gestione degli articoli, o una migliore visione d'insieme quando ricevi articoli da più documenti di vendita con un ritorno delle vendite, allora puoi creare ordini di ritorno delle vendite. Un ordine di reso da vendita genera automaticamente la nota di credito di vendite e altri documenti correlati ai resi, ad esempio un ordine di vendita di sostituzione, se necessario. Per maggiori informazioni, vedi [Elabora gli ordini di restituzione delle vendite](sales-how-process-sales-returns-orders.md).
 
 > [!NOTE]  
 > Se una fattura di vendita registrata non è stata ancora pagata, è possibile utilizzare la funzione **Rettifica** o **Annulla** nella fattura di vendita registrata per stornare le transazioni. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md).
@@ -29,9 +29,9 @@ La registrazione della nota di credito annullerà anche tutti gli addebiti artic
 > [!NOTE]
 > Gli aspetti contabili dei resi di vendita, come i pagamenti ai clienti come rimborso, sono considerati lavori contabili e non sono descritti qui. Per ulteriori informazioni, vedere [Gestione della contabilità fornitori](payables-manage-payables.md).
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Per creare una nuova nota di credito di vendita da una fattura di vendita registrata
+## Per creare una nuova nota di credito di vendita da una fattura di vendita registrata  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , immetti **Fatture di vendita registrate**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , immetti **Fatture di vendita registrate**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Fatture di vendita registrate**, seleziona la fattura di vendita registrata che vuoi annullare, scegli l'azione **Annulla** e poi scegli l'azione **Crea nota di credito correttiva** .
 
     Nell'intestazione della nota di credito di vendita sono incluse alcune informazioni contenute nella fattura di vendita registrata. Tali informazioni possono, ad esempio, essere sostituite da nuove informazioni che riflettono il contratto di reso.  
@@ -52,9 +52,9 @@ Viene visualizzata la finestra di dialogo **Registra e invia conferma** contenen
 
 I documenti di vendita registrati che sono stati collegati alla nota di credito sono ora stornati ed è possibile creare un pagamento del rimborso per il cliente. La nota di credito di vendita viene rimossa e sostituita con un nuovo documento nell'elenco delle note di credito di vendita registrate.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Per creare una nota di credito di vendita copiando una fattura di vendita registrata
+## Per creare una nota di credito di vendita copiando una fattura di vendita registrata
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di vendita vuota.
 3. Nel campo **Nome del cliente**, inserite il nome di un cliente esistente.
 4. Scegli l'azione **Prepara**, poi scegli l'azione **Copia documento** .
@@ -64,11 +64,11 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 8. Scegliere il pulsante **OK**. Le righe della fattura copiate vengono inserite nella nota di credito vendite.
 9. Completare la nota di credito di vendita come descritto in [Per creare una nota di credito di vendita da una fattura di vendita registrata](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-allowance"></a>Per creare un abbuono di vendita
+## Per creare un abbuono di vendita
 È possibile inviare a un cliente una nota di credito con una riduzione di prezzo nel caso in cui il cliente abbia ricevuto articoli leggermente danneggiati oppure in ritardo.  
 È possibile registrare questo prezzo ridotto come addebito articolo in una nota di credito o in un ordine di reso e assegnarlo alla spedizione registrata. Di seguito sono descritte le procedure per una nota di credito di vendita, ma gli stessi passaggi si applicano a un ordine di reso da vendita.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di vendita vuota.
 3. Compilare la testata della nota di credito con le informazioni relative al cliente cui si intende riconoscere l'abbuono.  
 4. Nel campo **Tipo** della Scheda dettaglio **Righe** selezionare **Addebito (Articolo)**.  
@@ -80,7 +80,7 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 
 Durante la registrazione dell'ordine di reso da vendita, l'abbuono viene aggiunto all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.
 
-## <a name="to-combine-return-receipts"></a>Per combinare carichi da reso
+## Per combinare carichi da reso
 È possibile cumulare carichi da reso se il cliente restituisce più articoli che rientrano in più ordini di reso da vendita.  
 
 Al momento del carico degli articoli nella warehouse, i relativi ordini di reso da vendita vengono registrati come ricevuti. In tal modo vengono creati i carichi da reso registrati.  
@@ -89,9 +89,9 @@ Al momento della fatturazione al cliente, invece di fatturare ciascun ordine di 
 
 Per cumulare carichi da reso, è necessario selezionare la casella di controllo **Fatt. cumulative** nella pagina **Scheda cliente**.  
 
-### <a name="to-manually-combine-return-receipts"></a>Per cumulare manualmente i carichi da reso
+### Per cumulare manualmente i carichi da reso  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.  
 4. Scegliere l'azione **Prendi righe carico da reso**.  
@@ -103,28 +103,28 @@ Per cumulare carichi da reso, è necessario selezionare la casella di controllo 
 6.  Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella nota di credito ed eseguire nuovamente la funzione **Prendi righe carico da reso**.  
 7.  Contabilizzare la fattura.  
 
-### <a name="to-automatically-combine-return-receipts"></a>Per combinare automaticamente carichi da reso
+### Per combinare automaticamente carichi da reso
 
 È possibile cumulare automaticamente i carichi da reso, nonché registrare automaticamente le note di credito utilizzando la funzione **Cumula carichi da reso**.  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cumula carichi da reso**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cumula carichi da reso**, quindi scegli il collegamento correlato.
 2. Nella pagina **Cumula carichi da reso**, compilare i campi per selezionare i carichi da reso corrispondenti.
 3. Selezionare la casella di controllo **Registra note di credito**. In caso contrario, è necessario registrare manualmente le note di credito di acquisto risultanti.
 4. Scegliere il pulsante **OK**.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a>Per rimuovere un ordine di reso ricevuto e fatturato
+### Per rimuovere un ordine di reso ricevuto e fatturato
 
 Quando si fatturano carichi da reso in questo modo, gli ordini di reso da cui sono stati registrati i carichi da reso vengono mantenuti, anche se sono già stati completamente ricevuti e fatturati.  
 
 Quando i carichi da reso vengono cumulati in una nota di credito e registrati, per le righe accreditate viene creata una nota di credito vendita registrata. Il campo **Quantità fatturata** dell'ordine di reso vendita di origine viene aggiornato in base alla quantità fatturata.  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") icona, inserisci **Cancella ordini di ritorno delle vendite fatturate**, e poi scegli il link relativo.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") icona, inserisci **Cancella ordini di ritorno delle vendite fatturate**, e poi scegli il link relativo.  
 2. Specificare nel campo del filtro **Nr.** quali ordini di reso eliminare.  
 3. Scegliere il pulsante **OK**.  
 
 In alternativa, eliminare i singoli ordini di reso vendita manualmente.  
 
-## <a name="inventory-costing"></a>Costing di magazzino
+## Costing di magazzino
 
 Per mantenere la corretta valutazione del magazzino, in genere si desidera sistemare gli articoli restituiti nuovamente in magazzino al costo unitario con cui sono stati venduti e non al costo unitario corrente. Questa operazione è detta storno esatto costo.
 
@@ -139,7 +139,7 @@ Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il ca
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

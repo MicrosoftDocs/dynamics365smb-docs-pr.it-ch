@@ -5,7 +5,7 @@ ms.date: 04/11/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-1. Scegli la ![lampadina che apre la funzione Dimmi 0](../media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Setup report IVA**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 0.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup report IVA**, quindi scegli il collegamento correlato.  
 2. Per permettere agli utenti di modificare e ripresentare questo report, seleziona il campo **Consenti modifica**.  
 3. Se le autorità fiscali richiedono l'invio di report IVA che includano anche l'importo netto utilizzato per calcolare l'IVA, scegli il campo **Report imponibile IVA**.  
 4. Scegliere la numerazione da utilizzare per ogni report. [!INCLUDE [tooltip-inline-tip_md](tooltip-inline-tip_md.md)]  
