@@ -9,7 +9,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
+# Impostazione dello scambio di dati
 
 Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. È inoltre necessario impostare aree correlate, ad esempio i clienti a cui si inviano fatture elettroniche o l'estensione AMC Banking 365 Fundamentals, qualora si utilizzi il provider di servizi esterno per convertire i file dei conti correnti bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
@@ -25,14 +25,14 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |È necessario impostare diversi dati master, ad esempio le informazioni sulla società, i clienti, i fornitori, gli articoli e le unità di misura correlati ai dati di mapping in [!INCLUDE[prod_short](includes/prod_short.md)]|[Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Impostare un conto corrente bancario, un fornitore e le registrazioni pagamenti per bonifici SEPA.|[Impostare un bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Preparare i formati dei conti bancari, i metodi di pagamento e gli accordi con i clienti per l'addebito diretto SEPA.|[Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Impostare l'autenticazione utente e l'URL del provider dell'estensione AMC Banking 365 Fundamentals che deve convertire i file della banca nel formato della banca in uso.|[Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
+|Impostare l'autenticazione utente e l'URL del provider dell'estensione AMC Banking 365 Fundamentals che deve convertire i file della banca nel formato della banca in uso.|[Usare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Impostare e abilitare un servizio esterno che consente di importare gli estratti conto bancari direttamente come feed bancari.|[Impostazione del Servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)|  
-|Dopo che il servizio Rendiconto bancario è abilitato, collegare i conti bancari in [!INCLUDE[prod_short](includes/prod_short.md)]|[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)|  
-|Configurare l'esportazione dei dati per il reporting Intrastat in [!INCLUDE[prod_short](includes/prod_short.md)].|[Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md)|
+|Dopo che il servizio Rendiconto bancario è abilitato, collegare i conti bancari in [!INCLUDE[prod_short](includes/prod_short.md)]|[Impostare i conti bancari](bank-how-setup-bank-accounts.md)|  
+|Configurare l'esportazione dei dati per il reporting Intrastat in [!INCLUDE[prod_short](includes/prod_short.md)].|[Impostare il report Intrastat](finance-how-setup-report-intrastat.md)|
 |Preparare l'impostazione di una nuova definizione di scambio di dati per un file o un flusso di dati utilizzando lo schema XML del file per precompilare la Scheda dettaglio **Definizioni colonne** nella pagina **Registrazione definizioni di scambio**.|[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Impostare il framework di scambio dei dati per consentire agli utenti di ricevere un nuovo formato di documenti di acquisto, inviare un nuovo formato di documenti di vendita, importare un nuovo file bancario o altri tipi di scambio di dati.|[Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Documenti in entrata](across-income-documents.md)  
