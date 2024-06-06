@@ -23,7 +23,7 @@ sections:
         answer: L'ultima versione di PEPPOL supportata dall'API TradeShift è **PEPPOL BIS 2.1**.
       - question: Qual è l'ultima versione di PEPPOL supportata da Business Central?
         answer: 'L''ultima versione di PEPPOL supportata dalla versione predefinita di Business Central è **PEPPOL BIS 3.0**. Manterremo attivo il servizio di scambio documenti esistente basato su TradeShift finché TradeShift supporta l''API corrente. Inoltre, continuiamo a supportare i formati di fatturazione elettronica attualmente supportati.'
-  - name: 'App '
+  - name: App
     questions:
       - question: Esistono app che consentono di eseguire la fatturazione elettronica?
         answer: |
