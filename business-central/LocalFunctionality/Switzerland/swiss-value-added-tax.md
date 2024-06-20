@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="swiss-value-added-tax"></a>IVA svizzera
+# IVA svizzera
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includono i seguenti miglioramenti alla dichiarazione IVA svizzera:  
 
@@ -18,11 +19,11 @@ ms.service: dynamics-365-business-central
 
 Per ulteriori informazioni sui requisiti di codifica a reporting dell'IVA svizzera, vedi [Informazioni sull'IVA svizzera](https://www.estv.admin.ch/estv/en/home/value-added-tax.html). Le informazioni sono disponibili in francese, tedesco, italiano e inglese.  
 
-## <a name="vat-amounts-and-vat-exchange-rates"></a>Importi IVA e tassi di cambio IVA
+## Importi IVA e tassi di cambio IVA
 
 Secondo le leggi locali dell'IVA, l'importo base dell'IVA per una fattura può essere ridotto dello sconto di pagamento se viene concesso uno sconto. Per consentire la rettifica automatica dell'IVA per uno sconto di pagamento su una fattura, il campo **Rettifica per sconto pagamento** viene attivato per impostazione predefinita nella pagina **Setup contabilità generale**. È anche possibile attivare questa funzione nel setup registrazioni IVA. Per ulteriori informazioni, vedere la tabella Setup contabilità generale e Setup registrazioni IVA.  
 
-### <a name="currency-exchange-rates-for-vat-reporting"></a>Tassi di cambio valuta per dichiarazione IVA
+### Tassi di cambio valuta per dichiarazione IVA 
 
 Per le fatture in valuta estera è necessario utilizzare il tasso di cambio ufficiale fornito dal governo per il calcolo dell'IVA. È inoltre possibile impostare ulteriori tassi di cambio per l'IVA, che è possibile utilizzare per aspetti della fattura diversi dal calcolo dell'IVA. È possibile fornire il corretto tasso di cambio dell'IVA di governo per ogni valuta estera rilevante nel setup dei tassi di cambio per le fatture. Per ulteriori informazioni, vedere la tabella Tassi di cambio valute.  
 
@@ -30,7 +31,7 @@ Per le fatture in valuta estera è necessario utilizzare il tasso di cambio uffi
 
 Ulteriori informazioni, come l'aliquota IVA e l'importo in valuta originale, vengono trasferiti ai movimenti IVA. Per ulteriori informazioni, vedere la tabella Movimenti IVA.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)   
 [Creare e stampare una dichiarazione IVA svizzera](how-to-create-and-print-a-swiss-vat-statement.md)   

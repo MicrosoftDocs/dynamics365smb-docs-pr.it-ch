@@ -9,12 +9,13 @@ ms.search.form: '35561, 35562, 35563, 3010541, 3010542, 3010543'
 ms.date: 02/09/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="switzerland-local-functionality"></a>Funzionalità locale per la Svizzera
+# Funzionalità locale per la Svizzera
 
 Negli articoli indicati di seguito viene descritta la funzionalità locale univoca per la versione svizzera di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilità della funzionalità
+## Disponibilità della funzionalità
 
 * IVA
     * [Creare e stampare una dichiarazione IVA svizzera](how-to-create-and-print-a-swiss-vat-statement.md) **Disponibile ora**
@@ -61,11 +62,11 @@ Negli articoli indicati di seguito viene descritta la funzionalità locale univo
     * [Importare codici postali svizzeri](how-to-import-swiss-post-codes.md) **Disponibile ora**
     * [Documenti di acquisto e ordini di vendita per la Svizzera](swiss-purchase-documents-and-sales-documents.md) **Disponibile ora**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Futuri requisiti legislativi allo studio
+## Futuri requisiti legislativi allo studio
 
 Al momento non sono previste funzioni normative. Se si è a conoscenza di eventuali funzioni normative imminenti, inviare un [Avviso sulle funzioni normative](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità per paese/area geografica e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/11/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 0.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup report IVA**, quindi scegli il collegamento correlato.  
 2. Per permettere agli utenti di modificare e ripresentare questo report, seleziona il campo **Consenti modifica**.  
