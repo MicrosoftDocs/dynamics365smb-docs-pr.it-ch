@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Impostare solleciti di consegna nella versione svizzera
+# <a name="set-up-delivery-reminders-in-the-swiss-version"></a>Impostare solleciti di consegna nella versione svizzera
 
 [!INCLUDE [delivery-reminders-setup](../includes/ATCHDE/delivery-reminders-setup.md)]
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Solleciti consegna](delivery-reminders.md)  
 [Impostare termini, livelli e testi di sollecito di consegna](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
