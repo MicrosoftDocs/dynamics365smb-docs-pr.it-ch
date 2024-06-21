@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="adjust-exchange-rates-in-the-swiss-version"></a>Rettificare i tassi di cambio nella versione per la Svizzera
+# Rettificare i tassi di cambio nella versione per la Svizzera
 Se è presente una vendita imponibile in una valuta estera, è necessario usare il tasso ufficiale per la conversione di valuta IVA, come definito dall'ente Federal Tax Administration.  
 
 Se tali tassi non corrispondono ai tassi di valuta usati nelle fatture di acquisto o di vendita, in seguito sarà necessario rettificare le aliquote IVA con un processo batch. Tali rettifiche possono essere eseguite solo tramite un'aliquota IVA autorizzata.  
@@ -22,7 +22,7 @@ Se tali tassi non corrispondono ai tassi di valuta usati nelle fatture di acquis
 
 Per ulteriori informazioni sulla valute IVA ed estere, vedere il sito Web [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999).  
 
-## <a name="to-adjust-an-exchange-rate"></a>Per rettificare un tasso di cambio
+## Per rettificare un tasso di cambio  
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Valute**, quindi selezionare il collegamento correlato.  
 2.  Scegliere l'azione **Tassi di cambio**.  
@@ -39,7 +39,7 @@ Per ulteriori informazioni sulla valute IVA ed estere, vedere il sito Web [ESTV]
 
 7.  Scegliere **Stampa** per avviare il processo batch. Il processo batch controlla se i movimenti IVA devono essere rettificati e prepara un movimento di rettifica per ciascuno di tali movimenti per i conti di rettifica del tasso di cambio per IVA a esigibilità immediata o differita. Vengono rettificati anche i movimenti IVA esistenti.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
  [IVA svizzera](swiss-value-added-tax.md)   
  [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)   
 [Aggiornare i tassi di cambio valuta](../../finance-how-update-currencies.md)  

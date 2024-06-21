@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-swiss-version"></a>Assegnare codici di solleciti di consegna ai fornitori nella versione svizzera
+# Assegnare codici di solleciti di consegna ai fornitori nella versione svizzera
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Registrare nuovi fornitori](../../purchasing-how-register-new-vendors.md)  
 [Solleciti consegna](delivery-reminders.md)  

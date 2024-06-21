@@ -12,7 +12,7 @@ In [!INCLUDE[prod_short](../../../includes/prod_short.md)] è possibile creare s
 > [!NOTE]
 > Per creare solleciti di consegna, è necessario impostare i testi, i livelli e i termini del sollecito di consegna.
 
-## <a name="to-create-a-delivery-reminder-manually"></a>Per creare un sollecito di consegna manualmente
+## Per creare un sollecito di consegna manualmente  
 
 1. Scegliere l'icona della ![lampadina che apre la funzionalità delle informazioni.](../../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Sollecito Consegna**, quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
