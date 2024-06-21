@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Stampare report di liste di pagamenti fornitore nella versione per la Svizzera
+# <a name="print-vendor-payments-list-reports-in-the-swiss-version"></a>Stampare report di liste di pagamenti fornitore nella versione per la Svizzera
 
 Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni fornitore. Nel report i pagamenti possono essere ordinati cronologicamente o raggruppati per fornitore.  
 
 > [!NOTE]
 > Il report **Lista di pagamenti fornitore** è disponibile nei seguenti mercati: Austria, Germania, Svizzera.
 
-## Per stampare il report di liste di pagamenti fornitore  
+## <a name="to-print-the-vendor-payments-list-report"></a>Per stampare il report di liste di pagamenti fornitore
 
 1. Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Lista di pagamenti fornitore**, quindi selezionare il collegamento correlato.  
 2. Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
@@ -29,7 +29,7 @@ Il report **Lista pagamenti fornitore** fornisce una lista di pagamenti per ogni
 
  Alla fine del report viene visualizzato il numero di pagamenti elaborati.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Effettuare i pagamenti](../../payables-make-payments.md)
 

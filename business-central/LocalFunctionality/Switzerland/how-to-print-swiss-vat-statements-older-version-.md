@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Stampare dichiarazioni IVA svizzere (versione precedente)
+# <a name="print-swiss-vat-statements-older-version"></a>Stampare dichiarazioni IVA svizzere (versione precedente)
 
 > [!NOTE]  
 >  Questo argomento è mantenuto per la compatibilità con le versioni precedenti del report **Dichiarazione IVA svizzera**. Per informazioni sull'utilizzo della più recente dichiarazione IVA svizzera, vedere Dichiarazione IVA svizzera.  
@@ -21,7 +21,7 @@ La **dichiarazione IVA svizzera** è il rapporto di calcolo standard per la real
 - I movimenti di rettifica IVA.  
 - Una scheda contabile.  
 
-## Per stampare la dichiarazione IVA svizzera  
+## <a name="to-print-the-swiss-vat-statement"></a>Per stampare la dichiarazione IVA svizzera
 
 1.  Scegliere la ![lampadina che apre la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Dichiarazione IVA svizzera**, quindi selezionare il collegamento correlato.  
 
@@ -46,7 +46,7 @@ La **dichiarazione IVA svizzera** è il rapporto di calcolo standard per la real
 
 3.  Scegliere il pulsante **Stampa** per stampare la dichiarazione IVA oppure scegliere il pulsante **Anteprima** per visualizzarla sullo schermo.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
  [IVA svizzera](swiss-value-added-tax.md)   
  [Aliquote IVA per la Svizzera](vat-rates-for-switzerland.md)
 

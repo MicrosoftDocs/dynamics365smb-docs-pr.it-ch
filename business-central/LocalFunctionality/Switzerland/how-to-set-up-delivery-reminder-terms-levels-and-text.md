@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Impostare termini, livelli e testo dei solleciti di consegna nella versione svizzera
+# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-swiss-version"></a>Impostare termini, livelli e testo dei solleciti di consegna nella versione svizzera
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Solleciti consegna](delivery-reminders.md)  
 [Impostare solleciti di consegna](how-to-set-up-delivery-reminders.md)  
