@@ -2,33 +2,33 @@
 title: Messaggio di errore "La data di invio non rientra nel tuo intervallo di date di invio consentite"
 description: Risolvere l'errore dietro al messaggio "La data di registrazione non rientra nel tuo intervallo di date di registrazione consentite" quando si esegue il lavoro batch Regolare i costi - Voci voce.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/17/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Messaggio di errore: "La data di invio non rientra nel tuo range di date di invio consentite..."
+# Messaggio di errore: "La data di invio non rientra nel tuo range di date di invio consentite..."
 
-Quando si usa il lavoro batch **Rettifica costo movimenti articoli** si può incorrere nel seguente messaggio di errore:
+Quando si usa il processo batch **Rettifica costo movimenti articoli** si potrebbe incorrere nel seguente messaggio di errore:
 
 **La data di invio non rientra nel tuo range di date di invio consentite**
 
-Questo messaggio di errore indica che l'utente non è autorizzato a pubblicare voci per la data in questione, e questo può essere rimediato cambiando la configurazione dell'utente.
+Questo messaggio indica che non sei autorizzato a pubblicare movimenti per la data inserita. Puoi aggirare questo problema modificando la configurazione dell'utente.
 
-## <a name="change-the-user-setup"></a>Cambiare l'impostazione dell'utente
+## Cambiare l'impostazione dell'utente  
 
-|ID Utente  |Consenti registrazione da  | Consenti registrazione in  |
+|ID utente  |Consenti registrazione da  | Consenti registrazione in  |
 |---------|---------|--------|
 |EUROPA  |  2020-09-11      |2020-09-30      |
 
-L'utente in questo caso ha un intervallo di date di registrazione consentito dall'11 settembre al 30 settembre e quindi non è autorizzato a registrare la registrazione del valore di aggiustamento con data di registrazione 10 settembre.  
+In questo caso, puoi registrare nell'intervallo di date compreso tra l'11 settembre e il 30 settembre. Tuttavia, non è consentito registrare il movimento del valore di rettifica con data di registrazione il 10 settembre.  
 
-### <a name="overview-of-the-posting-date-setup"></a>Panoramica della configurazione della data di registrazione coinvolta
+### Panoramica della configurazione della data di registrazione
 
-#### <a name="inventory-periods"></a>Periodi magazzino
+#### Periodi magazzino
 
 |Data di fine  |Nome  |Chiuso  |
 |---------|---------|---------|
@@ -45,27 +45,27 @@ L'utente in questo caso ha un intervallo di date di registrazione consentito dal
 |2020-11-30     |Novembre 2020   |         |
 |2020-12-31     |Dicembre 2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Setup contabilità generale
+#### Setup contabilità generale
 
 |Campo|Valore|
 |---------|---------|
 |Consenti registraz. da:  |  2020-09-10      |
 |Consenti registrazioni fino a:    |  2020-09-30      |
 |Registra tempi:       |         |
-|Formato indirizzo locale:|   Codice postale      |  
+|Formato indirizzo locale:|   CAP      |  
 
-#### <a name="user-setup"></a>Setup utente
+#### Impostazione dell'utente
 
-|ID Utente  |Consenti registrazione da  | Consenti registrazione in  |
+|ID utente  |Consenti registraz. da  | Consenti registrazione in  |
 |---------|---------|--------|
 |USERNAME |  2020-09-10      |2020-09-30      |
 
-Assegnando un intervallo di date di registrazione più ampio, come in Inventory Period o Setup contabilità generale, è possibile evitare il conflitto che causa il messaggio di errore. Il movimento di valorizzazione della rettifica con data di registrazione 10 settembre verrà registrato correttamente con questo setup.
+Assegnando un intervallo di date più ampio dove consenti la registrazione nelle pagine **Periodo magazzino** o **Setup contabilità generale**, puoi evitare il conflitto che causa il messaggio di errore. Ad esempio, l'intervallo più ampio ti consente di registrare il movimento del valore di rettifica con data di registrazione il 10 settembre.
   
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Dettagli di progettazione: data di registrazione del movimento di valorizzazione della rettifica](design-details-inventory-adjustment-value-entry-posting-date.md)  
-[Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)  
-[Dettagli di progettazione: collegamento articoli](design-details-item-application.md)  
+[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
+[Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,11 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/24/2023
+ms.date: 05/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Creare flussi di lavoro per connettere nei processi aziendali
+# Creare flussi di lavoro per connettere attività nei processi aziendali
 
 Puoi creare flussi di lavoro che collegano attività nei processi aziendali eseguiti da utenti diversi. Puoi includere le attività di sistema, ad esempio la registrazione automatica, come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro.  
 
@@ -43,10 +43,10 @@ Un workflow è diviso in tre sezioni:
 
 Le opzioni per gli eventi e per le risposte sono definite dal sistema. Per aggiungere nuove opzioni, dovrai sviluppare un'estensione.
 
-## <a name="to-create-a-workflow"></a>Per creare un flusso di lavoro
+## Per creare un flusso di lavoro
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**. Verrà aperta la pagina **Workflow**.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+2. Scegli l'azione **Nuovo**. Verrà aperta la pagina **Workflow**.  
 3. Nel campo **Codice** immettere un massimo di 20 caratteri che identifichino il workflow.  
 4. Per creare il workflow da un modello di workflow, nella pagina **Workflow** scegli l'azione **Nuovo workflow da modello**. Ulteriori informazioni in [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Nel campo  **Descrizione** descrivere il workflow.  
@@ -112,14 +112,14 @@ Le opzioni per gli eventi e per le risposte sono definite dal sistema. Per aggiu
 > Non abilitare un workflow finché non sei sicuro che sia pronto.  
 
 > [!TIP]  
-> Per esplorare le relazioni tra le tabelle utilizzate nei workflow, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Workflow - Relazioni tabella**.  
+> Per esplorare le relazioni tra le tabelle utilizzate nei workflow, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Workflow - Relazioni tabella**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Esempio di creazione di un nuovo flusso di lavoro utilizzando eventi esistenti
+## Esempio di creazione di un nuovo flusso di lavoro utilizzando eventi esistenti
 
 Nell'esempio seguente viene creato un nuovo workflow per approvare una modifica al nome di un fornitore:
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**. Verrà aperta la pagina **Workflow**.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+2. Scegli l'azione **Nuovo**. Verrà aperta la pagina **Workflow**.
 3. Nella sezione flusso di lavoro, compila i campi come descritto nella tabella riportata di seguito.
 
     |Campo  |Valore  |
@@ -173,16 +173,16 @@ La seguente illustrazione fornisce una panoramica del risultato di questa proced
 
 Successivamente, dovrai testare il flusso di lavoro aprendo una scheda fornitore esistente e modificando il nome. Verifica che venga inviata una richiesta di approvazione dopo la modifica del nome del fornitore.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Creare flussi di lavoro da modelli di flussi di lavoro](across-how-to-create-workflows-from-workflow-templates.md)  
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Impostazione delle notifiche del workflow di approvazione](across-setting-up-workflow-notifications.md)  
 [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)  
-[Eliminare workflow di approvazione](across-how-to-delete-workflows.md)  
+[Eliminare i workflow di approvazione](across-how-to-delete-workflows.md)  
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Configurare workflow di approvazione](across-set-up-workflows.md)  
-[Usare workflow di approvazione](across-use-workflows.md)  
+[Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md)  
+[Utilizzare i workflow di approvazione](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
