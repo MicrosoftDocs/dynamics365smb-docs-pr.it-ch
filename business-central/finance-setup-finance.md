@@ -6,10 +6,10 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'accounting, auditing, bookkeeping'
-ms.date: 05/07/2024
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-finance"></a>Impostazione di dati finanziari
+# Impostazione di dati finanziari
 
 Prima di poter iniziare a gestire la propria attività, è necessario specificare come si desidera gestire i processi finanziari. Innanzitutto, imposta le basi dei record contabili della società, vale a dire il piano dei conti. Dopodiché è necessario procedere all'impostazione delle categorie di registrazione che contribuiscono a rendere più efficiente il processo di assegnazione dei conti delle registrazioni della contabilità generale di default a clienti, fornitori e articoli.
 
@@ -25,7 +25,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | --- | --- |
 |Visualizzare o modificare i conti di contabilità generale in cui tutti i movimenti di contabilità generale sono registrati|[Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md)|
 | Specificare come si desidera essere pagato dai clienti e come pagare i fornitori. |[Impostare i metodi di pagamento](finance-payment-methods.md) |
-| Specificare le condizioni pagamento per gestire le date di scadenza e per calcolare eventuali sconti pagamento.|[Impostare le condizioni pagamento](finance-payment-terms.md) |
+| Specifica le condizioni pagamento per gestire le date di scadenza e per calcolare eventuali sconti pagamento.|[Impostare le condizioni pagamento](finance-payment-terms.md) |
 | Specificare le categorie di registrazione che associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. |[Configurazione delle categorie di registrazione](finance-posting-groups.md)|
 |Crea report finanziari e definisci le categorie di conti per determinare il contenuto dei grafici e dei report finanziari, ad esempio i report di conto patrimoniale e conto economico.|[Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)|
 |Imposta una tolleranza con cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Usare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
@@ -42,7 +42,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Aggiungere nuovi conti a un piano dei conti esistente. |[Impostazione del piano dei conti](finance-setup-chart-accounts.md) |
 | Impostare i grafici di business intelligence (BI) per analizzare il flusso di cassa. |[Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md) |
 |Abilita la fatturazione di un cliente che non è impostato nel sistema.|[Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md)|
-| Impostare il reporting Intrastat e inviare il report a un'autorità. | [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
+| Imposta la creazione di report Intrastat e invia il report a un'autorità. | [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
 |Assicurati che un movimento contabile sia allocato tra conti diversi, ad esempio quantità, percentuale o importo, quando lo registri nel giornale di registrazione.|[Usare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md)|
 |Imposta i codici origine e le causali per tenere traccia degli audit trail.|[Impostazione di codici sorgente e causali per audit trail](finance-setup-trail-codes.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
@@ -50,7 +50,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 > [!TIP]
 > A seconda della posizione geografica, alcune pagine di Business Central possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Finanze](finance.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
