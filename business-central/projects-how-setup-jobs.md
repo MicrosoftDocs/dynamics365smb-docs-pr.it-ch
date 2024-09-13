@@ -30,7 +30,7 @@ Per ogni progetto, specifica varie informazioni:
 > [!NOTE]
 > L'interruttore **Applica collegamento utilizzo per default** nella pagina **Setup progetti** indica se i movimenti contabili del progetto sono collegati alle righe di pianificazione progetto per impostazione predefinita. Attiva l'interruttore per applicare questa impostazione a tutti i nuovi progetti. Puoi abilitare o disabilitare il monitoraggio dell'utilizzo dei progetti per un progetto specifico abilitando o disabilitando l'interruttore **Applica collegamento utilizzo** nella pagina **Scheda progetto**.
 
-### <a name="specify-a-default-location-for-project-items"></a>Specificare un'ubicazione predefinita per gli articoli del progetto
+### <a name="to-set-up-project-usage-tracking"></a>Specificare un'ubicazione predefinita per gli articoli del progetto
 
 Puoi risparmiare tempo nell'immissione dei dati specificando un'ubicazione e una collocazione predefinite per i progetti nella pagina **Scheda progetto** . Quando crei attività di progetto, righe di pianificazione progetto e righe di registrazione progetto per il progetto, l'ubicazione e la collocazione predefinite vengono assegnati automaticamente. Se necessario, puoi tuttavia modificare il codice ubicazione e la collocazione nelle attività e nelle righe.
 
@@ -48,7 +48,7 @@ Ci sono alcune cose da sapere sull'utilizzo delle ubicazioni predefinite:
 
 Quando i progetti comportano più clienti, fatturare ai clienti giusti le attività appropriate può risultare difficile. [!INCLUDE [prod_short](includes/prod_short.md)] rende la fatturazione meno complessa consentendoti di specificare i clienti a cui fatturare e a cui vendere su ciascuna riga di attività di progetto, in modo da poter generare automaticamente fatture per i clienti corretti. Per ulteriori informazioni sulla fatturazione a più clienti, vedi [Fatturare a uno o più clienti per attività di progetto](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>Per impostare la tracciabilità dell'utilizzo di un progetto
+### <a name="synchronize-the-cost-of-used-items"></a>Per impostare la tracciabilità dell'utilizzo di un progetto
 
 Quando lavori su un progetto, è possibile che tu voglia sapere come viene eseguita la tracciabilità dell'utilizzo rispetto al piano. Per esplorare l'uso puoi creare un collegamento tra le righe di pianificazione progetto e l'utilizzo effettivo. Il collegamento ti consente di monitorare i tuoi costi e capire il lavoro residuo da svolgere. Per impostazione predefinita, il tipo di riga di pianificazione progetto è **Budget**, ma utilizzando il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
 

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Effettua pagamenti con l'estensione fondamentale AMC banking 365 o bonifico SEPA
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effettua pagamenti con l'estensione fondamentale AMC banking 365 o bonifico SEPA
 
 Nella pagina  **Giornali di pagamento**, puoi elaborare i pagamenti ai tuoi fornitori esportando un file insieme alle informazioni di pagamento dalle righe del giornale. È quindi possibile caricare il file sul sito elettronico della banca dove vengono elaborati i trasferimenti di denaro correlati. [!INCLUDE[prod_short](includes/prod_short.md)] supporta il formato SEPA Credit Transfer, ma nel tuo paese/regione potrebbero essere disponibili altri formati per i pagamenti elettronici.
 
@@ -22,7 +22,7 @@ Nella pagina  **Giornali di pagamento**, puoi elaborare i pagamenti ai tuoi forn
 
 Dopo aver verificato che la banca ha elaborato i pagamenti, è possibile registrare le righe del giornale di pagamento.  
 
-## Impostazione dell'estensione AMC Banking 365 Fundamentals 
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Impostazione dell'estensione AMC Banking 365 Fundamentals
 
 Attiva l' AMC Banking 365 Fundamentals estensione per:
 
@@ -31,7 +31,7 @@ Attiva l' AMC Banking 365 Fundamentals estensione per:
 
 Per ulteriori informazioni, vedi [Usare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
-## Impostazione del bonifico SEPA
+## <a name="setting-up-sepa-credit-transfer"></a>Impostazione del bonifico SEPA
 
 Dalla pagina  **Giornali di pagamento**, puoi esportare i pagamenti in un file da caricare sulla tua banca elettronica per l'elaborazione dei relativi trasferimenti di denaro. [!INCLUDE[prod_short](includes/prod_short.md)] supporta il formato SEPA Credit Transfer, ma nel tuo paese/regione potrebbero essere disponibili altri formati per i pagamenti elettronici.  
 
@@ -50,7 +50,7 @@ Prima di elaborare elettronicamente il pagamento esportando i file di pagamento 
 > [!TIP]
 > Questo articolo si applica alla versione generica di [!INCLUDE [prod_short](includes/prod_short.md)]. Nel tuo paese o regione, potrebbero essere stati aggiunti ulteriori campi obbligatori alle varie pagine. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### Per impostare un conto bancario per il bonifico SEPA
+### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Per impostare un conto bancario per il bonifico SEPA
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Conti bancari**, quindi seleziona il collegamento correlato.  
 2. Seleziona il conto bancario da cui esportare i file di pagamento nel formato bonifico SEPA.
@@ -68,7 +68,7 @@ Prima di elaborare elettronicamente il pagamento esportando i file di pagamento 
 6. Nella scheda rapida  **Trasferimento**, nel campo  **Formato di esportazione pagamento**, seleziona il formato SEPA che desideri utilizzare.  
 7. Nel campo  **IBAN** specificare il numero di conto bancario internazionale per il conto.  
 
-### Per impostare una scheda fornitore per il bonifico SEPA
+### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>Per impostare una scheda fornitore per il bonifico SEPA
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Fornitori**, quindi selezionare il collegamento correlato.  
 2. Aprire il file scheda del fornitore a cui si desidera effettuare il pagamento elettronico utilizzando i file di pagamento esportati nel formato bonifico SEPA.  
@@ -77,24 +77,24 @@ Prima di elaborare elettronicamente il pagamento esportando i file di pagamento 
 
     Se non hai un account set di conti per questo fornitore, puoi crearne uno ora. Per ulteriori informazioni, vedi [Per impostare conti bancari fornitori per l'esportazione di file bancari](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Il valore nel campo **Conto bancario preferito** viene copiato nel campo **Conto bancario destinatario** nella pagina **Registrazioni pagamenti**.  
 
-### Per impostare le registrazioni pagamenti fino per esportare i file di pagamento
+### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Per impostare le registrazioni pagamenti fino per esportare i file di pagamento
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Nel campo **Nome batch** scegliere il pulsante a discesa.  
 3. Nella pagina **Batch registrazioni COGE** scegliere l'azione **Modifica lista**.  
 4. Sulla riga del giornale di pagamento che utilizzi per esportare i pagamenti, Seleziona la casella di controllo  **Consenti esportazione pagamenti** .  
 
-### Per connettere la definizione di scambio dati per uno o più tipi di pagamento con uno o più metodi di pagamento rilevanti
+### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Per connettere la definizione di scambio dati per uno o più tipi di pagamento con uno o più metodi di pagamento rilevanti
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di pagamento**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Metodi di pagamento** selezionare il metodo di pagamento che viene utilizzato per esportare i pagamenti e quindi scegliere il campo **Definizione righe esport. pagam.**.  
 3. Nella pagina **Definizioni righe esportazione pagamento** selezionare il codice che è stato specificato nel campo **Codice** della Scheda dettaglio **Definizioni righe** nel passaggio 4 della sezione "Per descrivere la formattazione di righe e colonne nel file" della [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
 
-## Preparazione del giornale di pagamento
+## <a name="preparing-the-payment-journal"></a>Preparazione del giornale di pagamento
 
 Compilare le registrazioni di pagamento con le righe per i pagamenti dovuti ai fornitori, con l'opzione di inserire le date di registrazione in base alla data di scadenza dei reltivi documenti di acquisto. Per ulteriori informazioni, vedere [Gestione della contabilità fornitori](payables-manage-payables.md).
 
-## Esportazione dei pagamenti in un file bancario
+## <a name="exporting-payments-to-a-bank-file"></a>Esportazione dei pagamenti in un file bancario
 
 Quando sei pronto a effettuare pagamenti ai tuoi fornitori o rimborsi ai tuoi dipendenti, puoi esportare un file con le informazioni di pagamento sulle righe della pagina  **Giornali di pagamento** . È quindi possibile caricare il file sulla banca per elaborare i relativi trasferimenti di denaro.
 
@@ -105,7 +105,7 @@ Nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], l'est
 
 Utilizzare la pagina  **Registri dei trasferimenti di credito** per visualizzare i file di pagamento esportati dal giornale di pagamento. Da questa pagina è anche possibile riesportare i file di pagamento nel caso in cui si siano verificati errori tecnici o modifiche ai file. Tieni presente, tuttavia, che i file EFT esportati non vengono visualizzati in questa pagina e non possono essere riesportati.  
 
-### Per esportare pagamenti in un file della banca
+### <a name="to-export-payments-to-a-bank-file"></a>Per esportare pagamenti in un file della banca
 
 Nei passaggi seguenti viene descritto come pagare un fornitore tramite assegno. I passaggi sono simili al rimborso dei clienti tramite assegno.
 
@@ -137,7 +137,7 @@ Nei passaggi seguenti viene descritto come pagare un fornitore tramite assegno. 
 
 Il file del pagamento bancario viene esportato nella posizione specificata. Puoi caricarlo sul tuo conto bancario elettronico ed effettuare i pagamenti effettivi. Sarà quindi possibile registrare le righe esportate delle registrazioni pagamenti.
 
-### Per pianificare quando registrare i pagamenti esportati
+### <a name="to-plan-when-to-post-exported-payments"></a>Per pianificare quando registrare i pagamenti esportati
 
 Se non si desidera registrare una riga del giornale di pagamento per un pagamento esportato, è possibile semplicemente eliminare la riga del giornale. Ad esempio, perché stai aspettando la conferma che la banca ha elaborato la transazione. Successivamente, quando si crea una riga del giornale di pagamento per pagare l'importo rimanente, il campo  **Importo totale esportato** mostra la quota dell'importo del pagamento già esportata. Inoltre, è possibile trovare informazioni dettagliate sul totale esportato scegliendo il pulsante **Movimenti dei registri di bonifici** per visualizzare i dettagli relativi ai file di pagamento esportati.
 
@@ -148,7 +148,7 @@ Se non desideri registrare i pagamenti finché la banca non ne conferma l'elabor
 
 Per visualizzare le informazioni sui pagamenti esportati, scegliere l'azione **Storico esportazione pagamento**.
 
-### Per riesportare i pagamenti in un file della banca
+### <a name="to-re-export-payments-to-a-bank-file"></a>Per riesportare i pagamenti in un file della banca
 
 È possibile riesportare i file di pagamento dalla pagina **Registri di bonifici**. Prima di eliminare o registrare le righe del giornale di pagamento, è anche possibile riesportare il file di pagamento dal **Giornali di pagamento**  pagina esportandola nuovamente. Se elimini o registri le righe del giornale di pagamento dopo l'esportazione, puoi riesportare lo stesso file di pagamento dall' **Registri di trasferimento dei crediti**  pagina. Selezionare la riga per il batch di bonifici che si desidera riesportare, quindi utilizzare l'azione **Riesporta pagamenti su file**.
 
@@ -158,11 +158,11 @@ Per visualizzare le informazioni sui pagamenti esportati, scegliere l'azione **S
 1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registri di bonifici**, quindi seleziona il collegamento correlato.
 2. Selezionare un'esportazione pagamento che si desidera riesportare quindi scegliere l'azione **Riesporta pagamenti su file**.
 
-## Registrazione dei pagamenti
+## <a name="posting-the-payments"></a>Registrazione dei pagamenti
 
 Dopo che la tua banca ha elaborato il pagamento elettronico, effettua il pagamento. Per ulteriori informazioni, vedere [Effettuare i pagamenti](payables-make-payments.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Usare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

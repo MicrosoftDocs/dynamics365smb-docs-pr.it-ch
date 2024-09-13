@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Panoramica delle scorecard e degli obiettivi di sostenibilità
+# <a name="sustainability-scorecards-and-goals-overview"></a>Panoramica delle scorecard e degli obiettivi di sostenibilità
 
 Questo articolo fornisce indicazioni su come creare scorecard e obiettivi e su come aggiornare lo stato degli obiettivi. Le scorecard e gli obiettivi consentono alle organizzazioni di gestire parametri di sostenibilità e di monitorarli rispetto agli obiettivi aziendali chiave. È possibile creare obiettivi in base ai valori attuali e target, in modo che gli utenti possano tenere traccia dell'andamento delle emissioni attuali rispetto ai periodi precedenti.  
 
-## Crea una scheda di valutazione  
+## <a name="create-a-scorecard"></a>Crea una scheda di valutazione
 
 Per creare una nuova  *Scheda di valutazione della sostenibilità*, seguire i passaggi:
 
@@ -26,7 +26,7 @@ Per creare una nuova  *Scheda di valutazione della sostenibilità*, seguire i pa
 
 > [NOTA!] Nel campo  **Proprietario**, puoi scegliere solo gli utenti che hanno selezionato il campo  **Responsabile sostenibilità** nella tabella  **Configurazione utente** . 
 
-## Creare obiettivi  
+## <a name="create-goals"></a>Creare obiettivi
 
 Per creare un nuovo  *Obiettivo di sostenibilità*, seguire i passaggi:
 
@@ -49,7 +49,7 @@ Se hai molti obiettivi nella pagina, puoi usare l'azione  **Mostra i miei obiett
 > [!NOTE]
 > Gli utenti possono impostare diverse combinazioni di obiettivi per l'intera azienda, per specifici paesi o regioni e per un centro di responsabilità per una *Sustainability Scorecard*. Gli utenti possono anche utilizzare periodi diversi per lo stesso modello di tracciamento. 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Setup sostenibilità](finance-sustainability-setup.md)    
 [Contabilità generale e piano dei conti di sostenibilità](finance-sustainability-accounts-ledger.md)    

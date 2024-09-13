@@ -62,7 +62,7 @@ Dopo aver compilato il **Report Intrastat**, è possibile eseguire l'azione **Re
 
 Esegui il report **Elenco di controllo report Intrastat** per controllare le righe Intrastat prima che vengano esportate nel formato richiesto. Il controllo viene eseguito all'interno del **Report Intrastat**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Ricalcolo del peso o dell'unità di misura supplementare
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Ricalcolo del peso o dell'unità di misura supplementare
 
 Se viene visualizzato il messaggio di errore *"Peso totale" nella riga del report Intrastat non deve essere vuoto*, probabilmente è perché non hai impostato il campo **Peso netto** sull'origine, sull'articolo o sul cespite utilizzato. In questo caso, cerca l'articolo o la scheda cespiti e aggiungi il valore richiesto. Dopodiché, devi solo riaprire il **Report Intrastat** e seguire questi passaggi:
 

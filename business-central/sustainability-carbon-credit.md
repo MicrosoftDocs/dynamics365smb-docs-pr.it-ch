@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Lavora con il credito di carbonio  
+# <a name="work-with-carbon-credit"></a>Lavora con il credito di carbonio
 
 Quando le aziende non riescono a ridurre le proprie emissioni per vari motivi, possono acquistare crediti di carbonio per compensarle. Acquistando crediti di carbonio, un'azienda può comunque emettere la stessa quantità di gas mantenendo la neutralità carbonica. Questi crediti vengono acquistati da fornitori specializzati, incentivando la riduzione delle emissioni.  
 
 In generale, i crediti di carbonio sono permessi che consentono al proprietario di emettere una certa quantità di anidride carbonica (CO₂) o altri gas serra (GHG). Un credito di carbonio in genere rappresenta il diritto di emettere una tonnellata di CO₂ o una quantità equivalente di un altro gas serra, quindi è importante abilitare questa opzione per alcune organizzazioni.  
 
-## Imposta il credito di carbonio  
+## <a name="set-up-the-carbon-credit"></a>Imposta il credito di carbonio
 
 Il credito di carbonio in [!INCLUDE[prod_short](includes/prod_short.md)] può essere impostato come **elemento**. Per impostare l' **elemento** come credito di carbonio, seguire i passaggi:
   
@@ -32,9 +32,9 @@ Il credito di carbonio in [!INCLUDE[prod_short](includes/prod_short.md)] può es
 > [!NOTE]
 > È possibile impostare qualsiasi tipo di articolo, che si tratti di inventario, servizio o non inventario, come credito di carbonio.  
 
-## Per acquistare crediti di carbonio 
+## <a name="to-purchase-carbon-credit"></a>Per acquistare crediti di carbonio
 
-### Documenti di acquisto 
+### <a name="purchase-documents"></a>Documenti di acquisto
 
 Per lavorare con qualsiasi documento relativo all'acquisto, seguire segui questi passaggi:
 
@@ -49,7 +49,7 @@ Per lavorare con qualsiasi documento relativo all'acquisto, seguire segui questi
 > [!NOTE]
 > Sebbene il credito di carbonio diminuisca il valore delle voci, vedrai un valore positivo nella colonna  **Emissione CO2**. Ma una volta pubblicato il documento, vedrai un valore con un registro negativo nella  **Voce del registro sostenibilità** con il  **Credito GHG** come  **Tipo di documento**.  
 
-### Giornali di registrazione della sostenibilità 
+### <a name="sustainability-journals"></a>Giornali di registrazione della sostenibilità
 
 Per lavorare con  **Sustainability Journal** seguire i passaggi sono:  
 
@@ -60,7 +60,7 @@ Per lavorare con  **Sustainability Journal** seguire i passaggi sono:
 5. Seleziona **Inserimento manuale** e inserisci il valore che vuoi pubblicare come credito di carbonio nel campo **Emissioni CO2** .  
 6. Effettuare la registrazione.   
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)    
 [Registrare movimenti di sostenibilità](finance-sustainability-journal.md)    

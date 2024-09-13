@@ -10,11 +10,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Analisi delle voci di sostenibilità con i report finanziari 
+# <a name="analyzing-sustainability-entries-with-financial-reports"></a>Analisi delle voci di sostenibilità con i report finanziari
 
 La funzionalità *Report finanziari*  fornisce informazioni dettagliate sui dati finanziari visualizzati nel piano dei conti (COA). Puoi configurare i report finanziari per analizzare le cifre nei conti di contabilità generale (C/G) e confrontare i movimenti di contabilità generale con i movimenti di budget. Ma è anche possibile analizzare dati statistici e di sostenibilità con la stessa funzione e persino combinare tutti e tre i tipi di dati.  
 
-## Prerequisiti per il reporting finanziario  
+## <a name="prerequisites-for-financial-reporting"></a>Prerequisiti per il reporting finanziario
 
 Per impostare report finanziari è necessario comprendere la struttura dei dati che si desidera analizzare. Ci sono alcuni concetti chiave a cui probabilmente dovresti prestare attenzione prima di progettare i tuoi report finanziari: 
 
@@ -36,7 +36,7 @@ Per impostare report finanziari è necessario comprendere la struttura dei dati 
 > [!NOTE]
 > Per maggiori dettagli sull'utilizzo dei report finanziari con dati finanziari e piano dei conti, clicca qui [Creazione di report finanziari utilizzando dati finanziari e categorie di conti](bi-how-work-account-schedule.md).   
 
-## Creare un nuovo report finanziario  
+## <a name="create-a-new-financial-report"></a>Creare un nuovo report finanziario
 
 Per creare rapidamente i propri report finanziari, è possibile iniziare copiando un report finanziario esistente, come descritto al passaggio 3 di seguito. 
 
@@ -65,7 +65,7 @@ Per creare o modificare un definizione di riga, seguire procedere come segue:
 > [!NOTE]
 > Le definizioni di riga non hanno una versione. Quando modifichi un definizione di riga, la vecchia versione viene sostituita e le modifiche vengono salvate nel database. 
 
-### Analisi dei dati sulla sostenibilità  
+### <a name="analyzing-sustainability-data"></a>Analisi dei dati sulla sostenibilità
 
 1. Inserisci il numero di riga. **·** Per identificare i dati grezzi e aggiungere **Descrizione** come testo che apparirà sulla riga del report finanziario. 
 2. Nella colonna Tipo di totale, seleziona l'opzione  **Conti di mantenimento** .   
@@ -75,14 +75,14 @@ Per creare o modificare un definizione di riga, seguire procedere come segue:
    2. **Commissione sul carbonio** se si desidera segnalare l'equivalente finanziario (commissione sul carbonio) dal campo **Commissione sul carbonio** nelle **Voci del registro di sostenibilità**. 
 5. Se si sceglie **Formula** come **Tipo di totale**, è possibile utilizzare formule matematiche nella colonna **Totale** .  
 
-### Analisi dei dati statistici
+### <a name="analyzing-statistical-data"></a>Analisi dei dati statistici
 
 1. Inserisci il numero di riga. **·** Per identificare la riga e aggiungere **Descrizione** come testo che apparirà sulla riga del report finanziario. 
 2. Nella colonna **Tipo di totale**, seleziona l'opzione **Conti statistici** .   
 3. Nel campo  **Totale**, seleziona uno o più account di sostenibilità utilizzando tutti i filtri applicabili. 
 4. Se si sceglie **Formula** come **Tipo di totale**, è possibile utilizzare formule matematiche nella colonna **Totale** .  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica sulla gestione della sostenibilità](finance-manage-sustainability.md)    
 [Analisi e report per la sostenibilità in Business Central](sustainability-reports.md)   

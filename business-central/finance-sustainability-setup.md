@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Impostazione del modulo di sostenibilità 
+# <a name="sustainability-module-setup"></a>Impostazione del modulo di sostenibilità
 
 Prima che il modulo Sostenibilità possa funzionare correttamente, devi impostare alcuni controlli di base e seguire istruzioni di base che sono correlati all'intera funzionalità.
 
 Per impostare un modulo Sostenibilità, segui questi passaggi:
 
-## Centro di ruolo  
+## <a name="role-center"></a>Centro di ruolo
 
 Per le persone le cui responsabilità principali riguardano i processi di sostenibilità, si consiglia di utilizzare il centro ruoli  *Responsabile della sostenibilità* . Per configurare questo centro ruoli, seguire seguire i passaggi:  
 
@@ -29,7 +29,7 @@ Per le persone le cui responsabilità principali riguardano i processi di sosten
 
 Il centro di ruolo del  *responsabile della sostenibilità* facilita la gestione efficiente di tutte le aree chiave legate alla sostenibilità. Comprende le principali caratteristiche di sostenibilità, nonché i processi finanziari e di approvvigionamento. Inoltre, fornisce visibilità sui KPI più critici relativi alla sostenibilità.
 
-## Setup sostenibilità  
+## <a name="sustainability-setup"></a>Setup sostenibilità
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), e immetti **Setup sostenibilità**, quindi seleziona il collegamento correlato.
 2. Nella Scheda dettaglio **Generale**, configura i campi obbligatori che sono correlati al modulo Sostenibilità.
@@ -72,7 +72,7 @@ Il centro di ruolo del  *responsabile della sostenibilità* facilita la gestione
     | **Approssimazione di arrotondamento delle emissioni** | Specifica le dimensioni dell'intervallo che viene utilizzato nell'arrotondamento degli importi delle emissioni quando crei i report per le autorità. |
     | **Tipo di arrotondamento delle emissioni** | Specifica in che modo il programma arrotonda gli importi delle emissioni quando crei i report per le autorità. Sono disponibili le opzioni seguenti: **Al più vicino**, **Per eccesso** e **Per difetto**. |
 
-## Imposte sulle emissioni   
+## <a name="emission-fees"></a>Imposte sulle emissioni
 
 Per monitorare le tariffe interne sulle emissioni di carbonio o calcolare le emissioni utilizzando gli equivalenti di anidride carbonica (CO2), è necessario configurare la pagina  **Tariffe sulle emissioni** . Per impostare queste informazioni, seguire segui questi passaggi:  
 
@@ -89,7 +89,7 @@ Per monitorare le tariffe interne sulle emissioni di carbonio o calcolare le emi
 
 Se non hai configurato le  **Commissioni sulle emissioni** prima di pubblicare le voci di sostenibilità e desideri calcolare retroattivamente le tue tariffe sul carbonio e la CO2e, devi eseguire l'azione  **Calcola tariffe sulle emissioni** per aggiornare i valori nelle  **Voci del registro sostenibilità**.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)    
 [Panoramica della gestione della sostenibilità](finance-manage-sustainability.md)    

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Panoramica della gestione IVA
+# <a name="vat-management-overview"></a>Panoramica della gestione IVA
 L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni e servizi. L'IVA viene riscossa in ogni fase della catena di approvvigionamento in cui il valore viene aggiunto dalla produzione iniziale al punto vendita. Per iniziare a gestire l'IVA, consultare i seguenti articoli.  
 
 |  Articolo  |  Descrizione  |  
@@ -31,7 +31,7 @@ L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni 
 | [Numeri di registrazione IVA multipli](finance-how-use-multiple-vat-registrations.md) | Scopri come impostare più numeri di registrazione IVA (come aliquota IVA alternativa) per i tuoi clienti che operano in paesi diversi. |
 
 
-## Vedere anche 
+## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)    
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

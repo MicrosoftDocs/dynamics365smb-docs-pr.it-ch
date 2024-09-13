@@ -21,7 +21,7 @@ Questa procedura dettagliata illustra diversi processi principali:
 - Completare l'inserimento di ore per l'ordine di assistenza
 - Registrare e fatturare l'ordine di assistenza del contratto
 
-## <a name="creation-of-service-items"></a>Creazione di articoli in assistenza
+## <a name="create-service-items"></a>Creazione di articoli in assistenza
 
 ### <a name="scenario"></a>Scenario
 
@@ -45,7 +45,7 @@ Susan, la responsabile degli ordini, registra un ordine di vendita vendendo un a
 
 - Viene creato un articolo in assistenza per il cliente 10000
 
-## <a name="invoicing-a-service-contract"></a>Fatturazione di un contratto di assistenza
+## <a name="invoice-a-service-contract"></a>Fatturazione di un contratto di assistenza
 
 ### <a name="scenario-1"></a>Scenario
 
