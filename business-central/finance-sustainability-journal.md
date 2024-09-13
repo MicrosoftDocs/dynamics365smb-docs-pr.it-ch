@@ -6,23 +6,26 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD, journal'
 ms.search.form: '6216, 6219, 6220'
-ms.date: 05/07/2024
+ms.date: 08/19/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Registrare movimenti di sostenibilità
+# Registrare movimenti di sostenibilità
 
-Al momento, l'unico modo per registrare le emissioni di gas serra (GHG) nel registro della sostenibilità consiste nell'utilizzare i giornali di registrazione della sostenibilità.
+Gli utenti possono registrare manualmente le emissioni di gas serra (GHG) nel registro della sostenibilità utilizzando i registri di sostenibilità o qualsiasi tipo di documento correlato agli acquisti.  
 
-## <a name="sustainability-journals"></a>Giornali di registrazione della sostenibilità
+> [!NOTE]
+> L'utilizzo di qualsiasi tipo di documento correlato agli acquisti per registrare le emissioni di gas serra (GHG) è disponibile a partire dal  *2024 ciclo di rilascio 2*.  
+
+## Giornali di registrazione della sostenibilità
 
 I giornali di registrazione della sostenibilità sono progettati per tenere traccia e registrare le attività correlate alla sostenibilità utilizzando la stessa esperienza utente di altre registrazioni in Business Central. Gli utenti che dispongono delle informazioni necessarie possono inserire manualmente le emissioni in un giornale. In alternativa, se non dispongono di queste informazioni, possono utilizzare formule integrate per calcolare accuratamente le emissioni in base a specifici parametri noti che corrispondono a vari tipi di origini e conti.
 
 Le informazioni immesse in un giornale di registrazione sono temporanee e possono essere modificate fintanto che sono nel giornale. Quando si esegue la registrazione, le informazioni vengono trasferite ai movimenti contabili sostenibilità in singoli conti di sostenibilità, dove non possono essere modificate. Si possono tuttavia inserire storni o correzioni dei movimenti.
 
-### <a name="use-journal-templates-and-batches"></a>Usare batch e definizioni di registrazioni
+### Usare batch e definizioni di registrazioni
 
 Per impostazione predefinita, esistono due modelli registrazioni sostenibilità: quello standard e quello ricorrente.
 
@@ -31,15 +34,15 @@ Per ogni definizione registrazioni è possibile impostare le proprie registrazio
 > [!TIP]
 > Se hai molte righe, puoi ridurre il rischio di errori disponendo un batch di registrazioni per ciascun tipo di emissione. In alternativa, puoi utilizzare il batch comune per tutti i tipi di emissione.
 
-### <a name="validate-sustainability-journals"></a>Convalidare i giornali di registrazione della sostenibilità
+### Convalidare i giornali di registrazione della sostenibilità
 
 Nella pagina **Setup sostenibilità** puoi attivare un controllo in background che ti aiuta a prevenire i ritardi nella registrazione. In caso di errori durante l'utilizzo del giornale di registrazione della sostenibilità, la convalida ti avvisa tramite notifica e ti impedisce di registrare il giornale.
 
 Quando abiliti la convalida, la Scheda dettaglio **Verifica registrazione** mostra i problemi nella riga corrente e nell'intero batch. La convalida si attiva quando si carica un batch registrazioni e quando si seleziona un'altra riga di registrazione. Il riquadro **Totale problemi** nella Scheda dettaglio mostra il numero totale dei problemi individuati da [!INCLUDE [prod_short](includes/prod_short.md)]. Puoi selezionare il riquadro per aprire una panoramica dei problemi.
 
-### <a name="work-with-sustainability-journals"></a>Utilizzare registrazioni di sostenibilità
+### Utilizzare registrazioni di sostenibilità
 
-Per iniziare a utilizzare le registrazioni di sostenibilità, segui questi passaggi:
+Per lavorare con le riviste sulla sostenibilità, seguire ecco i passaggi:
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione sostenibilità**, quindi seleziona il collegamento correlato.
 2. Nella pagina **Registrazione sostenibilità** immetti tutte le righe che intendi registrare nello stesso batch.
@@ -58,7 +61,7 @@ Per iniziare a utilizzare le registrazioni di sostenibilità, segui questi passa
 
 Se la formula che utilizzi è basata sull'opzione **Calcola da contabilità generale** nella categoria del conto di sostenibilità, devi utilizzare l'azione **Raccogli importo da movimenti C/G** prima di registrare il giornale, per calcolare le emissioni in base a questa origine dati. Inoltre, se dopo aver compilato le righe della registrazione hai apportato modifiche ai fattori di emissione, devi selezionare l'azione **Ricalcola** per ottenere l'importo corretto nella registrazione.
 
-### <a name="recurring-journals"></a>Registrazioni periodiche
+### Registrazioni periodiche
 
 Una registrazione periodica è una registrazione di sostenibilità con campi specifici per la gestione di transazioni registrate frequentemente con poche modifiche o nessuna. Alcuni esempi includono le transazioni di sostenibilità come elettricità, calore o altre transazioni simili. Puoi utilizzare le registrazioni periodiche per registrare importi fissi e variabili.
 
@@ -70,12 +73,40 @@ Anche il campo **Frequenza ricorrenza** è importante e deve essere impostato. Q
 
 Il campo **Data di scadenza** determina la data in cui la riga sarà registrata per l'ultima volta. Oltre tale data, la riga non verrà più registrata. Il vantaggio dell'utilizzo del campo **Data di scadenza** è che la riga non viene eliminata immediatamente dal giornale di registrazione. È possibile inserire una data successiva in modo da poter utilizzare la riga in futuro. Se il campo è vuoto, la riga verrà registrata ogni volta fino a quando non verrà eliminata dal giornale di registrazione.
 
-## <a name="see-also"></a>Vedere anche
+## Documenti di acquisto  
 
-[Finanze](finance.md)  
-[Panoramica della gestione della sostenibilità](finance-manage-sustainability.md)  
-[Setup sostenibilità](finance-sustainability-setup.md)  
-[Contabilità generale e piano dei conti di sostenibilità](finance-sustainability-accounts-ledger.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+Per abilitare la registrazione delle emissioni di gas serra (GHG) in tutti i documenti correlati agli acquisti, è necessario Seleziona nella pagina  **Utilizza emissioni nei documenti di acquisto** nella pagina  **Impostazione sostenibilità** .  
+
+Per lavorare con qualsiasi documento relativo all'acquisto, seguire segui questi passaggi:
+
+1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") Icona e:  
+   1. Inserisci **Fatture di acquisto** se desideri la fattura come **Tipo di documento**, quindi Seleziona il relativo collegare.  
+   2. Inserisci **Ordini di acquisto** se vuoi ordinare come **Tipo di documento**, quindi Seleziona il relativo collegare.  
+2. Compilare l'intestazione e le righe in base alle seguenti istruzioni [su come lavorare con fatture e ordini di acquisto](purchasing-how-record-purchases.md).
+3. Se hai informazioni sulle emissioni nella fattura che hai ricevuto dal fornitore, seleziona il **Numero di conto sostenibilità** appropriato nelle righe del documento e aggiungi i valori delle emissioni utilizzando uno dei seguenti campi (in base a ciò che vuoi monitorare e alle emissioni presenti sulla tua fattura fisica): **Emissioni CO2**, **Emissioni CH4** o **Emissioni N2O**.
+
+    > [!NOTE]
+    > I valori immessi nei campi di emissione sono importi fissi per riga e non verranno moltiplicati per il campo  **Quantità** . Puoi utilizzare il  **numero di conto sostenibilità** solo quando il campo  **Tipo** (**Valori opzione**) è  **Articolo** o  **Conto G/L**. Non puoi usare i valori delle opzioni  **Risorse** o  **Carica (Oggetto)** **.** 
+
+4. Se vuoi vedere le emissioni totali prima di procedere alla pubblicazione, puoi aprire la pagina delle statistiche e trovare le emissioni totali pubblicate e le emissioni per la pubblicazione per documento (tutti i documenti correlati all'acquisto) nella scheda rapida  **Sostenibilità** .   
+5. Pubblica i documenti e apri una nuova **Fattura di acquisto registrata**.
+6. Seleziona **Trova voci** e vedrai che hai **Voce del registro sostenibilità** come una delle voci correlate nella pagina **Trova voci** .
+
+> [!NOTE]
+> Quando si registra il documento, per ciascuna delle righe di acquisto in cui è presente il **numero di conto sostenibilità**, il sistema creerà una **voce contabile sostenibilità indipendente** con la **fattura** come **tipo di documento** e lo stesso **numero di documento.**
+
+> [!NOTE]
+> È anche possibile creare e registrare una  **Nota di accredito acquisto**. È possibile farlo manualmente o utilizzando alcune delle seguenti opzioni: **Annulla**, **Correggi** oppure **Crea nota di accredito correttiva**, nel qual caso il sistema copierà i valori esistenti dalla fattura registrata.  
+
+## Vedere anche
+
+[Finanze](finance.md)    
+[Panoramica della gestione della sostenibilità](finance-manage-sustainability.md)    
+[Impostazione della sostenibilità](finance-sustainability-setup.md)    
+[Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md)    
+[Analisi ad hoc dei dati di sostenibilità](ad-hoc-analysis-sustainability.md)    
+[Analisi e report per la sostenibilità in Business Central](sustainability-reports.md)   
+[API per la sostenibilità](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

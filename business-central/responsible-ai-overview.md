@@ -4,6 +4,7 @@ description: 'Le domande frequenti sull''intelligenza artificiale responsabile f
 ms.date: 06/06/2024
 ms.custom:
   - responsible-ai-faqs
+  - copilot-learning-hub
 ms.topic: article
 author: jswymer
 ms.author: jswymer
@@ -12,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="responsible-ai-faqs-for-dynamics-365-business-central"></a>Domande frequenti sull'intelligenza artificiale responsabile per Dynamics 365 Business Central
+# Domande frequenti sull'intelligenza artificiale responsabile per Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 

@@ -6,13 +6,14 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
-ms.date: 01/31/2023
+ms.date: 08/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="vat-management-overview"></a>Panoramica della gestione IVA
-L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni e servizi. L'IVA viene riscossa in ogni fase della catena di approvvigionamento in cui il valore viene aggiunto dalla produzione iniziale al punto vendita. Per un'introduzione sulla gestione dell'IVA, vedi i seguenti argomenti.  
+
+# Panoramica della gestione IVA
+L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni e servizi. L'IVA viene riscossa in ogni fase della catena di approvvigionamento in cui il valore viene aggiunto dalla produzione iniziale al punto vendita. Per iniziare a gestire l'IVA, consultare i seguenti articoli.  
 
 |  Articolo  |  Descrizione  |  
 |--------|--------------|  
@@ -27,11 +28,12 @@ L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni 
 | [Impostare una dichiarazione IVA](finance-how-setup-vat-statement.md) | Questo articolo fornisce informazioni su come impostare un modello di dichiarazione IVA e i nomi delle dichiarazioni IVA per soddisfare i cambiamenti dei requisiti dell'autorità fiscale.|
 | [Gestione delle modifiche dell'aliquota IVA](finance-how-use-vat-rate-change-tool.md) | Questo articolo descrive come utilizzare lo strumento di modifica dell'aliquota IVA per Dynamics 365 Business Central per modificare le aliquote IVA in base alla legislazione locale.|
 | [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md) | Questo articolo descrive come usare la convalida di Business Central per i numeri di partita IVA per contatti, clienti e fornitori in base al servizio di convalida dei numeri di partita IVA (VIES) dell'Unione Europea.|
+| [Numeri di registrazione IVA multipli](finance-how-use-multiple-vat-registrations.md) | Scopri come impostare più numeri di registrazione IVA (come aliquota IVA alternativa) per i tuoi clienti che operano in paesi diversi. |
 
 
-## <a name="see-also"></a>Vedere anche
-[Finanze](finance.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Vedere anche 
+[Finanze](finance.md)    
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

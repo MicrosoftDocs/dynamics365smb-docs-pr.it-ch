@@ -1,11 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 03/04/2024
+ms.date: 08/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
 > [!NOTE]
-> Questa funzionalità è attualmente in anteprima di modo che i nostri clienti e partner possano fornire feedback. Diventerà una funzionalità standard nel primo ciclo di rilascio del 2024. 
+> Questa funzionalità è disponibile dal 2024 ciclo di rilascio 1 e richiede un abbonamento Shopify Plus. Per accedere alle funzionalità B2B, ricordati di richiedere un token di accesso. Per ulteriori informazioni, vedere [Richiedi il token di accesso](../../business-central/shopify/troubleshoot.md#request-the-access-token).
